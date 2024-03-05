@@ -48,6 +48,10 @@ const MainPage = () => {
         }
     };
 
+    const styled = {
+        border: '2px solid #38ef7d'
+    }
+
 
     return (
         <div className={s.divItemBox}>
@@ -61,17 +65,11 @@ const MainPage = () => {
             </div>
 
             <div className={s.buttonBox} onClick={filterTasks}>
-                <button id='all'>All</button>
-                <button id='completed'>Completed</button>
-                <button id='current'>Current</button>
+                <button id='all' style={filter === 'all' ? styled : undefined}>All ({totalCount})</button>
+                <button id='completed' style={filter === 'completed' ? styled : undefined}>Completed ({completedCount})</button>
+                <button id='current' style={filter === 'current' ? styled : undefined}>Current ({notCompletedCount})</button>
             </div>
 
-            <div className={s.counter}>
-                {filter === 'completed' && <p>Completed tasks: {completedCount}</p>}
-                {filter === 'current' && <p>Uncompleted tasks: {notCompletedCount}</p>}
-                {filter === 'all' && <p>Completed tasks: {completedCount}</p>}
-                {filter === 'all' && <p>Uncompleted tasks: {notCompletedCount}</p>}
-            </div>
 
             <div className={s.itemBox}>
                 {
