@@ -1,0 +1,284 @@
+@import "fonts/stylesheet.css";
+
+
+.footer{
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    margin-top: 100px;
+    background: #f5f5f5;
+}
+
+.footer_div{
+    width: 100%;
+    color: #404040;
+    padding: 50px;
+    position: relative;
+}
+
+.column{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.rule{
+    text-align: right;
+    margin: 50px 80px 0 10px;
+    opacity: 0.75;
+    font-size: 12px;
+}
+
+.rule a{
+    color: #ed1c24;
+}
+
+.col{
+    padding: 0 20px;
+    display: block;
+    width: calc(100% / 6);
+    float: left;
+    position: relative;
+}
+
+.logo_link{
+    position: absolute;
+    top: -100px;
+    background: #f5f5f5;
+    border-radius: 20px;
+    margin: -20px;
+    padding: 20px;
+}
+
+.logo_link img{
+    top: 0;
+    position: relative;
+    width: 150px;
+    display: block;
+    height: auto;
+    max-height: 70px;
+    margin: 0 0 10px;
+    filter: contrast(100%);
+    transition: all .2s ease-in;
+}
+
+.col p {
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 5px;
+    padding-bottom: 5px;
+}
+
+.col ul {
+    margin-top: 10px;
+}
+
+.col ul li {
+    padding: 5px 0;
+}
+
+.col ul li a{
+    font-size: 14px;
+    color: #4e4e4e;
+    line-height: 1.1;
+    transition: all .3s ease-in;
+}
+
+.col ul li a:hover{
+    color: #ed1c24!important;
+    text-decoration: underline;
+}
+
+.div_soc{
+    padding: 0 20px;
+    margin: 0;
+    width: calc(100% / 6* 2);
+    float: right;
+}
+
+.div_soc p{
+    font-size: 16px;
+    font-weight: 700;
+    margin: 0 0 5px;
+    padding: 0 0 5px;
+}
+
+.div_soc ul{
+    display: flex;
+}
+
+.div_soc ul li{
+    margin-right: 10px;
+    padding: 5px 0;
+}
+
+.div_soc ul li a img{
+    max-height: 50px;
+    border-radius: 5px;
+}
+
+.mail_box{
+    padding: 20px;
+    margin: 20px -70px 20px 0;
+    color: #ffffff;
+    background: #ed1c24;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+.mail_box p{
+    margin-bottom: 20px;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.div_mail{
+    display: block;
+}
+
+.div_input{
+    position: relative;
+    margin-bottom: 20px;
+    display: block;
+    max-width: 100%;
+    border-radius: 15px;
+    background: #ffffff;
+    box-shadow: 0 0 5px 0 rgba(0,0,0,.05);
+    transition: all .3s ease-out;
+}
+
+.div_input button{
+    position: absolute;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    color: #ed1c24;
+    background: transparent;
+    border: none;
+    font-size: 1.15em;
+    cursor: pointer;
+}
+
+.div_input button img{
+    width: 25px;
+    height: 25px;
+    position: relative;
+    right: 5px;
+    top: 4px;
+}
+
+.redP{
+    background-color: white;
+    color: #EF5350;
+    font-size: 13px;
+    position: absolute;
+    bottom: -50px;
+}
+
+.redP2{
+    color: #EF5350;
+    background-color: white;
+    font-size: 13px;
+    position: absolute;
+    bottom: -50px;
+}
+
+.label{
+    display: block;
+    cursor: pointer;
+    text-align: left;
+    position: relative;
+    margin: 35px 0;
+}
+
+.checkbox {
+    position: absolute;
+    visibility: hidden;
+    z-index: -1;
+    border: 1px solid #DDDDDD;
+    font-size: 1rem;
+    vertical-align: bottom;
+}
+
+.span{
+    padding: 0 0 0 30px;
+    display: inline-block;
+    position: relative;
+    cursor: pointer;
+}
+
+.span::before{
+    content: 'ˬ';
+    position: absolute;
+    left: 0;
+    top: 0;
+    font-size: 0.8rem;
+    width: 1.5em;
+    height: 1.5em;
+    background: white;
+    border: 1px solid #DDDDDD;
+}
+
+.imgInput{
+    display: none;
+    position: absolute;
+    width: 19px!important;
+    height: 20px!important;
+    left: 1px!important;
+    z-index: 2;
+    top: 0;
+}
+
+
+
+@media screen and (max-width: 1200px){
+    .footer_div{
+        padding: 20px;
+    }
+    .col{
+        padding: 20px 0;
+        border-bottom: dotted 1px;
+        width: 100%;
+    }
+    .logo_link{
+        top: -70px;
+        margin: -20px 0 0 0;
+    }
+    .div_soc{
+        padding: 20px 0;
+        border-bottom: dotted 1px;
+        width: 100%;
+    }
+    .mail_box{
+        margin: 10px 0;
+        width: 100%;
+        border-radius: 20px;
+    }
+    .mail_box p{
+        margin-bottom: 10px;
+    }
+    .div_input {
+        margin-bottom: 10px;
+    }
+    .redP, .redP2 {
+        bottom: -40px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

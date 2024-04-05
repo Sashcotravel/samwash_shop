@@ -1,0 +1,281 @@
+.main{
+    width: 100%;
+    padding: 100px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+.two_div{
+    margin: 0 10px;
+    display: block;
+    width: 30%;
+    border: 1px solid #DDDDDD;
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.two_div h2{
+    font-family: Ubuntu Regular, sans-serif;
+    margin: 10px 0;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 300;
+}
+
+.two_div h3{
+    font-family: Ubuntu Regular, sans-serif;
+    margin: 25px 0;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.two_div p{
+    font-family: Ubuntu Regular, sans-serif;
+    font-size: 14px;
+    margin-left: 18px;
+    color: #404040;
+    font-weight: 700;
+}
+
+.two_div ul{
+    padding: 10px;
+    margin: 10px 0 10px 25px;
+    list-style: disclosure-closed;
+}
+
+.two_div ul li{
+    padding: 5px 10px;
+}
+
+/* form */
+
+.form {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    gap: 10px;
+    background-color: #ffffff;
+    padding: 30px;
+    width: 100%;
+    border-radius: 20px;
+    font-family: Ubuntu Light, sans-serif;
+ }
+
+.form button {
+    align-self: flex-end;
+}
+
+.flex_column > label {
+    color: #151717;
+    font-weight: 600;
+}
+
+.inputForm {
+    border: 1.5px solid #ecedec;
+    border-radius: 10px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+    transition: 0.2s ease-in-out;
+}
+
+.input {
+    margin-left: 10px;
+    border-radius: 10px;
+    border: none;
+    width: 85%;
+    height: 100%;
+}
+
+.input:focus {
+    outline: none;
+}
+
+.inputForm:focus-within {
+    border: 1.5px solid #2d79f3;
+}
+
+.flex_row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    justify-content: space-between;
+}
+
+.flex_row > div > label {
+    font-size: 14px;
+    color: black;
+    font-weight: 400;
+}
+
+.span {
+    font-size: 14px;
+    margin-left: 5px;
+    color: #2d79f3;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.button_submit {
+    margin: 20px 0 10px 0;
+    background-color: #eb1c24;
+    border: none;
+    color: white;
+    font-size: 15px;
+    font-weight: 500;
+    border-radius: 10px;
+    height: 50px;
+    width: 100%;
+    cursor: pointer;
+    transition: all 300ms ease-in;
+}
+
+.button_submit:hover {
+    background-color: #b42600;
+    color: #fdeaeb;
+}
+
+.p {
+    text-align: center;
+    color: black;
+    font-size: 14px;
+    margin: 5px 0;
+}
+
+/* form end */
+
+/* switch */
+
+.label{
+    display: block;
+    cursor: pointer;
+    text-align: left;
+    position: relative;
+    margin: 0;
+}
+
+.checkbox {
+    position: absolute;
+    visibility: hidden;
+    z-index: -1;
+    border: 1px solid #DDDDDD;
+    font-size: 1rem;
+    vertical-align: bottom;
+}
+
+.span{
+    padding: 0 0 0 30px;
+    display: inline-block;
+    position: relative;
+    cursor: pointer;
+    color: #414141!important;
+}
+
+.span::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    font-size: 0.8rem;
+    width: 1.5em;
+    height: 1.5em;
+    background: white;
+    border: 1px solid #DDDDDD;
+}
+
+.span2::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    font-size: 0.8rem;
+    width: 1.5em;
+    height: 1.5em;
+    background: white;
+    border: 1px solid red;
+}
+
+.imgInput{
+    display: none;
+    position: absolute;
+    width: 19px!important;
+    height: 20px!important;
+    left: 5px!important;
+    z-index: 2;
+    top: 0;
+}
+
+.switch{
+    display: flex;
+    justify-content: center;
+    margin: 20px 0 30px;
+}
+
+.switch button {
+    cursor: pointer;
+    border: none;
+    outline: none;
+    border-radius: 15px;
+    color: black;
+    padding: 10px;
+    margin: 0 10px;
+    font-size: 15px;
+}
+
+/* switch end */
+
+.select{
+    border: none;
+    outline: none;
+    width: 98%;
+    height: 50px;
+    border-radius: 10px;
+    background: transparent;
+}
+
+.half{
+    width: 48%;
+}
+
+.flex{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.p_back {
+    line-height: 1.35 !important;
+    color: #ed1c24 !important;
+    margin: 0 !important;
+    cursor: pointer;
+    position: absolute;
+    left: 15px;
+    top: -10px;
+}
+
+
+
+@media screen and (max-width: 1200px){
+    .two_div{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .main{
+        padding-bottom: 100px;
+        flex-wrap: wrap;
+    }
+}
+
+@media screen and (max-width: 600px){
+    .main{
+        padding: 50px 20px 100px;
+    }
+    .form{
+        padding: 0;
+    }
+}
