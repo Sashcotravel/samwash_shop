@@ -45,6 +45,10 @@ const MainPage = () => {
         }
     }, []);
 
+    useEffect(() => {
+        window.scrollTo(0, 0)
+    }, []);
+
     const onAutoplayTimeLeft = (s, time, progress) => {
         progressCircle.current.style.setProperty('--progress', 1 - progress);
         progressContent.current.textContent = `${Math.ceil(time / 1000)}s`;

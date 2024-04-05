@@ -6,7 +6,7 @@ import { GrMailOption } from "react-icons/gr";
 import {BiLocationPlus} from "react-icons/bi";
 import { GiSmartphone } from "react-icons/gi";
 import { TfiHeadphoneAlt } from "react-icons/tfi";
-import {useState} from "react";
+import {useEffect, useState} from "react";
 
 
 function Contact() {
@@ -15,6 +15,9 @@ function Contact() {
         email: '', phone: '+380', topic: '', text: ''
     })
 
+    useEffect(() => {
+        window.scrollTo(0, 0)
+    }, []);
 
     const handleSubmit = () => {
 

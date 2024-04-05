@@ -53,6 +53,10 @@ function BasketPage() {
     const allClean = useStore(store => store.allClean)
 
 
+    useEffect(() => {
+        window.scrollTo(0, 0)
+    }, []);
+
     const addCol = (item) => {
         addCount(item.id)
     }

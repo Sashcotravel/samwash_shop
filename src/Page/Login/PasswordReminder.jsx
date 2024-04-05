@@ -1,5 +1,5 @@
 import s from './login.module.css';
-import {useState} from "react";
+import {useEffect, useState} from "react";
 import {Link} from "react-router-dom";
 
 function PasswordReminder() {
@@ -7,6 +7,9 @@ function PasswordReminder() {
     const [email, setEmail] = useState('')
     const [open, setOpen] = useState(false)
 
+    useEffect(() => {
+        window.scrollTo(0, 0)
+    }, []);
 
     const handleSubmit = (e) => {
         e.preventDefault()

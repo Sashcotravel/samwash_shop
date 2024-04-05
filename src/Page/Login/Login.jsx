@@ -1,5 +1,5 @@
 import s from './login.module.css';
-import {useState} from "react";
+import {useEffect, useState} from "react";
 import {Link} from "react-router-dom";
 
 function Login() {
@@ -7,6 +7,10 @@ function Login() {
     const [passwordVisible, setPasswordVisible] = useState(false);
     const [email, setEmail] = useState('')
     const [password, setPassword] = useState('')
+
+    useEffect(() => {
+        window.scrollTo(0, 0)
+    }, []);
 
     const togglePasswordVisibility = () => {
         setPasswordVisible(!passwordVisible);

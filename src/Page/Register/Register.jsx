@@ -1,5 +1,5 @@
 import s from './register.module.css';
-import {useState} from "react";
+import {useEffect, useState} from "react";
 import '../../App.css'
 import {Link} from "react-router-dom";
 
@@ -22,6 +22,10 @@ function Register() {
     const [phone, setPhone] = useState('')
     const [inputCheck, setInputCheck] = useState(false);
     const [inputCheck2, setInputCheck2] = useState(false);
+
+    useEffect(() => {
+        window.scrollTo(0, 0)
+    }, []);
 
     const check = () => {
         setInputCheck(p => !p)
