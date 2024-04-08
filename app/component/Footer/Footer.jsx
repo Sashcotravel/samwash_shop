@@ -111,7 +111,7 @@ function Footer() {
                                 <Link href='/'>Блог</Link>
                             </li>
                             <li>
-                                <Link href='/'>Статут</Link>
+                                <Link href='/regulations'>Статут</Link>
                             </li>
                             <li>
                                 <Link href='/withdrawal-form'>Форма вилучення</Link>
