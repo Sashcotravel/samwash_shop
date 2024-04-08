@@ -8,12 +8,13 @@ function WithdrawalForm() {
         <div className={s.divMain}>
 
             <div className={s.divRedLine}>
-                <span>Форма відмови від договору</span> <br/>
+                <span>Політика конфіденційності</span> <br/>
                 <span>Дата публікації: 2023-04-13 08:37:00</span>
             </div>
 
             <div>
-                <h2 className={s.h2}>Бланк відмови від договору купівлі-продажу</h2>
+                <h2 className={s.h2}>ПОЛІТИКА КОНФІДЕНЦІЙНОСТІ В ІНТЕРНЕТ-МАГАЗИНІ <br/>
+                    www.sklep.bkfmyjnie.pl</h2>
                 <br/>
                 <br/>
                 <p>1. Клієнт, який є Споживачем, який уклав Договір купівлі-продажу, може відмовитися від нього
