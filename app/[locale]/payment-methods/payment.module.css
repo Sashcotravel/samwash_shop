@@ -1,0 +1,64 @@
+.divMain{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-left: 21px;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #404040;
+}
+
+.divRedLine{
+    margin: 33px 0 20px 0;
+    font-size: 18px;
+}
+
+.divRedLine:before{
+    content: "";
+    height: 30px;
+    width: 2px;
+    background: #ed1c24;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+.divRedLine span:last-child{
+    font-size: 16px;
+}
+
+.divRedLine span:last-child:before{
+    content: "";
+    height: 30px;
+    width: 2px;
+    background: #ed1c24;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 10px;
+    margin-top: -2px;
+}
+
+.h2{
+    font-weight: 400;
+    font-size: 24px;
+}
+
+
+@media screen and (max-width: 1200px){
+    .divMain{
+        padding: 20px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

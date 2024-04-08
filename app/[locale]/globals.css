@@ -1,0 +1,45 @@
+@import "fonts/stylesheet.css";
+
+#root {
+
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  max-width: 100vw;
+  overflow-x: hidden;
+  font-family: Ubuntu,sans-serif;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 1.35;
+  background: #f0f0f0;
+  color: #414141;
+}
+
+main{
+  width: 100%;
+}
+
+a, button {
+  transition: all 300ms ease-in;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+
+ul {
+  list-style-type: none;
+}
+
+section{
+
+}

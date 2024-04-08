@@ -1,0 +1,23 @@
+.scroll_button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 50px;
+    height: 50px;
+    display: block;
+    padding: 8px 10px 5px;
+    background-color: #b32805;
+    transition: all 300ms ease-in;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.scroll_button img{
+    width: 70%;
+    height: auto;
+}
+
+.scroll_button:hover {
+    background-color: #ed1c24;
+}

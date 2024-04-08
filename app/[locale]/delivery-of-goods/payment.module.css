@@ -1,0 +1,109 @@
+.divMain{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-left: 21px;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #404040;
+}
+
+.divRedLine{
+    margin: 33px 0 20px 0;
+    font-size: 18px;
+}
+
+.divRedLine:before{
+    content: "";
+    height: 30px;
+    width: 2px;
+    background: #ed1c24;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+.divRedLine span:last-child{
+    font-size: 16px;
+}
+
+.divRedLine span:last-child:before{
+    content: "";
+    height: 30px;
+    width: 2px;
+    background: #ed1c24;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 10px;
+    margin-top: -2px;
+}
+
+.h2{
+    font-weight: 400;
+    font-size: 24px;
+}
+
+.divContacts{
+    display: flex;
+    gap: 5px;
+    flex-direction: column;
+    margin-top: 10px;
+}
+
+.divContacts p svg{
+    margin-right: 5px;
+}
+
+.divContacts p:last-child svg{
+    margin-right: 5px;
+    width: 20px;
+    height: auto;
+    display: inline-block;
+}
+
+.divContacts p:last-child{
+   display: flex;
+}
+
+.divContacts p{
+    transition: all .2s ease-in;
+}
+
+.divContacts p:hover{
+    color: red;
+    text-decoration: underline;
+}
+
+.divContacts p a:hover{
+    color: red;
+    text-decoration: underline;
+}
+
+.ol{
+    padding-left: 40px;
+}
+
+
+
+@media screen and (max-width: 1200px){
+    .divMain{
+        padding: 20px;
+    }
+
+    .ol{
+        padding-left: 10px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

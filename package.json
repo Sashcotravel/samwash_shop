@@ -1,0 +1,27 @@
+{
+  "name": "samwash",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@emailjs/browser": "^3.12.1",
+    "@fancyapps/ui": "^5.0.19",
+    "@react-google-maps/api": "^2.19.2",
+    "axios": "^1.6.7",
+    "framer-motion": "^10.17.4",
+    "next": "13.4.5",
+    "next-intl": "^2.15.0-beta.3",
+    "next-videos": "^1.4.1",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-icons": "^5.0.1",
+    "react-lazy-load-image-component": "^1.6.0",
+    "swiper": "^11.0.5",
+    "zustand": "^4.5.2"
+  }
+}

@@ -1,0 +1,31 @@
+@font-face {
+    font-family: 'Ubuntu Medium';
+    src: url('Ubuntu-Medium.ttf');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: Ubuntu Light;
+    src: url('Ubuntu-Light.ttf');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Ubuntu Bold';
+    src: url('Ubuntu-Bold.ttf');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Ubuntu Regular';
+    src: url('Ubuntu-Regular.ttf');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
