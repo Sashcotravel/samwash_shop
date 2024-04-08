@@ -123,7 +123,7 @@ function Footer() {
                                 <Link href='/payment-methods'>Методи оплати</Link>
                             </li>
                             <li>
-                                <Link href='/'>Політика конфіденційності</Link>
+                                <Link href='/privacy-policy'>Політика конфіденційності</Link>
                             </li>
                             <li>
                                 <Link href='/contact'>Контакт</Link>
@@ -140,7 +140,7 @@ function Footer() {
                             </li>
                             <li>
                                 <a href="https://www.instagram.com/samwash_carwash/" target="_blank">
-                                    <Image alt="instagram" width={50} height={50} src="/other/instagram.png"/>
+                                    <Image alt="instagram" width={50} height={50} src="/other/Instagram.png"/>
                                 </a>
                             </li>
                             <li>
