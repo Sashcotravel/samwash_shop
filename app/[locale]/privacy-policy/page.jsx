@@ -14,7 +14,7 @@ function WithdrawalForm() {
 
             <div>
                 <h2 className={s.h2}>ПОЛІТИКА КОНФІДЕНЦІЙНОСТІ В ІНТЕРНЕТ-МАГАЗИНІ <br/>
-                    www.sklep.bkfmyjnie.pl</h2>
+                    <a href="mailto:info@samwash.ua"><b> info@samwash.ua</b></a></h2>
                 <br/>
                 <br/>
                 <p>1. Клієнт, який є Споживачем, який уклав Договір купівлі-продажу, може відмовитися від нього
