@@ -77,7 +77,7 @@ function Footer() {
                         <p>Шопінг</p>
                         <ul>
                             <li>
-                                <Link href='/'>Продукти</Link>
+                                <Link href='/product'>Продукти</Link>
                             </li>
                             <li>
                                 <Link href='/basket'>Кошик</Link>
