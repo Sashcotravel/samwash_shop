@@ -7,6 +7,16 @@ import NavProduct from "@/app/component/NavProduct/NavProduct";
 import {AiOutlineHome} from "react-icons/ai";
 import {usePathname, useRouter, useSearchParams} from "next/navigation";
 import {useTranslations} from "next-intl";
+import {useStore} from "@/store/store";
+import Image from "next/image";
+
+
+const fetchAPI = (setAllCatalog) => {
+    // fetch(`https://cb.samwash.ua/api/v1/catalog/${locale === 'en' ? 'en' : locale === 'ru' ? 'ru' : 'ua'}`, {
+    fetch(`https://cb.samwash.ua/api/v1/catalog/ua`, {next: {revalidate: 60}})
+        .then(response => response.json())
+        .then(json => setAllCatalog(json.data))
+}
 
 
 function Product() {
@@ -29,39 +39,35 @@ function Product() {
     const [currentItem, setCurrentItem] = useState()
     const currentURL = pathname.slice(6)
 
-    const fetchAPI = () => {
-        // fetch(`https://cb.samwash.ua/api/v1/catalog/${locale === 'en' ? 'en' : locale === 'ru' ? 'ru' : 'ua'}`, {
-        fetch(`https://cb.samwash.ua/api/v1/catalog/ua`, {next: {revalidate: 60}})
-            .then(response => response.json())
-            .then(json => setAllCatalog(json.data))
-    }
+    const addCount = useStore(store => store.addCount)
+    const minesCount = useStore(store => store.minesCount)
 
     useEffect(() => {
         if (allCatalog.length === 0) {
-            fetchAPI()
+            fetchAPI(setAllCatalog)
         } else if (allCatalog.length === undefined) {
-            fetchAPI()
+            fetchAPI(setAllCatalog)
         }
     }, [allCatalog])
 
     useEffect(() => {
-        if(allCatalog){
+        if (allCatalog) {
             allCatalog.forEach(item => {
-                if(item.parent_id === null){
-                    if(item.slug === currentURL || item.slug === currentURL.slice(3)){
+                if (item.parent_id === null) {
+                    if (item.slug === currentURL || item.slug === currentURL.slice(3)) {
                         setCurrentCatalog(item)
                         setGoods(item.catalog_goods)
                         setCurrentCatalog1(item)
                     } else {
                         item.sub_catalogs.forEach(item2 => {
-                            if(item2.slug === currentURL || item2.slug === currentURL.slice(3)){
+                            if (item2.slug === currentURL || item2.slug === currentURL.slice(3)) {
                                 setCurrentCatalog(item2)
                                 setGoods(item2.catalog_goods)
                                 setCurrentCatalog1(item)
                                 setCurrentCatalog2(item2)
                             } else {
                                 item2.sub_catalogs.forEach(item3 => {
-                                    if(item3.slug === currentURL || item3.slug === currentURL.slice(3)){
+                                    if (item3.slug === currentURL || item3.slug === currentURL.slice(3)) {
                                         setCurrentCatalog(item3)
                                         setGoods(item3.catalog_goods)
                                         setCurrentCatalog1(item)
@@ -69,7 +75,7 @@ function Product() {
                                         setCurrentCatalog3(item3)
                                     } else {
                                         item3.sub_catalogs.forEach(item4 => {
-                                            if(item4.slug === currentURL || item4.slug === currentURL.slice(3)){
+                                            if (item4.slug === currentURL || item4.slug === currentURL.slice(3)) {
                                                 setCurrentCatalog(item4)
                                                 setGoods(item4.catalog_goods)
                                                 setCurrentCatalog1(item)
@@ -78,7 +84,7 @@ function Product() {
                                                 setCurrentCatalog4(item4)
                                             } else {
                                                 item4.sub_catalogs.forEach(item5 => {
-                                                    if(item5.slug === currentURL || item5.slug === currentURL.slice(3)){
+                                                    if (item5.slug === currentURL || item5.slug === currentURL.slice(3)) {
                                                         setCurrentCatalog(item5)
                                                         setGoods(item5.catalog_goods)
                                                         setCurrentCatalog1(item)
@@ -100,15 +106,23 @@ function Product() {
         }
     }, [allCatalog]);
 
+    const addCol = (item) => {
+        addCount(item.id)
+    }
+
+    const minesCol = (item) => {
+        minesCount(item.id)
+    }
 
 
     return (
-        <div className={s.mainDiv}>
+            <div className={s.mainDiv}>
 
             <NavProduct/>
 
-            <div className={s.divProduct}>
+            {goods.length === 0 ? <div>Loading...</div> : <div className={s.divProduct}>
                 <div className={s.wrapper}>
+
                     <div className={s.breadcrumbs}>
                         <div className={s.crumbs}>
                             <ul>
@@ -123,8 +137,10 @@ function Product() {
                     </div>
 
                     <h1>{currentCatalog.length !== 0 ? currentCatalog?.catalog_content[0].title : ''}</h1>
-                    <div dangerouslySetInnerHTML={{__html: currentCatalog.length !== 0 ?
-                            currentCatalog?.catalog_content[0].description : ''}}></div>
+                    <div dangerouslySetInnerHTML={{
+                        __html: currentCatalog.length !== 0 ?
+                            currentCatalog?.catalog_content[0].description : ''
+                    }}></div>
 
                     {/*<ul className={s.ulCategory}>*/}
                     {/*    {*/}
@@ -146,44 +162,56 @@ function Product() {
                     <ul className={s.ulCategory}>
                         {
                             goods?.map((item, index) => {
-                                if(Number(item?.availability) === 1) {
+                                if (Number(item?.availability) === 1) {
 
                                     return <div className={s.goods_wrapper} key={item.id}>
-                                            <Link href={`/shop/${currentURL}/${item.slug}`}></Link>
+                                        <Link href={`/shop/${currentURL}/${item.slug}`}></Link>
+                                        <div>
                                             <div className={s.imageGoods}>
-                                                {/*{*/}
-                                                {/*    item.catalog_goods_images.length === 0 ?*/}
-                                                <img src='/other/noImage.jpg' alt='no image'/>
-                                                {/*            :*/}
-                                                {/*            <Image fill*/}
-                                                {/*                src={'https://cb.samwash.ua/storage/' + item.catalog_goods_images[2].path}*/}
-                                                {/*                alt={item.catalog_goods_content[0].title} />*/}
-                                                {/*    }*/}
-                                                <p className={s.goodsTitle}>{item.catalog_goods_content[0].title}</p>
+                                                {
+                                                    item.catalog_goods_images.length === 0 ?
+                                                        <img src='/other/noImage.jpg' alt='no image'/>
+                                                        :
+                                                        <img
+                                                            src={'https://cb.samwash.ua/storage/' + item.catalog_goods_images[2].path}
+                                                            alt={item.catalog_goods_content[0].title}/>
+                                                }
                                             </div>
-                                            {/*<div className={s.itemDesc}*/}
-                                            {/*     dangerouslySetInnerHTML={{__html: item.catalog_goods_content[0].description}}></div>*/}
-                                            {/*<div style={{*/}
-                                            {/*    display: 'flex',*/}
-                                            {/*    justifyContent: 'space-evenly',*/}
-                                            {/*    marginTop: '25px'*/}
-                                            {/*}}>*/}
-                                                {/*<Image alt='photo' src={shopCart} onClick={() => submitForm(item)}*/}
-                                                {/*       style={{cursor: 'pointer', position: 'relative'}}/>*/}
-                                                {/*<Link href={locale === 'uk' ? `/shop/${currentURL}/${item.slug}`*/}
-                                                {/*    : `/shop/${currentURL.slice(3)}/${item.slug}`}*/}
-                                                {/*      className={s.buttonZamShop}*/}
-                                                {/*      onClick={() => dispatch(addGoods(item))}>*/}
-                                                {/*    {t("Details")}*/}
-                                                {/*</Link>*/}
-                                            {/*</div>*/}
+                                            <p className={s.goodsTitle}>{item.catalog_goods_content[0].title}</p>
+                                            <p className={s.client_code}>{item?.client_code}</p>
+                                            <p className={s.description} dangerouslySetInnerHTML={{
+                                                __html: item?.catalog_goods_content[0].description
+                                            }}></p>
                                         </div>
+                                        <div className={s.div_price}>
+                                            <span>{item.price} доларів</span>
+                                        </div>
+                                        <div className={s.add}>
+                                            <div className={s.div_col}>
+                                                <div className={s.div_col}>
+                                                    <button onClick={() => minesCol(item)}
+                                                            disabled={item.col === 1}
+                                                            style={item.col === 1 ? style : undefined}
+                                                    >-
+                                                    </button>
+                                                    <p>{item.size}</p>
+                                                    <button onClick={() => addCol(item)}>+</button>
+                                                    <span>шт.</span>
+                                                </div>
+                                            </div>
+                                            <button className={s.add_but}>
+                                                <Image src='/header/basket-gray.png' alt='search' width={30}
+                                                       height={30}/>
+                                                Додати до<br/> Кошика
+                                            </button>
+                                        </div>
+                                    </div>
                                 }
                             })
                         }
                     </ul>
                 </div>
-            </div>
+            </div>}
 
         </div>
     );

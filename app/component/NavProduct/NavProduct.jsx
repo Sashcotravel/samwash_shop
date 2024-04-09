@@ -24,7 +24,6 @@ function NavProduct() {
         }
     }, [catalog])
 
-    console.log(catalog)
 
     return (
         <nav className={s.nav}>

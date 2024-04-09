@@ -14,9 +14,6 @@ import { AiOutlineClose } from "react-icons/ai";
 import { AiOutlineCheck } from "react-icons/ai";
 import { AiOutlinePaperClip } from "react-icons/ai";
 
-
-
-
 let arrFile = []
 
 function Page() {
