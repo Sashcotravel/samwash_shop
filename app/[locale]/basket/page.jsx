@@ -45,31 +45,31 @@ function Page() {
 
     const fileInputRef = useRef(null);
 
-    const order = useStore(store => store.order)
-    const sum = useStore(store => store.sum)
-    const addCount = useStore(store => store.addCount)
-    const minesCount = useStore(store => store.minesCount)
-    const deleteGoods = useStore(store => store.deleteGoods)
-    const allClean = useStore(store => store.allClean)
+    // const order = useStore(store => store.order)
+    // const sum = useStore(store => store.sum)
+    // const addCount = useStore(store => store.addCount)
+    // const minesCount = useStore(store => store.minesCount)
+    // const deleteGoods = useStore(store => store.deleteGoods)
+    // const allClean = useStore(store => store.allClean)
 
 
     useEffect(() => {
         window.scrollTo(0, 0)
     }, []);
 
-    const addCol = (item) => {
-        addCount(item.id)
-    }
-
-    const minesCol = (item) => {
-        minesCount(item.id)
-    }
-
-    const deleteGoodsItem = (item) => {
-        // let sum = item.prise * item.col
-        // deleteGoods(item.id, sum)
-        deleteGoods(item.id, item)
-    }
+    // const addCol = (item) => {
+    //     addCount(item)
+    // }
+    //
+    // const minesCol = (item) => {
+    //     minesCount(item)
+    // }
+    //
+    // const deleteGoodsItem = (item) => {
+    //     // let sum = item.prise * item.col
+    //     // deleteGoods(item.id, sum)
+    //     deleteGoods(item.id, item)
+    // }
 
     const style = {
         cursor: 'default',
@@ -419,6 +419,7 @@ function Page() {
         });
     };
 
+
     return (
         <div className={s.main}>
 
@@ -436,79 +437,79 @@ function Page() {
                     <div className={s.option_goods}>...</div>
                 </div>
                 {
-                    order.length !== 0 && order?.map((item, index) => {
-
-                        return (
-                            <div className={s.item_goods} key={index}>
-                                <div className={s.delete_item + ' ' + s.item_div}>
-                                    <AiOutlineDelete className={s.iconD} onClick={() => deleteGoodsItem(item)}/>
-                                    <span className={s.delete1}>Видалити</span>
-                                </div>
-                                <div className={s.num_item}>{index + 1}</div>
-                                <div className={s.item_goods_name + ' ' + s.item_div}>
-                                    <Link href={'/product/' + item.slug}>
-                                        <div className={s.item_img}>
-                                            <Image alt={item.catalog_goods_content[0].title}
-                                                   width={200} height={200}
-                                                   src={item.catalog_goods_images.length === 0 ? '/other/noImage.jpg'
-                                                       : 'https://cb.samwash.ua/storage/' + item.catalog_goods_images[2].path
-                                                   }/>
-                                        </div>
-                                        <div className={s.item_name_text}>
-                                            <h3><b>{item.catalog_goods_content[0].title}</b></h3>
-                                        </div>
-                                    </Link>
-                                </div>
-                                <div className={s.item_prise_net + ' ' + s.item_div}>
-                                    <span className={s.delete2}>нетто</span>
-                                    {item.price}
-                                    <span style={{marginLeft: '5px'}} className={s.delete1}> доларів</span>
-                                </div>
-                                <div className={s.item_prise_gross + ' ' + s.item_div}>
-                                    <span className={s.delete3}>брутто</span>
-                                    {item.price}
-                                    <span style={{marginLeft: '5px'}} className={s.delete1}> доларів</span>
-                                </div>
-                                <div className={s.item_pdv + ' ' + s.item_div}>
-                                    <span style={{marginRight: '5px'}} className={s.delete1}>ПДВ</span>
-                                    23,00%
-                                </div>
-                                <div className={s.item_col + ' ' + s.item_div}>
-                                    <div className={s.div_col}>
-                                        <div className={s.div_col}>
-                                            <button onClick={() => minesCol(item)}
-                                                    disabled={item.size === 1}
-                                                    style={item.size === 1 ? style : undefined}
-                                            >-
-                                            </button>
-                                            <p>{item.size}</p>
-                                            <button onClick={() => addCol(item)}>+</button>
-                                        </div>
-                                        <span>шт.</span>
-                                    </div>
-                                </div>
-                                <div className={s.item_clean + ' ' + s.item_div}>
-                                    <span style={{marginRight: '5px'}} className={s.delete1}>чистий</span>
-                                    <b>{item.price * item.size}</b>
-                                    <span style={{marginLeft: '5px'}} className={s.delete1}> доларів</span>
-                                </div>
-                                <div className={s.item_val + ' ' + s.item_div}>
-                                    <span style={{marginRight: '5px'}} className={s.delete1}>брутто</span>
-                                    <b>{item.price * item.size}</b>
-                                    <span style={{marginLeft: '5px'}} className={s.delete1}> доларів</span>
-                                </div>
-                                <div className={s.item_currency + ' ' + s.item_div}>
-                                    долари
-                                </div>
-                                <div className={s.option_goods + ' ' + s.item_div}>...</div>
-                            </div>
-                        )
-                    })
+                    // order.length !== 0 && order?.map((item, index) => {
+                    //
+                    //     return (
+                    //         <div className={s.item_goods} key={index}>
+                    //             <div className={s.delete_item + ' ' + s.item_div}>
+                    //                 <AiOutlineDelete className={s.iconD} onClick={() => deleteGoodsItem(item)}/>
+                    //                 <span className={s.delete1}>Видалити</span>
+                    //             </div>
+                    //             <div className={s.num_item}>{index + 1}</div>
+                    //             <div className={s.item_goods_name + ' ' + s.item_div}>
+                    //                 <Link href={'/product/' + item.slug}>
+                    //                     <div className={s.item_img}>
+                    //                         <Image alt={item.catalog_goods_content[0].title}
+                    //                                width={200} height={200}
+                    //                                src={item.catalog_goods_images.length === 0 ? '/other/noImage.jpg'
+                    //                                    : 'https://cb.samwash.ua/storage/' + item.catalog_goods_images[2].path
+                    //                                }/>
+                    //                     </div>
+                    //                     <div className={s.item_name_text}>
+                    //                         <h3><b>{item.catalog_goods_content[0].title}</b></h3>
+                    //                     </div>
+                    //                 </Link>
+                    //             </div>
+                    //             <div className={s.item_prise_net + ' ' + s.item_div}>
+                    //                 <span className={s.delete2}>нетто</span>
+                    //                 {item?.price}
+                    //                 <span style={{marginLeft: '5px'}} className={s.delete1}> доларів</span>
+                    //             </div>
+                    //             <div className={s.item_prise_gross + ' ' + s.item_div}>
+                    //                 <span className={s.delete3}>брутто</span>
+                    //                 {item?.price}
+                    //                 <span style={{marginLeft: '5px'}} className={s.delete1}> доларів</span>
+                    //             </div>
+                    //             <div className={s.item_pdv + ' ' + s.item_div}>
+                    //                 <span style={{marginRight: '5px'}} className={s.delete1}>ПДВ</span>
+                    //                 23,00%
+                    //             </div>
+                    //             <div className={s.item_col + ' ' + s.item_div}>
+                    //                 <div className={s.div_col}>
+                    //                     <div className={s.div_col}>
+                    //                         <button onClick={() => minesCol(item)}
+                    //                                 disabled={item.size === 1}
+                    //                                 style={item.size === 1 ? style : undefined}
+                    //                         >-
+                    //                         </button>
+                    //                         <p>{item.size}</p>
+                    //                         <button onClick={() => addCol(item)}>+</button>
+                    //                     </div>
+                    //                     <span>шт.</span>
+                    //                 </div>
+                    //             </div>
+                    //             <div className={s.item_clean + ' ' + s.item_div}>
+                    //                 <span style={{marginRight: '5px'}} className={s.delete1}>чистий</span>
+                    //                 <b>{item.price * item.size}</b>
+                    //                 <span style={{marginLeft: '5px'}} className={s.delete1}> доларів</span>
+                    //             </div>
+                    //             <div className={s.item_val + ' ' + s.item_div}>
+                    //                 <span style={{marginRight: '5px'}} className={s.delete1}>брутто</span>
+                    //                 <b>{item.price * item.size}</b>
+                    //                 <span style={{marginLeft: '5px'}} className={s.delete1}> доларів</span>
+                    //             </div>
+                    //             <div className={s.item_currency + ' ' + s.item_div}>
+                    //                 долари
+                    //             </div>
+                    //             <div className={s.option_goods + ' ' + s.item_div}>...</div>
+                    //         </div>
+                    //     )
+                    // })
                 }
                 <div className={s.goods_sum}>
                     <div className={s.delete_item + ' ' + s.item_div}>
-                        <AiOutlineDelete className={s.iconD} onClick={() => allClean()}/>
-                        <span style={{marginRight: '5px'}} className={s.delete1}>Видалити все</span>
+                        {/*<AiOutlineDelete className={s.iconD} onClick={() => allClean()}/>*/}
+                        {/*<span style={{marginRight: '5px'}} className={s.delete1}>Видалити все</span>*/}
                     </div>
                     <div className={s.clean_all_item}>Видалити все</div>
                     <div className={s.name_goods_basket}></div>
@@ -518,12 +519,12 @@ function Page() {
                     <div className={s.col_goods}></div>
                     <div className={s.item_clean + ' ' + s.item_div}>
                         <span style={{marginRight: '5px'}} className={s.delete1}>брутто</span>
-                        <b>{sum}</b>
+                        {/*<b>{sum}</b>*/}
                         <span style={{marginLeft: '5px'}} className={s.delete1}> доларів</span>
                     </div>
                     <div className={s.item_val + ' ' + s.item_div}>
                         <span style={{marginRight: '5px'}} className={s.delete1}>брутто</span>
-                        <b>{sum}</b>
+                        {/*<b>{sum}</b>*/}
                         <span style={{marginLeft: '5px'}} className={s.delete1}> доларів</span>
                     </div>
                     <div className={s.item_currency + ' ' + s.item_div}>
@@ -839,9 +840,9 @@ function Page() {
                         </div>}
                         <div className={s.div4_block1}>
                             <div className={s.block1_text}>Чиста вартість замовлення</div>
-                            <div className={s.block1_price} style={{color: '#ed1c24'}}>{sum} доларів</div>
+                            {/*<div className={s.block1_price} style={{color: '#ed1c24'}}>{sum} доларів</div>*/}
                             <div className={s.block1_text}>Валова вартість замовлення</div>
-                            <div className={s.block1_price}>{sum} доларів</div>
+                            {/*<div className={s.block1_price}>{sum} доларів</div>*/}
                             <div className={s.block1_text}>вартість ПДВ</div>
                             <div className={s.block1_price}>23%</div>
                         </div>
@@ -855,7 +856,7 @@ function Page() {
                             </div>}
                             {!isValidSet && <div className={s.block1_price}>
                                 <b style={{fontFamily: 'Ubuntu Regular, sans-serif', fontSize: '1.3rem'}}>
-                                    {sum} доларів
+                                    {/*{sum} доларів*/}
                                 </b>
                             </div>}
                         </div>
@@ -909,7 +910,7 @@ function Page() {
                                     </div>
                                     <div className={s.block1_price}>
                                         <b style={{fontFamily: 'Ubuntu Regular, sans-serif', fontSize: '1.3rem'}}>
-                                            {sum} доларів
+                                            {/*{sum} доларів*/}
                                         </b>
                                     </div>
                                 </div>

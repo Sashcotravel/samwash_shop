@@ -78,7 +78,6 @@ const Header = () => {
     }
 
 
-
     return (
         <header>
             <div className={s.laptop}>
@@ -579,7 +578,7 @@ const Header = () => {
                                     return (
                                         <div key={index}>
                                             <Link href={'/product/' + item.slug}>
-                                                <Image alt={item.catalog_goods_content[0].title}
+                                                <Image alt={item?.catalog_goods_content[0]?.title}
                                                        width={200} height={200}
                                                        src={item.catalog_goods_images.length === 0 ? '/other/noImage.jpg'
                                                            : 'https://cb.samwash.ua/storage/' + item.catalog_goods_images[2].path

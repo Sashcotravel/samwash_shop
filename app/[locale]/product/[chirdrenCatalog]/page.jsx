@@ -3,12 +3,15 @@
 import Link from "next-intl/link";
 import {useEffect, useState} from "react";
 import s from './product2.module.css';
-// import NavProduct from "@/app/component/NavProduct/NavProduct";
+import NavProduct from "@/app/component/NavProduct/NavProduct";
 import {AiOutlineHome} from "react-icons/ai";
 import {usePathname, useRouter, useSearchParams} from "next/navigation";
-// import {useTranslations} from "next-intl";
+import {useTranslations} from "next-intl";
 import {useStore} from "@/store/store";
 import Image from "next/image";
+import { AiOutlineClose } from "react-icons/ai";
+import { AiOutlineCheck } from "react-icons/ai";
+import { FaBasketShopping } from "react-icons/fa6";
 
 
 const fetchAPI = (setAllCatalog) => {
@@ -21,8 +24,9 @@ const fetchAPI = (setAllCatalog) => {
 
 function Product2() {
 
-    // const t = useTranslations();
+    const t = useTranslations();
 
+    const [open, setOpen] = useState(false)
     const [allCatalog, setAllCatalog] = useState([])
     const [goods, setGoods] = useState([])
 
@@ -39,8 +43,8 @@ function Product2() {
     const [currentItem, setCurrentItem] = useState()
     const currentURL = pathname.slice(6)
 
-    const addCount = useStore(store => store.addCount)
-    const minesCount = useStore(store => store.minesCount)
+    const addCount = useStore(store => store.addCount2)
+    const minesCount = useStore(store => store.minesCount2)
     const addOrderStore = useStore(store => store.addOrder)
 
     useEffect(() => {
@@ -107,24 +111,67 @@ function Product2() {
         }
     }, [allCatalog]);
 
+    const style = {
+        cursor: 'default',
+        color: '#DDDDDD',
+        background: '#f4f4f4'
+    }
+
     const addCol = (item) => {
-        addCount(item.id)
+        goods.map((goods) => {
+            if (goods.id === item.id) {
+                setGoods(prev => {
+                    return prev.map(good => {
+                        if (good.id === item.id) {
+                            return {...good, size: good.size + 1};
+                        } else {
+                            return good;
+                        }
+                    });
+                });
+            }
+        })
     }
 
     const minesCol = (item) => {
-        minesCount(item.id)
+        goods.map((goods) => {
+            if (goods.id === item.id) {
+                setGoods(prev => {
+                    return prev.map(good => {
+                        if (good.id === item.id) {
+                            return {...good, size: good.size !== 1 ? good.size - 1 : good.size};
+                        } else {
+                            return good;
+                        }
+                    });
+                });
+            }
+        })
     }
 
     const addOrder = (item) => {
-        console.log(item)
         addOrderStore(item)
+        goods.map((goods) => {
+            if (goods.id === item.id) {
+                setGoods(prev => {
+                    return prev.map(good => {
+                        if (good.id === item.id) {
+                            return {...good, size: 1};
+                        } else {
+                            return good;
+                        }
+                    });
+                });
+            }
+        })
+        setOpen(true)
     }
 
 
     return (
             <div className={s.mainDiv}>
 
-            {/*<NavProduct/>*/}
+            <NavProduct/>
 
             {goods.length === 0 ? <div>Loading...</div> : <div className={s.divProduct}>
                 <div className={s.wrapper}>
@@ -169,55 +216,127 @@ function Product2() {
                         {
                             goods?.map((item, index) => {
                                 if (Number(item?.availability) === 1) {
+                                    if(item.size === 0){
+                                        item.size = 1
 
-                                    return <div className={s.goods_wrapper} key={item.id}>
-                                        <Link href={`/product/${currentURL}/${item.slug}`}></Link>
-                                        <div>
-                                            <div className={s.imageGoods}>
-                                                {
-                                                    item.catalog_goods_images.length === 0 ?
-                                                        <img src='/other/noImage.jpg' alt='no image'/>
-                                                        :
-                                                        <img
-                                                            src={'https://cb.samwash.ua/storage/' + item.catalog_goods_images[2].path}
-                                                            alt={item.catalog_goods_content[0].title}/>
-                                                }
-                                            </div>
-                                            <p className={s.goodsTitle}>{item.catalog_goods_content[0].title}</p>
-                                            <p className={s.client_code}>{item?.client_code}</p>
-                                            <p className={s.description} dangerouslySetInnerHTML={{
-                                                __html: item?.catalog_goods_content[0].description
-                                            }}></p>
-                                        </div>
-                                        <div className={s.div_price}>
-                                            <span>{item.price} доларів</span>
-                                        </div>
-                                        <div className={s.add}>
-                                            <div className={s.div_col}>
-                                                <div className={s.div_col}>
-                                                    <button onClick={() => minesCol(item)}
-                                                            disabled={item.col === 1}
-                                                            style={item.col === 1 ? style : undefined}
-                                                    >-
-                                                    </button>
-                                                    <p>{item.size}</p>
-                                                    <button onClick={() => addCol(item)}>+</button>
-                                                    <span>шт.</span>
+                                        return <div className={s.goods_wrapper} key={item.id}>
+                                            <Link href={`/product/${currentURL}/${item.slug}`}></Link>
+                                            <div>
+                                                <div className={s.imageGoods}>
+                                                    {
+                                                        item.catalog_goods_images.length === 0 ?
+                                                            <img src='/other/noImage.jpg' alt='no image'/>
+                                                            :
+                                                            <img
+                                                                src={'https://cb.samwash.ua/storage/' + item.catalog_goods_images[2].path}
+                                                                alt={item.catalog_goods_content[0].title}/>
+                                                    }
                                                 </div>
+                                                <p className={s.goodsTitle}>{item.catalog_goods_content[0].title}</p>
+                                                <p className={s.client_code}>{item?.client_code}</p>
+                                                <p className={s.description} dangerouslySetInnerHTML={{
+                                                    __html: item?.catalog_goods_content[0].description
+                                                }}></p>
                                             </div>
-                                            <button className={s.add_but} onClick={() => addOrder(item)}>
-                                                <Image src='/header/basket-gray.png' alt='search' width={30}
-                                                       height={30}/>
-                                                Додати до<br/> Кошика
-                                            </button>
+                                            <div className={s.div_price}>
+                                                <span>{item.price} доларів</span>
+                                            </div>
+                                            <div className={s.add}>
+                                                <div className={s.div_col}>
+                                                    <div className={s.div_col}>
+                                                        <button onClick={() => minesCol(item)}
+                                                                disabled={item.size === 1}
+                                                                style={item.size === 1 ? style : undefined}
+                                                        >-
+                                                        </button>
+                                                        <p>{item.size}</p>
+                                                        <button onClick={() => addCol(item)}>+</button>
+                                                        <span>шт.</span>
+                                                    </div>
+                                                </div>
+                                                <button className={s.add_but} onClick={() => addOrder(item)}>
+                                                    <Image src='/header/basket-gray.png' alt='search' width={30}
+                                                           height={30}/>
+                                                    Додати до<br/> Кошика
+                                                </button>
+                                            </div>
                                         </div>
-                                    </div>
+                                    }
+                                    else {
+                                        return <div className={s.goods_wrapper} key={item.id}>
+                                            <Link href={`/product/${currentURL}/${item.slug}`}></Link>
+                                            <div>
+                                                <div className={s.imageGoods}>
+                                                    {
+                                                        item.catalog_goods_images.length === 0 ?
+                                                            <img src='/other/noImage.jpg' alt='no image'/>
+                                                            :
+                                                            <img
+                                                                src={'https://cb.samwash.ua/storage/' + item.catalog_goods_images[2].path}
+                                                                alt={item.catalog_goods_content[0].title}/>
+                                                    }
+                                                </div>
+                                                <p className={s.goodsTitle}>{item.catalog_goods_content[0].title}</p>
+                                                <p className={s.client_code}>{item?.client_code}</p>
+                                                <p className={s.description} dangerouslySetInnerHTML={{
+                                                    __html: item?.catalog_goods_content[0].description
+                                                }}></p>
+                                            </div>
+                                            <div className={s.div_price}>
+                                                <span>{item.price} доларів</span>
+                                            </div>
+                                            <div className={s.add}>
+                                                <div className={s.div_col}>
+                                                    <div className={s.div_col}>
+                                                        <button onClick={() => minesCol(item)}
+                                                                disabled={item.size === 1}
+                                                                style={item.size === 1 ? style : undefined}
+                                                        >-
+                                                        </button>
+                                                        <p>{item.size}</p>
+                                                        <button onClick={() => addCol(item)}>+</button>
+                                                        <span>шт.</span>
+                                                    </div>
+                                                </div>
+                                                <button className={s.add_but} onClick={() => addOrder(item)}>
+                                                    <Image src='/header/basket-gray.png' alt='search' width={30}
+                                                           height={30}/>
+                                                    Додати до<br/> Кошика
+                                                </button>
+                                            </div>
+                                        </div>
+                                    }
                                 }
                             })
                         }
                     </ul>
                 </div>
             </div>}
+
+                {open && <div className={s.divPopUp}>
+                    <div className={s.popUpBlock}>
+                        <button onClick={() => setOpen(false)} className={s.butClose}>
+                            <AiOutlineClose />
+                        </button>
+                        <div className={s.firstDiv}>
+                            <AiOutlineCheck />
+                            <span>Додано в кошик</span>
+                        </div>
+                        <div className={s.secondDiv}>
+                            <Link href='/basket' className={s.firstLink}>
+                                <FaBasketShopping />
+                                Перейти до кошика
+                            </Link>
+                            <button onClick={() => setOpen(false)} className={s.secondLink}>
+                                Залишайтеся на сайті
+                            </button>
+                            <label className={s.labelDiv}>
+                                <input type="checkbox" id="checkbox" />
+                                <span className={s.spanDiv}>Запам'ятай мій вибір</span>
+                            </label>
+                        </div>
+                    </div>
+                </div>}
 
         </div>
     );

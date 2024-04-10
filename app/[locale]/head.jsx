@@ -33,9 +33,8 @@ export default function Head(){
             {router === `/${locale}` && <meta property="og:description" content={t("main2")}/>}
 
             <link rel="preconnect" href="https://fonts.googleapis.com"/>
-            <link
-                href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
-                rel="stylesheet"/>
+
+            <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css"/>
 
             {/*<meta name="twitter:card" content="summary" />*/}
             {/*<meta name="twitter:site" content="SamWash" />*/}
