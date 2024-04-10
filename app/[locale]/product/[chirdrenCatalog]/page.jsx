@@ -323,7 +323,8 @@ function Product2() {
                             <span>Додано в кошик</span>
                         </div>
                         <div className={s.secondDiv}>
-                            <Link href='/basket' className={s.firstLink}>
+                            <Link href='/privacy-policy' className={s.firstLink}>
+                            {/*<Link href='/basket' className={s.firstLink}>*/}
                                 <FaBasketShopping />
                                 Перейти до кошика
                             </Link>

@@ -3,7 +3,7 @@
 import s from './basketPage.module.css';
 import {useState, useRef, useEffect} from "react";
 import Link from "next-intl/link";
-import {useStore} from "@/store/store";
+// import {useStore} from "@/store/store";
 import { LuMail } from "react-icons/lu";
 import { FiEdit2 } from "react-icons/fi";
 import { CgClose } from "react-icons/cg";
