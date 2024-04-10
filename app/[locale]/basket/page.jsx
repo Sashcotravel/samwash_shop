@@ -13,6 +13,7 @@ import {AiOutlineDelete} from "react-icons/ai";
 import { AiOutlineClose } from "react-icons/ai";
 import { AiOutlineCheck } from "react-icons/ai";
 import { AiOutlinePaperClip } from "react-icons/ai";
+import Image from "next/image";
 
 let arrFile = []
 
@@ -65,8 +66,9 @@ function Page() {
     }
 
     const deleteGoodsItem = (item) => {
-        let sum = item.prise * item.col
-        deleteGoods(item.id, sum)
+        // let sum = item.prise * item.col
+        // deleteGoods(item.id, sum)
+        deleteGoods(item.id, item)
     }
 
     const style = {
@@ -434,33 +436,37 @@ function Page() {
                     <div className={s.option_goods}>...</div>
                 </div>
                 {
-                    order?.map((item, index) => {
+                    order.length !== 0 && order?.map((item, index) => {
 
                         return (
-                            <div className={s.item_goods} key={item.id}>
+                            <div className={s.item_goods} key={index}>
                                 <div className={s.delete_item + ' ' + s.item_div}>
                                     <AiOutlineDelete className={s.iconD} onClick={() => deleteGoodsItem(item)}/>
                                     <span className={s.delete1}>Видалити</span>
                                 </div>
                                 <div className={s.num_item}>{index + 1}</div>
                                 <div className={s.item_goods_name + ' ' + s.item_div}>
-                                    <Link href={item.link}>
+                                    <Link href={'/product/' + item.slug}>
                                         <div className={s.item_img}>
-                                            <img src={item.img} alt={item.name}/>
+                                            <Image alt={item.catalog_goods_content[0].title}
+                                                   width={200} height={200}
+                                                   src={item.catalog_goods_images.length === 0 ? '/other/noImage.jpg'
+                                                       : 'https://cb.samwash.ua/storage/' + item.catalog_goods_images[2].path
+                                                   }/>
                                         </div>
                                         <div className={s.item_name_text}>
-                                            <h3><b>{item.name}</b></h3>
+                                            <h3><b>{item.catalog_goods_content[0].title}</b></h3>
                                         </div>
                                     </Link>
                                 </div>
                                 <div className={s.item_prise_net + ' ' + s.item_div}>
                                     <span className={s.delete2}>нетто</span>
-                                    {item.prise}
+                                    {item.price}
                                     <span style={{marginLeft: '5px'}} className={s.delete1}> доларів</span>
                                 </div>
                                 <div className={s.item_prise_gross + ' ' + s.item_div}>
                                     <span className={s.delete3}>брутто</span>
-                                    {item.prise}
+                                    {item.price}
                                     <span style={{marginLeft: '5px'}} className={s.delete1}> доларів</span>
                                 </div>
                                 <div className={s.item_pdv + ' ' + s.item_div}>
@@ -471,11 +477,11 @@ function Page() {
                                     <div className={s.div_col}>
                                         <div className={s.div_col}>
                                             <button onClick={() => minesCol(item)}
-                                                    disabled={item.col === 1}
-                                                    style={item.col === 1 ? style : undefined}
+                                                    disabled={item.size === 1}
+                                                    style={item.size === 1 ? style : undefined}
                                             >-
                                             </button>
-                                            <p>{item.col}</p>
+                                            <p>{item.size}</p>
                                             <button onClick={() => addCol(item)}>+</button>
                                         </div>
                                         <span>шт.</span>
@@ -483,12 +489,12 @@ function Page() {
                                 </div>
                                 <div className={s.item_clean + ' ' + s.item_div}>
                                     <span style={{marginRight: '5px'}} className={s.delete1}>чистий</span>
-                                    <b>{item.prise * item.col}</b>
+                                    <b>{item.price * item.size}</b>
                                     <span style={{marginLeft: '5px'}} className={s.delete1}> доларів</span>
                                 </div>
                                 <div className={s.item_val + ' ' + s.item_div}>
                                     <span style={{marginRight: '5px'}} className={s.delete1}>брутто</span>
-                                    <b>{item.prise * item.col}</b>
+                                    <b>{item.price * item.size}</b>
                                     <span style={{marginLeft: '5px'}} className={s.delete1}> доларів</span>
                                 </div>
                                 <div className={s.item_currency + ' ' + s.item_div}>

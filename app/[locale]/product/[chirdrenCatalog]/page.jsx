@@ -2,11 +2,11 @@
 
 import Link from "next-intl/link";
 import {useEffect, useState} from "react";
-import s from './product.module.css';
-import NavProduct from "@/app/component/NavProduct/NavProduct";
+import s from './product2.module.css';
+// import NavProduct from "@/app/component/NavProduct/NavProduct";
 import {AiOutlineHome} from "react-icons/ai";
 import {usePathname, useRouter, useSearchParams} from "next/navigation";
-import {useTranslations} from "next-intl";
+// import {useTranslations} from "next-intl";
 import {useStore} from "@/store/store";
 import Image from "next/image";
 
@@ -19,9 +19,9 @@ const fetchAPI = (setAllCatalog) => {
 }
 
 
-function Product() {
+function Product2() {
 
-    const t = useTranslations();
+    // const t = useTranslations();
 
     const [allCatalog, setAllCatalog] = useState([])
     const [goods, setGoods] = useState([])
@@ -41,6 +41,7 @@ function Product() {
 
     const addCount = useStore(store => store.addCount)
     const minesCount = useStore(store => store.minesCount)
+    const addOrderStore = useStore(store => store.addOrder)
 
     useEffect(() => {
         if (allCatalog.length === 0) {
@@ -114,11 +115,16 @@ function Product() {
         minesCount(item.id)
     }
 
+    const addOrder = (item) => {
+        console.log(item)
+        addOrderStore(item)
+    }
+
 
     return (
             <div className={s.mainDiv}>
 
-            <NavProduct/>
+            {/*<NavProduct/>*/}
 
             {goods.length === 0 ? <div>Loading...</div> : <div className={s.divProduct}>
                 <div className={s.wrapper}>
@@ -165,7 +171,7 @@ function Product() {
                                 if (Number(item?.availability) === 1) {
 
                                     return <div className={s.goods_wrapper} key={item.id}>
-                                        <Link href={`/shop/${currentURL}/${item.slug}`}></Link>
+                                        <Link href={`/product/${currentURL}/${item.slug}`}></Link>
                                         <div>
                                             <div className={s.imageGoods}>
                                                 {
@@ -199,7 +205,7 @@ function Product() {
                                                     <span>шт.</span>
                                                 </div>
                                             </div>
-                                            <button className={s.add_but}>
+                                            <button className={s.add_but} onClick={() => addOrder(item)}>
                                                 <Image src='/header/basket-gray.png' alt='search' width={30}
                                                        height={30}/>
                                                 Додати до<br/> Кошика
@@ -217,4 +223,4 @@ function Product() {
     );
 }
 
-export default Product;
+export default Product2;

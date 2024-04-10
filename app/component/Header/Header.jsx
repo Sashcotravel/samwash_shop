@@ -13,7 +13,7 @@ const Header = () => {
     const [fixHeader, setFixHeader] = useState(false)
     const [openWin, setOpenWin] = useState(false)
 
-    const goods = useStore(store => store.goods)
+    const order = useStore(store => store.order)
     const sum = useStore(store => store.sum)
 
     const handleScroll = () => {
@@ -130,7 +130,7 @@ const Header = () => {
                             </div>
                             <div className={s.basket} onClick={() => setOpenWin(true)}>
                                 <Image src='/header/basket.png' alt='search' width={30} height={30} />
-                                {goods.length !== 0 && <span className={s.goodsLength}>{goods.length}</span>}
+                                {order.length !== 0 && <span className={s.goodsLength}>{order.length}</span>}
                             </div>
                         </div>
                     </div>
@@ -574,16 +574,19 @@ const Header = () => {
                         </div>
                         <div className={s.div_for_goods}>
                             {
-                                goods?.map(item => {
+                                order?.map((item, index) => {
                                     // console.log(item)
                                     return (
-                                        <div key={item.name}>
-                                            <Link href={item.link}>
-                                                <Image src={item.img} alt={item.name} width={50} height={50} />
+                                        <div key={index}>
+                                            <Link href={'/product/' + item.slug}>
+                                                <Image alt={item.catalog_goods_content[0].title}
+                                                       width={200} height={200}
+                                                       src={item.catalog_goods_images.length === 0 ? '/other/noImage.jpg'
+                                                           : 'https://cb.samwash.ua/storage/' + item.catalog_goods_images[2].path
+                                                       }/>
                                                 <div>
-                                                    <p>{item.name}</p>
-                                                    <p>{item.number} x <b style={{fontWeight: 700}}>{item.prise} грн</b>
-                                                    </p>
+                                                    <p>{item.catalog_goods_content[0].title}</p>
+                                                    <p>{item.size} x <b style={{fontWeight: 700}}>{item.price} грн</b></p>
                                                 </div>
                                             </Link>
                                         </div>
@@ -591,7 +594,7 @@ const Header = () => {
                                 })
                             }
                         </div>
-                        <p className={s.sum}>Кількість товару: {goods.length} <span>{sum} гривень</span></p>
+                        <p className={s.sum}>Кількість товару: {order.length} <span>{sum} гривень</span></p>
                         <Link href='/basket' className={s.but_basket} onClick={() => setOpenWin(false)}>
                             <Image src='/header/basket-gray.png' alt='basket' width={30} height={30} />
                             До кошика

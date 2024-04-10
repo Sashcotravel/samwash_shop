@@ -27,8 +27,10 @@ const store = (
     persist(
         (set, get) => ({
             goods: arr,
-            order: arr,
-            sum: 4145.67,
+            // order: arr,
+            // sum: 4145.67,
+            order: [],
+            sum: 0,
             addTask: (tasks) => set((store) =>
                 ({tasks: [...store.tasks, tasks]}), false, "addTask"),
             addCount: (id) => { set((store) => ({
@@ -51,7 +53,12 @@ const store = (
             }))},
             deleteGoods: (id, summary) => { set((store) => ({
                 order: store.order.filter((goods) => goods.id !== id),
-                sum: (store.sum - summary).toFixed(2)
+                sum: (store.sum - summary.price).toFixed(2) === '0.00' ? 0
+                    : (store.sum - summary.price).toFixed(2)
+            }))},
+            addOrder: (item) => { set((store) => ({
+                order: [...store.order, item],
+                sum: store.sum += item.price
             }))},
             allClean: () => { set(store => ({
                 order: [],

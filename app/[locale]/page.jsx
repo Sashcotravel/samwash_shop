@@ -104,12 +104,12 @@ const MainPage = () => {
                     className="mySwiper firstSlider"
                 >
                     <SwiperSlide>
-                        <Link href='/'>
+                        <Link href='/product'>
                             <Image src='/main/image1.jpg' alt='slider' width={2200} height={600} />
                         </Link>
                     </SwiperSlide>
                     <SwiperSlide>
-                        <Link href='/'>
+                        <Link href='/product'>
                             <Image src='/main/image2.jpg' alt='slider' width={2200} height={600} />
                         </Link>
                     </SwiperSlide>
@@ -138,7 +138,7 @@ const MainPage = () => {
                 >
                     <SwiperSlide>
                         <div className={s.goods_slider}>
-                            <Link href='/'>
+                            <Link href='/product'>
                                 <div className={s.image_goods}>
                                     <span className={s.news}>Новинка</span>
                                     <Image src='/main/image3.jpg' alt='slider' width={160} height={160} />
@@ -153,7 +153,7 @@ const MainPage = () => {
                     </SwiperSlide>
                     <SwiperSlide>
                         <div className={s.goods_slider}>
-                            <Link href='/'>
+                            <Link href='/product'>
                                 <div className={s.image_goods}>
                                     <Image src='/main/image3.jpg' alt='slider' width={160} height={160} />
                                 </div>
@@ -167,7 +167,7 @@ const MainPage = () => {
                     </SwiperSlide>
                     <SwiperSlide>
                         <div className={s.goods_slider}>
-                            <Link href='/'>
+                            <Link href='/product'>
                                 <div className={s.image_goods}>
                                     <Image src='/main/image3.jpg' alt='slider' width={160} height={160}/>
                                 </div>
@@ -181,7 +181,7 @@ const MainPage = () => {
                     </SwiperSlide>
                     <SwiperSlide>
                         <div className={s.goods_slider}>
-                            <Link href='/'>
+                            <Link href='/product'>
                                 <div className={s.image_goods}>
                                     <Image src='/main/image3.jpg' alt='slider' width={160} height={160}/>
                                 </div>
@@ -195,7 +195,7 @@ const MainPage = () => {
                     </SwiperSlide>
                     <SwiperSlide>
                         <div className={s.goods_slider}>
-                            <Link href='/'>
+                            <Link href='/product'>
                                 <div className={s.image_goods}>
                                     <Image src='/main/image3.jpg' alt='slider' width={160} height={160}/>
                                 </div>
@@ -209,7 +209,7 @@ const MainPage = () => {
                     </SwiperSlide>
                     <SwiperSlide>
                         <div className={s.goods_slider}>
-                            <Link href='/'>
+                            <Link href='/product'>
                                 <div className={s.image_goods}>
                                     <Image src='/main/image3.jpg' alt='slider' width={160} height={160}/>
                                 </div>
@@ -223,7 +223,7 @@ const MainPage = () => {
                     </SwiperSlide>
                     <SwiperSlide>
                         <div className={s.goods_slider}>
-                            <Link href='/'>
+                            <Link href='/product'>
                                 <div className={s.image_goods}>
                                     <Image src='/main/image3.jpg' alt='slider' width={160} height={160}/>
                                 </div>
@@ -237,7 +237,7 @@ const MainPage = () => {
                     </SwiperSlide>
                     <SwiperSlide>
                         <div className={s.goods_slider}>
-                            <Link href='/'>
+                            <Link href='/product'>
                                 <div className={s.image_goods}>
                                     <Image src='/main/image3.jpg' alt='slider' width={160} height={160}/>
                                 </div>
@@ -268,7 +268,7 @@ const MainPage = () => {
                 >
                     <SwiperSlide>
                         <div className={s.goods_slider}>
-                            <Link href='/'>
+                            <Link href='/product'>
                                 <div className={s.image_goods}>
                                     <span className={s.news} style={{background: '#4DB6AC'}}>Чудова якість</span>
                                     <span className={s.news2} style={{background: '#A1887F'}}>Хороша ціна</span>
@@ -287,7 +287,7 @@ const MainPage = () => {
                     </SwiperSlide>
                     <SwiperSlide>
                         <div className={s.goods_slider}>
-                            <Link href='/'>
+                            <Link href='/product'>
                                 <div className={s.image_goods}>
                                     <span className={s.news} style={{background: '#ff0400'}}>-5%</span>
                                     <span className={s.news2} style={{background: '#F06292'}}>Розпродаж</span>
@@ -306,7 +306,7 @@ const MainPage = () => {
                     </SwiperSlide>
                     <SwiperSlide>
                         <div className={s.goods_slider}>
-                            <Link href='/'>
+                            <Link href='/product'>
                                 <div className={s.image_goods}>
                                     <Image src='/main/image3.jpg' alt='slider' width={160} height={160}/>
                                 </div>
@@ -323,7 +323,7 @@ const MainPage = () => {
                     </SwiperSlide>
                     <SwiperSlide>
                         <div className={s.goods_slider}>
-                            <Link href='/'>
+                            <Link href='/product'>
                                 <div className={s.image_goods}>
                                     <Image src='/main/image3.jpg' alt='slider' width={160} height={160}/>
                                 </div>
@@ -340,7 +340,7 @@ const MainPage = () => {
                     </SwiperSlide>
                     <SwiperSlide>
                         <div className={s.goods_slider}>
-                            <Link href='/'>
+                            <Link href='/product'>
                                 <div className={s.image_goods}>
                                     <Image src='/main/image3.jpg' alt='slider' width={160} height={160}/>
                                 </div>
@@ -357,7 +357,7 @@ const MainPage = () => {
                     </SwiperSlide>
                     <SwiperSlide>
                         <div className={s.goods_slider}>
-                            <Link href='/'>
+                            <Link href='/product'>
                                 <div className={s.image_goods}>
                                     <Image src='/main/image3.jpg' alt='slider' width={160} height={160}/>
                                 </div>
@@ -374,7 +374,7 @@ const MainPage = () => {
                     </SwiperSlide>
                     <SwiperSlide>
                         <div className={s.goods_slider}>
-                            <Link href='/'>
+                            <Link href='/product'>
                                 <div className={s.image_goods}>
                                     <Image src='/main/image3.jpg' alt='slider' width={160} height={160}/>
                                 </div>
@@ -391,7 +391,7 @@ const MainPage = () => {
                     </SwiperSlide>
                     <SwiperSlide>
                         <div className={s.goods_slider}>
-                            <Link href='/'>
+                            <Link href='/product'>
                                 <div className={s.image_goods}>
                                     <Image src='/main/image3.jpg' alt='slider' width={160} height={160}/>
                                 </div>
