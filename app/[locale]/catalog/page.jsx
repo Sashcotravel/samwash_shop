@@ -224,7 +224,7 @@ function Product2() {
                                         item.size = 1
 
                                         return <div className={s.goods_wrapper} key={item.id}>
-                                            <Link href={`/product/catalog/goods?goods=${item.slug}`}></Link>
+                                            <Link href={`/goods?goods=${item.slug}`}></Link>
                                             {/*<Link href={`/product/${currentURL}/${item.slug}`}></Link>*/}
                                             <div>
                                                 <div className={s.imageGoods}>
@@ -269,7 +269,7 @@ function Product2() {
                                         </div>
                                     } else {
                                         return <div className={s.goods_wrapper} key={item.id}>
-                                            <Link href={`/product/catalog/goods?goods=${item.slug}`}></Link>
+                                            <Link href={`/goods?goods=${item.slug}`}></Link>
                                             {/*<Link href={`/product/${currentURL}/${item.slug}`}></Link>*/}
                                             <div>
                                                 <div className={s.imageGoods}>
