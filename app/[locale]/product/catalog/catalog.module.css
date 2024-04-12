@@ -109,6 +109,7 @@
     padding: 20px;
     border-radius: 20px;
     background: white;
+    padding-bottom: 100px;
 }
 
 .goods_wrapper a{
@@ -225,17 +226,20 @@
     padding: 10px;
     cursor: pointer;
     border-radius: 20px;
-    margin-top: 20px;
-    position: relative;
+    position: absolute;
     text-align: center;
     background: #ed1c24;
     color: white;
     min-height: 58px;
     min-width: 146px;
-    width: 100%;
+    /*width: 100%; */
     box-shadow: 0 0 15px rgba(0,0,0,.2);
     transition: all .3s ease-out;
     z-index: 1;
+    bottom: 10px;
+    margin: 20px auto 0;
+    left: 10px;
+    right: 10px;
 }
 
 .divPopUp{
@@ -402,7 +406,39 @@
     background: #b42805;
 }
 
+.wrapper h1{
+    font-weight: 700;
+    position: relative;
+    text-align: center;
+    width: fit-content;
+    display: flex;
+    justify-content: center;
+    margin: 40px auto 20px;
+}
 
+.wrapper h1:before{
+    display: block;
+    content: "";
+    width: 50px;
+    height: 1px;
+    border-bottom: solid 1px;
+    position: absolute;
+    top: 15px;
+    left: -60px;
+    z-index: 2;
+}
+
+.wrapper h1:after{
+    display: block;
+    content: "";
+    width: 50px;
+    height: 1px;
+    border-bottom: solid 1px;
+    position: absolute;
+    top: 15px;
+    right: -60px;
+    z-index: 2;
+}
 
 
 
@@ -413,5 +449,50 @@
 @media screen and (max-width: 1600px){
     .goods_wrapper{
         width: calc(33% - 20px);
+    }
+}
+
+@media screen and (max-width: 1200px){
+    .item{
+        width: 100%;
+    }
+    .divProduct{
+        width: 100%;
+        float: none;
+    }
+    .wrapper{
+        width: 100%;
+        padding: 20px;
+    }
+    .goods_wrapper{
+        width: calc(50% - 20px);
+    }
+    .imageGoods img{
+       object-fit: cover;
+    }
+    .div_col{
+        width: auto;
+    }
+    .div_col2{
+        width: 100%;
+        position: absolute;
+        right: 15px;
+    }
+}
+
+@media screen and (max-width: 700px){
+    .goods_wrapper{
+        width: 100%;
+        padding-bottom: 60px;
+    }
+    .popUpBlock{
+        max-width: 100%;
+        top: 0;
+        bottom: 0;
+        width: 100%;
+        transform: none;
+    }
+    .secondDiv{
+        gap: 10px;
     }
 }

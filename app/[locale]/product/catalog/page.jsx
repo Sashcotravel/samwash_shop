@@ -2,16 +2,16 @@
 
 import Link from "next-intl/link";
 import {useEffect, useState} from "react";
-import s from './product2.module.css';
+import s from './catalog.module.css';
 import NavProduct from "@/app/component/NavProduct/NavProduct";
 import {AiOutlineHome} from "react-icons/ai";
 import {usePathname, useRouter, useSearchParams} from "next/navigation";
 import {useTranslations} from "next-intl";
 import {useStore} from "@/store/store";
 import Image from "next/image";
-import { AiOutlineClose } from "react-icons/ai";
-import { AiOutlineCheck } from "react-icons/ai";
-import { FaBasketShopping } from "react-icons/fa6";
+import {AiOutlineClose} from "react-icons/ai";
+import {AiOutlineCheck} from "react-icons/ai";
+import {FaBasketShopping} from "react-icons/fa6";
 
 
 const fetchAPI = (setAllCatalog) => {
@@ -41,10 +41,10 @@ function Product2() {
     const pathname = usePathname()
     const searchParams = useSearchParams()
     const [currentItem, setCurrentItem] = useState()
-    const currentURL = pathname.slice(6)
+    const currentURL = pathname.slice(9)
 
-    const addCount = useStore(store => store.addCount2)
-    const minesCount = useStore(store => store.minesCount2)
+    let pageUrl = searchParams.get('catalog')
+
     const addOrderStore = useStore(store => store.addOrder)
 
     useEffect(() => {
@@ -59,11 +59,13 @@ function Product2() {
         if (allCatalog) {
             allCatalog.forEach(item => {
                 if (item.parent_id === null) {
-                    if (item.slug === currentURL || item.slug === currentURL.slice(3)) {
+                    if (item.slug === pageUrl || item.slug === currentURL.slice(3)) {
+                    // if (item.slug === currentURL || item.slug === currentURL.slice(3)) {
                         setCurrentCatalog(item)
                         setGoods(item.catalog_goods)
                         setCurrentCatalog1(item)
-                    } else {
+                    }
+                    else {
                         item.sub_catalogs.forEach(item2 => {
                             if (item2.slug === currentURL || item2.slug === currentURL.slice(3)) {
                                 setCurrentCatalog(item2)
@@ -169,7 +171,7 @@ function Product2() {
 
 
     return (
-            <div className={s.mainDiv}>
+        <div className={s.mainDiv}>
 
             <NavProduct/>
 
@@ -190,10 +192,12 @@ function Product2() {
                     </div>
 
                     <h1>{currentCatalog.length !== 0 ? currentCatalog?.catalog_content[0].title : ''}</h1>
-                    <div dangerouslySetInnerHTML={{
-                        __html: currentCatalog.length !== 0 ?
-                            currentCatalog?.catalog_content[0].description : ''
-                    }}></div>
+                    <div
+                        //     dangerouslySetInnerHTML={{
+                        //     __html: currentCatalog.length !== 0 ?
+                        //         currentCatalog?.catalog_content[0].description : ''
+                        // }}
+                    >{currentCatalog?.catalog_content[0].description.slice(5, -6)}</div>
 
                     {/*<ul className={s.ulCategory}>*/}
                     {/*    {*/}
@@ -216,11 +220,12 @@ function Product2() {
                         {
                             goods?.map((item, index) => {
                                 if (Number(item?.availability) === 1) {
-                                    if(item.size === 0){
+                                    if (item.size === 0) {
                                         item.size = 1
 
                                         return <div className={s.goods_wrapper} key={item.id}>
-                                            <Link href={`/product/${currentURL}/${item.slug}`}></Link>
+                                            <Link href={`/product/catalog/goods?goods=${item.slug}`}></Link>
+                                            {/*<Link href={`/product/${currentURL}/${item.slug}`}></Link>*/}
                                             <div>
                                                 <div className={s.imageGoods}>
                                                     {
@@ -233,7 +238,8 @@ function Product2() {
                                                     }
                                                 </div>
                                                 <p className={s.goodsTitle}>{item.catalog_goods_content[0].title}</p>
-                                                <p className={s.client_code}>{item?.client_code}</p>
+                                                <p className={s.client_code}>Код виробника:
+                                                    <b> {item?.client_code}</b></p>
                                                 <p className={s.description} dangerouslySetInnerHTML={{
                                                     __html: item?.catalog_goods_content[0].description
                                                 }}></p>
@@ -242,7 +248,7 @@ function Product2() {
                                                 <span>{item.price} доларів</span>
                                             </div>
                                             <div className={s.add}>
-                                                <div className={s.div_col}>
+                                                <div className={s.div_col + ' ' + s.div_col2}>
                                                     <div className={s.div_col}>
                                                         <button onClick={() => minesCol(item)}
                                                                 disabled={item.size === 1}
@@ -261,10 +267,10 @@ function Product2() {
                                                 </button>
                                             </div>
                                         </div>
-                                    }
-                                    else {
+                                    } else {
                                         return <div className={s.goods_wrapper} key={item.id}>
-                                            <Link href={`/product/${currentURL}/${item.slug}`}></Link>
+                                            <Link href={`/product/catalog/goods?goods=${item.slug}`}></Link>
+                                            {/*<Link href={`/product/${currentURL}/${item.slug}`}></Link>*/}
                                             <div>
                                                 <div className={s.imageGoods}>
                                                     {
@@ -286,7 +292,7 @@ function Product2() {
                                                 <span>{item.price} доларів</span>
                                             </div>
                                             <div className={s.add}>
-                                                <div className={s.div_col}>
+                                                <div className={s.div_col + ' ' + s.div_col2}>
                                                     <div className={s.div_col}>
                                                         <button onClick={() => minesCol(item)}
                                                                 disabled={item.size === 1}
@@ -313,31 +319,30 @@ function Product2() {
                 </div>
             </div>}
 
-                {open && <div className={s.divPopUp}>
-                    <div className={s.popUpBlock}>
-                        <button onClick={() => setOpen(false)} className={s.butClose}>
-                            <AiOutlineClose />
-                        </button>
-                        <div className={s.firstDiv}>
-                            <AiOutlineCheck />
-                            <span>Додано в кошик</span>
-                        </div>
-                        <div className={s.secondDiv}>
-                            <Link href='/privacy-policy' className={s.firstLink}>
-                            {/*<Link href='/basket' className={s.firstLink}>*/}
-                                <FaBasketShopping />
-                                Перейти до кошика
-                            </Link>
-                            <button onClick={() => setOpen(false)} className={s.secondLink}>
-                                Залишайтеся на сайті
-                            </button>
-                            <label className={s.labelDiv}>
-                                <input type="checkbox" id="checkbox" />
-                                <span className={s.spanDiv}>Запам'ятай мій вибір</span>
-                            </label>
-                        </div>
+            {open && <div className={s.divPopUp}>
+                <div className={s.popUpBlock}>
+                    <button onClick={() => setOpen(false)} className={s.butClose}>
+                        <AiOutlineClose/>
+                    </button>
+                    <div className={s.firstDiv}>
+                        <AiOutlineCheck/>
+                        <span>Додано в кошик</span>
                     </div>
-                </div>}
+                    <div className={s.secondDiv}>
+                        <Link href='/basket' className={s.firstLink}>
+                            <FaBasketShopping/>
+                            Перейти до кошика
+                        </Link>
+                        <button onClick={() => setOpen(false)} className={s.secondLink}>
+                            Залишайтеся на сайті
+                        </button>
+                        <label className={s.labelDiv}>
+                            <input type="checkbox" id="checkbox"/>
+                            <span className={s.spanDiv}>Запам'ятай мій вибір</span>
+                        </label>
+                    </div>
+                </div>
+            </div>}
 
         </div>
     );

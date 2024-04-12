@@ -26,7 +26,7 @@ function Product() {
         }
     }, [catalog])
 
-    console.log(catalog)
+    // console.log(catalog)
 
     return (
         <div className={s.mainDiv}>
@@ -52,7 +52,7 @@ function Product() {
                             catalog.length !== undefined && catalog?.map(item => {
                                 if (item.parent_id === null) {
                                     return <li className={s.item} key={item.id}>
-                                        <Link href={'/product/' + item.slug}>
+                                        <Link href={'/product/catalog?catalog=' + item.slug}>
                                             <div className={s.divImage}>
                                                 <img alt={item.catalog_content[0].title}
                                                      src={'https://cb.samwash.ua/storage/' + item.catalog_images[0]?.path}/>

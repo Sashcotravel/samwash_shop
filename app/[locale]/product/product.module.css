@@ -98,13 +98,22 @@
 
 
 
+@media screen and (max-width: 1600px){
+    .item{
+        width: calc(33% - 20px);
+    }
+}
 
-
-
-
-
-
-
-
-
-
+@media screen and (max-width: 1200px){
+    .item{
+        width: 100%;
+    }
+    .divProduct{
+        width: 100%;
+        float: none;
+    }
+    .wrapper{
+        width: 100%;
+        padding: 20px;
+    }
+}
