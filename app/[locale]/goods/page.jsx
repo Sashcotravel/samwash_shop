@@ -18,6 +18,7 @@ import 'react-image-gallery/styles/css/image-gallery.css'
 
 function Goods() {
 
+    const [currentCatalog, setCurrentCatalog] = useState([])
     const [images, setImages] = useState([])
     const [open, setOpen] = useState(false)
     const [goods, setGoods] = useState([])
@@ -32,10 +33,9 @@ function Goods() {
             // axios.get(`https://cb.samwash.ua/api/v1/goods/${locale === 'en' ? 'en' : locale === 'ru' ? 'ru' : 'ua'}/${pageUrl}`)
             axios.get(`https://cb.samwash.ua/api/v1/goods/ua/${pageUrl}`)
                 .then(res => {
-                    setGoods(res.data.data[0])
-                    res.data.data[0].size = 1
-                    console.log(res.data.data[0])
                     let goods2 = res.data.data[0]
+                    setGoods(goods2)
+                    goods2.size = 1
                     if (goods2.catalog_goods_images !== undefined) {
                         goods2.catalog_goods_images.forEach((item, index) => {
                             if (item.mime_type === "webp" && item.width === "1200") {
@@ -51,13 +51,22 @@ function Goods() {
                             }
                         })
                     }
+
+                    console.log(goods2)
+
+                    fetch(`https://cb.samwash.ua/api/v1/catalog/ua`, {next: {revalidate: 60}})
+                        .then(response => response.json())
+                        .then(res => {
+                            res.data.map(item => {
+                                if(item.id === goods2.catalog_id){
+                                    setCurrentCatalog(item)
+                                    console.log(item)
+                                }
+                            })
+                        })
                 })
         }
     }, [pageUrl])
-
-    useEffect(() => {
-
-    }, [])
 
     const style = {
         cursor: 'default',
@@ -97,7 +106,13 @@ function Goods() {
                             <li>
                                 <Link href='/product'> Продукти</Link>
                             </li>
-                            <li><span>{goods.catalog_goods_content[0].title}</span></li>
+                            <li>
+                                <Link href={`/catalog?catalog=${currentCatalog.slug}`}> {
+                                    currentCatalog.length !== 0 && currentCatalog?.catalog_content[0]?.title}</Link>
+                            </li>
+                            <li>
+                                <span>{goods.catalog_goods_content[0].title}</span>
+                            </li>
                         </ul>
                     </div>
                 </div>

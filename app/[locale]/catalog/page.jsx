@@ -12,6 +12,7 @@ import Image from "next/image";
 import {AiOutlineClose} from "react-icons/ai";
 import {AiOutlineCheck} from "react-icons/ai";
 import {FaBasketShopping} from "react-icons/fa6";
+import Loading from "@/app/component/LOading/Loading";
 
 
 const fetchAPI = (setAllCatalog) => {
@@ -175,7 +176,7 @@ function Product2() {
 
             <NavProduct/>
 
-            {goods.length === 0 ? <div>Loading...</div> : <div className={s.divProduct}>
+            {goods.length === 0 ? <Loading /> : <div className={s.divProduct}>
                 <div className={s.wrapper}>
 
                     <div className={s.breadcrumbs}>
@@ -186,7 +187,12 @@ function Product2() {
                                         <AiOutlineHome/>
                                     </Link>
                                 </li>
-                                <li><span>Продукти</span></li>
+                                <li>
+                                    <Link href='/product'> Продукти</Link>
+                                </li>
+                                <li>
+                                    <span>{currentCatalog?.catalog_content[0].title}</span>
+                                </li>
                             </ul>
                         </div>
                     </div>
