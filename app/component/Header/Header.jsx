@@ -88,7 +88,7 @@ const Header = () => {
                                 <li>
                                     <Image src='/header/headphone.png' className={s.icon_up} alt='phone'
                                          width={64} height={64}/>
-                                    <a href="tel:0975794930">+380 97 57 94930</a>
+                                    <a href="tel:0975794930">+38 097 579 4930</a>
                                 </li>
                                 <li>
                                     <Image src='/header/mail.png' className={s.icon_up} alt='mail'

@@ -96,11 +96,11 @@ function Contact() {
                     <div className={s.address2_div}>
                         <p>
                             <TfiHeadphoneAlt/>
-                            <a href="tel:0975794930">+380 97 57 94930</a>
+                            <a href="tel:0975794930">+38 097 579 4930</a>
                         </p>
                         <p>
                             <GiSmartphone />
-                            <a href="tel:0975794930">+380 97 57 94930</a>
+                            <a href="tel:0975794930">+38 097 579 4930</a>
                         </p>
                         <p>
                             <CgMail />

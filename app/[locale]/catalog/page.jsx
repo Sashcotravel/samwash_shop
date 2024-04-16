@@ -37,16 +37,13 @@ function Product2() {
     const [currentCatalog3, setCurrentCatalog3] = useState([])
     const [currentCatalog4, setCurrentCatalog4] = useState([])
     const [currentCatalog5, setCurrentCatalog5] = useState([])
+    const [currentCatalog6, setCurrentCatalog6] = useState([])
 
-    const router = useRouter()
-    const pathname = usePathname()
     const searchParams = useSearchParams()
-    const [currentItem, setCurrentItem] = useState()
-    const currentURL = pathname.slice(9)
-
     let pageUrl = searchParams.get('catalog')
 
     const addOrderStore = useStore(store => store.addOrder)
+    const goodsStore = useStore(store => store.goods)
 
     useEffect(() => {
         if (allCatalog.length === 0) {
@@ -54,45 +51,60 @@ function Product2() {
         } else if (allCatalog.length === undefined) {
             fetchAPI(setAllCatalog)
         }
-    }, [allCatalog])
+    }, [pageUrl])
 
     useEffect(() => {
         if (allCatalog) {
             allCatalog.forEach(item => {
                 if (item.parent_id === null) {
-                    if (item.slug === pageUrl || item.slug === currentURL.slice(3)) {
-                    // if (item.slug === currentURL || item.slug === currentURL.slice(3)) {
+                    if (item.slug === pageUrl || item.slug === pageUrl.slice(3)) {
                         setCurrentCatalog(item)
                         setGoods(item.catalog_goods)
-                        setCurrentCatalog1(item)
+                        setCurrentCatalog1([])
+                        setCurrentCatalog2([])
+                        setCurrentCatalog3([])
+                        setCurrentCatalog4([])
+                        setCurrentCatalog5([])
+                        setCurrentCatalog6([])
                     }
                     else {
                         item.sub_catalogs.forEach(item2 => {
-                            if (item2.slug === currentURL || item2.slug === currentURL.slice(3)) {
+                            if (item2.slug === pageUrl || item2.slug === pageUrl.slice(3)) {
                                 setCurrentCatalog(item2)
                                 setGoods(item2.catalog_goods)
                                 setCurrentCatalog1(item)
-                                setCurrentCatalog2(item2)
-                            } else {
+                                setCurrentCatalog2([])
+                                setCurrentCatalog3([])
+                                setCurrentCatalog4([])
+                                setCurrentCatalog5([])
+                                setCurrentCatalog6([])
+                            }
+                            else {
                                 item2.sub_catalogs.forEach(item3 => {
-                                    if (item3.slug === currentURL || item3.slug === currentURL.slice(3)) {
+                                    if (item3.slug === pageUrl || item3.slug === pageUrl.slice(3)) {
                                         setCurrentCatalog(item3)
                                         setGoods(item3.catalog_goods)
                                         setCurrentCatalog1(item)
                                         setCurrentCatalog2(item2)
-                                        setCurrentCatalog3(item3)
-                                    } else {
+                                        setCurrentCatalog3([])
+                                        setCurrentCatalog4([])
+                                        setCurrentCatalog5([])
+                                        setCurrentCatalog6([])
+                                    }
+                                    else {
                                         item3.sub_catalogs.forEach(item4 => {
-                                            if (item4.slug === currentURL || item4.slug === currentURL.slice(3)) {
+                                            if (item4.slug === pageUrl || item4.slug === pageUrl.slice(3)) {
                                                 setCurrentCatalog(item4)
                                                 setGoods(item4.catalog_goods)
                                                 setCurrentCatalog1(item)
                                                 setCurrentCatalog2(item2)
                                                 setCurrentCatalog3(item3)
                                                 setCurrentCatalog4(item4)
+                                                setCurrentCatalog5([])
+                                                setCurrentCatalog6([])
                                             } else {
                                                 item4.sub_catalogs.forEach(item5 => {
-                                                    if (item5.slug === currentURL || item5.slug === currentURL.slice(3)) {
+                                                    if (item5.slug === pageUrl || item5.slug === pageUrl.slice(3)) {
                                                         setCurrentCatalog(item5)
                                                         setGoods(item5.catalog_goods)
                                                         setCurrentCatalog1(item)
@@ -100,6 +112,21 @@ function Product2() {
                                                         setCurrentCatalog3(item3)
                                                         setCurrentCatalog4(item4)
                                                         setCurrentCatalog5(item5)
+                                                        setCurrentCatalog6([])
+                                                    }
+                                                    else {
+                                                        item5.sub_catalogs.forEach(item6 => {
+                                                            if (item6.slug === pageUrl || item6.slug === pageUrl.slice(3)) {
+                                                                setCurrentCatalog(item6)
+                                                                setGoods(item6.catalog_goods)
+                                                                setCurrentCatalog1(item)
+                                                                setCurrentCatalog2(item2)
+                                                                setCurrentCatalog3(item3)
+                                                                setCurrentCatalog4(item4)
+                                                                setCurrentCatalog5(item5)
+                                                                setCurrentCatalog6(item6)
+                                                            }
+                                                        })
                                                     }
                                                 })
                                             }
@@ -112,7 +139,12 @@ function Product2() {
                 }
             })
         }
-    }, [allCatalog]);
+    }, [pageUrl, allCatalog]);
+
+    useEffect(() => {
+        setGoods(goodsStore)
+    }, [goodsStore]);
+
 
     const style = {
         cursor: 'default',
@@ -176,7 +208,11 @@ function Product2() {
 
             <NavProduct/>
 
-            {goods.length === 0 ? <Loading /> : <div className={s.divProduct}>
+            {goods.length === 0 ?
+                // <Loading />
+                <h2 className='loadingMainDiv'>Товарів не знайдено</h2>
+                :
+                <div className={s.divProduct}>
                 <div className={s.wrapper}>
 
                     <div className={s.breadcrumbs}>
@@ -190,37 +226,46 @@ function Product2() {
                                 <li>
                                     <Link href='/product'> Продукти</Link>
                                 </li>
+                                {currentCatalog1.length !== 0 && currentCatalog1.slug !== currentCatalog.slug &&  <li>
+                                    <Link
+                                        href={`catalog?catalog=${currentCatalog1.slug}`}> {currentCatalog1?.catalog_content[0].title}
+                                    </Link>
+                                </li>}
+                                {currentCatalog2.length !== 0 && currentCatalog2.slug !== currentCatalog.slug &&  <li>
+                                    <Link
+                                        href={`catalog?catalog=${currentCatalog2.slug}`}> {currentCatalog2?.catalog_content[0].title}
+                                    </Link>
+                                </li>}
+                                {currentCatalog3.length !== 0 && currentCatalog3.slug !== currentCatalog.slug &&  <li>
+                                    <Link
+                                        href={`catalog?catalog=${currentCatalog3.slug}`}> {currentCatalog3?.catalog_content[0].title}
+                                    </Link>
+                                </li>}
+                                {currentCatalog4.length !== 0 && currentCatalog4.slug !== currentCatalog.slug &&  <li>
+                                    <Link
+                                        href={`catalog?catalog=${currentCatalog4.slug}`}> {currentCatalog4?.catalog_content[0].title}
+                                    </Link>
+                                </li>}
+                                {currentCatalog5.length !== 0 && currentCatalog5.slug !== currentCatalog.slug &&  <li>
+                                    <Link
+                                        href={`catalog?catalog=${currentCatalog5.slug}`}> {currentCatalog5?.catalog_content[0].title}
+                                    </Link>
+                                </li>}
+                                {currentCatalog6.length !== 0 && currentCatalog6.slug !== currentCatalog.slug && <li>
+                                    <Link
+                                        href={`catalog?catalog=${currentCatalog6.slug}`}> {currentCatalog6?.catalog_content[0].title}
+                                    </Link>
+                                </li>}
                                 <li>
-                                    <span>{currentCatalog?.catalog_content[0].title}</span>
+                                    <span>{currentCatalog.length !== 0 ? currentCatalog?.catalog_content[0].title : ''}</span>
                                 </li>
                             </ul>
                         </div>
                     </div>
 
                     <h1>{currentCatalog.length !== 0 ? currentCatalog?.catalog_content[0].title : ''}</h1>
-                    <div
-                        //     dangerouslySetInnerHTML={{
-                        //     __html: currentCatalog.length !== 0 ?
-                        //         currentCatalog?.catalog_content[0].description : ''
-                        // }}
-                    >{currentCatalog?.catalog_content[0].description.slice(5, -6)}</div>
-
-                    {/*<ul className={s.ulCategory}>*/}
-                    {/*    {*/}
-                    {/*        currentCatalog.sub_catalogs?.map(item => {*/}
-
-                    {/*            return <li className={s.item} key={item.id}>*/}
-                    {/*                <Link href={'/product/' + item.slug}>*/}
-                    {/*                    <div className={s.divImage}>*/}
-                    {/*                        <img alt={item.catalog_content[0].title}*/}
-                    {/*                             src={'https://cb.samwash.ua/storage/' + item.catalog_images[0]?.path}/>*/}
-                    {/*                    </div>*/}
-                    {/*                    <h3>{item.catalog_content[0].title}</h3>*/}
-                    {/*                </Link>*/}
-                    {/*            </li>*/}
-                    {/*        })*/}
-                    {/*    }*/}
-                    {/*</ul>*/}
+                    <div>{currentCatalog.length !== 0 ?
+                        currentCatalog?.catalog_content[0].description.slice(3, -4) : ''}</div>
 
                     <ul className={s.ulCategory}>
                         {
@@ -231,7 +276,6 @@ function Product2() {
 
                                         return <div className={s.goods_wrapper} key={item.id}>
                                             <Link href={`/goods?goods=${item.slug}`}></Link>
-                                            {/*<Link href={`/product/${currentURL}/${item.slug}`}></Link>*/}
                                             <div>
                                                 <div className={s.imageGoods}>
                                                     {
@@ -273,10 +317,56 @@ function Product2() {
                                                 </button>
                                             </div>
                                         </div>
-                                    } else {
+                                    }
+                                    else if(!item.size) {
+                                        item.size = 1
+
                                         return <div className={s.goods_wrapper} key={item.id}>
                                             <Link href={`/goods?goods=${item.slug}`}></Link>
-                                            {/*<Link href={`/product/${currentURL}/${item.slug}`}></Link>*/}
+                                            <div>
+                                                <div className={s.imageGoods}>
+                                                    {
+                                                        item.catalog_goods_images.length === 0 ?
+                                                            <img src='/other/noImage.jpg' alt='no image'/>
+                                                            :
+                                                            <img
+                                                                src={'https://cb.samwash.ua/storage/' + item.catalog_goods_images[2].path}
+                                                                alt={item.catalog_goods_content[0].title}/>
+                                                    }
+                                                </div>
+                                                <p className={s.goodsTitle}>{item.catalog_goods_content[0].title}</p>
+                                                <p className={s.client_code}>{item?.client_code}</p>
+                                                <p className={s.description} dangerouslySetInnerHTML={{
+                                                    __html: item?.catalog_goods_content[0].description
+                                                }}></p>
+                                            </div>
+                                            <div className={s.div_price}>
+                                                <span>{item.price} доларів</span>
+                                            </div>
+                                            <div className={s.add}>
+                                                <div className={s.div_col + ' ' + s.div_col2}>
+                                                    <div className={s.div_col}>
+                                                        <button onClick={() => minesCol(item)}
+                                                                disabled={item.size === 1}
+                                                                style={item.size === 1 ? style : undefined}
+                                                        >-
+                                                        </button>
+                                                        <p>{item.size}</p>
+                                                        <button onClick={() => addCol(item)}>+</button>
+                                                        <span>шт.</span>
+                                                    </div>
+                                                </div>
+                                                <button className={s.add_but} onClick={() => addOrder(item)}>
+                                                    <Image src='/header/basket-gray.png' alt='search' width={30}
+                                                           height={30}/>
+                                                    Додати до<br/> Кошика
+                                                </button>
+                                            </div>
+                                        </div>
+                                    }
+                                    else {
+                                        return <div className={s.goods_wrapper} key={item.id}>
+                                            <Link href={`/goods?goods=${item.slug}`}></Link>
                                             <div>
                                                 <div className={s.imageGoods}>
                                                     {
@@ -323,7 +413,8 @@ function Product2() {
                         }
                     </ul>
                 </div>
-            </div>}
+            </div>
+             }
 
             {open && <div className={s.divPopUp}>
                 <div className={s.popUpBlock}>

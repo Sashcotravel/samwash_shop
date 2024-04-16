@@ -19,6 +19,12 @@ import 'react-image-gallery/styles/css/image-gallery.css'
 function Goods() {
 
     const [currentCatalog, setCurrentCatalog] = useState([])
+    const [currentCatalog1, setCurrentCatalog1] = useState([])
+    const [currentCatalog2, setCurrentCatalog2] = useState([])
+    const [currentCatalog3, setCurrentCatalog3] = useState([])
+    const [currentCatalog4, setCurrentCatalog4] = useState([])
+    const [currentCatalog5, setCurrentCatalog5] = useState([])
+    const [currentCatalog6, setCurrentCatalog6] = useState([])
     const [images, setImages] = useState([])
     const [open, setOpen] = useState(false)
     const [goods, setGoods] = useState([])
@@ -52,7 +58,7 @@ function Goods() {
                         })
                     }
 
-                    console.log(goods2)
+                    // console.log(goods2)
 
                     fetch(`https://cb.samwash.ua/api/v1/catalog/ua`, {next: {revalidate: 60}})
                         .then(response => response.json())
@@ -60,7 +66,49 @@ function Goods() {
                             res.data.map(item => {
                                 if(item.id === goods2.catalog_id){
                                     setCurrentCatalog(item)
-                                    console.log(item)
+                                    setCurrentCatalog1(item)
+                                    setCurrentCatalog2([])
+                                    setCurrentCatalog3([])
+                                    setCurrentCatalog4([])
+                                    setCurrentCatalog5([])
+                                    setCurrentCatalog6([])
+                                    res.data.forEach(item2 => {
+                                        if (item.parent_id === item2.id) {
+                                            setCurrentCatalog2(item2)
+                                            setCurrentCatalog3([])
+                                            setCurrentCatalog4([])
+                                            setCurrentCatalog5([])
+                                            setCurrentCatalog6([])
+                                            setCurrentCatalog5([])
+                                            setCurrentCatalog6([])
+                                            res.data.forEach(item3 => {
+                                                if (item2.parent_id === item3.id) {
+                                                    setCurrentCatalog3(item3)
+                                                    setCurrentCatalog4([])
+                                                    setCurrentCatalog5([])
+                                                    setCurrentCatalog6([])
+                                                    res.data.forEach(item4 => {
+                                                        if (item3.parent_id === item4.id) {
+                                                            setCurrentCatalog4(item4)
+                                                            setCurrentCatalog5([])
+                                                            setCurrentCatalog6([])
+                                                            res.data.forEach(item5 => {
+                                                                if (item4.parent_id === item5.id) {
+                                                                    setCurrentCatalog5(item5)
+                                                                    setCurrentCatalog6([])
+                                                                    res.data.forEach(item6 => {
+                                                                        if (item5.parent_id === item6.id) {
+                                                                            setCurrentCatalog6(item6)
+                                                                        }
+                                                                    })
+                                                                }
+                                                            })
+                                                        }
+                                                    })
+                                                }
+                                            })
+                                        }
+                                    })
                                 }
                             })
                         })
@@ -106,10 +154,36 @@ function Goods() {
                             <li>
                                 <Link href='/product'> Продукти</Link>
                             </li>
-                            <li>
-                                <Link href={`/catalog?catalog=${currentCatalog.slug}`}> {
-                                    currentCatalog.length !== 0 && currentCatalog?.catalog_content[0]?.title}</Link>
-                            </li>
+                            {currentCatalog6.length !== 0 && <li>
+                                <Link
+                                    href={`catalog?catalog=${currentCatalog6.slug}`}> {currentCatalog6?.catalog_content[0].title}
+                                </Link>
+                            </li>}
+                            {currentCatalog5.length !== 0 && <li>
+                                <Link
+                                    href={`catalog?catalog=${currentCatalog5.slug}`}> {currentCatalog5?.catalog_content[0].title}
+                                </Link>
+                            </li>}
+                            {currentCatalog4.length !== 0 && <li>
+                                <Link
+                                    href={`catalog?catalog=${currentCatalog4.slug}`}> {currentCatalog4?.catalog_content[0].title}
+                                </Link>
+                            </li>}
+                            {currentCatalog3.length !== 0 && <li>
+                                <Link
+                                    href={`catalog?catalog=${currentCatalog3.slug}`}> {currentCatalog3?.catalog_content[0].title}
+                                </Link>
+                            </li>}
+                            {currentCatalog2.length !== 0 && <li>
+                                <Link
+                                    href={`catalog?catalog=${currentCatalog2.slug}`}> {currentCatalog2?.catalog_content[0].title}
+                                </Link>
+                            </li>}
+                            {currentCatalog1.length !== 0 && <li>
+                                <Link
+                                    href={`catalog?catalog=${currentCatalog1.slug}`}> {currentCatalog1?.catalog_content[0].title}
+                                </Link>
+                            </li>}
                             <li>
                                 <span>{goods.catalog_goods_content[0].title}</span>
                             </li>

@@ -55,7 +55,7 @@ function Footer() {
                         <p>SAMWASH Безконтактні мийки</p>
                         <ul>
                             <li>
-                                <a href="tel:0975794930">+380 97 57 94930</a>
+                                <a href="tel:0975794930">+38 097 579 4930</a>
                             </li>
                             <li>
                                 <a href="mailto:info@samwash.ua" title="Напишіть нам">info@samwash.ua</a>

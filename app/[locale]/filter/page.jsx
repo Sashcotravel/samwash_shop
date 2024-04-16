@@ -1,12 +1,99 @@
 "use client"
 
+import {useState} from "react";
 import s from './filter.module.css';
-import {AiFillStar} from "react-icons/ai";
-import {BsFillBagFill} from "react-icons/bs";
 import Image from "next/image";
+import Card from "@/app/component/Card/Card";
+import Label from "@/app/component/Label/Label";
+import products from '../../db/data'
 
 function Page() {
 
+    const [selectedCategory, setSelectedCategory] = useState(null)
+    const [selectedColor, setSelectedColor] = useState(null)
+    const [selectedPrise, setSelectedPrise] = useState(null)
+    const [query, setQuery] = useState('')
+
+
+    const handleChangeInput = (e) => {
+        setQuery(e.target.value)
+    }
+
+    const filteredItems = products.filter(product =>
+        product.title.toLowerCase().indexOf(query.toLowerCase()) !== -1)
+
+    const handleChangeRadio = (e) => {
+        setSelectedCategory(e.target.value)
+    }
+
+    const handleChangeRadio3 = (e) => {
+        setSelectedColor(e.target.value)
+    }
+
+    const filterData = (products, selected1, selected2, selected3, query) =>  {
+        let filterProducts = products;
+
+        // Фільтруємо за кольором, якщо вибраний тільки колір
+        if (selected2 && !selected1 && !selected3) {
+            filterProducts = filterProducts.filter(({ color }) => color === selected2);
+        }
+
+        // Фільтруємо за ціною, якщо вибрана тільки ціна
+        if (selected3 && !selected1 && !selected2) {
+            filterProducts = filterProducts.filter(({ newPrice }) => newPrice === selected3);
+        }
+
+        // Фільтруємо за категорією, якщо вибрана тільки категорія
+        if (selected1 && !selected2 && !selected3) {
+            filterProducts = filterProducts.filter(({ category }) => category === selected1);
+        }
+
+        // Фільтруємо за коліром і ціною, якщо вибрані колір і ціна
+        if (selected2 && selected3 && !selected1) {
+            filterProducts = filterProducts.filter(({ color, newPrice }) => color === selected2 && newPrice === selected3);
+        }
+
+        // Фільтруємо за коліром і категорією, якщо вибрані колір і категорія
+        if (selected2 && selected1 && !selected3) {
+            filterProducts = filterProducts.filter(({ color, category }) => color === selected2 && category === selected1);
+        }
+
+        // Фільтруємо за категорією і ціною, якщо вибрані категорія і ціна
+        if (selected1 && selected3 && !selected2) {
+            filterProducts = filterProducts.filter(({ category, newPrice }) => category === selected1 && newPrice === selected3);
+        }
+
+        // Фільтруємо за всіма трема параметрами
+        if (selected1 && selected2 && selected3) {
+            filterProducts = filterProducts.filter(({ category, color, newPrice }) =>
+                category === selected1 && color === selected2 && newPrice === selected3
+            );
+        }
+
+        // Фільтруємо за текстовим запитом
+        if (query) {
+            filterProducts = filterProducts.filter(({ title }) =>
+                title.toLowerCase().includes(query.toLowerCase())
+            );
+        }
+
+        return filterProducts.map(({ img, title, star, reviews, prevPrice, newPrice, company, color, category }) => {
+            return <Card key={Math.random()} img={img} title={title} star={star}
+                         reviews={reviews} prevPrice={prevPrice} newPrice={newPrice}
+                         company={company} color={color} category={category} />;
+        });
+    }
+
+    const [rangeValue, setRangeValue] = useState(0);
+
+    const handleRangeChange = (e) => {
+        const value = parseInt(e.target.value);
+        setRangeValue(value);
+        if (value === 0){
+            return setSelectedPrise('');
+        }
+        setSelectedPrise(value.toString());
+    };
 
 
     return (<>
@@ -23,393 +110,63 @@ function Page() {
                 <h2 className={s.sidebar_title}>Category</h2>
 
                 <div>
-                    <label className={s.sidebarLabel}>
-                        <input type="radio" name="test"/>
-                        <span className={s.checkmark}></span>All
-                    </label>
-                    <label className={s.sidebarLabel}>
-                        <input type="radio" name="test"/>
-                        <span className={s.checkmark}></span>Sneakers
-                    </label>
-                    <label className={s.sidebarLabel}>
-                        <input type="radio" name="test"/>
-                        <span className={s.checkmark}></span>Flats
-                    </label>
-                    <label className={s.sidebarLabel}>
-                        <input type="radio" name="test"/>
-                        <span className={s.checkmark}></span>Sandals
-                    </label>
-                    <label className={s.sidebarLabel}>
-                        <input type="radio" name="test"/>
-                        <span className={s.checkmark}></span>Heels
-                    </label>
+                    <Label title={'All'} nameRadio={"test"} click={handleChangeRadio} value={''} />
+                    <Label title={'Sneakers'} nameRadio={"test"} click={handleChangeRadio} value={'sneakers'} />
+                    <Label title={'Flats'} nameRadio={"test"} click={handleChangeRadio} value={'flats'} />
+                    <Label title={'Sandals'} nameRadio={"test"} click={handleChangeRadio} value={'sandals'} />
+                    <Label title={'Heels'} nameRadio={"test"} click={handleChangeRadio} value={'heels'} />
                 </div>
             </div>
             {/*  price  */}
             <div className={s.price}>
                 <h2 className={s.sidebar_title + ' ' + s.prise_title}>Price</h2>
 
-                <label className={s.sidebarLabel}>
-                    <input type="radio" name="test2"/>
-                    <span className={s.checkmark}></span>All
-                </label>
-                <label className={s.sidebarLabel}>
-                    <input type="radio" name="test2"/>
-                    <span className={s.checkmark}></span>$0 - $50
-                </label>
-                <label className={s.sidebarLabel}>
-                    <input type="radio" name="test2"/>
-                    <span className={s.checkmark}></span>$50 - $100
-                </label>
-                <label className={s.sidebarLabel}>
-                    <input type="radio" name="test2"/>
-                    <span className={s.checkmark}></span>$100 - $150
-                </label>
-                <label className={s.sidebarLabel}>
-                    <input type="radio" name="test2"/>
-                    <span className={s.checkmark}></span>Over $150
-                </label>
+                <input type="range" min="0" max="200" step="50" value={rangeValue} onChange={handleRangeChange}/>
+
+                <div className={s.rangeLabels}>
+                    <span>$0</span>
+                    <span>$100</span>
+                    <span>$200</span>
+                </div>
+
+                {/*<Label title={'All'} nameRadio={"test2"} click={handleChangeRadio2} value={''} />*/}
+                {/*<Label title={'$0 - $50'} nameRadio={"test2"} click={handleChangeRadio2} value={'50'} />*/}
+                {/*<Label title={'$50 - $100'} nameRadio={"test2"} click={handleChangeRadio2} value={'100'} />*/}
+                {/*<Label title={'$100 - $150'} nameRadio={"test2"} click={handleChangeRadio2} value={'150'} />*/}
+                {/*<Label title={'Over $150'} nameRadio={"test2"} click={handleChangeRadio2} value={'200'} />*/}
             </div>
             {/*  color  */}
             <div className={s.color}>
                 <h2 className={s.sidebar_title + ' ' + s.prise_title}>Color</h2>
 
-                <label className={s.sidebarLabel}>
-                    <input type="radio" name="test3"/>
-                    <span className={s.checkmark}></span>All
-                </label>
-                <label className={s.sidebarLabel}>
-                    <input type="radio" name="test3"/>
-                    <span className={s.checkmark}></span>Black
-                </label>
-                <label className={s.sidebarLabel}>
-                    <input type="radio" name="test3"/>
-                    <span className={s.checkmark}></span>Blue
-                </label>
-                <label className={s.sidebarLabel}>
-                    <input type="radio" name="test3"/>
-                    <span className={s.checkmark}></span>Red
-                </label>
-                <label className={s.sidebarLabel}>
-                    <input type="radio" name="test3"/>
-                    <span className={s.checkmark}></span>White
-                </label>
+                <Label title={'All'} nameRadio={"test3"} click={handleChangeRadio3} value={''}/>
+                <Label title={'Black'} nameRadio={"test3"} click={handleChangeRadio3} value={'black'} />
+                <Label title={'White'} nameRadio={"test3"} click={handleChangeRadio3} value={'white'} />
+                <Label title={'Blue'} nameRadio={"test3"} click={handleChangeRadio3} value={'blue'} />
+                <Label title={'Red'} nameRadio={"test3"} click={handleChangeRadio3} value={'red'} />
+                <Label title={'Yellow'} nameRadio={"test3"} click={handleChangeRadio3} value={'yellow'} />
             </div>
         </section>
 
         <section className={s.card_container}>
 
+            <div className={s.divInput}>
+                <input type='text' onChange={handleChangeInput} value={query} />
+            </div>
+
             <section>
                 <h2 className={s.recommended_title}>Recommended</h2>
                 <div className={s.recommended_flex}>
-                    <button>All Products</button>
-                    <button>Nike</button>
-                    <button>Adidas</button>
-                    <button>Puma</button>
-                    <button>Vans</button>
+                    <button onClick={() => setSelectedCategory('')}>All Products</button>
+                    <button onClick={() => setSelectedCategory('Nike')}>Nike</button>
+                    <button onClick={() => setSelectedCategory('Adidas')}>Adidas</button>
+                    <button onClick={() => setSelectedCategory('Puma')}>Puma</button>
+                    <button onClick={() => setSelectedCategory('Vans')}>Vans</button>
                 </div>
             </section>
 
             <div style={{display: 'flex', flexWrap: 'wrap'}}>
-                <div className={s.card}>
-                    <img src='https://m.media-amazon.com/images/I/6125yAfsJKL._AC_UX575_.jpg' alt='image'
-                         className={s.card_img}/>
-                    <div className={s.card_details}>
-                        <h3 className={s.card_title}>Shoe</h3>
-                        <section className={s.card_reviews}>
-                            <AiFillStar className={s.rating_start}/>
-                            <AiFillStar className={s.rating_start}/>
-                            <AiFillStar className={s.rating_start}/>
-                            <AiFillStar className={s.rating_start}/>
-                            <span className={s.total_reviews}>4</span>
-                        </section>
-                        <section className={s.card_prise}>
-                            <div className={s.price}>
-                                <del>$300</del>
-                                200
-                            </div>
-                            <div className={s.bag}>
-                                <BsFillBagFill className={s.bag_icon}/>
-                            </div>
-                        </section>
-                    </div>
-                </div>
-                <div className={s.card}>
-                    <img src='https://m.media-amazon.com/images/I/6125yAfsJKL._AC_UX575_.jpg' alt='image'
-                         className={s.card_img}/>
-                    <div className={s.card_details}>
-                        <h3 className={s.card_title}>Shoe</h3>
-                        <section className={s.card_reviews}>
-                            <AiFillStar className={s.rating_start}/>
-                            <AiFillStar className={s.rating_start}/>
-                            <AiFillStar className={s.rating_start}/>
-                            <AiFillStar className={s.rating_start}/>
-                            <span className={s.total_reviews}>4</span>
-                        </section>
-                        <section className={s.card_prise}>
-                            <div className={s.price}>
-                                <del>$300</del>
-                                200
-                            </div>
-                            <div className={s.bag}>
-                                <BsFillBagFill className={s.bag_icon}/>
-                            </div>
-                        </section>
-                    </div>
-                </div>
-                <div className={s.card}>
-                    <img src='https://m.media-amazon.com/images/I/6125yAfsJKL._AC_UX575_.jpg' alt='image'
-                         className={s.card_img}/>
-                    <div className={s.card_details}>
-                        <h3 className={s.card_title}>Shoe</h3>
-                        <section className={s.card_reviews}>
-                            <AiFillStar className={s.rating_start}/>
-                            <AiFillStar className={s.rating_start}/>
-                            <AiFillStar className={s.rating_start}/>
-                            <AiFillStar className={s.rating_start}/>
-                            <span className={s.total_reviews}>4</span>
-                        </section>
-                        <section className={s.card_prise}>
-                            <div className={s.price}>
-                                <del>$300</del>
-                                200
-                            </div>
-                            <div className={s.bag}>
-                                <BsFillBagFill className={s.bag_icon}/>
-                            </div>
-                        </section>
-                    </div>
-                </div>
-                <div className={s.card}>
-                    <img src='https://m.media-amazon.com/images/I/6125yAfsJKL._AC_UX575_.jpg' alt='image'
-                         className={s.card_img}/>
-                    <div className={s.card_details}>
-                        <h3 className={s.card_title}>Shoe</h3>
-                        <section className={s.card_reviews}>
-                            <AiFillStar className={s.rating_start}/>
-                            <AiFillStar className={s.rating_start}/>
-                            <AiFillStar className={s.rating_start}/>
-                            <AiFillStar className={s.rating_start}/>
-                            <span className={s.total_reviews}>4</span>
-                        </section>
-                        <section className={s.card_prise}>
-                            <div className={s.price}>
-                                <del>$300</del>
-                                200
-                            </div>
-                            <div className={s.bag}>
-                                <BsFillBagFill className={s.bag_icon}/>
-                            </div>
-                        </section>
-                    </div>
-                </div>
-                <div className={s.card}>
-                    <img src='https://m.media-amazon.com/images/I/6125yAfsJKL._AC_UX575_.jpg' alt='image'
-                         className={s.card_img}/>
-                    <div className={s.card_details}>
-                        <h3 className={s.card_title}>Shoe</h3>
-                        <section className={s.card_reviews}>
-                            <AiFillStar className={s.rating_start}/>
-                            <AiFillStar className={s.rating_start}/>
-                            <AiFillStar className={s.rating_start}/>
-                            <AiFillStar className={s.rating_start}/>
-                            <span className={s.total_reviews}>4</span>
-                        </section>
-                        <section className={s.card_prise}>
-                            <div className={s.price}>
-                                <del>$300</del>
-                                200
-                            </div>
-                            <div className={s.bag}>
-                                <BsFillBagFill className={s.bag_icon}/>
-                            </div>
-                        </section>
-                    </div>
-                </div>
-                <div className={s.card}>
-                    <img src='https://m.media-amazon.com/images/I/6125yAfsJKL._AC_UX575_.jpg' alt='image'
-                         className={s.card_img}/>
-                    <div className={s.card_details}>
-                        <h3 className={s.card_title}>Shoe</h3>
-                        <section className={s.card_reviews}>
-                            <AiFillStar className={s.rating_start}/>
-                            <AiFillStar className={s.rating_start}/>
-                            <AiFillStar className={s.rating_start}/>
-                            <AiFillStar className={s.rating_start}/>
-                            <span className={s.total_reviews}>4</span>
-                        </section>
-                        <section className={s.card_prise}>
-                            <div className={s.price}>
-                                <del>$300</del>
-                                200
-                            </div>
-                            <div className={s.bag}>
-                                <BsFillBagFill className={s.bag_icon}/>
-                            </div>
-                        </section>
-                    </div>
-                </div>
-                <div className={s.card}>
-                    <img src='https://m.media-amazon.com/images/I/6125yAfsJKL._AC_UX575_.jpg' alt='image'
-                         className={s.card_img}/>
-                    <div className={s.card_details}>
-                        <h3 className={s.card_title}>Shoe</h3>
-                        <section className={s.card_reviews}>
-                            <AiFillStar className={s.rating_start}/>
-                            <AiFillStar className={s.rating_start}/>
-                            <AiFillStar className={s.rating_start}/>
-                            <AiFillStar className={s.rating_start}/>
-                            <span className={s.total_reviews}>4</span>
-                        </section>
-                        <section className={s.card_prise}>
-                            <div className={s.price}>
-                                <del>$300</del>
-                                200
-                            </div>
-                            <div className={s.bag}>
-                                <BsFillBagFill className={s.bag_icon}/>
-                            </div>
-                        </section>
-                    </div>
-                </div>
-                <div className={s.card}>
-                    <img src='https://m.media-amazon.com/images/I/6125yAfsJKL._AC_UX575_.jpg' alt='image'
-                         className={s.card_img}/>
-                    <div className={s.card_details}>
-                        <h3 className={s.card_title}>Shoe</h3>
-                        <section className={s.card_reviews}>
-                            <AiFillStar className={s.rating_start}/>
-                            <AiFillStar className={s.rating_start}/>
-                            <AiFillStar className={s.rating_start}/>
-                            <AiFillStar className={s.rating_start}/>
-                            <span className={s.total_reviews}>4</span>
-                        </section>
-                        <section className={s.card_prise}>
-                            <div className={s.price}>
-                                <del>$300</del>
-                                200
-                            </div>
-                            <div className={s.bag}>
-                                <BsFillBagFill className={s.bag_icon}/>
-                            </div>
-                        </section>
-                    </div>
-                </div>
-                <div className={s.card}>
-                    <img src='https://m.media-amazon.com/images/I/6125yAfsJKL._AC_UX575_.jpg' alt='image'
-                         className={s.card_img}/>
-                    <div className={s.card_details}>
-                        <h3 className={s.card_title}>Shoe</h3>
-                        <section className={s.card_reviews}>
-                            <AiFillStar className={s.rating_start}/>
-                            <AiFillStar className={s.rating_start}/>
-                            <AiFillStar className={s.rating_start}/>
-                            <AiFillStar className={s.rating_start}/>
-                            <span className={s.total_reviews}>4</span>
-                        </section>
-                        <section className={s.card_prise}>
-                            <div className={s.price}>
-                                <del>$300</del>
-                                200
-                            </div>
-                            <div className={s.bag}>
-                                <BsFillBagFill className={s.bag_icon}/>
-                            </div>
-                        </section>
-                    </div>
-                </div>
-                <div className={s.card}>
-                    <img src='https://m.media-amazon.com/images/I/6125yAfsJKL._AC_UX575_.jpg' alt='image'
-                         className={s.card_img}/>
-                    <div className={s.card_details}>
-                        <h3 className={s.card_title}>Shoe</h3>
-                        <section className={s.card_reviews}>
-                            <AiFillStar className={s.rating_start}/>
-                            <AiFillStar className={s.rating_start}/>
-                            <AiFillStar className={s.rating_start}/>
-                            <AiFillStar className={s.rating_start}/>
-                            <span className={s.total_reviews}>4</span>
-                        </section>
-                        <section className={s.card_prise}>
-                            <div className={s.price}>
-                                <del>$300</del>
-                                200
-                            </div>
-                            <div className={s.bag}>
-                                <BsFillBagFill className={s.bag_icon}/>
-                            </div>
-                        </section>
-                    </div>
-                </div>
-                <div className={s.card}>
-                    <img src='https://m.media-amazon.com/images/I/6125yAfsJKL._AC_UX575_.jpg' alt='image'
-                         className={s.card_img}/>
-                    <div className={s.card_details}>
-                        <h3 className={s.card_title}>Shoe</h3>
-                        <section className={s.card_reviews}>
-                            <AiFillStar className={s.rating_start}/>
-                            <AiFillStar className={s.rating_start}/>
-                            <AiFillStar className={s.rating_start}/>
-                            <AiFillStar className={s.rating_start}/>
-                            <span className={s.total_reviews}>4</span>
-                        </section>
-                        <section className={s.card_prise}>
-                            <div className={s.price}>
-                                <del>$300</del>
-                                200
-                            </div>
-                            <div className={s.bag}>
-                                <BsFillBagFill className={s.bag_icon}/>
-                            </div>
-                        </section>
-                    </div>
-                </div>
-                <div className={s.card}>
-                    <img src='https://m.media-amazon.com/images/I/6125yAfsJKL._AC_UX575_.jpg' alt='image'
-                         className={s.card_img}/>
-                    <div className={s.card_details}>
-                        <h3 className={s.card_title}>Shoe</h3>
-                        <section className={s.card_reviews}>
-                            <AiFillStar className={s.rating_start}/>
-                            <AiFillStar className={s.rating_start}/>
-                            <AiFillStar className={s.rating_start}/>
-                            <AiFillStar className={s.rating_start}/>
-                            <span className={s.total_reviews}>4</span>
-                        </section>
-                        <section className={s.card_prise}>
-                            <div className={s.price}>
-                                <del>$300</del>
-                                200
-                            </div>
-                            <div className={s.bag}>
-                                <BsFillBagFill className={s.bag_icon}/>
-                            </div>
-                        </section>
-                    </div>
-                </div>
-                <div className={s.card}>
-                    <img src='https://m.media-amazon.com/images/I/6125yAfsJKL._AC_UX575_.jpg' alt='image'
-                         className={s.card_img}/>
-                    <div className={s.card_details}>
-                        <h3 className={s.card_title}>Shoe</h3>
-                        <section className={s.card_reviews}>
-                            <AiFillStar className={s.rating_start}/>
-                            <AiFillStar className={s.rating_start}/>
-                            <AiFillStar className={s.rating_start}/>
-                            <AiFillStar className={s.rating_start}/>
-                            <span className={s.total_reviews}>4</span>
-                        </section>
-                        <section className={s.card_prise}>
-                            <div className={s.price}>
-                                <del>$300</del>
-                                200
-                            </div>
-                            <div className={s.bag}>
-                                <BsFillBagFill className={s.bag_icon}/>
-                            </div>
-                        </section>
-                    </div>
-                </div>
+                { filterData(products, selectedCategory, selectedColor, selectedPrise, query) }
             </div>
         </section>
     </>);

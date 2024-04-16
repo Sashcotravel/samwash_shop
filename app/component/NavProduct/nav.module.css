@@ -32,6 +32,135 @@
     background: white;
 }
 
+.item a:hover{
+    color: white;
+    background: #bc2905;
+}
+
+.divFilter{
+    background: white;
+    position: relative;
+    padding: 30px 20px;
+    float: left;
+    width: 100%;
+}
+
+.divFilter h3 {
+    text-align: center;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 10px 0;
+    margin-bottom: 20px;
+    border-top: dotted 1px #DDDDDD;
+    border-bottom: dotted 1px #DDDDDD;
+}
+
+.liPrise{
+    padding: 0 20px 20px 20px;
+}
+
+.liPrise p {
+    padding-bottom: 10px;
+    font-size: 16px;
+}
+
+.rangDiv{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
+
+.rangDiv input {
+    outline: none;
+    max-width: 28%;
+    border: 1px solid #DDDDDD;
+    font-size: 1rem;
+    padding: 10px;
+}
+
+.buttonRang{
+    cursor: pointer;
+    float: right;
+    height: 45px;
+    margin: 0 0 30px;
+    background: #ed1c24;
+    color: white;
+    padding: 10px;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+}
+
+.buttonRang:hover{
+    background: #b42600;
+}
+
+.divFilter li {
+    width: 100%;
+    overflow: hidden;
+}
+
+.divFilter li p b {
+    transition: all 200ms ease-out;
+    font-weight: 700;
+    color: #ed1c24;
+    width: 100%;
+    display: block;
+    border-bottom: dotted 1px #DDDDDD;
+}
+
+.label{
+    position: relative;
+    cursor: pointer;
+    display: block;
+    padding: 10px;
+}
+
+.label [type="checkbox"] {
+    visibility: hidden;
+    z-index: -1;
+    font-size: 1rem;
+    padding: 10px;
+}
+
+.labelSpan{
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 1.2em;
+    padding: 2px 0 0 30px;
+}
+
+[type="checkbox"] + .labelSpan::before{
+    content: '\f14a';
+    display: inline-block;
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    font-size: 0.8rem;
+    text-align: center;
+    width: 1.5em;
+    height: 1.5em;
+    background: white;
+    color: white;
+    border: 1px solid #DDDDDD;
+    cursor: pointer;
+    font-family: 'Font Awesome 5 Free';
+    line-height: 1.5;
+    transition: all 200ms ease-in;
+}
+
+[type="checkbox"]:checked + .labelSpan::before{
+    background: #b42805;
+}
+
+
+
+
+
+
+
+
 
 
 @media screen and (max-width: 1200px){

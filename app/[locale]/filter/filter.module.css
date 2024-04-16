@@ -51,7 +51,7 @@
     align-items: center;
 }
 
-.price{
+.price2{
 
 }
 
@@ -208,11 +208,19 @@
 /* color */
 
 .color{
-    margin-left: 20px;
+    margin-left: -20px;
 }
 
 /* color end */
 
+.divInput input{
+    outline: none;
+    border: 0.5px solid lightblue;
+    width: 300px;
+    background: lightgray;
+    padding: 5px 5px 5px 15px;
+    border-radius: 10px;
+}
 
 
 

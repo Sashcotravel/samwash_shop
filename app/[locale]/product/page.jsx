@@ -58,6 +58,14 @@ function Product() {
                                                      src={'https://cb.samwash.ua/storage/' + item.catalog_images[0]?.path}/>
                                             </div>
                                             <h3>{item.catalog_content[0].title}</h3>
+                                            {
+                                                catalog?.map(item2 => {
+
+                                                    if(item.id === item2.parent_id) {
+                                                        return <Link href={`/catalog?catalog=${item2.slug}`}>{item2.catalog_content[0].title}</Link>
+                                                    }
+                                                })
+                                            }
                                         </Link>
                                     </li>
                                 }
