@@ -448,9 +448,6 @@
     .toggleManu{
         top: 26px;
     }
-    .laptop2 {
-        margin-top: -26px;
-    }
 }
 
 @media screen and (max-width: 1200px){
