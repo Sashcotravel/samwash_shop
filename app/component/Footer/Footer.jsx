@@ -108,7 +108,7 @@ function Footer() {
                         <p>Інформація</p>
                         <ul>
                             <li>
-                                <Link href='/'>Блог</Link>
+                                <Link href='/blog'>Блог</Link>
                             </li>
                             <li>
                                 <Link href='/regulations'>Статут</Link>
