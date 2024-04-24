@@ -167,7 +167,7 @@ function Contact() {
                                 <h2>{item?.content[0]?.title}</h2>
                                 <time>{item?.start_date_time.replace(/-/g, ".").slice(0, 10)}</time>
                                 <p dangerouslySetInnerHTML={{__html: item?.content[0]?.description.slice(0, 160)}} />
-                                <Link href={`/blog/${item.slug}`}>читати далі {' >>'}</Link>
+                                <Link href={`/news?news=${item.slug}`}>читати далі {' >>'}</Link>
                             </div>
                         )
                     })
