@@ -3,13 +3,20 @@
 import s from './Header.module.css'
 import Link from "next-intl/link";
 import {useEffect, useState} from "react";
+import {usePathname} from "next/navigation";
+import {useLocale, useTranslations} from "next-intl";
 import {useStore} from "@/store/store";
 import Image from "next/image";
 
 
 const Header = () => {
 
+    const t = useTranslations("header");
+    const locale = useLocale();
+    const router = usePathname()
+
     let prevScrollY = 0;
+    const [toggleLang, setToggleLang] = useState(false)
     const [fixHeader, setFixHeader] = useState(false)
     const [openWin, setOpenWin] = useState(false)
 
@@ -87,23 +94,64 @@ const Header = () => {
                             <ul>
                                 <li>
                                     <Image src='/header/headphone.png' className={s.icon_up} alt='phone'
-                                         width={64} height={64}/>
+                                           width={64} height={64}/>
                                     <a href="tel:0975794930">+38 097 579 4930</a>
                                 </li>
                                 <li>
                                     <Image src='/header/mail.png' className={s.icon_up} alt='mail'
-                                         width={48} height={48}/>
+                                           width={48} height={48}/>
                                     <a href="mailto:info@samwash.ua" title="Напишіть нам">info@samwash.ua</a>
                                 </li>
                                 <li>
                                     <Image src='/header/account.png' className={s.icon_up} alt='account'
-                                         width={50} height={50}/>
+                                           width={50} height={50}/>
                                     <Link href="/login">авторизуватися</Link>
                                 </li>
                                 <li>
                                     <Image src='/header/registration.png' className={s.icon_up} alt='registration'
-                                         width={50} height={50}/>
+                                           width={50} height={50}/>
                                     <Link href="/register">зареєструватися</Link>
+                                </li>
+                                <li className={s.language_selector} id='lang'>
+                                    <div className={s.language_link2} id='lang'
+                                         onClick={() => setToggleLang(prev => !prev)}>
+                                        <img src={`/header/flug/${locale}.svg`} alt="" className={s.flag} id='lang'/>
+                                        {
+                                            locale === 'uk' ? 'Українська' : locale === 'en' ? "English" : "Російська"
+                                        }
+                                    </div>
+                                    {
+                                        !toggleLang ?
+                                            <Image src='/header/flug/arrow-down.svg' alt='arrow up' width={10}
+                                                   height={10}
+                                                   className={s.imgArrow} id='lang'/>
+                                            :
+                                            <Image src='/header/flug/arrow-up.svg' alt='arrow up' width={10} height={10}
+                                                   className={s.imgArrow} id='lang'/>
+                                    }
+                                    <div style={{display: toggleLang ? 'flex' : "none"}} className={s.toggleManu}>
+                                        <Link href='/' locale="uk" className={s.language_link}
+                                              style={locale === 'uk' ? {
+                                                  backgroundColor: 'white',
+                                                  color: '#d9d9d9'
+                                              } : undefined}>
+                                            <img src={"/header/flug/uk.svg"} alt="" className={s.flag}/>Українська
+                                        </Link>
+                                        <Link href='/' locale="en" className={s.language_link}
+                                              style={locale === 'en' ? {
+                                                  backgroundColor: 'white',
+                                                  color: '#d9d9d9'
+                                              } : undefined}>
+                                            <img src={"/header/flug/en.svg"} alt="" className={s.flag}/>English
+                                        </Link>
+                                        <Link href='/' locale="ru" className={s.language_link}
+                                              style={locale === 'ru' ? {
+                                                  backgroundColor: 'white',
+                                                  color: '#d9d9d9'
+                                              } : undefined}>
+                                            <img src={"/header/flug/ru.svg"} alt="" className={s.flag}/>Російська
+                                        </Link>
+                                    </div>
                                 </li>
                             </ul>
                         </div>
@@ -124,11 +172,11 @@ const Header = () => {
                             <div className={s.auth_icon}>
                                 <Link href='/login'>
                                     <Image src='/header/account.svg' className={s.icon_account} alt='account'
-                                         width={24} height={28}/>
+                                           width={24} height={28}/>
                                 </Link>
                             </div>
                             <div className={s.basket} onClick={() => setOpenWin(true)}>
-                                <Image src='/header/basket.png' alt='search' width={30} height={30} />
+                                <Image src='/header/basket.png' alt='search' width={30} height={30}/>
                                 {order.length !== 0 && <span className={s.goodsLength}>{order.length}</span>}
                             </div>
                         </div>
@@ -144,11 +192,45 @@ const Header = () => {
                             </div>
                         </div>
                         <ul className={s.boxMenuWrapper} id='boxManu'>
+                            <li className={s.dropdown + ' ' + s.less}>
+                                <button style={{display: 'flex', alignItems: 'center'}}
+                                    onClick={() => setToggleLang(prev => !prev)}>
+                                    <img src={`/header/flug/${locale}.svg`} alt="" className={s.flag} id='lang'/>
+                                    {
+                                        locale === 'uk' ? 'Українська' : locale === 'en' ? "English" : "Російська"
+                                    }
+                                    <Image src='/header/flug/arrow-down.svg' alt='arrow up' width={16} height={16}
+                                           className={s.imgArrowManu+' '+s.imgArrowManu2}/>
+                                </button>
+                                <div className={s.dropdown_content}>
+                                    <Link href='/' locale="uk" className={s.language_link}
+                                          style={locale === 'uk' ? {
+                                              backgroundColor: 'white',
+                                              color: '#d9d9d9'
+                                          } : undefined}>
+                                        <img src={"/header/flug/uk.svg"} alt="" className={s.flag}/>Українська
+                                    </Link>
+                                    <Link href='/' locale="en" className={s.language_link}
+                                          style={locale === 'en' ? {
+                                              backgroundColor: 'white',
+                                              color: '#d9d9d9'
+                                          } : undefined}>
+                                        <img src={"/header/flug/en.svg"} alt="" className={s.flag}/>English
+                                    </Link>
+                                    <Link href='/' locale="ru" className={s.language_link}
+                                          style={locale === 'ru' ? {
+                                              backgroundColor: 'white',
+                                              color: '#d9d9d9'
+                                          } : undefined}>
+                                        <img src={"/header/flug/ru.svg"} alt="" className={s.flag}/>Російська
+                                    </Link>
+                                </div>
+                            </li>
                             <li className={s.dropdown}>
                                 <button>
                                     Хімічні засоби для безконтактної мийки
                                     <Image src='/header/flug/arrow-down.svg' alt='arrow up' width={16} height={16}
-                                         className={s.imgArrowManu}/>
+                                           className={s.imgArrowManu}/>
                                 </button>
                                 <div className={s.dropdown_content}>
                                     <Link href="/" id='mozhna'>Активна піна для миття автомобіля</Link>
@@ -261,7 +343,8 @@ const Header = () => {
                                         <span><Link href="/" id='mozhna'>Кнопки</Link></span>
                                         <span><Link href="/" id='mozhna'>Сортувальні машини та аксесуари</Link></span>
                                         <span><Link href="/" id='mozhna'>Контролери PLC та аксесуари</Link></span>
-                                        <span><Link href="/" id='mozhna'>Трансформатори та джерела живлення</Link></span>
+                                        <span><Link href="/"
+                                                    id='mozhna'>Трансформатори та джерела живлення</Link></span>
                                         <span><Link href="/" id='mozhna'>Запобіжні пристрої</Link></span>
                                         <span><Link href="/" id='mozhna'>Дисплеї (LCD, LED)</Link></span>
                                     </li>
@@ -311,7 +394,8 @@ const Header = () => {
                                     </li>
                                     <li>
                                         <Link href="/" id='mozhna'>Очищення води</Link>
-                                        <span><Link href="/" id='mozhna'>Пляшки з пом'якшувачем і аксесуари</Link></span>
+                                        <span><Link href="/"
+                                                    id='mozhna'>Пляшки з пом'якшувачем і аксесуари</Link></span>
                                         <span><Link href="/" id='mozhna'>Фільтри та аксесуари</Link></span>
                                         <span><Link href="/" id='mozhna'>Головка пом'якшувача та аксесуари</Link></span>
                                         <span><Link href="/" id='mozhna'>Гідравліка водопідготовки</Link></span>
@@ -553,7 +637,7 @@ const Header = () => {
                         <div className={s.div_input2}>
                             <input placeholder="Пошук статті..." type="search" className={s.search2}/>
                             <button className={s.but_search2}>
-                                <Image src='/header/search.svg' alt='search' width={16} height={16} />
+                                <Image src='/header/search.svg' alt='search' width={16} height={16}/>
                             </button>
                         </div>
                     </div>
@@ -562,12 +646,12 @@ const Header = () => {
             <div className={s.div_goods2} id='goods' style={openWin ? {display: 'block'} : {display: 'none'}}>
                 <p onClick={() => setOpenWin(false)} className={s.close}>X</p>
                 {sum === 0 ? <p className={s.text}>
-                        <Image src='/header/basket-gray.png' alt='basket' width={40} height={40} />
+                        <Image src='/header/basket-gray.png' alt='basket' width={40} height={40}/>
                         Ваш кошик порожній</p>
                     : <div className={s.basket_items}>
                         <div className={s.basket_name}>
                             <p style={{height: 'fit-content'}}>
-                                <Image src='/header/registration.png' alt='registration' width={20} height={20} />
+                                <Image src='/header/registration.png' alt='registration' width={20} height={20}/>
                                 Кошик:
                             </p>
                         </div>
@@ -585,7 +669,8 @@ const Header = () => {
                                                        }/>
                                                 <div>
                                                     <p>{item.catalog_goods_content[0].title}</p>
-                                                    <p>{item.size} x <b style={{fontWeight: 700}}>{item.price} грн</b></p>
+                                                    <p>{item.size} x <b style={{fontWeight: 700}}>{item.price} грн</b>
+                                                    </p>
                                                 </div>
                                             </Link>
                                         </div>
