@@ -64,7 +64,7 @@ function NavProduct() {
 
     const filterFunction = (name, num, num2) => {
 
-        if(name === 'prise') {
+        if(name === 'price') {
             if(Number(priceFrom) > Number(priceTo)){
                 document.getElementById('priceTo').style.border = '1px solid red'
                 document.getElementById('priceFrom').style.border = '1px solid #DDDDDD'
@@ -81,7 +81,7 @@ function NavProduct() {
                 document.getElementById('priceTo').style.border = '1px solid red'
                 document.getElementById('priceFrom').style.border = '1px solid #DDDDDD'
             }
-            if (Number(priceFrom) === Number(priceTo)) {
+            else if (Number(priceFrom) === Number(priceTo)) {
                 document.getElementById('priceTo').style.border = '1px solid red'
                 document.getElementById('priceFrom').style.border = '1px solid #DDDDDD'
             }

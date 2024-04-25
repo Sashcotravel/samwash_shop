@@ -192,9 +192,7 @@ function Footer() {
                         </div>
                     </div>
                 </div>
-                <p className={s.rule}>© SAMWASH 2024. Усі права захищено На основі
-                    <Link href="https://www.comarchesklep.pl"> Comarch e-Sklep®</Link>
-                </p>
+                <p className={s.rule}>Copyright © 2023 SamWash Group. Всі права захищені.</p>
             </div>
         </footer>
     );
