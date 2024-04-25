@@ -116,6 +116,12 @@
     margin-right: 5px;
 }
 
+.flag {
+    transform: none!important;
+    width: 20px;
+    margin-right: 5px;
+}
+
 .language_link {
     text-decoration: none;
     color: #333;
