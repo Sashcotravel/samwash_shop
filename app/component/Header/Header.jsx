@@ -228,7 +228,8 @@ const Header = () => {
                             </li>
                             <li className={s.dropdown}>
                                 <button>
-                                    Хімічні засоби для безконтактної мийки
+                                    <Link href="/chemical-means" id='mozhna'>
+                                        Хімічні засоби для безконтактної мийки</Link>
                                     <Image src='/header/flug/arrow-down.svg' alt='arrow up' width={16} height={16}
                                            className={s.imgArrowManu}/>
                                 </button>

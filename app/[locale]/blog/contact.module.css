@@ -5,7 +5,7 @@
     padding-top: 30px;
 }
 
-.mainDiv h1{
+.mainDivH1{
     width: fit-content;
     text-transform: uppercase;
     font-weight: 700;
@@ -18,7 +18,7 @@
     gap: 5px;
 }
 
-.mainDiv h1:before{
+.mainDivH1:before{
     display: block;
     content: "";
     width: 50px;
@@ -30,7 +30,7 @@
     z-index: 2;
 }
 
-.mainDiv h1:after{
+.mainDivH1:after{
     display: block;
     content: "";
     width: 50px;

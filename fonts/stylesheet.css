@@ -7,7 +7,15 @@
 }
 
 @font-face {
-    font-family: Ubuntu Light;
+    font-family: 'Ubuntu Light';
+    src: url('Ubuntu-Light.ttf');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: Ubuntu;
     src: url('Ubuntu-Light.ttf');
     font-weight: normal;
     font-style: normal;

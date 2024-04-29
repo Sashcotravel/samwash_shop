@@ -12,17 +12,10 @@ import Link from "next-intl/link";
 const getData = ((locale, articleAll, setArticleAll, setResTrue) => {
     if (articleAll?.length === 0) {
         axios
-            .get(`https://cb.samwash.ua/api/v1/blog/ua?perPage=10000`)
-            // .get(`https://cb.samwash.ua/api/v1/blog/${locale === 'en' ? 'en' : locale === 'ru' ? 'ru' : 'ua'}?perPage=10000`)
+            .get(`https://cb.samwash.ua/api/v1/blog/${locale === 'en' ? 'en' : locale === 'ru' ? 'ru' : 'ua'}?perPage=10000`)
             .then(res => {
                 const data = res.data.data.data
-                let news = []
-                data.forEach(item => {
-                    if(item.type === 'news'){
-                        news.push(item)
-                    }
-                })
-                setArticleAll(news)
+                setArticleAll(data)
                 setResTrue(true)
             })
     }
@@ -150,7 +143,7 @@ function Contact() {
     return (
         <div className={s.mainDiv}>
 
-            <h1>
+            <h1 className={s.mainDivH1}>
                 <BiMapAlt/>
                 Новини
             </h1>
@@ -167,7 +160,7 @@ function Contact() {
                                 <h2>{item?.content[0]?.title}</h2>
                                 <time>{item?.start_date_time.replace(/-/g, ".").slice(0, 10)}</time>
                                 <p dangerouslySetInnerHTML={{__html: item?.content[0]?.description.slice(0, 160)}} />
-                                <Link href={`/news?news=${item.slug}`}>читати далі {' >>'}</Link>
+                                <Link href={`/article?article=${item.slug}`}>читати далі {' >>'}</Link>
                             </div>
                         )
                     })

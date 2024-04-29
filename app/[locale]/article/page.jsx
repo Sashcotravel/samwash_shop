@@ -15,16 +15,16 @@ const getData = ((id, locale, article, setArticleOne, setTreeBlock) => {
     if (article?.length === 0) {
         if (id !== undefined) {
             axios
-                .get(`https://cb.samwash.ua/api/v1/blog/ua/${id}`)
-                // .get(`https://cb.samwash.ua/api/v1/blog/${locale === "en" ? "en" : locale === "ru" ? "ru" : "ua"}/${id}`)
+                // .get(`https://cb.samwash.ua/api/v1/blog/ua/${id}`)
+                .get(`https://cb.samwash.ua/api/v1/blog/${locale === "en" ? "en" : locale === "ru" ? "ru" : "ua"}/${id}`)
                 .then(res => {
                     const data = res.data.data
                     setArticleOne(data)
                     window.scrollTo(0, 0)
                 })
             axios
-                .get(`https://cb.samwash.ua/api/v1/blog/ua?perPage=3`)
-                // .get(`https://cb.samwash.ua/api/v1/blog/${locale === "en" ? "en" : locale === "ru" ? "ru" : "ua"}?perPage=3`)
+                // .get(`https://cb.samwash.ua/api/v1/blog/ua?perPage=3`)
+                .get(`https://cb.samwash.ua/api/v1/blog/${locale === "en" ? "en" : locale === "ru" ? "ru" : "ua"}?perPage=3`)
                 .then(res => {
                     const data = res.data.data.data
                     setTreeBlock(data)
@@ -40,7 +40,7 @@ function NewsOnePage() {
     const t = useTranslations("blog");
     const locale = useLocale();
     const searchParams = useSearchParams()
-    let id = searchParams.get('news')
+    let id = searchParams.get('article')
     const [article, setArticleOne] = useState([])
     const [threeBlock, setTreeBlock] = useState([])
 
