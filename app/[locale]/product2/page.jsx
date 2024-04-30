@@ -3,8 +3,8 @@
 import Link from "next-intl/link";
 import {useEffect, useState} from "react";
 import s from './product.module.css';
-import NavProduct from "@/app/component/NavProduct/navProduct";
 import {AiOutlineHome} from "react-icons/ai";
+import NavProduct from "@/app/component/navProduct/navProduct";
 
 
 function Product() {
@@ -31,7 +31,7 @@ function Product() {
     return (
         <div className={s.mainDiv}>
 
-            <NavProduct/>
+            <NavProduct />
 
             <div className={s.divProduct}>
                 <div className={s.wrapper}>
