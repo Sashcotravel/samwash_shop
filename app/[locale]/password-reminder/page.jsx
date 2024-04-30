@@ -2,6 +2,7 @@
 
 import s from './login.module.css';
 import {useEffect, useState} from "react";
+import TopButton from "@/app/component/topButton/topButton";
 
 function Page() {
 
@@ -32,6 +33,9 @@ function Page() {
 
     return (
         <div className={s.main}>
+
+            <TopButton index={4} />
+
             {!open ? <div className={s.two_div}>
                 <h2>Відновлення пароля</h2>
                 <p className={s.pRem}>

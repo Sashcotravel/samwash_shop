@@ -3,6 +3,7 @@
 import s from './login.module.css';
 import {useEffect, useState} from "react";
 import Link from "next-intl/link";
+import TopButton from "@/app/component/topButton/topButton";
 
 function Login() {
 
@@ -59,6 +60,8 @@ function Login() {
 
     return (
         <div className={s.main}>
+
+            <TopButton index={4} />
 
             <div className={s.two_div}>
                 <h2>Авторизуватися</h2>

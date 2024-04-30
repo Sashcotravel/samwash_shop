@@ -14,6 +14,7 @@ import { AiOutlineClose } from "react-icons/ai";
 import { AiOutlineCheck } from "react-icons/ai";
 import { AiOutlinePaperClip } from "react-icons/ai";
 import Image from "next/image";
+import TopButton from "@/app/component/topButton/topButton";
 
 let arrFile = []
 
@@ -422,6 +423,8 @@ function Page() {
 
     return (
         <div className={s.main}>
+
+            <TopButton index={4} />
 
             <div className={s.div_goods}>
                 <div className={s.div_manu}>

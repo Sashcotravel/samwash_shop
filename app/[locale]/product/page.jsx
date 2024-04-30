@@ -6,6 +6,7 @@ import s from './product.module.css';
 import {AiOutlineHome} from "react-icons/ai";
 import Image from "next/image";
 import NavProduct2 from "@/app/component/navProduct2/navProduct2";
+import TopButton from "@/app/component/topButton/topButton";
 
 const arrChildCatalog = [
     {
@@ -95,6 +96,8 @@ function Product() {
 
     return (
         <div className={s.mainDiv}>
+
+            <TopButton index={4} />
 
             <NavProduct2 child={arrChildCatalog} back={'/product'} noFilter={true} />
 

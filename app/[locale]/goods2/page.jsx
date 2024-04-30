@@ -38,66 +38,85 @@ function Goods() {
     const addOrderStore = useStore(store => store.addOrder)
 
     useEffect(() => {
-        goodsArr.map(item => {
-            if (item.slug === pageUrl) {
-                setGoods(item)
-                item.imageShow.forEach((image, index) => {
-                    const newImage = {
-                        original: image,
-                        thumbnail: image,
-                        title: item.title,
-                        alt: item.title
-                    };
-                    setImages((prev) => {
-                        return [...prev, newImage]
-                    });
-                })
-                if (item.bread1 !== '') {
-                    setCurrentCatalog(item.bread1)
-                    setCurrentCatalog1(item.bread1)
-                    setCurrentCatalog2([])
-                    setCurrentCatalog3([])
-                    setCurrentCatalog4([])
-                    setCurrentCatalog5([])
-                    setCurrentCatalog6([])
-                    if (item.bread2 !== '') {
-                        setCurrentCatalog(item.bread2)
-                        setCurrentCatalog2(item.bread2)
-                        setCurrentCatalog3([])
-                        setCurrentCatalog4([])
-                        setCurrentCatalog5([])
-                        setCurrentCatalog6([])
-                        setCurrentCatalog5([])
-                        setCurrentCatalog6([])
-                        if (item.bread3 !== '') {
-                            setCurrentCatalog(item.bread3)
-                            setCurrentCatalog3(item.bread3)
-                            setCurrentCatalog4([])
-                            setCurrentCatalog5([])
-                            setCurrentCatalog6([])
-                            // res.data.forEach(item4 => {
-                            //     if (item3.parent_id === item4.id) {
-                            //         setCurrentCatalog4(item4)
-                            //         setCurrentCatalog5([])
-                            //         setCurrentCatalog6([])
-                            //         res.data.forEach(item5 => {
-                            //             if (item4.parent_id === item5.id) {
-                            //                 setCurrentCatalog5(item5)
-                            //                 setCurrentCatalog6([])
-                            //                 res.data.forEach(item6 => {
-                            //                     if (item5.parent_id === item6.id) {
-                            //                         setCurrentCatalog6(item6)
-                            //                     }
-                            //                 })
-                            //             }
-                            //         })
-                            //     }
-                            // })
-                        }
+        if(pageUrl){
+            // axios.get(`https://cb.samwash.ua/api/v1/goods/${locale === 'en' ? 'en' : locale === 'ru' ? 'ru' : 'ua'}/${pageUrl}`)
+            axios.get(`https://cb.samwash.ua/api/v1/goods/ua/${pageUrl}`)
+                .then(res => {
+                    let goods2 = res.data.data[0]
+                    setGoods(goods2)
+                    goods2.size = 1
+                    if (goods2.catalog_goods_images !== undefined) {
+                        goods2.catalog_goods_images.forEach((item, index) => {
+                            if (item.mime_type === "webp" && item.width === "1200") {
+                                const newImage = {
+                                    original: `https://cb.samwash.ua/storage/${goods2?.catalog_goods_images[index].path}`,
+                                    thumbnail: `https://cb.samwash.ua/storage/${goods2?.catalog_goods_images[index].path}`,
+                                    title: 'photo',
+                                    alt: 'photo'
+                                };
+                                setImages((prev) => {
+                                    return [...prev, newImage]
+                                });
+                            }
+                        })
                     }
-                }
-            }
-        })
+
+                    // console.log(goods2)
+
+                    fetch(`https://cb.samwash.ua/api/v1/catalog/ua`, {next: {revalidate: 60}})
+                        .then(response => response.json())
+                        .then(res => {
+                            res.data.map(item => {
+                                if(item.id === goods2.catalog_id){
+                                    setCurrentCatalog(item)
+                                    setCurrentCatalog1(item)
+                                    setCurrentCatalog2([])
+                                    setCurrentCatalog3([])
+                                    setCurrentCatalog4([])
+                                    setCurrentCatalog5([])
+                                    setCurrentCatalog6([])
+                                    res.data.forEach(item2 => {
+                                        if (item.parent_id === item2.id) {
+                                            setCurrentCatalog2(item2)
+                                            setCurrentCatalog3([])
+                                            setCurrentCatalog4([])
+                                            setCurrentCatalog5([])
+                                            setCurrentCatalog6([])
+                                            setCurrentCatalog5([])
+                                            setCurrentCatalog6([])
+                                            res.data.forEach(item3 => {
+                                                if (item2.parent_id === item3.id) {
+                                                    setCurrentCatalog3(item3)
+                                                    setCurrentCatalog4([])
+                                                    setCurrentCatalog5([])
+                                                    setCurrentCatalog6([])
+                                                    res.data.forEach(item4 => {
+                                                        if (item3.parent_id === item4.id) {
+                                                            setCurrentCatalog4(item4)
+                                                            setCurrentCatalog5([])
+                                                            setCurrentCatalog6([])
+                                                            res.data.forEach(item5 => {
+                                                                if (item4.parent_id === item5.id) {
+                                                                    setCurrentCatalog5(item5)
+                                                                    setCurrentCatalog6([])
+                                                                    res.data.forEach(item6 => {
+                                                                        if (item5.parent_id === item6.id) {
+                                                                            setCurrentCatalog6(item6)
+                                                                        }
+                                                                    })
+                                                                }
+                                                            })
+                                                        }
+                                                    })
+                                                }
+                                            })
+                                        }
+                                    })
+                                }
+                            })
+                        })
+                })
+        }
     }, [pageUrl])
 
     const style = {
@@ -141,31 +160,38 @@ function Goods() {
                             <li>
                                 <Link href='/product'> Продукти</Link>
                             </li>
-                            {currentCatalog1.length !== 0 && <li>
+                            {currentCatalog6.length !== 0 && <li>
                                 <Link
-                                    href={currentCatalog1.slug}> {currentCatalog1?.title}
+                                    href={`catalog?catalog=${currentCatalog6.slug}`}> {currentCatalog6?.catalog_content[0].title}
                                 </Link>
                             </li>}
-                            {currentCatalog2.length !== 0 && <li>
+                            {currentCatalog5.length !== 0 && <li>
                                 <Link
-                                    href={currentCatalog2.slug}> {currentCatalog2?.title}
+                                    href={`catalog?catalog=${currentCatalog5.slug}`}> {currentCatalog5?.catalog_content[0].title}
+                                </Link>
+                            </li>}
+                            {currentCatalog4.length !== 0 && <li>
+                                <Link
+                                    href={`catalog?catalog=${currentCatalog4.slug}`}> {currentCatalog4?.catalog_content[0].title}
                                 </Link>
                             </li>}
                             {currentCatalog3.length !== 0 && <li>
                                 <Link
-                                    href={currentCatalog3.slug}> {currentCatalog3?.title}
+                                    href={`catalog?catalog=${currentCatalog3.slug}`}> {currentCatalog3?.catalog_content[0].title}
                                 </Link>
                             </li>}
-                            {currentCatalog4.length !== 0 && <li>
-                                <Link href={currentCatalog4.slug}> {currentCatalog4?.title}</Link></li>}
-                            {currentCatalog5.length !== 0 && <li>
-                                <Link href={currentCatalog5.slug}> {currentCatalog5?.title}</Link></li>}
-                            {currentCatalog5.length !== 0 && <li>
-                                <Link href={currentCatalog5.slug}> {currentCatalog5?.title}</Link></li>}
-                            {currentCatalog6.length !== 0 && <li>
-                                <Link href={currentCatalog6.slug}> {currentCatalog6?.title}</Link></li>}
+                            {currentCatalog2.length !== 0 && <li>
+                                <Link
+                                    href={`catalog?catalog=${currentCatalog2.slug}`}> {currentCatalog2?.catalog_content[0].title}
+                                </Link>
+                            </li>}
+                            {currentCatalog1.length !== 0 && <li>
+                                <Link
+                                    href={`catalog?catalog=${currentCatalog1.slug}`}> {currentCatalog1?.catalog_content[0].title}
+                                </Link>
+                            </li>}
                             <li>
-                                <span>{goods.title}</span>
+                                <span>{goods.catalog_goods_content[0].title}</span>
                             </li>
                         </ul>
                     </div>
@@ -173,10 +199,10 @@ function Goods() {
 
                 <div>
                     <div className={s.divGoods}>
-                        <h1>{goods.title}</h1>
+                        <h1>{goods.catalog_goods_content[0].title}</h1>
                         <div className={s.divColumn1}>
                             {
-                                goods.length === 0 ?
+                                goods.catalog_goods_images.length === 0 ?
                                     <Image fill className={s.imgNo} src='/other/no-image.svg' alt='no image'/>
                                     : <ImageGallery lazyLoad={true}
                                                     thumbnailPosition={'left'}
@@ -190,32 +216,19 @@ function Goods() {
                             }
                         </div>
                         <div className={s.divColumn2}>
-                            <p style={{marginBottom: '10px'}}>Код товару: <b>{goods.code}</b></p>
-                            {goods.newPrice && <div className={s.divOldPrice}>
-                                <del>
-                                    <span>{goods.price} доларів</span>
-                                </del>
-                            </div>}
-                            {goods.newPrice && <div className={s.divOldPrice2}>
-                                <del>
-                                    <span><b>{goods.price} доларів</b> </span>
-                                </del>
-                            </div>}
+                            <p>Код товару: <b>{goods.goods_code}</b></p>
                             <div className={s.divPriceNet}>
-                                <span>{!goods.newPrice ? goods.price : goods.newPrice} </span>
+                                <span>{goods.price} </span>
                                 <span> доларів </span>
                                 <span> чистий</span>
                             </div>
                             <div className={s.divPriceBrutto}>
-                                <span><b>{!goods.newPrice ? goods.price : goods.newPrice}</b> </span>
+                                <span><b>{goods.price}</b> </span>
                                 <span> <b>доларів</b> </span>
                                 <span> <b>брутто</b></span>
                             </div>
-                            {goods.descriptionPrise && <div className={s.divOldPrice2}>
-                                <span>{goods.descriptionPrise}</span>
-                            </div>}
                             <div className={s.divDescGoods}>
-                                {goods.descriptionMin}
+                                {goods.catalog_goods_content[0].description.slice(3, -4)}
                             </div>
                             <div className={s.divAdd}>
                                 <div className={s.div_col + ' ' + s.div_col2}>
@@ -245,11 +258,11 @@ function Goods() {
                                     </li>
                                     <li>
                                         <p>Ваги</p>
-                                        <p>{goods?.weight} кг</p>
+                                        <p>0,33 кг</p>
                                     </li>
                                     <li>
                                         <p>Штриховий код</p>
-                                        <p>{goods.code}</p>
+                                        <p>{goods.goods_code}</p>
                                     </li>
                                     <li>
                                         <p>ID</p>
@@ -260,15 +273,15 @@ function Goods() {
                         </div>
                     </div>
                     <div className={s.divDesc}>
-                        <MdOutlineDescription/>
+                        <MdOutlineDescription />
                         <span>Опис продукту</span>
                     </div>
                     <div className={s.divDesc2}>
                         <h3><b>Опис продукту</b></h3>
-                        <h4><b>Ім'я:</b> {goods.title}</h4>
-                        <h4><b>Код:</b> {goods.code}</h4>
-                        <p dangerouslySetInnerHTML={{
-                            __html: goods.descriptionFull}}></p>
+                        <h4><b>Ім'я:</b> {goods.catalog_goods_content[0].title}</h4>
+                        <h4><b>Код:</b> {goods.goods_code}</h4>
+                        <p>{goods.catalog_goods_content[0].description.slice(3, -4)}</p>
+                        <p>Код виробника: {goods.producer}</p>
                     </div>
                 </div>
 

@@ -128,19 +128,6 @@
     color: #404040;
 }
 
-.divOldPrice{
-    font-size: 14px;
-    text-align: left;
-    color: #404040;
-    position: absolute;
-}
-
-.divOldPrice2{
-    font-size: 14px;
-    text-align: right;
-    color: #404040;
-}
-
 .divDescGoods{
     margin: 10px 0;
     padding: 20px 0;
@@ -472,10 +459,9 @@
 }
 
 .divDesc2 p{
-    line-height: 1.5em;
     color: #8E8E8E;
     font-size: 14px;
-    margin: 0.2rem 0;
+    margin: 1rem 0;
 }
 
 

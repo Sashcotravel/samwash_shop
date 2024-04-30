@@ -9,6 +9,7 @@ import Link from "next-intl/link";
 import Image from "next/image";
 import {Fancybox} from "@fancyapps/ui";
 import "@fancyapps/ui/dist/fancybox/fancybox.css";
+import TopButton from "@/app/component/topButton/topButton";
 
 
 const getData = ((id, locale, article, setArticleOne, setTreeBlock) => {
@@ -56,6 +57,8 @@ function NewsOnePage() {
 
     return (
         <div style={{overflow: 'hidden'}}>
+
+            <TopButton index={4} />
 
             {article.length !== 0 ? <>
 

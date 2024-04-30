@@ -12,6 +12,7 @@ import {AiOutlineClose} from "react-icons/ai";
 import {AiOutlineCheck} from "react-icons/ai";
 import {FaBasketShopping} from "react-icons/fa6";
 import NavProduct from "@/app/component/navProduct/navProduct";
+import TopButton from "@/app/component/topButton/topButton";
 
 
 const fetchAPI = (setAllCatalog) => {
@@ -204,6 +205,8 @@ function Product2() {
 
     return (
         <div className={s.mainDiv}>
+
+            <TopButton index={4} />
 
             <NavProduct />
 

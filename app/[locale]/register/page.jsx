@@ -4,6 +4,7 @@ import s from './register.module.css';
 import {useEffect, useState} from "react";
 import '../page.css'
 import Link from "next-intl/link";
+import TopButton from "@/app/component/topButton/topButton";
 
 
 function Page() {
@@ -321,6 +322,8 @@ function Page() {
 
     return (
         <div className={s.main}>
+
+            <TopButton index={4} />
 
             <div className={s.two_div}>
                 <h2>Зареєструватися</h2>

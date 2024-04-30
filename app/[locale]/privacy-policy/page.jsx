@@ -1,10 +1,13 @@
 import s from './payment.module.css';
 import Link from "next-intl/link";
+import TopButton from "@/app/component/topButton/topButton";
 
 
 function WithdrawalForm() {
     return (
         <div className={s.divMain}>
+
+            <TopButton index={4} />
 
             <div className={s.divRedLine}>
                 <span>Політика конфіденційності</span> <br/>

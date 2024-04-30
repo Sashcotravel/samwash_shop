@@ -12,6 +12,7 @@ import {AiOutlineClose} from "react-icons/ai";
 import {AiOutlineCheck} from "react-icons/ai";
 import {FaBasketShopping} from "react-icons/fa6";
 import NavProduct2 from "@/app/component/navProduct2/navProduct2";
+import TopButton from "@/app/component/topButton/topButton";
 
 const arrGoods = [
     {
@@ -333,6 +334,8 @@ function ChemicalMeans() {
 
     return (
         <div className={s.mainDiv}>
+
+            <TopButton index={4} />
 
             <NavProduct2 child={arrChildCatalog} back={'/product'}/>
 

@@ -7,6 +7,7 @@ import axios from "axios";
 import {useLocale, useTranslations} from "next-intl";
 import {usePathname, useRouter, useSearchParams} from "next/navigation";
 import Link from "next-intl/link";
+import TopButton from "@/app/component/topButton/topButton";
 
 
 const getData = ((locale, articleAll, setArticleAll, setResTrue) => {
@@ -142,6 +143,8 @@ function Contact() {
 
     return (
         <div className={s.mainDiv}>
+
+            <TopButton index={4} />
 
             <h1 className={s.mainDivH1}>
                 <BiMapAlt/>

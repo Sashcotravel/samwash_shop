@@ -5,6 +5,7 @@ import {useEffect, useState} from "react";
 import s from './product.module.css';
 import {AiOutlineHome} from "react-icons/ai";
 import NavProduct from "@/app/component/navProduct/navProduct";
+import TopButton from "@/app/component/topButton/topButton";
 
 
 function Product() {
@@ -30,6 +31,8 @@ function Product() {
 
     return (
         <div className={s.mainDiv}>
+
+            <TopButton index={4} />
 
             <NavProduct />
 

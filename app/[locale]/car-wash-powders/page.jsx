@@ -11,6 +11,7 @@ import {AiOutlineClose} from "react-icons/ai";
 import {AiOutlineCheck} from "react-icons/ai";
 import {FaBasketShopping} from "react-icons/fa6";
 import NavProduct2 from "@/app/component/navProduct2/navProduct2";
+import TopButton from "@/app/component/topButton/topButton";
 
 const arrGoods = [
     {
@@ -23,7 +24,10 @@ const arrGoods = [
         slug: 'goods7',
         img: '/chemical-means/7.jpg',
         descriptionPrise: 'Найнижча ціна за 30 днів до знижки: 1192,00 доларів',
-        description: ''
+        description: '',
+        bread1: '/chemical-means',
+        bread2: '/active-foam',
+        bread3: '',
     },
     {
         id: '11',
@@ -35,7 +39,10 @@ const arrGoods = [
         slug: 'goods11',
         img: '/chemical-means/9.jpg',
         descriptionPrise: 'Найнижча ціна за 30 днів до знижки: 319,92 доларів',
-        description: ''
+        description: '',
+        bread1: '/chemical-means',
+        bread2: '/car-wash-powders',
+        bread3: '',
     },
     {
         id: '12',
@@ -47,7 +54,10 @@ const arrGoods = [
         slug: 'goods12',
         img: '/chemical-means/10.jpg',
         descriptionPrise: '',
-        description: ''
+        description: '',
+        bread1: '/chemical-means',
+        bread2: '/car-wash-powders',
+        bread3: '',
     },
     {
         id: '13',
@@ -59,7 +69,10 @@ const arrGoods = [
         slug: 'goods13',
         img: '/chemical-means/11.jpg',
         descriptionPrise: '',
-        description: ''
+        description: '',
+        bread1: '/chemical-means',
+        bread2: '/car-wash-powders',
+        bread3: '',
     },
     {
         id: '14',
@@ -71,7 +84,10 @@ const arrGoods = [
         slug: 'goods14',
         img: '/chemical-means/12.jpg',
         descriptionPrise: 'Найнижча ціна за 30 днів до знижки: 474,73 злотих',
-        description: ''
+        description: '',
+        bread1: '/chemical-means',
+        bread2: '/car-wash-powders',
+        bread3: '',
     },
     {
         id: '15',
@@ -83,7 +99,10 @@ const arrGoods = [
         slug: 'goods15',
         img: '/chemical-means/13.jpg',
         descriptionPrise: '',
-        description: ''
+        description: '',
+        bread1: '/chemical-means',
+        bread2: '/car-wash-powders',
+        bread3: '',
     },
 ]
 
@@ -161,6 +180,8 @@ function Powders() {
 
     return (
         <div className={s.mainDiv}>
+
+            <TopButton index={4} />
 
             <NavProduct2 back={'/chemical-means'}/>
 

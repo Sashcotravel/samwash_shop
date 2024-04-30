@@ -2,12 +2,15 @@ import s from './payment.module.css';
 import {TfiHeadphoneAlt} from "react-icons/tfi";
 import {GiSmartphone} from "react-icons/gi";
 import {CgMail} from "react-icons/cg";
+import TopButton from "@/app/component/topButton/topButton";
 
 
 
 function DeliveryOfGoods() {
     return (
         <div className={s.divMain}>
+
+            <TopButton index={4} />
 
             <div className={s.divRedLine}>
                 <span>Умови поставки</span> <br/>

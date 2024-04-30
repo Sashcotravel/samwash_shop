@@ -9,6 +9,7 @@ import {BiLocationPlus} from "react-icons/bi";
 import { GiSmartphone } from "react-icons/gi";
 import { TfiHeadphoneAlt } from "react-icons/tfi";
 import {useEffect, useState} from "react";
+import TopButton from "@/app/component/topButton/topButton";
 
 
 function Contact() {
@@ -75,6 +76,8 @@ function Contact() {
 
     return (
         <div className={s.mainDiv}>
+
+            <TopButton index={4} />
 
             <h1>
                 <BiMapAlt/>

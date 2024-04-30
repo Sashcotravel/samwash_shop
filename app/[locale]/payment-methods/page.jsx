@@ -1,10 +1,13 @@
 import s from './payment.module.css';
+import TopButton from "@/app/component/topButton/topButton";
 
 
 
 function PaymentMethods() {
     return (
         <div className={s.divMain}>
+
+            <TopButton index={4} />
 
             <div className={s.divRedLine}>
                 <span>Оплата</span> <br/>

@@ -11,6 +11,7 @@ import {AiOutlineClose} from "react-icons/ai";
 import {AiOutlineCheck} from "react-icons/ai";
 import {FaBasketShopping} from "react-icons/fa6";
 import NavProduct2 from "@/app/component/navProduct2/navProduct2";
+import TopButton from "@/app/component/topButton/topButton";
 
 const arrGoods = [
     {
@@ -23,7 +24,10 @@ const arrGoods = [
         slug: 'goods6',
         img: '/chemical-means/6.jpg',
         descriptionPrise: 'Найнижча ціна за 30 днів до знижки: 1201,00 доларів',
-        description: ''
+        description: '',
+        bread1: '/chemical-means',
+        bread2: '/active-foam',
+        bread3: '',
     },
     {
         id: '17',
@@ -35,7 +39,10 @@ const arrGoods = [
         slug: 'goods17',
         img: '/chemical-means/15.jpg',
         descriptionPrise: '',
-        description: ''
+        description: '',
+        bread1: '/chemical-means',
+        bread2: '/car-wash-shampoos',
+        bread3: '',
     },
     {
         id: '18',
@@ -47,7 +54,10 @@ const arrGoods = [
         slug: 'goods18',
         img: '/chemical-means/16.jpg',
         descriptionPrise: '',
-        description: ''
+        description: '',
+        bread1: '/chemical-means',
+        bread2: '/car-wash-shampoos',
+        bread3: '',
     },
 ]
 
@@ -124,6 +134,8 @@ function Powders() {
 
     return (
         <div className={s.mainDiv}>
+
+            <TopButton index={4} />
 
             <NavProduct2 back={'/chemical-means'}/>
 
