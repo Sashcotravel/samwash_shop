@@ -243,10 +243,10 @@ function Goods() {
                                         <p>ПДВ</p>
                                         <p>23%</p>
                                     </li>
-                                    <li>
+                                    {goods?.weight && <li>
                                         <p>Ваги</p>
                                         <p>{goods?.weight} кг</p>
-                                    </li>
+                                    </li>}
                                     <li>
                                         <p>Штриховий код</p>
                                         <p>{goods.code}</p>
