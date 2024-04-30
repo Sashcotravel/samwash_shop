@@ -7,13 +7,13 @@ import axios from "axios";
 import Link from "next-intl/link";
 import Image from "next/image";
 import {useStore} from "@/store/store";
-import Loading from "@/app/component/LOading/loading";
 import {FaBasketShopping} from "react-icons/fa6";
 import { MdOutlineDescription } from "react-icons/md";
 import {AiOutlineCheck, AiOutlineClose, AiOutlineHome} from "react-icons/ai";
 
 import ImageGallery from 'react-image-gallery';
 import 'react-image-gallery/styles/css/image-gallery.css'
+import Loading from "@/app/component/loading/loading";
 
 
 function Goods() {

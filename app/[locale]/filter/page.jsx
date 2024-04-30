@@ -3,9 +3,9 @@
 import {useState} from "react";
 import s from './filter.module.css';
 import Image from "next/image";
-import Card from "@/app/component/Card/card";
-import Label from "@/app/component/Label/label";
 import products from '../../db/data'
+import Label from "@/app/component/label/label";
+import Card from "@/app/component/card/card";
 
 function Page() {
 

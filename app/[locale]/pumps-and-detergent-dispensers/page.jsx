@@ -230,20 +230,32 @@ const arrGoods = [
 
 const arrChildCatalog = [
     {
-        slug: '/active-foam',
-        title: 'Активна піна для миття автомобіля'
+        slug: '/mixrite-dispenser',
+        title: 'Дозатор Mixrite'
     },
     {
-        slug: '/car-wash-powders',
-        title: 'Порошки для миття автомобіля'
+        slug: '/dosatron',
+        title: 'Дозатрони'
     },
     {
-        slug: '/car-wash-shampoos',
-        title: 'Шампуні для миття автомобіля'
+        slug: '/SEKO-EVO-series-pumps',
+        title: 'Насоси SEKO серії EVO'
     },
     {
-        slug: '/car-wash-waxes',
-        title: 'Воски для миття автомобіля'
+        slug: '/DOSATRON-repair-kits',
+        title: 'Ремкомплекти DOSATRON'
+    },
+    {
+        slug: '/MIXRITE-repair-kits',
+        title: 'Ремкомплекти MIXRITE'
+    },
+    {
+        slug: '/SEKO-EVO-repair-kits',
+        title: 'Ремкомплекти SEKO EVO'
+    },
+    {
+        slug: '/SEKO-KOMPACT-repair-kits',
+        title: 'Ремкомплекти SEKO KOMPACT'
     },
 ]
 
@@ -322,7 +334,7 @@ function ChemicalMeans() {
     return (
         <div className={s.mainDiv}>
 
-            <NavProduct2 child={arrChildCatalog} back={'/product'} />
+            <NavProduct2 child={arrChildCatalog} back={'/product'}/>
 
             {/*    <h2 className='loadingMainDiv'>Товарів не знайдено</h2>*/}
 
@@ -341,18 +353,18 @@ function ChemicalMeans() {
                                     <Link href='/product'> Продукти</Link>
                                 </li>
                                 <li>
-                                    <span> Хімічні засоби для безконтактної мийки</span>
+                                    <span> Насоси та дозатори миючих засобів</span>
                                 </li>
                             </ul>
                         </div>
                     </div>
 
-                    <h1>Хімічні засоби для безконтактної мийки</h1>
+                    <h1>Насоси та дозатори миючих засобів</h1>
                     <div>
-                        Вам цікаво, якими мають бути найкращі продукти для безконтактної мийки? Ми не сумніваємося, що
-                        найважливішою особливістю є їх ефективність. Наш інтернет-магазин пропонує широкий вибір
-                        різноманітних високоефективних препаратів. Вони безпечні для фарби та ефективно зберігають
-                        кузов, запобігаючи подальшому накопиченню бруду та полегшуючи миття автомобіля в майбутньому.
+                        Насоси-дозатори та дозатори миючих засобів є основою обладнання кожної автомийки. Кузов
+                        автомобіля можна лише ретельно вимити відповідними хімічними засобами, але однієї води
+                        недостатньо. Інструменти, доступні в цій категорії, полегшать вашим клієнтам щоденне
+                        використання автомийок, а вам заощадять на споживанні миючих засобів.
                     </div>
 
                     <ul className={s.ulCategory}>
@@ -583,7 +595,7 @@ function ChemicalMeans() {
 
             {open && <div className={s.divPopUp}>
                 <div className={s.popUpBlock}>
-                <button onClick={() => setOpen(false)} className={s.butClose}>
+                    <button onClick={() => setOpen(false)} className={s.butClose}>
                         <AiOutlineClose/>
                     </button>
                     <div className={s.firstDiv}>

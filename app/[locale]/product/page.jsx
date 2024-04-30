@@ -53,12 +53,32 @@ const arrChildCatalog = [
         img: '/pump/main.jpg',
         child: [
             {
-                slug: '/electromagnetic-valves',
-                title: 'Електромагнітні клапани'
+                slug: '/mixrite-dispenser',
+                title: 'Дозатор Mixrite'
             },
             {
-                slug: '/repair-kits-of-electromagnetic-valves',
-                title: 'Ремкомплекти електромагнітних клапанів'
+                slug: '/dosatron',
+                title: 'Дозатрони'
+            },
+            {
+                slug: '/SEKO-EVO-series-pumps',
+                title: 'Насоси SEKO серії EVO'
+            },
+            {
+                slug: '/DOSATRON-repair-kits',
+                title: 'Ремкомплекти DOSATRON'
+            },
+            {
+                slug: '/MIXRITE-repair-kits',
+                title: 'Ремкомплекти MIXRITE'
+            },
+            {
+                slug: '/SEKO-EVO-repair-kits',
+                title: 'Ремкомплекти SEKO EVO'
+            },
+            {
+                slug: '/SEKO-KOMPACT-repair-kits',
+                title: 'Ремкомплекти SEKO KOMPACT'
             },
         ]
     },
