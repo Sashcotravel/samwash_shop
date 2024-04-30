@@ -3,15 +3,14 @@
 import {useEffect, useRef, useState} from 'react';
 import s from './main.module.css'
 import './page.css'
-import {useStore} from "../../store/store.js";
 import {Swiper, SwiperSlide} from 'swiper/react';
 import {Autoplay, Pagination, Navigation} from 'swiper/modules';
 import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
-import TopButton from "../component/TopButton/topButton.jsx";
 import Link from "next-intl/link";
 import Image from "next/image";
+import TopButton from "@/app/component/topButton/topButton";
 
 
 const MainPage = () => {

@@ -4,11 +4,11 @@ import "./globals.css";
 import './page.css'
 import emailjs from "@emailjs/browser";
 import {NextIntlClientProvider} from "next-intl";
-import Header from "@/app/component/Header/header";
-import Footer from "@/app/component/Footer/footer";
 import Head from "@/app/[locale]/head";
-import Basket from "@/app/component/Basket/basket";
 import Link from "next-intl/link";
+import Header from "@/app/component/header/header";
+import Basket from "@/app/component/basket/basket";
+import Footer from "@/app/component/footer/footer";
 
 
 export function generateStaticParams() {

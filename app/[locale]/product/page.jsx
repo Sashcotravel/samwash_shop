@@ -3,7 +3,6 @@
 import Link from "next-intl/link";
 import {useEffect, useState} from "react";
 import s from './product.module.css';
-import NavProduct from "@/app/component/NavProduct/navProduct";
 import {AiOutlineHome} from "react-icons/ai";
 import Image from "next/image";
 import NavProduct2 from "@/app/component/navProduct2/navProduct2";
