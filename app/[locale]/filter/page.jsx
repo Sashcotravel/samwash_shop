@@ -3,8 +3,8 @@
 import {useState} from "react";
 import s from './filter.module.css';
 import Image from "next/image";
-import Card from "@/app/component/Card/Card";
-import Label from "@/app/component/Label/Label";
+import Card from "@/app/component/Card/card";
+import Label from "@/app/component/Label/label";
 import products from '../../db/data'
 
 function Page() {

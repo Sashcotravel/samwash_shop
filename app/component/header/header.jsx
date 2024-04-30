@@ -234,26 +234,29 @@ const Header = () => {
                                            className={s.imgArrowManu}/>
                                 </button>
                                 <div className={s.dropdown_content}>
-                                    <Link href="/" id='mozhna'>Активна піна для миття автомобіля</Link>
-                                    <Link href="/" id='mozhna'>Порошки для миття автомобіля</Link>
-                                    <Link href="/" id='mozhna'>Шампуні для миття автомобіля</Link>
-                                    <Link href="/" id='mozhna'>Воски для миття автомобіля</Link>
+                                    <Link href="/active-foam" id='mozhna'>Активна піна для миття автомобіля</Link>
+                                    <Link href="/car-wash-powders" id='mozhna'>Порошки для миття автомобіля</Link>
+                                    <Link href="/car-wash-shampoos" id='mozhna'>Шампуні для миття автомобіля</Link>
+                                    <Link href="/car-wash-waxes" id='mozhna'>Воски для миття автомобіля</Link>
                                 </div>
                             </li>
                             <li className={s.dropdown}>
                                 <button>
-                                    Електромагнітні клапани та ремкомплекти
+                                    <Link href="/electromagnetic-valves-and-repair-kits" id='mozhna'>
+                                        Електромагнітні клапани та ремкомплекти</Link>
                                     <Image src='/header/flug/arrow-down.svg' alt='arrow up' width={16} height={16}
                                            className={s.imgArrowManu}/>
                                 </button>
                                 <div className={s.dropdown_content}>
-                                    <Link href="/" id='mozhna'>Електромагнітні клапани</Link>
-                                    <Link href="/" id='mozhna'>Ремкомплекти електромагнітних клапанів</Link>
+                                    <Link href="/electromagnetic-valves" id='mozhna'>Електромагнітні клапани</Link>
+                                    <Link href="/repair-kits-of-electromagnetic-valves" id='mozhna'>
+                                        Ремкомплекти електромагнітних клапанів</Link>
                                 </div>
                             </li>
                             <li className={s.dropdown}>
                                 <button>
-                                    Насоси та дозатори миючих засобів
+                                    <Link href="/pumps-and-detergent-dispensers" id='mozhna'>
+                                        Насоси та дозатори миючих засобів</Link>
                                     <Image src='/header/flug/arrow-down.svg' alt='arrow up' width={16} height={16}
                                            className={s.imgArrowManu}/>
                                 </button>
@@ -662,16 +665,24 @@ const Header = () => {
                                     // console.log(item)
                                     return (
                                         <div key={index}>
-                                            <Link href={'/product/' + item.slug}>
-                                                <Image alt={item?.catalog_goods_content[0]?.title}
-                                                       width={200} height={200}
-                                                       src={item.catalog_goods_images.length === 0 ? '/other/noImage.jpg'
-                                                           : 'https://cb.samwash.ua/storage/' + item.catalog_goods_images[2].path
-                                                       }/>
+                                            {/*<Link href={'/product/' + item.slug}>*/}
+                                            {/*    <Image alt={item?.catalog_goods_content[0]?.title}*/}
+                                            {/*           width={200} height={200}*/}
+                                            {/*           src={item.catalog_goods_images.length === 0 ? '/other/noImage.jpg'*/}
+                                            {/*               : 'https://cb.samwash.ua/storage/' + item.catalog_goods_images[2].path*/}
+                                            {/*           }/>*/}
+                                            {/*    <div>*/}
+                                            {/*        <p>{item.catalog_goods_content[0].title}</p>*/}
+                                            {/*        <p>{item.size} x <b style={{fontWeight: 700}}>{item.price} грн</b>*/}
+                                            {/*        </p>*/}
+                                            {/*    </div>*/}
+                                            {/*</Link>*/}
+                                            <Link href={'/goods?goods=' + item.slug}>
+                                                <Image alt={item.title} width={200} height={200}
+                                                       src={item.img.length === 0 ? '/other/noImage.jpg' : item.img}/>
                                                 <div>
-                                                    <p>{item.catalog_goods_content[0].title}</p>
-                                                    <p>{item.size} x <b style={{fontWeight: 700}}>{item.price} грн</b>
-                                                    </p>
+                                                    <p>{item.title}</p>
+                                                    <p>{item.size} x <b style={{fontWeight: 700}}>{item.price} грн</b></p>
                                                 </div>
                                             </Link>
                                         </div>

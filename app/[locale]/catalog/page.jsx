@@ -3,7 +3,7 @@
 import Link from "next-intl/link";
 import {useEffect, useState} from "react";
 import s from './catalog.module.css';
-import NavProduct from "@/app/component/NavProduct/NavProduct";
+import NavProduct from "@/app/component/NavProduct/navProduct";
 import {AiOutlineHome} from "react-icons/ai";
 import {usePathname, useRouter, useSearchParams} from "next/navigation";
 import {useTranslations} from "next-intl";
@@ -12,7 +12,7 @@ import Image from "next/image";
 import {AiOutlineClose} from "react-icons/ai";
 import {AiOutlineCheck} from "react-icons/ai";
 import {FaBasketShopping} from "react-icons/fa6";
-import Loading from "@/app/component/LOading/Loading";
+import Loading from "@/app/component/LOading/loading";
 
 
 const fetchAPI = (setAllCatalog) => {

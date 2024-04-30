@@ -9,7 +9,7 @@ import {Autoplay, Pagination, Navigation} from 'swiper/modules';
 import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
-import TopButton from "../component/TopButton/TopButton.jsx";
+import TopButton from "../component/TopButton/topButton.jsx";
 import Link from "next-intl/link";
 import Image from "next/image";
 

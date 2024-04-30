@@ -447,16 +447,20 @@ function Page() {
                                 </div>
                                 <div className={s.num_item}>{index + 1}</div>
                                 <div className={s.item_goods_name + ' ' + s.item_div}>
-                                    <Link href={'/product/' + item.slug}>
+                                    <Link href={'/goods?goods=' + item.slug}>
+                                    {/*<Link href={'/product/' + item.slug}>*/}
                                         <div className={s.item_img}>
-                                            <Image alt={item.catalog_goods_content[0].title}
-                                                   width={200} height={200}
-                                                   src={item.catalog_goods_images.length === 0 ? '/other/noImage.jpg'
-                                                       : 'https://cb.samwash.ua/storage/' + item.catalog_goods_images[2].path
-                                                   }/>
+                                            <Image alt={item.title} width={200} height={200}
+                                                   src={item.img.length === 0 ? '/other/noImage.jpg' : item.img}/>
+                                            {/*<Image alt={item.catalog_goods_content[0].title}*/}
+                                            {/*       width={200} height={200}*/}
+                                            {/*       src={item.catalog_goods_images.length === 0 ? '/other/noImage.jpg'*/}
+                                            {/*           : 'https://cb.samwash.ua/storage/' + item.catalog_goods_images[2].path*/}
+                                            {/*       }/>*/}
                                         </div>
                                         <div className={s.item_name_text}>
-                                            <h3><b>{item.catalog_goods_content[0].title}</b></h3>
+                                            <h3><b>{item.title}</b></h3>
+                                            {/*<h3><b>{item.catalog_goods_content[0].title}</b></h3>*/}
                                         </div>
                                     </Link>
                                 </div>

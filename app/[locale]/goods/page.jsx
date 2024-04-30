@@ -7,7 +7,7 @@ import axios from "axios";
 import Link from "next-intl/link";
 import Image from "next/image";
 import {useStore} from "@/store/store";
-import Loading from "@/app/component/LOading/Loading";
+import Loading from "@/app/component/LOading/loading";
 import {FaBasketShopping} from "react-icons/fa6";
 import { MdOutlineDescription } from "react-icons/md";
 import {AiOutlineCheck, AiOutlineClose, AiOutlineHome} from "react-icons/ai";

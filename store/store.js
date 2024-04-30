@@ -17,7 +17,7 @@ const store = (
                         }
                         return goods;
                     }),
-                    sum: store.sum + item.price
+                    sum: (Number(store.sum) + Number(item.price)).toFixed(2)
                 }))},
             minesCount: (item) => {set((store) => ({
                     order: store.order.map((goods) => {
@@ -28,7 +28,7 @@ const store = (
                         }
                         return goods;
                     }),
-                    sum: store.sum - item.price
+                    sum: (Number(store.sum) - Number(item.price)).toFixed(2)
                 }))},
             deleteGoods: (id, item) => {set((store) => ({
                     order: store.order.filter((goods) => goods.id !== id),
@@ -41,7 +41,7 @@ const store = (
                     if (!isItemExist) {
                         return {
                             order: [...store.order, item],
-                            sum: store.sum + item.price * item.size
+                            sum: Number(store.sum) + Number(item.price) * item.size
                         };
                     } else {
                         return {
@@ -55,7 +55,7 @@ const store = (
                                     return goods;
                                 }
                             }),
-                            sum: store.sum + item.price * item.size
+                            sum: Number(store.sum) + Number(item.price) * item.size
                         };
                     }
                 })
