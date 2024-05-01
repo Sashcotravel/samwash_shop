@@ -1448,6 +1448,26 @@ export const goodsArr = [
             title: 'Дозатрони',
         },
         bread3: '',
+        descriptionMin: 'Дозатрон (D3RE2AF 0,2-2% AF)',
+        weight: '1,986',
+        imageShow: ['/pump/3.jpg', '/pump/image1.jpg'],
+        descriptionFull: `
+        <p>Дозатор Dosatron D3RE2AF 0,2-2% у версії AF має посилені ущільнювачі, тому рекомендований для більш 
+        агресивних хімікатів. На автомийках SamWash Group використовується, зокрема, у програмах «Попереднє
+         розпилення» та «Мийка дисків».</p><br/><br/>
+        <p>Витрата 10 л/год - 3 м3/год</p><br/>
+        <p>Тип дозатора Пропорційний</p><br/>
+        <p>Вбудована вентиляція</p><br/>
+        <p>З'єднання 2 x 3/4" M</p><br/>
+        <p>Робочий тиск 0,3 - 6 Бар</p><br/>
+        <p>Втрата тиску 0,2 – 2,3 бар</p><br/>
+        <p>Введена кількість препарату 0,02 - 60 л/год</p><br/>
+        <p>Значення дозування (регульоване) 0,2 - 2%</p><br/>
+        <p>Температура води 5 - 40°C</p><br/>
+        <p>Точність дозування +/- 10%</p><br/>
+        <p>Повторюваність +/- 3%</p><br/>
+        <p>Висота всмоктування розчину до 4 м</p><br/>
+        `,
     },
     {
         id: '42',
@@ -1469,6 +1489,28 @@ export const goodsArr = [
             title: 'Дозатрони',
         },
         bread3: '',
+        descriptionMin: 'Дозатрон (D3RE2VF 0,2-2% VF)',
+        weight: '',
+        imageShow: ['/pump/4.jpg', '/pump/image1.jpg'],
+        descriptionFull: `
+        <p>Дозатор Dosatron D3RE2VF 0,2-2% у виконанні VF має стандартні ущільнення, тому рекомендований для менш 
+        агресивних хімікатів.</p><br/>
+        <p>На автомийках SamWash Group використовується на програмах «Полімерне обслуговування» та
+         «Полірування-сушка».</p><br/><br/>
+         <p><b>Технічні дані</b></p>
+        <p>Витрата 10 л/год - 3 м3/год</p><br/>
+        <p>Тип дозатора: Пропорційний</p><br/>
+        <p>Вбудована вентиляція</p><br/>
+        <p>З'єднання 2 x 3/4" M</p><br/>
+        <p>Робочий тиск 0,3 - 6 Бар</p><br/>
+        <p>Втрата тиску 0,2 – 2,3 бар</p><br/>
+        <p>Введена кількість препарату 0,02 - 60 л/год</p><br/>
+        <p>Значення дозування (регульоване) 0,2 - 2%</p><br/>
+        <p>Температура води 5 - 40°C</p><br/>
+        <p>Точність дозування +/- 10%</p><br/>
+        <p>Повторюваність +/- 3%</p><br/>
+        <p>Висота всмоктування розчину до 4 м</p><br/>
+        `,
     },
     {
         id: '43',
@@ -1489,6 +1531,21 @@ export const goodsArr = [
             title: 'Порошки для миття автомобіля',
         },
         bread3: '',
+        descriptionMin: 'Дозатор Mixrite 571 (0,3-2%)',
+        weight: '2',
+        imageShow: ['/pump/5.jpg'],
+        descriptionFull: `
+        <p>Диспенсер Mixrite 571 - це нове покоління дозаторів MixRite зі зниженим мінімальним потоком. 
+        Працює вже при потоці 7 л/год.</p><br/><br/>
+         <p><b>Технічні дані</b></p>
+        <p>Напрямок підключення: бічне</p><br/>
+        <p>Концентрація [%]: 0,3 - 2</p><br/>
+        <p>хв [л/хв]: 0,5</p><br/>
+        <p>З'єднання [дюйм]: 3/4</p><br/>
+        <p>Потік [л/хв]: 0,15 - 42</p><br/>
+        <p>Витрата макс. [л/хв]: 42</p><br/>
+        <p>тиск макс. [МПа]: 8</p><br/>
+        `,
     },
     {
         id: '44',
@@ -1510,6 +1567,12 @@ export const goodsArr = [
             title: 'Ремкомплекти SEKO KOMPACT',
         },
         bread3: '',
+        descriptionMin: 'Головка з клапанами EM99106300 EPDM для насосів серії Kompact (AMS200)',
+        weight: '',
+        imageShow: ['/pump/6.jpg'],
+        descriptionFull: `
+        <p>Головка з клапанами EM99106300 EPDM для насосів серії Kompact (AMS200)<br/>
+        `,
     },
     {
         id: '45',
@@ -1531,6 +1594,12 @@ export const goodsArr = [
             title: 'Ремкомплекти SEKO EVO',
         },
         bread3: '',
+        descriptionMin: 'Головка з клапанами EPDM для насосів серії EVO (APG603,APG800)',
+        weight: '0,243',
+        imageShow: ['/pump/99.jpg'],
+        descriptionFull: `
+        <p>Головка з клапанами EM99106492 EPDM для насосів серії EVO (APG603,APG800)<br/>
+        `
     },
     {
         id: '46',
@@ -1552,6 +1621,14 @@ export const goodsArr = [
             title: 'Ремкомплекти SEKO EVO',
         },
         bread3: '',
+        descriptionMin: 'Головка з клапанами FPM для насосів серії EVO (APG603,APG800) Клапани FPM призначені ' +
+            'для кислотної хімії.',
+        weight: '',
+        imageShow: ['/pump/99.jpg'],
+        descriptionFull: `
+        <p>Головка з клапанами FPM для насосів серії EVO (APG603,APG800)<br/>
+        <p>Клапани FPM призначені для кислотної хімії.<br/>
+        `
     },
     {
         id: '47',
@@ -1573,6 +1650,12 @@ export const goodsArr = [
             title: 'Ремкомплекти DOSATRON',
         },
         bread3: '',
+        descriptionMin: 'Верхня і нижня гільзи поршня + термопластична пружина',
+        weight: '0,033',
+        imageShow: ['/pump/7.jpg'],
+        descriptionFull: `
+        <p>Верхня і нижня гільзи поршня + термопластична пружина для дозатора Достарон.<br/>
+        `
     },
     {
         id: '48',
@@ -1594,6 +1677,12 @@ export const goodsArr = [
             title: 'Ремкомплекти DOSATRON',
         },
         bread3: '',
+        descriptionMin: 'Дозатрон верхня поршнева втулка',
+        weight: '0,011',
+        imageShow: ['/pump/8.jpg'],
+        descriptionFull: `
+        <p>Верхня втулка поршня для дозатора Dosatron.<br/>
+        `
     },
     {
         id: '49',
@@ -1615,6 +1704,12 @@ export const goodsArr = [
             title: 'Ремкомплекти SEKO EVO',
         },
         bread3: '',
+        descriptionMin: 'Мембрана для насосів серії EVO (APG603,APG800)',
+        weight: '0,006',
+        imageShow: ['/pump/9.jpg'],
+        descriptionFull: `
+        <p>Мембрана EM00050017 для насосів серії EVO (APG603,APG800).<br/>
+        `
     },
     {
         id: '50',
@@ -1636,6 +1731,12 @@ export const goodsArr = [
             title: 'Ремкомплекти SEKO KOMPACT',
         },
         bread3: '',
+        descriptionMin: 'Мембрана для насосів серії Kompact (AMS200)',
+        weight: '0,006',
+        imageShow: ['/pump/10.jpg'],
+        descriptionFull: `
+        <p>Мембрана EM99106341 для насосів серії Kompact (AMS200).<br/>
+        `
     },
     {
         id: '60',
@@ -1657,6 +1758,12 @@ export const goodsArr = [
             title: 'Насоси SEKO серії EVO',
         },
         bread3: '',
+        descriptionMin: 'Гайка для насосів серії EVO / Kompact',
+        weight: '0,018',
+        imageShow: ['/pump/11.jpg'],
+        descriptionFull: `
+        <p>Гайка [EM99106520] для насосів серії EVO / Kompact.<br/>
+        `
     },
     {
         id: '61',
@@ -1678,6 +1785,12 @@ export const goodsArr = [
             title: 'Ремкомплекти DOSATRON',
         },
         bread3: '',
+        descriptionMin: 'Кришка зворотного клапана дозатора Dosatron',
+        weight: '',
+        imageShow: ['/pump/12.jpg', '/pump/image2.jpg', '/pump/image3.jpg', ],
+        descriptionFull: `
+        <p>Кришка зворотного клапана дозатора Dosatron.<br/>
+        `
     },
     {
         id: '62',
@@ -1699,6 +1812,13 @@ export const goodsArr = [
             title: 'Ремкомплекти MIXRITE',
         },
         bread3: '',
+        descriptionMin: 'Кришка зворотного клапана диспенсера MixRite',
+        weight: '0,007',
+        imageShow: ['/pump/13.jpg', ],
+        descriptionFull: `
+        <p>Кришка зворотного клапана диспенсера MixRite</p><br/>
+        <p>Номер з ДТР: 21</p><br/>
+        `
     },
     {
         id: '63',
@@ -1720,6 +1840,12 @@ export const goodsArr = [
             title: 'Ремкомплекти DOSATRON',
         },
         bread3: '',
+        descriptionMin: 'Корпус дозатора Dosatron',
+        weight: '0,475',
+        imageShow: ['/pump/14.jpg', ],
+        descriptionFull: `
+        <p>Корпус дозатора Dosatron</p><br/>
+        `
     },
     {
         id: '64',
@@ -1741,6 +1867,12 @@ export const goodsArr = [
             title: 'Ремкомплекти MIXRITE',
         },
         bread3: '',
+        descriptionMin: 'Корпус дозатора MixRite',
+        weight: '',
+        imageShow: ['/pump/15.jpg', ],
+        descriptionFull: `
+        <p>Корпус дозатора MixRite</p><br/>
+        `
     },
     {
         id: '65',
@@ -1762,6 +1894,12 @@ export const goodsArr = [
             title: 'Ремкомплекти MIXRITE',
         },
         bread3: '',
+        descriptionMin: 'Ущільнювальне кільце для диспенсера MixRite (38021080048 viton demo)',
+        weight: '',
+        imageShow: ['/pump/16.jpg', ],
+        descriptionFull: `
+        <p>Ущільнювальне кільце для дозатора Mixrite</p><br/>
+        `
     },
     {
         id: '66',
@@ -1783,6 +1921,12 @@ export const goodsArr = [
             title: 'Ремкомплекти MIXRITE',
         },
         bread3: '',
+        descriptionMin: 'Ущільнювальне кільце для дозатора MixRite (38021090049 демо)',
+        weight: '',
+        imageShow: ['/pump/17.jpg', ],
+        descriptionFull: `
+        <p>Ущільнювальне кільце для дозатора Mixrite</p><br/>
+        `
     },
     {
         id: '67',
@@ -1804,6 +1948,12 @@ export const goodsArr = [
             title: 'Ремкомплекти MIXRITE',
         },
         bread3: '',
+        descriptionMin: 'Ущільнювальне кільце MixRite (38060211447 демонстрацій)',
+        weight: '',
+        imageShow: ['/pump/18.jpg', ],
+        descriptionFull: `
+        <p>Ущільнювальне кільце для дозатора Mixrite</p><br/>
+        `
     },
     {
         id: '68',
@@ -1825,6 +1975,12 @@ export const goodsArr = [
             title: 'Ремкомплекти MIXRITE',
         },
         bread3: '',
+        descriptionMin: 'Ущільнювальне кільце MixRite (38060221146 dema)',
+        weight: '',
+        imageShow: ['/pump/20.jpg', ],
+        descriptionFull: `
+        <p>Ущільнювальне кільце для дозатора Mixrite</p><br/>
+        `
     },
     {
         id: '69',
@@ -1846,6 +2002,12 @@ export const goodsArr = [
             title: 'Ремкомплекти MIXRITE',
         },
         bread3: '',
+        descriptionMin: 'Ущільнювальне кільце MixRite (38060222044 демонстрації)',
+        weight: '',
+        imageShow: ['/pump/21.jpg', ],
+        descriptionFull: `
+        <p>Ущільнювальне кільце для дозатора Mixrite</p><br/>
+        `
     },
     {
         id: '70',
@@ -1867,6 +2029,12 @@ export const goodsArr = [
             title: 'Ремкомплекти DOSATRON',
         },
         bread3: '',
+        descriptionMin: 'Прокладка кришки дозатора Dosatron O-ring (JDI001)',
+        weight: '0,004',
+        imageShow: ['/pump/22.jpg', ],
+        descriptionFull: `
+        <p>Ущільнювальне кільце - ущільнення кришки дозатора Dosatron</p><br/>
+        `
     },
     {
         id: '71',
@@ -1888,6 +2056,12 @@ export const goodsArr = [
             title: 'Ремкомплекти MIXRITE',
         },
         bread3: '',
+        descriptionMin: 'Ручка дозування хімікатів MixRite ',
+        weight: '',
+        imageShow: ['/pump/23.jpg', ],
+        descriptionFull: `
+        <p>Ручка дозування хімікатів для дозатора MixRite</p><br/>
+        `
     },
     {
         id: '72',
@@ -1909,6 +2083,12 @@ export const goodsArr = [
             title: 'Ремкомплекти DOSATRON',
         },
         bread3: '',
+        descriptionMin: 'Кришка дозатора Dosatron (MPDI186)',
+        weight: '0,448',
+        imageShow: ['/pump/24.jpg', ],
+        descriptionFull: `
+        <p>Кришка дозатора Dosatron</p><br/>
+        `
     },
     {
         id: '73',
@@ -1930,6 +2110,12 @@ export const goodsArr = [
             title: 'Ремкомплекти DOSATRON',
         },
         bread3: '',
+        descriptionMin: 'Кришка дозатора Dosatron',
+        weight: '0,43',
+        imageShow: ['/pump/25.jpg', ],
+        descriptionFull: `
+        <p>Кришка дозатора Dosatron</p><br/>
+        `
     },
     {
         id: '74',
@@ -1951,6 +2137,12 @@ export const goodsArr = [
             title: 'Ремкомплекти MIXRITE',
         },
         bread3: '',
+        descriptionMin: 'Нижня кришка диспенсера MixRite (1618-043532)',
+        weight: '',
+        imageShow: ['/pump/26.jpg', ],
+        descriptionFull: `
+        <p>Нижня кришка дозатора MixRite</p><br/>
+        `
     },
     {
         id: '75',
@@ -1972,6 +2164,12 @@ export const goodsArr = [
             title: 'Ремкомплекти MIXRITE',
         },
         bread3: '',
+        descriptionMin: 'Кришка диспенсера MixRite (1618-043111)',
+        weight: '',
+        imageShow: ['/pump/27.jpg', ],
+        descriptionFull: `
+        <p>Кришка дозатора MixRite</p><br/>
+        `
     },
     {
         id: '76',
@@ -1993,6 +2191,12 @@ export const goodsArr = [
             title: 'Ремкомплекти DOSATRON',
         },
         bread3: '',
+        descriptionMin: 'Насос дозатора Dosatron (PCDI030HT)',
+        weight: '',
+        imageShow: ['/pump/28.jpg', ],
+        descriptionFull: `
+        <p>Насос дозатора Dosatron</p><br/>
+        `
     },
     {
         id: '77',
@@ -2014,6 +2218,18 @@ export const goodsArr = [
             title: 'Насоси SEKO серії EVO',
         },
         bread3: '',
+        descriptionMin: 'Насос-дозатор Tekna EVO APG603 з логотипом SamWash для кислотних хімікатів (червоний) ',
+        weight: '',
+        imageShow: ['/pump/29.jpg', ],
+        descriptionFull: `
+        <p>Насос-дозатор Tekna EVO APG603 NCP1001 постійного потоку з можливістю регулювання витрати дозованого
+         засобу вручну або відповідно до зовнішнього:</p><br/>
+         <p>- аналоговий сигнал (4 ÷ 20 мА),</p>
+         <p>- цифровий імпульсний сигнал (наприклад, від лічильника води, панелі керування).</p><br/>
+         <p>На безконтактних мийках SamWash насос використовується на автомийках:</p><br/>
+         <p>2-3 робочих місця для програми "Восковик" та "Польська".</p>
+         <p>4-6 робочих місць для програм "Васко" та "Польська".</p><br/>
+        `
     },
     {
         id: '78',
@@ -2035,6 +2251,18 @@ export const goodsArr = [
             title: 'Насоси SEKO серії EVO',
         },
         bread3: '',
+        descriptionMin: 'Насос-дозатор Tekna EVO APG603 з логотипом SamWash для для лужної хімії (червоний)',
+        weight: '3,26',
+        imageShow: ['/pump/30.jpg', ],
+        descriptionFull: `
+        <p>Насос-дозатор Tekna EVO APG603 NCP1001 постійного потоку з можливістю регулювання витрати дозованого 
+        засобу вручну або відповідно до зовнішнього:</p><br/>
+         <p>- аналоговий сигнал (4 ÷ 20 мА),</p>
+         <p>- цифровий імпульсний сигнал (наприклад, від лічильника води, панелі керування).</p><br/>
+         <p>На безконтактних мийках SamWash насос використовується на автомийках:</p><br/>
+         <p>2-3 станції для програм «Турбо», «Піна», «Рим напилення», «Щітка».</p>
+         <p>4-6 робочих місць для програм "Szczotka".</p><br/>
+        `
     },
     {
         id: '79',
@@ -2056,6 +2284,21 @@ export const goodsArr = [
             title: 'Насоси SEKO серії EVO',
         },
         bread3: '',
+        descriptionMin: 'Насос-дозатор Tekna EVO APG603 з логотипом SamWash для для лужної хімії (червоний)',
+        weight: '4,08',
+        imageShow: ['/pump/31.jpg', ],
+        descriptionFull: `
+        <p>Насос-дозатор Tekna EVO APG800 NHH1000 з постійним потоком з можливістю регулювання витрати дозованого 
+        засобу вручну або відповідно до зовнішнього:</p><br/>
+         <p>- аналоговий сигнал (4 ÷ 20 мА),</p>
+         <p>- цифровий імпульсний сигнал (наприклад, від лічильника води, панелі керування).</p><br/>
+         <p>На безконтактних мийках SamWash насос використовується на автомийках:</p><br/>
+         <p>2-3 станції для програм «Турбо», «Піна», «Рим напилення», «Щітка».</p>
+         <p>4-6 робочих місць для програм "Szczotka".</p><br/><br/>
+         <p><b>Додаткова інформація</b></p><br/>
+         <p>насос призначений для лужних хімікатів (турбо, піна, обприскування, щітка)</p>
+         <p>синій колір</p><br/>
+        `
     },
     {
         id: '80',
@@ -2077,6 +2320,12 @@ export const goodsArr = [
             title: 'Ремкомплекти DOSATRON',
         },
         bread3: '',
+        descriptionMin: 'Фільтр для диспенсера Dosatron 8x12 (MPDI207)',
+        weight: '0,052',
+        imageShow: ['/pump/32.jpg', ],
+        descriptionFull: `
+        <p>Ситечко для дозатора Dosatron 8 x 12</p><br/>
+        `
     },
     {
         id: '81',
@@ -2098,6 +2347,12 @@ export const goodsArr = [
             title: 'Ремкомплекти DOSATRON',
         },
         bread3: '',
+        descriptionMin: 'Ущільнювач важеля поршня - дозатрон (AF PJDI114AF)',
+        weight: '',
+        imageShow: ['/pump/33.jpg', ],
+        descriptionFull: `
+        <p>Ущільнення важеля поршня дозатора Dosatron</p><br/>
+        `
     },
     {
         id: '82',
@@ -2119,6 +2374,14 @@ export const goodsArr = [
             title: 'Ремкомплекти MIXRITE',
         },
         bread3: '',
+        descriptionMin: 'Шланг-голка для дозатора Mixrite 8 x 1,1',
+        weight: '0,57',
+        imageShow: ['/pump/34.jpg', ],
+        descriptionFull: `
+        <p>Шланг-голка для дозатора Mixrite:</p><br/>
+        <p>Внутрішній діаметр: 8 мм</p>
+        <p>Товщина стінки: 1,1 мм</p><br/>
+        `
     },
     {
         id: '83',
@@ -2140,6 +2403,12 @@ export const goodsArr = [
             title: 'Ремкомплекти DOSATRON',
         },
         bread3: '',
+        descriptionMin: 'Дозатрон дозатор HT/AF зворотний клапан (PJDI115HTAF)',
+        weight: '0,018',
+        imageShow: ['/pump/35.jpg', ],
+        descriptionFull: `
+        <p>Зворотний клапан HT/AF для дозатора Dosatron</p><br/>
+        `
     },
     {
         id: '84',
@@ -2161,6 +2430,12 @@ export const goodsArr = [
             title: 'Ремкомплекти DOSATRON',
         },
         bread3: '',
+        descriptionMin: 'Зворотний клапан диспенсера Dosatron VF (PJDI115VF)',
+        weight: '',
+        imageShow: ['/pump/36.jpg', ],
+        descriptionFull: `
+        <p>Зворотний клапан VF для дозатора Dosatron</p><br/>
+        `
     },
     {
         id: '85',
@@ -2182,6 +2457,13 @@ export const goodsArr = [
             title: 'Ремкомплекти SEKO EVO',
         },
         bread3: '',
+        descriptionMin: 'Клапани всмоктування/нагнітання для насосів серії EVO (APG603,APG800) - набір з 2 шт.',
+        weight: '0,024',
+        imageShow: ['/pump/37.jpg', ],
+        descriptionFull: `
+        <p>Клапани всмоктування/нагнітання для насосів серії EVO (APG603,APG800)</p><br/>
+        <p>У набір входить: 2 шт.</p><br/>
+        `
     },
     {
         id: '86',
@@ -2203,6 +2485,12 @@ export const goodsArr = [
             title: 'Ремкомплекти SEKO KOMPACT',
         },
         bread3: '',
+        descriptionMin: 'Клапани всмоктування/нагнітання для насосів серії Kompact (AMS200)',
+        weight: '',
+        imageShow: ['/pump/38.jpg', ],
+        descriptionFull: `
+        <p>Клапани всмоктування/нагнітання для насоса серії Kompact (AMS200)</p><br/>
+        `
     },
     {
         id: '87',
@@ -2224,6 +2512,13 @@ export const goodsArr = [
             title: 'Ремкомплекти MIXRITE',
         },
         bread3: '',
+        descriptionMin: 'Односторонній клапан Mixrite (1618-043112)',
+        weight: '0,011',
+        imageShow: ['/pump/39.jpg','/pump/image4.jpg','/pump/image5.jpg', ],
+        descriptionFull: `
+        <p>Односторонній клапан у комплекті для дозатора Mixrite</p><br/>
+        <p>Елементи з ДТР з номерами: (47,20,30,19,45,14)</p><br/>
+        `
     },
     {
         id: '88',
@@ -2245,6 +2540,12 @@ export const goodsArr = [
             title: 'Ремкомплекти SEKO EVO',
         },
         bread3: '',
+        descriptionMin: 'Монтажний комплект для насосів серії EVO (APG603,APG800)',
+        weight: '0,34',
+        imageShow: ['/pump/40.jpg', ],
+        descriptionFull: `
+        <p>Монтажний комплект для насосів серії EVO (APG603,APG800)</p><br/>
+        `
     },
     {
         id: '89',
@@ -2266,6 +2567,12 @@ export const goodsArr = [
             title: 'Ремкомплекти SEKO KOMPACT',
         },
         bread3: '',
+        descriptionMin: 'Монтажний комплект для насосів серії Kompact (AMS200)',
+        weight: '',
+        imageShow: ['/pump/41.jpg', ],
+        descriptionFull: `
+        <p>Монтажний комплект для насосів серії Kompact (AMS200)</p><br/>
+        `
     },
     {
         id: '90',
@@ -2287,6 +2594,12 @@ export const goodsArr = [
             title: 'Ремкомплекти DOSATRON',
         },
         bread3: '',
+        descriptionMin: 'Ремкомплект дозатора Dosatron (PJDI116HTAF)',
+        weight: '0,011',
+        imageShow: ['/pump/42.jpg', ],
+        descriptionFull: `
+        <p>Ремкомплект дозатора Dosatron.</p><br/>
+        `
     },
     {
         id: '91',
@@ -2308,6 +2621,12 @@ export const goodsArr = [
             title: 'Ремкомплекти DOSATRON',
         },
         bread3: '',
+        descriptionMin: 'Ремкомплект дозатора Dosatron (PJDI116HTAF)',
+        weight: '',
+        imageShow: ['/pump/43.jpg', ],
+        descriptionFull: `
+        <p>Ремкомплект дозатора Dosatron.</p><br/>
+        `
     },
     {
         id: '92',
@@ -2329,6 +2648,13 @@ export const goodsArr = [
             title: 'Ремкомплекти MIXRITE',
         },
         bread3: '',
+        descriptionMin: 'Набір для ремонту дозатора Mixrite',
+        weight: '0,039',
+        symbol: '1618-043170',
+        imageShow: ['/pump/44.jpg', ],
+        descriptionFull: `
+        <p>Набір для ремонту дозатора Mixrite</p><br/>
+        `
     },
     {
         id: '93',
@@ -2350,6 +2676,18 @@ export const goodsArr = [
             title: 'Ремкомплекти SEKO EVO',
         },
         bread3: '',
+        descriptionMin: 'Комплект ущільнень для насосів серії EVO (APG603,APG800)',
+        weight: '0,007',
+        imageShow: ['/pump/45.jpg', ],
+        descriptionFull: `
+        <p>У комплект прокладок входять:</p><br/>
+        <p>прокладка головки,</p>
+        <p>мембранна прокладка,</p>
+        <p>ущільнення для всмоктувальних і нагнітальних клапанів,</p>
+        <p>сальник для інжектора,</p>
+        <p>ущільнювачі для сапуна </p><br/>
+        <p>Призначений для насосів серії EVO (APG603, APG800).</p><br/>
+        `
     },
     {
         id: '94',
@@ -2371,6 +2709,12 @@ export const goodsArr = [
             title: 'Ремкомплекти DOSATRON',
         },
         bread3: '',
+        descriptionMin: 'Комплект прокладок Dosatron (EMDI006HT)',
+        weight: '0,008',
+        imageShow: ['/pump/46.jpg', ],
+        descriptionFull: `
+        <p>Комплект прокладок Dosatron. </p><br/>
+        `
     },
 ]
 

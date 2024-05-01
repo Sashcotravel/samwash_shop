@@ -255,6 +255,10 @@ function Goods() {
                                         <p>ID</p>
                                         <p>{goods.id}</p>
                                     </li>
+                                    {goods.symbol && <li>
+                                        <p>Символ</p>
+                                        <p>{goods.symbol}</p>
+                                    </li>}
                                 </ul>
                             </div>
                         </div>
