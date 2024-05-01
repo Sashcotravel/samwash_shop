@@ -96,8 +96,6 @@ const arrGoods = [
         img: '/chemical-means/6.jpg',
         descriptionPrise: 'Найнижча ціна за 30 днів до знижки: 1201,00 доларів',
         description: '',
-        bread1: '/chemical-means',
-        bread2: '/active-foam',
         bread3: '',
     },
     {
@@ -111,9 +109,6 @@ const arrGoods = [
         img: '/chemical-means/7.jpg',
         descriptionPrise: 'Найнижча ціна за 30 днів до знижки: 1192,00 доларів',
         description: '',
-        bread1: '/chemical-means',
-        bread2: '/active-foam',
-        bread3: '',
     },
 ]
 

@@ -378,7 +378,7 @@ function Electromagnetic() {
                                             }
                                         </div>
                                         <p className={s.goodsTitle}>{item.title}</p>
-                                        <p className={s.client_code}>Код виробника: {item?.code}</p>
+                                        <p className={s.client_code}>Код виробника: <b> {item?.code}</b></p>
                                         <p className={s.description}>{item?.description}</p>
                                     </div>
                                     <div className={s.div_price}>

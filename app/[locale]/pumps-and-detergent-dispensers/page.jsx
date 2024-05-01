@@ -16,214 +16,564 @@ import TopButton from "@/app/component/topButton/topButton";
 
 const arrGoods = [
     {
-        id: '1',
-        title: 'Активна піна для миття автомобіля Blue Foam (20л), синій колір',
-        code: 'BLUE/020',
-        price: '263.27',
+        id: '39',
+        title: 'Диспенсер-циліндр MixRite',
+        code: 'CYL-DEM',
+        price: '114.27',
         size: 1,
-        slug: 'goods1',
-        img: '/chemical-means/1.jpg',
+        slug: 'goods3-1',
+        img: '/pump/1.jpg',
         description: '',
         descriptionPrise: ''
     },
     {
-        id: '2',
-        title: 'Активна піна для миття автомобіля Funky Foam (20 л), рожева',
-        code: 'FUNKY/020',
-        price: '295.51',
+        id: '40',
+        title: 'Нижня втулка поршня',
+        code: 'REK-TLO-DOL-644',
+        price: '48.19',
         size: 1,
-        slug: 'goods2',
-        img: '/chemical-means/2.jpg',
+        slug: 'goods3-2',
+        img: '/pump/2.jpg',
         description: '',
         descriptionPrise: ''
     },
     {
-        id: '3',
-        title: 'Активна піна для миття автомобіля Green Alka Foam (20л), колір зелений',
-        code: 'GREEN/020',
-        price: '329.48',
+        id: '41',
+        title: 'Дозатрон (D3RE2AF 0,2-2% AF)',
+        code: 'DOS-D3RE2AF',
+        price: '3120.97',
         size: 1,
-        slug: 'goods3',
-        img: '/chemical-means/3.jpg',
+        slug: 'goods3-3',
+        img: '/pump/3.jpg',
         description: '',
         descriptionPrise: ''
     },
     {
-        id: '4',
-        title: 'Активна піна для миття автомобіля Snow Foam (20 л), біла',
-        code: 'GREEN/020',
-        price: '488.75',
-        newPrice: '286.39',
+        id: '42',
+        title: 'Дозатрон (D3RE2VF 0,2-2% VF)',
+        code: 'DOS-D3RE2VF',
+        price: '3211.83',
+        newPrice: '',
         size: 1,
-        slug: 'goods4',
-        img: '/chemical-means/4.jpg',
-        descriptionPrise: 'Найнижча ціна за 30 днів до знижки: 405,90 доларів',
+        slug: 'goods3-4',
+        img: '/pump/4.jpg',
+        descriptionPrise: '',
         description: ''
     },
+
     {
-        id: '5',
-        title: 'Активна піна для миття автомобіля White Alka Foam (20 л), біла',
-        code: 'WHITE/020',
-        price: '309.16',
+        id: '43',
+        title: 'Дозатор Mixrite 571 (0,3-2%)',
+        code: 'DOZ-MIX-571',
+        price: '1573.67',
         size: 1,
-        slug: 'goods5',
-        img: '/chemical-means/5.jpg',
+        slug: 'goods3-5',
+        img: '/pump/5.jpg',
+        descriptionPrise: '',
+        description: ''
+    }, // taken
+
+    {
+        id: '44',
+        title: 'Головка з клапанами EM99106300 EPDM для насосів серії Kompact (AMS200)',
+        code: 'POM-KOM-GlO',
+        price: '232.20',
+        newPrice: '',
+        size: 1,
+        slug: 'goods3-6',
+        img: '/pump/6.jpg',
         descriptionPrise: '',
         description: ''
     },
     {
-        id: '6',
-        title: 'Рідка хімія для мийки (набір)',
-        code: 'ДОБРИСТАРТПЛИН',
-        price: '1201.00',
-        newPrice: '1100.39',
-        size: 1,
-        slug: 'goods6',
-        img: '/chemical-means/6.jpg',
-        descriptionPrise: 'Найнижча ціна за 30 днів до знижки: 1201,00 доларів',
-        description: ''
-    },
-    {
-        id: '7',
-        title: 'Порошкова хімія для миття автомобіля (набір)',
-        code: 'DOBRYSTARTPOWDER',
-        price: '1487.21',
-        newPrice: '1192.39',
-        size: 1,
-        slug: 'goods7',
-        img: '/chemical-means/7.jpg',
-        descriptionPrise: 'Найнижча ціна за 30 днів до знижки: 1192,00 доларів',
-        description: ''
-    },
-    {
-        id: '8',
-        title: 'Шкімер De-Foam 10L - видалення піни',
-        code: 'D03/010',
-        price: '176.21',
+        id: '45',
+        title: 'Головка з клапанами EPDM для насосів серії EVO (APG603,APG800)',
+        code: 'POM-TEK-GlO',
+        price: '501.77',
         newPrice: '',
         size: 1,
-        slug: 'goods8',
-        img: '/chemical-means/8.jpg',
+        slug: 'goods3-7',
+        img: '/pump/99.jpg',
         descriptionPrise: '',
         description: ''
     },
     {
-        id: '9',
-        title: 'Мийка дисків Alu Ultra (20л) ADR',
-        code: 'ALU/020',
-        price: '348.27',
+        id: '46',
+        title: 'Головка з клапанами FPM [EM99106490] для насосів серії SEKO EVO (APG603,APG800)',
+        code: 'POM-TEK-GlO-FPM',
+        price: '462.36',
         newPrice: '',
         size: 1,
-        slug: 'goods9',
-        img: '/chemical-means/4.jpg',
+        slug: 'goods3-8',
+        img: '/pump/99.jpg',
         descriptionPrise: '',
         description: ''
     },
     {
-        id: '11',
-        title: 'Автомийний порошок Powder FF (25 кг), безфосфатний',
-        code: 'PROFF/025',
-        price: '366.63',
-        newPrice: '298.78',
-        size: 1,
-        slug: 'goods11',
-        img: '/chemical-means/9.jpg',
-        descriptionPrise: 'Найнижча ціна за 30 днів до знижки: 319,92 доларів',
-        description: ''
-    },
-    {
-        id: '12',
-        title: 'Порошок LF порошок мийний (25 кг), аромат',
-        code: 'PROLF/025',
-        price: '343.29',
+        id: '47',
+        title: 'Верхня і нижня гільзи поршня + термопластична пружина',
+        code: 'REK-TLO-DOS',
+        price: '133.73',
         newPrice: '',
         size: 1,
-        slug: 'goods12',
-        img: '/chemical-means/10.jpg',
+        slug: 'goods3-9',
+        img: '/pump/7.jpg',
         descriptionPrise: '',
         description: ''
     },
     {
-        id: '13',
-        title: 'Порошок ORANGE FF автомийний порошок (25 кг), без фосфатів, аромат',
-        code: 'ORANGEFF/025',
-        price: '402.21',
+        id: '48',
+        title: 'Дозатрон верхня поршнева втулка',
+        code: 'REK-DOS-643',
+        price: '38.90',
         newPrice: '',
         size: 1,
-        slug: 'goods13',
-        img: '/chemical-means/11.jpg',
+        slug: 'goods3-10',
+        img: '/pump/8.jpg',
         descriptionPrise: '',
         description: ''
     },
     {
-        id: '14',
-        title: 'Автомийний порошок Powder Ultra (25 кг)',
-        code: 'PROULT/025',
-        price: '554.95',
-        newPrice: '441.61',
-        size: 1,
-        slug: 'goods14',
-        img: '/chemical-means/12.jpg',
-        descriptionPrise: 'Найнижча ціна за 30 днів до знижки: 474,73 злотих',
-        description: ''
-    },
-    {
-        id: '15',
-        title: 'Порошок Автомийний порошок Ultra Fresh (25 кг), аромат',
-        code: 'PROFRESH/025',
-        price: '562.15',
+        id: '49',
+        title: 'Мембрана для насосів серії EVO (APG603,APG800)',
+        code: 'ПОМ-ТЕК-МЕМ',
+        price: '96.94',
         newPrice: '',
         size: 1,
-        slug: 'goods15',
-        img: '/chemical-means/13.jpg',
+        slug: 'goods3-11',
+        img: '/pump/9.jpg',
         descriptionPrise: '',
         description: ''
     },
     {
-        id: '16',
-        title: 'Сіль для пом\'якшувачів води 25кг - сіль в таблетках',
-        code: 'SOL-CHE-001',
-        price: '55.15',
+        id: '50',
+        title: 'Мембрана для насосів серії Kompact (AMS200)',
+        code: 'ПОМ-КОМ-МЕМ',
+        price: '120.28',
         newPrice: '',
         size: 1,
-        slug: 'goods16',
-        img: '/chemical-means/14.jpg',
+        slug: 'goods3-12',
+        img: '/pump/10.jpg',
         descriptionPrise: '',
         description: ''
     },
     {
-        id: '17',
-        title: 'Турбошампунь для автомийки (20л) ADR',
-        code: 'TURBO/020',
-        price: '138.55',
+        id: '60',
+        title: 'Гайка для насосів серії EVO / Kompact',
+        code: 'ПОМ-ТЕК-НАК',
+        price: '24.62',
         newPrice: '',
         size: 1,
-        slug: 'goods17',
-        img: '/chemical-means/15.jpg',
+        slug: 'goods3-13',
+        img: '/pump/11.jpg',
         descriptionPrise: '',
         description: ''
     },
     {
-        id: '18',
-        title: 'Шампунь для автомийки Turbo Plus (20 л) ADR',
-        code: 'PLUS/020',
-        price: '342.14',
+        id: '61',
+        title: 'Кришка зворотного клапана дозатора Dosatron',
+        code: 'NAK-ZAW-DOS',
+        price: '17.88',
         newPrice: '',
         size: 1,
-        slug: 'goods18',
-        img: '/chemical-means/16.jpg',
+        slug: 'goods3-14',
+        img: '/pump/12.jpg',
         descriptionPrise: '',
         description: ''
     },
     {
-        id: '19',
-        title: 'Віск для мийки Sky Wax концентрат (25 л)',
-        code: 'SKY/025',
-        price: '595.58',
+        id: '62',
+        title: 'Кришка зворотного клапана диспенсера MixRite',
+        code: 'NAK-ZAW-DEM',
+        price: '147.60',
         newPrice: '',
         size: 1,
-        slug: 'goods19',
-        img: '/chemical-means/17.jpg',
+        slug: 'goods3-15',
+        img: '/pump/13.jpg',
+        descriptionPrise: '',
+        description: ''
+    },
+    {
+        id: '63',
+        title: 'Корпус дозатора Dosatron',
+        code: 'OBU-DOZ-DOS-057',
+        price: '306.28',
+        newPrice: '',
+        size: 1,
+        slug: 'goods3-16',
+        img: '/pump/14.jpg',
+        descriptionPrise: '',
+        description: ''
+    },
+    {
+        id: '64',
+        title: 'Корпус дозатора MixRite',
+        code: 'OBU-DOZ-DEM',
+        price: '185.47',
+        newPrice: '',
+        size: 1,
+        slug: 'goods3-17',
+        img: '/pump/15.jpg',
+        descriptionPrise: '',
+        description: ''
+    },
+    {
+        id: '65',
+        title: 'Ущільнювальне кільце для диспенсера MixRite (38021080048 viton demo)',
+        code: 'ORI-004',
+        price: '0.89',
+        newPrice: '',
+        size: 1,
+        slug: 'goods3-18',
+        img: '/pump/16.jpg',
+        descriptionPrise: '',
+        description: ''
+    },
+    {
+        id: '66',
+        title: 'Ущільнювальне кільце для дозатора MixRite (38021090049 демо)',
+        code: 'ORI-003',
+        price: '0.90',
+        newPrice: '',
+        size: 1,
+        slug: 'goods3-19',
+        img: '/pump/17.jpg',
+        descriptionPrise: '',
+        description: ''
+    },
+    {
+        id: '67',
+        title: 'Ущільнювальне кільце MixRite (38060211447 демонстрацій)',
+        code: 'ORI-002',
+        price: '1.44',
+        newPrice: '',
+        size: 1,
+        slug: 'goods3-20',
+        img: '/pump/18.jpg',
+        descriptionPrise: '',
+        description: ''
+    },
+    {
+        id: '68',
+        title: 'Ущільнювальне кільце MixRite (38060221146 демонстрацій)',
+        code: 'ORI-001',
+        price: '2.66',
+        newPrice: '',
+        size: 1,
+        slug: 'goods3-21',
+        img: '/pump/20.jpg',
+        descriptionPrise: '',
+        description: ''
+    },
+    {
+        id: '69',
+        title: 'Ущільнювальне кільце MixRite (38060222044 демонстрації)',
+        code: 'ORI-005',
+        price: '3.10',
+        newPrice: '',
+        size: 1,
+        slug: 'goods3-22',
+        img: '/pump/21.jpg',
+        descriptionPrise: '',
+        description: ''
+    },
+    {
+        id: '70',
+        title: 'Прокладка кришки дозатора Dosatron O-ring (JDI001)',
+        code: 'ORI-DOS-001',
+        price: '4.50',
+        newPrice: '',
+        size: 1,
+        slug: 'goods3-23',
+        img: '/pump/22.jpg',
+        descriptionPrise: '',
+        description: ''
+    },
+    {
+        id: '71',
+        title: 'Ручка дозування хімікатів MixRite',
+        code: 'POK-RET-DEM',
+        price: '28.23',
+        newPrice: '',
+        size: 1,
+        slug: 'goods3-24',
+        img: '/pump/23.jpg',
+        descriptionPrise: '',
+        description: ''
+    },
+    {
+        id: '72',
+        title: 'Кришка дозатора Dosatron (MPDI186)',
+        code: 'ПОК-ДОЗ-ДОС-МП',
+        price: '300.59',
+        newPrice: '',
+        size: 1,
+        slug: 'goods3-25',
+        img: '/pump/24.jpg',
+        descriptionPrise: '',
+        description: ''
+    },
+    {
+        id: '73',
+        title: 'Кришка дозатора Dosatron (PDI685)',
+        code: 'POK-DOZ-DOS',
+        price: '280.83',
+        newPrice: '',
+        size: 1,
+        slug: 'goods3-26',
+        img: '/pump/25.jpg',
+        descriptionPrise: '',
+        description: ''
+    },
+    {
+        id: '74',
+        title: 'Нижня кришка диспенсера MixRite (1618-043532)',
+        code: 'POK-DOL-DEM',
+        price: '31.22',
+        newPrice: '',
+        size: 1,
+        slug: 'goods3-27',
+        img: '/pump/26.jpg',
+        descriptionPrise: '',
+        description: ''
+    },
+    {
+        id: '75',
+        title: 'Кришка диспенсера MixRite (1618-043111)',
+        code: 'POK-DOZ-DEM',
+        price: '104.40',
+        newPrice: '',
+        size: 1,
+        slug: 'goods3-28',
+        img: '/pump/27.jpg',
+        descriptionPrise: '',
+        description: ''
+    },
+    {
+        id: '76',
+        title: 'Насос дозатора Dosatron (PCDI030HT)',
+        code: 'ПОМ-ДОЗ-ДОС-030',
+        price: '624.72',
+        newPrice: '',
+        size: 1,
+        slug: 'goods3-30',
+        img: '/pump/28.jpg',
+        descriptionPrise: '',
+        description: ''
+    },
+    {
+        id: '77',
+        title: 'Насос-дозатор SEKO Tekna EVO APG603 з логотипом BKF для кислотної хімії (червоний)',
+        code: 'DOS-POM-TEK-APG603-FPM',
+        price: '1141.34',
+        newPrice: '',
+        size: 1,
+        slug: 'goods3-31',
+        img: '/pump/29.jpg',
+        descriptionPrise: '',
+        description: ''
+    },
+    {
+        id: '78',
+        title: 'Дозуючий насос SEKO Tekna EVO APG603 з логотипом BKF для лужної хімії (червоний)',
+        code: 'DOS-POM-TEK-APG603-EPDM',
+        price: '1141.34',
+        newPrice: '',
+        size: 1,
+        slug: 'goods3-32',
+        img: '/pump/30.jpg',
+        descriptionPrise: '',
+        description: ''
+    },
+    {
+        id: '79',
+        title: 'Дозуючий насос SEKO Tekna EVO APG800 NHH1000 (синій) ущільнення EPDM - лужна хімія',
+        code: 'DOS-POM-TEK-APG800-BL',
+        price: '1867.37',
+        newPrice: '',
+        size: 1,
+        slug: 'goods3-33',
+        img: '/pump/31.jpg',
+        descriptionPrise: '',
+        description: ''
+    },
+    {
+        id: '80',
+        title: 'Фільтр для диспенсера Dosatron 8x12 (MPDI207)',
+        code: 'SIT-DOS-MPDI207',
+        price: '50.00',
+        newPrice: '',
+        size: 1,
+        slug: 'goods3-34',
+        img: '/pump/32.jpg',
+        descriptionPrise: '',
+        description: ''
+    },
+    {
+        id: '81',
+        title: 'Ущільнювач важеля поршня - дозатрон (AF PJDI114AF)',
+        code: 'USZ-DOS-DZW',
+        price: '48.33',
+        newPrice: '',
+        size: 1,
+        slug: 'goods3-35',
+        img: '/pump/33.jpg',
+        descriptionPrise: '',
+        description: ''
+    },
+    {
+        id: '82',
+        title: 'Шланг-голка для дозатора Mixrite 8 x 1,1',
+        code: 'WAZ-IGI-8X1,1',
+        price: '4.23',
+        newPrice: '',
+        size: 1,
+        slug: 'goods3-36',
+        img: '/pump/34.jpg',
+        descriptionPrise: '',
+        description: ''
+    },
+    {
+        id: '83',
+        title: 'Дозатрон дозатор HT/AF зворотний клапан (PJDI115HTAF)',
+        code: 'ZAW-HTAF-DOS',
+        price: '140.49',
+        newPrice: '',
+        size: 1,
+        slug: 'goods3-37',
+        img: '/pump/35.jpg',
+        descriptionPrise: '',
+        description: ''
+    },
+    {
+        id: '84',
+        title: 'Зворотний клапан диспенсера Dosatron VF (PJDI115VF)',
+        code: 'ZAW-VF-DOS',
+        price: '139.73',
+        newPrice: '',
+        size: 1,
+        slug: 'goods3-38',
+        img: '/pump/36.jpg',
+        descriptionPrise: '',
+        description: ''
+    },
+    {
+        id: '85',
+        title: 'Клапани всмоктування/нагнітання для насосів серії EVO (APG603,APG800) - набір з 2 шт.',
+        code: 'POM-TEK-ZAW',
+        price: '208.36',
+        newPrice: '',
+        size: 1,
+        slug: 'goods3-39',
+        img: '/pump/37.jpg',
+        descriptionPrise: '',
+        description: ''
+    },
+    {
+        id: '86',
+        title: 'Клапани всмоктування/нагнітання для насосів серії Kompact (AMS200)',
+        code: 'POM-KOM-ZAW',
+        price: '114.13',
+        newPrice: '',
+        size: 1,
+        slug: 'goods3-40',
+        img: '/pump/38.jpg',
+        descriptionPrise: '',
+        description: ''
+    },
+    {
+        id: '87',
+        title: 'Односторонній клапан Mixrite (1618-043112)',
+        code: 'ZAW-JED-GREN',
+        price: '82.00',
+        newPrice: '',
+        size: 1,
+        slug: 'goods3-41',
+        img: '/pump/39.jpg',
+        descriptionPrise: '',
+        description: ''
+    },
+    {
+        id: '88',
+        title: 'Монтажний комплект для насосів серії EVO (APG603,APG800)',
+        code: 'ПОМ-ТЕК-ЗЕС',
+        price: '204.16',
+        newPrice: '',
+        size: 1,
+        slug: 'goods3-42',
+        img: '/pump/40.jpg',
+        descriptionPrise: '',
+        description: ''
+    },
+    {
+        id: '89',
+        title: 'Монтажний комплект для насосів серії Kompact (AMS200)',
+        code: 'ПОМ-КОМ-ЗЕС',
+        price: '165.36',
+        newPrice: '',
+        size: 1,
+        slug: 'goods3-43',
+        img: '/pump/41.jpg',
+        descriptionPrise: '',
+        description: ''
+    },
+    {
+        id: '90',
+        title: 'Ремкомплект дозатора Dosatron (PJDI116HTAF)',
+        code: 'ZES-NAP-DOS-AF',
+        price: '209.44',
+        newPrice: '',
+        size: 1,
+        slug: 'goods3-44',
+        img: '/pump/42.jpg',
+        descriptionPrise: '',
+        description: ''
+    },
+    {
+        id: '91',
+        title: 'Ремкомплект дозатора Dosatron (PJDI116VF)',
+        code: 'ZES-NAP-DOS-VF',
+        price: '211.74',
+        newPrice: '',
+        size: 1,
+        slug: 'goods3-45',
+        img: '/pump/43.jpg',
+        descriptionPrise: '',
+        description: ''
+    },
+    {
+        id: '92',
+        title: 'Набір для ремонту дозатора Mixrite',
+        code: 'ЗЕС-НАП-КРА',
+        price: '103.48',
+        newPrice: '',
+        size: 1,
+        slug: 'goods3-46',
+        img: '/pump/44.jpg',
+        descriptionPrise: '',
+        description: ''
+    },
+    {
+        id: '93',
+        title: 'Комплект ущільнень для насосів серії EVO (APG603,APG800)',
+        code: 'POM-TEK-USZ',
+        price: '49.74',
+        newPrice: '',
+        size: 1,
+        slug: 'goods3-47',
+        img: '/pump/45.jpg',
+        descriptionPrise: '',
+        description: ''
+    },
+    {
+        id: '94',
+        title: 'Комплект прокладок Dosatron (EMDI006HT)',
+        code: 'USZ-MOT-DOS',
+        price: '99.33',
+        newPrice: '',
+        size: 1,
+        slug: 'goods3-48',
+        img: '/pump/46.jpg',
         descriptionPrise: '',
         description: ''
     },
@@ -269,10 +619,102 @@ function ChemicalMeans() {
     const [open2, setOpen2] = useState(false)
     const [goods, setGoods] = useState([])
 
+    const router = useRouter()
+    const pathname = usePathname()
+    const searchParams = useSearchParams()
+    let paginatedData = []
+
+    let pageUrl = searchParams.get('page') || 1
+
     const addOrderStore = useStore(store => store.addOrder)
 
+    const main = () => {
+        const postsData = arrGoods
+        let currentPage = Number(pageUrl)
+        let rows = 20;
+
+        function displayList(arrData, rowPerPage, page) {
+            const postsEl = document.getElementById('posts');
+            postsEl.innerHTML = "";
+            page--;
+
+            const start = rowPerPage * page;
+            const end = start + rowPerPage;
+            paginatedData = arrData?.slice(start, end);
+            if (paginatedData?.length === 0) {
+                paginatedData = arrData?.slice(0, 6);
+            }
+            setGoods(paginatedData)
+        }
+
+        function displayPagination(arrData, rowPerPage) {
+            const paginationEl = document.getElementById('pagination');
+            const pagesCount = Math.ceil(arrData.length / rowPerPage);
+            if (pagesCount < Number(pageUrl)) {
+                router.push(pathname + '?page=' + 1)
+                currentPage = 1
+            }
+            const ulEl = document.createElement("ul");
+            ulEl.classList.add(s['pagination__list']);
+
+            for (let i = 0; i < pagesCount; i++) {
+                const liEl = displayPaginationBtn(i + 1);
+                ulEl.appendChild(liEl)
+            }
+            paginationEl.appendChild(ulEl)
+        }
+
+        function displayPaginationBtn(page) {
+            const liEl = document.createElement("li");
+            liEl.classList.add(s['pagination__item'])
+            liEl.innerText = page
+            const pagesCount = Math.ceil(postsData.length / rows);
+
+            if (currentPage === page) {
+                if(Number(currentPage) === 1){
+                    liEl.classList.add(s['pagination__item__active_first']);
+                }
+                else if (Number(pagesCount) === Number(currentPage)){
+                    liEl.classList.add(s['pagination__item__active_end']);
+                }
+
+                liEl.classList.add(s['pagination__item__active']);
+                liEl.id = 'pagination__item__active'
+            }
+
+            liEl.addEventListener('click', () => {
+                window.scrollTo(0, 0);
+                currentPage = page
+                displayList(postsData, rows, currentPage)
+
+                let currentItemLi = document.getElementById('pagination__item__active');
+
+                router.push(pathname + '?page=' + page)
+
+                currentItemLi.classList.remove(s['pagination__item__active']);
+                if(Number(currentItemLi?.textContent) === 1){
+                    currentItemLi.classList.remove(s['pagination__item__active_first']);
+                }
+                currentItemLi.id = ''
+
+                if(Number(currentPage) === 1){
+                    liEl.classList.add(s['pagination__item__active_first']);
+                } else if (Number(pagesCount) === Number(currentPage)){
+                    liEl.classList.add(s['pagination__item__active_end']);
+                }
+                liEl.classList.add(s['pagination__item__active']);
+                liEl.id = 'pagination__item__active'
+            })
+
+            return liEl;
+        }
+
+        displayList(postsData, rows, currentPage);
+        displayPagination(postsData, rows);
+    }
+
     useEffect(() => {
-        setGoods(arrGoods)
+        main()
     }, []);
 
     const style = {
@@ -384,7 +826,7 @@ function ChemicalMeans() {
                                             }
                                         </div>
                                         <p className={s.goodsTitle}>{item.title}</p>
-                                        <p className={s.client_code}>Код виробника: {item?.code}</p>
+                                        <p className={s.client_code}>Код виробника: <b>{item?.code}</b></p>
                                         <p className={s.description}>{item?.description}</p>
                                     </div>
                                     <div className={s.div_price}>
@@ -418,6 +860,11 @@ function ChemicalMeans() {
                             })
                         }
                     </ul>
+
+                    <div className={s.search_navigation}>
+                        <div id="posts" className={s.articleBlog}></div>
+                        <div id="pagination" className={s.pagination}></div>
+                    </div>
 
                     <div className={s.descDiv}>
                         <Image src='/pump/main.jpg' alt='Хімічні засоби' width={500} height={500}/>

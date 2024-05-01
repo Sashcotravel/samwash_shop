@@ -766,6 +766,616 @@ export const goodsArr = [
         <p>Макс. температура: 35 градусів Цельсія</p><br/>
         `,
     },
+
+    {
+        id: '20',
+        title: 'Котушка 24VDC для електромагнітного клапана Jaksa BS3IS',
+        code: 'ZAW-JAK-NC-3/8-CEW',
+        price: '531.83',
+        newPrice: '',
+        size: 1,
+        slug: 'goods2-1',
+        img: '/electromagnetic/1.jpg',
+        description: '',
+        descriptionPrise: '',
+        bread1: {
+            slug: '/electromagnetic-valves-and-repair-kits',
+            title: 'Електромагнітні клапани та ремкомплекти',
+        },
+        bread2: {
+            slug: '/repair-kits-of-electromagnetic-valves',
+            title: 'Ремкомплекти електромагнітних клапанів',
+        },
+        bread3: '',
+        descriptionMin: 'Котушка 24VDC для електромагнітного клапана Jaksa BS3IS',
+        weight: '',
+        imageShow: ['/electromagnetic/1.jpg'],
+        descriptionFull: '',
+    },
+    {
+        id: '21',
+        title: 'Електромагнітний клапан латунний 255 1/4", ВІТОН + тефлонове ущільнення',
+        code: 'ELE-BKF-267791',
+        price: '628.99',
+        newPrice: '',
+        size: 1,
+        slug: 'goods2-2',
+        img: '/electromagnetic/2.jpg',
+        description: '',
+        descriptionPrise: '',
+        bread1: {
+            slug: '/electromagnetic-valves-and-repair-kits',
+            title: 'Електромагнітні клапани та ремкомплекти',
+        },
+        bread2: {
+            slug: '/electromagnetic-valves',
+            title: 'Електромагнітні клапани',
+        },
+        bread3: '',
+        descriptionMin: 'Латунний електромагнітний клапан, який використовується на безконтактних автомийках.',
+        weight: '0,731',
+        imageShow: ['/electromagnetic/2.jpg'],
+        descriptionFull: `
+        <p>Латунний електромагнітний клапан, який використовується на автомийках SamWash. Підходить для 
+        автомийок Ehrle і безконтактних мийок інших виробників.</p><br/>
+        <p>Електромагнітний клапан використовується в програмі «Турбо». У рідинних автомийках його можна 
+        використовувати для основного миття та в зимовому циклі для скидання тиску.</p><br/>
+        <p><b>Технічні дані</b></p>
+        <p>Тип: 255</p><br/>
+        <p>Тиск: 0-100 бар</p><br/>
+        <p>Діаметр потоку: DN1</p><br/>
+        <p>Різьба: G1/4''</p><br/>
+        <p>Корпус: латунь</p><br/>
+        <p>Ущільнення: Вітон + Тефлон</p><br/>
+        <p>Потужність котушки: 12 Вт</p><br/>
+        <p>Напруга живлення: 24V DC</p><br/>
+        `,
+    },
+    {
+        id: '22',
+        title: 'Клапан електромагнітний 256 латунь 1/2"',
+        code: 'ELE-BKF-56302',
+        price: '817.58',
+        newPrice: '',
+        size: 1,
+        slug: 'goods2-3',
+        img: '/electromagnetic/3.jpg',
+        description: '',
+        descriptionPrise: '',
+        bread1: {
+            slug: '/electromagnetic-valves-and-repair-kits',
+            title: 'Електромагнітні клапани та ремкомплекти',
+        },
+        bread2: {
+            slug: '/electromagnetic-valves',
+            title: 'Електромагнітні клапани',
+        },
+        bread3: '',
+        descriptionMin: 'Латунний електромагнітний клапан, який використовується на безконтактних автомийках.',
+        weight: '0,802',
+        imageShow: ['/electromagnetic/3.jpg', '/electromagnetic/image1.jpg'],
+        descriptionFull: `
+        <p>Латунний електромагнітний клапан, який використовується на автомийках SamWash. Підходить для 
+        автомийок Ehrle і безконтактних мийок інших виробників.</p><br/>
+        <p>Використовується в програмі «Основне прання».</p><br/>
+        <p><b>Технічні дані</b></p>
+        <p>Тип: 256</p><br/>
+        <p>Тиск: 0-0,1 бар</p><br/>
+        <p>Діаметр потоку: DN12</p><br/>
+        <p>Різьба: G1/4''</p><br/>
+        <p>Корпус: латунь</p><br/>
+        <p>Потужність котушки: 12 Вт</p><br/>
+        <p>Напруга живлення: 24V DC</p><br/>
+        `,
+    },
+    {
+        id: '23',
+        title: 'Електромагнітний клапан 256 з нержавіючої сталі 1/2\'\', ущільнення з VITONU',
+        code: 'ELE-BKF-267790',
+        price: '1281.34',
+        newPrice: '',
+        size: 1,
+        slug: 'goods2-4',
+        img: '/electromagnetic/4.jpg',
+        descriptionPrise: '',
+        description: '',
+        bread1: {
+            slug: '/electromagnetic-valves-and-repair-kits',
+            title: 'Електромагнітні клапани та ремкомплекти',
+        },
+        bread2: {
+            slug: '/electromagnetic-valves',
+            title: 'Електромагнітні клапани',
+        },
+        bread3: '',
+        descriptionMin: 'Електромагнітний клапан 256 з нержавіючої сталі 1/2\'\', ущільнення з VITONU',
+        weight: '0,725',
+        imageShow: ['/electromagnetic/4.jpg'],
+        descriptionFull: `
+        <p>Латунний електромагнітний клапан, який використовується на автомийках SamWash. Підходить для 
+        автомийок Ehrle і безконтактних мийок інших виробників.</p><br/>
+        <p>Електромагнітний клапан використовується для відкриття потоку води з порошкової кювети.</p><br/>
+        <p><b>Технічні дані</b></p>
+        <p>Тип: 256</p><br/>
+        <p>Тиск: 0-0,4 бар</p><br/>
+        <p>Діаметр потоку: DN10</p><br/>
+        <p>Різьба: G1/2''</p><br/>
+        <p>Корпус: нержавіюча сталь</p><br/>
+        <p>Ущільнення: Вітон</p><br/>
+        <p>Потужність котушки: 12 Вт</p><br/>
+        <p>Напруга живлення: 24V DC</p><br/>
+        `,
+    },
+    {
+        id: '24',
+        title: 'Латунний електромагнітний клапан 6213 1/2", ущільнювач VITON (без головки)',
+        code: 'ELE-BKF-267793',
+        price: '352.10',
+        newPrice: '',
+        size: 1,
+        slug: 'goods2-5',
+        img: '/electromagnetic/5.jpg',
+        descriptionPrise: '',
+        description: '',
+        bread1: {
+            slug: '/electromagnetic-valves-and-repair-kits',
+            title: 'Електромагнітні клапани та ремкомплекти',
+        },
+        bread2: {
+            slug: '/electromagnetic-valves',
+            title: 'Електромагнітні клапани',
+        },
+        bread3: '',
+        descriptionMin: 'Латунний електромагнітний клапан, який використовується на безконтактних автомийках.',
+        weight: '0,628',
+        imageShow: ['/electromagnetic/5.jpg'],
+        descriptionFull: `
+        <p>Латунний електромагнітний клапан, який використовується на автомийках SamWash. Підходить для 
+        автомийок Ehrle і безконтактних мийок інших виробників.</p><br/>
+        <p>Він використовується в програмах обслуговування полімерів, полірування та сушіння, а також використовується 
+        для додавання осмотичної води та додавання води в лоток для порошку.</p><br/>
+        <p>У комплект не входить кабельний штекер (головка).</p><br/>
+        <p><b>Технічні дані</b></p>
+        <p>Тип: 6213</p><br/>
+        <p>Тиск: 0-10 бар</p><br/>
+        <p>Різьба: G1/2''</p><br/>
+        <p>Корпус: латунь</p><br/>
+        <p>Ущільнення: Вітон</p><br/>
+        <p>Потужність котушки: 12 Вт</p><br/>
+        <p>Напруга живлення: 24V DC</p><br/>
+        `,
+    },
+    {
+        id: '25',
+        title: 'Клапан електромагнітний латунний 6213 3/4" (ущільнення BUNY, для холодної води)',
+        code: 'ELE-BKF-267795',
+        price: '475.67',
+        newPrice: '',
+        size: 1,
+        slug: 'goods2-6',
+        img: '/electromagnetic/6.jpg',
+        descriptionPrise: '',
+        description: '',
+        bread1: {
+            slug: '/electromagnetic-valves-and-repair-kits',
+            title: 'Електромагнітні клапани та ремкомплекти',
+        },
+        bread2: {
+            slug: '/electromagnetic-valves',
+            title: 'Електромагнітні клапани',
+        },
+        bread3: '',
+        descriptionMin: 'Електромагнітний клапан для безконтактної мийки',
+        weight: '0,634',
+        imageShow: ['/electromagnetic/6.jpg'],
+        descriptionFull: `
+        <p>Латунний електромагнітний клапан, який використовується на автомийках SamWash. Підходить для 
+        автомийок Ehrle і безконтактних мийок інших виробників.</p><br/>
+        <p>Використовується на байпасі для осмосу.</p><br/>
+        <p>У комплект не входить кабельний штекер (головка).</p><br/>
+        <p><b>Технічні дані</b></p>
+        <p>Тип: 6213</p><br/>
+        <p>Різьба: 3/4"</p><br/>
+        <p>Корпус: латунь</p><br/>
+        <p>Печатка: ЗАЙЧИК</p><br/>
+        `,
+    },
+    {
+        id: '26',
+        title: 'Електромагнітний клапан 1/2\'\' з нержавіючої сталі 6213, ущільнення VITON',
+        code: 'ELE-BKF-267936',
+        price: '596.80',
+        newPrice: '',
+        size: 1,
+        slug: 'goods2-7',
+        img: '/electromagnetic/7.jpg',
+        descriptionPrise: '',
+        description: '',
+        bread1: {
+            slug: '/electromagnetic-valves-and-repair-kits',
+            title: 'Електромагнітні клапани та ремкомплекти',
+        },
+        bread2: {
+            slug: '/electromagnetic-valves',
+            title: 'Електромагнітні клапани',
+        },
+        bread3: '',
+        descriptionMin: 'Електромагнітний клапан 1/2\'\' з нержавіючої сталі 6213, ущільнення VITON',
+        weight: '0,648',
+        imageShow: ['/electromagnetic/7.jpg'],
+        descriptionFull: `
+        <p>Латунний електромагнітний клапан, який використовується на автомийках SamWash. Підходить для 
+        автомийок Ehrle і безконтактних мийок інших виробників.</p><br/>
+        <p>Електромагнітний клапан використовується для програм «Попереднє розпилення», «Піна», «Щітка» 
+        та для скидання тиску.</p><br/>
+        <p>У комплект не входить кабельний штекер (головка).</p><br/>
+        <p><b>Технічні дані</b></p>
+        <p>Тип: 6213</p><br/>
+        <p>Різьба: G1/2''</p><br/>
+        <p>Корпус: нержавіюча сталь</p><br/>
+        <p>Ущільнення: Вітон</p><br/>
+        <p>Потужність котушки: 12 Вт</p><br/>
+        <p>Напруга живлення: 24V DC</p><br/>
+        `,
+    },
+    {
+        id: '27',
+        title: 'Подвійний електромагнітний клапан високого тиску з нержавіючої сталі 6240 3/8"',
+        code: 'ELE-BKF-370320',
+        price: '3119.60',
+        newPrice: '',
+        size: 1,
+        slug: 'goods2-8',
+        img: '/electromagnetic/8.jpg',
+        descriptionPrise: '',
+        description: '',
+        bread1: {
+            slug: '/electromagnetic-valves-and-repair-kits',
+            title: 'Електромагнітні клапани та ремкомплекти',
+        },
+        bread2: {
+            slug: '/electromagnetic-valves',
+            title: 'Електромагнітні клапани',
+        },
+        bread3: '',
+        descriptionMin: 'Подвійний електромагнітний клапан високого тиску з нержавіючої сталі 3/8"',
+        weight: '1,981',
+        imageShow: ['/electromagnetic/8.jpg', '/electromagnetic/image2.jpg'],
+        descriptionFull: `
+        <p>Електромагнітний клапан, який використовується в пінній програмі. Клапан високого тиску з 
+        нержавіючої сталі.</p><br/>
+        <p>Розмір: 3/8"</p><br/>
+        `,
+    },
+    {
+        id: '28',
+        title: 'Латунний електромагнітний клапан 6281 1/2", ущільнювач з VITON',
+        code: 'ELE-BKF-267792',
+        price: '502.76',
+        newPrice: '',
+        size: 1,
+        slug: 'goods2-9',
+        img: '/electromagnetic/9.jpg',
+        descriptionPrise: '',
+        description: '',
+        bread1: {
+            slug: '/electromagnetic-valves-and-repair-kits',
+            title: 'Електромагнітні клапани та ремкомплекти',
+        },
+        bread2: {
+            slug: '/electromagnetic-valves',
+            title: 'Електромагнітні клапани',
+        },
+        bread3: '',
+        descriptionMin: 'Латунний електромагнітний клапан 6281 1/2", ущільнювач з VITON',
+        weight: '0,6',
+        imageShow: ['/electromagnetic/9.jpg'],
+        descriptionFull: `
+        <p>Латунний електромагнітний клапан, який використовується на автомийках SamWash. Підходить для 
+        автомийок Ehrle і безконтактних мийок інших виробників.</p><br/>
+        <p>Електромагнітний клапан використовується в програмі «Полоскання». У комплект не входить кабельний 
+        штекер (головка)</p><br/>
+        <p><b>Технічні дані</b></p>
+        <p>Тип: 6281</p><br/>
+        <p>Різьба: G1/2''</p><br/>
+        <p>Корпус: латунь</p><br/>
+        <p>Ущільнення: Вітон</p><br/>
+        <p>Потужність котушки: 12 Вт</p><br/>
+        <p>Напруга живлення: 24V DC</p><br/>
+        `,
+    },
+    {
+        id: '29',
+        title: 'Електромагнітний клапан Jaksa BS3IS (DN8 G3/8 PK NC 24VDC)',
+        code: 'ZAW-JAK-NC-3/8',
+        price: '1488.53',
+        newPrice: '',
+        size: 1,
+        slug: 'goods2-10',
+        img: '/electromagnetic/10.jpg',
+        descriptionPrise: '',
+        description: '',
+        bread1: {
+            slug: '/electromagnetic-valves-and-repair-kits',
+            title: 'Електромагнітні клапани та ремкомплекти',
+        },
+        bread2: {
+            slug: '/electromagnetic-valves',
+            title: 'Електромагнітні клапани',
+        },
+        bread3: '',
+        descriptionMin: 'Електромагнітний клапан Jaksa BS3IS (DN8 G3/8 PK NC 24VDC)',
+        weight: '0,631',
+        imageShow: ['/electromagnetic/10.jpg'],
+        descriptionFull: `
+        <p>Латунний електромагнітний клапан, який використовується на автомийках SamWash. Підходить для 
+        автомийок Ehrle і безконтактних мийок інших виробників.</p><br/>
+        <p>Електромагнітний клапан використовується в програмі «Піна».</p><br/>
+        <p><b>Технічні дані</b></p>
+        <p>Тип: BS3is</p><br/>
+        <p>Тиск: 0,8-150 бар</p><br/>
+        <p>Діаметр потоку: DN8</p><br/>
+        <p>Різьба: G3/8''</p><br/>
+        <p>Корпус: латунь</p><br/>
+        <p>Ущільнення: PEEK</p><br/>
+        <p>Потужність котушки: 12 Вт</p><br/>
+        <p>Напруга живлення: 24V DC</p><br/>
+        `,
+    },
+    {
+        id: '30',
+        title: 'Штекер кабелю для електромагнітних клапанів (792,793,795,936)',
+        code: 'ELE-BKF-WTY',
+        price: '18.19',
+        newPrice: '',
+        size: 1,
+        slug: 'goods2-11',
+        img: '/electromagnetic/11.jpg',
+        descriptionPrise: '',
+        description: '',
+        bread1: {
+            slug: '/electromagnetic-valves-and-repair-kits',
+            title: 'Електромагнітні клапани та ремкомплекти',
+        },
+        bread2: {
+            slug: '/repair-kits-of-electromagnetic-valves',
+            title: 'Ремкомплекти електромагнітних клапанів',
+        },
+        bread3: '',
+        descriptionMin: 'Штекер кабелю для електромагнітних клапанів',
+        weight: '',
+        imageShow: ['/electromagnetic/11.jpg', '/electromagnetic/image3.jpg', '/electromagnetic/image4.jpg'],
+        descriptionFull: `
+        <p><b>Штекер кабелю для електромагнітних клапанів:</b></p>
+        <p>792,</p>
+        <p>793,</p>
+        <p>795,</p>
+        <p>936,</p>
+        `,
+    },
+    {
+        id: '31',
+        title: 'Ремкомплект для клапана високого тиску Burkert 6240 [00333996]',
+        code: 'ZES-NAP-BUR-6240-333996',
+        price: '834.15',
+        newPrice: '',
+        size: 1,
+        slug: 'goods2-12',
+        img: '/electromagnetic/12.jpg',
+        descriptionPrise: '',
+        description: '',
+        bread1: {
+            slug: '/electromagnetic-valves-and-repair-kits',
+            title: 'Електромагнітні клапани та ремкомплекти',
+        },
+        bread2: {
+            slug: '/repair-kits-of-electromagnetic-valves',
+            title: 'Ремкомплекти електромагнітних клапанів',
+        },
+        bread3: '',
+        descriptionMin: 'Ремкомплект клапана Burkert 6240',
+        weight: '0,087',
+        imageShow: ['/electromagnetic/12.jpg', '/electromagnetic/image5.jpg'],
+        descriptionFull: `
+        <p><b>У набір входять деталі 3, 6, 11, 14, 15, 16 з доданого креслення</b></p>
+        `,
+    },
+    {
+        id: '32',
+        title: 'Ремкомплект VITON (на клапан 256)',
+        code: 'РДЗ-256-ВІТ',
+        price: '172.40',
+        newPrice: '',
+        size: 1,
+        slug: 'goods2-13',
+        img: '/electromagnetic/13.jpg',
+        descriptionPrise: '',
+        description: '',
+        bread1: {
+            slug: '/electromagnetic-valves-and-repair-kits',
+            title: 'Електромагнітні клапани та ремкомплекти',
+        },
+        bread2: {
+            slug: '/repair-kits-of-electromagnetic-valves',
+            title: 'Ремкомплекти електромагнітних клапанів',
+        },
+        bread3: '',
+        descriptionMin: 'Ремкомплект VITON (на клапан 256)',
+        weight: '0,033',
+        imageShow: ['/electromagnetic/13.jpg'],
+        descriptionFull: `
+        <p>Ремкомплект VITON для вентиля 256.</p><br/>
+        <p>У комплект входить сердечник з гуми Viton - гарантовано більший термін служби.</p><br/>
+        `,
+    },
+    {
+        id: '33',
+        title: 'Ремкомплект VITON (на клапан 5281)',
+        code: 'MEM-NOV-003',
+        price: '129.81',
+        newPrice: '',
+        size: 1,
+        slug: 'goods2-14',
+        img: '/electromagnetic/14.jpg',
+        descriptionPrise: '',
+        description: '',
+        bread1: {
+            slug: '/electromagnetic-valves-and-repair-kits',
+            title: 'Електромагнітні клапани та ремкомплекти',
+        },
+        bread2: {
+            slug: '/repair-kits-of-electromagnetic-valves',
+            title: 'Ремкомплекти електромагнітних клапанів',
+        },
+        bread3: '',
+        descriptionMin: 'Ремкомплект електромагнітного клапана 5281',
+        weight: '0,021',
+        imageShow: ['/electromagnetic/14.jpg'],
+        descriptionFull: `
+        <p>Ремкомплект електромагнітного клапана 5281.</p><br/>
+        <p>У комплект входять: мембрана, пружина і ущільнювальне кільце.</p><br/>
+        <p>Виробник: Burkert</p><br/>
+        `,
+    },
+    {
+        id: '34',
+        title: 'Ремкомплект VITON (на клапан 6213) ',
+        code: 'ZES-NAP-6213-VIT',
+        price: '147.96',
+        newPrice: '',
+        size: 1,
+        slug: 'goods2-15',
+        img: '/electromagnetic/15.jpg',
+        descriptionPrise: '',
+        description: '',
+        bread1: {
+            slug: '/electromagnetic-valves-and-repair-kits',
+            title: 'Електромагнітні клапани та ремкомплекти',
+        },
+        bread2: {
+            slug: '/repair-kits-of-electromagnetic-valves',
+            title: 'Ремкомплекти електромагнітних клапанів',
+        },
+        bread3: '',
+        descriptionMin: 'Ремкомплект VITON (на клапан 6213) ',
+        weight: '0,038',
+        imageShow: ['/electromagnetic/15.jpg'],
+        descriptionFull: `
+        <p>Ремкомплект для клапана 6213 з гумою Viton - більший термін служби гарантовано.</p><br/>
+        <p>Виробник: Burkert</p><br/>
+        `,
+    },
+    {
+        id: '35',
+        title: 'Ремкомплект VITON (на клапан 6281)',
+        code: 'ZES-NAP-6281',
+        price: '160.48',
+        newPrice: '',
+        size: 1,
+        slug: 'goods2-16',
+        img: '/electromagnetic/17.jpg',
+        descriptionPrise: '',
+        description: '',
+        bread1: {
+            slug: '/electromagnetic-valves-and-repair-kits',
+            title: 'Електромагнітні клапани та ремкомплекти',
+        },
+        bread2: {
+            slug: '/repair-kits-of-electromagnetic-valves',
+            title: 'Ремкомплекти електромагнітних клапанів',
+        },
+        bread3: '',
+        descriptionMin: 'Ремкомплект VITON (на клапан 6281)',
+        weight: '0,028',
+        imageShow: ['/electromagnetic/17.jpg'],
+        descriptionFull: `
+        <p>Ремкомплект електромагнітного клапана 6281.</p><br/>
+        <p>У комплект входять: мембрана, пружина і ущільнювальне кільце.</p><br/>
+        <p>Виробник: Burkert</p><br/>
+        `,
+    },
+    {
+        id: '36',
+        title: 'Ремкомплект VITON + TEFLON для клапана 255',
+        code: 'ZES-NAP-255-VIT',
+        price: '160.24',
+        newPrice: '',
+        size: 1,
+        slug: 'goods2-17',
+        img: '/electromagnetic/18.jpg',
+        descriptionPrise: '',
+        description: '',
+        bread1: {
+            slug: '/electromagnetic-valves-and-repair-kits',
+            title: 'Електромагнітні клапани та ремкомплекти',
+        },
+        bread2: {
+            slug: '/repair-kits-of-electromagnetic-valves',
+            title: 'Ремкомплекти електромагнітних клапанів',
+        },
+        bread3: '',
+        descriptionMin: 'Ремкомплект електромагнітного клапана VITON + TEFLON для клапана 255',
+        weight: '',
+        imageShow: ['/electromagnetic/18.jpg', '/electromagnetic/image6.jpg'],
+        descriptionFull: `
+        <p>Ремкомплект електромагнітного клапана VITON + TEFLON для клапана 255</p><br/>
+        `,
+    },
+    {
+        id: '37',
+        title: 'Ремкомплект VITON для вентиля з нержавіючої сталі 6213 DN13',
+        code: 'ZES-NAP-6213-VIT-ST',
+        price: '430.99',
+        newPrice: '',
+        size: 1,
+        slug: 'goods2-18',
+        img: '/electromagnetic/19.jpg',
+        descriptionPrise: '',
+        description: '',
+        bread1: {
+            slug: '/electromagnetic-valves-and-repair-kits',
+            title: 'Електромагнітні клапани та ремкомплекти',
+        },
+        bread2: {
+            slug: '/repair-kits-of-electromagnetic-valves',
+            title: 'Ремкомплекти електромагнітних клапанів',
+        },
+        bread3: '',
+        descriptionMin: 'Ремкомплект VITON для вентиля з нержавіючої сталі 6213 DN13',
+        weight: '',
+        imageShow: ['/electromagnetic/19.jpg', '/electromagnetic/image7.jpg'],
+        descriptionFull: `
+        <p>Ремкомплект VITON для вентиля з нержавіючої сталі 6213 DN13</p><br/>
+        `,
+    },
+    {
+        id: '38',
+        title: 'Ремкомплект VITON + TEFLON (на клапан 255)',
+        code: 'РДЗ-НОВ-001',
+        price: '203.21',
+        newPrice: '',
+        size: 1,
+        slug: 'goods2-19',
+        img: '/electromagnetic/20.jpg',
+        descriptionPrise: '',
+        description: '',
+        bread1: {
+            slug: '/electromagnetic-valves-and-repair-kits',
+            title: 'Електромагнітні клапани та ремкомплекти',
+        },
+        bread2: {
+            slug: '/repair-kits-of-electromagnetic-valves',
+            title: 'Ремкомплекти електромагнітних клапанів',
+        },
+        bread3: '',
+        descriptionMin: 'Ремкомплект VITON + TEFLON (на клапан 255)',
+        weight: '0,033 кг',
+        imageShow: ['/electromagnetic/20.jpg'],
+        descriptionFull: `
+        <p>Ремкомплект VITON + TEFLON для клапана 255.</p><br/>
+        <p>У комплект входить сердечник клапана.</p><br/>
+        `,
+    },
 ]
 
 const data = [
