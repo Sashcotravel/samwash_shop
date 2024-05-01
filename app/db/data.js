@@ -1,6 +1,6 @@
-import { AiFillStar } from "react-icons/ai";
+import {AiFillStar} from "react-icons/ai";
 
-export const goodsArr =  [
+export const goodsArr = [
     {
         id: '1',
         title: 'Активна піна для миття автомобіля Blue Foam (20л), синій колір',
@@ -239,9 +239,40 @@ export const goodsArr =  [
         img: '/chemical-means/6.jpg',
         descriptionPrise: 'Найнижча ціна за 30 днів до знижки: 1201,00 доларів',
         description: '',
-        bread1: '/chemical-means',
-        bread2: '/active-foam',
+        bread1: {
+            slug: '/chemical-means',
+            title: 'Хімічні засоби для безконтактної мийки',
+        },
+        bread2: {
+            slug: '/active-foam',
+            title: 'Активна піна для миття автомобіля',
+        },
         bread3: '',
+        descriptionMin: 'Шукаєте перевірену хімію для миття автомобіля? Перевірте нашу рекомендацію, яка є готовим ' +
+            'пакетом з хімії. Ви знайдете: барвисту активну піну Blue Foam (20л), висококонцентрований шампунь Turbo' +
+            ' Plus (20л) та віск для мийки автомобіля Sky Wax найвищої якості (25л).',
+        weight: '',
+        imageShow: ['/chemical-means/6.jpg'],
+        descriptionFull: `
+        <p>Пропонуємо якісний набір рідкої хімії для автомийки. Пропонована нами продукція характеризується високою 
+        ефективністю та ефективністю. Унікальні формули препаратів відповідають високим очікуванням наших клієнтів. 
+        У набір входять: активна піна Blue Foam (20л), шампунь Turbo Plus (20л), віск Sky Wax (25л)</p><br/>
+        <p><b>Застосування</b></p>
+        <p>Засіб призначений для частого миття кузовів. 
+        Наноситься за допомогою спеціального пінного пістолета. На безконтактних мийках миюча піна
+         використовується на програмі «АКТИВНА ПІНА».</p><br/>
+        <p><b>Спосіб застосування</b></p>
+        <p>Залежно від ступеня забруднення нанесіть за допомогою пульверизатора або піни.</p>
+        <p>Робочий розчин від 1 до 5% (100-500 мл/10л води).</p>
+        <p>Після мийки промийте автомобіль струменем демінералізованої води під високим тиском.</p><br/>
+       <p><b>Рекомендоване дозування</b>
+       <p>насоса APG 603: 13 - 28%</p>
+       <p>насоса APG 800: 6 - 12%</p>
+       <p>Dosatron/Mixrite: 0,2 - 0,7%</p><br/>
+       <p><b>Рекомендована температура зберігання</b></p>
+       <p>Мін. температура: 5 градусів Цельсія</p>
+       <p>Макс. температура: 35 градусів Цельсія</p><br/>
+        `,
     },
     {
         id: '7',
@@ -263,6 +294,36 @@ export const goodsArr =  [
             title: 'Активна піна для миття автомобіля',
         },
         bread3: '',
+        descriptionMin: 'Шукаєте перевірену хімію для миття автомобіля? Перевірте нашу рекомендацію, яка є готовим ' +
+            'пакетом з хімії. Ви знайдете: барвисту активну піну Green Alka Foam (20 л), високоефективний порошок ' +
+            'Powder Ultra Fresh (25 кг) та віск для мийки автомобіля Sky Wax найвищої якості (25 л).',
+        weight: '',
+        imageShow: ['/chemical-means/7.jpg'],
+        descriptionFull: `
+        <p>Пропонуємо якісний набір рідкої хімії для автомийки. Пропонована нами продукція характеризується високою 
+        ефективністю та ефективністю. Унікальні формули препаратів відповідають високим очікуванням наших клієнтів. 
+         У набір входять такі продукти: активна піна Green Alka Foam (20л), високоефективний порошок Powder Ultra 
+         Fresh (25кг) і віск для миття автомобіля Sky Wax найвищої якості (25л).</p><br/>
+        <p>Активна піна Green Alka Foam - це висококонцентрована (дозування від 0,2%) зелена лужна піна для вмивання 
+        з ароматом яблука. Унікальне поєднання кольору, запаху та лужності робить нашу активну піну абсолютно 
+        унікальним продуктом на ринку. </p>
+        <p>На «виході з гармати» лужність Green Alka Foam становить 9 pH. Це ідеальне значення, завдяки якому ми 
+        досягаємо чудових очисних властивостей, забезпечуючи безпеку захисних покриттів.</p><br/>
+        <p><b>Застосування</b></p>
+        <p>Засіб призначений для частого миття кузовів, як засіб для пом'якшення бруду, що підтримує основне миття.
+        Наноситься за допомогою спеціального пінного пістолета. На безконтактних мийках миюча піна
+         використовується на програмі «АКТИВНА ПІНА».</p><br/>
+        <p><b>Спосіб застосування</b></p>
+        <p>Залежно від ступеня забруднення нанесіть за допомогою пульверизатора або піни.</p>
+        <p>Після мийки промийте автомобіль струменем демінералізованої води під високим тиском.</p><br/>
+       <p><b>Рекомендоване дозування</b>
+       <p>насоса APG 603: 13 - 35%</p>
+       <p>насоса APG 800: 6 - 12%</p>
+       <p>Dosatron/Mixrite: 0,2 - 1%</p><br/>
+       <p><b>Рекомендована температура зберігання</b></p>
+       <p>Мін. температура: 5 градусів Цельсія</p>
+       <p>Макс. температура: 35 градусів Цельсія</p><br/>
+        `,
     },
     {
         id: '8',
@@ -281,6 +342,21 @@ export const goodsArr =  [
         },
         bread2: '',
         bread3: '',
+        descriptionMin: 'Готовий до використання препарат, який запобігає утворенню піни в резервуарах для брудної води.' +
+            ' Підходить для використання в будь-якому пристрої. Використання скиммера знижує ризик пошкодження двигуна ' +
+            'пилососа або пральної машини. Полегшує та скорочує час полоскання текстильних поверхонь.',
+        weight: '10.1',
+        imageShow: ['/chemical-means/8.jpg'],
+        descriptionFull: `
+        <p>Готовий до використання препарат, який запобігає утворенню піни в резервуарах для брудної води. 
+        Підходить для використання в будь-якому пристрої. Використання скиммера знижує ризик пошкодження 
+        двигуна пилососа або пральної машини. Полегшує та скорочує час полоскання текстильних поверхонь</p><br/>
+        <p><b>Застосування</b></p>
+        <p>Підлогомийники, вологий пилосос, інші пральні машини.</p><br/>
+        <p><b>Спосіб застосування</b></p>
+        <p>Налити 50-100 мл препарату в ємність для брудної води;</p>
+        <p>Використовувати після використання піноутворювачів;</p><br/>
+        `,
     },
     {
         id: '9',
@@ -299,6 +375,26 @@ export const goodsArr =  [
         },
         bread2: '',
         bread3: '',
+        descriptionMin: 'Концентрований засіб для чищення дисків для видалення забруднень, що утворилися внаслідок' +
+            ' експлуатації транспортних засобів. Хімічні засоби для чищення дисків призначені для щоденного' +
+            ' використання.',
+        weight: '20',
+        imageShow: ['/chemical-means/4.jpg'],
+        descriptionFull: `
+        <p>Концентрований засіб для чищення дисків для видалення забруднень, що утворилися внаслідок експлуатації 
+        транспортних засобів. Хімічні засоби для чищення дисків призначені для щоденного використання. Завдяки 
+        оптимальному складу, який не містить корозійних речовин, вам не доведеться турбуватися про кузов вашого 
+        автомобіля.</p><br/>
+        <p><b>Застосування</b></p>
+        <p>Засіб «Мийка дисків Alu Ultra» призначений для частого миття, в тому числі як засіб, що використовується 
+        на безконтактних мийках за програмою «RIM SPRAY».</p>
+        <p>Хімічні засоби для очищення ободів видаляють відкладення з гальмівних колодок, ободів (безпечно для 
+        алюмінієвих ободів) і ковпаків. </p><br/>
+       <p><b>Рекомендоване дозування</b>
+       <p>насоса APG 603: 35%</p>
+       <p>насоса APG 800: 16%</p>
+       <p>Dosatron/Mixrite: 1,2%</p><br/>
+        `,
     },
     {
         id: '11',
@@ -320,6 +416,23 @@ export const goodsArr =  [
             title: 'Порошки для миття автомобіля',
         },
         bread3: '',
+        descriptionMin: 'Пральний порошок без вмісту фосфору для безконтактної мийки автомобіля.',
+        weight: '26',
+        imageShow: ['/chemical-means/9.jpg'],
+        descriptionFull: `
+        <p>Безфосфатний пральний порошок з мікрогранулами для миття під тиском легкових і вантажних автомобілів за 
+        допомогою безконтактних апаратів високого тиску типу SamWash.</p>
+        <p>Безконтактний порошок для миття автомобіля, без запаху та високоефективний, доступний в упаковках 
+        по 25 кг.</p><br/>
+        <p><b>Застосування</b></p>
+        <p>Автомийна хімія призначена для частого миття кузова автомобіля. На безконтактних мийках засіб 
+        використовується на програмі «ОСНОВНА МИЙКА».</p><br/>
+       <p><b>Рекомендоване дозування</b>
+       <p>10% ~ 14 г/хв</p><br/>
+       <p><b>Рекомендована температура зберігання</b></p>
+       <p>Мін. температура: 5 градусів Цельсія</p>
+       <p>Макс. температура: 35 градусів Цельсія</p><br/>
+        `,
     },
     {
         id: '12',
@@ -341,6 +454,27 @@ export const goodsArr =  [
             title: 'Порошки для миття автомобіля',
         },
         bread3: '',
+        descriptionMin: 'Порошок для безконтактної мийки Powder LF - високопінистий мийний порошок, який ' +
+            'використовується в програмі «ОСНОВНА МИЙКА» на мийках під високим тиском.',
+        weight: '26',
+        imageShow: ['/chemical-means/10.jpg'],
+        descriptionFull: `
+        <p>Порошок для безконтактної мийки Powder LF - високопінний пральний порошок з мікрогранулами, який 
+        використовується в програмі «ОСНОВНА МИЙКА» на автомийках під високим тиском.</p><br/>
+        <p>Високоефективний і сильно піноутворюючий порошок для безконтактного миття автомобіля, що характеризується 
+        високою ефективністю. Чудові миючі властивості порошку Powder LF супроводжуються ніжним цитрусовим 
+        ароматом.</p><br/>
+        <p>Випускається в упаковці: мішок по 25 кг.</p>
+        <p>Аромат пудри: цитрусовий.</p><br/>
+        <p><b>Застосування</b></p>
+        <p>Ароматизована автомийна хімія, призначена для частого миття кузова автомобіля. На безконтактних мийках 
+        SamWash засіб використовується на програмі «ОСНОВНА МИЙКА».</p><br/>
+       <p><b>Рекомендоване дозування</b>
+       <p>17% ~ 14 г/хв</p><br/>
+       <p><b>Рекомендована температура зберігання</b></p>
+       <p>Мін. температура: 5 градусів Цельсія</p>
+       <p>Макс. температура: 35 градусів Цельсія</p><br/>
+        `,
     },
     {
         id: '13',
@@ -362,6 +496,24 @@ export const goodsArr =  [
             title: 'Порошки для миття автомобіля',
         },
         bread3: '',
+        descriptionMin: 'Безфосфатний порошок для безконтактної мийки.',
+        weight: '25,7',
+        imageShow: ['/chemical-means/11.jpg'],
+        descriptionFull: `
+        <p>Пральний порошок без фосфатів з ніжним ароматом апельсина. Аромат апельсина під час миття автомобіля 
+        на автомийці задовольнить навіть найвимогливіших клієнтів.</p>
+        <p>Випускається в упаковці: мішок по 25 кг.</p><br/>
+        <p><b>Застосування</b></p>
+        <p>Наші хімікати для автомийки можна використовувати для частого миття кузова автомобіля на безконтактних
+         автомийках. Пральний порошок з ніжним ароматом апельсина володіє відмінними миючими властивостями, 
+         зберігаючи при цьому чудовий піноутворюючий ефект.</p>
+        <p>На безконтактних мийках BKF засіб використовується в програмі «MOCIE ZASADNICZE».</p><br/>
+       <p><b>Рекомендоване дозування</b>
+       <p>10% ~ 14 г/хв</p><br/>
+       <p><b>Рекомендована температура зберігання</b></p>
+       <p>Мін. температура: 5 градусів Цельсія</p>
+       <p>Макс. температура: 35 градусів Цельсія</p><br/>
+        `,
     },
     {
         id: '14',
@@ -383,6 +535,24 @@ export const goodsArr =  [
             title: 'Порошки для миття автомобіля',
         },
         bread3: '',
+        descriptionMin: 'Пральний порошок з мікрогранулами для миття під тиском легкових і вантажних автомобілів' +
+            ' безконтактними апаратами високого тиску типу SamWash.',
+        weight: '26',
+        imageShow: ['/chemical-means/12.jpg'],
+        descriptionFull: `
+        <p>Пральний порошок з мікрогранулами для миття під тиском легкових і вантажних автомобілів безконтактними 
+        апаратами високого тиску типу SamWash.</p>
+        <p>Безконтактний порошок для миття автомобіля, без запаху та високоефективний.</p>
+        <p>Випускається в упаковці: мішок по 25 кг.</p><br/>
+        <p><b>Застосування</b></p>
+        <p>Автомийна хімія призначена для частого миття кузова автомобіля. На безконтактних мийках засіб 
+        використовується на програмі «ОСНОВНА МИЙКА».</p><br/>
+        <p><b>Рекомендоване дозування</b>
+        <p>16% ~ 14 г/хв</p><br/>
+        <p><b>Рекомендована температура зберігання</b></p>
+        <p>Мін. температура: 5 градусів Цельсія</p>
+        <p>Макс. температура: 35 градусів Цельсія</p><br/>
+        `,
     },
     {
         id: '15',
@@ -404,6 +574,25 @@ export const goodsArr =  [
             title: 'Порошки для миття автомобіля',
         },
         bread3: '',
+        descriptionMin: 'Пральний порошок з мікрогранулами для миття під тиском легкових і вантажних автомобілів' +
+            ' безконтактними апаратами високого тиску.',
+        weight: '26',
+        imageShow: ['/chemical-means/13.jpg'],
+        descriptionFull: `
+        <p>Ароматизований пральний порошок з мікрогранулами для миття під тиском легкових автомобілів і транспорту 
+        безконтактними апаратами високого тиску.</p>
+        <p>Безконтактний мийний порошок з приємним ароматом зеленого яблука та високою ефективністю. </p>
+        <p>Випускається в упаковці: мішок по 25 кг.</p>
+        <p>Аромат пудри: зелене яблуко.</p><br/>
+        <p><b>Застосування</b></p>
+        <p>Ароматизована автомийна хімія, призначена для частого миття кузова автомобіля. На безконтактних
+         мийках SamWash засіб використовується на програмі «ОСНОВНА МИЙКА».</p><br/>
+        <p><b>Рекомендоване дозування</b>
+        <p>16% ~ 14 г/хв</p><br/>
+        <p><b>Рекомендована температура зберігання</b></p>
+        <p>Мін. температура: 5 градусів Цельсія</p>
+        <p>Макс. температура: 35 градусів Цельсія</p><br/>
+        `,
     },
     {
         id: '16',
@@ -422,6 +611,20 @@ export const goodsArr =  [
         },
         bread2: '',
         bread3: '',
+        descriptionMin: 'Таблетована сіль, яка використовується для пом’якшення води на безконтактних автомийках.' +
+            ' Таблетка не має запаху і її використання забезпечить відмінні параметри води. Вода ' +
+            'буде повністю безпечна для здоров\'я і готова до негайного використання. Таблетки виготовлені ' +
+            'з випареної солі з вмістом антизлежувачів менше 3 мг/кг і не містять механічних домішок.',
+        weight: '25',
+        imageShow: ['/chemical-means/14.jpg'],
+        descriptionFull: `
+        <p>Таблетована сіль, яка використовується для пом’якшення води, яка використовується в безконтактних 
+        автомийках. Таблетка не має запаху і її використання забезпечить відмінні параметри води. Вода буде 
+        повністю безпечна для здоров'я і готова до негайного використання. Таблетки виготовлені з випареної 
+        солі з вмістом антизлежувачів менше 3 мг/кг і не містять механічних домішок.</p><br/>
+        <p><b>Застосування</b></p>
+        <p>Таблетки призначені для використання у всіх типах пом'якшувачів.</p><br/>
+        `,
     },
     {
         id: '17',
@@ -443,6 +646,22 @@ export const goodsArr =  [
             title: 'Шампуні для миття автомобіля',
         },
         bread3: '',
+        descriptionMin: 'Шампунь для миття автомобіля без запаху з високою ефективністю.',
+        weight: '22',
+        imageShow: ['/chemical-means/15.jpg'],
+        descriptionFull: `
+        <p>Готовий до використання автошампунь для попереднього розпилення. Пом'якшує бруд і підтримує базове 
+        очищення. Шампунь для миття автомобіля без запаху з високою ефективністю.</p>
+        <p>Випускається в упаковці: банка 20 л</p><br/>
+        <p><b>Застосування</b></p>
+        <p>Високоефективний шампунь для миття кузовів легкових автомобілів, мікроавтобусів і автобусів. На 
+        безконтактних мийках засіб використовується на програмі «ПОПЕРЕДНЄ ОБРИСКУВАННЯ».</p><br/>
+        <p><b>Рекомендоване дозування</b>
+        <p>Dosatron/Mixrite: 1-1,2%</p><br/>
+        <p><b>Рекомендована температура зберігання</b></p>
+        <p>Мін. температура: 5 градусів Цельсія</p>
+        <p>Макс. температура: 35 градусів Цельсія</p><br/>
+        `,
     },
     {
         id: '18',
@@ -464,6 +683,38 @@ export const goodsArr =  [
             title: 'Шампуні для миття автомобіля',
         },
         bread3: '',
+        descriptionMin: 'Шампунь Turbo PLUS - це надзвичайно ефективний, суперконцентрований лужний шампунь, який' +
+            ' використовується для попереднього розпилення. Пом\'якшує забруднення та підтримує базове прання на' +
+            ' безконтактних автомийках.',
+        weight: '22,2',
+        imageShow: ['/chemical-means/16.jpg'],
+        descriptionFull: `
+        <p>Шампунь Turbo PLUS - надзвичайно ефективний, суперконцентрований миючий шампунь, який використовується для
+         попереднього розпилення. Пом'якшує забруднення та підтримує базове прання на безконтактних автомийках. 
+         Більш концентрований ніж TURBO - MAX.</p>
+        <p>Випускається в упаковці: банка 20 л </p><br/>
+        <p><b>Застосування</b></p>
+        <p>Висококонцентрований, ефективний, лужний шампунь для миття кузовів легкових автомобілів, 
+        мікроавтобусів і автобусів.</p>
+        <p>На безконтактних мийках автошампунь використовується в програмах «ПОПЕРЕДНЄ РОЗПРИСУВАННЯ» і
+         «МИЙКА ЩІТКАМИ», а також як «ОСНОВНЕ МИЙКА» в рідких мийках.</p><br/>
+        <p><b>Рекомендоване дозування</b>
+        <p>Попереднє розпилення</p>
+        <p>Насос APG 603: 20%</p>
+        <p>Насос APG 800: 10%</p>
+        <p>Dosatron/Mixrite: 0,2-0,3%</p><br/>
+        <p><b>Миття щіток</b>
+        <p>Насос APG 603: 15%</p>
+        <p>Насос APG 800: 8%</p>
+        <p>Dosatron/Mixrite: 0,2-0,3%</p><br/>
+        <p><b>Програма піни</b>
+        <p>Насос APG 603: 35%</p>
+        <p>Насос APG 800: 16%</p>
+        <p>Dosatron/Mixrite: 0,5 - 0,7%</p><br/>
+        <p><b>Рекомендована температура зберігання</b></p>
+        <p>Мін. температура: 5 градусів Цельсія</p>
+        <p>Макс. температура: 35 градусів Цельсія</p><br/>
+        `,
     },
     {
         id: '19',
@@ -485,6 +736,35 @@ export const goodsArr =  [
             title: 'Воски для миття автомобіля',
         },
         bread3: '',
+        descriptionMin: 'SKY WAX - висококонцентрований віск з приємним ароматом. Завдяки використанню компонентів' +
+            ' найвищої якості захищає фарбу автомобіля від негативного впливу погодних умов та інших факторів. ' +
+            'Після самостійного висихання залишає на кузові довготривалий блиск і захисний ефект. Виріб виготовлено' +
+            ' за новітніми технологіями, без використання силіконів і полімерів, що робить його безпечним для ' +
+            'монтажу в будь-яких умовах. Sky Wax також працює в холодній воді!',
+        weight: '25',
+        imageShow: ['/chemical-means/17.jpg'],
+        descriptionFull: `
+        <p>SKY WAX - висококонцентрований віск з приємним ароматом. Завдяки використанню компонентів найвищої якості
+         захищає фарбу автомобіля від негативного впливу погодних умов та інших факторів. Після самостійного 
+         висихання залишає тривалий блиск і захист лакофарбового покриття.</p>
+        <p>Найголовніше, що виріб виготовлено за новітніми технологіями, без використання силіконів і полімерів, 
+        що робить його безпечним для монтажу в будь-яких умовах.</p><br/>
+        <p><b>Застосування</b></p>
+        <p>Блискуча хімія для безконтактних мийок використовується для захисту автотранспорту, в тому числі 
+        (легкових автомобілів, мікроавтобусів, автобусів та інших).</p>
+        <p>Використовується в програмах «ПОЛІМЕРНЕ ОБСЛУГОВУВАННЯ» і «СПІНІШУВАННЯ І СУШІННЯ».</p><br/>
+        <p><b>Рекомендоване дозування</b>
+        <p>Консервація полімеру - концентрат</p>
+        <p>Насос APG 603: 10-13%</p><br/>
+        <p><b>Консервація полімеру - 20% розчин (змішаний агент 1:5)</b>
+        <p>Dosatron/Mixrite: 0,6%</p><br/>
+        <p><b>Полірування та сушіння - розчин 1:1000</b>
+        <p>Насос APG 603: 10%</p>
+        <p>Dosatron/Mixrite: 0,2%</p><br/>
+        <p><b>Рекомендована температура зберігання</b></p>
+        <p>Мін. температура: 5 градусів Цельсія</p>
+        <p>Макс. температура: 35 градусів Цельсія</p><br/>
+        `,
     },
 ]
 
@@ -492,7 +772,7 @@ const data = [
     {
         img: "https://m.media-amazon.com/images/I/6125yAfsJKL._AC_UX575_.jpg",
         title: "Nike Air Monarch IV",
-        star: <AiFillStar className="rating-star" />,
+        star: <AiFillStar className="rating-star"/>,
         reviews: "(123 reviews)",
         prevPrice: "$140,00",
         newPrice: "200",
@@ -503,7 +783,7 @@ const data = [
     {
         img: "https://m.media-amazon.com/images/I/519MRhRKGFL._AC_UX575_.jpg",
         title: "Nike Air Vapormax Plus",
-        star: <AiFillStar className="rating-star" />,
+        star: <AiFillStar className="rating-star"/>,
         reviews: "(123 reviews)",
         prevPrice: "$140,00",
         newPrice: "200",
@@ -515,7 +795,7 @@ const data = [
     {
         img: "https://m.media-amazon.com/images/I/51+P9uAvb1L._AC_UY695_.jpg",
         title: "Nike Waffle One Sneaker",
-        star: <AiFillStar className="rating-star" />,
+        star: <AiFillStar className="rating-star"/>,
         reviews: "(123 reviews)",
         prevPrice: "$140,00",
         newPrice: "200",
@@ -526,7 +806,7 @@ const data = [
     {
         img: "https://m.media-amazon.com/images/I/71oEKkghg-L._AC_UX575_.jpg",
         title: "Nike Running Shoe",
-        star: <AiFillStar className="rating-star" />,
+        star: <AiFillStar className="rating-star"/>,
         reviews: "(123 reviews)",
         prevPrice: "$140,00",
         newPrice: "200",
@@ -537,7 +817,7 @@ const data = [
     {
         img: "https://m.media-amazon.com/images/I/41M54ztS6IL._AC_SY625._SX._UX._SY._UY_.jpg",
         title: "Flat Slip On Pumps",
-        star: <AiFillStar className="rating-star" />,
+        star: <AiFillStar className="rating-star"/>,
         reviews: "(123 reviews)",
         prevPrice: "$140,00",
         newPrice: "200",
@@ -548,7 +828,7 @@ const data = [
     {
         img: "https://m.media-amazon.com/images/I/71zKuNICJAL._AC_UX625_.jpg",
         title: "Knit Ballet Flat",
-        star: <AiFillStar className="rating-star" />,
+        star: <AiFillStar className="rating-star"/>,
         reviews: "(123 reviews)",
         prevPrice: "$140,00",
         newPrice: "50",
@@ -560,7 +840,7 @@ const data = [
     {
         img: "https://m.media-amazon.com/images/I/61V9APfz97L._AC_UY695_.jpg",
         title: "Loafer Flats",
-        star: <AiFillStar className="rating-star" />,
+        star: <AiFillStar className="rating-star"/>,
         reviews: "(123 reviews)",
         prevPrice: "$140,00",
         newPrice: "50",
@@ -572,7 +852,7 @@ const data = [
     {
         img: "https://m.media-amazon.com/images/I/71VaQ+V6XnL._AC_UY695_.jpg",
         title: "Nike Zoom Freak",
-        star: <AiFillStar className="rating-star" />,
+        star: <AiFillStar className="rating-star"/>,
         reviews: "(123 reviews)",
         prevPrice: "$140,00",
         newPrice: "200",
@@ -584,7 +864,7 @@ const data = [
     {
         img: "https://m.media-amazon.com/images/I/61-cBsLhJHL._AC_UY695_.jpg",
         title: "Nike Men's Sneaker",
-        star: <AiFillStar className="rating-star" />,
+        star: <AiFillStar className="rating-star"/>,
         reviews: "(123 reviews)",
         prevPrice: "$140,00",
         newPrice: "200",
@@ -596,7 +876,7 @@ const data = [
     {
         img: "https://m.media-amazon.com/images/I/81xXDjojYKS._AC_UX575_.jpg",
         title: "PUMA BLACK-OCE",
-        star: <AiFillStar className="rating-star" />,
+        star: <AiFillStar className="rating-star"/>,
         reviews: "(123 reviews)",
         prevPrice: "$140,00",
         newPrice: "150",
@@ -607,7 +887,7 @@ const data = [
     {
         img: "https://m.media-amazon.com/images/I/71E75yRwCDL._AC_UY575_.jpg",
         title: "Pacer Future Sneaker",
-        star: <AiFillStar className="rating-star" />,
+        star: <AiFillStar className="rating-star"/>,
         reviews: "(123 reviews)",
         prevPrice: "$140,00",
         newPrice: "150",
@@ -618,7 +898,7 @@ const data = [
     {
         img: "https://m.media-amazon.com/images/I/71jeoX0rMBL._AC_UX575_.jpg",
         title: "Unisex-Adult Super",
-        star: <AiFillStar className="rating-star" />,
+        star: <AiFillStar className="rating-star"/>,
         reviews: "(123 reviews)",
         prevPrice: "$140,00",
         newPrice: "150",
@@ -629,7 +909,7 @@ const data = [
     {
         img: "https://m.media-amazon.com/images/I/61TM6Q9dvxL._AC_UX575_.jpg",
         title: "Roma Basic Sneaker",
-        star: <AiFillStar className="rating-star" />,
+        star: <AiFillStar className="rating-star"/>,
         reviews: "(123 reviews)",
         prevPrice: "$140,00",
         newPrice: "150",
@@ -640,7 +920,7 @@ const data = [
     {
         img: "https://m.media-amazon.com/images/I/7128-af7joL._AC_UY575_.jpg",
         title: "Pacer Future Doubleknit",
-        star: <AiFillStar className="rating-star" />,
+        star: <AiFillStar className="rating-star"/>,
         reviews: "(123 reviews)",
         prevPrice: "$140,00",
         newPrice: "150",
@@ -652,7 +932,7 @@ const data = [
     {
         img: "https://m.media-amazon.com/images/I/81xXDjojYKS._AC_UX575_.jpg",
         title: "Fusion Evo Golf Shoe",
-        star: <AiFillStar className="rating-star" />,
+        star: <AiFillStar className="rating-star"/>,
         reviews: "(123 reviews)",
         prevPrice: "$140,00",
         newPrice: "100",
@@ -663,7 +943,7 @@ const data = [
     {
         img: "https://m.media-amazon.com/images/I/719gdz8lsTS._AC_UX575_.jpg",
         title: "Rainbow Chex Skate",
-        star: <AiFillStar className="rating-star" />,
+        star: <AiFillStar className="rating-star"/>,
         reviews: "(123 reviews)",
         prevPrice: "$140,00",
         newPrice: "100",
@@ -674,7 +954,7 @@ const data = [
     {
         img: "https://m.media-amazon.com/images/I/71gpFHJlnoL._AC_UX575_.jpg",
         title: "Low-Top Trainers",
-        star: <AiFillStar className="rating-star" />,
+        star: <AiFillStar className="rating-star"/>,
         reviews: "(123 reviews)",
         prevPrice: "$140,00",
         newPrice: "100",
@@ -685,7 +965,7 @@ const data = [
     {
         img: "https://m.media-amazon.com/images/I/71pf7VFs9CL._AC_UX575_.jpg",
         title: "Vans Unisex Low-Top",
-        star: <AiFillStar className="rating-star" />,
+        star: <AiFillStar className="rating-star"/>,
         reviews: "(123 reviews)",
         prevPrice: "$140,00",
         newPrice: "100",
@@ -696,7 +976,7 @@ const data = [
     {
         img: "https://m.media-amazon.com/images/I/61N4GyWcHPL._AC_UY575_.jpg",
         title: "Classic Bandana Sneakers",
-        star: <AiFillStar className="rating-star" />,
+        star: <AiFillStar className="rating-star"/>,
         reviews: "(123 reviews)",
         prevPrice: "$140,00",
         newPrice: "50",
@@ -707,7 +987,7 @@ const data = [
     {
         img: "https://m.media-amazon.com/images/I/61bncQ44yML._AC_UX695_.jpg",
         title: "Chunky High Heel",
-        star: <AiFillStar className="rating-star" />,
+        star: <AiFillStar className="rating-star"/>,
         reviews: "(123 reviews)",
         prevPrice: "$140,00",
         newPrice: "50",
@@ -718,7 +998,7 @@ const data = [
     {
         img: "https://m.media-amazon.com/images/I/71czu7WgGuL._AC_UY695_.jpg",
         title: "Slip On Stiletto High Heel",
-        star: <AiFillStar className="rating-star" />,
+        star: <AiFillStar className="rating-star"/>,
         reviews: "(123 reviews)",
         prevPrice: "$140,00",
         newPrice: "100",
@@ -729,7 +1009,7 @@ const data = [
     {
         img: "https://m.media-amazon.com/images/I/61men05KRxL._AC_UY625_.jpg",
         title: "DREAM PAIRS Court Shoes",
-        star: <AiFillStar className="rating-star" />,
+        star: <AiFillStar className="rating-star"/>,
         reviews: "(123 reviews)",
         prevPrice: "$140,00",
         newPrice: "150",
@@ -740,7 +1020,7 @@ const data = [
     {
         img: "https://m.media-amazon.com/images/I/519MRhRKGFL._AC_UX575_.jpg",
         title: "Nike Air Vapormax Plus",
-        star: <AiFillStar className="rating-star" />,
+        star: <AiFillStar className="rating-star"/>,
         reviews: "(123 reviews)",
         prevPrice: "$140,00",
         newPrice: "200",
@@ -752,7 +1032,7 @@ const data = [
     {
         img: "https://m.media-amazon.com/images/I/51PGWTXgf-L._AC_UY625_.jpg",
         title: "Low Mid Block Heels",
-        star: <AiFillStar className="rating-star" />,
+        star: <AiFillStar className="rating-star"/>,
         reviews: "(123 reviews)",
         prevPrice: "$140,00",
         newPrice: "200",
@@ -763,7 +1043,7 @@ const data = [
     {
         img: "https://m.media-amazon.com/images/I/616sA5XUKtL._AC_UY675_.jpg",
         title: "Chunky High Heel",
-        star: <AiFillStar className="rating-star" />,
+        star: <AiFillStar className="rating-star"/>,
         reviews: "(123 reviews)",
         prevPrice: "$140,00",
         newPrice: "50",
@@ -774,7 +1054,7 @@ const data = [
     {
         img: "https://m.media-amazon.com/images/I/71h5+MbEK7L._AC_UY625_.jpg",
         title: "Amore Fashion Stilettos",
-        star: <AiFillStar className="rating-star" />,
+        star: <AiFillStar className="rating-star"/>,
         reviews: "(123 reviews)",
         prevPrice: "$140,00",
         newPrice: "150",
@@ -785,7 +1065,7 @@ const data = [
     {
         img: "https://m.media-amazon.com/images/I/61uw5RDxKQL._AC_UY625_.jpg",
         title: "Bridal Sandals Glitter",
-        star: <AiFillStar className="rating-star" />,
+        star: <AiFillStar className="rating-star"/>,
         reviews: "(123 reviews)",
         prevPrice: "$140,00",
         newPrice: "50",
@@ -796,7 +1076,7 @@ const data = [
     {
         img: "https://m.media-amazon.com/images/I/71yhoZP0l6L._AC_UY695_.jpg",
         title: "Wedding Prom Bridal",
-        star: <AiFillStar className="rating-star" />,
+        star: <AiFillStar className="rating-star"/>,
         reviews: "(123 reviews)",
         prevPrice: "$140,00",
         newPrice: "50",
