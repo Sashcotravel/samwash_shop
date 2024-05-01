@@ -15,20 +15,200 @@ import TopButton from "@/app/component/topButton/topButton";
 
 const arrGoods = [
     {
-        id: '43',
-        title: 'Дозатор Mixrite 571 (0,3-2%)',
-        code: 'DOZ-MIX-571',
-        price: '1573.67',
+        id: '40',
+        title: 'Нижня втулка поршня',
+        code: 'REK-TLO-DOL-644',
+        price: '48.19',
         size: 1,
-        slug: 'goods3-5',
-        img: '/pump/5.jpg',
+        slug: 'goods3-2',
+        img: '/pump/2.jpg',
+        description: '',
+        descriptionPrise: ''
+    },
+    {
+        id: '47',
+        title: 'Верхня і нижня гільзи поршня + термопластична пружина',
+        code: 'REK-TLO-DOS',
+        price: '133.73',
+        newPrice: '',
+        size: 1,
+        slug: 'goods3-9',
+        img: '/pump/7.jpg',
+        descriptionPrise: '',
+        description: ''
+    },
+    {
+        id: '48',
+        title: 'Дозатрон верхня поршнева втулка',
+        code: 'REK-DOS-643',
+        price: '38.90',
+        newPrice: '',
+        size: 1,
+        slug: 'goods3-10',
+        img: '/pump/8.jpg',
+        descriptionPrise: '',
+        description: ''
+    },
+    {
+        id: '61',
+        title: 'Кришка зворотного клапана дозатора Dosatron',
+        code: 'NAK-ZAW-DOS',
+        price: '17.88',
+        newPrice: '',
+        size: 1,
+        slug: 'goods3-14',
+        img: '/pump/12.jpg',
+        descriptionPrise: '',
+        description: ''
+    },
+    {
+        id: '63',
+        title: 'Корпус дозатора Dosatron',
+        code: 'OBU-DOZ-DOS-057',
+        price: '306.28',
+        newPrice: '',
+        size: 1,
+        slug: 'goods3-16',
+        img: '/pump/14.jpg',
+        descriptionPrise: '',
+        description: ''
+    },
+    {
+        id: '70',
+        title: 'Прокладка кришки дозатора Dosatron O-ring (JDI001)',
+        code: 'ORI-DOS-001',
+        price: '4.50',
+        newPrice: '',
+        size: 1,
+        slug: 'goods3-23',
+        img: '/pump/22.jpg',
+        descriptionPrise: '',
+        description: ''
+    },
+    {
+        id: '72',
+        title: 'Кришка дозатора Dosatron (MPDI186)',
+        code: 'ПОК-ДОЗ-ДОС-МП',
+        price: '300.59',
+        newPrice: '',
+        size: 1,
+        slug: 'goods3-25',
+        img: '/pump/24.jpg',
+        descriptionPrise: '',
+        description: ''
+    },
+    {
+        id: '73',
+        title: 'Кришка дозатора Dosatron (PDI685)',
+        code: 'POK-DOZ-DOS',
+        price: '280.83',
+        newPrice: '',
+        size: 1,
+        slug: 'goods3-26',
+        img: '/pump/25.jpg',
+        descriptionPrise: '',
+        description: ''
+    },
+    {
+        id: '76',
+        title: 'Насос дозатора Dosatron (PCDI030HT)',
+        code: 'ПОМ-ДОЗ-ДОС-030',
+        price: '624.72',
+        newPrice: '',
+        size: 1,
+        slug: 'goods3-30',
+        img: '/pump/28.jpg',
+        descriptionPrise: '',
+        description: ''
+    },
+    {
+        id: '80',
+        title: 'Фільтр для диспенсера Dosatron 8x12 (MPDI207)',
+        code: 'SIT-DOS-MPDI207',
+        price: '50.00',
+        newPrice: '',
+        size: 1,
+        slug: 'goods3-34',
+        img: '/pump/32.jpg',
+        descriptionPrise: '',
+        description: ''
+    },
+    {
+        id: '81',
+        title: 'Ущільнювач важеля поршня - дозатрон (AF PJDI114AF)',
+        code: 'USZ-DOS-DZW',
+        price: '48.33',
+        newPrice: '',
+        size: 1,
+        slug: 'goods3-35',
+        img: '/pump/33.jpg',
+        descriptionPrise: '',
+        description: ''
+    },
+    {
+        id: '83',
+        title: 'Дозатрон дозатор HT/AF зворотний клапан (PJDI115HTAF)',
+        code: 'ZAW-HTAF-DOS',
+        price: '140.49',
+        newPrice: '',
+        size: 1,
+        slug: 'goods3-37',
+        img: '/pump/35.jpg',
+        descriptionPrise: '',
+        description: ''
+    },
+    {
+        id: '84',
+        title: 'Зворотний клапан диспенсера Dosatron VF (PJDI115VF)',
+        code: 'ZAW-VF-DOS',
+        price: '139.73',
+        newPrice: '',
+        size: 1,
+        slug: 'goods3-38',
+        img: '/pump/36.jpg',
+        descriptionPrise: '',
+        description: ''
+    },
+    {
+        id: '90',
+        title: 'Ремкомплект дозатора Dosatron (PJDI116HTAF)',
+        code: 'ZES-NAP-DOS-AF',
+        price: '209.44',
+        newPrice: '',
+        size: 1,
+        slug: 'goods3-44',
+        img: '/pump/42.jpg',
+        descriptionPrise: '',
+        description: ''
+    },
+    {
+        id: '91',
+        title: 'Ремкомплект дозатора Dosatron (PJDI116VF)',
+        code: 'ZES-NAP-DOS-VF',
+        price: '211.74',
+        newPrice: '',
+        size: 1,
+        slug: 'goods3-45',
+        img: '/pump/43.jpg',
+        descriptionPrise: '',
+        description: ''
+    },
+    {
+        id: '94',
+        title: 'Комплект прокладок Dosatron (EMDI006HT)',
+        code: 'USZ-MOT-DOS',
+        price: '99.33',
+        newPrice: '',
+        size: 1,
+        slug: 'goods3-48',
+        img: '/pump/46.jpg',
         descriptionPrise: '',
         description: ''
     },
 ]
 
 
-function MixriteDispenser() {
+function Dosatron() {
 
     const t = useTranslations();
 
@@ -102,7 +282,7 @@ function MixriteDispenser() {
     return (
         <div className={s.mainDiv}>
 
-            <TopButton index={4} />
+            <TopButton index={4}/>
 
             <NavProduct2 back={'/pumps-and-detergent-dispensers'}/>
 
@@ -123,17 +303,17 @@ function MixriteDispenser() {
                                     <Link href='/product'> Продукти</Link>
                                 </li>
                                 <li>
-                                    <Link href='/pumps-and-detergent-dispensers'> Насоси та дозатори
-                                        миючих засобів</Link>
+                                    <Link href='/pumps-and-detergent-dispensers'> Насоси та дозатори миючих
+                                        засобів</Link>
                                 </li>
                                 <li>
-                                    <span> Дозатор Mixrite</span>
+                                    <span> Ремкомплекти DOSATRON</span>
                                 </li>
                             </ul>
                         </div>
                     </div>
 
-                    <h1>Дозатор Mixrite</h1>
+                    <h1>Ремкомплекти DOSATRON</h1>
 
                     <ul className={s.ulCategory}>
                         {
@@ -183,6 +363,7 @@ function MixriteDispenser() {
                             })
                         }
                     </ul>
+
                 </div>
             </div>
 
@@ -215,4 +396,4 @@ function MixriteDispenser() {
     );
 }
 
-export default MixriteDispenser;
+export default Dosatron;

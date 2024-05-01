@@ -261,13 +261,13 @@ const Header = () => {
                                            className={s.imgArrowManu}/>
                                 </button>
                                 <div className={s.dropdown_content}>
-                                    <Link href="/" id='mozhna'>Дозатор Mixrite</Link>
-                                    <Link href="/" id='mozhna'>Дозатрони</Link>
-                                    <Link href="/" id='mozhna'>Насоси SEKO серії EVO</Link>
-                                    <Link href="/" id='mozhna'>Ремкомплекти DOSATRON</Link>
-                                    <Link href="/" id='mozhna'>Ремкомплекти MIXRITE</Link>
-                                    <Link href="/" id='mozhna'>Ремкомплекти SEKO EVO</Link>
-                                    <Link href="/" id='mozhna'>Ремкомплекти SEKO KOMPACT</Link>
+                                    <Link href="/mixrite-dispenser" id='mozhna'>Дозатор Mixrite</Link>
+                                    <Link href="/dosatron" id='mozhna'>Дозатрони</Link>
+                                    <Link href="/SEKO-EVO-series-pumps" id='mozhna'>Насоси SEKO серії EVO</Link>
+                                    <Link href="/DOSATRON-repair-kits" id='mozhna'>Ремкомплекти DOSATRON</Link>
+                                    <Link href="/MIXRITE-repair-kits" id='mozhna'>Ремкомплекти MIXRITE</Link>
+                                    <Link href="/SEKO-EVO-repair-kits" id='mozhna'>Ремкомплекти SEKO EVO</Link>
+                                    <Link href="/SEKO-KOMPACT-repair-kits" id='mozhna'>Ремкомплекти SEKO KOMPACT</Link>
                                 </div>
                             </li>
                             <li className={s.dropdown}>

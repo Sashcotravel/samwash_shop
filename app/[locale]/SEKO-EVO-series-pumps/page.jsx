@@ -15,20 +15,57 @@ import TopButton from "@/app/component/topButton/topButton";
 
 const arrGoods = [
     {
-        id: '43',
-        title: 'Дозатор Mixrite 571 (0,3-2%)',
-        code: 'DOZ-MIX-571',
-        price: '1573.67',
+        id: '60',
+        title: 'Гайка для насосів серії EVO / Kompact',
+        code: 'ПОМ-ТЕК-НАК',
+        price: '24.62',
+        newPrice: '',
         size: 1,
-        slug: 'goods3-5',
-        img: '/pump/5.jpg',
+        slug: 'goods3-13',
+        img: '/pump/11.jpg',
+        descriptionPrise: '',
+        description: ''
+    },
+    {
+        id: '77',
+        title: 'Насос-дозатор SEKO Tekna EVO APG603 з логотипом SamWash для кислотної хімії (червоний)',
+        code: 'DOS-POM-TEK-APG603-FPM',
+        price: '1141.34',
+        newPrice: '',
+        size: 1,
+        slug: 'goods3-31',
+        img: '/pump/29.jpg',
+        descriptionPrise: '',
+        description: ''
+    },
+    {
+        id: '78',
+        title: 'Дозуючий насос SEKO Tekna EVO APG603 з логотипом SamWash для лужної хімії (червоний)',
+        code: 'DOS-POM-TEK-APG603-EPDM',
+        price: '1141.34',
+        newPrice: '',
+        size: 1,
+        slug: 'goods3-32',
+        img: '/pump/30.jpg',
+        descriptionPrise: '',
+        description: ''
+    },
+    {
+        id: '79',
+        title: 'Дозуючий насос SEKO Tekna EVO APG800 NHH1000 (синій) ущільнення EPDM - лужна хімія',
+        code: 'DOS-POM-TEK-APG800-BL',
+        price: '1867.37',
+        newPrice: '',
+        size: 1,
+        slug: 'goods3-33',
+        img: '/pump/31.jpg',
         descriptionPrise: '',
         description: ''
     },
 ]
 
 
-function MixriteDispenser() {
+function Dosatron() {
 
     const t = useTranslations();
 
@@ -102,7 +139,7 @@ function MixriteDispenser() {
     return (
         <div className={s.mainDiv}>
 
-            <TopButton index={4} />
+            <TopButton index={4}/>
 
             <NavProduct2 back={'/pumps-and-detergent-dispensers'}/>
 
@@ -123,17 +160,17 @@ function MixriteDispenser() {
                                     <Link href='/product'> Продукти</Link>
                                 </li>
                                 <li>
-                                    <Link href='/pumps-and-detergent-dispensers'> Насоси та дозатори
-                                        миючих засобів</Link>
+                                    <Link href='/pumps-and-detergent-dispensers'> Насоси та дозатори миючих
+                                        засобів</Link>
                                 </li>
                                 <li>
-                                    <span> Дозатор Mixrite</span>
+                                    <span> Насоси SEKO серії EVO</span>
                                 </li>
                             </ul>
                         </div>
                     </div>
 
-                    <h1>Дозатор Mixrite</h1>
+                    <h1>Насоси SEKO серії EVO</h1>
 
                     <ul className={s.ulCategory}>
                         {
@@ -215,4 +252,4 @@ function MixriteDispenser() {
     );
 }
 
-export default MixriteDispenser;
+export default Dosatron;

@@ -15,25 +15,61 @@ import TopButton from "@/app/component/topButton/topButton";
 
 const arrGoods = [
     {
-        id: '43',
-        title: 'Дозатор Mixrite 571 (0,3-2%)',
-        code: 'DOZ-MIX-571',
-        price: '1573.67',
+        id: '44',
+        title: 'Головка з клапанами EM99106300 EPDM для насосів серії Kompact (AMS200)',
+        code: 'POM-KOM-GlO',
+        price: '232.20',
+        newPrice: '',
         size: 1,
-        slug: 'goods3-5',
-        img: '/pump/5.jpg',
+        slug: 'goods3-6',
+        img: '/pump/6.jpg',
+        descriptionPrise: '',
+        description: ''
+    },
+    {
+        id: '50',
+        title: 'Мембрана для насосів серії Kompact (AMS200)',
+        code: 'ПОМ-КОМ-МЕМ',
+        price: '120.28',
+        newPrice: '',
+        size: 1,
+        slug: 'goods3-12',
+        img: '/pump/10.jpg',
+        descriptionPrise: '',
+        description: ''
+    },
+    {
+        id: '86',
+        title: 'Клапани всмоктування/нагнітання для насосів серії Kompact (AMS200)',
+        code: 'POM-KOM-ZAW',
+        price: '114.13',
+        newPrice: '',
+        size: 1,
+        slug: 'goods3-40',
+        img: '/pump/38.jpg',
+        descriptionPrise: '',
+        description: ''
+    },
+    {
+        id: '89',
+        title: 'Монтажний комплект для насосів серії Kompact (AMS200)',
+        code: 'ПОМ-КОМ-ЗЕС',
+        price: '165.36',
+        newPrice: '',
+        size: 1,
+        slug: 'goods3-43',
+        img: '/pump/41.jpg',
         descriptionPrise: '',
         description: ''
     },
 ]
 
 
-function MixriteDispenser() {
+function Dosatron() {
 
     const t = useTranslations();
 
     const [open, setOpen] = useState(false)
-    const [open2, setOpen2] = useState(false)
     const [goods, setGoods] = useState([])
 
     const addOrderStore = useStore(store => store.addOrder)
@@ -102,7 +138,7 @@ function MixriteDispenser() {
     return (
         <div className={s.mainDiv}>
 
-            <TopButton index={4} />
+            <TopButton index={4}/>
 
             <NavProduct2 back={'/pumps-and-detergent-dispensers'}/>
 
@@ -123,17 +159,17 @@ function MixriteDispenser() {
                                     <Link href='/product'> Продукти</Link>
                                 </li>
                                 <li>
-                                    <Link href='/pumps-and-detergent-dispensers'> Насоси та дозатори
-                                        миючих засобів</Link>
+                                    <Link href='/pumps-and-detergent-dispensers'> Насоси та дозатори миючих
+                                        засобів</Link>
                                 </li>
                                 <li>
-                                    <span> Дозатор Mixrite</span>
+                                    <span> Ремкомплекти SEKO KOMPACT</span>
                                 </li>
                             </ul>
                         </div>
                     </div>
 
-                    <h1>Дозатор Mixrite</h1>
+                    <h1>Ремкомплекти SEKO KOMPACT</h1>
 
                     <ul className={s.ulCategory}>
                         {
@@ -215,4 +251,4 @@ function MixriteDispenser() {
     );
 }
 
-export default MixriteDispenser;
+export default Dosatron;

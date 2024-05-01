@@ -24,7 +24,16 @@ const arrGoods = [
         slug: 'goods3-1',
         img: '/pump/1.jpg',
         description: '',
-        descriptionPrise: ''
+        descriptionPrise: '',
+        bread1: {
+            slug: '/pumps-and-detergent-dispensers',
+            title: 'Насоси та дозатори миючих засобів',
+        },
+        bread2: {
+            slug: '/MIXRITE-repair-kits',
+            title: 'Ремкомплекти MIXRITE',
+        },
+        bread3: '',
     },
     {
         id: '40',
@@ -35,7 +44,16 @@ const arrGoods = [
         slug: 'goods3-2',
         img: '/pump/2.jpg',
         description: '',
-        descriptionPrise: ''
+        descriptionPrise: '',
+        bread1: {
+            slug: '/pumps-and-detergent-dispensers',
+            title: 'Насоси та дозатори миючих засобів',
+        },
+        bread2: {
+            slug: '/DOSATRON-repair-kits',
+            title: 'Ремкомплекти DOSATRON',
+        },
+        bread3: '',
     },
     {
         id: '41',
@@ -46,7 +64,16 @@ const arrGoods = [
         slug: 'goods3-3',
         img: '/pump/3.jpg',
         description: '',
-        descriptionPrise: ''
+        descriptionPrise: '',
+        bread1: {
+            slug: '/pumps-and-detergent-dispensers',
+            title: 'Насоси та дозатори миючих засобів',
+        },
+        bread2: {
+            slug: '/dosatron',
+            title: 'Дозатрони',
+        },
+        bread3: '',
     },
     {
         id: '42',
@@ -58,9 +85,17 @@ const arrGoods = [
         slug: 'goods3-4',
         img: '/pump/4.jpg',
         descriptionPrise: '',
-        description: ''
+        description: '',
+        bread1: {
+            slug: '/pumps-and-detergent-dispensers',
+            title: 'Насоси та дозатори миючих засобів',
+        },
+        bread2: {
+            slug: '/dosatron',
+            title: 'Дозатрони',
+        },
+        bread3: '',
     },
-
     {
         id: '43',
         title: 'Дозатор Mixrite 571 (0,3-2%)',
@@ -70,9 +105,17 @@ const arrGoods = [
         slug: 'goods3-5',
         img: '/pump/5.jpg',
         descriptionPrise: '',
-        description: ''
-    }, // taken
-
+        description: '',
+        bread1: {
+            slug: '/pumps-and-detergent-dispensers',
+            title: 'Насоси та дозатори миючих засобів',
+        },
+        bread2: {
+            slug: '/mixrite-dispenser',
+            title: 'Порошки для миття автомобіля',
+        },
+        bread3: '',
+    },
     {
         id: '44',
         title: 'Головка з клапанами EM99106300 EPDM для насосів серії Kompact (AMS200)',
@@ -83,7 +126,16 @@ const arrGoods = [
         slug: 'goods3-6',
         img: '/pump/6.jpg',
         descriptionPrise: '',
-        description: ''
+        description: '',
+        bread1: {
+            slug: '/pumps-and-detergent-dispensers',
+            title: 'Насоси та дозатори миючих засобів',
+        },
+        bread2: {
+            slug: '/SEKO-KOMPACT-repair-kits',
+            title: 'Ремкомплекти SEKO KOMPACT',
+        },
+        bread3: '',
     },
     {
         id: '45',
@@ -95,7 +147,16 @@ const arrGoods = [
         slug: 'goods3-7',
         img: '/pump/99.jpg',
         descriptionPrise: '',
-        description: ''
+        description: '',
+        bread1: {
+            slug: '/pumps-and-detergent-dispensers',
+            title: 'Насоси та дозатори миючих засобів',
+        },
+        bread2: {
+            slug: '/SEKO-EVO-repair-kits',
+            title: 'Ремкомплекти SEKO EVO',
+        },
+        bread3: '',
     },
     {
         id: '46',
@@ -107,7 +168,16 @@ const arrGoods = [
         slug: 'goods3-8',
         img: '/pump/99.jpg',
         descriptionPrise: '',
-        description: ''
+        description: '',
+        bread1: {
+            slug: '/pumps-and-detergent-dispensers',
+            title: 'Насоси та дозатори миючих засобів',
+        },
+        bread2: {
+            slug: '/SEKO-EVO-repair-kits',
+            title: 'Ремкомплекти SEKO EVO',
+        },
+        bread3: '',
     },
     {
         id: '47',
@@ -119,7 +189,16 @@ const arrGoods = [
         slug: 'goods3-9',
         img: '/pump/7.jpg',
         descriptionPrise: '',
-        description: ''
+        description: '',
+        bread1: {
+            slug: '/pumps-and-detergent-dispensers',
+            title: 'Насоси та дозатори миючих засобів',
+        },
+        bread2: {
+            slug: '/DOSATRON-repair-kits',
+            title: 'Ремкомплекти DOSATRON',
+        },
+        bread3: '',
     },
     {
         id: '48',
@@ -131,7 +210,16 @@ const arrGoods = [
         slug: 'goods3-10',
         img: '/pump/8.jpg',
         descriptionPrise: '',
-        description: ''
+        description: '',
+        bread1: {
+            slug: '/pumps-and-detergent-dispensers',
+            title: 'Насоси та дозатори миючих засобів',
+        },
+        bread2: {
+            slug: '/DOSATRON-repair-kits',
+            title: 'Ремкомплекти DOSATRON',
+        },
+        bread3: '',
     },
     {
         id: '49',
@@ -143,7 +231,16 @@ const arrGoods = [
         slug: 'goods3-11',
         img: '/pump/9.jpg',
         descriptionPrise: '',
-        description: ''
+        description: '',
+        bread1: {
+            slug: '/pumps-and-detergent-dispensers',
+            title: 'Насоси та дозатори миючих засобів',
+        },
+        bread2: {
+            slug: '/SEKO-EVO-repair-kits',
+            title: 'Ремкомплекти SEKO EVO',
+        },
+        bread3: '',
     },
     {
         id: '50',
@@ -155,7 +252,16 @@ const arrGoods = [
         slug: 'goods3-12',
         img: '/pump/10.jpg',
         descriptionPrise: '',
-        description: ''
+        description: '',
+        bread1: {
+            slug: '/pumps-and-detergent-dispensers',
+            title: 'Насоси та дозатори миючих засобів',
+        },
+        bread2: {
+            slug: '/SEKO-KOMPACT-repair-kits',
+            title: 'Ремкомплекти SEKO KOMPACT',
+        },
+        bread3: '',
     },
     {
         id: '60',
@@ -167,7 +273,16 @@ const arrGoods = [
         slug: 'goods3-13',
         img: '/pump/11.jpg',
         descriptionPrise: '',
-        description: ''
+        description: '',
+        bread1: {
+            slug: '/pumps-and-detergent-dispensers',
+            title: 'Насоси та дозатори миючих засобів',
+        },
+        bread2: {
+            slug: '/SEKO-EVO-series-pumps',
+            title: 'Насоси SEKO серії EVO',
+        },
+        bread3: '',
     },
     {
         id: '61',
@@ -179,7 +294,16 @@ const arrGoods = [
         slug: 'goods3-14',
         img: '/pump/12.jpg',
         descriptionPrise: '',
-        description: ''
+        description: '',
+        bread1: {
+            slug: '/pumps-and-detergent-dispensers',
+            title: 'Насоси та дозатори миючих засобів',
+        },
+        bread2: {
+            slug: '/DOSATRON-repair-kits',
+            title: 'Ремкомплекти DOSATRON',
+        },
+        bread3: '',
     },
     {
         id: '62',
@@ -191,7 +315,16 @@ const arrGoods = [
         slug: 'goods3-15',
         img: '/pump/13.jpg',
         descriptionPrise: '',
-        description: ''
+        description: '',
+        bread1: {
+            slug: '/pumps-and-detergent-dispensers',
+            title: 'Насоси та дозатори миючих засобів',
+        },
+        bread2: {
+            slug: '/MIXRITE-repair-kits',
+            title: 'Ремкомплекти MIXRITE',
+        },
+        bread3: '',
     },
     {
         id: '63',
@@ -203,7 +336,16 @@ const arrGoods = [
         slug: 'goods3-16',
         img: '/pump/14.jpg',
         descriptionPrise: '',
-        description: ''
+        description: '',
+        bread1: {
+            slug: '/pumps-and-detergent-dispensers',
+            title: 'Насоси та дозатори миючих засобів',
+        },
+        bread2: {
+            slug: '/DOSATRON-repair-kits',
+            title: 'Ремкомплекти DOSATRON',
+        },
+        bread3: '',
     },
     {
         id: '64',
@@ -215,7 +357,16 @@ const arrGoods = [
         slug: 'goods3-17',
         img: '/pump/15.jpg',
         descriptionPrise: '',
-        description: ''
+        description: '',
+        bread1: {
+            slug: '/pumps-and-detergent-dispensers',
+            title: 'Насоси та дозатори миючих засобів',
+        },
+        bread2: {
+            slug: '/MIXRITE-repair-kits',
+            title: 'Ремкомплекти MIXRITE',
+        },
+        bread3: '',
     },
     {
         id: '65',
@@ -227,7 +378,16 @@ const arrGoods = [
         slug: 'goods3-18',
         img: '/pump/16.jpg',
         descriptionPrise: '',
-        description: ''
+        description: '',
+        bread1: {
+            slug: '/pumps-and-detergent-dispensers',
+            title: 'Насоси та дозатори миючих засобів',
+        },
+        bread2: {
+            slug: '/MIXRITE-repair-kits',
+            title: 'Ремкомплекти MIXRITE',
+        },
+        bread3: '',
     },
     {
         id: '66',
@@ -239,7 +399,16 @@ const arrGoods = [
         slug: 'goods3-19',
         img: '/pump/17.jpg',
         descriptionPrise: '',
-        description: ''
+        description: '',
+        bread1: {
+            slug: '/pumps-and-detergent-dispensers',
+            title: 'Насоси та дозатори миючих засобів',
+        },
+        bread2: {
+            slug: '/MIXRITE-repair-kits',
+            title: 'Ремкомплекти MIXRITE',
+        },
+        bread3: '',
     },
     {
         id: '67',
@@ -251,7 +420,16 @@ const arrGoods = [
         slug: 'goods3-20',
         img: '/pump/18.jpg',
         descriptionPrise: '',
-        description: ''
+        description: '',
+        bread1: {
+            slug: '/pumps-and-detergent-dispensers',
+            title: 'Насоси та дозатори миючих засобів',
+        },
+        bread2: {
+            slug: '/MIXRITE-repair-kits',
+            title: 'Ремкомплекти MIXRITE',
+        },
+        bread3: '',
     },
     {
         id: '68',
@@ -263,7 +441,16 @@ const arrGoods = [
         slug: 'goods3-21',
         img: '/pump/20.jpg',
         descriptionPrise: '',
-        description: ''
+        description: '',
+        bread1: {
+            slug: '/pumps-and-detergent-dispensers',
+            title: 'Насоси та дозатори миючих засобів',
+        },
+        bread2: {
+            slug: '/MIXRITE-repair-kits',
+            title: 'Ремкомплекти MIXRITE',
+        },
+        bread3: '',
     },
     {
         id: '69',
@@ -275,7 +462,16 @@ const arrGoods = [
         slug: 'goods3-22',
         img: '/pump/21.jpg',
         descriptionPrise: '',
-        description: ''
+        description: '',
+        bread1: {
+            slug: '/pumps-and-detergent-dispensers',
+            title: 'Насоси та дозатори миючих засобів',
+        },
+        bread2: {
+            slug: '/MIXRITE-repair-kits',
+            title: 'Ремкомплекти MIXRITE',
+        },
+        bread3: '',
     },
     {
         id: '70',
@@ -287,7 +483,16 @@ const arrGoods = [
         slug: 'goods3-23',
         img: '/pump/22.jpg',
         descriptionPrise: '',
-        description: ''
+        description: '',
+        bread1: {
+            slug: '/pumps-and-detergent-dispensers',
+            title: 'Насоси та дозатори миючих засобів',
+        },
+        bread2: {
+            slug: '/DOSATRON-repair-kits',
+            title: 'Ремкомплекти DOSATRON',
+        },
+        bread3: '',
     },
     {
         id: '71',
@@ -299,7 +504,16 @@ const arrGoods = [
         slug: 'goods3-24',
         img: '/pump/23.jpg',
         descriptionPrise: '',
-        description: ''
+        description: '',
+        bread1: {
+            slug: '/pumps-and-detergent-dispensers',
+            title: 'Насоси та дозатори миючих засобів',
+        },
+        bread2: {
+            slug: '/MIXRITE-repair-kits',
+            title: 'Ремкомплекти MIXRITE',
+        },
+        bread3: '',
     },
     {
         id: '72',
@@ -311,7 +525,16 @@ const arrGoods = [
         slug: 'goods3-25',
         img: '/pump/24.jpg',
         descriptionPrise: '',
-        description: ''
+        description: '',
+        bread1: {
+            slug: '/pumps-and-detergent-dispensers',
+            title: 'Насоси та дозатори миючих засобів',
+        },
+        bread2: {
+            slug: '/DOSATRON-repair-kits',
+            title: 'Ремкомплекти DOSATRON',
+        },
+        bread3: '',
     },
     {
         id: '73',
@@ -323,7 +546,16 @@ const arrGoods = [
         slug: 'goods3-26',
         img: '/pump/25.jpg',
         descriptionPrise: '',
-        description: ''
+        description: '',
+        bread1: {
+            slug: '/pumps-and-detergent-dispensers',
+            title: 'Насоси та дозатори миючих засобів',
+        },
+        bread2: {
+            slug: '/DOSATRON-repair-kits',
+            title: 'Ремкомплекти DOSATRON',
+        },
+        bread3: '',
     },
     {
         id: '74',
@@ -335,7 +567,16 @@ const arrGoods = [
         slug: 'goods3-27',
         img: '/pump/26.jpg',
         descriptionPrise: '',
-        description: ''
+        description: '',
+        bread1: {
+            slug: '/pumps-and-detergent-dispensers',
+            title: 'Насоси та дозатори миючих засобів',
+        },
+        bread2: {
+            slug: '/MIXRITE-repair-kits',
+            title: 'Ремкомплекти MIXRITE',
+        },
+        bread3: '',
     },
     {
         id: '75',
@@ -347,7 +588,16 @@ const arrGoods = [
         slug: 'goods3-28',
         img: '/pump/27.jpg',
         descriptionPrise: '',
-        description: ''
+        description: '',
+        bread1: {
+            slug: '/pumps-and-detergent-dispensers',
+            title: 'Насоси та дозатори миючих засобів',
+        },
+        bread2: {
+            slug: '/MIXRITE-repair-kits',
+            title: 'Ремкомплекти MIXRITE',
+        },
+        bread3: '',
     },
     {
         id: '76',
@@ -359,11 +609,20 @@ const arrGoods = [
         slug: 'goods3-30',
         img: '/pump/28.jpg',
         descriptionPrise: '',
-        description: ''
+        description: '',
+        bread1: {
+            slug: '/pumps-and-detergent-dispensers',
+            title: 'Насоси та дозатори миючих засобів',
+        },
+        bread2: {
+            slug: '/DOSATRON-repair-kits',
+            title: 'Ремкомплекти DOSATRON',
+        },
+        bread3: '',
     },
     {
         id: '77',
-        title: 'Насос-дозатор SEKO Tekna EVO APG603 з логотипом BKF для кислотної хімії (червоний)',
+        title: 'Насос-дозатор SEKO Tekna EVO APG603 з логотипом SamWash для кислотної хімії (червоний)',
         code: 'DOS-POM-TEK-APG603-FPM',
         price: '1141.34',
         newPrice: '',
@@ -371,11 +630,20 @@ const arrGoods = [
         slug: 'goods3-31',
         img: '/pump/29.jpg',
         descriptionPrise: '',
-        description: ''
+        description: '',
+        bread1: {
+            slug: '/pumps-and-detergent-dispensers',
+            title: 'Насоси та дозатори миючих засобів',
+        },
+        bread2: {
+            slug: '/SEKO-EVO-series-pumps',
+            title: 'Насоси SEKO серії EVO',
+        },
+        bread3: '',
     },
     {
         id: '78',
-        title: 'Дозуючий насос SEKO Tekna EVO APG603 з логотипом BKF для лужної хімії (червоний)',
+        title: 'Дозуючий насос SEKO Tekna EVO APG603 з логотипом SamWash для лужної хімії (червоний)',
         code: 'DOS-POM-TEK-APG603-EPDM',
         price: '1141.34',
         newPrice: '',
@@ -383,7 +651,16 @@ const arrGoods = [
         slug: 'goods3-32',
         img: '/pump/30.jpg',
         descriptionPrise: '',
-        description: ''
+        description: '',
+        bread1: {
+            slug: '/pumps-and-detergent-dispensers',
+            title: 'Насоси та дозатори миючих засобів',
+        },
+        bread2: {
+            slug: '/SEKO-EVO-series-pumps',
+            title: 'Насоси SEKO серії EVO',
+        },
+        bread3: '',
     },
     {
         id: '79',
@@ -395,7 +672,16 @@ const arrGoods = [
         slug: 'goods3-33',
         img: '/pump/31.jpg',
         descriptionPrise: '',
-        description: ''
+        description: '',
+        bread1: {
+            slug: '/pumps-and-detergent-dispensers',
+            title: 'Насоси та дозатори миючих засобів',
+        },
+        bread2: {
+            slug: '/SEKO-EVO-series-pumps',
+            title: 'Насоси SEKO серії EVO',
+        },
+        bread3: '',
     },
     {
         id: '80',
@@ -407,7 +693,16 @@ const arrGoods = [
         slug: 'goods3-34',
         img: '/pump/32.jpg',
         descriptionPrise: '',
-        description: ''
+        description: '',
+        bread1: {
+            slug: '/pumps-and-detergent-dispensers',
+            title: 'Насоси та дозатори миючих засобів',
+        },
+        bread2: {
+            slug: '/DOSATRON-repair-kits',
+            title: 'Ремкомплекти DOSATRON',
+        },
+        bread3: '',
     },
     {
         id: '81',
@@ -419,7 +714,16 @@ const arrGoods = [
         slug: 'goods3-35',
         img: '/pump/33.jpg',
         descriptionPrise: '',
-        description: ''
+        description: '',
+        bread1: {
+            slug: '/pumps-and-detergent-dispensers',
+            title: 'Насоси та дозатори миючих засобів',
+        },
+        bread2: {
+            slug: '/DOSATRON-repair-kits',
+            title: 'Ремкомплекти DOSATRON',
+        },
+        bread3: '',
     },
     {
         id: '82',
@@ -431,7 +735,16 @@ const arrGoods = [
         slug: 'goods3-36',
         img: '/pump/34.jpg',
         descriptionPrise: '',
-        description: ''
+        description: '',
+        bread1: {
+            slug: '/pumps-and-detergent-dispensers',
+            title: 'Насоси та дозатори миючих засобів',
+        },
+        bread2: {
+            slug: '/MIXRITE-repair-kits',
+            title: 'Ремкомплекти MIXRITE',
+        },
+        bread3: '',
     },
     {
         id: '83',
@@ -443,7 +756,16 @@ const arrGoods = [
         slug: 'goods3-37',
         img: '/pump/35.jpg',
         descriptionPrise: '',
-        description: ''
+        description: '',
+        bread1: {
+            slug: '/pumps-and-detergent-dispensers',
+            title: 'Насоси та дозатори миючих засобів',
+        },
+        bread2: {
+            slug: '/DOSATRON-repair-kits',
+            title: 'Ремкомплекти DOSATRON',
+        },
+        bread3: '',
     },
     {
         id: '84',
@@ -455,7 +777,16 @@ const arrGoods = [
         slug: 'goods3-38',
         img: '/pump/36.jpg',
         descriptionPrise: '',
-        description: ''
+        description: '',
+        bread1: {
+            slug: '/pumps-and-detergent-dispensers',
+            title: 'Насоси та дозатори миючих засобів',
+        },
+        bread2: {
+            slug: '/DOSATRON-repair-kits',
+            title: 'Ремкомплекти DOSATRON',
+        },
+        bread3: '',
     },
     {
         id: '85',
@@ -467,7 +798,16 @@ const arrGoods = [
         slug: 'goods3-39',
         img: '/pump/37.jpg',
         descriptionPrise: '',
-        description: ''
+        description: '',
+        bread1: {
+            slug: '/pumps-and-detergent-dispensers',
+            title: 'Насоси та дозатори миючих засобів',
+        },
+        bread2: {
+            slug: '/SEKO-EVO-repair-kits',
+            title: 'Ремкомплекти SEKO EVO',
+        },
+        bread3: '',
     },
     {
         id: '86',
@@ -479,7 +819,16 @@ const arrGoods = [
         slug: 'goods3-40',
         img: '/pump/38.jpg',
         descriptionPrise: '',
-        description: ''
+        description: '',
+        bread1: {
+            slug: '/pumps-and-detergent-dispensers',
+            title: 'Насоси та дозатори миючих засобів',
+        },
+        bread2: {
+            slug: '/SEKO-KOMPACT-repair-kits',
+            title: 'Ремкомплекти SEKO KOMPACT',
+        },
+        bread3: '',
     },
     {
         id: '87',
@@ -491,7 +840,16 @@ const arrGoods = [
         slug: 'goods3-41',
         img: '/pump/39.jpg',
         descriptionPrise: '',
-        description: ''
+        description: '',
+        bread1: {
+            slug: '/pumps-and-detergent-dispensers',
+            title: 'Насоси та дозатори миючих засобів',
+        },
+        bread2: {
+            slug: '/MIXRITE-repair-kits',
+            title: 'Ремкомплекти MIXRITE',
+        },
+        bread3: '',
     },
     {
         id: '88',
@@ -503,7 +861,16 @@ const arrGoods = [
         slug: 'goods3-42',
         img: '/pump/40.jpg',
         descriptionPrise: '',
-        description: ''
+        description: '',
+        bread1: {
+            slug: '/pumps-and-detergent-dispensers',
+            title: 'Насоси та дозатори миючих засобів',
+        },
+        bread2: {
+            slug: '/SEKO-EVO-repair-kits',
+            title: 'Ремкомплекти SEKO EVO',
+        },
+        bread3: '',
     },
     {
         id: '89',
@@ -515,7 +882,16 @@ const arrGoods = [
         slug: 'goods3-43',
         img: '/pump/41.jpg',
         descriptionPrise: '',
-        description: ''
+        description: '',
+        bread1: {
+            slug: '/pumps-and-detergent-dispensers',
+            title: 'Насоси та дозатори миючих засобів',
+        },
+        bread2: {
+            slug: '/SEKO-KOMPACT-repair-kits',
+            title: 'Ремкомплекти SEKO KOMPACT',
+        },
+        bread3: '',
     },
     {
         id: '90',
@@ -527,7 +903,16 @@ const arrGoods = [
         slug: 'goods3-44',
         img: '/pump/42.jpg',
         descriptionPrise: '',
-        description: ''
+        description: '',
+        bread1: {
+            slug: '/pumps-and-detergent-dispensers',
+            title: 'Насоси та дозатори миючих засобів',
+        },
+        bread2: {
+            slug: '/DOSATRON-repair-kits',
+            title: 'Ремкомплекти DOSATRON',
+        },
+        bread3: '',
     },
     {
         id: '91',
@@ -539,7 +924,16 @@ const arrGoods = [
         slug: 'goods3-45',
         img: '/pump/43.jpg',
         descriptionPrise: '',
-        description: ''
+        description: '',
+        bread1: {
+            slug: '/pumps-and-detergent-dispensers',
+            title: 'Насоси та дозатори миючих засобів',
+        },
+        bread2: {
+            slug: '/DOSATRON-repair-kits',
+            title: 'Ремкомплекти DOSATRON',
+        },
+        bread3: '',
     },
     {
         id: '92',
@@ -551,7 +945,16 @@ const arrGoods = [
         slug: 'goods3-46',
         img: '/pump/44.jpg',
         descriptionPrise: '',
-        description: ''
+        description: '',
+        bread1: {
+            slug: '/pumps-and-detergent-dispensers',
+            title: 'Насоси та дозатори миючих засобів',
+        },
+        bread2: {
+            slug: '/MIXRITE-repair-kits',
+            title: 'Ремкомплекти MIXRITE',
+        },
+        bread3: '',
     },
     {
         id: '93',
@@ -563,7 +966,16 @@ const arrGoods = [
         slug: 'goods3-47',
         img: '/pump/45.jpg',
         descriptionPrise: '',
-        description: ''
+        description: '',
+        bread1: {
+            slug: '/pumps-and-detergent-dispensers',
+            title: 'Насоси та дозатори миючих засобів',
+        },
+        bread2: {
+            slug: '/SEKO-EVO-repair-kits',
+            title: 'Ремкомплекти SEKO EVO',
+        },
+        bread3: '',
     },
     {
         id: '94',
@@ -575,7 +987,16 @@ const arrGoods = [
         slug: 'goods3-48',
         img: '/pump/46.jpg',
         descriptionPrise: '',
-        description: ''
+        description: '',
+        bread1: {
+            slug: '/pumps-and-detergent-dispensers',
+            title: 'Насоси та дозатори миючих засобів',
+        },
+        bread2: {
+            slug: '/DOSATRON-repair-kits',
+            title: 'Ремкомплекти DOSATRON',
+        },
+        bread3: '',
     },
 ]
 

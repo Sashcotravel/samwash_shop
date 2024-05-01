@@ -15,20 +15,93 @@ import TopButton from "@/app/component/topButton/topButton";
 
 const arrGoods = [
     {
-        id: '43',
-        title: 'Дозатор Mixrite 571 (0,3-2%)',
-        code: 'DOZ-MIX-571',
-        price: '1573.67',
+        id: '45',
+        title: 'Головка з клапанами EPDM для насосів серії EVO (APG603,APG800)',
+        code: 'POM-TEK-GlO',
+        price: '501.77',
+        newPrice: '',
         size: 1,
-        slug: 'goods3-5',
-        img: '/pump/5.jpg',
+        slug: 'goods3-7',
+        img: '/pump/99.jpg',
+        descriptionPrise: '',
+        description: ''
+    },
+    {
+        id: '46',
+        title: 'Головка з клапанами FPM [EM99106490] для насосів серії SEKO EVO (APG603,APG800)',
+        code: 'POM-TEK-GlO-FPM',
+        price: '462.36',
+        newPrice: '',
+        size: 1,
+        slug: 'goods3-8',
+        img: '/pump/99.jpg',
+        descriptionPrise: '',
+        description: ''
+    },
+    {
+        id: '49',
+        title: 'Мембрана для насосів серії EVO (APG603,APG800)',
+        code: 'ПОМ-ТЕК-МЕМ',
+        price: '96.94',
+        newPrice: '',
+        size: 1,
+        slug: 'goods3-11',
+        img: '/pump/9.jpg',
+        descriptionPrise: '',
+        description: ''
+    },
+    {
+        id: '60',
+        title: 'Гайка для насосів серії EVO / Kompact',
+        code: 'ПОМ-ТЕК-НАК',
+        price: '24.62',
+        newPrice: '',
+        size: 1,
+        slug: 'goods3-13',
+        img: '/pump/11.jpg',
+        descriptionPrise: '',
+        description: ''
+    },
+    {
+        id: '85',
+        title: 'Клапани всмоктування/нагнітання для насосів серії EVO (APG603,APG800) - набір з 2 шт.',
+        code: 'POM-TEK-ZAW',
+        price: '208.36',
+        newPrice: '',
+        size: 1,
+        slug: 'goods3-39',
+        img: '/pump/37.jpg',
+        descriptionPrise: '',
+        description: ''
+    },
+    {
+        id: '88',
+        title: 'Монтажний комплект для насосів серії EVO (APG603,APG800)',
+        code: 'ПОМ-ТЕК-ЗЕС',
+        price: '204.16',
+        newPrice: '',
+        size: 1,
+        slug: 'goods3-42',
+        img: '/pump/40.jpg',
+        descriptionPrise: '',
+        description: ''
+    },
+    {
+        id: '93',
+        title: 'Комплект ущільнень для насосів серії EVO (APG603,APG800)',
+        code: 'POM-TEK-USZ',
+        price: '49.74',
+        newPrice: '',
+        size: 1,
+        slug: 'goods3-47',
+        img: '/pump/45.jpg',
         descriptionPrise: '',
         description: ''
     },
 ]
 
 
-function MixriteDispenser() {
+function Dosatron() {
 
     const t = useTranslations();
 
@@ -102,7 +175,7 @@ function MixriteDispenser() {
     return (
         <div className={s.mainDiv}>
 
-            <TopButton index={4} />
+            <TopButton index={4}/>
 
             <NavProduct2 back={'/pumps-and-detergent-dispensers'}/>
 
@@ -123,17 +196,17 @@ function MixriteDispenser() {
                                     <Link href='/product'> Продукти</Link>
                                 </li>
                                 <li>
-                                    <Link href='/pumps-and-detergent-dispensers'> Насоси та дозатори
-                                        миючих засобів</Link>
+                                    <Link href='/pumps-and-detergent-dispensers'> Насоси та дозатори миючих
+                                        засобів</Link>
                                 </li>
                                 <li>
-                                    <span> Дозатор Mixrite</span>
+                                    <span> Ремкомплекти SEKO EVO</span>
                                 </li>
                             </ul>
                         </div>
                     </div>
 
-                    <h1>Дозатор Mixrite</h1>
+                    <h1>Ремкомплекти SEKO EVO</h1>
 
                     <ul className={s.ulCategory}>
                         {
@@ -215,4 +288,4 @@ function MixriteDispenser() {
     );
 }
 
-export default MixriteDispenser;
+export default Dosatron;

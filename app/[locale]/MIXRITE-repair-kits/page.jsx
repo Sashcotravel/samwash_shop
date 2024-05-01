@@ -15,20 +15,176 @@ import TopButton from "@/app/component/topButton/topButton";
 
 const arrGoods = [
     {
-        id: '43',
-        title: 'Дозатор Mixrite 571 (0,3-2%)',
-        code: 'DOZ-MIX-571',
-        price: '1573.67',
+        id: '39',
+        title: 'Диспенсер-циліндр MixRite',
+        code: 'CYL-DEM',
+        price: '114.27',
         size: 1,
-        slug: 'goods3-5',
-        img: '/pump/5.jpg',
+        slug: 'goods3-1',
+        img: '/pump/1.jpg',
+        description: '',
+        descriptionPrise: ''
+    },
+    {
+        id: '62',
+        title: 'Кришка зворотного клапана диспенсера MixRite',
+        code: 'NAK-ZAW-DEM',
+        price: '147.60',
+        newPrice: '',
+        size: 1,
+        slug: 'goods3-15',
+        img: '/pump/13.jpg',
+        descriptionPrise: '',
+        description: ''
+    },
+    {
+        id: '64',
+        title: 'Корпус дозатора MixRite',
+        code: 'OBU-DOZ-DEM',
+        price: '185.47',
+        newPrice: '',
+        size: 1,
+        slug: 'goods3-17',
+        img: '/pump/15.jpg',
+        descriptionPrise: '',
+        description: ''
+    },
+    {
+        id: '65',
+        title: 'Ущільнювальне кільце для диспенсера MixRite (38021080048 viton demo)',
+        code: 'ORI-004',
+        price: '0.89',
+        newPrice: '',
+        size: 1,
+        slug: 'goods3-18',
+        img: '/pump/16.jpg',
+        descriptionPrise: '',
+        description: ''
+    },
+    {
+        id: '66',
+        title: 'Ущільнювальне кільце для дозатора MixRite (38021090049 демо)',
+        code: 'ORI-003',
+        price: '0.90',
+        newPrice: '',
+        size: 1,
+        slug: 'goods3-19',
+        img: '/pump/17.jpg',
+        descriptionPrise: '',
+        description: ''
+    },
+    {
+        id: '67',
+        title: 'Ущільнювальне кільце MixRite (38060211447 демонстрацій)',
+        code: 'ORI-002',
+        price: '1.44',
+        newPrice: '',
+        size: 1,
+        slug: 'goods3-20',
+        img: '/pump/18.jpg',
+        descriptionPrise: '',
+        description: ''
+    },
+    {
+        id: '68',
+        title: 'Ущільнювальне кільце MixRite (38060221146 демонстрацій)',
+        code: 'ORI-001',
+        price: '2.66',
+        newPrice: '',
+        size: 1,
+        slug: 'goods3-21',
+        img: '/pump/20.jpg',
+        descriptionPrise: '',
+        description: ''
+    },
+    {
+        id: '69',
+        title: 'Ущільнювальне кільце MixRite (38060222044 демонстрації)',
+        code: 'ORI-005',
+        price: '3.10',
+        newPrice: '',
+        size: 1,
+        slug: 'goods3-22',
+        img: '/pump/21.jpg',
+        descriptionPrise: '',
+        description: ''
+    },
+    {
+        id: '71',
+        title: 'Ручка дозування хімікатів MixRite',
+        code: 'POK-RET-DEM',
+        price: '28.23',
+        newPrice: '',
+        size: 1,
+        slug: 'goods3-24',
+        img: '/pump/23.jpg',
+        descriptionPrise: '',
+        description: ''
+    },
+    {
+        id: '74',
+        title: 'Нижня кришка диспенсера MixRite (1618-043532)',
+        code: 'POK-DOL-DEM',
+        price: '31.22',
+        newPrice: '',
+        size: 1,
+        slug: 'goods3-27',
+        img: '/pump/26.jpg',
+        descriptionPrise: '',
+        description: ''
+    },
+    {
+        id: '75',
+        title: 'Кришка диспенсера MixRite (1618-043111)',
+        code: 'POK-DOZ-DEM',
+        price: '104.40',
+        newPrice: '',
+        size: 1,
+        slug: 'goods3-28',
+        img: '/pump/27.jpg',
+        descriptionPrise: '',
+        description: ''
+    },
+    {
+        id: '82',
+        title: 'Шланг-голка для дозатора Mixrite 8 x 1,1',
+        code: 'WAZ-IGI-8X1,1',
+        price: '4.23',
+        newPrice: '',
+        size: 1,
+        slug: 'goods3-36',
+        img: '/pump/34.jpg',
+        descriptionPrise: '',
+        description: ''
+    },
+    {
+        id: '87',
+        title: 'Односторонній клапан Mixrite (1618-043112)',
+        code: 'ZAW-JED-GREN',
+        price: '82.00',
+        newPrice: '',
+        size: 1,
+        slug: 'goods3-41',
+        img: '/pump/39.jpg',
+        descriptionPrise: '',
+        description: ''
+    },
+    {
+        id: '92',
+        title: 'Набір для ремонту дозатора Mixrite',
+        code: 'ЗЕС-НАП-КРА',
+        price: '103.48',
+        newPrice: '',
+        size: 1,
+        slug: 'goods3-46',
+        img: '/pump/44.jpg',
         descriptionPrise: '',
         description: ''
     },
 ]
 
 
-function MixriteDispenser() {
+function Dosatron() {
 
     const t = useTranslations();
 
@@ -102,7 +258,7 @@ function MixriteDispenser() {
     return (
         <div className={s.mainDiv}>
 
-            <TopButton index={4} />
+            <TopButton index={4}/>
 
             <NavProduct2 back={'/pumps-and-detergent-dispensers'}/>
 
@@ -123,17 +279,17 @@ function MixriteDispenser() {
                                     <Link href='/product'> Продукти</Link>
                                 </li>
                                 <li>
-                                    <Link href='/pumps-and-detergent-dispensers'> Насоси та дозатори
-                                        миючих засобів</Link>
+                                    <Link href='/pumps-and-detergent-dispensers'> Насоси та дозатори миючих
+                                        засобів</Link>
                                 </li>
                                 <li>
-                                    <span> Дозатор Mixrite</span>
+                                    <span> Ремкомплекти MIXRITE</span>
                                 </li>
                             </ul>
                         </div>
                     </div>
 
-                    <h1>Дозатор Mixrite</h1>
+                    <h1>Ремкомплекти MIXRITE</h1>
 
                     <ul className={s.ulCategory}>
                         {
@@ -215,4 +371,4 @@ function MixriteDispenser() {
     );
 }
 
-export default MixriteDispenser;
+export default Dosatron;
