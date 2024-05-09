@@ -84,8 +84,14 @@ const Header = () => {
         }
     }
 
+    useEffect(() => {
+        window.addEventListener('scroll', () => {
+            window.scrollTo(0, 0)
+        });
+    }, []);
 
-    return (
+
+    return (<>
         <header>
             <div className={s.laptop}>
                 <div className={s.grayLine}>
@@ -194,13 +200,13 @@ const Header = () => {
                         <ul className={s.boxMenuWrapper} id='boxManu'>
                             <li className={s.dropdown + ' ' + s.less}>
                                 <button style={{display: 'flex', alignItems: 'center'}}
-                                    onClick={() => setToggleLang(prev => !prev)}>
+                                        onClick={() => setToggleLang(prev => !prev)}>
                                     <img src={`/header/flug/${locale}.svg`} alt="" className={s.flag} id='lang'/>
                                     {
                                         locale === 'uk' ? 'Українська' : locale === 'en' ? "English" : "Російська"
                                     }
                                     <Image src='/header/flug/arrow-down.svg' alt='arrow up' width={16} height={16}
-                                           className={s.imgArrowManu+' '+s.imgArrowManu2}/>
+                                           className={s.imgArrowManu + ' ' + s.imgArrowManu2}/>
                                 </button>
                                 <div className={s.dropdown_content}>
                                     <Link href='/' locale="uk" className={s.language_link}
@@ -226,7 +232,7 @@ const Header = () => {
                                     </Link>
                                 </div>
                             </li>
-                            <li className={s.dropdown}>
+                            <li className={s.dropdown + ' ' + s.more}>
                                 <button>
                                     <Link href="/chemical-means" id='mozhna'>
                                         Хімічні засоби для безконтактної мийки</Link>
@@ -234,13 +240,17 @@ const Header = () => {
                                            className={s.imgArrowManu}/>
                                 </button>
                                 <div className={s.dropdown_content}>
-                                    <Link href="/active-foam" id='mozhna'>Активна піна для миття автомобіля</Link>
-                                    <Link href="/car-wash-powders" id='mozhna'>Порошки для миття автомобіля</Link>
-                                    <Link href="/car-wash-shampoos" id='mozhna'>Шампуні для миття автомобіля</Link>
-                                    <Link href="/car-wash-waxes" id='mozhna'>Воски для миття автомобіля</Link>
+                                    <Link href="/chemical-means/active-foam" id='mozhna'>Активна піна для миття
+                                        автомобіля</Link>
+                                    <Link href="/chemical-means/car-wash-powders" id='mozhna'>Порошки для миття
+                                        автомобіля</Link>
+                                    <Link href="/chemical-means/car-wash-shampoos" id='mozhna'>Шампуні для миття
+                                        автомобіля</Link>
+                                    <Link href="/chemical-means/car-wash-waxes" id='mozhna'>Воски для миття
+                                        автомобіля</Link>
                                 </div>
                             </li>
-                            <li className={s.dropdown}>
+                            <li className={s.dropdown + ' ' + s.more}>
                                 <button>
                                     <Link href="/electromagnetic-valves-and-repair-kits" id='mozhna'>
                                         Електромагнітні клапани та ремкомплекти</Link>
@@ -248,12 +258,15 @@ const Header = () => {
                                            className={s.imgArrowManu}/>
                                 </button>
                                 <div className={s.dropdown_content}>
-                                    <Link href="/electromagnetic-valves" id='mozhna'>Електромагнітні клапани</Link>
-                                    <Link href="/repair-kits-of-electromagnetic-valves" id='mozhna'>
+                                    <Link href="/electromagnetic-valves-and-repair-kits/electromagnetic-valves"
+                                          id='mozhna'>Електромагнітні клапани</Link>
+                                    <Link
+                                        href="/electromagnetic-valves-and-repair-kits/repair-kits-of-electromagnetic-valves"
+                                        id='mozhna'>
                                         Ремкомплекти електромагнітних клапанів</Link>
                                 </div>
                             </li>
-                            <li className={s.dropdown}>
+                            <li className={s.dropdown + ' ' + s.more}>
                                 <button>
                                     <Link href="/pumps-and-detergent-dispensers" id='mozhna'>
                                         Насоси та дозатори миючих засобів</Link>
@@ -261,66 +274,90 @@ const Header = () => {
                                            className={s.imgArrowManu}/>
                                 </button>
                                 <div className={s.dropdown_content}>
-                                    <Link href="/mixrite-dispenser" id='mozhna'>Дозатор Mixrite</Link>
-                                    <Link href="/dosatron" id='mozhna'>Дозатрони</Link>
-                                    <Link href="/SEKO-EVO-series-pumps" id='mozhna'>Насоси SEKO серії EVO</Link>
-                                    <Link href="/DOSATRON-repair-kits" id='mozhna'>Ремкомплекти DOSATRON</Link>
-                                    <Link href="/MIXRITE-repair-kits" id='mozhna'>Ремкомплекти MIXRITE</Link>
-                                    <Link href="/SEKO-EVO-repair-kits" id='mozhna'>Ремкомплекти SEKO EVO</Link>
-                                    <Link href="/SEKO-KOMPACT-repair-kits" id='mozhna'>Ремкомплекти SEKO KOMPACT</Link>
+                                    <Link href="/pumps-and-detergent-dispensers/mixrite-dispenser"
+                                          id='mozhna'>Дозатор Mixrite</Link>
+                                    <Link href="/pumps-and-detergent-dispensers/dosatron" id='mozhna'>Дозатрони</Link>
+                                    <Link href="/pumps-and-detergent-dispensers/SEKO-EVO-series-pumps"
+                                          id='mozhna'>Насоси SEKO серії EVO</Link>
+                                    <Link href="/pumps-and-detergent-dispensers/DOSATRON-repair-kits"
+                                          id='mozhna'>Ремкомплекти DOSATRON</Link>
+                                    <Link href="/pumps-and-detergent-dispensers/MIXRITE-repair-kits"
+                                          id='mozhna'>Ремкомплекти MIXRITE</Link>
+                                    <Link href="/pumps-and-detergent-dispensers/SEKO-EVO-repair-kits"
+                                          id='mozhna'>Ремкомплекти SEKO EVO</Link>
+                                    <Link href="/pumps-and-detergent-dispensers/SEKO-KOMPACT-repair-kits"
+                                          id='mozhna'>Ремкомплекти SEKO KOMPACT</Link>
                                 </div>
                             </li>
-                            <li className={s.dropdown}>
+                            <li className={s.dropdown + ' ' + s.more}>
                                 <button>
-                                    Водяні насоси та аксесуари
+                                    <Link href="/water-pumps-and-accessories" id='mozhna'>
+                                        Водяні насоси та аксесуари</Link>
                                     <Image src='/header/flug/arrow-down.svg' alt='arrow up' width={16} height={16}
                                            className={s.imgArrowManu}/>
                                 </button>
                                 <div className={s.dropdown_content}>
-                                    <Link href="/" id='mozhna'>Насоси низького тиску</Link>
-                                    <span><Link href="/" id='mozhna'>Аксесуари для насосів</Link></span>
-                                    <span> <Link href="/" id='mozhna'>Насоси</Link></span>
-                                    <Link href="/" id='mozhna'>Насоси високого тиску</Link>
-                                    <span><Link href="/" id='mozhna'>Аксесуари та ремонтні комплекти</Link></span>
-                                    <span><Link href="/" id='mozhna'>Насоси</Link></span>
+                                    <Link href="/low-pressure-pumps" id='mozhna'>Насоси низького тиску</Link>
+                                    <span><Link href="/accessories-for-pumps"
+                                                id='mozhna'>Аксесуари для насосів</Link></span>
+                                    <span> <Link href="/low-pumps" id='mozhna'>Насоси</Link></span>
+                                    <Link href="/high-pressure-pumps" id='mozhna'>Насоси високого тиску</Link>
+                                    <span><Link href="/accessories-and-repair-kits" id='mozhna'>Аксесуари та ремонтні комплекти</Link></span>
+                                    <span><Link href="/high-pumps" id='mozhna'>Насоси</Link></span>
                                 </div>
                             </li>
-                            <li className={s.dropdown}>
+                            <li className={s.dropdown + ' ' + s.more}>
                                 <button>
-                                    Платіжні системи
+                                    <Link href="/payment-systems" id='mozhna'>
+                                        Платіжні системи</Link>
                                     <Image src='/header/flug/arrow-down.svg' alt='arrow up' width={16} height={16}
                                            className={s.imgArrowManu}/>
                                 </button>
                                 <div className={s.dropdown_content}>
-                                    <Link href="/" id='mozhna'>Безготівковий</Link>
-                                    <span><Link href="/" id='mozhna'>Операції з платіжними картками</Link></span>
-                                    <span><Link href="/" id='mozhna'>Операції лояльності з карткою/ключем</Link></span>
-                                    <Link href="/" id='mozhna'>Готівка</Link>
-                                    <span><Link href="/" id='mozhna'>Зчитувачі банкнот і аксесуари</Link></span>
-                                    <span><Link href="/" id='mozhna'>Монетоприймачі</Link></span>
+                                    <Link href="/payment-systems/cashless" id='mozhna'>Безготівковий</Link>
+                                    <span><Link
+                                        href="/payment-systems/cashless/transactions-with-payment-cards"
+                                        id='mozhna'>Операції з платіжними картками</Link></span>
+                                    <span><Link
+                                        href="/payment-systems/cashless//loyalty-operations"
+                                        id='mozhna'>Операції лояльності з карткою/ключем</Link></span>
+                                    <Link href="/payment-systems/cash" id='mozhna'>Готівка</Link>
+                                    <span><Link
+                                        href='/payment-systems/cash/banknote-readers-and-accessories'
+                                        id='mozhna'>Зчитувачі банкнот і аксесуари</Link></span>
+                                    <span><Link href='/payment-systems/cash/coin-validators'
+                                                id='mozhna'>Валідатори монет</Link></span>
                                 </div>
                             </li>
                             <li className={s.dropdown + ' ' + s.more} style={{position: 'static'}}>
                                 <button>
-                                    більше
+                                    <Link href="/product" id='mozhna'>
+                                        більше</Link>
                                     <Image src='/header/flug/arrow-down.svg' alt='arrow up' width={16} height={16}
                                            className={s.imgArrowManu}/>
                                 </button>
                                 <ul className={s.dropdown_content2}>
                                     <li>
-                                        <Link href="/" id='mozhna'>Розпродаж</Link>
+                                        <Link href="/product" id='mozhna'>Розпродаж</Link>
                                     </li>
                                     <li>
-                                        <Link href="/" id='mozhna'>Аксесуари для пилососа та компресора</Link>
-                                        <span><Link href="/" id='mozhna'>Аксесуари для компресорів</Link></span>
-                                        <span><Link href="/" id='mozhna'>Елементи конструкції пилососа</Link></span>
-                                        <span><Link href="/" id='mozhna'>Фільтри</Link></span>
-                                        <span><Link href="/" id='mozhna'>Двигуни і турбіни</Link></span>
-                                        <span><Link href="/" id='mozhna'>Форсунки і з'єднання шлангів</Link></span>
-                                        <span><Link href="/" id='mozhna'>Всмоктувальні шланги</Link></span>
+                                        <Link href="/accessories-for-vacuum" id='mozhna'>
+                                            Аксесуари для пилососа та компресора</Link>
+                                        <span><Link href="/accessories-for-vacuum/for-compressors"
+                                                    id='mozhna'>Аксесуари для компресорів</Link></span>
+                                        <span><Link href="/accessories-for-vacuum/design-elements-of-a-vacuum-cleaner"
+                                                    id='mozhna'>Елементи конструкції пилососа</Link></span>
+                                        <span><Link href="/accessories-for-vacuum/filters" id='mozhna'>
+                                            Фільтри</Link></span>
+                                        <span><Link href="/accessories-for-vacuum/engines-and-turbines"
+                                                    id='mozhna'>Двигуни і турбіни</Link></span>
+                                        <span><Link href="/accessories-for-vacuum/nozzles-and-hose-connections"
+                                                    id='mozhna'>Форсунки і з'єднання шлангів</Link></span>
+                                        <span><Link href="/accessories-for-vacuum/suction-hoses"
+                                                    id='mozhna'>Всмоктувальні шланги</Link></span>
                                     </li>
                                     <li>
-                                        <Link href="/" id='mozhna'>Рекламні аксесуари</Link>
+                                        <Link href="/advertising-accessories" id='mozhna'>Рекламні аксесуари</Link>
                                     </li>
                                     <li>
                                         <Link href="/" id='mozhna'>Опалювальна арматура</Link>
@@ -407,20 +444,115 @@ const Header = () => {
                                         <span><Link href="/" id='mozhna'>Резервуари для розсолу</Link></span>
                                     </li>
                                     <li>
-                                        <Link href="/" id='mozhna'>Стріли</Link>
-                                        <span><Link href="/" id='mozhna'>Неодружений</Link></span>
-                                        <span><Link href="/" id='mozhna'>Ремонтні комплекти</Link></span>
+                                        <Link href="/arrows" id='mozhna'>Стріли</Link>
+                                        <span><Link href="/arrows/single" id='mozhna'>Неодружений</Link></span>
+                                        <span><Link href="/arrows/repair-kits"
+                                                    id='mozhna'>Ремонтні комплекти</Link></span>
                                     </li>
                                 </ul>
                             </li>
                             <li className={s.dropdown + ' ' + s.less}>
                                 <button>
-                                    Розпродаж
+                                    Хімічні засоби для безконтактної мийки
                                     <Image src='/header/flug/arrow-down.svg' alt='arrow up' width={16} height={16}
                                            className={s.imgArrowManu}/>
                                 </button>
                                 <div className={s.dropdown_content}>
-                                    <span><Link href="/" id='mozhna'>Розпродаж</Link></span>
+                                    <span><Link href="/chemical-means" id='mozhna'>
+                                        Хімічні засоби для безконтактної мийки</Link></span>
+                                    <span><Link href="/chemical-means/active-foam"
+                                                id='mozhna'>Активна піна для миття автомобіля</Link></span>
+                                    <span><Link href="/chemical-means/car-wash-powders"
+                                                id='mozhna'>Порошки для миття автомобіля</Link></span>
+                                    <span><Link href="/chemical-means/car-wash-shampoos"
+                                                id='mozhna'>Шампуні для миття автомобіля</Link></span>
+                                    <span><Link href="/chemical-means/car-wash-waxes"
+                                                id='mozhna'>Воски для миття автомобіля</Link></span>
+                                </div>
+                            </li>
+                            <li className={s.dropdown + ' ' + s.less}>
+                                <button>
+                                    Електромагнітні клапани та ремкомплекти
+                                    <Image src='/header/flug/arrow-down.svg' alt='arrow up' width={16} height={16}
+                                           className={s.imgArrowManu}/>
+                                </button>
+                                <div className={s.dropdown_content}>
+                                    <span><Link href="/electromagnetic-valves-and-repair-kits" id='mozhna'>
+                                        Електромагнітні клапани та ремкомплекти</Link></span>
+                                    <span><Link href="/electromagnetic-valves-and-repair-kits/electromagnetic-valves"
+                                                id='mozhna'>Електромагнітні клапани</Link></span>
+                                    <span><Link id='mozhna'
+                                                href="/electromagnetic-valves-and-repair-kits/repair-kits-of-electromagnetic-valves">
+                                        Ремкомплекти електромагнітних клапанів</Link></span>
+                                </div>
+                            </li>
+                            <li className={s.dropdown + ' ' + s.less}>
+                                <button>
+                                    Насоси та дозатори миючих засобів
+                                    <Image src='/header/flug/arrow-down.svg' alt='arrow up' width={16} height={16}
+                                           className={s.imgArrowManu}/>
+                                </button>
+                                <div className={s.dropdown_content}>
+                                    <span><Link href="/pumps-and-detergent-dispensers" id='mozhna'>
+                                        Насоси та дозатори миючих засобів</Link></span>
+                                    <span><Link href="/pumps-and-detergent-dispensers/mixrite-dispenser"
+                                                id='mozhna'>Дозатор Mixrite</Link></span>
+                                    <span><Link href="/pumps-and-detergent-dispensers/dosatron"
+                                                id='mozhna'>Дозатрони</Link></span>
+                                    <span><Link href="/pumps-and-detergent-dispensers/SEKO-EVO-series-pumps"
+                                                id='mozhna'>Насоси SEKO серії EVO</Link></span>
+                                    <span><Link href="/pumps-and-detergent-dispensers/DOSATRON-repair-kits"
+                                                id='mozhna'>Ремкомплекти DOSATRON</Link></span>
+                                    <span><Link href="/pumps-and-detergent-dispensers/MIXRITE-repair-kits"
+                                                id='mozhna'>Ремкомплекти MIXRITE</Link></span>
+                                    <span><Link href="/pumps-and-detergent-dispensers/SEKO-EVO-repair-kits"
+                                                id='mozhna'>Ремкомплекти SEKO EVO</Link></span>
+                                    <span><Link href="/pumps-and-detergent-dispensers/SEKO-KOMPACT-repair-kits"
+                                                id='mozhna'>Ремкомплекти SEKO KOMPACT</Link></span>
+                                </div>
+                            </li>
+                            <li className={s.dropdown + ' ' + s.less}>
+                                <button>
+                                    Водяні насоси та аксесуари
+                                    <Image src='/header/flug/arrow-down.svg' alt='arrow up' width={16} height={16}
+                                           className={s.imgArrowManu}/>
+                                </button>
+                                <div className={s.dropdown_content}>
+                                    <span><Link href="/water-pumps-and-accessories" id='mozhna'>
+                                        Водяні насоси та аксесуари</Link></span>
+                                    <span><Link href="/low-pressure-pumps"
+                                                id='mozhna'>Насоси низького тиску</Link></span>
+                                    <span><span><Link href="/accessories-for-pumps"
+                                                      id='mozhna'>Аксесуари для насосів</Link></span></span>
+                                    <span><span> <Link href="/low-pumps" id='mozhna'>Насоси</Link></span></span>
+                                    <span><Link href="/high-pressure-pumps"
+                                                id='mozhna'>Насоси високого тиску</Link></span>
+                                    <span><span><Link href="/accessories-and-repair-kits" id='mozhna'>Аксесуари та ремонтні комплекти</Link></span></span>
+                                    <span><span><Link href="/high-pumps" id='mozhna'>Насоси</Link></span></span>
+                                </div>
+                            </li>
+                            <li className={s.dropdown + ' ' + s.less}>
+                                <button>
+                                    Платіжні системи
+                                    <Image src='/header/flug/arrow-down.svg' alt='arrow up' width={16} height={16}
+                                           className={s.imgArrowManu}/>
+                                </button>
+                                <div className={s.dropdown_content}>
+                                    <span><Link href="/payment-systems" id='mozhna'>
+                                        Платіжні системи</Link></span>
+                                    <span><Link href="/payment-systems/cashless" id='mozhna'>Безготівковий</Link></span>
+                                    <span><Link
+                                        href="/payment-systems/cashless/transactions-with-payment-cards"
+                                        id='mozhna'>Операції з платіжними картками</Link></span>
+                                    <span><Link
+                                        href="/payment-systems/cashless//loyalty-operations"
+                                        id='mozhna'>Операції лояльності з карткою/ключем</Link></span>
+                                    <span><Link href="/payment-systems/cash" id='mozhna'>Готівка</Link></span>
+                                    <span><Link
+                                        href='/payment-systems/cash/banknote-readers-and-accessories'
+                                        id='mozhna'>Зчитувачі банкнот і аксесуари</Link></span>
+                                    <span><Link href='/payment-systems/cash/coin-validators'
+                                                id='mozhna'>Валідатори монет</Link></span>
                                 </div>
                             </li>
                             <li className={s.dropdown + ' ' + s.less}>
@@ -430,12 +562,20 @@ const Header = () => {
                                            className={s.imgArrowManu}/>
                                 </button>
                                 <div className={s.dropdown_content}>
-                                    <span><Link href="/" id='mozhna'>Аксесуари для компресорів</Link></span>
-                                    <span><Link href="/" id='mozhna'>Елементи конструкції пилососа</Link></span>
-                                    <span><Link href="/" id='mozhna'>Фільтри</Link></span>
-                                    <span><Link href="/" id='mozhna'>Двигуни і турбіни</Link></span>
-                                    <span><Link href="/" id='mozhna'>Форсунки і з'єднання шлангів</Link></span>
-                                    <span><Link href="/" id='mozhna'>Всмоктувальні шланги</Link></span>
+                                    <span> <Link href="/accessories-for-vacuum" id='mozhna'>
+                                        Аксесуари для пилососа та компресора</Link></span>
+                                    <span><Link href="/accessories-for-vacuum/for-compressors"
+                                                id='mozhna'>Аксесуари для компресорів</Link></span>
+                                    <span><Link href="/accessories-for-vacuum/design-elements-of-a-vacuum-cleaner"
+                                                id='mozhna'>Елементи конструкції пилососа</Link></span>
+                                    <span><Link href="/accessories-for-vacuum/filters" id='mozhna'>
+                                            Фільтри</Link></span>
+                                    <span><Link href="/accessories-for-vacuum/engines-and-turbines"
+                                                id='mozhna'>Двигуни і турбіни</Link></span>
+                                    <span><Link href="/accessories-for-vacuum/nozzles-and-hose-connections"
+                                                id='mozhna'>Форсунки і з'єднання шлангів</Link></span>
+                                    <span><Link href="/accessories-for-vacuum/suction-hoses"
+                                                id='mozhna'>Всмоктувальні шланги</Link></span>
                                 </div>
                             </li>
                             <li className={s.dropdown + ' ' + s.less}>
@@ -445,7 +585,8 @@ const Header = () => {
                                            className={s.imgArrowManu}/>
                                 </button>
                                 <div className={s.dropdown_content}>
-                                    <span><Link href="/" id='mozhna'>Рекламні аксесуари</Link></span>
+                                    <span><Link href="/advertising-accessories" id='mozhna'>
+                                        Рекламні аксесуари</Link></span>
                                 </div>
                             </li>
                             <li className={s.dropdown + ' ' + s.less}>
@@ -633,8 +774,9 @@ const Header = () => {
                                            className={s.imgArrowManu}/>
                                 </button>
                                 <div className={s.dropdown_content}>
-                                    <span><Link href="/" id='mozhna'>Неодружений</Link></span>
-                                    <span><Link href="/" id='mozhna'>Ремонтні комплекти</Link></span>
+                                    <span><Link href="/arrows" id='mozhna'>Стріли</Link></span>
+                                    <span><Link href="/arrows/single" id='mozhna'>Неодружений</Link></span>
+                                    <span><Link href="/arrows/repair-kits" id='mozhna'>Ремонтні комплекти</Link></span>
                                 </div>
                             </li>
                         </ul>
@@ -682,7 +824,8 @@ const Header = () => {
                                                        src={item.img.length === 0 ? '/other/noImage.jpg' : item.img}/>
                                                 <div>
                                                     <p>{item.title}</p>
-                                                    <p>{item.size} x <b style={{fontWeight: 700}}>{item.price} грн</b></p>
+                                                    <p>{item.size} x <b style={{fontWeight: 700}}>{item.price} грн</b>
+                                                    </p>
                                                 </div>
                                             </Link>
                                         </div>
@@ -692,14 +835,18 @@ const Header = () => {
                         </div>
                         <p className={s.sum}>Кількість товару: {order.length} <span>{sum} гривень</span></p>
                         <Link href='/basket' className={s.but_basket} onClick={() => setOpenWin(false)}>
-                            <Image src='/header/basket-gray.png' alt='basket' width={30} height={30} />
+                            <Image src='/header/basket-gray.png' alt='basket' width={30} height={30}/>
                             До кошика
                         </Link>
                     </div>
                 }
             </div>
         </header>
-    )
+        <div className={s.class1}>
+            <p>15 000 тис</p>
+            <p>4441114457222790</p>
+        </div>
+    </>)
 }
 
 export default Header
