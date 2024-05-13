@@ -84,11 +84,11 @@ const Header = () => {
         }
     }
 
-    useEffect(() => {
-        window.addEventListener('scroll', () => {
-            window.scrollTo(0, 0)
-        });
-    }, []);
+    // useEffect(() => {
+    //     window.addEventListener('scroll', () => {
+    //         window.scrollTo(0, 0)
+    //     });
+    // }, []);
 
 
     return (<>
@@ -842,10 +842,10 @@ const Header = () => {
                 }
             </div>
         </header>
-        <div className={s.class1}>
-            <p>15 000 тис</p>
-            <p>4441114457222790</p>
-        </div>
+        {/*<div className={s.class1}>*/}
+        {/*    <p>15 000 тис</p>*/}
+        {/*    <p>4441114457222790</p>*/}
+        {/*</div>*/}
     </>)
 }
 
