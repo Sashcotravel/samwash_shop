@@ -1002,31 +1002,31 @@ const arrGoods = [
 
 const arrChildCatalog = [
     {
-        slug: '/mixrite-dispenser',
+        slug: '/pumps-and-detergent-dispensers/mixrite-dispenser',
         title: 'Дозатор Mixrite'
     },
     {
-        slug: '/dosatron',
+        slug: '/pumps-and-detergent-dispensers/dosatron',
         title: 'Дозатрони'
     },
     {
-        slug: '/SEKO-EVO-series-pumps',
+        slug: '/pumps-and-detergent-dispensers/SEKO-EVO-series-pumps',
         title: 'Насоси SEKO серії EVO'
     },
     {
-        slug: '/DOSATRON-repair-kits',
+        slug: '/pumps-and-detergent-dispensers/DOSATRON-repair-kits',
         title: 'Ремкомплекти DOSATRON'
     },
     {
-        slug: '/MIXRITE-repair-kits',
+        slug: '/pumps-and-detergent-dispensers/MIXRITE-repair-kits',
         title: 'Ремкомплекти MIXRITE'
     },
     {
-        slug: '/SEKO-EVO-repair-kits',
+        slug: '/pumps-and-detergent-dispensers/SEKO-EVO-repair-kits',
         title: 'Ремкомплекти SEKO EVO'
     },
     {
-        slug: '/SEKO-KOMPACT-repair-kits',
+        slug: '/pumps-and-detergent-dispensers/SEKO-KOMPACT-repair-kits',
         title: 'Ремкомплекти SEKO KOMPACT'
     },
 ]

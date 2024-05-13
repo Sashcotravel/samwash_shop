@@ -38,7 +38,7 @@ export const goodsArr = [
             title: 'Хімічні засоби для безконтактної мийки',
         },
         bread2: {
-            slug: '/active-foam',
+            slug: '/chemical-means/active-foam',
             title: 'Активна піна для миття автомобіля',
         },
         bread3: '',
@@ -58,7 +58,7 @@ export const goodsArr = [
             title: 'Хімічні засоби для безконтактної мийки',
         },
         bread2: {
-            slug: '/active-foam',
+            slug: '/chemical-means/active-foam',
             title: 'Активна піна для миття автомобіля',
         },
         bread3: '',
@@ -108,7 +108,7 @@ export const goodsArr = [
             title: 'Хімічні засоби для безконтактної мийки',
         },
         bread2: {
-            slug: '/active-foam',
+            slug: '/chemical-means/active-foam',
             title: 'Активна піна для миття автомобіля',
         },
         bread3: '',
@@ -156,7 +156,7 @@ export const goodsArr = [
             title: 'Хімічні засоби для безконтактної мийки',
         },
         bread2: {
-            slug: '/active-foam',
+            slug: '/chemical-means/active-foam',
             title: 'Активна піна для миття автомобіля',
         },
         bread3: '',
@@ -199,7 +199,7 @@ export const goodsArr = [
             title: 'Хімічні засоби для безконтактної мийки',
         },
         bread2: {
-            slug: '/active-foam',
+            slug: '/chemical-means/active-foam',
             title: 'Активна піна для миття автомобіля',
         },
         bread3: '',
@@ -244,7 +244,7 @@ export const goodsArr = [
             title: 'Хімічні засоби для безконтактної мийки',
         },
         bread2: {
-            slug: '/active-foam',
+            slug: '/chemical-means/active-foam',
             title: 'Активна піна для миття автомобіля',
         },
         bread3: '',
@@ -290,7 +290,7 @@ export const goodsArr = [
             title: 'Хімічні засоби для безконтактної мийки',
         },
         bread2: {
-            slug: '/active-foam',
+            slug: '/chemical-means/active-foam',
             title: 'Активна піна для миття автомобіля',
         },
         bread3: '',
@@ -412,7 +412,7 @@ export const goodsArr = [
             title: 'Хімічні засоби для безконтактної мийки',
         },
         bread2: {
-            slug: '/car-wash-powders',
+            slug: '/chemical-means/car-wash-powders',
             title: 'Порошки для миття автомобіля',
         },
         bread3: '',
@@ -450,7 +450,7 @@ export const goodsArr = [
             title: 'Хімічні засоби для безконтактної мийки',
         },
         bread2: {
-            slug: '/car-wash-powders',
+            slug: '/chemical-means/car-wash-powders',
             title: 'Порошки для миття автомобіля',
         },
         bread3: '',
@@ -492,7 +492,7 @@ export const goodsArr = [
             title: 'Хімічні засоби для безконтактної мийки',
         },
         bread2: {
-            slug: '/car-wash-powders',
+            slug: '/chemical-means/car-wash-powders',
             title: 'Порошки для миття автомобіля',
         },
         bread3: '',
@@ -524,14 +524,14 @@ export const goodsArr = [
         size: 1,
         slug: 'goods14',
         img: '/chemical-means/12.jpg',
-        descriptionPrise: 'Найнижча ціна за 30 днів до знижки: 474,73 злотих',
+        descriptionPrise: 'Найнижча ціна за 30 днів до знижки: 474,73 доларів',
         description: '',
         bread1: {
             slug: '/chemical-means',
             title: 'Хімічні засоби для безконтактної мийки',
         },
         bread2: {
-            slug: '/car-wash-powders',
+            slug: '/chemical-means/car-wash-powders',
             title: 'Порошки для миття автомобіля',
         },
         bread3: '',
@@ -570,7 +570,7 @@ export const goodsArr = [
             title: 'Хімічні засоби для безконтактної мийки',
         },
         bread2: {
-            slug: '/car-wash-powders',
+            slug: '/chemical-means/car-wash-powders',
             title: 'Порошки для миття автомобіля',
         },
         bread3: '',
@@ -642,7 +642,7 @@ export const goodsArr = [
             title: 'Хімічні засоби для безконтактної мийки',
         },
         bread2: {
-            slug: '/car-wash-shampoos',
+            slug: '/chemical-means/car-wash-shampoos',
             title: 'Шампуні для миття автомобіля',
         },
         bread3: '',
@@ -679,7 +679,7 @@ export const goodsArr = [
             title: 'Хімічні засоби для безконтактної мийки',
         },
         bread2: {
-            slug: '/car-wash-shampoos',
+            slug: '/chemical-means/car-wash-shampoos',
             title: 'Шампуні для миття автомобіля',
         },
         bread3: '',
@@ -732,7 +732,7 @@ export const goodsArr = [
             title: 'Хімічні засоби для безконтактної мийки',
         },
         bread2: {
-            slug: '/car-wash-waxes',
+            slug: '/chemical-means/car-wash-waxes',
             title: 'Воски для миття автомобіля',
         },
         bread3: '',
@@ -783,7 +783,7 @@ export const goodsArr = [
             title: 'Електромагнітні клапани та ремкомплекти',
         },
         bread2: {
-            slug: '/repair-kits-of-electromagnetic-valves',
+            slug: '/electromagnetic-valves-and-repair-kits/repair-kits-of-electromagnetic-valves',
             title: 'Ремкомплекти електромагнітних клапанів',
         },
         bread3: '',
@@ -808,7 +808,7 @@ export const goodsArr = [
             title: 'Електромагнітні клапани та ремкомплекти',
         },
         bread2: {
-            slug: '/electromagnetic-valves',
+            slug: '/electromagnetic-valves-and-repair-kits/electromagnetic-valves',
             title: 'Електромагнітні клапани',
         },
         bread3: '',
@@ -847,7 +847,7 @@ export const goodsArr = [
             title: 'Електромагнітні клапани та ремкомплекти',
         },
         bread2: {
-            slug: '/electromagnetic-valves',
+            slug: '/electromagnetic-valves-and-repair-kits/electromagnetic-valves',
             title: 'Електромагнітні клапани',
         },
         bread3: '',
@@ -884,7 +884,7 @@ export const goodsArr = [
             title: 'Електромагнітні клапани та ремкомплекти',
         },
         bread2: {
-            slug: '/electromagnetic-valves',
+            slug: '/electromagnetic-valves-and-repair-kits/electromagnetic-valves',
             title: 'Електромагнітні клапани',
         },
         bread3: '',
@@ -922,7 +922,7 @@ export const goodsArr = [
             title: 'Електромагнітні клапани та ремкомплекти',
         },
         bread2: {
-            slug: '/electromagnetic-valves',
+            slug: '/electromagnetic-valves-and-repair-kits/electromagnetic-valves',
             title: 'Електромагнітні клапани',
         },
         bread3: '',
@@ -961,7 +961,7 @@ export const goodsArr = [
             title: 'Електромагнітні клапани та ремкомплекти',
         },
         bread2: {
-            slug: '/electromagnetic-valves',
+            slug: '/electromagnetic-valves-and-repair-kits/electromagnetic-valves',
             title: 'Електромагнітні клапани',
         },
         bread3: '',
@@ -996,7 +996,7 @@ export const goodsArr = [
             title: 'Електромагнітні клапани та ремкомплекти',
         },
         bread2: {
-            slug: '/electromagnetic-valves',
+            slug: '/electromagnetic-valves-and-repair-kits/electromagnetic-valves',
             title: 'Електромагнітні клапани',
         },
         bread3: '',
@@ -1034,7 +1034,7 @@ export const goodsArr = [
             title: 'Електромагнітні клапани та ремкомплекти',
         },
         bread2: {
-            slug: '/electromagnetic-valves',
+            slug: '/electromagnetic-valves-and-repair-kits/electromagnetic-valves',
             title: 'Електромагнітні клапани',
         },
         bread3: '',
@@ -1063,7 +1063,7 @@ export const goodsArr = [
             title: 'Електромагнітні клапани та ремкомплекти',
         },
         bread2: {
-            slug: '/electromagnetic-valves',
+            slug: '/electromagnetic-valves-and-repair-kits/electromagnetic-valves',
             title: 'Електромагнітні клапани',
         },
         bread3: '',
@@ -1100,7 +1100,7 @@ export const goodsArr = [
             title: 'Електромагнітні клапани та ремкомплекти',
         },
         bread2: {
-            slug: '/electromagnetic-valves',
+            slug: '/electromagnetic-valves-and-repair-kits/electromagnetic-valves',
             title: 'Електромагнітні клапани',
         },
         bread3: '',
@@ -1138,7 +1138,7 @@ export const goodsArr = [
             title: 'Електромагнітні клапани та ремкомплекти',
         },
         bread2: {
-            slug: '/repair-kits-of-electromagnetic-valves',
+            slug: '/electromagnetic-valves-and-repair-kits/repair-kits-of-electromagnetic-valves',
             title: 'Ремкомплекти електромагнітних клапанів',
         },
         bread3: '',
@@ -1169,7 +1169,7 @@ export const goodsArr = [
             title: 'Електромагнітні клапани та ремкомплекти',
         },
         bread2: {
-            slug: '/repair-kits-of-electromagnetic-valves',
+            slug: '/electromagnetic-valves-and-repair-kits/repair-kits-of-electromagnetic-valves',
             title: 'Ремкомплекти електромагнітних клапанів',
         },
         bread3: '',
@@ -1196,7 +1196,7 @@ export const goodsArr = [
             title: 'Електромагнітні клапани та ремкомплекти',
         },
         bread2: {
-            slug: '/repair-kits-of-electromagnetic-valves',
+            slug: '/electromagnetic-valves-and-repair-kits/repair-kits-of-electromagnetic-valves',
             title: 'Ремкомплекти електромагнітних клапанів',
         },
         bread3: '',
@@ -1224,7 +1224,7 @@ export const goodsArr = [
             title: 'Електромагнітні клапани та ремкомплекти',
         },
         bread2: {
-            slug: '/repair-kits-of-electromagnetic-valves',
+            slug: '/electromagnetic-valves-and-repair-kits/repair-kits-of-electromagnetic-valves',
             title: 'Ремкомплекти електромагнітних клапанів',
         },
         bread3: '',
@@ -1253,7 +1253,7 @@ export const goodsArr = [
             title: 'Електромагнітні клапани та ремкомплекти',
         },
         bread2: {
-            slug: '/repair-kits-of-electromagnetic-valves',
+            slug: '/electromagnetic-valves-and-repair-kits/repair-kits-of-electromagnetic-valves',
             title: 'Ремкомплекти електромагнітних клапанів',
         },
         bread3: '',
@@ -1281,7 +1281,7 @@ export const goodsArr = [
             title: 'Електромагнітні клапани та ремкомплекти',
         },
         bread2: {
-            slug: '/repair-kits-of-electromagnetic-valves',
+            slug: '/electromagnetic-valves-and-repair-kits/repair-kits-of-electromagnetic-valves',
             title: 'Ремкомплекти електромагнітних клапанів',
         },
         bread3: '',
@@ -1310,7 +1310,7 @@ export const goodsArr = [
             title: 'Електромагнітні клапани та ремкомплекти',
         },
         bread2: {
-            slug: '/repair-kits-of-electromagnetic-valves',
+            slug: '/electromagnetic-valves-and-repair-kits/repair-kits-of-electromagnetic-valves',
             title: 'Ремкомплекти електромагнітних клапанів',
         },
         bread3: '',
@@ -1337,7 +1337,7 @@ export const goodsArr = [
             title: 'Електромагнітні клапани та ремкомплекти',
         },
         bread2: {
-            slug: '/repair-kits-of-electromagnetic-valves',
+            slug: '/electromagnetic-valves-and-repair-kits/repair-kits-of-electromagnetic-valves',
             title: 'Ремкомплекти електромагнітних клапанів',
         },
         bread3: '',
@@ -1364,7 +1364,7 @@ export const goodsArr = [
             title: 'Електромагнітні клапани та ремкомплекти',
         },
         bread2: {
-            slug: '/repair-kits-of-electromagnetic-valves',
+            slug: '/electromagnetic-valves-and-repair-kits/repair-kits-of-electromagnetic-valves',
             title: 'Ремкомплекти електромагнітних клапанів',
         },
         bread3: '',
@@ -1392,7 +1392,7 @@ export const goodsArr = [
             title: 'Насоси та дозатори миючих засобів',
         },
         bread2: {
-            slug: '/MIXRITE-repair-kits',
+            slug: '/pumps-and-detergent-dispensers/MIXRITE-repair-kits',
             title: 'Ремкомплекти MIXRITE',
         },
         bread3: '',
@@ -1418,7 +1418,7 @@ export const goodsArr = [
             title: 'Насоси та дозатори миючих засобів',
         },
         bread2: {
-            slug: '/DOSATRON-repair-kits',
+            slug: '/pumps-and-detergent-dispensers/DOSATRON-repair-kits',
             title: 'Ремкомплекти DOSATRON',
         },
         bread3: '',
@@ -1444,7 +1444,7 @@ export const goodsArr = [
             title: 'Насоси та дозатори миючих засобів',
         },
         bread2: {
-            slug: '/dosatron',
+            slug: '/pumps-and-detergent-dispensers/dosatron',
             title: 'Дозатрони',
         },
         bread3: '',
@@ -1485,7 +1485,7 @@ export const goodsArr = [
             title: 'Насоси та дозатори миючих засобів',
         },
         bread2: {
-            slug: '/dosatron',
+            slug: '/pumps-and-detergent-dispensers/dosatron',
             title: 'Дозатрони',
         },
         bread3: '',
@@ -1527,7 +1527,7 @@ export const goodsArr = [
             title: 'Насоси та дозатори миючих засобів',
         },
         bread2: {
-            slug: '/mixrite-dispenser',
+            slug: '/pumps-and-detergent-dispensers/mixrite-dispenser',
             title: 'Порошки для миття автомобіля',
         },
         bread3: '',
@@ -1563,7 +1563,7 @@ export const goodsArr = [
             title: 'Насоси та дозатори миючих засобів',
         },
         bread2: {
-            slug: '/SEKO-KOMPACT-repair-kits',
+            slug: '/pumps-and-detergent-dispensers/SEKO-KOMPACT-repair-kits',
             title: 'Ремкомплекти SEKO KOMPACT',
         },
         bread3: '',
@@ -1590,7 +1590,7 @@ export const goodsArr = [
             title: 'Насоси та дозатори миючих засобів',
         },
         bread2: {
-            slug: '/SEKO-EVO-repair-kits',
+            slug: '/pumps-and-detergent-dispensers/SEKO-EVO-repair-kits',
             title: 'Ремкомплекти SEKO EVO',
         },
         bread3: '',
@@ -1617,7 +1617,7 @@ export const goodsArr = [
             title: 'Насоси та дозатори миючих засобів',
         },
         bread2: {
-            slug: '/SEKO-EVO-repair-kits',
+            slug: '/pumps-and-detergent-dispensers/SEKO-EVO-repair-kits',
             title: 'Ремкомплекти SEKO EVO',
         },
         bread3: '',
@@ -1646,7 +1646,7 @@ export const goodsArr = [
             title: 'Насоси та дозатори миючих засобів',
         },
         bread2: {
-            slug: '/DOSATRON-repair-kits',
+            slug: '/pumps-and-detergent-dispensers/DOSATRON-repair-kits',
             title: 'Ремкомплекти DOSATRON',
         },
         bread3: '',
@@ -1673,7 +1673,7 @@ export const goodsArr = [
             title: 'Насоси та дозатори миючих засобів',
         },
         bread2: {
-            slug: '/DOSATRON-repair-kits',
+            slug: '/pumps-and-detergent-dispensers/DOSATRON-repair-kits',
             title: 'Ремкомплекти DOSATRON',
         },
         bread3: '',
@@ -1700,7 +1700,7 @@ export const goodsArr = [
             title: 'Насоси та дозатори миючих засобів',
         },
         bread2: {
-            slug: '/SEKO-EVO-repair-kits',
+            slug: '/pumps-and-detergent-dispensers/SEKO-EVO-repair-kits',
             title: 'Ремкомплекти SEKO EVO',
         },
         bread3: '',
@@ -1727,7 +1727,7 @@ export const goodsArr = [
             title: 'Насоси та дозатори миючих засобів',
         },
         bread2: {
-            slug: '/SEKO-KOMPACT-repair-kits',
+            slug: '/pumps-and-detergent-dispensers/SEKO-KOMPACT-repair-kits',
             title: 'Ремкомплекти SEKO KOMPACT',
         },
         bread3: '',
@@ -1754,7 +1754,7 @@ export const goodsArr = [
             title: 'Насоси та дозатори миючих засобів',
         },
         bread2: {
-            slug: '/SEKO-EVO-series-pumps',
+            slug: '/pumps-and-detergent-dispensers/SEKO-EVO-series-pumps',
             title: 'Насоси SEKO серії EVO',
         },
         bread3: '',
@@ -1781,7 +1781,7 @@ export const goodsArr = [
             title: 'Насоси та дозатори миючих засобів',
         },
         bread2: {
-            slug: '/DOSATRON-repair-kits',
+            slug: '/pumps-and-detergent-dispensers/DOSATRON-repair-kits',
             title: 'Ремкомплекти DOSATRON',
         },
         bread3: '',
@@ -1808,7 +1808,7 @@ export const goodsArr = [
             title: 'Насоси та дозатори миючих засобів',
         },
         bread2: {
-            slug: '/MIXRITE-repair-kits',
+            slug: '/pumps-and-detergent-dispensers/MIXRITE-repair-kits',
             title: 'Ремкомплекти MIXRITE',
         },
         bread3: '',
@@ -1836,7 +1836,7 @@ export const goodsArr = [
             title: 'Насоси та дозатори миючих засобів',
         },
         bread2: {
-            slug: '/DOSATRON-repair-kits',
+            slug: '/pumps-and-detergent-dispensers/DOSATRON-repair-kits',
             title: 'Ремкомплекти DOSATRON',
         },
         bread3: '',
@@ -1863,7 +1863,7 @@ export const goodsArr = [
             title: 'Насоси та дозатори миючих засобів',
         },
         bread2: {
-            slug: '/MIXRITE-repair-kits',
+            slug: '/pumps-and-detergent-dispensers/MIXRITE-repair-kits',
             title: 'Ремкомплекти MIXRITE',
         },
         bread3: '',
@@ -1890,7 +1890,7 @@ export const goodsArr = [
             title: 'Насоси та дозатори миючих засобів',
         },
         bread2: {
-            slug: '/MIXRITE-repair-kits',
+            slug: '/pumps-and-detergent-dispensers/MIXRITE-repair-kits',
             title: 'Ремкомплекти MIXRITE',
         },
         bread3: '',
@@ -1917,7 +1917,7 @@ export const goodsArr = [
             title: 'Насоси та дозатори миючих засобів',
         },
         bread2: {
-            slug: '/MIXRITE-repair-kits',
+            slug: '/pumps-and-detergent-dispensers/MIXRITE-repair-kits',
             title: 'Ремкомплекти MIXRITE',
         },
         bread3: '',
@@ -1944,7 +1944,7 @@ export const goodsArr = [
             title: 'Насоси та дозатори миючих засобів',
         },
         bread2: {
-            slug: '/MIXRITE-repair-kits',
+            slug: '/pumps-and-detergent-dispensers/MIXRITE-repair-kits',
             title: 'Ремкомплекти MIXRITE',
         },
         bread3: '',
@@ -1971,7 +1971,7 @@ export const goodsArr = [
             title: 'Насоси та дозатори миючих засобів',
         },
         bread2: {
-            slug: '/MIXRITE-repair-kits',
+            slug: '/pumps-and-detergent-dispensers/MIXRITE-repair-kits',
             title: 'Ремкомплекти MIXRITE',
         },
         bread3: '',
@@ -1998,7 +1998,7 @@ export const goodsArr = [
             title: 'Насоси та дозатори миючих засобів',
         },
         bread2: {
-            slug: '/MIXRITE-repair-kits',
+            slug: '/pumps-and-detergent-dispensers/MIXRITE-repair-kits',
             title: 'Ремкомплекти MIXRITE',
         },
         bread3: '',
@@ -2025,7 +2025,7 @@ export const goodsArr = [
             title: 'Насоси та дозатори миючих засобів',
         },
         bread2: {
-            slug: '/DOSATRON-repair-kits',
+            slug: '/pumps-and-detergent-dispensers/DOSATRON-repair-kits',
             title: 'Ремкомплекти DOSATRON',
         },
         bread3: '',
@@ -2052,7 +2052,7 @@ export const goodsArr = [
             title: 'Насоси та дозатори миючих засобів',
         },
         bread2: {
-            slug: '/MIXRITE-repair-kits',
+            slug: '/pumps-and-detergent-dispensers/MIXRITE-repair-kits',
             title: 'Ремкомплекти MIXRITE',
         },
         bread3: '',
@@ -2079,7 +2079,7 @@ export const goodsArr = [
             title: 'Насоси та дозатори миючих засобів',
         },
         bread2: {
-            slug: '/DOSATRON-repair-kits',
+            slug: '/pumps-and-detergent-dispensers/DOSATRON-repair-kits',
             title: 'Ремкомплекти DOSATRON',
         },
         bread3: '',
@@ -2106,7 +2106,7 @@ export const goodsArr = [
             title: 'Насоси та дозатори миючих засобів',
         },
         bread2: {
-            slug: '/DOSATRON-repair-kits',
+            slug: '/pumps-and-detergent-dispensers/DOSATRON-repair-kits',
             title: 'Ремкомплекти DOSATRON',
         },
         bread3: '',
@@ -2133,7 +2133,7 @@ export const goodsArr = [
             title: 'Насоси та дозатори миючих засобів',
         },
         bread2: {
-            slug: '/MIXRITE-repair-kits',
+            slug: '/pumps-and-detergent-dispensers/MIXRITE-repair-kits',
             title: 'Ремкомплекти MIXRITE',
         },
         bread3: '',
@@ -2160,7 +2160,7 @@ export const goodsArr = [
             title: 'Насоси та дозатори миючих засобів',
         },
         bread2: {
-            slug: '/MIXRITE-repair-kits',
+            slug: '/pumps-and-detergent-dispensers/MIXRITE-repair-kits',
             title: 'Ремкомплекти MIXRITE',
         },
         bread3: '',
@@ -2187,7 +2187,7 @@ export const goodsArr = [
             title: 'Насоси та дозатори миючих засобів',
         },
         bread2: {
-            slug: '/DOSATRON-repair-kits',
+            slug: '/pumps-and-detergent-dispensers/DOSATRON-repair-kits',
             title: 'Ремкомплекти DOSATRON',
         },
         bread3: '',
@@ -2214,7 +2214,7 @@ export const goodsArr = [
             title: 'Насоси та дозатори миючих засобів',
         },
         bread2: {
-            slug: '/SEKO-EVO-series-pumps',
+            slug: '/pumps-and-detergent-dispensers/SEKO-EVO-series-pumps',
             title: 'Насоси SEKO серії EVO',
         },
         bread3: '',
@@ -2247,7 +2247,7 @@ export const goodsArr = [
             title: 'Насоси та дозатори миючих засобів',
         },
         bread2: {
-            slug: '/SEKO-EVO-series-pumps',
+            slug: '/pumps-and-detergent-dispensers/SEKO-EVO-series-pumps',
             title: 'Насоси SEKO серії EVO',
         },
         bread3: '',
@@ -2280,7 +2280,7 @@ export const goodsArr = [
             title: 'Насоси та дозатори миючих засобів',
         },
         bread2: {
-            slug: '/SEKO-EVO-series-pumps',
+            slug: '/pumps-and-detergent-dispensers/SEKO-EVO-series-pumps',
             title: 'Насоси SEKO серії EVO',
         },
         bread3: '',
@@ -2316,7 +2316,7 @@ export const goodsArr = [
             title: 'Насоси та дозатори миючих засобів',
         },
         bread2: {
-            slug: '/DOSATRON-repair-kits',
+            slug: '/pumps-and-detergent-dispensers/DOSATRON-repair-kits',
             title: 'Ремкомплекти DOSATRON',
         },
         bread3: '',
@@ -2343,7 +2343,7 @@ export const goodsArr = [
             title: 'Насоси та дозатори миючих засобів',
         },
         bread2: {
-            slug: '/DOSATRON-repair-kits',
+            slug: '/pumps-and-detergent-dispensers/DOSATRON-repair-kits',
             title: 'Ремкомплекти DOSATRON',
         },
         bread3: '',
@@ -2370,7 +2370,7 @@ export const goodsArr = [
             title: 'Насоси та дозатори миючих засобів',
         },
         bread2: {
-            slug: '/MIXRITE-repair-kits',
+            slug: '/pumps-and-detergent-dispensers/MIXRITE-repair-kits',
             title: 'Ремкомплекти MIXRITE',
         },
         bread3: '',
@@ -2399,7 +2399,7 @@ export const goodsArr = [
             title: 'Насоси та дозатори миючих засобів',
         },
         bread2: {
-            slug: '/DOSATRON-repair-kits',
+            slug: '/pumps-and-detergent-dispensers/DOSATRON-repair-kits',
             title: 'Ремкомплекти DOSATRON',
         },
         bread3: '',
@@ -2426,7 +2426,7 @@ export const goodsArr = [
             title: 'Насоси та дозатори миючих засобів',
         },
         bread2: {
-            slug: '/DOSATRON-repair-kits',
+            slug: '/pumps-and-detergent-dispensers/DOSATRON-repair-kits',
             title: 'Ремкомплекти DOSATRON',
         },
         bread3: '',
@@ -2453,7 +2453,7 @@ export const goodsArr = [
             title: 'Насоси та дозатори миючих засобів',
         },
         bread2: {
-            slug: '/SEKO-EVO-repair-kits',
+            slug: '/pumps-and-detergent-dispensers/SEKO-EVO-repair-kits',
             title: 'Ремкомплекти SEKO EVO',
         },
         bread3: '',
@@ -2481,7 +2481,7 @@ export const goodsArr = [
             title: 'Насоси та дозатори миючих засобів',
         },
         bread2: {
-            slug: '/SEKO-KOMPACT-repair-kits',
+            slug: '/pumps-and-detergent-dispensers/SEKO-KOMPACT-repair-kits',
             title: 'Ремкомплекти SEKO KOMPACT',
         },
         bread3: '',
@@ -2508,7 +2508,7 @@ export const goodsArr = [
             title: 'Насоси та дозатори миючих засобів',
         },
         bread2: {
-            slug: '/MIXRITE-repair-kits',
+            slug: '/pumps-and-detergent-dispensers/MIXRITE-repair-kits',
             title: 'Ремкомплекти MIXRITE',
         },
         bread3: '',
@@ -2536,7 +2536,7 @@ export const goodsArr = [
             title: 'Насоси та дозатори миючих засобів',
         },
         bread2: {
-            slug: '/SEKO-EVO-repair-kits',
+            slug: '/pumps-and-detergent-dispensers/SEKO-EVO-repair-kits',
             title: 'Ремкомплекти SEKO EVO',
         },
         bread3: '',
@@ -2563,7 +2563,7 @@ export const goodsArr = [
             title: 'Насоси та дозатори миючих засобів',
         },
         bread2: {
-            slug: '/SEKO-KOMPACT-repair-kits',
+            slug: '/pumps-and-detergent-dispensers/SEKO-KOMPACT-repair-kits',
             title: 'Ремкомплекти SEKO KOMPACT',
         },
         bread3: '',
@@ -2590,7 +2590,7 @@ export const goodsArr = [
             title: 'Насоси та дозатори миючих засобів',
         },
         bread2: {
-            slug: '/DOSATRON-repair-kits',
+            slug: '/pumps-and-detergent-dispensers/DOSATRON-repair-kits',
             title: 'Ремкомплекти DOSATRON',
         },
         bread3: '',
@@ -2617,7 +2617,7 @@ export const goodsArr = [
             title: 'Насоси та дозатори миючих засобів',
         },
         bread2: {
-            slug: '/DOSATRON-repair-kits',
+            slug: '/pumps-and-detergent-dispensers/DOSATRON-repair-kits',
             title: 'Ремкомплекти DOSATRON',
         },
         bread3: '',
@@ -2644,7 +2644,7 @@ export const goodsArr = [
             title: 'Насоси та дозатори миючих засобів',
         },
         bread2: {
-            slug: '/MIXRITE-repair-kits',
+            slug: '/pumps-and-detergent-dispensers/MIXRITE-repair-kits',
             title: 'Ремкомплекти MIXRITE',
         },
         bread3: '',
@@ -2672,7 +2672,7 @@ export const goodsArr = [
             title: 'Насоси та дозатори миючих засобів',
         },
         bread2: {
-            slug: '/SEKO-EVO-repair-kits',
+            slug: '/pumps-and-detergent-dispensers/SEKO-EVO-repair-kits',
             title: 'Ремкомплекти SEKO EVO',
         },
         bread3: '',
@@ -2705,7 +2705,7 @@ export const goodsArr = [
             title: 'Насоси та дозатори миючих засобів',
         },
         bread2: {
-            slug: '/DOSATRON-repair-kits',
+            slug: '/pumps-and-detergent-dispensers/DOSATRON-repair-kits',
             title: 'Ремкомплекти DOSATRON',
         },
         bread3: '',
@@ -2714,6 +2714,4554 @@ export const goodsArr = [
         imageShow: ['/pump/46.jpg', ],
         descriptionFull: `
         <p>Комплект прокладок Dosatron. </p><br/>
+        `
+    },
+
+    {
+        id: '95',
+        title: 'Адаптер насоса Grundfos для Ebara JEXM 80',
+        code: 'ELE-BLA-99-83',
+        price: '35.10',
+        size: 1,
+        slug: 'goods4-1',
+        img: '/water-pumps/1.jpg',
+        description: '',
+        descriptionPrise: '',
+        bread1: {
+            slug: '/water-pumps-and-accessories',
+            title: 'Насоси та дозатори миючих засобів',
+        },
+        bread2: {
+            slug: '/low-pressure-pumps',
+            title: 'Насоси низького тиску',
+        },
+        bread3: {
+            slug: '/accessories-for-pumps',
+            title: 'Аксесуари для насосів',
+        },
+        descriptionMin: 'Адаптер насоса Grundfos для Ebara JEXM 80',
+        weight: '',
+        codeEAN: '2010000007945',
+        imageShow: ['/water-pumps/1.jpg', ],
+        descriptionFull: `
+        <p>Монтажний адаптер для насосів Ebara JEXM 80. </p>
+        <p>Завдяки адаптеру можлива установка замість насоса Grundfos JP5 </p><br/>
+        <p>Адаптер забезпечує безпроблемну установку за принципом «підключи та працюй». </p><br/>
+        `
+    },
+    {
+        id: '96',
+        title: 'Адаптер насоса NU.ER.T IEC80 B14',
+        code: 'ADA-NUE-004',
+        price: '43.28',
+        size: 1,
+        slug: 'goods4-2',
+        img: '/water-pumps/2.jpg',
+        description: '',
+        descriptionPrise: '',
+        bread1: {
+            slug: '/water-pumps-and-accessories',
+            title: 'Насоси та дозатори миючих засобів',
+        },
+        bread2: {
+            slug: '/low-pressure-pumps',
+            title: 'Насоси низького тиску',
+        },
+        bread3: {
+            slug: '/accessories-for-pumps',
+            title: 'Аксесуари для насосів',
+        },
+        descriptionMin: 'Адаптер насоса NU.ER.T. Код виробника: (PR 2197)',
+        weight: '0,149',
+        codeEAN: '',
+        imageShow: ['/water-pumps/2.jpg', ],
+        descriptionFull: `
+        <p>Адаптер насоса NU.ER.T</p><br/>
+        `
+    },
+    {
+        id: '97',
+        title: 'Головка насоса CAT 350 (44837)',
+        code: 'GLO-CAT-001',
+        price: '2220.68',
+        size: 1,
+        slug: 'goods4-3',
+        img: '/water-pumps/3.jpg',
+        description: '',
+        descriptionPrise: '',
+        bread1: {
+            slug: '/water-pumps-and-accessories',
+            title: 'Насоси та дозатори миючих засобів',
+        },
+        bread2: {
+            slug: '/high-pressure-pumps',
+            title: 'Насоси високого тиску',
+        },
+        bread3: {
+            slug: '/accessories-and-repair-kits',
+            title: 'Аксесуари та ремонтні комплекти',
+        },
+        descriptionMin: 'Головка насоса CAT 350 (44837).',
+        weight: '2,981',
+        codeEAN: '',
+        imageShow: ['/water-pumps/3.jpg', ],
+        descriptionFull: `
+        <p>Головка CAT 44837 — це змінна головка для насоса Cat 350. Оригінальна запасна частина CAT гарантовано
+         підходить. Використовується для заміни пошкодженої або відсутньої тріснутої головки під час технічного
+          обслуговування або ремонту.</p><br/>
+        <p><b>Характеристики</b></p><br/>
+        <p>Точна замінна частина, не потрібно турбуватися про виправлення чи налаштування</p>
+        <p>Деталі OEM гарантують використання відповідних матеріалів для підвищення довговічності</p>
+        <p>Запчастини OEM поставляються з підтримкою виробника</p>
+        <p>Перевірте посібник до насоса, щоб переконатися, що номер деталі правильний</p>
+        `
+    },
+    {
+        id: '98',
+        title: 'Головка насоса CAT 3CP1140 (46616)',
+        code: 'GLO-CAT-002',
+        price: '1648.64',
+        size: 1,
+        slug: 'goods4-4',
+        img: '/water-pumps/4.jpg',
+        description: '',
+        descriptionPrise: '',
+        bread1: {
+            slug: '/water-pumps-and-accessories',
+            title: 'Насоси та дозатори миючих засобів',
+        },
+        bread2: {
+            slug: '/high-pressure-pumps',
+            title: 'Насоси високого тиску',
+        },
+        bread3: {
+            slug: '/accessories-and-repair-kits',
+            title: 'Аксесуари та ремонтні комплекти',
+        },
+        descriptionMin: 'Головка насоса CAT 350 (44837).',
+        weight: '2,5',
+        codeEAN: '',
+        imageShow: ['/water-pumps/4.jpg', ],
+        descriptionFull: `
+        <p>Головка CAT 46616 — це змінна головка (без прокладок) для насосів серії CAT 3CP, включаючи насоси
+         3CP1120, 3CP1130 і 3CP1140. Оригінальна запасна частина CAT, гарантована придатність. Використовується
+          для заміни пошкодженої або відсутньої тріснутої головки під час технічного обслуговування або
+           ремонту.</p><br/>
+        <p><b>Характеристики</b></p><br/>
+        <p>Точна замінна частина, не потрібно турбуватися про виправлення чи налаштування</p>
+        <p>Деталі OEM гарантують використання відповідних матеріалів для підвищення довговічності</p>
+        <p>Запчастини OEM поставляються з підтримкою виробника</p>
+        <p>Перевірте посібник до насоса, щоб переконатися, що номер деталі правильний</p>
+        `
+    },
+    {
+        id: '99',
+        title: 'Клин для насоса 340 і 350 (30057)',
+        code: 'KLI-340/350',
+        price: '2.19',
+        size: 1,
+        slug: 'goods4-5',
+        img: '/water-pumps/5.jpg',
+        description: '',
+        descriptionPrise: '',
+        bread1: {
+            slug: '/water-pumps-and-accessories',
+            title: 'Насоси та дозатори миючих засобів',
+        },
+        bread2: {
+            slug: '/high-pressure-pumps',
+            title: 'Насоси високого тиску',
+        },
+        bread3: {
+            slug: '/accessories-and-repair-kits',
+            title: 'Аксесуари та ремонтні комплекти',
+        },
+        descriptionMin: 'Клин для насосів: CAT 340 CAT 350',
+        weight: '',
+        codeEAN: '',
+        imageShow: ['/water-pumps/5.jpg', ],
+        descriptionFull: `
+        <p><b>Клин насоса:</b></p><br/>
+        <p>CAT 340</p>
+        <p>CAT 350</p>
+        `
+    },
+    {
+        id: '100',
+        title: 'Клин (М5) 30047',
+        code: 'KLI-CAT',
+        price: '1.65',
+        size: 1,
+        slug: 'goods4-6',
+        img: '/water-pumps/6.jpg',
+        description: '',
+        descriptionPrise: '',
+        bread1: {
+            slug: '/water-pumps-and-accessories',
+            title: 'Насоси та дозатори миючих засобів',
+        },
+        bread2: {
+            slug: '/high-pressure-pumps',
+            title: 'Насоси високого тиску',
+        },
+        bread3: {
+            slug: '/accessories-and-repair-kits',
+            title: 'Аксесуари та ремонтні комплекти',
+        },
+        descriptionMin: 'Найменування: KEY (M5) 30047',
+        weight: '',
+        codeEAN: '',
+        imageShow: ['/water-pumps/6.jpg', ],
+        descriptionFull: `
+        <p>Клин для насосів CAT</p>
+        `
+    },
+    {
+        id: '101',
+        title: 'Заглушка латунна для насоса CAT 1140',
+        code: 'KOR-CAT-003',
+        price: '58.09',
+        size: 1,
+        slug: 'goods4-7',
+        img: '/water-pumps/7.jpg',
+        description: '',
+        descriptionPrise: '',
+        bread1: {
+            slug: '/water-pumps-and-accessories',
+            title: 'Насоси та дозатори миючих засобів',
+        },
+        bread2: {
+            slug: '/high-pressure-pumps',
+            title: 'Насоси високого тиску',
+        },
+        bread3: {
+            slug: '/accessories-and-repair-kits',
+            title: 'Аксесуари та ремонтні комплекти',
+        },
+        descriptionMin: 'Заглушка латунна для головки насоса CAT 1140. В комплект входить тільки' +
+            ' заглушка без прокладки.',
+        weight: '0,07',
+        codeEAN: '',
+        imageShow: ['/water-pumps/7.jpg', ],
+        descriptionFull: `
+        <p>Латунна заглушка для головок насоса CAT 1140 включає тільки заглушку без прокладки.</p>
+        `
+    },
+    {
+        id: '102',
+        title: 'Заглушка латунна для насоса CAT 350',
+        code: 'KOR-CAT-002',
+        price: '58.09',
+        size: 1,
+        slug: 'goods4-8',
+        img: '/water-pumps/8.jpg',
+        description: '',
+        descriptionPrise: '',
+        bread1: {
+            slug: '/water-pumps-and-accessories',
+            title: 'Насоси та дозатори миючих засобів',
+        },
+        bread2: {
+            slug: '/high-pressure-pumps',
+            title: 'Насоси високого тиску',
+        },
+        bread3: {
+            slug: '/accessories-and-repair-kits',
+            title: 'Аксесуари та ремонтні комплекти',
+        },
+        descriptionMin: 'Латунна заглушка для головки насоса CAT 350, включає тільки заглушку без прокладки.',
+        weight: '0,07',
+        codeEAN: '',
+        imageShow: ['/water-pumps/8.jpg', ],
+        descriptionFull: `
+        <p>Латунна заглушка для головки насоса CAT 350.</p> <br/>
+        <p>У комплект входить тільки заглушка без прокладки.</p> <br/>
+        `
+    },
+    {
+        id: '103',
+        title: 'Масляна пробка (з ущільнювачем) для насоса CAT 340 і CAT 350',
+        code: 'KOR-CAT-006',
+        price: '60.45',
+        size: 1,
+        slug: 'goods4-9',
+        img: '/water-pumps/9.jpg',
+        description: '',
+        descriptionPrise: '',
+        bread1: {
+            slug: '/water-pumps-and-accessories',
+            title: 'Насоси та дозатори миючих засобів',
+        },
+        bread2: {
+            slug: '/high-pressure-pumps',
+            title: 'Насоси високого тиску',
+        },
+        bread3: {
+            slug: '/accessories-and-repair-kits',
+            title: 'Аксесуари та ремонтні комплекти',
+        },
+        descriptionMin: 'Масляна пробка з прокладкою для використання з насосами CAT: CAT 340 (код виробника: 14177) ' +
+            'CAT 350 (код виробника: 43211) CAT 340 (код виробник: 14177) CAT 350 (код виробника: 43211)',
+        weight: '0,029',
+        codeEAN: '',
+        imageShow: ['/water-pumps/9.jpg', ],
+        descriptionFull: `
+        <p>Масляна пробка з прокладкою для використання з насосами CAT:</p> <br/>
+        <p>CAT 340 (код виробника: 14177)</p> <br/>
+        <p>CAT 350 (код виробника: 43211)</p> <br/>
+        `
+    },
+    {
+        id: '104',
+        title: 'Масляна пробка з прокладкою для насоса CAT 1140',
+        code: 'KOR-CAT-005',
+        price: '49.38',
+        size: 1,
+        slug: 'goods4-10',
+        img: '/water-pumps/10.jpg',
+        description: '',
+        descriptionPrise: '',
+        bread1: {
+            slug: '/water-pumps-and-accessories',
+            title: 'Насоси та дозатори миючих засобів',
+        },
+        bread2: {
+            slug: '/high-pressure-pumps',
+            title: 'Насоси високого тиску',
+        },
+        bread3: {
+            slug: '/accessories-and-repair-kits',
+            title: 'Аксесуари та ремонтні комплекти',
+        },
+        descriptionMin: 'Пробка заливна в масляний бак насоса CAT 1140. Виробник: CAT.',
+        weight: '0,01',
+        codeEAN: '',
+        imageShow: ['/water-pumps/10.jpg', ],
+        descriptionFull: `
+        <p>Пробка заливної горловини масляного бака насоса CAT 1140.</p> <br/>
+        <p>Заглушка з прокладкою.</p> <br/>
+        <p>Виробник: CAT.</p> <br/>
+        `
+    },
+    {
+        id: '105',
+        title: 'Кріплення валу 47.0300.01 Interpump',
+        code: 'UCH-WAL-47030001',
+        price: '166.94',
+        size: 1,
+        slug: 'goods4-11',
+        img: '/water-pumps/11.jpg',
+        description: '',
+        descriptionPrise: '',
+        bread1: {
+            slug: '/water-pumps-and-accessories',
+            title: 'Насоси та дозатори миючих засобів',
+        },
+        bread2: {
+            slug: '/high-pressure-pumps',
+            title: 'Насоси високого тиску',
+        },
+        bread3: {
+            slug: '/accessories-and-repair-kits',
+            title: 'Аксесуари та ремонтні комплекти',
+        },
+        descriptionMin: 'Алюмінієвий шатун для Interpump СЕРІЇ 47-48 Код виробника: 47.0300.01',
+        weight: '',
+        codeEAN: '',
+        imageShow: ['/water-pumps/11.jpg', '/water-pumps/image1.jpg', ],
+        descriptionFull: `
+        <p>Алюмінієвий шатун для насоса Interpump SERIES 47-48</p> <br/>
+        `
+    },
+    {
+        id: '106',
+        title: 'Плунжер насоса CAT 1140',
+        code: 'NUR-CAT-002',
+        price: '140.69',
+        size: 1,
+        slug: 'goods4-12',
+        img: '/water-pumps/12.jpg',
+        description: '',
+        descriptionPrise: '',
+        bread1: {
+            slug: '/water-pumps-and-accessories',
+            title: 'Насоси та дозатори миючих засобів',
+        },
+        bread2: {
+            slug: '/high-pressure-pumps',
+            title: 'Насоси високого тиску',
+        },
+        bread3: {
+            slug: '/accessories-and-repair-kits',
+            title: 'Аксесуари та ремонтні комплекти',
+        },
+        descriptionMin: 'Керамічний плунжер, призначений для насоса CAT 1140.',
+        weight: '',
+        codeEAN: '',
+        imageShow: ['/water-pumps/12.jpg', ],
+        descriptionFull: `
+        <p>Керамічний поршень, призначений для насоса CAT 1140.</p> <br/>
+        `
+    },
+    {
+        id: '107',
+        title: 'НАСОС РОБОЧИЙ CAT 350',
+        code: 'NUR-CAT-001',
+        price: '433.55',
+        size: 1,
+        slug: 'goods4-13',
+        img: '/water-pumps/13.jpg',
+        description: '',
+        descriptionPrise: '',
+        bread1: {
+            slug: '/water-pumps-and-accessories',
+            title: 'Насоси та дозатори миючих засобів',
+        },
+        bread2: {
+            slug: '/high-pressure-pumps',
+            title: 'Насоси високого тиску',
+        },
+        bread3: {
+            slug: '/accessories-and-repair-kits',
+            title: 'Аксесуари та ремонтні комплекти',
+        },
+        descriptionMin: 'Плунжер керамічний для насоса високого тиску CAT 350',
+        weight: '0,07',
+        codeEAN: '',
+        imageShow: ['/water-pumps/13.jpg', ],
+        descriptionFull: `
+        <p>Керамічний поршень, призначений для насоса CAT 350</p> <br/>
+        `
+    },
+    {
+        id: '108',
+        title: 'Кришка зчеплення для CAT 340 і CAT 350',
+        code: 'OSL-POM-340/350',
+        price: '136.58',
+        size: 1,
+        slug: 'goods4-14',
+        img: '/water-pumps/14.jpg',
+        description: '',
+        descriptionPrise: '',
+        bread1: {
+            slug: '/water-pumps-and-accessories',
+            title: 'Насоси та дозатори миючих засобів',
+        },
+        bread2: {
+            slug: '/high-pressure-pumps',
+            title: 'Насоси високого тиску',
+        },
+        bread3: {
+            slug: '/accessories-and-repair-kits',
+            title: 'Аксесуари та ремонтні комплекти',
+        },
+        descriptionMin: 'Кришка зчеплення для насосів: CAT 340 CAT 350',
+        weight: '0,588',
+        codeEAN: '',
+        imageShow: ['/water-pumps/14.jpg', ],
+        descriptionFull: `
+        <p>Кришка зчеплення для насосів:</p> <br/>
+        <p>CAT 340</p> 
+        <p>CAT 350</p> <br/>
+        `
+    },
+    {
+        id: '109',
+        title: 'Кришка зчеплення насоса Hawk NMT',
+        code: 'OSL-HAWK-NMT',
+        price: '99.80',
+        size: 1,
+        slug: 'goods4-15',
+        img: '/water-pumps/15.jpg',
+        description: '',
+        descriptionPrise: '',
+        bread1: {
+            slug: '/water-pumps-and-accessories',
+            title: 'Насоси та дозатори миючих засобів',
+        },
+        bread2: {
+            slug: '/high-pressure-pumps',
+            title: 'Насоси високого тиску',
+        },
+        bread3: {
+            slug: '/accessories-and-repair-kits',
+            title: 'Аксесуари та ремонтні комплекти',
+        },
+        descriptionMin: 'Кришка зчеплення насоса серії Hawk NMT',
+        weight: '',
+        codeEAN: '',
+        imageShow: ['/water-pumps/15.jpg', '/water-pumps/image2.jpg', '/water-pumps/image3.jpg', ],
+        descriptionFull: `
+        <p>Кришка муфти для насосів серії Hawk NMT</p> <br/>
+        `
+    },
+    {
+        id: '110',
+        title: 'Кришка вала для насосів CAT 350 і 1140',
+        code: 'OSL-CAT-WAL',
+        price: '40.20',
+        size: 1,
+        slug: 'goods4-16',
+        img: '/water-pumps/16.jpg',
+        description: '',
+        descriptionPrise: '',
+        bread1: {
+            slug: '/water-pumps-and-accessories',
+            title: 'Насоси та дозатори миючих засобів',
+        },
+        bread2: {
+            slug: '/high-pressure-pumps',
+            title: 'Насоси високого тиску',
+        },
+        bread3: {
+            slug: '/accessories-and-repair-kits',
+            title: 'Аксесуари та ремонтні комплекти',
+        },
+        descriptionMin: 'Кришка валу насоса: CAT 350 CAT 1140',
+        weight: '',
+        codeEAN: '',
+        imageShow: ['/water-pumps/16.jpg', ],
+        descriptionFull: `
+        <p>Кришка вала насоса: </p> <br/>
+        <p>CAT 350</p> 
+        <p>CAT 1140</p> <br/>
+        `
+    },
+    {
+        id: '111',
+        title: 'Ущільнювач латунний CAT 350',
+        code: 'PLO-CAT-001',
+        price: '208.68',
+        size: 1,
+        slug: 'goods4-17',
+        img: '/water-pumps/17.jpg',
+        description: '',
+        descriptionPrise: '',
+        bread1: {
+            slug: '/water-pumps-and-accessories',
+            title: 'Насоси та дозатори миючих засобів',
+        },
+        bread2: {
+            slug: '/high-pressure-pumps',
+            title: 'Насоси високого тиску',
+        },
+        bread3: {
+            slug: '/accessories-and-repair-kits',
+            title: 'Аксесуари та ремонтні комплекти',
+        },
+        descriptionMin: 'Латунне ущільнення для насоса CAT 350',
+        weight: '0,09',
+        codeEAN: '',
+        imageShow: ['/water-pumps/17.jpg', ],
+        descriptionFull: `
+        <p>Латунне ущільнення для насоса CAT 350</p> <br/>
+        `
+    },
+    {
+        id: '112',
+        title: 'Насос CAT 350',
+        code: 'POM-CAT-350',
+        price: '4031.90',
+        size: 1,
+        slug: 'goods4-18',
+        img: '/water-pumps/18.jpg',
+        description: '',
+        descriptionPrise: '',
+        bread1: {
+            slug: '/water-pumps-and-accessories',
+            title: 'Насоси та дозатори миючих засобів',
+        },
+        bread2: {
+            slug: '/high-pressure-pumps',
+            title: 'Насоси високого тиску',
+        },
+        bread3: {
+            slug: '/high-pumps',
+            title: 'Насоси',
+        },
+        descriptionMin: 'Насос CAT 350 є чудовим насосом високого тиску для автомийки для різних застосувань.',
+        weight: '9',
+        codeEAN: '',
+        imageShow: ['/water-pumps/18.jpg', ],
+        descriptionFull: `
+        <p>Насос CAT 350 є чудовим насосом високого тиску для автомийки для різних застосувань. Технологія Triplex 
+        з керамічним поршнем забезпечує плавний потік рідини, а комплект ущільнень в насосі високого тиску забезпечує
+         подвійний захист від зовнішніх витоків. Насос має спеціальні масляні входи, завдяки яким, регулярно 
+         заповнюючи їх, можна продовжити термін служби пристрою. Насос Cat 350 стійкий до корозії.</p> <br/>
+        <p><b>Характеристики</b></p> <br/>
+        <p>сучасний дизайн шатуна</p> 
+        <p>дуже міцні керамічні поршні</p> 
+        <p>головка з нікельованої латуні</p> 
+        <p>легка заміна зворотних клапанів</p> <br/>
+        <p>У пропозиції магазину також є комплектуючі до насосів CAT та ремкомплекти.</p> <br/>
+         <p><b>Технічні характеристики</b></p> <br/>
+        <p>робочий тиск: 150 бар</p> 
+        <p>продуктивність: до 15 л/хв</p> 
+        <p>обороти: 1420 об/хв</p> 
+        <p>потужність: 4,6 кВт</p> 
+        <p>вага насоса: 9 кг</p> 
+        <p>вхідний патрубок: 1/2" NPTF</p> 
+        <p>розетка: 3/8" NPTF</p> 
+        <p>розміри насоса: 298 х 254 х 133 м</p> 
+        `
+    },
+    {
+        id: '113',
+        title: 'Насос CAT 3CP 1140',
+        code: 'POM-CAT-003',
+        price: '3121.88',
+        size: 1,
+        slug: 'goods4-19',
+        img: '/water-pumps/19.jpg',
+        description: '',
+        descriptionPrise: '',
+        bread1: {
+            slug: '/water-pumps-and-accessories',
+            title: 'Насоси та дозатори миючих засобів',
+        },
+        bread2: {
+            slug: '/high-pressure-pumps',
+            title: 'Насоси високого тиску',
+        },
+        bread3: {
+            slug: '/high-pumps',
+            title: 'Насоси',
+        },
+        descriptionMin: 'Насос CAT 1140 - це чудовий насос високого тиску для автомийки для різних застосувань.',
+        weight: '6,7',
+        codeEAN: '',
+        imageShow: ['/water-pumps/19.jpg', ],
+        descriptionFull: `
+        <p>Насос CAT 1140 - це чудовий насос високого тиску для автомийки для різних застосувань. <br/>
+        Технологія Triplex з керамічним поршнем забезпечує плавний потік рідини, а набір ущільнень в насосі чудово
+         захищає від зовнішніх витоків. Насос для автомийки простий в обслуговуванні і стійкий до корозії.</p> <br/>
+        <p><b>Характеристики</b></p> <br/>
+        <p>сучасний дизайн шатуна</p> 
+        <p>дуже міцні керамічні поршні</p> 
+        <p>латунна голова</p> 
+        <p>легка заміна зворотних клапанів</p> <br/>
+         <p><b>Технічні характеристики</b></p> <br/>
+        <p>вага: 6,7 кг</p> 
+        <p>тиск: 150 бар</p> 
+        <p>потік: 11 л/хв</p> 
+        <p>максимальна температура: 71 ° C</p> 
+        <p>діаметр валу: 16,5 мм</p> 
+        <p>довжина: 23,1 см</p> 
+        <p>ширина: 22,3 см</p> 
+        <p>висота: 13,9 см</p> 
+        <p>вхідний патрубок: ½” NPTF</p> 
+        <p>розетка: ? NPTF</p> 
+        <p>потужність: 4,4 кВт</p> 
+        <p>розташування валу: двостороннє</p> 
+        `
+    },
+    {
+        id: '114',
+        title: 'Насос CAT 5CP2150W',
+        code: 'POM-CAT-BKF5CP2150W',
+        price: '3818.00',
+        size: 1,
+        slug: 'goods4-20',
+        img: '/water-pumps/20.jpg',
+        description: '',
+        descriptionPrise: '',
+        bread1: {
+            slug: '/water-pumps-and-accessories',
+            title: 'Насоси та дозатори миючих засобів',
+        },
+        bread2: {
+            slug: '/high-pressure-pumps',
+            title: 'Насоси високого тиску',
+        },
+        bread3: {
+            slug: '/high-pumps',
+            title: 'Насоси',
+        },
+        descriptionMin: 'Насос CAT 5CP2150W — це триплексний (триплунжерний) об’ємний поршневий насос, який ' +
+            'складається з хромованого спеціального латунного колектора серії «W770», вузлами клапанів із ' +
+            'нержавіючої сталі 304, керамічними плунжерами та стандартними NBR (Buna-N) ущільненнями. та ' +
+            'ущільнювальні кільця.',
+        weight: '9',
+        codeEAN: '',
+        imageShow: ['/water-pumps/20.jpg', ],
+        descriptionFull: `
+        <p>Насос CAT 5CP2150W — це триплексний (триплунжерний) об’ємний поршневий насос, який складається з хромованого 
+        спеціального латунного колектора серії «W770», вузлами клапанів із нержавіючої сталі 304, керамічними плунжерами
+         та стандартними NBR (Buna-N) ущільненнями. та ущільнювальні кільця. <br/>
+        Хімічна ерозія або вимивання колекторів автомийки може призвести до різноманітних проблем з обладнанням, 
+        включаючи пульсацію, витоки та втрату тиску. Інженери Cat Pumps вирішили проблему вимивання стандартних 
+        насосів, розробивши колектор «серії W770». Завдяки використанню стійких до корозії сплавів, хромованих 
+        покриттів і чудових ущільнювальних поверхонь ця конструкція стійка до агресивних хімікатів, які 
+        використовуються на автомийках.  <br/>
+        Насос CAT 5CP2150W має частоту обертання 1725 об / хв, що дозволяє використовувати безліч варіантів приводу, 
+        включаючи прямий привід з розтрубним корпусом і гнучкою муфтою, муфтою або пасовою передачею.</p> <br/>
+        <p><b>Технічні дані</b></p> <br/>
+        <p>Макс. потік: 5 галлонів на хвилину / 18,9 л/хв</p> 
+        <p>Максимальний тиск: 200</p> 
+        <p>Розмір вхідного отвору: 1/2" NPT (F)</p> 
+        <p>Розмір вихідного отвору: 3/8" NPT (внутрішня різьба)</p> 
+        <p>Швидкість обертання: 1725</p> 
+        <p>Типи приводів: ремінь, муфта, гнучка муфта та розтрубний корпус</p> 
+        <p>Матеріал латунь</p> 
+        `
+    },
+    {
+        id: '115',
+        title: 'Насос CAT SamWash340D ПРАВИЙ червоний з логотипом SamWash (вихідний вал з правого боку)',
+        code: 'POM-CAT-BKF340D',
+        price: '3666.70',
+        newPrice: '3556.65',
+        size: 1,
+        slug: 'goods4-21',
+        img: '/water-pumps/21.jpg',
+        description: '',
+        descriptionPrise: 'Найнижча ціна за 30 днів до знижки : 3073,77 доларів',
+        bread1: {
+            slug: '/water-pumps-and-accessories',
+            title: 'Насоси та дозатори миючих засобів',
+        },
+        bread2: {
+            slug: '/high-pressure-pumps',
+            title: 'Насоси високого тиску',
+        },
+        bread3: {
+            slug: '/high-pumps',
+            title: 'Насоси',
+        },
+        descriptionMin: 'Насос CAT 340 D — чудовий насос високого тиску для різних типів застосувань. Технологія' +
+            ' Triplex з керамічним поршнем забезпечує плавний потік рідини, а комплект ущільнень в насосі забезпечує' +
+            ' подвійний захист від зовнішніх витоків. Насос має спеціальні масляні входи, завдяки яким ми можемо' +
+            ' продовжити термін служби пристрою, регулярно заповнюючи їх. Насос стійкий до корозії. Характеристики:' +
+            ' сучасна обробка',
+        weight: '10',
+        codeEAN: '',
+        imageShow: ['/water-pumps/21.jpg', ],
+        descriptionFull: `
+        <p>Насос CAT 340 D є чудовим насосом високого тиску для різних застосувань. Технологія Triplex з керамічним
+         поршнем забезпечує плавний потік рідини, а комплект ущільнень в насосі забезпечує подвійний захист від 
+         зовнішніх витоків. Насос має спеціальні масляні входи, завдяки яким ми можемо продовжити термін служби 
+         пристрою, регулярно заповнюючи їх. Насос стійкий до корозії.</p> <br/>
+        <p><b>Характерні риси</b></p> <br/>
+        <p>сучасний дизайн шатуна,</p> 
+        <p>дуже міцні керамічні поршні,</p> 
+        <p>нікельована латунна головка,</p> 
+        <p>легка заміна зворотних клапанів,</p> 
+        <p>вихід валу з правого боку.</p> <br/> 
+        <p>У пропозиції магазину також є комплектуючі до насосів CAT та ремкомплекти.</p> <br/> 
+        <p><b>Технічні характеристики</b></p> <br/>
+        <p>вага: 9 кг</p>  <br/> 
+        <p>тиск: 150 бар</p>  <br/> 
+        <p>потік: 13 л/хв</p> <br/> 
+        <p>температура макс.: 71 °C</p> <br/> 
+        <p>діаметр валу: 20 мм</p> <br/> 
+        <p>довжина: 29,8 см</p> <br/> 
+        <p>ширина: 25,4 см</p> <br/> 
+        <p>висота: 13,3 см</p> <br/> 
+        <p>вхідний патрубок: ½” NPTF</p> <br/> 
+        <p>розетка: ?» NPTF</p> <br/> 
+        <p>потужність: 4,1 кВт</p> <br/> 
+        <p>розташування валу: справа</p> <br/> 
+        `
+    },
+    {
+        id: '116',
+        title: 'Насос CAT SamWash340DRS, ЛІВИЙ червоний, з логотипом SamWash (вихідний вал з лівого боку)',
+        code: 'POM-CAT-BKF340F',
+        price: '3802.93',
+        newPrice: '',
+        size: 1,
+        slug: 'goods4-22',
+        img: '/water-pumps/22.jpg',
+        description: '',
+        descriptionPrise: '',
+        bread1: {
+            slug: '/water-pumps-and-accessories',
+            title: 'Насоси та дозатори миючих засобів',
+        },
+        bread2: {
+            slug: '/high-pressure-pumps',
+            title: 'Насоси високого тиску',
+        },
+        bread3: {
+            slug: '/high-pumps',
+            title: 'Насоси',
+        },
+        descriptionMin: 'Назва: ЛІВИЙ червоний насос CAT BKF340DRS (з логотипом SamWash) Код: POM-CAT-SamWash340F' +
+            ' Насос CAT 340 D є чудовим насосом високого тиску для різних типів застосувань. Технологія Triplex з ' +
+            'керамічним поршнем забезпечує плавний потік рідини, а комплект ущільнень в насосі забезпечує подвійний' +
+            ' захист від зовнішніх витоків. Насос має спеціальні масляні входи, завдяки яким ми можемо продовжити' +
+            ' термін служби пристрою, регулярно заповнюючи їх. Насос стійкий до корозії. Характерні риси',
+        weight: '10',
+        codeEAN: '',
+        imageShow: ['/water-pumps/22.jpg', ],
+        descriptionFull: `
+        <p>Насос CAT 340 D є чудовим насосом високого тиску для різних застосувань. Технологія Triplex з керамічним
+         поршнем забезпечує плавний потік рідини, а комплект ущільнень в насосі забезпечує подвійний захист від 
+         зовнішніх витоків. Насос має спеціальні масляні входи, завдяки яким ми можемо продовжити термін служби 
+         пристрою, регулярно заповнюючи їх. Насос стійкий до корозії.</p> <br/>
+        <p><b>Характеристики</b></p> <br/>
+        <p>сучасний дизайн шатуна,</p> 
+        <p>дуже міцні керамічні поршні,</p> 
+        <p>нікельована латунна головка,</p> 
+        <p>легка заміна зворотних клапанів,</p> 
+        <p>вихід валу з правого боку.</p> <br/> 
+        <p>У пропозиції магазину також є комплектуючі до насосів CAT та ремкомплекти.</p> <br/> 
+        <p><b>Технічні характеристики</b></p> <br/>
+        <p>вага: 9 кг</p>  <br/> 
+        <p>тиск: 150 бар</p>  <br/> 
+        <p>потік: 13 л/хв</p> <br/> 
+        <p>температура макс.: 71 °C</p> <br/> 
+        <p>діаметр валу: 20 мм</p> <br/> 
+        <p>довжина: 29,8 см</p> <br/> 
+        <p>ширина: 25,4 см</p> <br/> 
+        <p>висота: 13,3 см</p> <br/> 
+        <p>вхідний патрубок: ½” NPTF</p> <br/> 
+        <p>розетка: ?» NPTF</p> <br/> 
+        <p>потужність: 4,1 кВт</p> <br/> 
+        <p>розташування валу: справа</p> <br/> 
+        `
+    },
+    {
+        id: '117',
+        title: 'Насос HAWK NMT1220CWL (1.099-298.0) лівий',
+        code: 'POM-HAWK-NMT-1220-CWL',
+        price: '2014.44',
+        newPrice: '',
+        size: 1,
+        slug: 'goods4-23',
+        img: '/water-pumps/23.jpg',
+        description: '',
+        descriptionPrise: '',
+        bread1: {
+            slug: '/water-pumps-and-accessories',
+            title: 'Насоси та дозатори миючих засобів',
+        },
+        bread2: {
+            slug: '/high-pressure-pumps',
+            title: 'Насоси високого тиску',
+        },
+        bread3: {
+            slug: '/high-pumps',
+            title: 'Насоси',
+        },
+        descriptionMin: 'Насос HAWK NMT1220CWL (1.099-298.0) лівий',
+        weight: '',
+        codeEAN: '',
+        imageShow: ['/water-pumps/23.jpg', ],
+        descriptionFull: `
+        <p>Насоси високого тиску Hawk NMT-CW (серія Car Wash) є ідеальним вибором для безконтактних мийок, а також 
+        для професійних мийок високого тиску. Завдяки використанню спеціальних ущільнювачів і нікельованому корпусу
+         колектора вони захищені від хімічних речовин, що забезпечує довший термін служби.</p> <br/>
+        <p><b>Технічні дані:</b></p> <br/>
+        <p>Потік л/хв: 50 Гц: 12,5</p>  <br/> 
+        <p>Потік GPM: 50 Гц: 3,3</p>  <br/> 
+        <p>Максимальний тиск: 200 BAR / 2900 PSI</p>  <br/> 
+        <p>Частота оборотів 50 Гц: 1450</p>  <br/> 
+        <p>Максимальна HP: 50 Гц: 6,4</p>  <br/> 
+        <p>Максимальна потужність кВт: 50 Гц: 4,7</p>  <br/> 
+        <p>Температура: 65°C/150°F</p>  <br/> 
+        <p>Вага [кг]: 10,3</p> <br/> 
+        <p>Ємність масла [л.]: 0,7</p> <br/> 
+        <p>Вхід G: 1/2''</p> <br/> 
+        <p>Розетка G: 3/8''</p> <br/> 
+        <p>Ролик зліва.</p> <br/> 
+        <p>КОД №: 1.099-299.0</p> <br/> 
+        `
+    },
+    {
+        id: '118',
+        title: 'Насос Hawk NMT1220CWR',
+        code: 'POM-HAWK-NMT-1220-CWR',
+        price: '2263.76',
+        newPrice: '',
+        size: 1,
+        slug: 'goods4-24',
+        img: '/water-pumps/24.jpg',
+        description: '',
+        descriptionPrise: '',
+        bread1: {
+            slug: '/water-pumps-and-accessories',
+            title: 'Насоси та дозатори миючих засобів',
+        },
+        bread2: {
+            slug: '/high-pressure-pumps',
+            title: 'Насоси високого тиску',
+        },
+        bread3: {
+            slug: '/high-pumps',
+            title: 'Насоси',
+        },
+        descriptionMin: 'Насоси Hawk NMT1220CWR можуть працювати при максимальному тиску 200 бар і температурі води' +
+            ' до 65 °C. Тому ця версія є ідеальним вибором для автомийок самообслуговування, а також для професійних' +
+            ' мийок високого тиску.',
+        weight: '',
+        codeEAN: '',
+        imageShow: ['/water-pumps/24.jpg', ],
+        descriptionFull: `
+        <p>Насоси високого тиску Hawk NMT-CW (серія Car Wash) є ідеальним вибором для безконтактних мийок, а також 
+        для професійних мийок високого тиску. Завдяки використанню спеціальних ущільнювачів і нікельованому корпусу
+         колектора вони захищені від хімічних речовин, що забезпечує довший термін служби.</p> <br/>
+        <p><b>Технічні дані:</b></p> <br/>
+        <p>Потік л/хв: 50 Гц: 12,5</p>  <br/> 
+        <p>Потік GPM: 50 Гц: 3,3</p>  <br/> 
+        <p>Максимальний тиск: 200 BAR / 2900 PSI</p>  <br/> 
+        <p>Частота оборотів 50 Гц: 1450</p>  <br/> 
+        <p>Максимальна HP: 50 Гц: 6,4</p>  <br/> 
+        <p>Максимальна потужність кВт: 50 Гц: 4,7</p>  <br/> 
+        <p>Температура: 65°C/150°F</p>  <br/> 
+        <p>Вага [кг]: 10,3</p> <br/> 
+        <p>Ємність масла [л.]: 0,7</p> <br/> 
+        <p>Вхід G: 1/2''</p> <br/> 
+        <p>Розетка G: 3/8''</p> <br/> 
+        <p>Ролик справа.</p> <br/> 
+        <p>КОД №: 1.099-299.0</p> <br/> 
+        `
+    },
+    {
+        id: '119',
+        title: 'Насос повітряний HAWK NMT1520CWL (1.099-300.0)',
+        code: 'POM-HAWK-NMT-1520-CWL',
+        price: '2188.69',
+        newPrice: '',
+        size: 1,
+        slug: 'goods4-25',
+        img: '/water-pumps/25.jpg',
+        description: '',
+        descriptionPrise: '',
+        bread1: {
+            slug: '/water-pumps-and-accessories',
+            title: 'Насоси та дозатори миючих засобів',
+        },
+        bread2: {
+            slug: '/high-pressure-pumps',
+            title: 'Насоси високого тиску',
+        },
+        bread3: {
+            slug: '/high-pumps',
+            title: 'Насоси',
+        },
+        descriptionMin: 'Насос HAWK NMT1520CWL (1.099-300.0) лівий',
+        weight: '10,5',
+        codeEAN: '',
+        imageShow: ['/water-pumps/25.jpg', ],
+        descriptionFull: `
+        <p>Насос з нікельованою головкою, з шатунним приводом. Він має сталеві поршні та керамічні поршні. 
+        Використовується на безконтактних мийках. <br/>
+        Вихід валу з лівого боку.</p> <br/>
+        <p><b>Специфікація</b></p> <br/>
+        <p>Потік: 15 л/хв</p>  
+        <p>Потужність: 5,7 кВт</p>  
+        <p>Тиск: 200 бар</p> 
+        <p>Швидкість: 1450</p> 
+        <p>Діаметр валу: 24 мм</p> 
+        <p>Вага: 9,98 кг</p>  
+        `
+    },
+    {
+        id: '120',
+        title: 'Насос HAWK NMT1520CWR (1.099-301.0)',
+        code: 'POM-HAWK-NMT-1520-CWR',
+        price: '2215.75',
+        newPrice: '',
+        size: 1,
+        slug: 'goods4-26',
+        img: '/water-pumps/26.jpg',
+        description: '',
+        descriptionPrise: '',
+        bread1: {
+            slug: '/water-pumps-and-accessories',
+            title: 'Насоси та дозатори миючих засобів',
+        },
+        bread2: {
+            slug: '/high-pressure-pumps',
+            title: 'Насоси високого тиску',
+        },
+        bread3: {
+            slug: '/high-pumps',
+            title: 'Насоси',
+        },
+        descriptionMin: 'Насос HAWK NMT1520CWR (1.099-301.0)',
+        weight: '10,5',
+        codeEAN: '',
+        imageShow: ['/water-pumps/26.jpg', ],
+        descriptionFull: `
+        <p>Насос з нікельованою головкою, з шатунним приводом. Він має сталеві поршні та керамічні поршні.
+         Використовується на безконтактних мийках. <br/>
+        Вихід валу з правого боку.</p> <br/>
+        <p><b>Специфікація</b></p> <br/>
+        <p>Потік: 15 л/хв</p>  
+        <p>Потужність: 5,7 кВт</p>  
+        <p>Тиск: 200 бар</p> 
+        <p>Швидкість: 1450</p> 
+        <p>Діаметр валу: 24 мм</p> 
+        <p>Вага: 9,98 кг</p>  
+        `
+    },
+    {
+        id: '121',
+        title: 'Насос HAWK NMT1520CWR (1.099-301.0)',
+        code: 'POM-HAWK-NMT-2120-CWR',
+        price: '2183.30',
+        newPrice: '',
+        size: 1,
+        slug: 'goods4-27',
+        img: '',
+        description: '',
+        descriptionPrise: '',
+        bread1: {
+            slug: '/water-pumps-and-accessories',
+            title: 'Насоси та дозатори миючих засобів',
+        },
+        bread2: {
+            slug: '/high-pressure-pumps',
+            title: 'Насоси високого тиску',
+        },
+        bread3: {
+            slug: '/high-pumps',
+            title: 'Насоси',
+        },
+        descriptionMin: 'Насос HAWK NMT1520CWR (1.099-301.0)',
+        weight: '10,5',
+        codeEAN: '',
+        imageShow: null,
+        descriptionFull: `
+        <p>Насос з нікельованою головкою, з шатунним приводом. Він має сталеві поршні та керамічні поршні. 
+        Використовується на безконтактних мийках. <br/>
+        Вихід валу з правого боку.</p> <br/>
+        <p><b>Специфікація</b></p> <br/>
+        <p>Потік: 15 л/хв</p>  
+        <p>Потужність: 5,7 кВт</p>  
+        <p>Тиск: 200 бар</p> 
+        <p>Швидкість: 1450</p> 
+        <p>Діаметр валу: 24 мм</p> 
+        <p>Вага: 9,98 кг</p>  
+        `
+    },
+    {
+        id: '122',
+        title: 'Interpump VHT 4715 правий',
+        code: 'POM-IP-VHT4715-0000',
+        price: '4148.99',
+        newPrice: '',
+        size: 1,
+        slug: 'goods4-28',
+        img: '/water-pumps/28.jpg',
+        description: '',
+        descriptionPrise: '',
+        bread1: {
+            slug: '/water-pumps-and-accessories',
+            title: 'Насоси та дозатори миючих засобів',
+        },
+        bread2: {
+            slug: '/high-pressure-pumps',
+            title: 'Насоси високого тиску',
+        },
+        bread3: {
+            slug: '/high-pumps',
+            title: 'Насоси',
+        },
+        descriptionMin: 'Interpump VHT4715 - це високотемпературний насос високого тиску для гарячої води серії' +
+            ' VHT47 зі швидкістю 1450 об/хв з внутрішнім валом 24 мм (з правого боку) для використання на' +
+            ' безконтактних автомийках тощо.',
+        weight: '',
+        codeEAN: '',
+        imageShow: ['/water-pumps/28.jpg', ],
+        descriptionFull: `
+        <p>Interpump VHT4715 - це високотемпературний насос високого тиску для гарячої води серії VHT47 зі швидкістю
+         1450 об/хв з внутрішнім валом 24 мм (з правого боку) для використання на безконтактних автомийках 
+         тощо.</p><br/>
+        <p><b>Деталі:</b></p> <br/>
+        <p>Тиск - 160 бар / 2320 PSI</p>  
+        <p>Потік води - 15 літрів на хвилину</p>  
+        <p>Максимальна температура води - 110 °C</p> 
+        <p>Мінімальна необхідна потужність - 6,2 к . с</p> 
+        <p>Довжина - 235,5 мм (включаючи вал довжиною 40 мм) Вхід - 1/2" BSP внутрішній вихід - 3/8" BSP 
+        внутрішній колектор - нікельована латунь</p> 
+        `
+    },
+    {
+        id: '123',
+        title: 'Насос Interpump VHT 4715S лівий',
+        code: 'POM-IP-VHT4715S-0000',
+        price: '4508.36',
+        newPrice: '',
+        size: 1,
+        slug: 'goods4-29',
+        img: '/water-pumps/29.jpg',
+        description: '',
+        descriptionPrise: '',
+        bread1: {
+            slug: '/water-pumps-and-accessories',
+            title: 'Насоси та дозатори миючих засобів',
+        },
+        bread2: {
+            slug: '/high-pressure-pumps',
+            title: 'Насоси високого тиску',
+        },
+        bread3: {
+            slug: '/high-pumps',
+            title: 'Насоси',
+        },
+        descriptionMin: 'Interpump VHT4715 - це високотемпературний насос для гарячої води високого тиску серії ' +
+            'VHT47 зі швидкістю 1450 об/хв з внутрішнім валом діаметром 24 мм (ліворуч) для використання ' +
+            'на безконтактних автомийках тощо.',
+        weight: '',
+        codeEAN: '',
+        imageShow: ['/water-pumps/29.jpg', ],
+        descriptionFull: `
+        <p>Interpump VHT4715 - це високотемпературний насос високого тиску для гарячої води серії VHT47 зі швидкістю
+         1450 об/хв з внутрішнім валом 24 мм (ліворуч) для використання на безконтактних автомийках тощо.
+         тощо.</p><br/>
+        <p><b>Деталі:</b></p> <br/>
+        <p>Тиск - 160 бар / 2320 PSI</p>  
+        <p>Потік води - 15 літрів на хвилину</p>  
+        <p>Максимальна температура води - 110 °C</p> 
+        <p>Мінімальна необхідна потужність - 6,2 к . с</p> 
+        <p>Довжина - 235,5 мм (включаючи вал довжиною 40 мм) Вхід - 1/2" BSP внутрішній вихід - 3/8" BSP 
+        внутрішній колектор - нікельована латунь</p> 
+        `
+    },
+    {
+        id: '124',
+        title: 'Моноблочний насос EBARA AISI 304 (CDX/I90/10IE3)',
+        code: 'POM-EBA-CDX',
+        price: '1817.67',
+        newPrice: '',
+        size: 1,
+        slug: 'goods4-30',
+        img: '/water-pumps/30.jpg',
+        description: '',
+        descriptionPrise: '',
+        bread1: {
+            slug: '/water-pumps-and-accessories',
+            title: 'Насоси та дозатори миючих засобів',
+        },
+        bread2: {
+            slug: '/low-pressure-pumps',
+            title: 'Насоси низького тиску',
+        },
+        bread3: {
+            slug: '/low-pumps',
+            title: 'Насоси',
+        },
+        descriptionMin: 'Моноблочний насос EBARA AISI 304 (CDX/I90/10IE3)',
+        weight: '13,3',
+        codeEAN: '',
+        imageShow: ['/water-pumps/30.jpg', ],
+        descriptionFull: `
+        <p>Одноколесні відцентрові насоси, всі гідравлічні компоненти виготовлені з нержавіючої сталі AISI 304, 
+        призначені для перекачування чистої води та інших рідин, які не вступають у хімічну реакцію з нержавіючої
+         сталі AISI 304, для систем поливу та поливу, для підвищення тиску в гідрофорних установках тощо.</p><br/>
+        <p><b>СПЕЦИФІКАЦІЯ</b></p> <br/>
+        <p>Максимальний робочий тиск: 8 бар</p>  
+        <p>Максимальна температура середовища:</p>  <br/> 
+        <p>35°C відповідно до EN 60335-2-41 для домашнього використання</p> 
+        <p>60°C для інших цілей і CDX 70/05 – 70/07 – 90/10</p> 
+        <p>90°C для інших моделей</p> 
+        <p>110°C для версії H</p>   <br/> 
+        <p><b>МАТЕРІАЛИ</b></p> <br/>
+        <p>Корпус насоса, кришка корпусу, робоче колесо та дифузор зі сталі AISI 304</p>  
+        <p>Вал: AISI 303</p>  
+        <p>Кронштейн і корпус двигуна: алюміній</p> 
+        <p>Ущільнення валу: механічне вуглецеве/керамічне/NBR</p> 
+        <p>(SiC/SiC/Vitton у версії CDXHS)</p> <br/> 
+        <p><b>ТЕХНІЧНІ ДАНІ</b></p> <br/>
+        <p>Двополюсний двигун з примусовою вентиляцією TEFC</p>  
+        <p>Клас ізоляції F</p>  
+        <p>Ступінь захисту IP55</p> 
+        <p>Джерело живлення: 3~230-400 В ± 10% 50 Гц</p> 
+        <p>Вбудований пусковий конденсатор</p> 
+        <p>Відповідальність за захист трифазного двигуна несе користувач DNM 1”</p> 
+        <p>DNA 1” 1/2 для CDX 200, DNA 1” 1/4 для інших моделі</p> <br/> 
+        `
+    },
+    {
+        id: '125',
+        title: 'Насос Nuert PRG 10 латунний з байпасом, 1/2\' GW, 1080 л/год, 1450 об/хв [PRG 10AS]',
+        code: 'POM-NUE-001',
+        price: '479.82',
+        newPrice: '',
+        size: 1,
+        slug: 'goods4-31',
+        img: '/water-pumps/31.jpg',
+        description: '',
+        descriptionPrise: '',
+        bread1: {
+            slug: '/water-pumps-and-accessories',
+            title: 'Насоси та дозатори миючих засобів',
+        },
+        bread2: {
+            slug: '/low-pressure-pumps',
+            title: 'Насоси низького тиску',
+        },
+        bread3: {
+            slug: '/low-pumps',
+            title: 'Насоси',
+        },
+        descriptionMin: 'Насос латунний для осмосу 1/2\'GW, 1080 л/год, 1450 об/хв',
+        weight: '1,349',
+        codeEAN: '',
+        imageShow: ['/water-pumps/31.jpg', ],
+        descriptionFull: `
+        <p>Насос латунний осмос 1/2'GW, 1080 л/год, 1450 об./хв.</p> <br/> 
+        `
+    },
+    {
+        id: '126',
+        title: 'Циркуляційний насос Grundfos Alpha1 L 25-60 180 мм (99160584)',
+        code: 'POM-GRU-ALP1',
+        price: '1077.64',
+        newPrice: '798.89',
+        size: 1,
+        slug: 'goods4-32',
+        img: '/water-pumps/32.jpg',
+        description: '',
+        descriptionPrise: 'Найнижча ціна за 30 днів до знижки: 798,89 доларів',
+        bread1: {
+            slug: '/water-pumps-and-accessories',
+            title: 'Насоси та дозатори миючих засобів',
+        },
+        bread2: {
+            slug: '/low-pressure-pumps',
+            title: 'Насоси низького тиску',
+        },
+        bread3: {
+            slug: '/low-pumps',
+            title: 'Насоси',
+        },
+        descriptionMin: 'Насос Grundfos Alpha1 L 25-60',
+        weight: '',
+        codeEAN: '',
+        imageShow: ['/water-pumps/32.jpg', ],
+        descriptionFull: `
+        <p>Grundfos ALPHA1 L 25-60 180 - це високопродуктивний циркуляційний насос з двигуном на постійних магнітах
+         (технологія ECM).</p> <br/> 
+        <p>Насос має три режими управління:</p> <br/> 
+        <p>режим радіаторного опалення, </p> 
+        <p>режим теплої підлоги,</p>
+        <p>постійна крива/постійна швидкість.</p>  <br/> 
+        <p>Крім того, швидкість можна контролювати за допомогою низьковольтного сигналу ШІМ 
+        (широтно-імпульсна модуляція).</p> <br/> 
+        <p>Насос має керамічний вал і підшипники ковзання, вуглецевий підшипник, робоче колесо з нержавіючої сталі,
+         опорну плиту та футеровку робочого колеса, композитне робоче колесо, що сприяє тривалому терміну служби, 
+         і насос має самовідведення для легкого запуску, а також простого вибору режиму керування .</p> <br/> 
+        <p>Компактна конструкція з головкою насоса з вбудованою панеллю керування та панеллю керування підходить 
+        для більшості типових установок і котлів.</p> <br/> 
+        <p>Насос і двигун є одним цілим блоком без ущільнення валу. Насос має конструкцію з мокрим ходом. Це означає,
+         що підшипники змащуються рідиною, що перекачується. Ці конструкції забезпечують роботу без
+          обслуговування.</p> <br/> 
+        <p>Корпус насоса виготовлений з чавуну та електрично дубльований для підвищення стійкості до корозії.</p> <br/> 
+        <p>Двигун являє собою синхронний двигун з ротором на постійних магнітах і компактним статором. Контролер 
+        насоса вбудований в блок управління, який кріпиться до корпусу статора і з’єднується зі статором через 
+        штекер. Особливості ALPHA1 L</p> <br/> 
+        <p>Три фіксовані криві/постійна швидкість.</p>
+        <p>Радіаторний режим опалення.</p>
+        <p>Режим теплої підлоги.</p>
+        <p>Профіль ШІМ для опалення (профіль A). ШІМ-сигнал — це метод генерації аналогового сигналу за допомогою
+         цифрового джерела.</p>
+        <p>Енергооптимізоване, сумісне з директивою ErP</p>
+        <p>Розблокування гвинта, доступного з передньої частини блоку керування.</p>
+        <p>Він працює надійно та ефективно навіть у найскладніших умовах</p>
+        <p>Регульована та гнучка монтажна заглушка з двома можливими положеннями кабельного вводу.</p> <br/> 
+        <p><b>Технічні дані</b></p> <br/> 
+        <p>Діапазон температур рідини: 2 .. 95 °C</p> 
+        <p>Температура рідини під час роботи: 60 °C</p> 
+        <p>Щільність: 983,2 кг/м³</p> <br/> 
+        <p><b>Технічний</b></p> <br/> 
+        <p>Клас TF:95</p> 
+        <p>Сертифікати на паспортній табличці: CE, VDE, EAC</p> <br/> 
+        <p><b>Матеріали</b></p> <br/> 
+        <p>Корпус насоса: сірий чавун, EN 1561 EN-GJL-150, ASTM ASTM A48-150B</p> 
+        <p>Робоче колесо:   композит/PES 30% GF</p> <br/> 
+        <p><b>Установка</b></p> <br/> 
+        <p>Діапазон температур навколишнього середовища: 0 .. 55 °C</p> 
+        <p>Максимальний робочий тиск: 10 бар</p> 
+        <p>З'єднання труб: G 1 1/2</p>
+        <p>Тиск: PN 10</p> 
+        <p>Монтажна довжина: 180 мм</p>  <br/>
+        <p><b>Електричні дані</b></p> <br/>  
+        <p>Споживана потужність-P1: 4 .. 45 Вт</p> 
+        <p>Основна частота: 50 / 60 Гц</p> 
+        <p>Номінальна напруга: 1 x 230 В</p> 
+        <p>Макс. струм споживання: 0,05 .. 0,42 А</p> 
+        <p>Тип захисту (IEC 34-5): X4D</p> 
+        <p>Клас ізоляції (IEC 85): F</p>  <br/>
+        <p><b>Інший</b></p> <br/>  
+        <p>Енергія (EEI): 0,20</p> 
+        <p>Вага нетто: 2,1 кг</p> 
+        <p>Вага: 2,2 кг</p> 
+        <p>Об'єм транспортування: 0,004 м³</p> <br/> 
+        `
+    },
+    {
+        id: '127',
+        title: 'Редукційний 1 1/4" M - 1" GW (кільце)',
+        code: 'RED-11/4-GZ-1-GW',
+        price: '23.92',
+        newPrice: '',
+        size: 1,
+        slug: 'goods4-33',
+        img: '/water-pumps/33.jpg',
+        description: '',
+        descriptionPrise: '',
+        bread1: {
+            slug: '/water-pumps-and-accessories',
+            title: 'Насоси та дозатори миючих засобів',
+        },
+        bread2: {
+            slug: '/low-pressure-pumps',
+            title: 'Насоси низького тиску',
+        },
+        bread3: {
+            slug: '/accessories-for-pumps',
+            title: 'Аксесуари для насосів',
+        },
+        descriptionMin: 'Редукційний 1 1/4" M - 1" GW (кільце)',
+        weight: '',
+        codeEAN: '',
+        imageShow: ['/water-pumps/33.jpg', '/water-pumps/image4.jpg', ],
+        descriptionFull: `
+        <p>Латунне зменшення: внутрішня різьба кільця: зовнішня різьба GW 1" : GZ 1 1/4"</p> <br/> 
+        `
+    },
+    {
+        id: '128',
+        title: 'Муфта для насоса CAT 340-350 SPIDEX (709641) 28мм/20мм',
+        code: 'SPR-POM-340-002',
+        price: '164.68',
+        newPrice: '',
+        size: 1,
+        slug: 'goods4-34',
+        img: '/water-pumps/34.jpg',
+        description: '',
+        descriptionPrise: '',
+        bread1: {
+            slug: '/water-pumps-and-accessories',
+            title: 'Насоси та дозатори миючих засобів',
+        },
+        bread2: {
+            slug: '/low-pressure-pumps',
+            title: 'Насоси низького тиску',
+        },
+        bread3: {
+            slug: '/accessories-for-pumps',
+            title: 'Аксесуари для насосів',
+        },
+        descriptionMin: 'Редукційний 1 1/4" M - 1" GW (кільце)',
+        weight: '',
+        codeEAN: '',
+        imageShow: ['/water-pumps/34.jpg', '/water-pumps/image4.jpg', ],
+        descriptionFull: `
+        <p>Латунне зменшення: внутрішня різьба кільця: зовнішня різьба GW 1" : GZ 1 1/4"</p> <br/> 
+        `
+    },
+    {
+        id: '129',
+        title: 'Гнучка муфта для Interpump HT4715, 4-5.5 (ZG151) EH',
+        code: 'SPR-IP-EH',
+        price: '97.58',
+        newPrice: '',
+        size: 1,
+        slug: 'goods4-35',
+        img: '/water-pumps/35.jpg',
+        description: '',
+        descriptionPrise: '',
+        bread1: {
+            slug: '/water-pumps-and-accessories',
+            title: 'Насоси та дозатори миючих засобів',
+        },
+        bread2: {
+            slug: '/high-pressure-pumps',
+            title: 'Насоси високого тиску',
+        },
+        bread3: {
+            slug: '/accessories-and-repair-kits',
+            title: 'Аксесуари та ремонтні комплекти',
+        },
+        descriptionMin: 'Муфта насоса CAT 340 і 350 МУФТА',
+        weight: '0,261',
+        codeEAN: '',
+        imageShow: ['/water-pumps/35.jpg', ],
+        descriptionFull: `
+        <p>Муфта насоса: </p> <br/> 
+        <p>CAT 340</p> 
+        <p>CAT 350</p> <br/> 
+        <p>SPIDEX 28мм/20мм</p> <br/> 
+        `
+    },
+    {
+        id: '130',
+        title: 'Муфта насоса CAT 1140 COUPLING [30736] 28мм/16,5мм',
+        code: 'SPR-CAT-002',
+        price: '219.15',
+        newPrice: '',
+        size: 1,
+        slug: 'goods4-36',
+        img: '/water-pumps/36.jpg',
+        description: '',
+        descriptionPrise: '',
+        bread1: {
+            slug: '/water-pumps-and-accessories',
+            title: 'Насоси та дозатори миючих засобів',
+        },
+        bread2: {
+            slug: '/high-pressure-pumps',
+            title: 'Насоси високого тиску',
+        },
+        bread3: {
+            slug: '/accessories-and-repair-kits',
+            title: 'Аксесуари та ремонтні комплекти',
+        },
+        descriptionMin: 'Назва: Муфта насоса CAT 1140 Код: SPR-CAT-002 Муфта насоса CAT 1140 Код виробника: ' +
+            '(30736) 28мм/15мм',
+        weight: '0,5',
+        codeEAN: '',
+        imageShow: ['/water-pumps/36.jpg', '/water-pumps/image5.jpg', ],
+        descriptionFull: `
+        <p>Муфта для насоса CAT 1140 </p> <br/> 
+        <p>Артикул виробника: (30736) 28мм/15мм</p> <br/> 
+        `
+    },
+    {
+        id: '131',
+        title: 'Муфта насоса Hawk NMT 28мм/24мм (1.099-541.0)',
+        code: 'SPR-HAWK-NMT',
+        price: '126.42',
+        newPrice: '',
+        size: 1,
+        slug: 'goods4-37',
+        img: '/water-pumps/37.jpg',
+        description: '',
+        descriptionPrise: '',
+        bread1: {
+            slug: '/water-pumps-and-accessories',
+            title: 'Насоси та дозатори миючих засобів',
+        },
+        bread2: {
+            slug: '/high-pressure-pumps',
+            title: 'Насоси високого тиску',
+        },
+        bread3: {
+            slug: '/accessories-and-repair-kits',
+            title: 'Аксесуари та ремонтні комплекти',
+        },
+        descriptionMin: 'Муфта насоса Hawk NMT Технічні дані ФОРМА ДВИГУНА: H100 / 112 ВОМ НАСОСУ O: 24 мм ВВП ' +
+            'ДВИГУНА O: 28 мм Матеріал: алюміній та сполучна зірка зі спеціального поліуретану',
+        weight: '',
+        codeEAN: '',
+        imageShow: ['/water-pumps/37.jpg', '/water-pumps/image6.jpg', '/water-pumps/image7.jpg',
+            '/water-pumps/image8.jpg', ],
+        descriptionFull: `
+        <p>Муфта насоса Hawk NMT</p> <br/> 
+        <p><b>Технічні дані</b></p> <br/> 
+        <p>ФОРМА ДВИГУНА: H100 / 112</p> 
+        <p>ВОМ НАСОСА O: 24 мм</p> 
+        <p>ВОМ ДВИГУНА: 28 мм</p> 
+        <p>Матеріал: алюміній і сполучна зірка зі спеціального поліуретану</p> <br/> 
+        `
+    },
+    {
+        id: '132',
+        title: 'Муфта насоса NU.ER.T IEC80 B14',
+        code: 'SPR-NUE-003',
+        price: '87.24',
+        newPrice: '',
+        size: 1,
+        slug: 'goods4-38',
+        img: '/water-pumps/38.jpg',
+        description: '',
+        descriptionPrise: '',
+        bread1: {
+            slug: '/water-pumps-and-accessories',
+            title: 'Насоси та дозатори миючих засобів',
+        },
+        bread2: {
+            slug: '/high-pressure-pumps',
+            title: 'Насоси високого тиску',
+        },
+        bread3: {
+            slug: '/accessories-and-repair-kits',
+            title: 'Аксесуари та ремонтні комплекти',
+        },
+        descriptionMin: 'Муфта для насоса NU.ER.T. IEC80 B14 Код виробника: (PR 2195)',
+        weight: '0,361',
+        codeEAN: '',
+        imageShow: ['/water-pumps/38.jpg', '/water-pumps/image9.jpg',  ],
+        descriptionFull: `
+        <p>Муфта для насоса NU.ER.T IEC80 B14</p> <br/> 
+        `
+    },
+    {
+        id: '133',
+        title: 'Знімач сідла ущільнення насоса 340/350',
+        code: 'KLU-CAT-001',
+        price: '225.59',
+        newPrice: '',
+        size: 1,
+        slug: 'goods4-39',
+        img: '/water-pumps/39.jpg',
+        description: '',
+        descriptionPrise: '',
+        bread1: {
+            slug: '/water-pumps-and-accessories',
+            title: 'Насоси та дозатори миючих засобів',
+        },
+        bread2: {
+            slug: '/high-pressure-pumps',
+            title: 'Насоси високого тиску',
+        },
+        bread3: {
+            slug: '/accessories-and-repair-kits',
+            title: 'Аксесуари та ремонтні комплекти',
+        },
+        descriptionMin: 'Знімач для сідел ущільнення насоса: CAT 340 CAT 350',
+        weight: '0,13',
+        codeEAN: '',
+        imageShow: ['/water-pumps/39.jpg', ],
+        descriptionFull: `
+        <p>Екстракт сідла ущільнення насоса:</p> <br/> 
+        <p>CAT 340</p>
+        <p>CAT 350</p> <br/> 
+        `
+    },
+    {
+        id: '134',
+        title: 'Сальник [17547] для насоса CAT 1140',
+        code: 'USZ-CAT-008',
+        price: '12.10',
+        newPrice: '',
+        size: 1,
+        slug: 'goods4-40',
+        img: '/water-pumps/40.jpg',
+        description: '',
+        descriptionPrise: '',
+        bread1: {
+            slug: '/water-pumps-and-accessories',
+            title: 'Насоси та дозатори миючих засобів',
+        },
+        bread2: {
+            slug: '/high-pressure-pumps',
+            title: 'Насоси високого тиску',
+        },
+        bread3: {
+            slug: '/accessories-and-repair-kits',
+            title: 'Аксесуари та ремонтні комплекти',
+        },
+        descriptionMin: 'Сальник для насоса CAT 1140',
+        weight: '0,01',
+        codeEAN: '',
+        imageShow: ['/water-pumps/40.jpg', ],
+        descriptionFull: `
+        <p>Сальник для насоса CAT 1140</p> <br/> 
+        `
+    },
+    {
+        id: '135',
+        title: 'Сальник [48361] для насоса CAT 340/350',
+        code: 'USZ-CAT-011',
+        price: '15.24',
+        newPrice: '',
+        size: 1,
+        slug: 'goods4-41',
+        img: '/water-pumps/41.jpg',
+        description: '',
+        descriptionPrise: '',
+        bread1: {
+            slug: '/water-pumps-and-accessories',
+            title: 'Насоси та дозатори миючих засобів',
+        },
+        bread2: {
+            slug: '/high-pressure-pumps',
+            title: 'Насоси високого тиску',
+        },
+        bread3: {
+            slug: '/accessories-and-repair-kits',
+            title: 'Аксесуари та ремонтні комплекти',
+        },
+        descriptionMin: 'Пластикова шайба для ущільнювального кільця клапана насоса CAT',
+        weight: '0,01',
+        codeEAN: '',
+        imageShow: ['/water-pumps/41.jpg', ],
+        descriptionFull: `
+        <p>Ущільнення насоса:</p> <br/> 
+        <p>CAT 340</p>
+        <p>CAT 350</p> <br/> 
+        <p>Пластикова шайба для ущільнювального кільця клапана насоса CAT.</p> <br/> 
+        `
+    },
+    {
+        id: '136',
+        title: 'Сальник CAT (43358)',
+        code: 'USZ-CAT-010',
+        price: '6.27',
+        newPrice: '',
+        size: 1,
+        slug: 'goods4-42',
+        img: '/water-pumps/42.jpg',
+        description: '',
+        descriptionPrise: '',
+        bread1: {
+            slug: '/water-pumps-and-accessories',
+            title: 'Насоси та дозатори миючих засобів',
+        },
+        bread2: {
+            slug: '/high-pressure-pumps',
+            title: 'Насоси високого тиску',
+        },
+        bread3: {
+            slug: '/accessories-and-repair-kits',
+            title: 'Аксесуари та ремонтні комплекти',
+        },
+        descriptionMin: 'Сальник клапана насоса CAT 350',
+        weight: '0,01',
+        codeEAN: '',
+        imageShow: ['/water-pumps/42.jpg', ],
+        descriptionFull: `
+        <p>Прокладка клапана для насоса CAT 350 </p> <br/> 
+        `
+    },
+    {
+        id: '137',
+        title: 'Сальник підшипника насоса ДЛЯ НАСОСА CAT 350',
+        code: 'USZ-CAT-005',
+        price: '21.30',
+        newPrice: '',
+        size: 1,
+        slug: 'goods4-43',
+        img: '/water-pumps/43.jpg',
+        description: '',
+        descriptionPrise: '',
+        bread1: {
+            slug: '/water-pumps-and-accessories',
+            title: 'Насоси та дозатори миючих засобів',
+        },
+        bread2: {
+            slug: '/high-pressure-pumps',
+            title: 'Насоси високого тиску',
+        },
+        bread3: {
+            slug: '/accessories-and-repair-kits',
+            title: 'Аксесуари та ремонтні комплекти',
+        },
+        descriptionMin: 'Сальник підшипника насоса CAT 350',
+        weight: '',
+        codeEAN: '',
+        imageShow: ['/water-pumps/43.jpg', ],
+        descriptionFull: `
+        <p>Сальник підшипника насоса CAT 350</p> <br/> 
+        `
+    },
+    {
+        id: '138',
+        title: 'Сальник до насоса CAT 1140 SEAL',
+        code: 'USZ-CAT-004/2',
+        price: '25.18',
+        newPrice: '',
+        size: 1,
+        slug: 'goods4-44',
+        img: '/water-pumps/44.jpg',
+        description: '',
+        descriptionPrise: '',
+        bread1: {
+            slug: '/water-pumps-and-accessories',
+            title: 'Насоси та дозатори миючих засобів',
+        },
+        bread2: {
+            slug: '/high-pressure-pumps',
+            title: 'Насоси високого тиску',
+        },
+        bread3: {
+            slug: '/accessories-and-repair-kits',
+            title: 'Аксесуари та ремонтні комплекти',
+        },
+        descriptionMin: 'Сальник для насоса CAT 1140 В упаковці один герметик.',
+        weight: '',
+        codeEAN: '',
+        imageShow: ['/water-pumps/44.jpg', ],
+        descriptionFull: `
+        <p>Сальник до насоса CAT 1140</p> <br/> 
+        <p>В упаковці один ущільнювач.</p> <br/> 
+        `
+    },
+    {
+        id: '139',
+        title: 'Сальник насоса CAT 350 САЛЬНИК КАРТЕРА',
+        code: 'USZ-CAT-003/2',
+        price: '25.66',
+        newPrice: '',
+        size: 1,
+        slug: 'goods4-45',
+        img: '/water-pumps/45.jpg',
+        description: '',
+        descriptionPrise: '',
+        bread1: {
+            slug: '/water-pumps-and-accessories',
+            title: 'Насоси та дозатори миючих засобів',
+        },
+        bread2: {
+            slug: '/high-pressure-pumps',
+            title: 'Насоси високого тиску',
+        },
+        bread3: {
+            slug: '/accessories-and-repair-kits',
+            title: 'Аксесуари та ремонтні комплекти',
+        },
+        descriptionMin: 'Сальник для насоса CAT 350 В упаковці один герметик.',
+        weight: '0,008',
+        codeEAN: '',
+        imageShow: ['/water-pumps/45.jpg', ],
+        descriptionFull: `
+        <p>Сальник до насоса CAT 350. </p> <br/> 
+        <p>В упаковці один ущільнювач.</p> <br/> 
+        `
+    },
+    {
+        id: '140',
+        title: 'Ущільнення плунжера CAT 45688',
+        code: 'USZ-NUR-CAT',
+        price: '19.99',
+        newPrice: '',
+        size: 1,
+        slug: 'goods4-46',
+        img: '/water-pumps/46.jpg',
+        description: '',
+        descriptionPrise: '',
+        bread1: {
+            slug: '/water-pumps-and-accessories',
+            title: 'Насоси та дозатори миючих засобів',
+        },
+        bread2: {
+            slug: '/high-pressure-pumps',
+            title: 'Насоси високого тиску',
+        },
+        bread3: {
+            slug: '/accessories-and-repair-kits',
+            title: 'Аксесуари та ремонтні комплекти',
+        },
+        descriptionMin: 'Плунжерне ущільнення для насоса CAT 350',
+        weight: '0,014',
+        codeEAN: '',
+        imageShow: ['/water-pumps/46.jpg', ],
+        descriptionFull: `
+        <p>Ущільнення плунжера до насоса CAT 350. </p> <br/> 
+        `
+    },
+    {
+        id: '141',
+        title: 'Набір для ремонту ущільнювача гарячої води для насосів CAT 310/340/350',
+        code: 'USZ-CAT-001',
+        price: '571.30',
+        newPrice: '',
+        size: 1,
+        slug: 'goods4-47',
+        img: '/water-pumps/47.jpg',
+        description: '',
+        descriptionPrise: '',
+        bread1: {
+            slug: '/water-pumps-and-accessories',
+            title: 'Насоси та дозатори миючих засобів',
+        },
+        bread2: {
+            slug: '/high-pressure-pumps',
+            title: 'Насоси високого тиску',
+        },
+        bread3: {
+            slug: '/accessories-and-repair-kits',
+            title: 'Аксесуари та ремонтні комплекти',
+        },
+        descriptionMin: 'Ремкомплект призначений для насосів CAT: 1. 46667 - 3 шт., 3. 14200 - 3 шт - 3 шт.',
+        weight: '0,036',
+        codeEAN: '',
+        imageShow: ['/water-pumps/47.jpg', ],
+        descriptionFull: `
+        <p>Ремкомплект для насосів CAT:</p> <br/> 
+        <p>310, </p> 
+        <p>340, </p> 
+        <p>350.</p> <br/> 
+        <p>Набір ущільнювачів для ГВП.</p> <br/> 
+        <p><b>У набір входить:</b></p> <br/> 
+        <p>Прокладка (46667) - 3 шт.</p>
+        <p>Прокладка (43305) - 3 шт.</p>
+        <p>О-кільце (14200) - 3 шт.</p>
+        <p>О-кільце (17399) - 3 шт.</p>
+        <p>Пломба пломба (43302) - 3 шт.</p> <br/> 
+        <p>Номер комплекту: (33623)</p> <br/> 
+        <p>Виробник: CAT</p> <br/> 
+        <p>Примітка: набір буде замінено на USZ-CAT-30623</p> <br/> 
+        `
+    },
+    {
+        id: '142',
+        title: 'Ремкомплект сальника для насоса CAT 1140 КОМПЛЕКТ, САЛЬН',
+        code: 'USZ-CAT-002',
+        price: '429.91',
+        newPrice: '',
+        size: 1,
+        slug: 'goods4-48',
+        img: '/water-pumps/48.jpg',
+        description: '',
+        descriptionPrise: '',
+        bread1: {
+            slug: '/water-pumps-and-accessories',
+            title: 'Насоси та дозатори миючих засобів',
+        },
+        bread2: {
+            slug: '/high-pressure-pumps',
+            title: 'Насоси високого тиску',
+        },
+        bread3: {
+            slug: '/accessories-and-repair-kits',
+            title: 'Аксесуари та ремонтні комплекти',
+        },
+        descriptionMin: 'Ремкомплект призначений для насосів CAT: 3CP1120, 3CP1130, 3CP1140. У комплект входить: ' +
+            'Шайба/прокладка (43243) - 3 шт. Прокладка (43245) - 3 шт',
+        weight: '0,03',
+        codeEAN: '',
+        imageShow: ['/water-pumps/48.jpg', ],
+        descriptionFull: `
+        <p>Ремкомплект призначений для насосів CAT: </p> <br/> 
+        <p>3CP1120,</p> 
+        <p>3CP1130,</p> 
+        <p>3CP1140.</p> <br/> 
+        <p><b>У набір входить:</b></p> <br/> 
+        <p>Шайба/прокладка (46730) - 3 шт.</p>
+        <p>Прокладка (43243) - 3 шт.</p>
+        <p>О-кільце (13976) - 3 шт.</p>
+        <p>Прокладка (43245) - 3 шт.</p> <br/> 
+        <p>Номер комплекту: (33983)</p> <br/> 
+        <p>Виробник: CAT</p> <br/>
+        `
+    },
+    {
+        id: '143',
+        title: 'Ремкомплект сальника насоса CAT 5CP2150W',
+        code: 'USZ-CAT-009',
+        price: '1077.64',
+        newPrice: '',
+        size: 1,
+        slug: 'goods4-49',
+        img: '/water-pumps/49.jpg',
+        description: '',
+        descriptionPrise: '',
+        bread1: {
+            slug: '/water-pumps-and-accessories',
+            title: 'Насоси та дозатори миючих засобів',
+        },
+        bread2: {
+            slug: '/high-pressure-pumps',
+            title: 'Насоси високого тиску',
+        },
+        bread3: {
+            slug: '/accessories-and-repair-kits',
+            title: 'Аксесуари та ремонтні комплекти',
+        },
+        descriptionMin: 'Набір для ремонту ущільнень для насосів CAT: 5CP2120W, 2140WCS, 2150W. У комплект входить: ' +
+            'Прокладка (43306) - 3 шт. Шайба/прокладка (46730) Номер набору: (33628) ',
+        weight: '0,03',
+        codeEAN: '',
+        imageShow: ['/water-pumps/49.jpg', ],
+        descriptionFull: `
+        <p>Ремкомплект ущільнень для насосів CAT: </p> <br/> 
+        <p>5CP2120W, </p> 
+        <p>2140WCS, </p> 
+        <p>2150 Вт.</p> <br/> 
+        <p><b>У набір входить:</b></p> <br/> 
+        <p>Прокладка (43307) - 3 шт.</p>
+        <p>Прокладка (43306) - 3 шт.</p>
+        <p>О-кільце (13978) - 3 шт.</p>
+        <p>Шайба/прокладка (46730) - 3 шт.</p> <br/> 
+        <p>Номер комплекту: (33628)</p> <br/> 
+        <p>Виробник: CAT</p> <br/>
+        `
+    },
+    {
+        id: '144',
+        title: 'Ремкомплект водяного сальника насоса HAWK NMT CW (1.099-849.0)',
+        code: 'ZES-NAP-HAWK-1.099-849.0',
+        price: '260.50',
+        newPrice: '',
+        size: 1,
+        slug: 'goods4-50',
+        img: '/water-pumps/50.jpg',
+        description: '',
+        descriptionPrise: '',
+        bread1: {
+            slug: '/water-pumps-and-accessories',
+            title: 'Насоси та дозатори миючих засобів',
+        },
+        bread2: {
+            slug: '/high-pressure-pumps',
+            title: 'Насоси високого тиску',
+        },
+        bread3: {
+            slug: '/accessories-and-repair-kits',
+            title: 'Аксесуари та ремонтні комплекти',
+        },
+        descriptionMin: 'Ремкомплект плунжерних ущільнень насоса HAWK NMT fi20',
+        weight: '',
+        codeEAN: '',
+        imageShow: ['/water-pumps/50.jpg', ],
+        descriptionFull: `
+        <p>Ремкомплект плунжерних ущільнень насоса HAWK NMT fi20</p> <br/>
+        `
+    },
+    {
+        id: '145',
+        title: 'Ремкомплект ущільнень холодної води для насосів CAT 310/340/350 (30623)',
+        code: 'USZ-CAT-30623',
+        price: '416.79',
+        newPrice: '',
+        size: 1,
+        slug: 'goods4-51',
+        img: '/water-pumps/51.jpg',
+        description: '',
+        descriptionPrise: '',
+        bread1: {
+            slug: '/water-pumps-and-accessories',
+            title: 'Насоси та дозатори миючих засобів',
+        },
+        bread2: {
+            slug: '/high-pressure-pumps',
+            title: 'Насоси високого тиску',
+        },
+        bread3: {
+            slug: '/accessories-and-repair-kits',
+            title: 'Аксесуари та ремонтні комплекти',
+        },
+        descriptionMin: 'Ремкомплект для ущільнень холодної води для насосів CAT: 310, 340, 350. У комплекті: ' +
+            'Прокладка (46667) - 3 шт (43305) - 3 шт. Ущільнювальне кільце (17399) - 3 шт. Набір: (30623)',
+        weight: '',
+        codeEAN: '',
+        imageShow: ['/water-pumps/51.jpg', ],
+        descriptionFull: `
+        <p>Набір для ремонту ущільнень холодної води для насосів CAT: </p> <br/> 
+        <p>310,</p> 
+        <p>340,</p> 
+        <p>350.</p> <br/> 
+        <p><b>У набір входить:</b></p> <br/> 
+        <p>Прокладка (46667) - 3 шт.</p>
+        <p>Прокладка (43305) - 3 шт.</p>
+        <p>О-кільце (14200) - 3 шт.</p>
+        <p>О-кільце (17399) - 3 шт.</p>
+        <p>Пломба (43302) - 3 шт.</p> <br/> 
+        <p>Номер комплекту: (30623)</p> <br/> 
+        <p>Виробник: CAT</p> <br/>
+        `
+    },
+    {
+        id: '146',
+        title: 'Ремкомплект шатуна/ущільнення валу насоса HAWK NMT (1.905-542.0)',
+        code: 'ZES-NAP-HAWK-1.905-542.0',
+        price: '33.14',
+        newPrice: '',
+        size: 1,
+        slug: 'goods4-52',
+        img: '/water-pumps/52.jpg',
+        description: '',
+        descriptionPrise: '',
+        bread1: {
+            slug: '/water-pumps-and-accessories',
+            title: 'Насоси та дозатори миючих засобів',
+        },
+        bread2: {
+            slug: '/high-pressure-pumps',
+            title: 'Насоси високого тиску',
+        },
+        bread3: {
+            slug: '/accessories-and-repair-kits',
+            title: 'Аксесуари та ремонтні комплекти',
+        },
+        descriptionMin: 'Ремкомплект HAWK NMT',
+        weight: '',
+        codeEAN: '',
+        imageShow: ['/water-pumps/52.jpg', ],
+        descriptionFull: `
+        <p>Ремкомплект шатуна/ущільнення валу насоса HAWK NMT (1.905-542.0)</p> <br/>
+        `
+    },
+    {
+        id: '147',
+        title: 'Ремкомплект клапанів для насосів CAT 310, 340, 350, 5CP2120W',
+        code: 'ZAW-CAT-001',
+        price: '358.64',
+        newPrice: '',
+        size: 1,
+        slug: 'goods4-53',
+        img: '/water-pumps/53.jpg',
+        description: '',
+        descriptionPrise: '',
+        bread1: {
+            slug: '/water-pumps-and-accessories',
+            title: 'Насоси та дозатори миючих засобів',
+        },
+        bread2: {
+            slug: '/high-pressure-pumps',
+            title: 'Насоси високого тиску',
+        },
+        bread3: {
+            slug: '/accessories-and-repair-kits',
+            title: 'Аксесуари та ремонтні комплекти',
+        },
+        descriptionMin: 'Ремкомплект клапанів для насосів CAT 310, 340, 350',
+        weight: '0,048',
+        codeEAN: '',
+        imageShow: ['/water-pumps/53.jpg', ],
+        descriptionFull: `
+        <p>Ремкомплект клапанів для насосів CAT:</p> <br/> 
+        <p>310,</p> 
+        <p>340,</p> 
+        <p>350,</p> 
+        <p>5CP2120W,</p> 
+        <p>2140WCS,</p> 
+        <p>2150 Вт.</p>  <br/> 
+        <p><b>У набір входить:</b></p> <br/> 
+        <p>Стопорне кільце, сальник (48361) - 3 шт.</p>
+        <p>О-Ring, ущільнювальне кільце - 70D (43358) - 3 шт.</p>
+        <p>Ущільнювальне кільце - 70D (44938) - 3 шт. </p>
+        <p>Кільце ущільнювальне (43725) - 3 шт. </p>
+        <p>Клапан (43723) - 3 шт.  </p>
+        <p>Пружина - S (43750) - 3 шт. </p>
+        <p>Шайба стопорна, пружина клапана (44565) - 3 шт.</p>
+        <p>О-кільце, кришка клапана (17615) - 3 шт.</p>
+        <p>Ущільнювальне кільце, кришка клапана (15855) - 3 шт.</p> <br/> 
+        <p>Номер комплекту: (30821)</p> <br/> 
+        <p>Виробник: CAT</p> <br/>
+        `
+    },
+    {
+        id: '148',
+        title: 'Ремкомплект клапанів насоса CAT 1140 комплект, клапани',
+        code: 'ZAW-CAT-002',
+        price: '230.63',
+        newPrice: '',
+        size: 1,
+        slug: 'goods4-54',
+        img: '/water-pumps/54.jpg',
+        description: '',
+        descriptionPrise: '',
+        bread1: {
+            slug: '/water-pumps-and-accessories',
+            title: 'Насоси та дозатори миючих засобів',
+        },
+        bread2: {
+            slug: '/high-pressure-pumps',
+            title: 'Насоси високого тиску',
+        },
+        bread3: {
+            slug: '/accessories-and-repair-kits',
+            title: 'Аксесуари та ремонтні комплекти',
+        },
+        descriptionMin: 'Ремкомплект клапана для насоса CAT: 3CP 1120, 3CP1130, 3CP1140. У комплекті 3 клапана. ' +
+            'Артикул виробника: (33062)',
+        weight: '0,05',
+        codeEAN: '',
+        imageShow: ['/water-pumps/54.jpg', ],
+        descriptionFull: `
+        <p>Ремкомплект клапанів для насосів CAT:</p> <br/> 
+        <p>3CP 1120,</p> 
+        <p>3CP1130,</p>
+        <p>3CP1140.</p>  <br/> 
+        <p>У комплекті 3 клапана.</p>  <br/> 
+        <p>Виробник: CAT</p> <br/>
+        `
+    },
+    {
+        id: '149',
+        title: 'Ремкомплект клапана насоса HAWK NMT (1.905-543.0)',
+        code: 'ZES-NAP-HAWK-1.905-543.0',
+        price: '156.23',
+        newPrice: '',
+        size: 1,
+        slug: 'goods4-55',
+        img: '/water-pumps/55.jpg',
+        description: '',
+        descriptionPrise: '',
+        bread1: {
+            slug: '/water-pumps-and-accessories',
+            title: 'Насоси та дозатори миючих засобів',
+        },
+        bread2: {
+            slug: '/high-pressure-pumps',
+            title: 'Насоси високого тиску',
+        },
+        bread3: {
+            slug: '/accessories-and-repair-kits',
+            title: 'Аксесуари та ремонтні комплекти',
+        },
+        descriptionMin: 'Ремкомплект клапана для насоса HAWK NMT',
+        weight: '',
+        codeEAN: '',
+        imageShow: ['/water-pumps/55.jpg', ],
+        descriptionFull: `
+        <p>Ремкомплект клапана насоса HAWK NMT</p> <br/>
+        `
+    },
+
+    {
+        id: '150',
+        title: 'Червоне оргскло для дисплея COMESTERO',
+        code: 'COM-PLE',
+        price: '36.99',
+        newPrice: '',
+        size: 1,
+        slug: 'goods5-1',
+        img: '/system-payment/1.jpg',
+        description: '',
+        descriptionPrise: '',
+        bread1: {
+            slug: '/payment-systems',
+            title: 'Платіжні системи',
+        },
+        bread2: {
+            slug: '/payment-systems/cashless',
+            title: 'Безготівковий',
+        },
+        bread3: {
+            slug: '/payment-systems/cashless/loyalty-operations',
+            title: 'Операції лояльності з карткою/ключем',
+        },
+        descriptionMin: 'Червоне оргскло для дисплея COMESTERO',
+        weight: '',
+        codeEAN: '',
+        imageShow: ['/system-payment/1.jpg', '/system-payment/image1.jpg', ],
+        descriptionFull: `
+        <p>Червоне оргскло для дисплея COMESTERO</p>
+        `
+    },
+    {
+        id: '151',
+        title: 'Зчитувач банкнот ICT XBA з касетою для банкнот на 400 штук (імпульсний кабель 12 В постійного струму, кабель MDB 34 В постійного струму)',
+        code: 'CZY-BAN-XBA',
+        price: '2362.37',
+        newPrice: '',
+        size: 1,
+        slug: 'goods5-2',
+        img: '/system-payment/2.jpg',
+        description: '',
+        descriptionPrise: '',
+        bread1: {
+            slug: '/payment-systems',
+            title: 'Платіжні системи',
+        },
+        bread2: {
+            slug: '/payment-systems/cash',
+            title: 'Готівка',
+        },
+        bread3: {
+            slug: '/payment-systems/cash/banknote-readers-and-accessories',
+            title: 'Зчитувачі банкнот і аксесуари',
+        },
+        descriptionMin: 'Зчитувач банкнот ICT XBA з касетою для банкнот на 400 шт.',
+        weight: '',
+        codeEAN: '',
+        imageShow: ['/system-payment/2.jpg', ],
+        descriptionFull: `
+        <p>Зчитувач банкнот ICT XBA з касетою для банкнот на 400 штук, імпульсним кабелем 12 В постійного струму,
+         кабелем MDB 34 В постійного струму.</p> <br/>
+        <p>Зчитувач запрограмований на валюти, надані виробником. Стандартно він поставляється з валютою PLN, 
+        а перепрограмування через флешку USB є обов’язком дилера.</p> <br/>
+        `
+    },
+    {
+        id: '152',
+        title: 'ПЕРСОНАЛІЗОВАНА КАРТКА MIFARE "SamWash"',
+        code: 'КАР-КОМ',
+        price: '21.29',
+        newPrice: '',
+        size: 1,
+        slug: 'goods5-3',
+        img: '/system-payment/3.jpg',
+        description: '',
+        descriptionPrise: '',
+        bread1: {
+            slug: '/payment-systems',
+            title: 'Платіжні системи',
+        },
+        bread2: {
+            slug: '/payment-systems/cashless',
+            title: 'Безготівковий',
+        },
+        bread3: {
+            slug: '/payment-systems/cashless/loyalty-operations',
+            title: 'Операції лояльності з карткою/ключем',
+        },
+        descriptionMin: 'ПЕРСОНАЛІЗОВАНА КАРТКА MIFARE "SamWash"',
+        weight: '0,005',
+        codeEAN: '2010000000199',
+        imageShow: ['/system-payment/3.jpg', ],
+        descriptionFull: `
+        <p><b>Пропозиція діє тільки на картку. Для поповнення продукту необхідна наявність автомийки SamWash</b></p> <br/>
+        <p>ПЕРСОНАЛІЗОВАНА КАРТКА MIFARE "SamWash"</p> <br/>
+        `
+    },
+    {
+        id: '153',
+        title: 'Касета для зчитування банкнот ICT XBA на 400 банкнот',
+        code: 'KAS-CZY-BAN-ICT-XBA-400',
+        price: '227.91',
+        newPrice: '',
+        size: 1,
+        slug: 'goods5-4',
+        img: '/system-payment/4.jpg',
+        description: '',
+        descriptionPrise: '',
+        bread1: {
+            slug: '/payment-systems',
+            title: 'Платіжні системи',
+        },
+        bread2: {
+            slug: '/payment-systems/cash',
+            title: 'Готівка',
+        },
+        bread3: {
+            slug: '/payment-systems/cash/banknote-readers-and-accessories',
+            title: 'Зчитувачі банкнот і аксесуари',
+        },
+        descriptionMin: 'Касета для зчитування банкнот ICT XBA на 400 банкнот',
+        weight: '0,376',
+        codeEAN: '',
+        imageShow: ['/system-payment/4.jpg', ],
+        descriptionFull: `
+        <p>Касета для зчитування банкнот ICT XBA на 400 банкнот.</p> <br/>
+        `
+    },
+    {
+        id: '154',
+        title: 'Касета для зчитування банкнот ICT XBA на 600 банкнот',
+        code: 'KAS-CZY-BAN-ICT-XBA-600',
+        price: '292.86',
+        newPrice: '',
+        size: 1,
+        slug: 'goods5-5',
+        img: '/system-payment/5.jpg',
+        description: '',
+        descriptionPrise: '',
+        bread1: {
+            slug: '/payment-systems',
+            title: 'Платіжні системи',
+        },
+        bread2: {
+            slug: '/payment-systems/cash',
+            title: 'Готівка',
+        },
+        bread3: {
+            slug: '/payment-systems/cash/banknote-readers-and-accessories',
+            title: 'Зчитувачі банкнот і аксесуари',
+        },
+        descriptionMin: 'Касета для зчитування банкнот ICT XBA на 600 банкнот',
+        weight: '',
+        codeEAN: '',
+        imageShow: ['/system-payment/5.jpg', ],
+        descriptionFull: `
+        <p>Касета для зчитування банкнот ICT XBA на 600 банкнот.</p> <br/>
+        `
+    },
+    {
+        id: '155',
+        title: 'Монетниця з нержавіючої сталі для модуля і робочих столів',
+        code: 'KAS-MOD-NIE',
+        price: '430.50',
+        newPrice: '',
+        size: 1,
+        slug: 'goods5-6',
+        img: '/system-payment/6.jpg',
+        description: '',
+        descriptionPrise: '',
+        bread1: {
+            slug: '/payment-systems',
+            title: 'Платіжні системи',
+        },
+        bread2: {
+            slug: '/payment-systems/cash',
+            title: 'Готівка',
+        },
+        bread3: {
+            slug: '/payment-systems/cash',
+            title: '',
+        },
+        descriptionMin: 'Монетниця з нержавіючої сталі для модуля і робочих столів',
+        weight: '1,2',
+        codeEAN: '',
+        imageShow: ['/system-payment/6.jpg', '/system-payment/image2.jpg', ],
+        descriptionFull: `
+        <p>Новий тип касети з нержавіючої сталі, який використовується для зберігання монет на автомийках.</p> <br/>
+        `
+    },
+    {
+        id: '156',
+        title: 'Повне кріплення зчитувача банкнот (оргскло в комплекті)',
+        code: 'MOC-CZY-BAN',
+        price: '237.22',
+        newPrice: '',
+        size: 1,
+        slug: 'goods5-7',
+        img: '/system-payment/7.jpg',
+        description: '',
+        descriptionPrise: '',
+        bread1: {
+            slug: '/payment-systems',
+            title: 'Платіжні системи',
+        },
+        bread2: {
+            slug: '/payment-systems/cash',
+            title: 'Готівка',
+        },
+        bread3: {
+            slug: '/payment-systems/cash/banknote-readers-and-accessories',
+            title: 'Зчитувачі банкнот і аксесуари',
+        },
+        descriptionMin: 'Повне кріплення зчитувача банкнот (оргскло в комплекті)',
+        weight: '0,18',
+        codeEAN: '',
+        imageShow: ['/system-payment/7.jpg', ],
+        descriptionFull: `
+        <p>Повний монтаж зчитувача банкнот. У комплект також входить оргскло.</p> <br/>
+        `
+    },
+    {
+        id: '157',
+        title: 'Кріплення монетоприймача та коместеро (без дисплея)(14-4-1)',
+        code: 'MOC-WRZ-COM',
+        price: '55.89',
+        newPrice: '',
+        size: 1,
+        slug: 'goods5-8',
+        img: '/system-payment/8.jpg',
+        description: '',
+        descriptionPrise: '',
+        bread1: {
+            slug: '/payment-systems',
+            title: 'Платіжні системи',
+        },
+        bread2: {
+            slug: '/payment-systems/cash',
+            title: 'Готівка',
+        },
+        bread3: {
+            slug: '/payment-systems/cash/coin-validators',
+            title: 'Валідатори монет',
+        },
+        descriptionMin: 'Кріплення монетоприймача та коместеро (без дисплея)(14-4-1)',
+        weight: '0,375',
+        codeEAN: '',
+        imageShow: ['/system-payment/8.jpg', ],
+        descriptionFull: `
+        <p>Монетник і кріплення коместеро. Продається тільки кріплення, без дисплея.</p> <br/>
+        `
+    },
+    {
+        id: '158',
+        title: 'Розводка кабелів для системи Eurokey Plus у версії MDB',
+        code: 'KAB-MDB',
+        price: '106.57',
+        newPrice: '',
+        size: 1,
+        slug: 'goods5-9',
+        img: '/system-payment/9.jpg',
+        description: '',
+        descriptionPrise: '',
+        bread1: {
+            slug: '/payment-systems',
+            title: 'Платіжні системи',
+        },
+        bread2: {
+            slug: '/payment-systems/cashless',
+            title: 'Безготівковий',
+        },
+        bread3: {
+            slug: '/payment-systems/cashless/loyalty-operations',
+            title: 'Операції лояльності з карткою/ключем',
+        },
+        descriptionMin: 'Розводка кабелів для системи Eurokey Next у версії MDB',
+        weight: '0,053',
+        codeEAN: '',
+        imageShow: ['/system-payment/9.jpg', ],
+        descriptionFull: `
+        <p>Розводка кабелів для системи Eurokey Plus у версії MDB.</p> <br/>
+        `
+    },
+    {
+        id: '159',
+        title: 'Кришка зчитувача PEP (Saturn) - в комплекті з кріпленням',
+        code: 'OSL-CZY-PEP',
+        price: '260.43',
+        newPrice: '',
+        size: 1,
+        slug: 'goods5-10',
+        img: '/system-payment/10.jpg',
+        description: '',
+        descriptionPrise: '',
+        bread1: {
+            slug: '/payment-systems',
+            title: 'Платіжні системи',
+        },
+        bread2: {
+            slug: '/payment-systems/cashless',
+            title: 'Безготівковий',
+        },
+        bread3: {
+            slug: '/payment-systems/cashless/transactions-with-payment-cards',
+            title: 'Операції з платіжними картками',
+        },
+        descriptionMin: 'Кришка зчитувача PEP (Saturn) - в комплекті з кріпленням',
+        weight: '',
+        codeEAN: '',
+        imageShow: ['/system-payment/10.jpg', ],
+        descriptionFull: `
+        <p>Повний чохол для зчитувача PeP (Saturn) з кріпленням.</p> <br/>
+        <p>Чохол захищає зчитувач від води та бруду.</p> <br/>
+        `
+    },
+    {
+        id: '160',
+        title: 'Дійсна кришка механізму та двері comestero (клапан з нержавіючої сталі + оргскло)',
+        code: 'MOD-BKF-OSL-WRZ',
+        price: '235.67',
+        newPrice: '',
+        size: 1,
+        slug: 'goods5-11',
+        img: '/system-payment/11.jpg',
+        description: '',
+        descriptionPrise: '',
+        bread1: {
+            slug: '/payment-systems',
+            title: 'Платіжні системи',
+        },
+        bread2: {
+            slug: '/payment-systems/cash',
+            title: 'Готівка',
+        },
+        bread3: {
+            slug: '/payment-systems/cash/coin-validators',
+            title: 'Валідатори монет',
+        },
+        descriptionMin: 'Дійсна кришка механізму та двері comestero (клапан з нержавіючої сталі + оргскло)',
+        weight: '',
+        codeEAN: '',
+        imageShow: ['/system-payment/11.jpg', '/system-payment/image3.jpg', ],
+        descriptionFull: `
+        <p>Дійсна кришка механізму та дверцята comestero (клапан з нержавіючої сталі + оргскло 3 мм)</p>
+        `
+    },
+    {
+        id: '161',
+        title: 'Кришка монетоприймача з оргскла',
+        code: 'KLA-MTM-001',
+        price: '78.41',
+        newPrice: '',
+        size: 1,
+        slug: 'goods5-12',
+        img: '/system-payment/12.jpg',
+        description: '',
+        descriptionPrise: '',
+        bread1: {
+            slug: '/payment-systems',
+            title: 'Платіжні системи',
+        },
+        bread2: {
+            slug: '/payment-systems/cash',
+            title: 'Готівка',
+        },
+        bread3: {
+            slug: '/payment-systems/cash/coin-validators',
+            title: 'Валідатори монет',
+        },
+        descriptionMin: 'Чохол з оргскла для валідатора',
+        weight: '0,1',
+        codeEAN: '',
+        imageShow: ['/system-payment/12.jpg', '/system-payment/image4.jpg', ],
+        descriptionFull: `
+        <p>Кришка з оргскла для монетообмінника.</p><br/>
+        <p>Прозора кришка з оргскла захищає монетоприймач від вологи та погодних умов.</p><br/>
+        <p>Висота: 18 см</p><br/>
+        <p>Ширина: 6,5 см</p><br/>
+        `
+    },
+    {
+        id: '162',
+        title: 'Полікарбонатна пластина для клепаних монет валідатора і кришки comestero (прозора 3мм)',
+        code: 'PLY-POL-WRZ-3MM',
+        price: '24.33',
+        newPrice: '',
+        size: 1,
+        slug: 'goods5-13',
+        img: '/system-payment/13.jpg',
+        description: '',
+        descriptionPrise: '',
+        bread1: {
+            slug: '/payment-systems',
+            title: 'Платіжні системи',
+        },
+        bread2: {
+            slug: '/payment-systems/cash',
+            title: 'Готівка',
+        },
+        bread3: {
+            slug: '/payment-systems/cash/coin-validators',
+            title: 'Валідатори монет',
+        },
+        descriptionMin: 'Полікарбонатна пластина для клепаних монет валідатора і кришки comestero (прозора 3мм)',
+        weight: '',
+        codeEAN: '',
+        imageShow: ['/system-payment/13.jpg', ],
+        descriptionFull: `
+        <p>Полікарбонатна пластина для клепаних монет валідатора і кришки comestero (прозора 3мм)</p><br/>
+        <p>Використовується в обкладинках з серпня 2017 року.</p><br/>
+        `
+    },
+    {
+        id: '163',
+        title: 'Полікарбонатна пластина для кришки монетоприймача і коместеро (прозора 2 мм)',
+        code: 'PLY-POL-WRZ',
+        price: '26.94',
+        newPrice: '',
+        size: 1,
+        slug: 'goods5-14',
+        img: '/system-payment/14.jpg',
+        description: '',
+        descriptionPrise: '',
+        bread1: {
+            slug: '/payment-systems',
+            title: 'Платіжні системи',
+        },
+        bread2: {
+            slug: '/payment-systems/cash',
+            title: 'Готівка',
+        },
+        bread3: {
+            slug: '/payment-systems/cash/coin-validators',
+            title: 'Валідатори монет',
+        },
+        descriptionMin: 'Полікарбонатна пластина для кришки монетоприймача і коместеро (прозора 2 мм)',
+        weight: '',
+        codeEAN: '',
+        imageShow: ['/system-payment/14.jpg', ],
+        descriptionFull: `
+        <p>Полікарбонатна пластина для кришки монетоприймача і коместеро (прозора 2 мм)</p><br/>
+        <p>Використовувалися в чохлах до серпня 2017 року.</p><br/>
+        `
+    },
+    {
+        id: '164',
+        title: 'Пластина полікарбонатна для чохлів Saturn/Nayax (прозора 3мм)',
+        code: 'PLY-POL-SAT-NX',
+        price: '21.62',
+        newPrice: '',
+        size: 1,
+        slug: 'goods5-15',
+        img: '/system-payment/15.jpg',
+        description: '',
+        descriptionPrise: '',
+        bread1: {
+            slug: '/payment-systems',
+            title: 'Платіжні системи',
+        },
+        bread2: {
+            slug: '/payment-systems/cashless',
+            title: 'Безготівковий',
+        },
+        bread3: {
+            slug: '/payment-systems/cashless/transactions-with-payment-cards',
+            title: 'Операції з платіжними картками',
+        },
+        descriptionMin: 'Пластина полікарбонатна для чохлів Saturn/Nayax (прозора 3мм)',
+        weight: '',
+        codeEAN: '',
+        imageShow: ['/system-payment/15.jpg', ],
+        descriptionFull: `
+        <p>Пластина полікарбонатна для чохлів Saturn/Nayax (прозора 3мм)</p><br/>
+        `
+    },
+    {
+        id: '165',
+        title: 'Кабель CCTalk 50 см для модуля і змінного автомата',
+        code: 'PRZ-CCT-50',
+        price: '41.76',
+        newPrice: '',
+        size: 1,
+        slug: 'goods5-16',
+        img: '/system-payment/16.jpg',
+        description: '',
+        descriptionPrise: '',
+        bread1: {
+            slug: '/payment-systems',
+            title: 'Платіжні системи',
+        },
+        bread2: {
+            slug: '/payment-systems/cash',
+            title: 'Готівка',
+        },
+        bread3: {
+            slug: '/payment-systems/cash/coin-validators',
+            title: 'Валідатори монет',
+        },
+        descriptionMin: 'Кабель CCTalk 50 см для модуля і змінного автомата',
+        weight: '',
+        codeEAN: '',
+        imageShow: ['/system-payment/16.jpg', ],
+        descriptionFull: `
+        <p>Кабель CCTalk довжиною 50 см для модуля і розмінного автомата (X6A).</p><br/>
+        `
+    },
+    {
+        id: '166',
+        title: 'CCTalk кабель 70 см до робочого столу',
+        code: 'PRZ-CCT-70',
+        price: '43.67',
+        newPrice: '',
+        size: 1,
+        slug: 'goods5-17',
+        img: '/system-payment/17.jpg',
+        description: '',
+        descriptionPrise: '',
+        bread1: {
+            slug: '/payment-systems',
+            title: 'Платіжні системи',
+        },
+        bread2: {
+            slug: '/payment-systems/cash',
+            title: 'Готівка',
+        },
+        bread3: {
+            slug: '/payment-systems/cash/coin-validators',
+            title: 'Валідатори монет',
+        },
+        descriptionMin: 'Кабель ccTalk, довжина 70 см',
+        weight: '0,03',
+        codeEAN: '',
+        imageShow: ['/system-payment/17.jpg', ],
+        descriptionFull: `
+        <p>Кабель CCTalk довжиною 70 см до робочого столу.</p><br/>
+        `
+    },
+    {
+        id: '167',
+        title: 'Система безготівкових розрахунків EuroKey NEXT COMESTERO',
+        code: 'SYS-COM-003',
+        price: '1258.40',
+        newPrice: '',
+        size: 1,
+        slug: 'goods5-18',
+        img: '/system-payment/18.jpg',
+        description: '',
+        descriptionPrise: '',
+        bread1: {
+            slug: '/payment-systems',
+            title: 'Платіжні системи',
+        },
+        bread2: {
+            slug: '/payment-systems/cashless',
+            title: 'Безготівковий',
+        },
+        bread3: {
+            slug: '/payment-systems/cashless/loyalty-operations',
+            title: 'Операції лояльності з карткою/ключем',
+        },
+        descriptionMin: 'Система безготівкових розрахунків EuroKey NEXT COMESTERO',
+        weight: '0,096',
+        codeEAN: '',
+        imageShow: ['/system-payment/18.jpg', '/system-payment/image5.jpg', ],
+        descriptionFull: `
+        <p>Система безготівкових розрахунків EuroKey NEXT COMESTERO (протокол Impulse та MDB)</p><br/>
+        <p><b>ПРИМІТКА: пристрій потребує програмування. Для цього під час оформлення замовлення вказуйте номер
+         автомийки. Якщо така інформація відсутня, пристрій не буде запрограмовано.</b></p><br/>
+        `
+    },
+    {
+        id: '168',
+        title: 'Стрічка для 10-контактного монетника (35см)',
+        code: 'TAS-10PIN-35',
+        price: '58.28',
+        newPrice: '',
+        size: 1,
+        slug: 'goods5-19',
+        img: '/system-payment/19.jpg',
+        description: '',
+        descriptionPrise: '',
+        bread1: {
+            slug: '/payment-systems',
+            title: 'Платіжні системи',
+        },
+        bread2: {
+            slug: '/payment-systems/cash',
+            title: 'Готівка',
+        },
+        bread3: {
+            slug: '/payment-systems/cash/coin-validators',
+            title: 'Валідатори монет',
+        },
+        descriptionMin: 'Стрічка для 10-контактного монетника (35см)',
+        weight: '',
+        codeEAN: '',
+        imageShow: ['/system-payment/19.jpg', ],
+        descriptionFull: `
+        <p>Стрічка для монетоприймача 10 pin.</p><br/>
+        <p>Довжина: 35см</p><br/>
+        <p>Імпульсний кабель.</p><br/>
+        `
+    },
+    {
+        id: '169',
+        title: 'Стрічка для 10-контактного монетника (60см)',
+        code: 'TAS-10PIN-60',
+        price: '48.77',
+        newPrice: '',
+        size: 1,
+        slug: 'goods5-20',
+        img: '/system-payment/20.jpg',
+        description: '',
+        descriptionPrise: '',
+        bread1: {
+            slug: '/payment-systems',
+            title: 'Платіжні системи',
+        },
+        bread2: {
+            slug: '/payment-systems/cash',
+            title: 'Готівка',
+        },
+        bread3: {
+            slug: '/payment-systems/cash/coin-validators',
+            title: 'Валідатори монет',
+        },
+        descriptionMin: 'Стрічка для 10-контактного монетника (60см)',
+        weight: '',
+        codeEAN: '',
+        imageShow: ['/system-payment/20.jpg', ],
+        descriptionFull: `
+        <p>Стрічка для монетоприймача 10 pin.</p><br/>
+        <p>Довжина: 60см</p><br/>
+        <p>Імпульсний кабель.</p><br/>
+        `
+    },
+    {
+        id: '170',
+        title: 'Стрічка для 10-контактного монетника (70см)',
+        code: 'TAS-10PIN-70',
+        price: '76.83',
+        newPrice: '',
+        size: 1,
+        slug: 'goods5-21',
+        img: '/system-payment/21.jpg',
+        description: '',
+        descriptionPrise: '',
+        bread1: {
+            slug: '/payment-systems',
+            title: 'Платіжні системи',
+        },
+        bread2: {
+            slug: '/payment-systems/cash',
+            title: 'Готівка',
+        },
+        bread3: {
+            slug: '/payment-systems/cash/coin-validators',
+            title: 'Валідатори монет',
+        },
+        descriptionMin: 'Стрічка для 10-контактного монетника (70см)',
+        weight: '',
+        codeEAN: '',
+        imageShow: ['/system-payment/21.jpg', ],
+        descriptionFull: `
+        <p>Стрічка для слотів для монет: 10 контактів</p><br/>
+        <p>Довжина: 70см</p><br/>
+        <p>Імпульсний кабель.</p><br/>
+        `
+    },
+    {
+        id: '171',
+        title: 'Термінал поповнення ключів системи EUROKEY NEXT COMESTERO з блоком живлення (РАНІШНИЙ ПЛЮС)',
+        code: 'TER-DOL-COM',
+        price: '2501.32',
+        newPrice: '',
+        size: 1,
+        slug: 'goods5-22',
+        img: '/system-payment/22.jpg',
+        description: '',
+        descriptionPrise: '',
+        bread1: {
+            slug: '/payment-systems',
+            title: 'Платіжні системи',
+        },
+        bread2: {
+            slug: '/payment-systems/cashless',
+            title: 'Безготівковий',
+        },
+        bread3: {
+            slug: '/payment-systems/cashless/loyalty-operations',
+            title: 'Операції лояльності з карткою/ключем',
+        },
+        descriptionMin: 'Термінал поповнення ключів системи EUROKEY NEXT COMESTERO з блоком живлення (РАНІШНИЙ ПЛЮС)',
+        weight: '',
+        codeEAN: '',
+        imageShow: ['/system-payment/22.jpg', '/system-payment/image6.jpg', ],
+        descriptionFull: `
+        <p>Термінал поповнення ключів системи EUROKEY NEXT COMESTERO з блоком живлення (РАНІШНИЙ ПЛЮС)</p><br/>
+        `
+    },
+    {
+        id: '172',
+        title: 'Електронний монетоприймач (EMP 800.00) (1 секція, 10 PIN TAPE)',
+        code: 'WRZ-WH-005',
+        price: '899.65',
+        newPrice: '',
+        size: 1,
+        slug: 'goods5-23',
+        img: '/system-payment/23.jpg',
+        description: '',
+        descriptionPrise: '',
+        bread1: {
+            slug: '/payment-systems',
+            title: 'Платіжні системи',
+        },
+        bread2: {
+            slug: '/payment-systems/cash',
+            title: 'Готівка',
+        },
+        bread3: {
+            slug: '/payment-systems/cash/coin-validators',
+            title: 'Валідатори монет',
+        },
+        descriptionMin: 'Електронний монетоприймач (EMP 800.00) (1 секція, 10 PIN TAPE)',
+        weight: '0,21',
+        codeEAN: '',
+        imageShow: ['/system-payment/23.jpg', '/system-payment/image7.jpg',  '/system-payment/image8.jpg', ],
+        descriptionFull: `
+        <p>Електронний монетоприймач (WH v6 /E2/I/T) із завантаженою програмою (8B43_106PLN3E) </p><br/>
+        <p>1-секційна, 10-контактна стрічка. </p><br/>
+        <p>Валідатор запрограмовано на сумісність з односекційним дисплеєм і сірою 10-контактною плоскою стрічкою. </p><br/>
+        `
+    },
+    {
+        id: '173',
+        title: 'Електронний валідатор монет (EMP 800.00) (4 секції, 10 PIN TAPE)',
+        code: 'WRZ-WH-004',
+        price: '899.65',
+        newPrice: '',
+        size: 1,
+        slug: 'goods5-24',
+        img: '/system-payment/24.jpg',
+        description: '',
+        descriptionPrise: '',
+        bread1: {
+            slug: '/payment-systems',
+            title: 'Платіжні системи',
+        },
+        bread2: {
+            slug: '/payment-systems/cash',
+            title: 'Готівка',
+        },
+        bread3: {
+            slug: '/payment-systems/cash/coin-validators',
+            title: 'Валідатори монет',
+        },
+        descriptionMin: 'Електронний валідатор монет (EMP 800.00) (4 секції, 10 PIN TAPE)',
+        weight: '0,21',
+        codeEAN: '',
+        imageShow: ['/system-payment/24.jpg', '/system-payment/image7.jpg',  '/system-payment/image8.jpg', ],
+        descriptionFull: `
+        <p>Електронний валідатор монет (EMP 800.00) WH v6 /E2/I/T із завантаженою програмою (8B43_116PLN3E)</p><br/>
+        <p>4-секції, 10 PIN-СТРІЧКА.</p><br/>
+        <p>Валідатор монет запрограмовано на сумісність із дисплеєм із чотирьох секцій та сірою 10-контактною 
+        плоскою стрічкою.</p><br/>
+        `
+    },
+    {
+        id: '174',
+        title: 'Електронний монетоприймач (EMP 800.13) (WH v6 /E2/I/T 4 секції, кабель CC TALK)',
+        code: 'WRZ-WH-003',
+        price: '899.65',
+        newPrice: '',
+        size: 1,
+        slug: 'goods5-25',
+        img: '/system-payment/25.jpg',
+        description: '',
+        descriptionPrise: '',
+        bread1: {
+            slug: '/payment-systems',
+            title: 'Платіжні системи',
+        },
+        bread2: {
+            slug: '/payment-systems/cash',
+            title: 'Готівка',
+        },
+        bread3: {
+            slug: '/payment-systems/cash/coin-validators',
+            title: 'Валідатори монет',
+        },
+        descriptionMin: ' Електронний монетоприймач (EMP 800.13) (WH v6 /E2/I/T) із завантаженою програмою ' +
+            '(8B43_409PLN3E) 4-секційний, кабель CC TALK. Валідатор запрограмовано на сумісність із чотирисекційним' +
+            ' дисплеєм і кабелем CC TALK.',
+        weight: '0,21',
+        codeEAN: '',
+        imageShow: ['/system-payment/25.jpg', '/system-payment/image7.jpg',  '/system-payment/image8.jpg', ],
+        descriptionFull: `
+        <p>Електронний валідатор монет (EMP 800.13) (WH v6 /E2/I/T) із завантаженою програмою (8B43_409PLN3E) </p><br/>
+        <p>4-секційний кабель CC TALK.</p><br/>
+        <p>Валідатор запрограмовано на сумісність із чотирисекційним дисплеєм і кабелем CC TALK.</p><br/>
+        `
+    },
+
+    {
+        id: '187',
+        title: 'Гнучка присоска для пилососа (264 019 1)',
+        code: 'ELA-KON-SSA-ODK',
+        price: '86.43',
+        newPrice: '',
+        size: 1,
+        slug: 'goods7-1',
+        img: '/accessories/1.jpg',
+        description: '',
+        descriptionPrise: '',
+        bread1: {
+            slug: '/accessories-for-vacuum',
+            title: 'Аксесуари для пилососа та компресора',
+        },
+        bread2: {
+            slug: '/accessories-for-vacuum/nozzles-and-hose-connections',
+            title: 'Форсунки і з\'єднання шлангів',
+        },
+        bread3: '',
+        descriptionMin: 'Комплектна гнучка всмоктуюча насадка для пилососа. Спочатку встановлювався в пилососах ' +
+            'Ehrle і SamWash. Підходить для шланга діаметром 38 мм.',
+        weight: '0,33',
+        codeEAN: '',
+        imageShow: ['/accessories/1.jpg', '/accessories/image1.jpg', ],
+        descriptionFull: `
+        <p>Повна гнучка всмоктуюча насадка для пилососа. Спочатку встановлювався в пилососах Ehrle і SamWash. 
+        Підходить для шланга діаметром 38 мм.</p><br/>
+        `
+    },
+    {
+        id: '188',
+        title: 'Ватний фільтр',
+        code: 'T0SO02860',
+        price: '69.57',
+        newPrice: '',
+        size: 1,
+        slug: 'goods7-2',
+        img: '/accessories/2.jpg',
+        description: '',
+        descriptionPrise: '',
+        bread1: {
+            slug: '/accessories-for-vacuum',
+            title: 'Аксесуари для пилососа та компресора',
+        },
+        bread2: {
+            slug: '/accessories-for-vacuum/filters',
+            title: 'Фільтри',
+        },
+        bread3: '',
+        descriptionMin: 'Ватний фільтр для пилососа: Nevada 503, Dakota 303.',
+        weight: '0,085',
+        codeEAN: '',
+        imageShow: ['/accessories/2.jpg', ],
+        descriptionFull: `
+        <p>Ватний фільтр для пилососа: </p><br/>
+        <p>Невада 503,  </p>
+        <p>Дакота 303. </p><br/>
+        `
+    },
+    {
+        id: '189',
+        title: 'Нейлоновий фільтр H=260',
+        code: 'T0SO00312',
+        price: '63.60',
+        newPrice: '',
+        size: 1,
+        slug: 'goods7-3',
+        img: '/accessories/3.jpg',
+        description: '',
+        descriptionPrise: '',
+        bread1: {
+            slug: '/accessories-for-vacuum',
+            title: 'Аксесуари для пилососа та компресора',
+        },
+        bread2: {
+            slug: '/accessories-for-vacuum/filters',
+            title: 'Фільтри',
+        },
+        bread3: '',
+        descriptionMin: 'Нейлоновий фільтр H 260 для пилососа Ufo Wet. Нейлоновий фільтр є додатковим аксесуаром' +
+            ' для пилососа. Використовується при прибиранні великої кількості пилу. Підвищує ефективність ' +
+            'фільтрації. Використовується для захисту поліефірно-ватного фільтра. Технічні дані: H260 Супутні ' +
+            'продукти: T0SOUFO200 T0SO01659 T0SO03967 T0SO00614 T0SO06526 T0SO00616 T0SO00617 T0SO02720 S0SO03291 ' +
+            'S0SO02871 S0SO02855 T0SO00147',
+        weight: '',
+        codeEAN: '8013378039734',
+        imageShow: ['/accessories/3.jpg', ],
+        descriptionFull: `
+        <p>Нейлоновий фільтр H 260 для пилососа Ufo Wet. Нейлоновий фільтр є додатковим аксесуаром для пилососа.
+         Використовується при прибиранні великої кількості пилу. Підвищує ефективність фільтрації. Використовується
+          для захисту поліефірно-ватного фільтра.</p><br/>
+        <p><b>Технічні дані:</b></p>
+        <p>H260</p><br/>
+        <p><b>Пов’язані продукти:</b></p>
+        <p>T0SOUFO200<br/>
+           T0SO01659<br/>
+           T0SO03967<br/>
+           T0SO00614<br/>
+           T0SO06526<br/>
+           T0SO00616<br/>
+           T0SO00617<br/>
+           T0SO02720<br/>
+           S0SO03291<br/>
+           S0SO02871<br/>
+           S0SO02855<br/>
+           T0SO00147<br/>
+           </p><br/>
+        `
+    },
+    {
+        id: '190',
+        title: 'Паперовий фільтр 29л',
+        code: 'T0SO02741',
+        price: '10.15',
+        newPrice: '',
+        size: 1,
+        slug: 'goods7-4',
+        img: '/accessories/4.jpg',
+        description: '',
+        descriptionPrise: '',
+        bread1: {
+            slug: '/accessories-for-vacuum',
+            title: 'Аксесуари для пилососа та компресора',
+        },
+        bread2: {
+            slug: '/accessories-for-vacuum/filters',
+            title: 'Фільтри',
+        },
+        bread3: '',
+        descriptionMin: 'Паперовий фільтр 29 л для пилососа Dakota 303E, Nevada 503 Технічні дані: Паперовий ' +
+            'фільтр виготовлений з фільтрувального паперу найвищої якості. Пов’язані продукти: T0SO00008 ' +
+            'T0SO06389 T0SO06387 T0SO00003 T0SO06388 T0SO06295 T0SO06384 T0SO06385 T0SO03239 T0SO06386 ' +
+            'T0SO00556 T0SO00312 S0SO02852 S0SO028 55',
+        weight: '',
+        codeEAN: '',
+        imageShow: ['/accessories/4.jpg', ],
+        descriptionFull: `
+        <p>Паперовий фільтр 29л для пилососа Dakota 303E, Nevada 503</p><br/>
+        <p><b>Технічні дані:</b></p>
+        <p>Паперовий фільтр виготовлений з фільтрувального паперу найвищої якості.</p><br/>
+        <p><b>Технічні дані:</b></p>
+        <p>Пов’язані продукти:<br/>
+           T0SO00008<br/>
+           T0SO06389<br/>
+           T0SO06387<br/>
+           T0SO00003<br/>
+           T0SO06388<br/>
+           T0SO06295<br/>
+           T0SO06384<br/>
+           T0SO06385<br/>
+           T0SO03239<br/>
+           T0SO06386<br/>
+           T0SO00556<br/>
+           T0SO00312<br/>
+           S0SO02852<br/>
+           S0SO02855<br/>
+           </p><br/>
+        `
+    },
+    {
+        id: '191',
+        title: 'Поліефірно-бавовняний фільтр',
+        code: 'S0SO03241',
+        price: '142.37',
+        newPrice: '',
+        size: 1,
+        slug: 'goods7-5',
+        img: '/accessories/5.jpg',
+        description: '',
+        descriptionPrise: '',
+        bread1: {
+            slug: '/accessories-for-vacuum',
+            title: 'Аксесуари для пилососа та компресора',
+        },
+        bread2: {
+            slug: '/accessories-for-vacuum/filters',
+            title: 'Фільтри',
+        },
+        bread3: '',
+        descriptionMin: 'Поліестерово-ватний фільтр для пилососа Nevada 503.',
+        weight: '',
+        codeEAN: '8013378048323',
+        imageShow: ['/accessories/5.jpg', ],
+        descriptionFull: `
+        <p>Поліефірно-ватний фільтр для пилососа Nevada 503.</p><br/>
+        `
+    },
+    {
+        id: '192',
+        title: 'Фільтр поліестер-ватний для набору - 3240, 3242 (FTDP00523)',
+        code: 'T0SO02845',
+        price: '101.12',
+        newPrice: '',
+        size: 1,
+        slug: 'goods7-6',
+        img: '/accessories/6.jpg',
+        description: '',
+        descriptionPrise: '',
+        bread1: {
+            slug: '/accessories-for-vacuum',
+            title: 'Аксесуари для пилососа та компресора',
+        },
+        bread2: {
+            slug: '/accessories-for-vacuum/filters',
+            title: 'Фільтри',
+        },
+        bread3: '',
+        descriptionMin: 'Фільтр поліестер-ватний БЕЗ КАРАМА [2845]. Підходить для двомоторних пилососів і турбінних' +
+            ' пилососів: Dakota 433W, Compact, Storm, Power+. Код виробника: (FTDP00523)',
+        weight: '0,193',
+        codeEAN: '8013378039352',
+        imageShow: ['/accessories/6.jpg', ],
+        descriptionFull: `
+        <p>Поліефірно-ватний фільтр БЕЗ КАРАМА [2845]. Підходить для 2-моторних пилососів і турбінних пилососів:</p><br/>
+        <p>Dakota 433W, </p>
+        <p>компактний,  </p>
+        <p>Буря, </p>
+        <p>Power+.</p><br/>
+        `
+    },
+    {
+        id: '193',
+        title: 'Поліефірно-бавовняний фільтр з каркасом',
+        code: 'T0SO03240',
+        price: '239.91',
+        newPrice: '',
+        size: 1,
+        slug: 'goods7-7',
+        img: '/accessories/7.jpg',
+        description: '',
+        descriptionPrise: '',
+        bread1: {
+            slug: '/accessories-for-vacuum',
+            title: 'Аксесуари для пилососа та компресора',
+        },
+        bread2: {
+            slug: '/accessories-for-vacuum/filters',
+            title: 'Фільтри',
+        },
+        bread3: '',
+        descriptionMin: 'Поліефірно-ватний фільтр з каркасом для пилососа. Підходить для двомоторних пилососів і' +
+            ' турбінних пилососів: Dakota 433W, Compact, Storm, Power+.',
+        weight: '1',
+        codeEAN: '8013378048187',
+        imageShow: ['/accessories/7.jpg', ],
+        descriptionFull: `
+        <p>Поліефірно-бавовняний фільтр з рамою пилососа. Підходить для 2-моторних пилососів і турбінних пилососів: </p><br/>
+        <p>
+        Dakota 433W, <br/>
+        компактний, <br/>
+        Буря, <br/>
+        Power+.<br/>
+        </p><br/>
+        `
+    },
+    {
+        id: '194',
+        title: 'Фільтр повітряний для 2-3 двигунів і турбінних пилососів (02852, 28620)',
+        code: 'S0SO02852',
+        price: '112.75',
+        newPrice: '',
+        size: 1,
+        slug: 'goods7-8',
+        img: '/accessories/8.jpg',
+        description: '',
+        descriptionPrise: '',
+        bread1: {
+            slug: '/accessories-for-vacuum',
+            title: 'Аксесуари для пилососа та компресора',
+        },
+        bread2: {
+            slug: '/accessories-for-vacuum/filters',
+            title: 'Фільтри',
+        },
+        bread3: '',
+        descriptionMin: 'Повітряний фільтр для 2-3 моторних і турбінних пилососів',
+        weight: '0,236',
+        codeEAN: '8013378033930',
+        imageShow: ['/accessories/8.jpg', ],
+        descriptionFull: `
+        <p>Повітряний фільтр з паперовим картриджем забезпечує хорошу фільтрацію повітря у вашому пилососі.</p><br/>
+        <p>Примітка: пил у повітрі скорочує термін служби двигуна. Переконайтеся, що ваш фільтр чистий.</p><br/>
+        <p><b>Застосування:</b></p><br/>
+        <p>Для 2-3 моторних і турбінних пилососів, БКФ та інших:</p><br/>
+         <p>
+        Dakota 303E,  <br/>
+        423 Вт, <br/>
+        Невада 503, <br/>
+        633 Вт, <br/>
+        640 Циклон, <br/>
+        Power+, <br/>
+        Амстердам 440 MS.<br/>
+        </p><br/>
+        `
+    },
+    {
+        id: '195',
+        title: 'Гніздо для всмоктувального шланга діаметром 36 і діаметром 38',
+        code: 'S0SO02653NE',
+        price: '26.76',
+        newPrice: '',
+        size: 1,
+        slug: 'goods7-9',
+        img: '/accessories/9.jpg',
+        description: '',
+        descriptionPrise: '',
+        bread1: {
+            slug: '/accessories-for-vacuum',
+            title: 'Аксесуари для пилососа та компресора',
+        },
+        bread2: {
+            slug: '/accessories-for-vacuum/nozzles-and-hose-connections',
+            title: 'Форсунки і з\'єднання шлангів',
+        },
+        bread3: '',
+        descriptionMin: 'Гніздо для всмоктувального шланга діаметром 36 і діаметром 38',
+        weight: '0,109',
+        codeEAN: '8013378021524',
+        imageShow: ['/accessories/9.jpg', '/accessories/image2.jpg', ],
+        descriptionFull: `
+        <p>Штуцер для шланга fi 38 і fi 36 в комплекті для пилососа.</p><br/>
+        `
+    },
+    {
+        id: '196',
+        title: 'Муфта під шланг 50 мм',
+        code: 'S0SO02782',
+        price: '26.54',
+        newPrice: '',
+        size: 1,
+        slug: 'goods7-10',
+        img: '/accessories/10.jpg',
+        description: '',
+        descriptionPrise: '',
+        bread1: {
+            slug: '/accessories-for-vacuum',
+            title: 'Аксесуари для пилососа та компресора',
+        },
+        bread2: {
+            slug: '/accessories-for-vacuum/nozzles-and-hose-connections',
+            title: 'Форсунки і з\'єднання шлангів',
+        },
+        bread3: '',
+        descriptionMin: 'Розетка для шланга fi 50.',
+        weight: '0,115',
+        codeEAN: '8013378021579',
+        imageShow: ['/accessories/10.jpg', ],
+        descriptionFull: `
+        <p>Розетка призначена для шланга 50 мм.</p><br/>
+        `
+    },
+    {
+        id: '197',
+        title: 'Задній кінець шланга fi 50 (MPVR41815)',
+        code: 'T0SO02773',
+        price: '24.92',
+        newPrice: '',
+        size: 1,
+        slug: 'goods7-11',
+        img: '/accessories/11.jpg',
+        description: '',
+        descriptionPrise: '',
+        bread1: {
+            slug: '/accessories-for-vacuum',
+            title: 'Аксесуари для пилососа та компресора',
+        },
+        bread2: {
+            slug: '/accessories-for-vacuum/nozzles-and-hose-connections',
+            title: 'Форсунки і з\'єднання шлангів',
+        },
+        bread3: '',
+        descriptionMin: 'адній кінець шланга fi 50',
+        weight: '0,07',
+        codeEAN: '8013378054386',
+        imageShow: ['/accessories/11.jpg', '/accessories/image3.jpg', ],
+        descriptionFull: `
+        <p>Задній кінець шланга діаметром 50</p><br/>
+        `
+    },
+    {
+        id: '198',
+        title: 'Передній поворотний наконечник для шланга 38 мм',
+        code: 'T0SO03928',
+        price: '21.03',
+        newPrice: '',
+        size: 1,
+        slug: 'goods7-12',
+        img: '/accessories/12.jpg',
+        description: '',
+        descriptionPrise: '',
+        bread1: {
+            slug: '/accessories-for-vacuum',
+            title: 'Аксесуари для пилососа та компресора',
+        },
+        bread2: {
+            slug: '/accessories-for-vacuum/nozzles-and-hose-connections',
+            title: 'Форсунки і з\'єднання шлангів',
+        },
+        bread3: '',
+        descriptionMin: 'Передній поворотний наконечник для шланга Ø 38, для пилососа: Dakota 303E, Dakota 423W, ' +
+            'Nevada 503, 633W, 640 Cyklon, Power+, Amsterdam 440MS, Storm.',
+        weight: '0,07',
+        codeEAN: '8013378054546',
+        imageShow: ['/accessories/12.jpg', ],
+        descriptionFull: `
+        <p>Передній поворотний кінець шланга для шланга діаметром 38 мм, для пилососа:</p><br/>
+        <p>
+        Dakota 303E, <br/>
+        Dakota 433W, <br/>
+        Невада 503, <br/>
+        633 Вт, <br/>
+        640 Циклон, <br/>
+        Power+.<br/>
+        Амстердам 440 MS, ,<br/>
+        Буря.<br/>
+        </p><br/>
+        `
+    },
+    {
+        id: '199',
+        title: 'Задній кінець шланга fi 38',
+        code: 'T0SO00084',
+        price: '13.55',
+        newPrice: '',
+        size: 1,
+        slug: 'goods7-13',
+        img: '/accessories/13.jpg',
+        description: '',
+        descriptionPrise: '',
+        bread1: {
+            slug: '/accessories-for-vacuum',
+            title: 'Аксесуари для пилососа та компресора',
+        },
+        bread2: {
+            slug: '/accessories-for-vacuum/nozzles-and-hose-connections',
+            title: 'Форсунки і з\'єднання шлангів',
+        },
+        bread3: '',
+        descriptionMin: 'Задня насадка fi 38 для шланга SO00082/Z. Діаметр 38 по вужчому боці і 50 по ширшому. ' +
+            'Представлений наконечник підключає шланг до розетки.',
+        weight: '0,04',
+        codeEAN: '8013378021876',
+        imageShow: ['/accessories/13.jpg', ],
+        descriptionFull: `
+        <p>Задня насадка fi 38 для шланга SO00082/Z. Діаметр 38 по вужчому боці і 50 по ширшому. Представлений 
+        наконечник підключає шланг до розетки.</p><br/>
+        `
+    },
+    {
+        id: '200',
+        title: 'З\'єднувач для шлангів fi 38 (MPVR72230)',
+        code: 'T0SO00047',
+        price: '40.93',
+        newPrice: '',
+        size: 1,
+        slug: 'goods7-14',
+        img: '/accessories/14.jpg',
+        description: '',
+        descriptionPrise: '',
+        bread1: {
+            slug: '/accessories-for-vacuum',
+            title: 'Аксесуари для пилососа та компресора',
+        },
+        bread2: {
+            slug: '/accessories-for-vacuum/nozzles-and-hose-connections',
+            title: 'Форсунки і з\'єднання шлангів',
+        },
+        bread3: '',
+        descriptionMin: 'З\'єднувач для шлангів діаметром 38. Використовується для з\'єднання двох частин ' +
+            'шланга діаметром 38.',
+        weight: '',
+        codeEAN: '8013378054430',
+        imageShow: ['/accessories/14.jpg', '/accessories/image4.jpg', ],
+        descriptionFull: `
+        <p>З'єднувач для шлангів діаметр 38.</p><br/>
+        <p>Використовується для з'єднання двох частин шланга діаметром 38 мм.</p><br/>
+        `
+    },
+    {
+        id: '201',
+        title: 'Пістолет для накачування шин з манометром без роз\'єму швидкого з\'єднання',
+        code: 'PIS-KOM-001',
+        price: '52.87',
+        newPrice: '',
+        size: 1,
+        slug: 'goods7-15',
+        img: '/accessories/15.jpg',
+        description: '',
+        descriptionPrise: '',
+        bread1: {
+            slug: '/accessories-for-vacuum',
+            title: 'Аксесуари для пилососа та компресора',
+        },
+        bread2: {
+            slug: '/accessories-for-vacuum/for-compressors',
+            title: 'Аксесуари для компресорів',
+        },
+        bread3: '',
+        descriptionMin: 'Пістолет для накачування шин з манометром. Манометр дозволяє перевірити тиск в шинах. Засіб ' +
+            'можна використовувати на безконтактних автомийках (для компресорів), в майстернях або на шиномонтажних ' +
+            'сервісах.',
+        weight: '0,367',
+        codeEAN: '',
+        imageShow: ['/accessories/15.jpg', ],
+        descriptionFull: `
+        <p>Пістолет для накачування шин з манометром. Манометр дозволяє перевірити тиск в шинах. Засіб можна 
+        використовувати на безконтактних автомийках (для компресорів), в майстернях або на шиномонтажних сервісах.</p><br/>
+        `
+    },
+    {
+        id: '202',
+        title: 'Продувний пістолет з подовжувачем 10 см',
+        code: 'PIS-KOM-004',
+        price: '50.63',
+        newPrice: '',
+        size: 1,
+        slug: 'goods7-16',
+        img: '/accessories/16.jpg',
+        description: '',
+        descriptionPrise: '',
+        bread1: {
+            slug: '/accessories-for-vacuum',
+            title: 'Аксесуари для пилососа та компресора',
+        },
+        bread2: {
+            slug: '/accessories-for-vacuum/for-compressors',
+            title: 'Аксесуари для компресорів',
+        },
+        bread3: '',
+        descriptionMin: 'Пістолет для обдування важкодоступних місць. Завдяки подовженій насадці пістолет ' +
+            'справляється навіть з найприхованішими перешкодами. Завдяки гумовому покриттю очищені поверхні безпечні.',
+        weight: '',
+        codeEAN: '',
+        imageShow: ['/accessories/16.jpg', ],
+        descriptionFull: `
+        <p>Рушниця, якою продувають важкодоступні місця. Завдяки подовженій насадці пістолет справляється навіть з 
+        найприхованішими перешкодами. Завдяки гумовому покриттю очищені поверхні безпечні.</p><br/>
+        `
+    },
+    {
+        id: '203',
+        title: 'Шланг компресорний гнучкий 12х8 15м, закінчений перехідником DN12',
+        code: 'ПРЗ-КОМ-15М',
+        price: '363.40',
+        newPrice: '',
+        size: 1,
+        slug: 'goods7-17',
+        img: '/accessories/17.jpg',
+        description: '',
+        descriptionPrise: '',
+        bread1: {
+            slug: '/accessories-for-vacuum',
+            title: 'Аксесуари для пилососа та компресора',
+        },
+        bread2: {
+            slug: '/accessories-for-vacuum/for-compressors',
+            title: 'Аксесуари для компресорів',
+        },
+        bread3: '',
+        descriptionMin: 'Шланг гнучкий для компресора 12х8 15м, закінчений перехідником на DN12. Шланг має ' +
+            'оптимальну конструкцію для забезпечення належного потоку стисненого повітря. Гнучка конструкція ' +
+            'забезпечує доступ до найбільш важкодоступних місць. Спіраль 1x зменшення 3/8” x 1” зовнішня. 1x 3/8 гніздо',
+        weight: '',
+        codeEAN: '',
+        imageShow: ['/accessories/17.jpg', ],
+        descriptionFull: `
+        <p>Шланг компресорний гнучкий 12х8 15м, закінчений перехідником DN12. Шланг має оптимальну конструкцію для
+         забезпечення належного потоку стисненого повітря. Гнучка конструкція забезпечує доступ до найбільш 
+         важкодоступних місць. </p><br/>
+        <p>Спіраль 1x зменшення 3/8” x 1” зовнішня.</p><br/>
+        <p>1x 3/8 гніздо</p><br/>
+        `
+    },
+    {
+        id: '208',
+        title: 'Повітряний насос Moeller M22-DDL-S-X4/X5 і кнопка випуску повітря',
+        code: 'PRZ-M22-DLL-S',
+        price: '43.26',
+        newPrice: '',
+        size: 1,
+        slug: 'goods7-18',
+        img: '/accessories/18.jpg',
+        description: '',
+        descriptionPrise: '',
+        bread1: {
+            slug: '/accessories-for-vacuum',
+            title: 'Аксесуари для пилососа та компресора',
+        },
+        bread2: {
+            slug: '/accessories-for-vacuum/for-compressors',
+            title: 'Аксесуари для компресорів',
+        },
+        bread3: '',
+        descriptionMin: 'Кнопка надування та випуску, яка використовується на повітряному компресорі.',
+        weight: '',
+        codeEAN: '',
+        imageShow: ['/accessories/18.jpg', ],
+        descriptionFull: `
+        <p>Кнопка надування та випуску, яка використовується на повітряному компресорі.</p><br/>
+        `
+    },
+    {
+        id: '204',
+        title: 'Двигун пилососа 1200 Вт',
+        code: 'S0SO03890',
+        price: '363.05',
+        newPrice: '',
+        size: 1,
+        slug: 'goods7-19',
+        img: '/accessories/19.jpg',
+        description: '',
+        descriptionPrise: '',
+        bread1: {
+            slug: '/accessories-for-vacuum',
+            title: 'Аксесуари для пилососа та компресора',
+        },
+        bread2: {
+            slug: '/accessories-for-vacuum/engines-and-turbines',
+            title: 'Двигуни і турбіни',
+        },
+        bread3: '',
+        descriptionMin: 'Двигун пилососа 1200 Вт',
+        weight: '2,5',
+        codeEAN: '',
+        imageShow: ['/accessories/19.jpg', ],
+        descriptionFull: `
+        <p>Двигун пилососа 1200 Вт. Підходить, серед іншого, для пилососів:</p><br/>
+        <p>- Дакота 303, 423, 433</p><br/>
+        <p>- Невада 503, 633</p><br/>
+        <p>- Панда 503</p><br/>
+        <p>- Лава (3891)</p><br/>
+        <p>Двигун також використовується для системи відсмоктування монет на автомийках SamWash.</p><br/>
+        `
+    },
+    {
+        id: '205',
+        title: 'Компресор безмасляний H 215-6 AIRPRESS (36943)',
+        code: 'SPR-AIR-H215',
+        price: '774.60',
+        newPrice: '',
+        size: 1,
+        slug: 'goods7-20',
+        img: '/accessories/20.jpg',
+        description: '',
+        descriptionPrise: '',
+        bread1: {
+            slug: '/accessories-for-vacuum',
+            title: 'Аксесуари для пилососа та компресора',
+        },
+        bread2: {
+            slug: '/accessories-for-vacuum/for-compressors',
+            title: 'Аксесуари для компресорів',
+        },
+        bread3: '',
+        descriptionMin: 'Безмасляний компресор H 215-6 AIRPRESS',
+        weight: '',
+        codeEAN: '',
+        imageShow: ['/accessories/20.jpg', ],
+        descriptionFull: `
+        <p>Безмасляний компресор. Модель HLO 215-25 - прилад для періодичного використання. Використання безмасляного 
+        насоса значно покращує якість стисненого повітря та усуває необхідність періодичної заміни мастильної рідини.</p><br/>
+        <p><b>Технічні дані:</b></p><br/>
+        <p>Ємність бака (л) 24</p>
+        <p>Потужність двигуна (к.с./кВт) 1,5 к.с. / 1,1 кВт</p>
+        <p>Живлення 230 В / 50 Гц / 1 Ph</p>
+        <p>Без масла Так</p>
+        <p>Швидкість обертання (об/хв) 2850</p>
+        <p>Робочий тиск (бар) 6</p>
+        <p>Максимальний тиск (бар) 8</p>
+        <p>Кількість поршнів 1</p>
+        <p>Кількість ступенів стиснення 1</p>
+        <p>Рівень шуму дБ(А) 99</p>
+        <p>Довжина, ширина, висота (см) 58 x 25,5 x 58</p>
+        <p>Вага (кг) 21.00</p><br/>
+        `
+    },
+    {
+        id: '206',
+        title: 'Безмасляний компресор HLO 215/25 AIRPRESS',
+        code: 'SPR-AIR',
+        price: '1039.46',
+        newPrice: '',
+        size: 1,
+        slug: 'goods7-21',
+        img: '/accessories/21.jpg',
+        description: '',
+        descriptionPrise: '',
+        bread1: {
+            slug: '/accessories-for-vacuum',
+            title: 'Аксесуари для пилососа та компресора',
+        },
+        bread2: {
+            slug: '/accessories-for-vacuum/for-compressors',
+            title: 'Аксесуари для компресорів',
+        },
+        bread3: '',
+        descriptionMin: 'Безмасляний компресор HLO 215-25 оснащений напірним баком об\'ємом 24 л, створює робочий ' +
+            'тиск 6 бар. Під час роботи компресор генерує звук на рівні 99 децибел. Компресор можна підключити ' +
+            'до звичайної мережі. Великою перевагою цього пристрою є те, що він практично не потребує ' +
+            'обслуговування, оскільки це безмасляна конструкція. Компресор достатньо потужний для легких' +
+            ' пневматичних інструментів',
+        weight: '21,25',
+        codeEAN: '',
+        imageShow: ['/accessories/21.jpg', ],
+        descriptionFull: `
+        <p>Безмасляний компресор HLO 215-25 оснащений 24-літровим напірним баком і створює робочий тиск 6 бар. 
+        Під час роботи компресор генерує звук на рівні 99 децибел. Компресор можна підключити до звичайної 
+        мережі. Великою перевагою цього пристрою є те, що він практично не потребує обслуговування, оскільки
+         це безмасляна конструкція. Компресор достатньо потужний для легких пневматичних інструментів, таких
+          як пістолети для накачування шин і цвяхозабивачі, міцний і простий у налаштуванні. Купуючи цю машину,
+           ви отримуєте зручність і надійність.</p><br/>
+        <p><b>Технічні дані:</b></p><br/>
+        <p>Вага (кг) 21.00</p>
+        <p>Продуктивність (л/хв): 215</p>
+        <p>Продуктивність (л/хв): 172</p>
+        <p>Тип: безмасляний поршневий компресор</p>
+        <p>Ємність бака (л): 24</p>
+        <p>Потужність двигуна (к.с./кВт): 1,5 к.с. / 1,1 кВт</p>
+        <p>Живлення: 230 В / 50 Гц / 1 Ph</p>
+        <p>Без масла: так</p>
+        <p>Швидкість обертання (rpm) : 2850</p>
+        <p>Робочий тиск (бар): 6</p>
+        <p>Максимальний тиск (бар): 8</p>
+        <p>Кількість поршнів: 1</p>
+        <p>Кількість ступенів стиснення : 1</p>
+        <p>Рівень шуму дБ(А): 99</p>
+        <p>Довжина, ширина, висота (см): 58 x 25,5 x 58</p>
+        <p>Оцинкований бак: немає</p><br/>
+        `
+    },
+    {
+        id: '207',
+        title: 'Щілинна насадка fi 38 (SPPV00156) Dakota 303E, 423W, Nevada 503, 633W, Power+, Amsterdam 440MS, Storm',
+        code: 'T0SO00003',
+        price: '17.00',
+        newPrice: '',
+        size: 1,
+        slug: 'goods7-22',
+        img: '/accessories/22.jpg',
+        description: '',
+        descriptionPrise: '',
+        bread1: {
+            slug: '/accessories-for-vacuum',
+            title: 'Аксесуари для пилососа та компресора',
+        },
+        bread2: {
+            slug: '/accessories-for-vacuum/nozzles-and-hose-connections',
+            title: 'Форсунки і з\'єднання шлангів',
+        },
+        bread3: '',
+        descriptionMin: 'Щілинна насадка fi38',
+        weight: '0,083',
+        codeEAN: '8013378015271',
+        imageShow: ['/accessories/22.jpg', ],
+        descriptionFull: `
+        <p>Щілинна насадка fi 38 для пилососів:</p><br/>
+        <p>
+        Dakota 303E, 423W,<br/>
+        Nevada 503, 633 Вт, 640 Cyclone, Power+,<br/>
+        Амстердам 440 MS,<br/>
+        Буря.<br/>
+        </p><br/>
+        `
+    },
+    {
+        id: '209',
+        title: 'Щітка двигуна пилососа',
+        code: 'S0SOTOGB839',
+        price: '26.33',
+        newPrice: '',
+        size: 1,
+        slug: 'goods7-23',
+        img: '/accessories/23.jpg',
+        description: '',
+        descriptionPrise: '',
+        bread1: {
+            slug: '/accessories-for-vacuum',
+            title: 'Аксесуари для пилососа та компресора',
+        },
+        bread2: {
+            slug: '/accessories-for-vacuum/engines-and-turbines',
+            title: 'Двигуни і турбіни',
+        },
+        bread3: '',
+        descriptionMin: 'Мотор-щітка для пилососа і системи відсмоктування монет. Він міститься в двигунах ' +
+            'S0SO03890, які використовуються в стаціонарних пилососах SamWash.',
+        weight: '',
+        codeEAN: '',
+        imageShow: ['/accessories/23.jpg', '/accessories/image5.jpg', ],
+        descriptionFull: `
+        <p>Мотор-щітка для пилососа і системи відсмоктування монет. Він міститься в двигунах S0SO03890, 
+        які використовуються в стаціонарних пилососах SamWash.</p><br/>
+        `
+    },
+    {
+        id: '210',
+        title: 'Турбіна 3kW 50Hz SEKO (84148080)',
+        code: 'TUR-SEK-3',
+        price: '2103.00',
+        newPrice: '',
+        size: 1,
+        slug: 'goods7-24',
+        img: '/accessories/24.jpg',
+        description: '',
+        descriptionPrise: '',
+        bread1: {
+            slug: '/accessories-for-vacuum',
+            title: 'Аксесуари для пилососа та компресора',
+        },
+        bread2: {
+            slug: '/accessories-for-vacuum/engines-and-turbines',
+            title: 'Двигуни і турбіни',
+        },
+        bread3: '',
+        descriptionMin: 'Турбіна Seko використовується в пилососах на безконтактних мийках. Замінює TUR-SOL-3 ' +
+            '(У пилососі v2 заміна 1:1. Для інших пилососів необхідна попередня консультація) Переваги Компактність ' +
+            'і легкість досягаються завдяки корпусу, відлитому з алюмінію і з\'єднаному з двигуном в моноблок. ' +
+            'Довгий термін служби без технічного обслуговування Простота встановлення Економія енергії Не ' +
+            'забруднює потік повітря, вхідні та вихідні отвори',
+        weight: '34',
+        codeEAN: '',
+        imageShow: ['/accessories/24.jpg', '/accessories/image6.jpg', ],
+        descriptionFull: `
+        <p>Турбіна Seko використовується в пилососах на безконтактній автомийці.</p><br/>
+        <p><b>Замінює TUR-SOL-3  (У пилососі v2 заміна 1:1. У випадку з іншими пилососами потрібна попередня 
+        консультація)</b></p><br/>
+        <p><b>Переваги:</b></p><br/>
+        <p>Компактність і легкість досягаються завдяки литому алюмінієвому корпусу, з'єднаному з двигуном моноблока </p><br/>
+        <p>Тривалий термін служби без обслуговування</p><br/>
+        <p>Легко встановити</p><br/>
+        <p>Енергозбереження</p><br/>
+        <p>Не забруднює потік повітря, впускний і вихідний отвори однакові</p><br/>
+        <p>Повітродувка забезпечує рівномірний потік повітря</p><br/>
+        <p>Без вібрацій і пульсацій</p><br/>
+        <p>Завдяки глушникам рівень шуму не перевищує 55-80 дБ в залежності від обраної моделі.</p><br/>
+        <p><b>Специфікація:</b></p><br/>
+        <p>Максимальна продуктивність, м³/год: <b> 320</b></p><br/>
+        <p>Максимальний тиск, мбар: <b> 275</b></p><br/>
+        <p>Максимальний вакуум, мбар:  <b> 250</b></p><br/>
+        <p>Кількість фаз: <b> 3</b></p><br/>
+        <p>Потужність (кВт): <b> 3</b></p><br/>
+        <p>Напруга, В: <b> 380</b></p><br/>
+        <p>Рівень шуму, дБ: <b> 74</b></p><br/>
+        <p>Вхідний патрубок: <b> 2</b></p><br/>
+        <p>Відвідний патрубок: <b> 2</b></p><br/>
+        <p>Вага, кг: <b> 36</b></p><br/>
+        `
+    },
+    {
+        id: '211',
+        title: 'Тримач фільтра',
+        code: 'S0SO02855',
+        price: '33.98',
+        newPrice: '',
+        size: 1,
+        slug: 'goods7-25',
+        img: '/accessories/25.jpg',
+        description: '',
+        descriptionPrise: '',
+        bread1: {
+            slug: '/accessories-for-vacuum',
+            title: 'Аксесуари для пилососа та компресора',
+        },
+        bread2: {
+            slug: '/accessories-for-vacuum/filters',
+            title: 'Фільтри',
+        },
+        bread3: '',
+        descriptionMin: 'Тримач фільтра картриджного типу Супутні товари: T0SOUFO200 T0SO01659 T0SO03967 T0SO00614' +
+            ' T0SO06526 T0SO00616 T0SO00617 T0SO02720 S0SO03291 T0SO00312 S0SO02871 T0SO0 014 7',
+        weight: '',
+        codeEAN: '8013378035903',
+        imageShow: ['/accessories/25.jpg', ],
+        descriptionFull: `
+        <p>Тримач картриджного фільтра</p><br/>
+        <p>
+        T0SOUFO200<br/>
+        T0SO01659<br/>
+        T0SO03967<br/>
+        T0SO00614<br/>
+        T0SO06526<br/>
+        T0SO00616<br/>
+        T0SO00617<br/>
+        T0SO02720<br/>
+        S0SO03291<br/>
+        T0SO00312<br/>
+        S0SO02871<br/>
+        T0SO00147<br/>
+        </p><br/>
+        `
+    },
+    {
+        id: '212',
+        title: 'Прокладка для турбіни пилососа 1200 Вт (00119)(KTRI04216)',
+        code: 'S0SO03901',
+        price: '7.44',
+        newPrice: '',
+        size: 1,
+        slug: 'goods7-26',
+        img: '/accessories/26.jpg',
+        description: '',
+        descriptionPrise: '',
+        bread1: {
+            slug: '/accessories-for-vacuum',
+            title: 'Аксесуари для пилососа та компресора',
+        },
+        bread2: {
+            slug: '/accessories-for-vacuum/engines-and-turbines',
+            title: 'Двигуни і турбіни',
+        },
+        bread3: '',
+        descriptionMin: 'Прокладка для турбіни 1200 Вт для пилососа (00119) (KTRI04216) Підходить до двигуна: S0SO03890',
+        weight: '',
+        codeEAN: '',
+        imageShow: ['/accessories/26.jpg', ],
+        descriptionFull: `
+        <p>Прокладка для турбіни 1200Вт до пилососа (00119)(KTRI04216)</p><br/>
+        <p>Підходить до двигуна: S0SO03890</p><br/>
+        `
+    },
+    {
+        id: '213',
+        title: 'Шланг fi 36, котушка 20 метрів (TBFF01153)',
+        code: 'T0SO00624/Z',
+        price: '19.09',
+        newPrice: '',
+        size: 1,
+        slug: 'goods7-27',
+        img: '/accessories/27.jpg',
+        description: '',
+        descriptionPrise: '',
+        bread1: {
+            slug: '/accessories-for-vacuum',
+            title: 'Аксесуари для пилососа та компресора',
+        },
+        bread2: {
+            slug: '/accessories-for-vacuum/suction-hoses',
+            title: 'Всмоктувальні шланги',
+        },
+        bread3: '',
+        descriptionMin: 'Шланг з внутрішнім діаметром 36 мм - 20 м катушка Можливість придбати 5 м (5, 10, 15 і 20).',
+        weight: '',
+        codeEAN: '',
+        imageShow: ['/accessories/27.jpg', ],
+        descriptionFull: `
+        <p>Шланг з внутрішнім діаметром 36 мм - 20 м катушка Можливість придбати 5 м (5, 10, 15 і 20).</p><br/>
+        `
+    },
+    {
+        id: '214',
+        title: 'Шланг fi 38',
+        code: 'T0SO00082/Z',
+        price: '29.91',
+        newPrice: '',
+        size: 1,
+        slug: 'goods7-28',
+        img: '/accessories/28.jpg',
+        description: '',
+        descriptionPrise: '',
+        bread1: {
+            slug: '/accessories-for-vacuum',
+            title: 'Аксесуари для пилососа та компресора',
+        },
+        bread2: {
+            slug: '/accessories-for-vacuum/suction-hoses',
+            title: 'Всмоктувальні шланги',
+        },
+        bread3: '',
+        descriptionMin: 'Шланг fi 38',
+        weight: '0,39',
+        codeEAN: '8013378315739',
+        imageShow: ['/accessories/28.jpg', ],
+        descriptionFull: `
+        <p>Шланг з внутрішнім діаметром 38 мм для пилососа.</p><br/>
+        <p><b>Можна придбати лише кратно 5 метрів (5,10,15,20)</b></p><br/>
+        `
+    },
+    {
+        id: '215',
+        title: 'Шланг Merlett EVA fi38, чорний',
+        code: 'WAZ-MER-EVA38',
+        price: '29.34',
+        newPrice: '',
+        size: 1,
+        slug: 'goods7-29',
+        img: '',
+        description: '',
+        descriptionPrise: '',
+        bread1: {
+            slug: '/accessories-for-vacuum',
+            title: 'Аксесуари для пилососа та компресора',
+        },
+        bread2: {
+            slug: '/accessories-for-vacuum/suction-hoses',
+            title: 'Всмоктувальні шланги',
+        },
+        bread3: '',
+        descriptionMin: 'Шланг Merlett EVA fi38, чорний 1 шт = 1 метр Мінімальне замовлення 5 метрів.',
+        weight: '',
+        codeEAN: '',
+        imageShow: '',
+        descriptionFull: `
+        <p>Шланг Merlett EVA fi38, чорний</p><br/>
+        <p>1 шт = 1 метр Мінімальне замовлення 5 метрів.</p><br/>
+        `
+    },
+    {
+        id: '216',
+        title: 'Шланг для пилососа Norres (fi 51 мм)',
+        code: 'WAZ-NOR-SF51',
+        price: '67,79',
+        newPrice: '',
+        size: 1,
+        slug: 'goods7-30',
+        img: '/accessories/30.jpg',
+        description: '',
+        descriptionPrise: '',
+        bread1: {
+            slug: '/accessories-for-vacuum',
+            title: 'Аксесуари для пилососа та компресора',
+        },
+        bread2: {
+            slug: '/accessories-for-vacuum/suction-hoses',
+            title: 'Всмоктувальні шланги',
+        },
+        bread3: '',
+        descriptionMin: 'Шланг для пилососа Norres',
+        weight: '0,361',
+        codeEAN: '',
+        imageShow: ['/accessories/30.jpg', ],
+        descriptionFull: `
+        <p>Шланг для пилососа Norres, діаметр 51 мм (бухта 15 м).</p><br/>
+        <p>Використовується як внутрішній шланг. (сепаратор - турбіна, сепаратор - стріла)</p><br/>
+        <p><b>Можливість придбання тільки на 5 метрів (5,10,15,20 )</b></p><br/>
+        `
+    },
+    {
+        id: '217',
+        title: 'Шланг спіральний для компресора 9м 10Х6,5',
+        code: 'PRZ-KOM-1065-09',
+        price: '116.87',
+        newPrice: '',
+        size: 1,
+        slug: 'goods7-31',
+        img: '/accessories/31.jpg',
+        description: '',
+        descriptionPrise: '',
+        bread1: {
+            slug: '/accessories-for-vacuum',
+            title: 'Аксесуари для пилососа та компресора',
+        },
+        bread2: {
+            slug: '/accessories-for-vacuum/for-compressors',
+            title: 'Аксесуари для компресорів',
+        },
+        bread3: '',
+        descriptionMin: 'Стандартний шланг для систем стисненого повітря. Дуже міцний матеріал, що забезпечує' +
+            ' високу якість протягом тривалого часу.',
+        weight: '',
+        codeEAN: '',
+        imageShow: ['/accessories/31.jpg', '/accessories/image7.jpg', ],
+        descriptionFull: `
+        <p>Стандартний шланг, який використовується в системах стисненого повітря. Дуже міцний матеріал, 
+        що забезпечує високу якість протягом тривалого часу.</p><br/>
+        `
+    },
+    {
+        id: '218',
+        title: 'Внутрішній шланг fi 50',
+        code: 'T0SO00520/Z',
+        price: '61.48',
+        newPrice: '',
+        size: 1,
+        slug: 'goods7-32',
+        img: '/accessories/32.jpg',
+        description: '',
+        descriptionPrise: '',
+        bread1: {
+            slug: '/accessories-for-vacuum',
+            title: 'Аксесуари для пилососа та компресора',
+        },
+        bread2: {
+            slug: '/accessories-for-vacuum/suction-hoses',
+            title: 'Всмоктувальні шланги',
+        },
+        bread3: '',
+        descriptionMin: 'Внутрішній шланг fi 50',
+        weight: '0,0265',
+        codeEAN: '',
+        imageShow: ['/accessories/32.jpg', ],
+        descriptionFull: `
+        <p>Шланг з внутрішнім діаметром 50 мм (20-метрова котушка) - використовується в старих конструкціях 
+        пилососів як внутрішній шланг.</p><br/>
+        <p><b>Можливість придбання тільки кратністю 5 метрів (5,10,15,20)</b></p><br/>
+        `
+    },
+    {
+        id: '219',
+        title: 'Ротор для безмасляного компресора HLO 215/25',
+        code: 'WIR-SPR',
+        price: '68.23',
+        newPrice: '',
+        size: 1,
+        slug: 'goods7-33',
+        img: '/accessories/33.jpg',
+        description: '',
+        descriptionPrise: '',
+        bread1: {
+            slug: '/accessories-for-vacuum',
+            title: 'Аксесуари для пилососа та компресора',
+        },
+        bread2: {
+            slug: '/accessories-for-vacuum/for-compressors',
+            title: 'Аксесуари для компресорів',
+        },
+        bread3: '',
+        descriptionMin: 'Ротор для безмасляного компресора HLO 215/25. Ротор використовується для охолодження ' +
+            'двигуна компресора. Щоб замовити, надайте інформацію на заводській табличці компресора, щоб ' +
+            'перевірити сумісність деталей. ',
+        weight: '',
+        codeEAN: '',
+        imageShow: ['/accessories/33.jpg', '/accessories/image8.jpg', ],
+        descriptionFull: `
+        <p>Ротор для безмасляного компресора HLO 215/25. Ротор використовується для охолодження двигуна 
+        компресора.</p><br/>
+        <p>Щоб замовити, надайте інформацію на заводській табличці компресора, щоб перевірити сумісність 
+        деталей.</p><br/>
+        `
+    },
+
+    {
+        id: '220',
+        title: 'Рекламна куртка з логотипом SamWash (червоний колір, розмір L)',
+        code: 'KUR-REKL-PL-L',
+        price: '279.05',
+        newPrice: '',
+        size: 1,
+        slug: 'goods8-1',
+        img: '/other/8-1.jpg',
+        description: '',
+        descriptionPrise: '',
+        bread1: {
+            slug: '/advertising-accessories',
+            title: 'Рекламні аксесуари',
+        },
+        bread2: '',
+        bread3: '',
+        descriptionMin: 'Чоловіча куртка софтшел з логотипом SamWash Wash, ' +
+            'вітро- та водонепроникна. Доступні розміри M-XXXL.',
+        weight: '',
+        codeEAN: '',
+        imageShow: ['/other/8-1.jpg', '/other/image8-1.jpg', ],
+        descriptionFull: `
+        <p>Чоловіча куртка софтшел з логотипом SamWash Wash, вітро- та водонепроникна. Куртка має капюшон,
+         що відстібається, рукава з внутрішніми еластичними манжетами, шнурок внизу, світловідбиваючі 
+         елементи чорного кольору. Водопроникність 10 000 мм поза зоною шва, паропроникність 3 000 г/м2/24
+          години. Склад: 96% поліестер 4% еластан, 280 г/м2.</p><br/>
+        <p>Розмір L:</p><br/>
+        <p>довжина куртки: 77 см</p><br/>
+        <p>ширина під пахвами: 60 см</p><br/>
+        <p>довжина рукава (від коміра): 84,5 см</p><br/>
+        `
+    },
+    {
+        id: '221',
+        title: 'Рекламна куртка з логотипом SamWash (червоний колір, розмір M)',
+        code: 'KUR-REKL-PL-M',
+        price: '279.05',
+        newPrice: '',
+        size: 1,
+        slug: 'goods8-2',
+        img: '/other/8-1.jpg',
+        description: '',
+        descriptionPrise: '',
+        bread1: {
+            slug: '/advertising-accessories',
+            title: 'Рекламні аксесуари',
+        },
+        bread2: '',
+        bread3: '',
+        descriptionMin: 'Чоловіча куртка софтшел з логотипом SamWash Wash, ' +
+            'вітро- та водонепроникна. Доступні розміри M-XXXL.',
+        weight: '',
+        codeEAN: '',
+        imageShow: ['/other/8-1.jpg', '/other/image8-1.jpg', ],
+        descriptionFull: `
+        <p>Чоловіча куртка софтшел з логотипом SamWash Wash, вітро- та водонепроникна. Куртка має капюшон,
+         що відстібається, рукава з внутрішніми еластичними манжетами, шнурок внизу, світловідбиваючі 
+         елементи чорного кольору. Водопроникність 10 000 мм поза зоною шва, паропроникність 3 000 г/м2/24
+          години. Склад: 96% поліестер 4% еластан, 280 г/м2.</p><br/>
+        <p>Розмір M:</p><br/>
+        <p>довжина куртки: 76 см</p><br/>
+        <p>ширина під пахвами: 56 см</p><br/>
+        <p>довжина рукава (від коміра): 83,5 см</p><br/>
+        `
+    },
+    {
+        id: '222',
+        title: 'Рекламна куртка з логотипом SamWash (червоний колір, розмір XL)',
+        code: 'KUR-REKL-PL-XL',
+        price: '279.05',
+        newPrice: '',
+        size: 1,
+        slug: 'goods8-3',
+        img: '/other/8-1.jpg',
+        description: '',
+        descriptionPrise: '',
+        bread1: {
+            slug: '/advertising-accessories',
+            title: 'Рекламні аксесуари',
+        },
+        bread2: '',
+        bread3: '',
+        descriptionMin: 'Чоловіча куртка софтшел з логотипом SamWash Wash, ' +
+            'вітро- та водонепроникна. Доступні розміри M-XXXL.',
+        weight: '',
+        codeEAN: '',
+        imageShow: ['/other/8-1.jpg', '/other/image8-1.jpg', ],
+        descriptionFull: `
+        <p>Чоловіча куртка софтшел з логотипом SamWash Wash, вітро- та водонепроникна. Куртка має капюшон,
+         що відстібається, рукава з внутрішніми еластичними манжетами, шнурок внизу, світловідбиваючі 
+         елементи чорного кольору. Водопроникність 10 000 мм поза зоною шва, паропроникність 3 000 г/м2/24
+          години. Склад: 96% поліестер 4% еластан, 280 г/м2.</p><br/>
+        <p>Розмір XL:</p><br/>
+        <p>довжина куртки: 78 см</p><br/>
+        <p>ширина під пахвами: 64 см</p><br/>
+        <p>довжина рукава (від коміра): 85,5 см</p><br/>
+        `
+    },
+    {
+        id: '223',
+        title: 'Рекламна куртка з логотипом SamWash (червоний колір, розмір XXL)',
+        code: 'KUR-REKL-PL-XXL',
+        price: '279.05',
+        newPrice: '',
+        size: 1,
+        slug: 'goods8-4',
+        img: '/other/8-1.jpg',
+        description: '',
+        descriptionPrise: '',
+        bread1: {
+            slug: '/advertising-accessories',
+            title: 'Рекламні аксесуари',
+        },
+        bread2: '',
+        bread3: '',
+        descriptionMin: 'Чоловіча куртка софтшел з логотипом SamWash Wash, ' +
+            'вітро- та водонепроникна. Доступні розміри M-XXXL.',
+        weight: '',
+        codeEAN: '',
+        imageShow: ['/other/8-1.jpg', '/other/image8-1.jpg', ],
+        descriptionFull: `
+        <p>Чоловіча куртка софтшел з логотипом SamWash Wash, вітро- та водонепроникна. Куртка має капюшон,
+         що відстібається, рукава з внутрішніми еластичними манжетами, шнурок внизу, світловідбиваючі 
+         елементи чорного кольору. Водопроникність 10 000 мм поза зоною шва, паропроникність 3 000 г/м2/24
+          години. Склад: 96% поліестер 4% еластан, 280 г/м2.</p><br/>
+        <p>Розмір XXL:</p><br/>
+        <p>довжина куртки: 79 см</p><br/>
+        <p>ширина під пахвами: 68 см</p><br/>
+        <p>довжина рукава (від коміра): 86,5 см</p><br/>
+        `
+    },
+    {
+        id: '223',
+        title: 'Рекламна куртка з логотипом SamWash (червоний колір, розмір XXXL)',
+        code: 'KUR-REKL-PL-XXXL',
+        price: '279.05',
+        newPrice: '',
+        size: 1,
+        slug: 'goods8-5',
+        img: '/other/8-1.jpg',
+        description: '',
+        descriptionPrise: '',
+        bread1: {
+            slug: '/advertising-accessories',
+            title: 'Рекламні аксесуари',
+        },
+        bread2: '',
+        bread3: '',
+        descriptionMin: 'Чоловіча куртка софтшел з логотипом SamWash Wash, ' +
+            'вітро- та водонепроникна. Доступні розміри M-XXXL.',
+        weight: '',
+        codeEAN: '',
+        imageShow: ['/other/8-1.jpg', '/other/image8-1.jpg', ],
+        descriptionFull: `
+        <p>Чоловіча куртка софтшел з логотипом SamWash Wash, вітро- та водонепроникна. Куртка має капюшон,
+         що відстібається, рукава з внутрішніми еластичними манжетами, шнурок внизу, світловідбиваючі 
+         елементи чорного кольору. Водопроникність 10 000 мм поза зоною шва, паропроникність 3 000 г/м2/24
+          години. Склад: 96% поліестер 4% еластан, 280 г/м2.</p><br/>
+        <p>Розмір XXXL:</p><br/>
+        <p>довжина куртки: 80 см</p><br/>
+        <p>ширина під пахвами: 72 см</p><br/>
+        <p>довжина рукава (від коміра): 87,5 см</p><br/>
+        `
+    },
+
+// end
+    {
+        id: '175',
+        title: 'Перехідник MOSMATIC прямий 1/4" F - 1/4" M NPT (51.061)',
+        code: 'ZLA-MOS-51.061',
+        price: '76.80',
+        newPrice: '',
+        size: 1,
+        slug: 'goods6-1',
+        img: '/arrow/1.jpg',
+        description: '',
+        descriptionPrise: '',
+        bread1: {
+            slug: '/arrows',
+            title: 'Стріли',
+        },
+        bread2: {
+            slug: '/arrows/repair-kits',
+            title: 'Ремонтні комплекти',
+        },
+        bread3: '',
+        descriptionMin: 'Перехідник MOSMATIC прямий 1/4" F - 1/4" M NPT (51.061)',
+        weight: '0,036',
+        codeEAN: '',
+        imageShow: ['/arrow/1.jpg', '/arrow/image1.jpg', ],
+        descriptionFull: `
+        <p>Прямий з'єднувальний адаптер MOSMATIC 1/4" F - 1/4" M NPT </p><br/>
+        `
+    },
+    {
+        id: '176',
+        title: 'Перехідник MOSMATIC прямий M12x1-F G3/8"M (900.962)',
+        code: 'ZLA-MOS-900.962',
+        price: '24.62',
+        newPrice: '',
+        size: 1,
+        slug: 'goods6-2',
+        img: '/arrow/2.jpg',
+        description: '',
+        descriptionPrise: '',
+        bread1: {
+            slug: '/arrows',
+            title: 'Стріли',
+        },
+        bread2: {
+            slug: '/arrows/repair-kits',
+            title: 'Ремонтні комплекти',
+        },
+        bread3: '',
+        descriptionMin: 'Перехідник MOSMATIC прямий M12x1-F G3/8"M (900.962)',
+        weight: '0,029',
+        codeEAN: '',
+        imageShow: ['/arrow/2.jpg', ],
+        descriptionFull: `
+        <p>MOSMATIC M12x1-F G3/8"M прямий перехідник </p><br/>
+        `
+    },
+    {
+        id: '177',
+        title: 'Ніпель латунний 1/4" (35.0070) (1200020311)',
+        code: 'ZLA-MTM-006',
+        price: '19.53',
+        newPrice: '',
+        size: 1,
+        slug: 'goods6-3',
+        img: '/arrow/3.jpg',
+        description: '',
+        descriptionPrise: '',
+        bread1: {
+            slug: '/arrows',
+            title: 'Стріли',
+        },
+        bread2: {
+            slug: '/arrows/repair-kits',
+            title: 'Ремонтні комплекти',
+        },
+        bread3: '',
+        descriptionMin: 'Ніпель латунний 1/4" (35.0070) (1200020311)',
+        weight: '0,02',
+        codeEAN: '',
+        imageShow: ['/arrow/3.jpg', ],
+        descriptionFull: `
+        <p>Ніпель латунний 1/4"</p><br/>
+        `
+    },
+    {
+        id: '178',
+        title: 'Ніпель латунний перехідний 1/4"M x 3/8"M (35.0248)(1200020300)',
+        code: 'ZLA-MTM-008',
+        price: '12.50',
+        newPrice: '',
+        size: 1,
+        slug: 'goods6-4',
+        img: '/arrow/4.jpg',
+        description: '',
+        descriptionPrise: '',
+        bread1: {
+            slug: '/arrows',
+            title: 'Стріли',
+        },
+        bread2: {
+            slug: '/arrows/repair-kits',
+            title: 'Ремонтні комплекти',
+        },
+        bread3: '',
+        descriptionMin: 'Ніпель латунний перехідний 1/4"M x 3/8"M (35.0248)(1200020300)',
+        weight: '0,031',
+        codeEAN: '',
+        imageShow: ['/arrow/4.jpg', ],
+        descriptionFull: `
+        <p>Латунний перехідний ніпель 1/4"M x 3/8"GZ для кутового з'єднувача. Підключає чорний шланг від
+         контейнера до стріли.</p><br/>
+        `
+    },
+    {
+        id: '179',
+        title: 'Пружина для штанги MOSMATIC',
+        code: 'SPR-WYS-MOS',
+        price: '136.96',
+        newPrice: '',
+        size: 1,
+        slug: 'goods6-5',
+        img: '/arrow/5.jpg',
+        description: '',
+        descriptionPrise: '',
+        bread1: {
+            slug: '/arrows',
+            title: 'Стріли',
+        },
+        bread2: {
+            slug: '/arrows/repair-kits',
+            title: 'Ремонтні комплекти',
+        },
+        bread3: '',
+        descriptionMin: 'Пружина для штанги MOSMATIC',
+        weight: '0,16',
+        codeEAN: '',
+        imageShow: ['/arrow/5.jpg', ],
+        descriptionFull: `
+        <p>Пружина для штанги MOSMATIC</p><br/>
+        `
+    },
+    {
+        id: '180',
+        title: 'Стріла з нержавіючої сталі (360 градусів 155 CM MOSMATIC)',
+        code: 'WYS-MOS-1550Z-BKF-ECO2',
+        price: '2443.05',
+        newPrice: '',
+        size: 1,
+        slug: 'goods6-6',
+        img: '/arrow/6.jpg',
+        description: '',
+        descriptionPrise: '',
+        bread1: {
+            slug: '/arrows',
+            title: 'Стріли',
+        },
+        bread2: {
+            slug: '/arrows/single',
+            title: 'Неодружений',
+        },
+        bread3: '',
+        descriptionMin: 'Стріла з нержавіючої сталі (360 градусів 155 CM MOSMATIC)',
+        weight: '8,2',
+        codeEAN: '',
+        imageShow: ['/arrow/6.jpg', '/arrow/image2.jpg', ],
+        descriptionFull: `
+        <p>Стріла з нержавіючої сталі</p><br/>
+        <p><b>Технічні дані </b></p><br/>
+        <p>360 градусів </p>
+        <p>155 СМ</p>
+        <p>MOSMATIC </p>
+        <p>Eko UNI SamWash Z-style (65.981)</p><br/>
+        `
+    },
+    {
+        id: '181',
+        title: 'Ремкомплект кутового з\'єднувача 90 градусів WDG MOSMATIC',
+        code: 'ZES-MOS-40.502',
+        price: '32.67',
+        newPrice: '',
+        size: 1,
+        slug: 'goods6-7',
+        img: '/arrow/7.jpg',
+        description: '',
+        descriptionPrise: '',
+        bread1: {
+            slug: '/arrows',
+            title: 'Стріли',
+        },
+        bread2: {
+            slug: '/arrows/repair-kits',
+            title: 'Ремонтні комплекти',
+        },
+        bread3: '',
+        descriptionMin: 'Ремкомплект кутового з\'єднувача 90 градусів WDG MOSMATIC',
+        weight: '0,005',
+        codeEAN: '',
+        imageShow: ['/arrow/7.jpg', ],
+        descriptionFull: `
+        <p>Ремкомплект кутового з'єднувача 90 градусів WDG MOSMATIC</p><br/>
+        `
+    },
+    {
+        id: '182',
+        title: 'Ремкомплект прямого роз\'єму MOSMATIC (33.910)',
+        code: 'ZES-NAP-DGS',
+        price: '59.15',
+        newPrice: '',
+        size: 1,
+        slug: 'goods6-8',
+        img: '/arrow/8.jpg',
+        description: '',
+        descriptionPrise: '',
+        bread1: {
+            slug: '/arrows',
+            title: 'Стріли',
+        },
+        bread2: {
+            slug: '/arrows/repair-kits',
+            title: 'Ремонтні комплекти',
+        },
+        bread3: '',
+        descriptionMin: 'Ремкомплект прямого роз\'єму MOSMATIC (33.910)',
+        weight: '0,05',
+        codeEAN: '',
+        imageShow: ['/arrow/8.jpg', ],
+        descriptionFull: `
+        <p>Ремкомплект прямого роз'єму MOSMATIC</p><br/>
+        `
+    },
+    {
+        id: '183',
+        title: 'Кутовий з\'єднувач MOSMATIC з нержавіючої сталі 1/4\' GW - 1/4 M',
+        code: 'ZLA-MOS-40.009',
+        price: '405.03',
+        newPrice: '',
+        size: 1,
+        slug: 'goods6-9',
+        img: '/arrow/9.jpg',
+        description: '',
+        descriptionPrise: '',
+        bread1: {
+            slug: '/arrows',
+            title: 'Стріли',
+        },
+        bread2: {
+            slug: '/arrows/repair-kits',
+            title: 'Ремонтні комплекти',
+        },
+        bread3: '',
+        descriptionMin: 'Кутовий з\'єднувач MOSMATIC з нержавіючої сталі 1/4\' GW - 1/4 M ',
+        weight: '0,29',
+        codeEAN: '',
+        imageShow: ['/arrow/9.jpg', ],
+        descriptionFull: `
+        <p>Кутовий поворотний з'єднувач для штанги Mosmatic</p><br/>
+        <p>Різьблення: 1/4 GF - 1/4 GM</p><br/>
+        <p>Підходить для автомийок Ehrle і безконтактних мийок інших виробників.</p><br/>
+        <p><b>Параметри:</b></p><br/>
+        <p>макс. тиск: 275 бар.</p>
+        <p>макс. температура: 120 градусів.</p><br/>
+        <p>Виробник: Mosmatic.</p>
+        <p>Зроблено в Швейцарії</p><br/>
+        `
+    },
+    {
+        id: '184',
+        title: 'Mosmatic прямий з\'єднувач з одним ущільненням',
+        code: 'ZLA-MOS-32.957',
+        price: '274.36',
+        newPrice: '',
+        size: 1,
+        slug: 'goods6-10',
+        img: '/arrow/10.jpg',
+        description: '',
+        descriptionPrise: '',
+        bread1: {
+            slug: '/arrows',
+            title: 'Стріли',
+        },
+        bread2: {
+            slug: '/arrows/repair-kits',
+            title: 'Ремонтні комплекти',
+        },
+        bread3: '',
+        descriptionMin: 'Mosmatic прямий з\'єднувач з одним ущільненням',
+        weight: '0,175',
+        codeEAN: '',
+        imageShow: ['/arrow/10.jpg', ],
+        descriptionFull: `
+         <p>Mosmatic прямий з'єднувач з одним ущільненням.</p><br/>
+        <p>Різьблення: 1/4 GF - 3/8 GM</p><br/>
+        <p><b>Параметри:</b></p><br/>
+        <p>макс. тиск: 275 бар.</p>
+        <p>макс. температура: 120 градусів Цельсія.</p><br/>
+        `
+    },
+    {
+        id: '185',
+        title: 'З\'єднувач стріли - кутовий МТМ',
+        code: 'ZLA-MTM-001',
+        price: '147.40',
+        newPrice: '',
+        size: 1,
+        slug: 'goods6-11',
+        img: '/arrow/11.jpg',
+        description: '',
+        descriptionPrise: '',
+        bread1: {
+            slug: '/arrows',
+            title: 'Стріли',
+        },
+        bread2: {
+            slug: '/arrows/repair-kits',
+            title: 'Ремонтні комплекти',
+        },
+        bread3: '',
+        descriptionMin: 'З\'єднувач стріли - кутовий МТМ',
+        weight: '0,522',
+        codeEAN: '',
+        imageShow: ['/arrow/11.jpg', ],
+        descriptionFull: `
+          <p>Кутовий поворотний з'єднувач для стріли MTM</p><br/>
+        <p>Різьблення: 1/4 GF - 1/4 F</p><br/>
+        <p><b>Параметри:</b></p><br/>
+        <p>макс. тиск: 275 бар.</p>
+        <p>макс. температура: 120 градусів.</p>
+        <p>макс. потік: 40 л/хв.</p><br/>
+        <p>Виробник: MTM Hydro.</p><br/>
+        `
+    },
+    {
+        id: '186',
+        title: 'З\'єднувач стріли - прямий МТМ',
+        code: 'ZLA-MTM-002',
+        price: '161.12',
+        newPrice: '',
+        size: 1,
+        slug: 'goods6-12',
+        img: '/arrow/12.jpg',
+        description: '',
+        descriptionPrise: '',
+        bread1: {
+            slug: '/arrows',
+            title: 'Стріли',
+        },
+        bread2: {
+            slug: '/arrows/repair-kits',
+            title: 'Ремонтні комплекти',
+        },
+        bread3: '',
+        descriptionMin: 'З\'єднувач стріли - прямий МТМ ',
+        weight: '0,261',
+        codeEAN: '',
+        imageShow: ['/arrow/12.jpg', ],
+        descriptionFull: `
+        <p>Прямий поворотний з’єднувач для стріли MTM</p><br/>
+        <p>Різьблення: 1/4 GF - 3/8 GM</p><br/>
+        <p>Роз’єм, який з’єднує стрілу з кабелем гармати</p><br/>
+        <p><b>Технічні дані:</b></p><br/>
+        <p>макс. тиск: 275 бар.</p>
+        <p>макс. температура: 120 градусів.</p>
+        <p>макс. потік: 40 л/хв.</p><br/>
+        <p>Виробник: MTM Hydro.</p><br/>
         `
     },
 ]
@@ -2741,7 +7289,6 @@ const data = [
         color: "red",
         category: "sneakers",
     },
-
     {
         img: "https://m.media-amazon.com/images/I/51+P9uAvb1L._AC_UY695_.jpg",
         title: "Nike Waffle One Sneaker",
@@ -2786,7 +7333,6 @@ const data = [
         color: "black",
         category: "flats",
     },
-
     {
         img: "https://m.media-amazon.com/images/I/61V9APfz97L._AC_UY695_.jpg",
         title: "Loafer Flats",
@@ -2798,7 +7344,6 @@ const data = [
         color: "white",
         category: "flats",
     },
-
     {
         img: "https://m.media-amazon.com/images/I/71VaQ+V6XnL._AC_UY695_.jpg",
         title: "Nike Zoom Freak",
@@ -2810,7 +7355,6 @@ const data = [
         color: "green",
         category: "sneakers",
     },
-
     {
         img: "https://m.media-amazon.com/images/I/61-cBsLhJHL._AC_UY695_.jpg",
         title: "Nike Men's Sneaker",
@@ -2822,7 +7366,6 @@ const data = [
         color: "blue",
         category: "sneakers",
     },
-
     {
         img: "https://m.media-amazon.com/images/I/81xXDjojYKS._AC_UX575_.jpg",
         title: "PUMA BLACK-OCE",

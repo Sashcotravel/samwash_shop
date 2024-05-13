@@ -517,7 +517,30 @@
     margin: 10px 40px;
 }
 
+.search_navigation{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 100%;
+    margin-top: 60px;
+}
 
+.pagination__item__active{
+    color: white;
+    background: #c2001a;
+    padding: 4px 8px!important;
+}
+
+.pagination__item{
+    position: relative;
+    float: left;
+    font-size: 12px;
+    line-height: 1;
+    padding: 5px 15px;
+    cursor: pointer;
+}
 
 
 

@@ -41,7 +41,7 @@ function Goods() {
         goodsArr.map(item => {
             if (item.slug === pageUrl) {
                 setGoods(item)
-                item.imageShow.forEach((image, index) => {
+                item?.imageShow?.forEach((image, index) => {
                     const newImage = {
                         original: image,
                         thumbnail: image,
@@ -176,7 +176,7 @@ function Goods() {
                         <h1>{goods.title}</h1>
                         <div className={s.divColumn1}>
                             {
-                                goods.length === 0 ?
+                                goods.imageShow === null ?
                                     <Image fill className={s.imgNo} src='/other/no-image.svg' alt='no image'/>
                                     : <ImageGallery lazyLoad={true}
                                                     thumbnailPosition={'left'}
@@ -246,6 +246,10 @@ function Goods() {
                                     {goods?.weight && <li>
                                         <p>Ваги</p>
                                         <p>{goods?.weight} кг</p>
+                                    </li>}
+                                    {goods?.codeEAN && <li>
+                                        <p>Код EAN</p>
+                                        <p>{goods?.codeEAN}</p>
                                     </li>}
                                     <li>
                                         <p>Штриховий код</p>

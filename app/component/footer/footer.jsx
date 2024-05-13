@@ -52,10 +52,10 @@ function Footer() {
                         <Link href="/" className={s.logo_link}>
                             <Image src='/new_logo.svg' alt='logo' width={250} height={100} />
                         </Link>
-                        <p>SAMWASH Безконтактні мийки</p>
+                        <p>SamWash Безконтактні мийки</p>
                         <ul>
                             <li>
-                                <a href="tel:0975794930">+38 097 579 4930</a>
+                                <a href="tel:0975794930">+38 097 579 49 30</a>
                             </li>
                             <li>
                                 <a href="mailto:info@samwash.ua" title="Напишіть нам">info@samwash.ua</a>

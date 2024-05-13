@@ -247,11 +247,11 @@ const arrGoods = [
 
 const arrChildCatalog = [
     {
-        slug: '/electromagnetic-valves',
+        slug: '/electromagnetic-valves-and-repair-kits/electromagnetic-valves',
         title: 'Електромагнітні клапани'
     },
     {
-        slug: '/repair-kits-of-electromagnetic-valves',
+        slug: '/electromagnetic-valves-and-repair-kits/repair-kits-of-electromagnetic-valves',
         title: 'Ремкомплекти електромагнітних клапанів'
     },
 ]

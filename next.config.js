@@ -18,10 +18,10 @@ const nextConfig = {
     images: {
         domains:["cb.samwash.ua", "m.media-amazon.com"]
     },
-    assetPrefix: './',
-    matcher: [
-        '/((?!_next|api/auth).*)(.+)'
-    ],
+    // assetPrefix: './',
+    // matcher: [
+    //     '/((?!_next|api/auth).*)(.+)'
+    // ],
 };
 
 const withNextIntl = require('next-intl/plugin')(

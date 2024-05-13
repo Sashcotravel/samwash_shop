@@ -285,19 +285,19 @@ const arrGoods = [
 
 const arrChildCatalog = [
     {
-        slug: '/active-foam',
+        slug: '/chemical-means/active-foam',
         title: 'Активна піна для миття автомобіля'
     },
     {
-        slug: '/car-wash-powders',
+        slug: '/chemical-means/car-wash-powders',
         title: 'Порошки для миття автомобіля'
     },
     {
-        slug: '/car-wash-shampoos',
+        slug: '/chemical-means/car-wash-shampoos',
         title: 'Шампуні для миття автомобіля'
     },
     {
-        slug: '/car-wash-waxes',
+        slug: '/chemical-means/car-wash-waxes',
         title: 'Воски для миття автомобіля'
     },
 ]
