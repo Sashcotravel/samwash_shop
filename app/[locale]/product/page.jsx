@@ -47,28 +47,39 @@ const arrChildCatalog = [
     },
     {
         title: 'Опалювальна арматура',
-        slug: '/heating-fittings',
-        img: '/heating/main.jpg',
+        slug: '/peating-fittings',
+        img: '/fittings/main.jpg',
         child: [
             {
-                slug: '/heating-fittings/sensors',
-                title: 'Датчики'
+                slug: '/peating-fittings/sensors',
+                title: 'Датчики',
             },
             {
-                slug: '/heating-fittings/nozzles',
-                title: 'Насадки'
+                slug: '/peating-fittings/nozzles',
+                title: 'Насадки',
             },
             {
-                slug: '/heating-fittings/electric-heaters',
-                title: 'Електричні обігрівачі'
+                slug: '/peating-fittings/electric-heaters',
+                title: 'Електричні обігрівачі',
             },
             {
-                slug: '/heating-fittings/diaphragmatic-vessels',
-                title: 'Діафрагмальні судини'
+                slug: '/peating-fittings/diaphragmatic-vessels',
+                title: 'Діафрагмальні судини',
             },
             {
-                slug: '/heating-fittings/burners-and-accessories',
-                title: 'Пальники та аксесуари'
+                slug: '/peating-fittings/burners-and-accessories',
+                title: 'Пальники та аксесуари',
+            },
+        ]
+    },
+    {
+        title: 'Хімічні засоби для автоматичних мийок',
+        slug: '/chemicals-for-automatic-wash',
+        img: '',
+        child: [
+            {
+                slug: '/chemicals-for-automatic-wash/car-wash-waxes',
+                title: 'Воски для миття автомобіля',
             },
         ]
     },
@@ -94,6 +105,11 @@ const arrChildCatalog = [
                 title: 'Воски для миття автомобіля'
             },
         ]
+    },
+    {
+        title: 'Очищення та обслуговування',
+        slug: '/cleaning-and-maintenance',
+        img: '',
     },
     {
         title: 'Електромагнітні клапани та ремкомплекти',

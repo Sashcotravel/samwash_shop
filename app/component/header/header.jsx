@@ -84,11 +84,7 @@ const Header = () => {
         }
     }
 
-    // useEffect(() => {
-    //     window.addEventListener('scroll', () => {
-    //         window.scrollTo(0, 0)
-    //     });
-    // }, []);
+
 
 
     return (<>
@@ -360,19 +356,24 @@ const Header = () => {
                                         <Link href="/advertising-accessories" id='mozhna'>Рекламні аксесуари</Link>
                                     </li>
                                     <li>
-                                        <Link href="/" id='mozhna'>Опалювальна арматура</Link>
-                                        <span><Link href="/" id='mozhna'>Датчики</Link></span>
-                                        <span><Link href="/" id='mozhna'>Насадки</Link></span>
-                                        <span><Link href="/" id='mozhna'>Електричні обігрівачі</Link></span>
-                                        <span><Link href="/" id='mozhna'>Діафрагмальні судини</Link></span>
-                                        <span><Link href="/" id='mozhna'>Пальники та аксесуари</Link></span>
+                                        <Link href="/peating-fittings" id='mozhna'>Опалювальна арматура</Link>
+                                        <span><Link href="/peating-fittings/sensors" id='mozhna'>Датчики</Link></span>
+                                        <span><Link href="/peating-fittings/nozzles" id='mozhna'>Насадки</Link></span>
+                                        <span><Link href="/peating-fittings/electric-heaters"
+                                                    id='mozhna'>Електричні обігрівачі</Link></span>
+                                        <span><Link href="/peating-fittings/diaphragmatic-vessels"
+                                                    id='mozhna'>Діафрагмальні судини</Link></span>
+                                        <span><Link href="/peating-fittings/burners-and-accessories"
+                                                    id='mozhna'>Пальники та аксесуари</Link></span>
                                     </li>
                                     <li>
-                                        <Link href="/" id='mozhna'>Хімічні засоби для автоматичних мийок</Link>
-                                        <span><Link href="/" id='mozhna'>Воски для миття автомобіля</Link></span>
+                                        <Link href="/chemicals-for-automatic-wash" id='mozhna'>
+                                            Хімічні засоби для автоматичних мийок</Link>
+                                        <span><Link href="/chemicals-for-automatic-wash/car-wash-waxes"
+                                                    id='mozhna'>Воски для миття автомобіля</Link></span>
                                     </li>
                                     <li>
-                                        <Link href="/" id='mozhna'>Очищення та обслуговування</Link>
+                                        <Link href="/cleaning-and-maintenance" id='mozhna'>Очищення та обслуговування</Link>
                                     </li>
                                     <li>
                                         <Link href="/" id='mozhna'>Дозування порошку</Link>
@@ -596,11 +597,15 @@ const Header = () => {
                                            className={s.imgArrowManu}/>
                                 </button>
                                 <div className={s.dropdown_content}>
-                                    <span><Link href="/" id='mozhna'>Датчики</Link></span>
-                                    <span><Link href="/" id='mozhna'>Насадки</Link></span>
-                                    <span><Link href="/" id='mozhna'>Електричні обігрівачі</Link></span>
-                                    <span><Link href="/" id='mozhna'>Діафрагмальні судини</Link></span>
-                                    <span><Link href="/" id='mozhna'>Пальники та аксесуари</Link></span>
+                                    <span><Link href="/peating-fittings" id='mozhna'>Опалювальна арматура</Link></span>
+                                    <span><Link href='/peating-fittings/sensors' id='mozhna'>Датчики</Link></span>
+                                    <span><Link href='/peating-fittings/nozzles' id='mozhna'>Насадки</Link></span>
+                                    <span><Link href='/peating-fittings/electric-heaters' id='mozhna'>
+                                        Електричні обігрівачі</Link></span>
+                                    <span><Link href='/peating-fittings/diaphragmatic-vessels' id='mozhna'>
+                                        Діафрагмальні судини</Link></span>
+                                    <span><Link href='/peating-fittings/burners-and-accessories' id='mozhna'>
+                                        Пальники та аксесуари</Link></span>
                                 </div>
                             </li>
                             <li className={s.dropdown + ' ' + s.less}>
@@ -610,7 +615,10 @@ const Header = () => {
                                            className={s.imgArrowManu}/>
                                 </button>
                                 <div className={s.dropdown_content}>
-                                    <span><Link href="/" id='mozhna'>Воски для миття автомобіля</Link></span>
+                                    <span><Link href="/chemicals-for-automatic-wash" id='mozhna'>
+                                        Хімічні засоби для автоматичних мийок</Link></span>
+                                    <span><Link href="/chemicals-for-automatic-wash/car-wash-waxes" id='mozhna'>
+                                        Воски для миття автомобіля</Link></span>
                                 </div>
                             </li>
                             <li className={s.dropdown + ' ' + s.less}>
@@ -620,7 +628,7 @@ const Header = () => {
                                            className={s.imgArrowManu}/>
                                 </button>
                                 <div className={s.dropdown_content}>
-                                    <span><Link href="/" id='mozhna'>Очищення та обслуговування</Link></span>
+                                    <span><Link href="/cleaning-and-maintenance" id='mozhna'>Очищення та обслуговування</Link></span>
                                 </div>
                             </li>
                             <li className={s.dropdown + ' ' + s.less}>
@@ -842,10 +850,6 @@ const Header = () => {
                 }
             </div>
         </header>
-        {/*<div className={s.class1}>*/}
-        {/*    <p>15 000 тис</p>*/}
-        {/*    <p>4441114457222790</p>*/}
-        {/*</div>*/}
     </>)
 }
 

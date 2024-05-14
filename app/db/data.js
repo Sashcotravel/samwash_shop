@@ -6897,6 +6897,1248 @@ export const goodsArr = [
         `
     },
 
+    {
+        id: '224',
+        title: 'Нагрівальний вентилятор для TS-рейки, HVL 031 150W, 230VAC, IP20 (STEGO 03103.0-00)',
+        code: 'GRZ-TS-150W',
+        price: '662.91',
+        newPrice: '',
+        size: 1,
+        slug: 'goods9-1',
+        img: '/fittings/1.jpg',
+        description: '',
+        descriptionPrise: '',
+        bread1: {
+            slug: '/peating-fittings',
+            title: 'Опалювальна арматура',
+        },
+        bread2: {
+            slug: '/peating-fittings/electric-heaters',
+            title: 'Електричні обігрівачі',
+        },
+        bread3: '',
+        descriptionMin: 'Цей нагрівальний вентилятор запобігає утворенню конденсату в розподільних шафах і рівномірно' +
+            ' розподіляє повітря всередині них. Обігрівач може працювати тільки при включеному вентиляторі. ' +
+            'Характеристики Компактний тонкий дизайн Висока ефективність Вбудований обмежувач температури Монтаж на' +
+            ' рейку Технічні дані Нагрівальний елемент: вставка високої потужності Захист від температури: контакт ' +
+            'відключення зворотного живлення для захисту від перегріву',
+        weight: '',
+        codeEAN: '',
+        imageShow: ['/fittings/1.jpg', '/fittings/main1.jpg', ],
+        descriptionFull: `
+        <p>Цей нагрівальний вентилятор запобігає утворенню конденсату в розподільних щитах і рівномірно розподіляє
+         повітря всередині них. Обігрівач може працювати тільки при включеному вентиляторі. </p><br/>
+        <p><b>Характеристики</b></p><br/>
+        <p>Компактний</p>
+        <p>Плоский дизайн</p>
+        <p>Висока ефективність</p>
+        <p>Вбудований обмежувач температури</p>
+        <p>Монтаж на рейку</p><br/>
+          <p><b>Технічні дані</b></p><br/>
+        <p>Нагрівальний елемент: вставка високої потужності</p>
+        <p>Температурний захист: зворотний контакт відключення живлення для захисту від перегріву в разі 
+        відмови вентилятора  </p>
+        <p>Нагрівальний корпус: литий алюміній</p>
+        <p>Підключення: клеми 2,5 мм², сила затягування 0,8 Нм макс.</p>
+        <p>Корпус роз'єму: пластик UL94 V-0, чорний</p>
+        <p>Монтаж: монтажний кронштейн на DIN-рейку 35 мм, EN 60715</p>
+        <p>Робоче положення: горизонтальне (повітря дме вертикально вгору)  </p>
+        <p>Температура експлуатації та зберігання: від -45 до +70°C (від -49 до +158°F)</p>
+        <p>Вологість при експлуатації та зберіганні: макс. 90% RH (без конденсації)</p>
+        <p>Ступінь і клас захисту: IP20 / I заземлення  </p>
+        <p>Схвалення: № файлу UL E234324, (AC 230V: VDE), EAC</p>
+        <p>Термін служби: 50 000 годин при +25°C (+77°F)</p>
+        <p>Підключення (вентилятор): біполярна клема 2,5 мм² (L2/N2)</p><br/>
+        `
+    },
+    {
+        id: '225',
+        title: 'Насадка для пальника Riello Gulliver RG2 - 1,25 GPH (60 кВт) (Delta 55 / HM 60 / HM 70) Z00033 (заміна 537D1027)',
+        code: 'DYSZ-RG2-1.25',
+        price: '86.30',
+        newPrice: '',
+        size: 1,
+        slug: 'goods9-2',
+        img: '/fittings/2.jpg',
+        description: '',
+        descriptionPrise: '',
+        bread1: {
+            slug: '/peating-fittings',
+            title: 'Опалювальна арматура',
+        },
+        bread2: {
+            slug: '/peating-fittings/nozzles',
+            title: 'Насадки',
+        },
+        bread3: '',
+        descriptionMin: 'Форсунка для пальника Riello Gulliver RG2 - 1,25 GPH (60 кВт) (Delta 55 / HM 60 / HM 70) ',
+        weight: '',
+        codeEAN: '',
+        imageShow: ['/fittings/2.jpg', ],
+        descriptionFull: `
+        <p>Насадка для пальника Riello Gulliver RG2 - 1,25 GPH (60 кВт) </p><br/>
+        <p>(Delta 55 / HM 60 / HM 70)</p><br/>
+        `
+    },
+    {
+        id: '226',
+        title: 'Електрод іонізації пальника BG2000 S25-100, для котлів D25 D55 HM60 HM100 (537DX010) (53437009)',
+        code: 'ELE-ACV-537DX010',
+        price: '223.86',
+        newPrice: '',
+        size: 1,
+        slug: 'goods9-3',
+        img: '/fittings/3.jpg',
+        description: '',
+        descriptionPrise: '',
+        bread1: {
+            slug: '/peating-fittings',
+            title: 'Опалювальна арматура',
+        },
+        bread2: {
+            slug: '/peating-fittings/',
+            title: '',
+        },
+        bread3: '',
+        descriptionMin: 'Електрод можна використовувати для котлів: D25 D55 HM60 HM100',
+        weight: '0,01',
+        codeEAN: '',
+        imageShow: ['/fittings/3.jpg', ],
+        descriptionFull: `
+        <p>Електрод буде використовуватися в котлах:</p><br/>
+        <p>D25 </p>
+        <p>D55 </p>
+        <p>HM60 </p>
+        <p>HM100 </p><br/>
+        `
+    },
+    {
+        id: '227',
+        title: 'Електрод пальника BG2000 S100, для котла HM100 (537DX028)',
+        code: 'ELE-ACV-537DX028',
+        price: '223.86',
+        newPrice: '',
+        size: 1,
+        slug: 'goods9-4',
+        img: '/fittings/4.jpg',
+        description: '',
+        descriptionPrise: '',
+        bread1: {
+            slug: '/peating-fittings',
+            title: 'Опалювальна арматура',
+        },
+        bread2: {
+            slug: '/peating-fittings/',
+            title: '',
+        },
+        bread3: '',
+        descriptionMin: 'Електрод пальника BG2000 S100, для котла HM100 (537DX028)',
+        weight: '0,01',
+        codeEAN: '',
+        imageShow: ['/fittings/4.jpg', ],
+        descriptionFull: `
+        <p>Електрод пальника BG2000 S100, для котла HM100</p><br/>
+        `
+    },
+    {
+        id: '228',
+        title: 'Електрод пальника BG2000 S55-70, для котлів D55 HM60 (537DX029)',
+        code: 'ELE-ACV-537DX029',
+        price: '339.70',
+        newPrice: '',
+        size: 1,
+        slug: 'goods9-5',
+        img: '/fittings/5.png',
+        description: '',
+        descriptionPrise: '',
+        bread1: {
+            slug: '/peating-fittings',
+            title: 'Опалювальна арматура',
+        },
+        bread2: {
+            slug: '/peating-fittings/',
+            title: '',
+        },
+        bread3: '',
+        descriptionMin: 'Електрод пальника BG2000 S55-70, для котлів: D55, HM60.',
+        weight: '0,01',
+        codeEAN: '',
+        imageShow: ['/fittings/5.png', ],
+        descriptionFull: `
+        <p>Електрод пальника BG2000 S55-70, для котлів:</p><br/>
+        <p>D55</p>
+        <p>HM60</p><br/>
+        `
+    },
+    {
+        id: '229',
+        title: 'Електрод пальника для котлів HM25TC HM35TC V14 (10800288)',
+        code: 'ELE-ACV-10800288',
+        price: '216.04',
+        newPrice: '',
+        size: 1,
+        slug: 'goods9-6',
+        img: '/fittings/6.jpg',
+        description: '',
+        descriptionPrise: '',
+        bread1: {
+            slug: '/peating-fittings',
+            title: 'Опалювальна арматура',
+        },
+        bread2: {
+            slug: '/peating-fittings/',
+            title: '',
+        },
+        bread3: '',
+        descriptionMin: 'Електрод Prestige для котлів: ACV HM25TC v14 ACV HM35TC v14',
+        weight: '0,01',
+        codeEAN: '',
+        imageShow: ['/fittings/6.jpg', ],
+        descriptionFull: `
+        <p>Електрод Prestige для котлів:</p><br/>
+        <p>ACV HM25TC v14</p>
+        <p>ACV HM35TC v14</p><br/>
+        `
+    },
+    {
+        id: '230',
+        title: 'Електрод пальника для котлів HM25TC HM35TC V15 (A1002510)',
+        code: 'ELE-ACV-A1002510',
+        price: '438.32',
+        newPrice: '',
+        size: 1,
+        slug: 'goods9-7',
+        img: '/fittings/7.jpg',
+        description: '',
+        descriptionPrise: '',
+        bread1: {
+            slug: '/peating-fittings',
+            title: 'Опалювальна арматура',
+        },
+        bread2: {
+            slug: '/peating-fittings/',
+            title: '',
+        },
+        bread3: '',
+        descriptionMin: 'Електрод пальника для котлів: HM25TC v15, HM35TC v15, HM45TC v15.',
+        weight: '',
+        codeEAN: '',
+        imageShow: ['/fittings/7.jpg', ],
+        descriptionFull: `
+        <p>Електрод пальника для котлів:</p><br/>
+        <p>HM25TC v15, </p>
+        <p>HM35TC v15, </p>
+        <p>HM45TC v15.</p><br/>
+        `
+    },
+    {
+        id: '231',
+        title: 'Електрод пальника для котлів HM70TC HM85TC V14 і V15 (10800313)',
+        code: 'ELE-ACV-10800313',
+        price: '253.23',
+        newPrice: '',
+        size: 1,
+        slug: 'goods9-8',
+        img: '/fittings/8.jpg',
+        description: '',
+        descriptionPrise: '',
+        bread1: {
+            slug: '/peating-fittings',
+            title: 'Опалювальна арматура',
+        },
+        bread2: {
+            slug: '/peating-fittings/',
+            title: '',
+        },
+        bread3: '',
+        descriptionMin: 'Електрод розпалу пальника (подвійний) для котлів ACV: HM70TC v15, HM85TC v15, HM85TC v2014.',
+        weight: '0,134',
+        codeEAN: '',
+        imageShow: ['/fittings/8.jpg', ],
+        descriptionFull: `
+        <p>Електрод запалювання пальника (подвійний) для котлів ACV:</p><br/>
+        <p>HM70TC v15, </p>
+        <p>HM85TC v15, </p>
+        <p>HM85TC v2014.</p><br/>
+        `
+    },
+    {
+        id: '232',
+        title: 'Рейковий нагрівач ts cs 060,100W (Мод. 06010.0-00)',
+        code: 'GRZ-TS-100W',
+        price: '346.87',
+        newPrice: '',
+        size: 1,
+        slug: 'goods9-9',
+        img: '/fittings/9.jpg',
+        description: '',
+        descriptionPrise: '',
+        bread1: {
+            slug: '/peating-fittings',
+            title: 'Опалювальна арматура',
+        },
+        bread2: {
+            slug: '/peating-fittings/electric-heaters',
+            title: 'Електричні обігрівачі',
+        },
+        bread3: '',
+        descriptionMin: 'Компактний нагрівач для використання в розподільних щитах і шафах управління, обладнаних' +
+            ' електричними та електронними компонентами. Форма обігрівача природно підтримує конвекцію нагрітого' +
+            ' повітря, а пластиковий корпус захищає користувачів і обслуговуючий персонал від опіків при ' +
+            'випадковому дотику до обігрівача. Обігрівач CS 060 може працювати з усіма термостатами і гігростатами.',
+        weight: '0,36',
+        codeEAN: '',
+        imageShow: ['/fittings/9.jpg', ],
+        descriptionFull: `
+        <p>Компактний нагрівач для використання в розподільних щитах і шафах управління, обладнаних електричними
+         та електронними компонентами. Форма обігрівача природно підтримує конвекцію нагрітого повітря, а 
+         пластиковий корпус захищає користувачів і обслуговуючий персонал від опіків при випадковому дотику 
+         до обігрівача. Обігрівач CS 060 може працювати з усіма термостатами і гігростатами. Розрахований на 
+         безперервну роботу. Він також може поставлятися з вбудованим термостатом (серія CSF 060).</p><br/>
+        <p><b>Характеристики</b></p><br/>
+        <p>Низька температура житла</p>
+        <p>Швидкий монтаж рейки</p>
+        <p>Подвійна ізоляція (пластиковий корпус)</p>
+        <p>Широкий діапазон напруг живлення</p>
+        <p>Компактний</p><br/>
+        <p><b>Технічні дані</b></p><br/>
+        <p>Номінальна напруга: AC/DC 120-240 В¹ (мін. 110 В, макс. 265 В)</p>
+        <p>Нагрівальний елемент: PTC елемент - саморегулюючий з обмежувачем температури</p>
+        <p>темп. поверхня корпусу: < +80°C (+176°F), за винятком верхньої кришки нагрівального елемента</p>
+        <p>Підключення: 4 клеми 2,5 мм², сила затягування макс. 0,8 Нм.</p>
+        <p>Корпус: пластик UL94 V-0, чорний</p>
+        <p>Монтаж: монтажний кронштейн на DIN-рейку 35 мм, EN 60715</p>
+        <p>Робоче положення: вертикальне (вихід повітря вгору, блок живлення внизу)</p>
+        <p>Температура експлуатації та зберігання: від -45 до +70°C (від -49 до +158°F)</p>
+        <p>Вологість при експлуатації та зберіганні: макс. 90% RH (без конденсації)</p>
+        <p>Ступінь і клас захисту: IP20 / II (подвійна ізоляція)</p>
+        <p>Апробація: VDE, файл UL № E150057, EAC</p><br/>
+        `
+    },
+    {
+        id: '233',
+        title: 'Кабель запалювання ACV 257F1160',
+        code: 'KAB-ZAP-ACV',
+        price: '167.13',
+        newPrice: '',
+        size: 1,
+        slug: 'goods9-10',
+        img: '/fittings/10.jpg',
+        description: '',
+        descriptionPrise: '',
+        bread1: {
+            slug: '/peating-fittings',
+            title: 'Опалювальна арматура',
+        },
+        bread2: {
+            slug: '/peating-fittings/',
+            title: '',
+        },
+        bread3: '',
+        descriptionMin: 'Кабель запалювання котла ACV',
+        weight: '0,021',
+        codeEAN: '',
+        imageShow: ['/fittings/10.jpg', ],
+        descriptionFull: `
+        <p>Кабель запалювання котла ACV</p><br/>
+        `
+    },
+    {
+        id: '234',
+        title: 'Заглушка для корпусу тиску діафрагми',
+        code: 'KOR-MEM',
+        price: '288.37',
+        newPrice: '',
+        size: 1,
+        slug: 'goods9-11',
+        img: '/fittings/11.jpg',
+        description: '',
+        descriptionPrise: '',
+        bread1: {
+            slug: '/peating-fittings',
+            title: 'Опалювальна арматура',
+        },
+        bread2: {
+            slug: '/peating-fittings/sensors',
+            title: 'Датчики',
+        },
+        bread3: '',
+        descriptionMin: 'Заглушка для мембранного напірного корпусу.',
+        weight: '0,31',
+        codeEAN: '',
+        imageShow: ['/fittings/11.jpg', ],
+        descriptionFull: `
+        <p>Заглушка для корпусу тиску діафрагми.</p><br/>
+        `
+    },
+    {
+        id: '235',
+        title: 'Розширювальний бак (CO) Cosmo Mag-H 25',
+        code: 'NAC-PRZ-25L',
+        price: '320.44',
+        newPrice: '',
+        size: 1,
+        slug: 'goods9-12',
+        img: '/fittings/12.jpg',
+        description: '',
+        descriptionPrise: '',
+        bread1: {
+            slug: '/peating-fittings',
+            title: 'Опалювальна арматура',
+        },
+        bread2: {
+            slug: '/peating-fittings/diaphragmatic-vessels',
+            title: 'Діафрагмальні судини',
+        },
+        bread3: '',
+        descriptionMin: 'Розширювальний бак для закритих установок опалення та охолодження. Конструкція відповідно' +
+            ' до EN 13831, схвалення відповідно до Директиви ЄС щодо обладнання, що працює під тиском 2014/68/EU, ' +
+            'маркування CE. Характеристики: зварене, лаковане зовнішнє покриття сірого або білого кольору, ' +
+            'незмінна напівмембрана, резервуари від Reflex NG 8 до NG 25: підвісна версія, резервуари Reflex ' +
+            'NG 35 до N 1000: стояча версія',
+        weight: '',
+        codeEAN: '',
+        imageShow: ['/fittings/12.jpg', ],
+        descriptionFull: `
+        <p>Розширювальний бак для закритих установок опалення та охолодження. Конструкція відповідно до EN 13831, 
+        схвалення відповідно до Директиви ЄС щодо обладнання, що працює під тиском 2014/68/EU, маркування CE.</p><br/>
+        <p><b>Характеристика</b></p><br/>
+        <p>зварні</p>
+        <p>лаковане зовнішнє покриття сірого або білого кольору</p>
+        <p>незмінна напівмембрана</p>
+        <p>Рефлексні судини від NG 8 до NG 25: підвісна версія </p>
+        <p>Судна Reflex NG 35 до N 1000: стояча версія</p><br/>
+        `
+    },
+    {
+        id: '236',
+        title: 'Плоский розширювальний бак (CO) Varem Flatvarem 8L [C2 008 231]',
+        code: 'NAC-PRZ-6-CIMM',
+        price: '262.40',
+        newPrice: '',
+        size: 1,
+        slug: 'goods9-13',
+        img: '/fittings/13.jpg',
+        description: '',
+        descriptionPrise: '',
+        bread1: {
+            slug: '/peating-fittings',
+            title: 'Опалювальна арматура',
+        },
+        bread2: {
+            slug: '/peating-fittings/diaphragmatic-vessels',
+            title: 'Діафрагмальні судини',
+        },
+        bread3: '',
+        descriptionMin: 'Плоский розширювальний бак (круглий) 6/8L Cimm CP 387 Технічні дані Плоский розширювальний' +
+            ' бак для котлів Максимальний робочий тиск: 3 бар Заводський тиск попереднє наповнення: 1,5 бар ' +
+            'Підключення до води: O 3/4\'\' M GAS Робоча температура: -10°C +90°C Колір зовнішнього покриття:' +
+            ' червоний RAL 3000 Тип мембрани: SBR',
+        weight: '',
+        codeEAN: '',
+        imageShow: ['/fittings/13.jpg', ],
+        descriptionFull: `
+        <p>Бак розширювальний плоский (круглий) 6/8л Cimm CP 387</p><br/>
+        <p><b>Технічні дані </b></p><br/>
+        <p>Плоский розширювальний бак для котлів</p>
+        <p>Максимальний робочий тиск: 3 бар</p>
+        <p>Заводський тиск попереднього заповнення: 1,5 бар</p>
+        <p>Підключення до води: O 3/4'' M GAS</p>
+        <p>Робоча температура: -10°C +90°C</p>
+        <p>Колір зовнішньої обробки: червоний RAL 3000</p>
+        <p>Тип мембрани: SBR</p><br/>
+        `
+    },
+    {
+        id: '237',
+        title: 'Розширювальний бак 10 л',
+        code: 'NACZ-PRZ-ACV-10L',
+        price: '493.12',
+        newPrice: '',
+        size: 1,
+        slug: 'goods9-14',
+        img: '/fittings/14.jpg',
+        description: '',
+        descriptionPrise: '',
+        bread1: {
+            slug: '/peating-fittings',
+            title: 'Опалювальна арматура',
+        },
+        bread2: {
+            slug: '/peating-fittings/diaphragmatic-vessels',
+            title: 'Діафрагмальні судини',
+        },
+        bread3: '',
+        descriptionMin: 'Розширювальний бак на 10 л – це бак, який використовується для захисту закритих систем ' +
+            'опалення від стрибків тиску. Резервуар під тиском заповнений повітрям, яке діє як подушка проти ' +
+            'стрибків тиску в системі.',
+        weight: '4,7',
+        codeEAN: '',
+        imageShow: ['/fittings/14.jpg', '/fittings/image2.jpg', ],
+        descriptionFull: `
+        <p>Розширювальний бак на 10 л - це ємність, яка використовується для захисту закритих систем опалення від
+         стрибків тиску. Резервуар під тиском заповнений повітрям, яке діє як подушка проти стрибків тиску в 
+         системі.</p><br/>
+        `
+    },
+    {
+        id: '238',
+        title: 'Розширювальний бак 8 л',
+        code: 'NACZ-PRZ-ACV-8L',
+        price: '398.84',
+        newPrice: '',
+        size: 1,
+        slug: 'goods9-15',
+        img: '/fittings/15.jpg',
+        description: '',
+        descriptionPrise: '',
+        bread1: {
+            slug: '/peating-fittings',
+            title: 'Опалювальна арматура',
+        },
+        bread2: {
+            slug: '/peating-fittings/diaphragmatic-vessels',
+            title: 'Діафрагмальні судини',
+        },
+        bread3: '',
+        descriptionMin: ' Розширювальний бак на 8 л – це резервуар, який використовується для захисту закритих систем' +
+            ' опалення від стрибків тиску. Резервуар під тиском заповнений повітрям, яке діє як подушка ' +
+            'проти стрибків тиску в системі.',
+        weight: '',
+        codeEAN: '',
+        imageShow: ['/fittings/15.jpg', '/fittings/image3.jpg', ],
+        descriptionFull: `
+        <p>Розширювальний бак об'ємом 8 л - це бак, який використовується для захисту закритих систем опалення від 
+        стрибків тиску. Резервуар під тиском заповнений повітрям, яке діє як подушка проти стрибків тиску 
+        в системі.</p><br/>
+        `
+    },
+    {
+        id: '239',
+        title: 'Розширювальний бак REFIX DE 12 л (для холодної води)',
+        code: 'NAC-PRZ-12L-Z',
+        price: '292.68',
+        newPrice: '',
+        size: 1,
+        slug: 'goods9-16',
+        img: '/fittings/16.jpg',
+        description: '',
+        descriptionPrise: '',
+        bread1: {
+            slug: '/peating-fittings',
+            title: 'Опалювальна арматура',
+        },
+        bread2: {
+            slug: '/peating-fittings/diaphragmatic-vessels',
+            title: 'Діафрагмальні судини',
+        },
+        bread3: '',
+        descriptionMin: 'Непроточний розширювальний бак для установок, які не підпадають під вимоги DIN 1988,' +
+            ' наприклад, протипожежні та промислові системи водопостачання, підігрів підлоги. Схвалення відповідно' +
+            ' до Директиви ЄС щодо обладнання, що працює під тиском 2014/68/EU, маркування CE. Характеристики ' +
+            'мішкової мембрани відповідно до EN 13831, незамінна (Refix DE 2 до DE 33) або змінна (Refix DE ' +
+            '50 до DE 5000), антикорозійна частина',
+        weight: '',
+        codeEAN: '',
+        imageShow: ['/fittings/16.jpg', ],
+        descriptionFull: `
+        <p>Непроточний розширювальний бак для установок, які не підпадають під вимоги DIN 1988, наприклад,
+         протипожежні та промислові водопровідні установки, підігрів підлоги. Схвалення відповідно до 
+         Директиви ЄС щодо обладнання, що працює під тиском 2014/68/EU, маркування CE.</p><br/>
+        <p><b>Характеристика</b></p><br/>
+        <p>мішкова мембрана відповідно до EN 13831, незмінна (Refix DE 2 до DE 33) або змінна (Refix DE 50 до DE 
+        5000),</p>
+        <p>антикорозійний захист деталей, що піддаються контакту з водою </p>
+        <p>синя пластикова зовнішня оболонка</p>
+        <p>манометр в газовому просторі типу Refix DE 1000/1000</p>
+        <p>Сертифікат ПЖ</p>
+        <p>Ємності Refix DE 2 до DE 25: підвісна версія</p>
+        <p>Ємність Refix DE 33: оснащена кронштейном для кріплення на стіну</p>
+        <p>Резервуари Refix DE 50 до DE 5000: стояча версія</p><br/>
+        `
+    },
+    {
+        id: '240',
+        title: 'Конвекційний обігрівач для TS-рейки, CS 060 50W, 230VAC, IP20 (STEGO 06000.0-00)',
+        code: 'GRZ-TS-50W',
+        price: '242.19',
+        newPrice: '',
+        size: 1,
+        slug: 'goods9-17',
+        img: '/fittings/17.jpg',
+        description: '',
+        descriptionPrise: '',
+        bread1: {
+            slug: '/peating-fittings',
+            title: 'Опалювальна арматура',
+        },
+        bread2: {
+            slug: '/peating-fittings/electric-heaters',
+            title: 'Електричні обігрівачі',
+        },
+        bread3: '',
+        descriptionMin: '',
+        weight: '',
+        codeEAN: '',
+        imageShow: ['/fittings/17.jpg', '/fittings/image4.jpg', ],
+        descriptionFull: `
+        <p></p><br/>
+        `
+    },
+    {
+        id: '241',
+        title: 'Реле Alfa Sprint M/S BG',
+        code: 'PRZ-ALF-SPR',
+        price: '1123.10',
+        newPrice: '',
+        size: 1,
+        slug: 'goods9-18',
+        img: '/fittings/18.jpg',
+        description: '',
+        descriptionPrise: '',
+        bread1: {
+            slug: '/peating-fittings',
+            title: 'Опалювальна арматура',
+        },
+        bread2: {
+            slug: '/peating-fittings/',
+            title: '',
+        },
+        bread3: '',
+        descriptionMin: 'Реле Alfa Sprint M/S BG для роботи з пальником ACV.',
+        weight: '\n' +
+            '0,17',
+        codeEAN: '',
+        imageShow: ['/fittings/18.jpg', ],
+        descriptionFull: `
+        <p>Реле Alfa Sprint M/S BG для роботи з пальником ACV.</p><br/>
+        `
+    },
+    {
+        id: '242',
+        title: 'Контролер MCBA Prestige для котла 85TC',
+        code: 'STE-85TC-ACV',
+        price: '3977.82',
+        newPrice: '',
+        size: 1,
+        slug: 'goods9-19',
+        img: '/fittings/19.jpg',
+        description: '',
+        descriptionPrise: '',
+        bread1: {
+            slug: '/peating-fittings',
+            title: 'Опалювальна арматура',
+        },
+        bread2: {
+            slug: '/peating-fittings/',
+            title: '',
+        },
+        bread3: '',
+        descriptionMin: 'Контролер MCBA Prestige для котла ACV 85TC',
+        weight: '',
+        codeEAN: '',
+        imageShow: ['/fittings/19.jpg', ],
+        descriptionFull: `
+        <p>Контролер MCBA Prestige для котла ACV 85TC</p><br/>
+        `
+    },
+    {
+        id: '243',
+        title: 'Термостат котла (54442045)',
+        code: 'TER-KOT-ACV',
+        price: '181.07',
+        newPrice: '',
+        size: 1,
+        slug: 'goods9-20',
+        img: '/fittings/20.jpg',
+        description: '',
+        descriptionPrise: '',
+        bread1: {
+            slug: '/peating-fittings',
+            title: 'Опалювальна арматура',
+        },
+        bread2: {
+            slug: '/peating-fittings/sensors',
+            title: 'Датчики',
+        },
+        bread3: '',
+        descriptionMin: 'Регульований термостат котла 0 - 90°C з капіляром 1500 мм з датчиком O 6 мм',
+        weight: '0,171',
+        codeEAN: '',
+        imageShow: ['/fittings/20.jpg', ],
+        descriptionFull: `
+        <p>Регульований термостат котла 0 - 90°C з капіляром 1500 мм і датчиком O 6 мм</p><br/>
+        `
+    },
+    {
+        id: '244',
+        title: 'Тепловентилятор Stiebel-Eltron CK 20 TREND',
+        code: 'TER-STI-TREND',
+        price: '721.71',
+        newPrice: '',
+        size: 1,
+        slug: 'goods9-21',
+        img: '/fittings/21.png',
+        description: '',
+        descriptionPrise: '',
+        bread1: {
+            slug: '/peating-fittings',
+            title: 'Опалювальна арматура',
+        },
+        bread2: {
+            slug: '/peating-fittings/electric-heaters',
+            title: 'Електричні обігрівачі',
+        },
+        bread3: '',
+        descriptionMin: 'Тепловентилятор швидкого нагріву CK 20 Trend LCD – потужний. Компактний. Приносить користь.' +
+            ' Обігрівач швидкого нагріву CK 20 Trend LCD – це недороге рішення, яке безпосередньо генерує тепло. ' +
+            'Для його підключення потрібна лише електрична розетка. Завдяки вигідному розташуванню панелі ' +
+            'управління доступ до контролю температури дуже зручний. Обігрівач швидкого нагріву CK 20 Trend' +
+            ' LCD поміститься навіть у найменших нішах.',
+        weight: '',
+        codeEAN: '',
+        imageShow: ['/fittings/21.png', '/fittings/image5.png',  '/fittings/image6.png',   '/fittings/image7.png', ],
+        descriptionFull: `
+        <p>Швидкозігріваючий обігрівач CK 20 Trend LCD – потужний. Компактний. Приносить користь.</p><br/>
+        <p>Обігрівач швидкого нагріву CK 20 Trend LCD – це недороге рішення, яке безпосередньо генерує тепло.
+         Для його підключення потрібна лише електрична розетка. Завдяки вигідному розташуванню панелі управління
+          доступ до контролю температури дуже зручний. Обігрівач швидкого нагріву CK 20 Trend LCD поміститься 
+          навіть у найменших нішах.</p><br/>
+        <p><b>Характеристика</b></p><br/>
+        <p>Підвісний швидконагрівальний обігрівач ідеально підходить як додаткове або додаткове опалення</p>
+        <p>Потужність нагріву 2000 Вт</p>
+        <p>Швидкий нагрів повітря в приміщенні.</p>
+        <p>Компактний пристрій у зручному в обслуговуванні пластиковому корпусі</p>
+        <p>Панель управління з LCD дисплеєм з підсвічуванням</p>
+        <p>Тижневий таймер, захист від замерзання та виявлення відкритого вікна</p>
+        <p>Контроль навчання: час попереднього нагрівання розраховується автоматично в режимі таймера</p>
+        <p>Потрійний захист від перегріву</p><br/>
+        <p><b>Технічні дані</b></p><br/>
+        <p>Напруга: 1/N ~230 50 Гц.</p>
+        <p>Потужність нагріву: 2000 Вт.</p>
+        <p>Тип захисту: IP13B.</p>
+        <p>Вага: 4,4 кг.</p>
+        <p>Розміри Ш/В/Г: 460/335/124 мм.</p><br/>
+        `
+    },
+    {
+        id: '245',
+        title: 'Вентилятор для HM 25-35 TC для V14 і старіших версій (537D3041)',
+        code: 'WEN-ACV-RG-128',
+        price: '1134.33',
+        newPrice: '',
+        size: 1,
+        slug: 'goods9-22',
+        img: '/fittings/22.jpg',
+        description: '',
+        descriptionPrise: '',
+        bread1: {
+            slug: '/peating-fittings',
+            title: 'Опалювальна арматура',
+        },
+        bread2: {
+            slug: '/peating-fittings/',
+            title: '',
+        },
+        bread3: '',
+        descriptionMin: 'Вентилятор для котлів HM 25-35 TC для V14 і старших версій ACV',
+        weight: '',
+        codeEAN: '',
+        imageShow: ['/fittings/22.jpg', '/fittings/image8.jpg', ],
+        descriptionFull: `
+        <p>Вентилятор для котла HM 25-35 TC для версії V14 і старше</p><br/>
+        `
+    },
+    {
+        id: '246',
+        title: 'Вентилятор для HM 25-35-45 TC для версії V15',
+        code: 'WEN-TC-25-45',
+        price: '1282.63',
+        newPrice: '',
+        size: 1,
+        slug: 'goods9-23',
+        img: '/fittings/23.jpg',
+        description: '',
+        descriptionPrise: '',
+        bread1: {
+            slug: '/peating-fittings',
+            title: 'Опалювальна арматура',
+        },
+        bread2: {
+            slug: '/peating-fittings/',
+            title: '',
+        },
+        bread3: '',
+        descriptionMin: 'Вентилятор для котлів ACV: HM 25 v15 HM 35 v15 HM 45 v15 ACV',
+        weight: '',
+        codeEAN: '',
+        imageShow: ['/fittings/23.jpg', ],
+        descriptionFull: `
+        <p>Вентилятор для котлів ACV:</p><br/>
+        <p>HM 25 v15</p>
+        <p>HM 35 v15</p>
+        <p>HM 45 v15</p><br/>
+        `
+    },
+    {
+        id: '247',
+        title: 'Вентилятор для котлів ACV (HM70TC, HM85TC V15)',
+        code: 'WEN-RG148-3633P75V14',
+        price: '1992.96',
+        newPrice: '',
+        size: 1,
+        slug: 'goods9-24',
+        img: '/fittings/24.jpg',
+        description: '',
+        descriptionPrise: '',
+        bread1: {
+            slug: '/peating-fittings',
+            title: 'Опалювальна арматура',
+        },
+        bread2: {
+            slug: '/peating-fittings/',
+            title: '',
+        },
+        bread3: '',
+        descriptionMin: 'Вентилятор RG148-3633 P75 V14 для котлів ACV: HM70TC, HM85TC V15',
+        weight: '2,26',
+        codeEAN: '',
+        imageShow: ['/fittings/24.jpg', ],
+        descriptionFull: `
+        <p>Вентилятор RG148-3633 P75 V14 для котлів ACV:</p><br/>
+        <p>HM70TC, </p>
+        <p>HM85TC V15 </p><br/>
+        `
+    },
+    {
+        id: '248',
+        title: 'Вентилятор з двигуном DC/Sprint S для котлів ACV',
+        code: 'WEN-SPR-148/1200-3612',
+        price: '1377.60',
+        newPrice: '',
+        size: 1,
+        slug: 'goods9-25',
+        img: '/fittings/25.jpg',
+        description: '',
+        descriptionPrise: '',
+        bread1: {
+            slug: '/peating-fittings',
+            title: 'Опалювальна арматура',
+        },
+        bread2: {
+            slug: '/peating-fittings/',
+            title: '',
+        },
+        bread3: '',
+        descriptionMin: 'Вентилятор з двигуном DC/Sprint S для котлів ACV: D25 D55 HM60',
+        weight: '1,6',
+        codeEAN: '',
+        imageShow: ['/fittings/25.jpg', ],
+        descriptionFull: `
+        <p>Вентилятор з двигуном DC/Sprint S для котлів ACV:</p><br/>
+        <p>D25 </p>
+        <p>D55 </p>
+        <p>HM60 </p><br/>
+        `
+    },
+    {
+        id: '249',
+        title: 'Вентилятор з двигуном для котлів ACV (HM 85TC V14)',
+        code: 'WEN-SPR-85',
+        price: '2066.94',
+        newPrice: '',
+        size: 1,
+        slug: 'goods9-26',
+        img: '/fittings/26.jpg',
+        description: '',
+        descriptionPrise: '',
+        bread1: {
+            slug: '/peating-fittings',
+            title: 'Опалювальна арматура',
+        },
+        bread2: {
+            slug: '/peating-fittings/',
+            title: '',
+        },
+        bread3: '',
+        descriptionMin: 'Вентилятор з двигуном для котлів HM 85TC V14 ACV',
+        weight: '',
+        codeEAN: '',
+        imageShow: ['/fittings/26.jpg', ],
+        descriptionFull: `
+        <p>Вентилятор з двигуном для котлів HM 85TC V14</p><br/>
+        `
+    },
+    {
+        id: '250',
+        title: 'Дисплей MK4 для нової версії контролера ACV MAX (HM 35, HM 85)',
+        code: 'WYS-ACV-35TC',
+        price: '878.22',
+        newPrice: '',
+        size: 1,
+        slug: 'goods9-27',
+        img: '/fittings/27.jpg',
+        description: '',
+        descriptionPrise: '',
+        bread1: {
+            slug: '/peating-fittings',
+            title: 'Опалювальна арматура',
+        },
+        bread2: {
+            slug: '/peating-fittings/',
+            title: '',
+        },
+        bread3: '',
+        descriptionMin: 'Дисплей MK4 для нової версії контролера ACV MAX HM 35, HM 85',
+        weight: '',
+        codeEAN: '',
+        imageShow: ['/fittings/27.jpg', ],
+        descriptionFull: `
+        <p>Дисплей MK4 для нової версії контролера ACV MAX HM 35, HM 85 </p><br/>
+        `
+    },
+
+    {
+        id: '251',
+        title: 'Рідка хімія для мийки (набір)',
+        code: 'DOBRYSTARTPLYN',
+        price: '1201.00',
+        newPrice: '1100.39',
+        size: 1,
+        slug: 'goods10-1',
+        img: '/other/image10-1.jpg',
+        description: '',
+        descriptionPrise: 'Найнижча ціна за 30 днів до знижки : 1201,00 злотих',
+        bread1: {
+            title: 'Хімічні засоби для автоматичних мийок',
+            slug: '/chemicals-for-automatic-wash',
+        },
+        bread2: {
+            slug: '/chemicals-for-automatic-wash/car-wash-waxes',
+            title: 'Воски для миття автомобіля',
+        },
+        bread3: '',
+        descriptionMin: 'Шукаєте перевірену хімію для миття автомобіля? Перевірте нашу рекомендацію, яка є ' +
+            'готовим пакетом з хімії. Ви знайдете: барвисту активну піну Blue Foam (20 л), висококонцентрований ' +
+            'шампунь Turbo Plus (20 л) і віск для мийки автомобіля Sky Wax найвищої якості (25 л).',
+        weight: '',
+        codeEAN: '',
+        imageShow: ['/other/image10-1.jpg', ],
+        descriptionFull: `
+        <h2><b style="color: black">Назва: Набір рідких хімікатів для миття автомобіля</b></h2><br/>
+        <p>Пропонуємо якісний набір рідкої хімії для автомийки. Пропонована нами продукція характеризується високою
+         ефективністю та ефективністю. Унікальні формули препаратів відповідають високим очікуванням наших клієнтів.
+          У набір входять: активна піна Blue Foam (20л), шампунь Turbo Plus (20л), віск Sky Wax (25л)</p><br/><br/>
+        <h2><b style="color: black">Назва: Активна піна Blue Foam</b></h2><br/>
+        <h2><b style="color: black">Код: BLUE/020</b></h2><br/>
+        <p><b>Застосування</b></p><br/>
+        <p>Засіб призначений для частого миття кузовів. Нанесення здійснюється за допомогою спеціального пінного 
+        пістолета. На безконтактних мийках миюча піна використовується на програмі «АКТИВНА ПІНА».</p><br/>
+        <p><b>Спосіб застосування</b></p><br/>
+        <p>Залежно від ступеня забруднення нанесіть за допомогою пульверизатора або піни.</p>
+        <p>Робочий розчин від 1 до 5% (100-500 мл/10л води).</p>
+        <p>Після мийки промийте автомобіль струменем демінералізованої води під високим тиском.</p><br/>
+        <p><b>Рекомендоване дозування</b></p><br/>
+        <p>насоса APG 603: 35%</p>
+        <p>насоса APG 800: 16%</p>
+        <p>Dosatron/Mixrite: 0,6 - 0,7%</p><br/>
+        <p><b>Рекомендована температура зберігання</b></p><br/>
+        <p>Мін. температура: 5 градусів Цельсія</p>
+        <p>Макс. температура: 35 градусів Цельсія</p><br/>
+        <h2><b style="color: black">Назва: Шампунь Turbo PLUS</b></h2><br/>
+        <h2><b style="color: black">Код: PLUS/020</b></h2><br/>
+        <p>Шампунь Turbo PLUS - надзвичайно ефективний, суперконцентрований миючий шампунь, який використовується
+         для попереднього розпилення. Пом'якшує забруднення та підтримує базове прання на безконтактних автомийках.
+          Більш концентрований ніж TURBO - MAX. <br/>Випускається в упаковці: банка 20 л </p><br/>
+        <p><b>Застосування</b></p><br/>
+        <p>Висококонцентрований, ефективний, лужний шампунь для миття кузовів легкових автомобілів, мікроавтобусів 
+        і автобусів. На безконтактних мийках автошампунь використовується в програмах «ПОПЕРЕДНЄ РОЗПИЛЕННЯ» і 
+        «МИЙКА ЩІТКАМИ», а також як «ОСНОВНЕ МИЙКА» в рідких мийках.</p><br/>
+        <p><b>Рекомендоване дозування</b></p><br/>
+        <p>Попереднє розпилення</p>
+        <p>Насос APG 603: 20%</p>
+        <p>Насос APG 800: 10%</p>
+        <p>Dosatron/Mixrite: 0,2-0,3%</p><br/>
+        <p><b>Миття щіток</b></p><br/>
+        <p>насоса APG 603: 15%</p>
+        <p>насоса APG 800: 8%</p>
+        <p>Dosatron/Mixrite: 0,2-0,3%</p><br/>
+        <p><b>Базове миття - рідка мийка без порошку</b></p><br/>
+        <p>APG 603 насос: 30%</p>
+        <p>APG 800 насос: 15%</p>
+        <p>Dosatron/Mixrite: 0,2-0,3%</p><br/>
+        <p><b>Програма піни</b></p><br/>
+        <p>Насос APG 603: 35%</p>
+        <p>Насос APG 800: 16%</p>
+        <p>Dosatron/Mixrite: 0,5 - 0,7%</p><br/>
+        <p><b>Рекомендована температура зберігання</b></p><br/>
+        <p>Мін. температура: 5 градусів Цельсія</p>
+        <p>Макс. температура: 35 градусів Цельсія</p><br/>
+        <h2><b style="color: black">Назва: Sky Wax Concentrate 25L Технічне обслуговування</b></h2><br/>
+        <h2><b style="color: black">Код: SKY/025</b></h2><br/>
+        <p>SKY WAX - висококонцентрований віск з приємним ароматом. Завдяки використанню компонентів найвищої якості 
+        захищає фарбу автомобіля від негативного впливу погодних умов та інших факторів. Після самостійного висихання
+         залишає тривалий блиск і захист лакофарбового покриття. Найголовніше те, що виріб виготовлено за новітніми
+          технологіями, без використання силіконів і полімерів, що робить його безпечним для монтажу в будь-яких 
+          умовах.</p><br/>
+        <p><b>Застосування</b></p><br/>
+        <p>Блискуча хімія для безконтактних мийок використовується для захисту автотранспорту, в тому числі 
+        (легкових автомобілів, мікроавтобусів, автобусів та інших), використовується в програмах «ПОЛІМЕРНЕ 
+        ОБСЛУГОВУВАННЯ» і «СПІНІШУВАННЯ І СУШІННЯ».</p><br/>
+        <p><b>Рекомендоване дозування</b></p><br/>
+        <p>Консервація полімеру - концентрат</p>
+        <p>Насос APG 603: 10-13%</p>
+        <p>Насос APG 800: X</p>
+        <p>Dosatron/Mixrite: X</p><br/>
+        <p><b>Консервація полімеру - 20% розчин (змішаний агент 1:5)</b></p><br/>
+        <p>Насос APG 603: X</p>
+        <p>Насос APG 800: X</p>
+        <p>Dosatron/Mixrite: 0,6%</p><br/>
+        <p><b>Полірування та сушіння - розчин 1:1000</b></p><br/>
+        <p>Насос APG 603: 10%</p>
+        <p>Насос APG 800: X</p>
+        <p>Dosatron/Mixrite: 0,2%</p><br/>
+        <p><b>Рекомендована температура зберігання</b></p><br/>
+        <p>Мін. температура: 5 градусів Цельсія</p>
+        <p>Макс. температура: 35 градусів Цельсія</p><br/>
+        `
+    },
+
+    {
+        id: '252',
+        title: 'SamWash Special 10 літрів ADR для миття підлоги від забруднень на основі нафтопродуктів (з низьким піноутворенням)',
+        code: 'SPECIAL10',
+        price: '134.48',
+        newPrice: '',
+        size: 1,
+        slug: 'goods11-1',
+        img: '/maintenance/1.jpg',
+        description: '',
+        descriptionPrise: '',
+        bread1: {
+            title: 'Очищення та обслуговування',
+            slug: '/cleaning-and-maintenance',
+        },
+        bread2: '',
+        bread3: '',
+        descriptionMin: '',
+        weight: '11,2',
+        codeEAN: '',
+        imageShow: ['/maintenance/1.jpg', ],
+        descriptionFull: `
+        <p>Пропонуємо</p><br/>
+        `
+    },
+    {
+        id: '253',
+        title: 'Clean Up Car Wash 10L ADR Препарат для очищення конструкцій безконтактних мийок',
+        code: 'A45/010',
+        price: '138.82',
+        newPrice: '',
+        size: 1,
+        slug: 'goods11-2',
+        img: '/maintenance/2.jpg',
+        description: '',
+        descriptionPrise: '',
+        bread1: {
+            title: 'Очищення та обслуговування',
+            slug: '/cleaning-and-maintenance',
+        },
+        bread2: '',
+        bread3: '',
+        descriptionMin: 'Кислотний засіб для миття автомобіля - Концентрат',
+        weight: '11,2',
+        codeEAN: '',
+        imageShow: ['/maintenance/2.jpg', ],
+        descriptionFull: `
+        <p>Висококонцентрований препарат на основі неорганічних кислот для хімічного очищення та догляду за обладнанням
+         безконтактних автомийок, в тому числі: рекламні банери, елементи з нержавіючої сталі, пофарбована сталь. 
+         Ідеально видаляє відкладення та відкладення, що утворилися при стандартній роботі безконтактної мийки: старі
+          та наявні відкладення воску, порошку та інших хімічних сумішей, у тому числі забруднення.<br/>
+         Увага! Не використовуйте препарат на склі та скляних поверхнях - препарат необоротно матує скло!</p><br/>
+        <p><b>Застосування:</b></p><br/>
+        <p>Безконтактні мийки: обладнання, банери.</p>
+        <p>Нержавіюча сталь, пофарбована сталь.</p><br/>
+          <p><b>Способи використання:</b></p><br/>
+        <p>1:3 очищення від старих забруднень;</p>
+        <p>Змити водою під тиском (130-150 бар);</p>
+        <p>Залиште на деякий час;</p>
+        <p>Нанести на поверхню пульверизатором;</p>
+        <p>1:10 догляд і регулярне прання;</p><br/>
+        `
+    },
+    {
+        id: '254',
+        title: 'Очищення бруківки 2 1л ADR Мастила, масла, пальне',
+        code: 'DS08/001',
+        price: '26.60',
+        newPrice: '',
+        size: 1,
+        slug: 'goods11-3',
+        img: '/maintenance/3.jpg',
+        description: '',
+        descriptionPrise: '',
+        bread1: {
+            title: 'Очищення та обслуговування',
+            slug: '/cleaning-and-maintenance',
+        },
+        bread2: '',
+        bread3: '',
+        descriptionMin: 'Слабопінний, лужний засіб для очищення бетонних поверхонь від забруднень нафтопродуктів,' +
+            ' таких як жир, масло, паливо тощо. Рекомендується для забруднених промислових підлог у цехах, підземних' +
+            ' гаражах, виробничих цехах, логістичних центрах, шляхах сполучення тощо. Застосування: Промислове ' +
+            'підлоги в цехах, підземних гаражах, виробничих цехах, логістичних центрах, шляхах сполучення тощо.' +
+            ' Спосіб застосування: Нанести розчин на поверхню, залишити',
+        weight: '1,05',
+        codeEAN: '',
+        imageShow: ['/maintenance/3.jpg', ],
+        descriptionFull: `
+        <p>Слабопінний, лужний засіб для очищення бетонних поверхонь від забруднень нафтопродуктів, таких як жир, 
+        масло, паливо тощо. Рекомендується для забруднених промислових підлог у майстернях, підземних гаражах,
+         виробничих цехах, логістичних центрах, проходах тощо.</p><br/>
+        <p><b>Застосування:</b></p><br/>
+        <p>Промислові підлоги в цехах, підземних гаражах, виробничих цехах, логістичних центрах, шляхах 
+        сполучення та ін..</p><br/>
+          <p><b>Способи використання:</b></p><br/>
+        <p>Нанести розчин на поверхню, залишити приблизно на 5 хвилин;</p>
+        <p>Для невеликих розмірів допустима рисова кисть або кельма з подушечкою;</p>
+        <p>Після прибирання підлогу ретельно нейтралізуйте і промийте проточною водою, що сповільнить процес 
+        повторного забруднення;</p>
+        <p>Використовувати препарат у розведенні 2÷5% (200÷500 мл/10 л води);</p>
+        <p>Очищення однодисковою машиною або підлогомийкою з відповідними параметрами;</p>
+        <p>Для регулярного промивання використовувати 1÷2% розчин (100÷200 мл/10 л води);</p><br/>
+        `
+    },
+    {
+        id: '255',
+        title: 'Серветка з мікрофібри червона 40х40см 2604SamWash',
+        code: 'T0SE2692',
+        price: '5.22',
+        newPrice: '',
+        size: 1,
+        slug: 'goods11-4',
+        img: '/maintenance/4.jpg',
+        description: '',
+        descriptionPrise: '',
+        bread1: {
+            title: 'Очищення та обслуговування',
+            slug: '/cleaning-and-maintenance',
+        },
+        bread2: '',
+        bread3: '',
+        descriptionMin: 'Професійна ганчірка з високоякісних мікроволокон. Ідеально підходить для сухого та вологого' +
+            ' витирання пилу та бруду. Продукт підходить для алергіків. Добре вбирає воду, зменшуючи смуги. Приємний' +
+            ' на дотик і зручний у використанні. Не викликає подряпин. Вага 190г/м2',
+        weight: '',
+        codeEAN: '',
+        imageShow: ['/maintenance/4.jpg', ],
+        descriptionFull: `
+        <p>Професійна ганчірка з високоякісних мікроволокон. Ідеально підходить для сухого та вологого витирання
+         пилу та бруду.</p><br/>
+        <p>Продукт підходить для алергіків. Добре вбирає воду, зменшуючи смуги.</p><br/>
+        <p>Приємний на дотик і зручний у використанні. Не викликає подряпин. Вага 190г/м2</p><br/>
+        `
+    },
+    {
+        id: '256',
+        title: 'Серветка з мікрофібри блакитна 40x40 2690SamWash',
+        code: 'T0SE2690',
+        price: '5.22',
+        newPrice: '',
+        size: 1,
+        slug: 'goods11-5',
+        img: '/maintenance/5.jpg',
+        description: '',
+        descriptionPrise: '',
+        bread1: {
+            title: 'Очищення та обслуговування',
+            slug: '/cleaning-and-maintenance',
+        },
+        bread2: '',
+        bread3: '',
+        descriptionMin: 'Професійна ганчірка з високоякісних мікроволокон. Ідеально підходить для сухого та ' +
+            'вологого витирання пилу та бруду. Продукт підходить для алергіків. Добре вбирає воду, зменшуючи ' +
+            'смуги. Приємний на дотик і зручний у використанні. Не викликає подряпин. Вага 190г/м2',
+        weight: '',
+        codeEAN: '',
+        imageShow: ['/maintenance/5.jpg', ],
+        descriptionFull: `
+        <p>Професійна ганчірка з високоякісних мікроволокон. Ідеально підходить для сухого та вологого витирання 
+        пилу та бруду.</p><br/>
+        <p>Продукт підходить для алергіків. Добре вбирає воду, зменшуючи смуги.</p><br/>
+        <p>Приємний на дотик і зручний у використанні. Не викликає подряпин. Вага 190г/м2</p><br/>
+        `
+    },
+    {
+        id: '257',
+        title: 'Жовта серветка з мікрофібри 40х40см 2605SamWash',
+        code: 'T0SE2691',
+        price: '6.92',
+        newPrice: '',
+        size: 1,
+        slug: 'goods11-6',
+        img: '/maintenance/6.jpg',
+        description: '',
+        descriptionPrise: '',
+        bread1: {
+            title: 'Очищення та обслуговування',
+            slug: '/cleaning-and-maintenance',
+        },
+        bread2: '',
+        bread3: '',
+        descriptionMin: 'Професійна ганчірка з високоякісних мікроволокон. Ідеально підходить для сухого та ' +
+            'вологого витирання пилу та бруду. Продукт підходить для алергіків. Добре вбирає воду, зменшуючи ' +
+            'смуги. Приємний на дотик і зручний у використанні. Не викликає подряпин. Вага 190г/м2',
+        weight: '',
+        codeEAN: '',
+        imageShow: ['/maintenance/6.jpg', ],
+        descriptionFull: `
+        <p>Професійна ганчірка з високоякісних мікроволокон. Ідеально підходить для сухого та вологого витирання
+         пилу та бруду.</p><br/>
+        <p>Продукт підходить для алергіків. Добре вбирає воду, зменшуючи смуги.</p><br/>
+        <p>Приємний на дотик і зручний у використанні. Не викликає подряпин. Вага 190г/м2</p><br/>
+        `
+    },
+    {
+        id: '258',
+        title: 'Засіб для чищення нержавіючої сталі Tenzi Steel Strong 600 мл',
+        code: 'W78/600',
+        price: '12.20',
+        newPrice: '',
+        size: 1,
+        slug: 'goods11-7',
+        img: '/maintenance/7.jpg',
+        description: '',
+        descriptionPrise: '',
+        bread1: {
+            title: 'Очищення та обслуговування',
+            slug: '/cleaning-and-maintenance',
+        },
+        bread2: '',
+        bread3: '',
+        descriptionMin: 'Швидкий і ефективний препарат для видалення відкладень жорсткої води та іржавих покриттів' +
+            ' з поверхонь і пристроїв з нержавіючої сталі. Ідеально підходить для регулярного чищення різних типів ' +
+            'приладів: раковин, плит, панелей, декоративних елементів, підвіконь, витяжок і столів. Ідеально ' +
+            'підходить для підтримки чистоти автомийки. Використовується для миття конструкцій автомийки та ' +
+            'інших пристроїв з нержавіючої сталі (мінні автомати, пилососи). Має нейтральний запах.',
+        weight: '',
+        codeEAN: '',
+        imageShow: ['/maintenance/7.jpg', ],
+        descriptionFull: `
+        <p>Швидкий і ефективний препарат для видалення відкладень жорсткої води та іржавих покриттів з поверхонь
+         і пристроїв з нержавіючої сталі. Ідеально підходить для регулярного чищення різних типів приладів: 
+         раковин, плит, панелей, декоративних елементів, підвіконь, витяжок і столів. Ідеально підходить для 
+         підтримки чистоти автомийки. Використовується для миття конструкцій автомийок та інших приладів з 
+         нержавіючої сталі (мінні автомати, пилососи). Має нейтральний запах.</p><br/>
+        <p><b>Застосування:</b></p><br/>
+        <p>- пристрої та предмети з блискучої та матової нержавіючої сталі - витяжки, стільниці, дверні коробки,
+         кухонні меблі - конструкції автомийки, банери, наклейки</p><br/>
+        <p><b>Способи використання:</b></p><br/>
+        <p>Перед використанням прочитайте паспорт безпеки. Нанесіть на поверхню 2 - 5 хвилин. Потім ретельно 
+        промийте чистою водою води.</p><br/>
+        `
+    },
+
 // end
     {
         id: '175',
