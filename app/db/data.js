@@ -7926,7 +7926,7 @@ export const goodsArr = [
         codeEAN: '',
         imageShow: ['/maintenance/1.jpg', ],
         descriptionFull: `
-        <p>Пропонуємо</p><br/>
+        <p></p><br/>
         `
     },
     {
@@ -8136,6 +8136,2380 @@ export const goodsArr = [
         <p><b>Способи використання:</b></p><br/>
         <p>Перед використанням прочитайте паспорт безпеки. Нанесіть на поверхню 2 - 5 хвилин. Потім ретельно 
         промийте чистою водою води.</p><br/>
+        `
+    },
+
+    {
+        id: '259',
+        title: 'Датчик рівня (поплавковий) (поліпропіленовий з кабелем 10м)',
+        code: 'CZU-POZ-PLY-ELO-PP',
+        price: '176.52',
+        newPrice: '',
+        size: 1,
+        slug: 'goods12-1',
+        img: '/dosagePowder/1.jpg',
+        description: '',
+        descriptionPrise: '',
+        bread1: {
+            title: 'Дозування порошку',
+            slug: '/dosage-of-powder',
+        },
+        bread2: '',
+        bread3: '',
+        descriptionMin: 'Датчик рівня (поплавок), поліпропілен, з кабелем 10 метрів',
+        weight: '0,228',
+        codeEAN: '',
+        imageShow: ['/dosagePowder/1.jpg', ],
+        descriptionFull: `
+        <p>Датчик рівня (поплавок), поліпропілен, з кабелем 10 метрів</p><br/>
+        <p>Виробник: ELOBAU</p><br/>
+        `
+    },
+    {
+        id: '260',
+        title: 'Зірочка для дозатора (BIG)',
+        code: 'KOL-ZEB-DUZ',
+        price: '244.04',
+        newPrice: '',
+        size: 1,
+        slug: 'goods12-2',
+        img: '/dosagePowder/2.jpg',
+        description: '',
+        descriptionPrise: '',
+        bread1: {
+            title: 'Дозування порошку',
+            slug: '/dosage-of-powder',
+        },
+        bread2: '',
+        bread3: '',
+        descriptionMin: 'Шестерня для дозатора порошку (велика).',
+        weight: '',
+        codeEAN: '',
+        imageShow: ['/dosagePowder/2.jpg', ],
+        descriptionFull: `
+        <p>Шестерня для дозатора порошку (велика).</p><br/>
+        <p>Матеріал: поліпропілен</p><br/>
+        `
+    },
+    {
+        id: '261',
+        title: 'Зірочка для дозатора (МАЛА)',
+        code: 'KOL-ZEB-MAL',
+        price: '169.11',
+        newPrice: '',
+        size: 1,
+        slug: 'goods12-3',
+        img: '/dosagePowder/3.jpg',
+        description: '',
+        descriptionPrise: '',
+        bread1: {
+            title: 'Дозування порошку',
+            slug: '/dosage-of-powder',
+        },
+        bread2: '',
+        bread3: '',
+        descriptionMin: 'Механізм дозатора порошку',
+        weight: '',
+        codeEAN: '',
+        imageShow: ['/dosagePowder/3.jpg', ],
+        descriptionFull: `
+        <p>Механізм дозатора порошку</p><br/>
+        <p>Матеріал: поліпропілен</p><br/>
+        `
+    },
+    {
+        id: '262',
+        title: 'Стрижень поліуретановий 8мм (для валика дозатора)(Вуса)',
+        code: 'PRE-ELS-001',
+        price: '72.35',
+        newPrice: '',
+        size: 1,
+        slug: 'goods12-4',
+        img: '/dosagePowder/4.jpg',
+        description: '',
+        descriptionPrise: '',
+        bread1: {
+            title: 'Дозування порошку',
+            slug: '/dosage-of-powder',
+        },
+        bread2: '',
+        bread3: '',
+        descriptionMin: 'Поліуретановий стрижень товщиною 8 мм використовується для валика дозатора порошку.',
+        weight: '0,063',
+        codeEAN: '',
+        imageShow: ['/dosagePowder/4.jpg', ],
+        descriptionFull: `
+        <p>Поліуретановий стрижень товщиною 8 мм використовується для валика дозатора порошку.</p><br/>
+        <p>На один валик потрібен метр прута.</p><br/>
+        <p>Загальна назва: вуса</p><br/>
+        `
+    },
+    {
+        id: '263',
+        title: 'Редуктор до дозатора (I 30 30/1 PAM 9/80)',
+        code: 'RED-DOZ',
+        price: '564.35',
+        newPrice: '',
+        size: 1,
+        slug: 'goods12-5',
+        img: '/dosagePowder/5.jpg',
+        description: '',
+        descriptionPrise: '',
+        bread1: {
+            title: 'Дозування порошку',
+            slug: '/dosage-of-powder',
+        },
+        bread2: '',
+        bread3: '',
+        descriptionMin: '',
+        weight: '',
+        codeEAN: '',
+        imageShow: ['/dosagePowder/5.jpg', ],
+        descriptionFull: `
+        <p>Редуктор для дозатора порошку.</p><br/>
+        <p>Редуктор розташований поруч з електродвигуном.</p><br/>
+        `
+    },
+    {
+        id: '264',
+        title: 'Електродвигун до дозатора (FC 56B-4 0.09KW 4P 9/80)',
+        code: 'SIL-DOZ',
+        price: '397.94',
+        newPrice: '',
+        size: 1,
+        slug: 'goods12-6',
+        img: '/dosagePowder/6.jpg',
+        description: '',
+        descriptionPrise: '',
+        bread1: {
+            title: 'Дозування порошку',
+            slug: '/dosage-of-powder',
+        },
+        bread2: '',
+        bread3: '',
+        descriptionMin: 'Електродвигун дозатора порошку.',
+        weight: '',
+        codeEAN: '',
+        imageShow: ['/dosagePowder/6.jpg', '/dosagePowder/image1.jpg', ],
+        descriptionFull: `
+        <p>Електродвигун для дозатора порошку, який використовується на безконтактній митці.</p><br/>
+        <p><b>Технічні дані</b></p><br/>
+        <p>Потужність двигуна: 0.09KW</p>
+        <p>4P 9/80</p><br/>
+        `
+    },
+    {
+        id: '265',
+        title: 'Гвинт з нержавіючої сталі для дозатора (хід 10,0 мм)',
+        code: 'SLI-10MM-DOZ',
+        price: '76.89',
+        newPrice: '',
+        size: 1,
+        slug: 'goods12-7',
+        img: '/dosagePowder/7.jpg',
+        description: '',
+        descriptionPrise: '',
+        bread1: {
+            title: 'Дозування порошку',
+            slug: '/dosage-of-powder',
+        },
+        bread2: '',
+        bread3: '',
+        descriptionMin: 'Гвинт з нержавіючої сталі для дозатора порошку, який використовується на безконтактній митці.',
+        weight: '0,54',
+        codeEAN: '',
+        imageShow: ['/dosagePowder/7.jpg', ],
+        descriptionFull: `
+        <p>Гвинт з нержавіючої сталі для дозатора порошку, хід 10,0 мм.</p><br/>
+        <p>Довжина: 200 мм</p><br/>
+        <p>Діаметр: 27 мм</p><br/>
+        `
+    },
+    {
+        id: '266',
+        title: 'Пломба дозатора (14/28/7)',
+        code: 'УСЗ-ДОЗ-14/28/7',
+        price: '4.43',
+        newPrice: '',
+        size: 1,
+        slug: 'goods12-8',
+        img: '/dosagePowder/8.jpg',
+        description: '',
+        descriptionPrise: '',
+        bread1: {
+            title: 'Дозування порошку',
+            slug: '/dosage-of-powder',
+        },
+        bread2: '',
+        bread3: '',
+        descriptionMin: 'Пломба дозатора порошку',
+        weight: '',
+        codeEAN: '',
+        imageShow: ['/dosagePowder/8.jpg', '/dosagePowder/image2.jpg', ],
+        descriptionFull: `
+        <p>Пломба дозатора порошку 14/28/7</p><br/>
+        `
+    },
+    {
+        id: '267',
+        title: 'Ущільнювач дозатора (14/32/7)',
+        code: 'УСЗ-ДОЗ-14/32/7',
+        price: '3.84',
+        newPrice: '',
+        size: 1,
+        slug: 'goods12-9',
+        img: '/dosagePowder/9.jpg',
+        description: '',
+        descriptionPrise: '',
+        bread1: {
+            title: 'Дозування порошку',
+            slug: '/dosage-of-powder',
+        },
+        bread2: '',
+        bread3: '',
+        descriptionMin: 'Пломба дозатора порошку',
+        weight: '',
+        codeEAN: '',
+        imageShow: ['/dosagePowder/9.jpg', '/dosagePowder/image3.jpg', ],
+        descriptionFull: `
+        <p>Пломба дозатора порошку 14/32/7</p><br/>
+        `
+    },
+    {
+        id: '268',
+        title: 'Змішувальний вал для дозатора',
+        code: 'WAL-MIE-DOZ',
+        price: '125.02',
+        newPrice: '',
+        size: 1,
+        slug: 'goods12-10',
+        img: '/dosagePowder/10.jpg',
+        description: '',
+        descriptionPrise: '',
+        bread1: {
+            title: 'Дозування порошку',
+            slug: '/dosage-of-powder',
+        },
+        bread2: '',
+        bread3: '',
+        descriptionMin: 'Змішувальний вал для дозатора',
+        weight: '0,1',
+        codeEAN: '',
+        imageShow: ['/dosagePowder/10.jpg', '/dosagePowder/image4.jpg', ],
+        descriptionFull: `
+        <p>Змішувальний вал для дозатора порошку.</p><br/>
+        <p>На вал кріпиться «PRE-ELS-001» (поліуретановий стрижень 8 мм), який необхідно придбати додатково.</p><br/>
+        `
+    },
+    {
+        id: '269',
+        title: 'Привідний вал для дозатора',
+        code: 'SHAFT-NAP-DOZ',
+        price: '14.65',
+        newPrice: '',
+        size: 1,
+        slug: 'goods12-11',
+        img: '/dosagePowder/11.jpg',
+        description: '',
+        descriptionPrise: '',
+        bread1: {
+            title: 'Дозування порошку',
+            slug: '/dosage-of-powder',
+        },
+        bread2: '',
+        bread3: '',
+        descriptionMin: 'Привідний вал дозатора порошку',
+        weight: '',
+        codeEAN: '',
+        imageShow: ['/dosagePowder/11.jpg', ],
+        descriptionFull: `
+        <p>Привідний вал дозатора порошку</p><br/>
+        `
+    },
+
+    {
+        id: '270',
+        title: 'Сутінковий автомат F&F AZ-112 (з зондом)',
+        code: 'AUT-ZM-FF-AZ112',
+        price: '141.75',
+        newPrice: '',
+        size: 1,
+        slug: 'goods13-1',
+        img: '/electronic/1.jpg',
+        description: '',
+        descriptionPrise: '',
+        bread1: {
+            title: 'Електричні та електронні компоненти',
+            slug: '/electrical-and-electronic-components',
+        },
+        bread2: {
+            title: 'Датчики',
+            slug: '/electrical-and-electronic-components/sensors',
+        },
+        bread3: '',
+        descriptionMin: 'Сутінковий автомат F&F AZ-112 (з зондом) ',
+        weight: '0,101',
+        codeEAN: '',
+        imageShow: ['/electronic/1.jpg', '/electronic/image1.jpg', ],
+        descriptionFull: `
+        <p>Сутінковий автомат із зовнішнім зондом виробництва F&F. Він відповідає за контроль живлення електричних 
+        пристроїв, робота яких буде залежати від інтенсивності освітлення в конкретному середовищі.</p><br/>
+        <p>Сутінкова лампа на автомийках SamWash використовується для управління освітленням на безконтактних автомийках.
+         Правильно налаштований, він включається, коли настає сутінки, а коли настає світанок, освітлення вимикається
+          і додаткове освітлення більше не потрібно.</p><br/>
+        <p>Сутінкову лампу також можна використовувати для керування вуличним освітленням, світловими рекламами, 
+        орнаментами та декораціями будівель.</p><br/>
+        <p>За допомогою спеціальної ручки можна регулювати рівень інтенсивності світла в приладі в діапазоні від 
+        2 до 1000 лк, а також час включення. Перемикач стабільний під час миттєвих раптових змін інтенсивності
+         завдяки використаній системі затримки, яка не реагує на такі збурення.</p><br/>
+        <p>До складу пристрою входять:</p><br/>
+        <p>модульний вимикач, встановлений на рейку TH,</p>
+        <p>зовнішній зонд.</p><br/>
+        <p><b>Технічні дані </b></p><br/>
+        <p>Максимальна довжина кабелю датчика: 10 м</p>
+        <p>Номінальна напруга: 230 В</p>
+        <p>Діапазон регулювання яскравості: від 2 до 1000 лк</p>
+        <p>Номінальний струм перемикання: 16 А</p><br/>
+        `
+    },
+    {
+        id: '271',
+        title: 'Модуль B&R X20 CS1020 RS232',
+        code: 'B&R-X20-CS1020',
+        price: '1155.22',
+        newPrice: '',
+        size: 1,
+        slug: 'goods13-2',
+        img: '',
+        description: '',
+        descriptionPrise: '',
+        bread1: {
+            title: 'Електричні та електронні компоненти',
+            slug: '/electrical-and-electronic-components',
+        },
+        bread2: {
+            title: 'Контролери PLC та аксесуари',
+            slug: '/electrical-and-electronic-components/PLC-controllers',
+        },
+        bread3: '',
+        descriptionMin: 'Модуль B&R X20 CS1020 RS232',
+        weight: '',
+        codeEAN: '',
+        imageShow: null,
+        descriptionFull: `
+        <p>Модуль B&R X20 CS1020 RS232</p><br/>
+        `
+    },
+    {
+        id: '272',
+        title: 'B&R X20 DO8332 8 цифрових виходів 2A зовнішнє джерело живлення',
+        code: 'B&R-X20-DO8332',
+        price: '929.14',
+        newPrice: '',
+        size: 1,
+        slug: 'goods13-3',
+        img: '/electronic/3.jpg',
+        description: '',
+        descriptionPrise: '',
+        bread1: {
+            title: 'Електричні та електронні компоненти',
+            slug: '/electrical-and-electronic-components',
+        },
+        bread2: {
+            title: 'Контролери PLC та аксесуари',
+            slug: '/electrical-and-electronic-components/PLC-controllers',
+        },
+        bread3: '',
+        descriptionMin: 'Модуль B&R X20 DO8332 8 цифрових виходів 2A зовнішнє живлення',
+        weight: '0,021',
+        codeEAN: '',
+        imageShow: ['/electronic/3.jpg', ],
+        descriptionFull: `
+        <p>Модуль оснащений 8 цифровими виходами для однопровідного підключення. Номінальний вихідний струм 2 А.</p><br/>
+        <p>Вихідна потужність подається безпосередньо на модуль.</p><br/>
+        <p>Додатковий модуль живлення не потрібен. Немає зв’язку між модулем і потенціалом джерела живлення 
+        введення/виведення на модулі шини.</p><br/>
+        <p>Модуль з 8 цифровими виходами 2А зовнішнє живлення</p><br/>
+        `
+    },
+    {
+        id: '273',
+        title: 'B&R X20 DO9322 12 цифрових виходів 0,5 А',
+        code: 'B&R-X20-DO9322',
+        price: '868.87',
+        newPrice: '',
+        size: 1,
+        slug: 'goods13-4',
+        img: '/electronic/4.jpg',
+        description: '',
+        descriptionPrise: '',
+        bread1: {
+            title: 'Електричні та електронні компоненти',
+            slug: '/electrical-and-electronic-components',
+        },
+        bread2: {
+            title: 'Контролери PLC та аксесуари',
+            slug: '/electrical-and-electronic-components/PLC-controllers',
+        },
+        bread3: '',
+        descriptionMin: 'Модуль B&R X20 DO9322 12 цифрових виходів 0,5А',
+        weight: '0,022',
+        codeEAN: '',
+        imageShow: ['/electronic/4.jpg', ],
+        descriptionFull: `
+        <p>Модуль має 12 виходів для підключення по 1 проводу. Модуль призначений для розводки вихідного джерела.</p><br/>
+        <p>12 цифрових виходів</p>
+        <p>Підключення до джерела</p>
+        <p>1-провідні з'єднання</p>
+        <p>Вбудований вихідний захист</p><br/>
+        `
+    },
+    {
+        id: '274',
+        title: 'B&R X20 TB12 Термінал введення/виведення 12 контактів',
+        code: 'B&R-X20-TB12',
+        price: '77.93',
+        newPrice: '',
+        size: 1,
+        slug: 'goods13-5',
+        img: '/electronic/5.jpg',
+        description: '',
+        descriptionPrise: '',
+        bread1: {
+            title: 'Електричні та електронні компоненти',
+            slug: '/electrical-and-electronic-components',
+        },
+        bread2: {
+            title: 'Контролери PLC та аксесуари',
+            slug: '/electrical-and-electronic-components/PLC-controllers',
+        },
+        bread3: '',
+        descriptionMin: 'Затискач B&R X20 TB12',
+        weight: '0,01',
+        codeEAN: '',
+        imageShow: ['/electronic/5.jpg', ],
+        descriptionFull: `
+        <p>Модулі X20 24 VDC підключаються через клемні колодки X20TB06 і X20TB12.</p><br/>
+        <p>Електропроводка без інструментів за допомогою технології Push-in</p>
+        <p>Просте розблокування троса за допомогою важеля</p>
+        <p>Можливість опису кожного терміналу</p>
+        <p>Також можна описати відкритим текстом</p>
+        <p>Тестовий доступ для стандартних зондів</p>
+        <p>Може кодуватися замовником</p><br/>
+        `
+    },
+    {
+        id: '275',
+        title: 'Датчик послідовності та несправності фаз F&F CKF-317 (одномодульний)',
+        code: 'CZU-FIF-317',
+        price: '163.32',
+        newPrice: '',
+        size: 1,
+        slug: 'goods13-6',
+        img: '/electronic/6.jpg',
+        description: '',
+        descriptionPrise: '',
+        bread1: {
+            title: 'Електричні та електронні компоненти',
+            slug: '/electrical-and-electronic-components',
+        },
+        bread2: {
+            title: 'Запобіжні пристрої',
+            slug: '/electrical-and-electronic-components/safety-devices',
+        },
+        bread3: '',
+        descriptionMin: 'Датчик послідовності фаз і втрати призначений для захисту електродвигунів',
+        weight: '0,071',
+        codeEAN: '',
+        imageShow: ['/electronic/6.jpg', ],
+        descriptionFull: `
+        <p>Датчик чергування і втрати фаз призначений для захисту електродвигунів, що живляться від трифазної мережі,
+         у разі втрати напруги хоча б в одній фазі або несиметрії напруги між фазами, що загрожує руйнуванню двигуна,
+          а також для захисту напрямку обертання двигуна. у разі зміни фази перед датчиком.</p><br/>
+        <p>Опис дії:</p><br/>
+        <p>Втрата напруги принаймні в одній фазі або асиметрія напруги між фазами вище порогу активації призведе 
+        до вимкнення двигуна. Відключення відбудеться із затримкою в 4 секунди, що запобігає випадковому 
+        відключенню двигуна в разі короткочасного перепаду напруги. Він автоматично ввімкнеться знову, коли 
+        напруга підвищиться на 5 В вище напруги активації (тобто на значення гістерезису напруги). При 
+        перерахованих вище аномаліях запуск двигуна неможливий. Якщо послідовність фаз перед датчиком 
+        змінюється, викликаючи небажану зміну напрямку обертання двигуна, датчик не дозволить двигуну 
+        запуститися. Повторне підключення можливе після відновлення правильної послідовності фаз.</p><br/>
+        `
+    },
+    {
+        id: '276',
+        title: 'Поплавковий датчик (MAC3 M04 20 м)',
+        code: 'CZU-PLY-MAC',
+        price: '242.38',
+        newPrice: '',
+        size: 1,
+        slug: 'goods13-7',
+        img: '/electronic/7.jpg',
+        description: '',
+        descriptionPrise: '',
+        bread1: {
+            title: 'Електричні та електронні компоненти',
+            slug: '/electrical-and-electronic-components',
+        },
+        bread2: {
+            title: 'Датчики',
+            slug: '/electrical-and-electronic-components/sensors',
+        },
+        bread3: '',
+        descriptionMin: 'Поплавковий контролер рівня MAC3, який використовується у відкритих і закритих ' +
+            'резервуарах для регулювання та сигналізації рівня рідини.',
+        weight: '',
+        codeEAN: '',
+        imageShow: ['/electronic/7.jpg', ],
+        descriptionFull: `
+        <p>Поплавковий контролер рівня MAC3, який використовується у відкритих і закритих резервуарах для 
+        регулювання та сигналізації рівня рідини.</p><br/>
+        <p>Поплавкові вимикачі MAC 3 дозволяють вмикати та вимикати електричні пристрої (зазвичай насоси, а також
+         електромагнітні клапани, сигналізацію тощо). Їх головна перевага - висока довговічність і висока 
+         комутаційна здатність. Поплавковий зонд MAC3 має мікроперемикач з високими струмами перемикання. 
+         Конструкція корпусу у вигляді камери з двома стінками забезпечує надійну роботу внутрішніх механізмів.
+          Для визначення точки перемикання контактів використовуються ваги.</p><br/>
+        `
+    },
+    {
+        id: '277',
+        title: 'Датчик рівня (поплавковий) (поліпропіленовий з кабелем 10м)',
+        code: 'CZU-POZ-PLY-ELO-PP',
+        price: '176.52',
+        newPrice: '',
+        size: 1,
+        slug: 'goods13-8',
+        img: '/electronic/8.jpg',
+        description: '',
+        descriptionPrise: '',
+        bread1: {
+            title: 'Електричні та електронні компоненти',
+            slug: '/electrical-and-electronic-components',
+        },
+        bread2: {
+            title: 'Датчики',
+            slug: '/electrical-and-electronic-components/sensors',
+        },
+        bread3: '',
+        descriptionMin: 'Датчик рівня (поплавок), поліпропілен, з кабелем 10 метрів',
+        weight: '0,228',
+        codeEAN: '',
+        imageShow: ['/electronic/8.jpg', ],
+        descriptionFull: `
+        <p>Датчик рівня (поплавок), поліпропілен, з кабелем 10 метрів.</p><br/>
+        <p>Виробник: ELOBAU</p><br/>
+        `
+    },
+    {
+        id: '278',
+        title: 'Датчик зовнішньої температури (PT-100 Czaki TP-952-1)',
+        code: 'CZU-PT100-ZEWN',
+        price: '160.98',
+        newPrice: '',
+        size: 1,
+        slug: 'goods13-9',
+        img: '/electronic/9.jpg',
+        description: '',
+        descriptionPrise: '',
+        bread1: {
+            title: 'Електричні та електронні компоненти',
+            slug: '/electrical-and-electronic-components',
+        },
+        bread2: {
+            title: 'Датчики',
+            slug: '/electrical-and-electronic-components/sensors',
+        },
+        bread3: '',
+        descriptionMin: 'Датчик зовнішньої температури',
+        weight: '0,084',
+        codeEAN: '',
+        imageShow: ['/electronic/9.jpg', '/electronic/image2.jpg', ],
+        descriptionFull: `
+        <p>Датчик в настінному корпусі для вимірювання температури повітря всередині або зовні приміщень.</p><br/>
+        <p><b>Технічні дані </b></p><br/>
+        <p>Діапазон вимірювання: -30÷70°C</p>
+        <p>Клас елемента обробки: A</p>
+        <p>Максимальний струм датчика: 1 мА</p>
+        <p>Допустима відносна вологість: 0÷95%</p>
+        <p>Матеріал корпусу: ПК</p><br/>
+        `
+    },
+    {
+        id: '279',
+        title: 'Білий світлодіод Moeller (M22-LED-W)',
+        code: 'DIO-MOE-BIA',
+        price: '28.13',
+        newPrice: '',
+        size: 1,
+        slug: 'goods13-10',
+        img: '/electronic/10.jpg',
+        description: '',
+        descriptionPrise: '',
+        bread1: {
+            title: 'Електричні та електронні компоненти',
+            slug: '/electrical-and-electronic-components',
+        },
+        bread2: {
+            title: 'Кнопки',
+            slug: '/electrical-and-electronic-components/buttons',
+        },
+        bread3: '',
+        descriptionMin: 'Moeller LED',
+        weight: '',
+        codeEAN: '',
+        imageShow: ['/electronic/10.jpg', ],
+        descriptionFull: `
+        <p>Білий світлодіод Moeller M22-LED-W</p><br/>
+           <p><b>Технічні дані </b></p><br/>
+        <p>Світлодіодний елемент,</p>
+        <p>Кріплення: переднє кріплення,</p>
+        <p>Техніка підключення: гвинтові клеми,</p>
+        <p>Номінальна робоча напруга: Ue = 12 - 30 В змінного/постійного струму, 50/60 Гц В,</p>
+        <p>Номінальний робочий струм: Ie = 8 - 15 мА,</p>
+        <p>Споживана потужність: Pmax. = 0,26 Вт, при 24 В,</p>
+        <p>Білий колір,</p>
+        <p>Ступінь захисту: IP20,</p>
+        <p>Підключення до SmartWire-DT: ні,</p>
+        <p>Стандарти: IEC 60947-5-1</p><br/>
+        `
+    },
+    {
+        id: '280',
+        title: 'Електронний датчик тиску (0-250 бар)',
+        code: 'ELE-CZU-CIS',
+        price: '762.65',
+        newPrice: '',
+        size: 1,
+        slug: 'goods13-11',
+        img: '/electronic/11.jpg',
+        description: '',
+        descriptionPrise: '',
+        bread1: {
+            title: 'Електричні та електронні компоненти',
+            slug: '/electrical-and-electronic-components',
+        },
+        bread2: {
+            title: 'Датчики',
+            slug: '/electrical-and-electronic-components/sensors',
+        },
+        bread3: '',
+        descriptionMin: 'Електронний датчик тиску',
+        weight: '',
+        codeEAN: '',
+        imageShow: ['/electronic/11.jpg', ],
+        descriptionFull: `
+        <p>Електронний датчик тиску 0-250 бар</p><br/>
+           <p><b>Характеристика</b></p><br/>
+        <p>Надійне визначення тиску в магістралі для промислового та мобільного застосування</p>
+        <p>Значна стійкість до ударів і вібрації</p>
+        <p>Відмінна повторюваність і низька похибка лінійності</p>
+        <p>Термін служби понад 50 мільйонів циклів тиску</p>
+        <p>Компактний і міцний корпус з нержавіючої сталі для використання в обмеженому просторі</p><br/>
+        `
+    },
+    {
+        id: '281',
+        title: 'Гніздо реле Finder 95.05',
+        code: 'GNI-FIN-001',
+        price: '46.22',
+        newPrice: '',
+        size: 1,
+        slug: 'goods13-12',
+        img: '/electronic/12.jpg',
+        description: '',
+        descriptionPrise: '',
+        bread1: {
+            title: 'Електричні та електронні компоненти',
+            slug: '/electrical-and-electronic-components',
+        },
+        bread2: {
+            title: 'Реле та контактори',
+            slug: '/electrical-and-electronic-components/relays-and-contactors',
+        },
+        bread3: '',
+        descriptionMin: 'Гніздо реле Finder',
+        weight: '',
+        codeEAN: '',
+        imageShow: ['/electronic/12.jpg', ],
+        descriptionFull: `
+        <p>Розетка з гвинтовими клемами для монтажу на DIN-рейку 35 мм.</p><br/>
+              <p><b>Технічні дані</b></p><br/>
+        <p>Виробник: Finder</p>
+        <p>Серія розетки: 95.05</p>
+        <p>Кількість контактів розетки: 8</p>
+        <p>Спосіб монтажу панельної розетки DIN</p>
+        <p>Номінальний струм розетки: 10А</p>
+        <p>Номінальна напруга розетки: 250В</p>
+        <p>Міцність ізоляції: 6 кВ (1,2/50 мкс) між котушкою та контактами</p>
+        <p>Ступінь захисту: IP 20</p>
+        <p>Температура навколишнього середовища: -40/+70</p>
+        <p>Довжина зачищеного кінця кабелю: 8 мм</p>
+        <p>Максимальний переріз багатожильного кабелю: 1x4/2x2,5 мм^2</p><br/>
+        `
+    },
+    {
+        id: '282',
+        title: 'Hopper Uni Pay ONE S11 ctalk з адаптером',
+        code: 'HOP-UNI-ONES11',
+        price: '761.11',
+        newPrice: '',
+        size: 1,
+        slug: 'goods13-13',
+        img: '/electronic/13.jpg',
+        description: '',
+        descriptionPrise: '',
+        bread1: {
+            title: 'Електричні та електронні компоненти',
+            slug: '/electrical-and-electronic-components',
+        },
+        bread2: {
+            title: 'Сортувальні машини та аксесуари',
+            slug: '/electrical-and-electronic-components/sorting-machines',
+        },
+        bread3: '',
+        descriptionMin: 'Hopper ',
+        weight: '',
+        codeEAN: '',
+        imageShow: ['/electronic/13.jpg', '/electronic/image3.jpg', '/electronic/image4.jpg', ],
+        descriptionFull: `
+        <p>HopperOne S11 з ефективним ремінним приводом забезпечує тривалу роботу. Спеціальний режим вихідного 
+        датчика забезпечує відмінну точність підрахунку та захищає від різних типів спроб шахрайства. Доступний зі 
+        стандартним і зворотним роз'ємами.</p><br/>
+        <p>Система проти застрягання монет.</p>
+        <p>ccTalk або паралельна версія, 24 В постійного струму</p>
+        <p>Датчики виявляють низький і високий рівні монет.</p>
+        <p>Металева основа для легкої збірки.</p>
+        <p>Місткість: 1200 монет.</p>
+        <p>Високопродуктивний двигун.</p>
+        <p>Тривалість життя: більше 10 мільйонів виплат.</p>
+        <p>Взаємозамінний з іншими універсальними бункерами.</p><br/>
+        `
+    },
+    {
+        id: '283',
+        title: 'Розетка JUMPFLEX з реле (24V DC 1p WAGO)(857-304)',
+        code: 'POD-WAG-857-304',
+        price: '76.86',
+        newPrice: '',
+        size: 1,
+        slug: 'goods13-14',
+        img: '/electronic/14.jpg',
+        description: '',
+        descriptionPrise: '',
+        bread1: {
+            title: 'Електричні та електронні компоненти',
+            slug: '/electrical-and-electronic-components',
+        },
+        bread2: {
+            title: 'Реле та контактори',
+            slug: '/electrical-and-electronic-components/relays-and-contactors',
+        },
+        bread3: '',
+        descriptionMin: 'Розетка JUMPFLEX з реле',
+        weight: '0,031',
+        codeEAN: '',
+        imageShow: ['/electronic/14.jpg', ],
+        descriptionFull: `
+        <p>Релейний модуль зі змінним мініатюрним реле для гальванічного розділення датчиків/виконавчих механізмів 
+        і контролера/ПЛК.</p><br/>
+        <p>Стан перемикання відображається вбудованим жовтим світлодіодом.</p><br/>
+        <p><b>Технічні дані</b></p><br/>
+        <p>загальна кількість терміналів: 5</p>
+        <p>загальна кількість потенціалів: 5</p>
+        <p>сірий колір</p>
+        <p>Знак відповідності: CE</p>
+        <p>ступінь забруднення (1): 2</p>
+        <p>номінальна напруга EN (1) [В]: 250 В</p>
+        <p>номінальна імпульсна напруга (1) [кВ]: 4 кВ</p>
+        <p>тип часу активації контакту. [мс]: 8 мс</p>
+        <p>механічна міцність: 5 x 106 циклів перемикання</p>
+        <p>тип часу розриву контакту. [мс]: 4 мс</p>
+        <p>номінальний вхідний струм (In) (котушка 20 °C): 10 мА</p>
+        <p>робоча потужність < 300 мВт</p>
+        <p>діапазон вхідної напруги: UN -25% ... +30%</p>
+        <p>макс. напруга комутації: 250 В змінного струму</p>
+        <p>максимальна комутаційна потужність (при резистивному навантаженні): 1500 ВА змінного струму; DC</p>
+        <p>рекомендована хв. комутаційна потужність: 10 В постійного струму / 10 мА, 24 В постійного струму / 1 мА</p>
+        <p>макс. частота перемикання з навантаженням / без навантаження 6 хв-1 / 180 хв-1</p>
+        <p>номінальний режим роботи: 100% цикл</p>
+        <p>витримувана напруга контактної котушки (AC, 1 хв) [кВск. 4 кВск.</p>
+        <p>витримувана напруга - відкритий контакт (AC, 1 хв.) [кВ 1 кВск.</p>
+        <p>механічна міцність при макс резистивний: 5 x 104 циклів перемикання</p>
+        <p>номінальна вхідна напруга (UN) 24 В постійного струму</p>
+        <p>макс. довготривалий струм: 6 A (< 60 °C), 4 A (60 °C < Tamb < 70 °C) *</p>
+        <p>Техніка підключення кабелю (1) Push-in CAGE CLAMP®</p>
+        <p>однопровідний, монтаж за допомогою інструментів: 0,34 … 2,5 мм² / 22 … 14 AWG</p>
+        <p>довжина зачищення кабелю: 9 … 10 мм / 0,35 … 0,39 дюйма</p>
+        <p>тип проводки: фронтальна</p>
+        <p>контактний матеріал: AgNi</p>
+        <p>температура монтажу -25 °C ... +50 °C</p>
+        <p>пожежне навантаження [МДж]: 0,69 МДж</p>
+        <p>вага [г]: 29,097 г</p>
+        <p>висота [мм]: 81 мм</p>
+        <p>висота [дюйми]: 3,189</p>
+        <p>температура зберігання: -40 °C … +70 °C</p>
+        <p>стандарти/вимоги: EN 60664-1; EN 61810-1; EN 61140; ; (857-304: GL)</p>
+        <p>тип кріплення: шина TS 35</p>
+        <p>перм. температура навколишнього середовища за ООН: -40 °C ... +70 °C</p>
+        <p>Сертифікати CE , (за запитом: ГОСТ)</p><br/>
+        `
+    },
+    {
+        id: '284',
+        title: 'Compact Flash карта 512 Мб',
+        code: 'B&R-CFC512MB',
+        price: '452.80',
+        newPrice: '',
+        size: 1,
+        slug: 'goods13-15',
+        img: '/electronic/15.jpg',
+        description: '',
+        descriptionPrise: '',
+        bread1: {
+            title: 'Електричні та електронні компоненти',
+            slug: '/electrical-and-electronic-components',
+        },
+        bread2: {
+            title: 'Контролери PLC та аксесуари',
+            slug: '/electrical-and-electronic-components/PLC-controllers',
+        },
+        bread3: '',
+        descriptionMin: 'Карта пам\'яті 512 МБ для B&R Panel',
+        weight: '',
+        codeEAN: '',
+        imageShow: ['/electronic/15.jpg', '/electronic/image5.jpg', ],
+        descriptionFull: `
+        <p>Карти CompactFlashTM (CF) продовжують залишатися найпопулярнішим рішенням для зберігання даних на основі
+         флеш-пам’яті, що використовується на ринках вбудованих і промислових пристроїв. Зосереджуючись на якості,
+          надійності, міцності та довговічності, Swissbit розробляє свої картки без компромісів.</p><br/>
+        <p>Компоненти та принципи проектування, які відповідають суворим вимогам промислових клієнтів Swissbit;<br/>
+            Апаратне та мікропрограмне забезпечення було перевірено, кваліфіковано та перевірено.</p><br/>
+        <p>Серії CF C-3x0 і C-4x0 від Swissbit доступні в комерційному (0°C до 70°C) і промисловому (від -40°C до 
+        85°C) температурному діапазоні, забезпечуючи міцну та надійну пам’ять для широкого спектру вимогливих 
+        програм. . Вони призначені для вирішення широкого кола проблем, від сумісності, завантаження та безпеки
+         у разі збою живлення до довгострокової доставки, контролю BOM та вдосконалення технології протоколу Flash
+          для забезпечення провідної в галузі цілісності даних.</p><br/>
+        <p>На відміну від загальноприйнятих послідовних значень продуктивності, Swissbit особливо фокусується на 
+        оптимізованих значеннях довільного доступу, які є одним із ключових факторів у промислових 
+        застосуваннях.</p><br/>
+        <p>Виробник: Swissbit</p><br/>
+        `
+    },
+    {
+        id: '285',
+        title: 'Ліцензія на програмне забезпечення для розширення автомийки',
+        code: 'ROZ-MYJ-OPR',
+        price: '0.00',
+        newPrice: '',
+        size: 1,
+        slug: 'goods13-16',
+        img: '',
+        description: '',
+        descriptionPrise: '',
+        bread1: {
+            title: 'Електричні та електронні компоненти',
+            slug: '/electrical-and-electronic-components',
+        },
+        bread2: {
+            title: 'Сортувальні машини та аксесуари',
+            slug: '/electrical-and-electronic-components/sorting-machines',
+        },
+        bread3: '',
+        descriptionMin: '',
+        weight: '',
+        codeEAN: '',
+        imageShow: null,
+        descriptionFull: `
+        `
+    },
+    {
+        id: '286',
+        title: 'Захисна мембрана для кнопки (M22-TD)',
+        code: 'MEM-M22-TD',
+        price: '24.21',
+        newPrice: '',
+        size: 1,
+        slug: 'goods13-17',
+        img: '/electronic/17.jpg',
+        description: '',
+        descriptionPrise: '',
+        bread1: {
+            title: 'Електричні та електронні компоненти',
+            slug: '/electrical-and-electronic-components',
+        },
+        bread2: {
+            title: 'Кнопки',
+            slug: '/electrical-and-electronic-components/buttons',
+        },
+        bread3: '',
+        descriptionMin: 'Захисна мембрана для кнопок Eaton - надійне і перевірене рішення.',
+        weight: '0,01',
+        codeEAN: '',
+        imageShow: ['/electronic/17.jpg', ],
+        descriptionFull: `
+        <p>Захисна мембрана для кнопок Eaton - надійне і перевірене рішення. Корпус кнопки забезпечує безпечне 
+        використання кнопок у найважчих умовах. Завдяки цьому чохол-кнопка відмінно працює на безконтактних 
+        автомийках, де постійно піддається впливу погодних умов і прямого потоку води.</p><br/>
+        <p>Захисний корпус має отвір діаметром 22,5 мм.</p><br/>
+        <p>Матеріал: силікон.</p><br/>
+        <p>Колір: прозорий.</p><br/>
+        `
+    },
+    {
+        id: '287',
+        title: 'Модуль (B&R X20 CM8281)',
+        code: 'B&R-X20-CM8281',
+        price: '1286.58',
+        newPrice: '',
+        size: 1,
+        slug: 'goods13-18',
+        img: '/electronic/18.jpg',
+        description: '',
+        descriptionPrise: '',
+        bread1: {
+            title: 'Електричні та електронні компоненти',
+            slug: '/electrical-and-electronic-components',
+        },
+        bread2: {
+            title: 'Контролери PLC та аксесуари',
+            slug: '/electrical-and-electronic-components/PLC-controllers',
+        },
+        bread3: '',
+        descriptionMin: 'Модуль (B&R X20 CM8281)',
+        weight: '0,349',
+        codeEAN: '',
+        imageShow: ['/electronic/18.jpg', ],
+        descriptionFull: `
+        <p>Модуль є універсальним змішаним модулем. У цьому модулі поєднані цифровий вхід/вихід і аналоговий 
+        вхід/вихід. Сигнал струму або напруги можна використовувати для аналогових входів/виходів за потреби.
+         Функції лічильника на двох цифрових входах розширюють спектр застосування.</p><br/>
+        <p>Цифрові та аналогові канали</p>
+        <p>Вибір струму та напруги для AI та AO</p>
+        <p>Функції лічильника</p><br/>
+        `
+    },
+    {
+        id: '288',
+        title: 'Модуль 12 цифрових входів (B&R X20 DI9371)',
+        code: 'B&R-X20-DI9371',
+        price: '748.09',
+        newPrice: '',
+        size: 1,
+        slug: 'goods13-19',
+        img: '/electronic/19.jpg',
+        description: '',
+        descriptionPrise: '',
+        bread1: {
+            title: 'Електричні та електронні компоненти',
+            slug: '/electrical-and-electronic-components',
+        },
+        bread2: {
+            title: 'Контролери PLC та аксесуари',
+            slug: '/electrical-and-electronic-components/PLC-controllers',
+        },
+        bread3: '',
+        descriptionMin: 'Модуль B&R X20 DI9371 12 цифрових входів',
+        weight: '0,022',
+        codeEAN: '',
+        imageShow: ['/electronic/19.jpg', '/electronic/image6.jpg', ],
+        descriptionFull: `
+        <p>Модуль має 12 входів для 1-провідного підключення. Модуль призначений для введення проводки на 
+        безконтактну автомийку.</p><br/>
+        <p>12 цифрових входів</p>
+        <p>1-провідні з'єднання</p>
+        <p>Програмний вхідний фільтр можна налаштувати для всього модуля</p><br/>
+        `
+    },
+    {
+        id: '289',
+        title: 'Світлодіодний модуль Finder (99.02.9.024.99)',
+        code: 'MOD-FIN-001',
+        price: '14.51',
+        newPrice: '',
+        size: 1,
+        slug: 'goods13-20',
+        img: '/electronic/20.jpg',
+        description: '',
+        descriptionPrise: '',
+        bread1: {
+            title: 'Електричні та електронні компоненти',
+            slug: '/electrical-and-electronic-components',
+        },
+        bread2: {
+            title: 'Реле та контактори',
+            slug: '/electrical-and-electronic-components/relays-and-contactors',
+        },
+        bread3: '',
+        descriptionMin: 'Світлодіодний модуль Finder',
+        weight: '',
+        codeEAN: '',
+        imageShow: ['/electronic/20.jpg', ],
+        descriptionFull: `
+        <p>Зелений світлодіод + діодний модуль (стандартна полярність)</p><br/>
+        <p>Модулі з діодами відновлення + світлодіодами використовуються тільки для постійного струму. Зворотні
+         скачки напруги в котушці замикаються накоротко за допомогою регенеративного діода (позитивний полюс 
+         на клему A1).</p><br/>
+        <p>Час випуску збільшується приблизно з 3 до 5.</p><br/>
+        <p>Якщо збільшення часу відключення небажано, використовуйте варисторний або RC модуль.</p><br/>
+        <p>Світлодіод світиться, коли котушка знаходиться під напругою.</p><br/>
+        `
+    },
+    {
+        id: '290',
+        title: 'Міст DILM 12-XSL',
+        code: 'MOS-DIL',
+        price: '170.86',
+        newPrice: '',
+        size: 1,
+        slug: 'goods13-21',
+        img: '/electronic/21.jpg',
+        description: '',
+        descriptionPrise: '',
+        bread1: {
+            title: 'Електричні та електронні компоненти',
+            slug: '/electrical-and-electronic-components',
+        },
+        bread2: {
+            title: 'Реле та контактори',
+            slug: '/electrical-and-electronic-components/relays-and-contactors',
+        },
+        bread3: '',
+        descriptionMin: 'Міст DILM 12-XSL',
+        weight: '0,085',
+        codeEAN: '',
+        imageShow: ['/electronic/21.jpg', ],
+        descriptionFull: `
+        <p>Міст DILM12-XSL від Eaton — це роз’ємний міст основного струму для швидкого та легкого встановлення.</p><br/>
+        <p><b>Технічні дані</b></p><br/>
+        <p>Номінальний робочий струм для зазначеного розсіювання тепла [In]: 22 A</p>
+        <p>Розсіювання тепла на полюс, залежно від струму [Pvid]: 2,2 Вт</p>
+        <p>Тепловиділення пристрою, залежно від струму [Pvid]: 6,6 Вт</p>
+        <p>Статичне розсіювання тепла, залежить від струму [Pvs]: 0 Вт</p>
+        <p>Ефективність розсіювання тепла [Pdiss]: 0 Вт</p>
+        <p>Мінімальна робоча температура навколишнього середовища: -25 °C</p>
+        <p>Максимальна робоча температура навколишнього середовища: +60 °C</p><br/>
+        <p><b>Стандарти продукції</b></p><br/>
+        <p>IEC/EN 60947-4-1; UL 508; CSA-C22.2 № 14-05; Маркування CE</p>
+        <p>№ файлу CSA.: 012528</p>
+        <p>Номер класу CSA: 3211-05</p><br/>
+        `
+    },
+    {
+        id: '291',
+        title: 'NRI Pelicano v2 CCTALK (Валюта: US)',
+        code: 'NRI-PEL-V2-CZK',
+        price: '3512.18',
+        newPrice: '',
+        size: 1,
+        slug: 'goods13-22',
+        img: '/electronic/22.jpg',
+        description: '',
+        descriptionPrise: '',
+        bread1: {
+            title: 'Електричні та електронні компоненти',
+            slug: '/electrical-and-electronic-components',
+        },
+        bread2: {
+            title: 'Сортувальні машини та аксесуари',
+            slug: '/electrical-and-electronic-components/sorting-machines',
+        },
+        bread3: '',
+        descriptionMin: 'NRI Pelicano v2 CCTALK (Валюта: US)',
+        weight: '',
+        codeEAN: '',
+        imageShow: ['/electronic/22.jpg', '/electronic/image7.jpg', ],
+        descriptionFull: `
+        <p>NRI® v² pelicano™ було розроблено як монетне рішення, яке поєднує в собі як масове впровадження монет,
+         так і перевірку монет в одному продукті. Поєднуючи дві системи, v² pelicano™ економить простір і витрати 
+         на інтеграцію для виробників. Завдяки швидкості прийому до 4 монет за секунду при одночасному введенні 20
+          різних монет, програми працюють швидше та прибутковіше.</p><br/>
+        <p>NRI v² pelicano пропонує комплексне рішення для виробників машин, де потрібна велика кількість монет,
+         як-от кіоски самообслуговування, платні та платні програми.</p><br/>
+        <p><b>Технічні дані</b></p><br/>
+        <p>Вставлення монети: вільна монета, введення зверху</p>
+        <p>Швидкість обертання монет (монет/с): до 4 монет в секунду</p>
+        <p>Розміри (В x Ш x Г): 141,2 мм x 126,5 мм x 131,7 мм (133,6 хв. із відкритою кришкою для сміття)</p>
+        <p>Галузевий формат: НЕ СТОСУЄТЬСЯ</p>
+        <p>Сортування монет: додатковий/зовнішній 3-сторонній високошвидкісний сортувальник із монтажним кронштейном</p>
+        <p>Робоча температура: від 0°C до 60°C</p>
+        <p>Обробка монет: максимум 16 монет. у 24 каналах Діаметр: 15 мм - 32,7 мм (залежно від платіжного диска) 
+        Товщина: 1,0 мм - 3,3 мм (інші розміри монет за запитом)</p>
+        <p>Передня панель: НЕ ЗАСТОСУЄТЬСЯ</p>
+        <p>Серія: ccTalk</p>
+        <p>Напруга живлення: від 12 до 24 В постійного струму ±10%.</p><br/>
+        `
+    },
+    {
+        id: '292',
+        title: 'Мережевий приймач X2X (B&R X20 BR9300)',
+        code: 'B&R-X20-BR9300',
+        price: '647.90',
+        newPrice: '',
+        size: 1,
+        slug: 'goods13-23',
+        img: '/electronic/23.jpg',
+        description: '',
+        descriptionPrise: '',
+        bread1: {
+            title: 'Електричні та електронні компоненти',
+            slug: '/electrical-and-electronic-components',
+        },
+        bread2: {
+            title: 'Контролери PLC та аксесуари',
+            slug: '/electrical-and-electronic-components/PLC-controllers',
+        },
+        bread3: '',
+        descriptionMin: 'Мережевий приймач X2X (B&R X20 BR9300)',
+        weight: '0,339',
+        codeEAN: '',
+        imageShow: ['/electronic/23.jpg', '/electronic/image8.jpg', ],
+        descriptionFull: `
+        <p>Приймач шини використовується для підключення системи X20 до X2X Link. Модуль оснащений живленням
+         X2X Link і внутрішнім входом/виходом живлення.</p><br/>
+        <p>Джерело живлення для X2X Link і внутрішнє вхідне/вихідне живлення.</p>
+        <p>Електрична ізоляція джерела живлення X2X Link.</p>
+        <p>Надлишкова потужність X2X Link завдяки підтримці кількох модулів живлення одночасно.</p>
+        <p>Операція тільки на слоті зліва.</p><br/>
+        `
+    },
+    {
+        id: '293',
+        title: 'Кришка кнопки автомийки (прозора гума)',
+        code: 'OSL-LEN-004',
+        price: '17.72',
+        newPrice: '',
+        size: 1,
+        slug: 'goods13-24',
+        img: '/electronic/24.jpg',
+        description: '',
+        descriptionPrise: '',
+        bread1: {
+            title: 'Електричні та електронні компоненти',
+            slug: '/electrical-and-electronic-components',
+        },
+        bread2: {
+            title: 'Кнопки',
+            slug: '/electrical-and-electronic-components/buttons',
+        },
+        bread3: '',
+        descriptionMin: 'Кришка кнопки автомийки',
+        weight: '0,01',
+        codeEAN: '',
+        imageShow: ['/electronic/24.jpg', ],
+        descriptionFull: `
+        <p>Гумовий чохол кнопки Carwash - надійне та перевірене рішення. Корпус кнопки забезпечує безпечне використання
+         кнопок у найважчих умовах. Завдяки цьому чохол-кнопка відмінно працює на безконтактних автомийках, 
+         де постійно піддається впливу погодних умов і прямого потоку води.</p><br/>
+        <p>Матеріал: гума.</p><br/>
+        <p>Колір: прозорий.</p><br/>
+        `
+    },
+    {
+        id: '294',
+        title: 'Червона прозора пластина з оргскла (дисплейне скло)',
+        code: 'PLY-PLEX-WYS-4SEK',
+        price: '15.74',
+        newPrice: '',
+        size: 1,
+        slug: 'goods13-25',
+        img: '/electronic/25.jpg',
+        description: '',
+        descriptionPrise: '',
+        bread1: {
+            title: 'Електричні та електронні компоненти',
+            slug: '/electrical-and-electronic-components',
+        },
+        bread2: {
+            title: 'Дисплеї (LCD, LED)',
+            slug: '/electrical-and-electronic-components/displays-LCD-LED)',
+        },
+        bread3: '',
+        descriptionMin: 'Червона прозора пластина з оргскла (дисплейне скло)',
+        weight: '0,05',
+        codeEAN: '',
+        imageShow: ['/electronic/25.jpg', ],
+        descriptionFull: `
+        <p>Прозора пластина з оргскла червоного кольору - захисне скло для 4-секційного дисплея.</p><br/>
+        <p>Розміри: 180x73x3 мм</p><br/>
+        `
+    },
+    {
+        id: '295',
+        title: 'Плата SamWash-CAN-IO - 4-значний РК-дисплей (v.2.6.x) - не запрограмований',
+        code: 'PLY-SamWash-CAN-IO-V2.6.X-LCD',
+        price: '1543.21',
+        newPrice: '680.47',
+        size: 1,
+        slug: 'goods13-26',
+        img: '/electronic/26.jpg',
+        description: '',
+        descriptionPrise: 'Найнижча ціна за 30 днів до знижки : 1543,21 злотих',
+        bread1: {
+            title: 'Електричні та електронні компоненти',
+            slug: '/electrical-and-electronic-components',
+        },
+        bread2: {
+            title: 'Дисплеї (LCD, LED)',
+            slug: '/electrical-and-electronic-components/displays-LCD-LED)',
+        },
+        bread3: '',
+        descriptionMin: 'Плата SamWash-CAN-IO - 4-значний РК-дисплей v.2.5.x Дисплей замінює РК-дисплей PLY-SamWash-CAN' +
+            '-IO-V2.4.X-LCD 1 до 1. Примітка: дисплей постачається без попередньо встановленого програмного забе' +
+            'зпечення. Для того, щоб запрограмувати її під конкретну мийку, просимо в «повідомленні продавцю» вк' +
+            'азати серійний номер мийки та номер встановленої на даний момент програми. Якщо ці дані відсутні, д' +
+            'исплей буде надіслано без завантаження',
+        weight: '0,228',
+        codeEAN: '',
+        imageShow: ['/electronic/26.jpg', ],
+        descriptionFull: `
+        <p>Плата SamWash-CAN-IO - 4-розрядний LCD дисплей v.2.5.x</p><br/>
+        <p>Дисплей замінює РК-дисплей 1 до 1 PLY-SamWash-CAN-IO-V2.4.X-LCD</p><br/>
+        <p><b>Примітка. На дисплеї не встановлено програмне забезпечення. Для того, щоб запрограмувати її під конкретну
+         мийку, просимо в «повідомленні продавцю» вказати серійний номер мийки та номер встановленої на даний момент 
+         програми. Якщо ці дані відсутні, дисплей буде доставлено без встановленого програмного забезпечення.</b></p>
+        `
+    },
+    {
+        id: '296',
+        title: 'Плата SamWash-CAN-IO - 4-значний світлодіодний дисплей (v.2.6.x) - незапрограмований',
+        code: 'PLY-SamWash-CAN-IO-V2.6.X-LED',
+        price: '1408.11',
+        newPrice: '620.89',
+        size: 1,
+        slug: 'goods13-27',
+        img: '/electronic/27.jpg',
+        description: '',
+        descriptionPrise: 'Найнижча ціна за 30 днів до знижки : 1408,11 злотих',
+        bread1: {
+            title: 'Електричні та електронні компоненти',
+            slug: '/electrical-and-electronic-components',
+        },
+        bread2: {
+            title: 'Дисплеї (LCD, LED)',
+            slug: '/electrical-and-electronic-components/displays-LCD-LED)',
+        },
+        bread3: '',
+        descriptionMin: 'Плата SamWash-CAN-IO - 4-розрядний світлодіодний дисплей v.2.6.x',
+        weight: '0,228',
+        codeEAN: '',
+        imageShow: ['/electronic/27.jpg', ],
+        descriptionFull: `
+        <p>Плата SamWash-CAN-IO - 4-розрядний світлодіодний дисплей v.2.6.x</p><br/>
+        <p>Дисплей замінює дисплей 1 to 1 PLY-SamWash-CAN-IO-V2.4.X-LED</p><br/>
+        <p><b>Примітка</b>. На дисплеї не встановлено програмне забезпечення. Для того, щоб запрограмувати її під 
+        конкретну мийку, просимо в «повідомленні продавцю» вказати серійний номер мийки та номер встановленої 
+        на даний момент програми. Якщо ці дані відсутні, дисплей буде доставлено без встановленого програмного 
+        забезпечення.</p><br/>
+        `
+    },
+    {
+        id: '297',
+        title: 'Підставка для живлення (B&R X20 BM01)',
+        code: 'B&R-X20-BM01',
+        price: '101.73',
+        newPrice: '',
+        size: 1,
+        slug: 'goods13-28',
+        img: '/electronic/28.jpg',
+        description: '',
+        descriptionPrise: '',
+        bread1: {
+            title: 'Електричні та електронні компоненти',
+            slug: '/electrical-and-electronic-components',
+        },
+        bread2: {
+            title: 'Контролери PLC та аксесуари',
+            slug: '/electrical-and-electronic-components/PLC-controllers',
+        },
+        bread3: '',
+        descriptionMin: 'Підставка для живлення (B&R X20 BM01)',
+        weight: '0,1',
+        codeEAN: '',
+        imageShow: ['/electronic/28.jpg', ],
+        descriptionFull: `
+        <p>База живлення призначена для всіх модулів живлення. </p><br/>
+        <p><b>Характеристики</b></p><br/>
+        <p>Застосування створення потенційних груп.</p>
+        <p>Внутрішнє вхідне/вихідне живлення перервано з лівого боку.</p>
+        <p>Модуль шини є основою для всіх модулів живлення.</p><br/>
+        `
+    },
+    {
+        id: '298',
+        title: 'Стандартна підставка (B&R X20 BM11)',
+        code: 'B&R-X20-BM11',
+        price: '112.18',
+        newPrice: '',
+        size: 1,
+        slug: 'goods13-29',
+        img: '/electronic/29.jpg',
+        description: '',
+        descriptionPrise: '',
+        bread1: {
+            title: 'Електричні та електронні компоненти',
+            slug: '/electrical-and-electronic-components',
+        },
+        bread2: {
+            title: 'Контролери PLC та аксесуари',
+            slug: '/electrical-and-electronic-components/PLC-controllers',
+        },
+        bread3: '',
+        descriptionMin: 'Стандартна розетка для модулів 24 VDC X20',
+        weight: '0,02',
+        codeEAN: '',
+        imageShow: ['/electronic/29.jpg', ],
+        descriptionFull: `
+        <p>Модуль шини служить носієм для всіх модулів вводу/виводу 24 В постійного струму X 20.</p><br/>
+        <p>Внутрішнє вхідне/вихідне живлення з’єднане між собою.</p><br/>
+        <p>На автомийках SamWash використовується, наприклад, як опора для модуля зовнішньої 
+        температури B&R X 20 AT 4222.</p><br/>
+        `
+    },
+    {
+        id: '299',
+        title: 'Стандартна кодова база (B&R X20 BM15)',
+        code: 'B&R-X20-BM15',
+        price: '223.04',
+        newPrice: '',
+        size: 1,
+        slug: 'goods13-30',
+        img: '/electronic/30.jpg',
+        description: '',
+        descriptionPrise: '',
+        bread1: {
+            title: 'Електричні та електронні компоненти',
+            slug: '/electrical-and-electronic-components',
+        },
+        bread2: {
+            title: 'Контролери PLC та аксесуари',
+            slug: '/electrical-and-electronic-components/PLC-controllers',
+        },
+        bread3: '',
+        descriptionMin: 'Стандартна кодова база (B&R X20 BM15)',
+        weight: '0,028',
+        codeEAN: '',
+        imageShow: ['/electronic/30.jpg', ],
+        descriptionFull: `
+        <p>Модуль шини BM15 служить основою для всіх модулів введення/виведення X20 24 В постійного струму. Цей 
+        шинний модуль також використовується для визначення унікальної адреси за допомогою перемикачів номерів
+         вузлів.</p><br/>
+        <p>Модуль шини є основою для всіх модулів вводу/виводу X20 24 VDC</p>
+        <p>Внутрішнє живлення введення/виведення підключено</p>
+        <p>Присвоєння номерів вузлів вручну</p>
+        <p>Незалежний від електронного модуля</p>
+        <p>При необхідності можна комбінувати ручну та автоматичну адресацію</p><br/>
+        `
+    },
+    {
+        id: '300',
+        title: 'Світлодіодне п\'єзоелектричне підсвічування кнопок "SamWash 1"',
+        code: 'POD-PRZ-PIE',
+        price: '12.42',
+        newPrice: '',
+        size: 1,
+        slug: 'goods13-31',
+        img: '/electronic/31.jpg',
+        description: '',
+        descriptionPrise: '',
+        bread1: {
+            title: 'Електричні та електронні компоненти',
+            slug: '/electrical-and-electronic-components',
+        },
+        bread2: {
+            title: 'Кнопки',
+            slug: '/electrical-and-electronic-components/buttons',
+        },
+        bread3: '',
+        descriptionMin: 'Світлодіодне п\'єзоелектричне підсвічування кнопок "SamWash 1"',
+        weight: '0,008',
+        codeEAN: '',
+        imageShow: ['/electronic/31.jpg', ],
+        descriptionFull: `
+        <p>Світлодіодне п\'єзоелектричне підсвічування кнопок "SamWash 1"</p><br/>
+        `
+    },
+    {
+        id: '301',
+        title: 'Реле тиску латунне (G1/4, 1-10 БАР)',
+        code: 'PRE-1/4-10B-MOS',
+        price: '90.97',
+        newPrice: '',
+        size: 1,
+        slug: 'goods13-32',
+        img: '/electronic/32.jpg',
+        description: '',
+        descriptionPrise: '',
+        bread1: {
+            title: 'Електричні та електронні компоненти',
+            slug: '/electrical-and-electronic-components',
+        },
+        bread2: {
+            title: 'Датчики',
+            slug: '/electrical-and-electronic-components/sensors',
+        },
+        bread3: '',
+        descriptionMin: 'Реле тиску латунне (G1/4, 1-10 БАР)',
+        weight: '0,071',
+        codeEAN: '',
+        imageShow: ['/electronic/32.jpg', ],
+        descriptionFull: `
+        <p>Реле тиску латунне G1/4 </p><br/>
+        <p>Діапазон контрольованого тиску: 1-10 БАР, </p><br/>
+        <p>Напруга: 24-42В </p><br/>
+        `
+    },
+    {
+        id: '302',
+        title: 'Реле Finder 40.61 (24V DC 16A)',
+        code: 'PRZ-FIN-001',
+        price: '42.47',
+        newPrice: '',
+        size: 1,
+        slug: 'goods13-33',
+        img: '/electronic/33.jpg',
+        description: '',
+        descriptionPrise: '',
+        bread1: {
+            title: 'Електричні та електронні компоненти',
+            slug: '/electrical-and-electronic-components',
+        },
+        bread2: {
+            title: 'Реле та контактори',
+            slug: '/electrical-and-electronic-components/relays-and-contactors',
+        },
+        bread3: '',
+        descriptionMin: 'Реле Finder 40.61 (24V DC 16A)',
+        weight: '',
+        codeEAN: '',
+        imageShow: ['/electronic/33.jpg', ],
+        descriptionFull: `
+        <p>Стандартне мініатюрне реле для розеток і друкованих схем, з великим запасом потужності і найбільшою
+         кількістю дозволів.</p><br/>
+        <p>Монтаж друкованої плати - безпосередньо на платах або через розетку.</p><br/>
+        <p>Кріплення на рейку 35 мм - через гвинт або самозажимну розетку.</p><br/>
+        <p>Оптимальна адаптація до різних застосувань завдяки різним котушкам і контактним матеріалам</p>
+        <p>Напруга котушки AC, DC, бістабільна, чутлива 500 мВт</p>
+        <p>Безпечне розділення ланцюгів відповідно до VDE 0106, EN 50178, EN 60204, EN 60335</p>
+        <p>Міцність ізоляції спірального контакту 6 кВ (1,2/50 мкс)</p>
+        <p>Відстань між котушкою і контактами: по повітрю і по ізоляції 8 мм</p>
+        <p>Надійне кріплення в розетках завдяки 5-мм шпилькам</p>
+        <p>Температура навколишнього середовища до +85°C, опціонально до +125°C</p>
+        <p>Для розеток з гвинтовими або самозажимними клемами серії 95</p>
+        <p>86 серій часових модулів</p><br/>
+        <p><b>Технічні дані</b></p><br/>
+        <p>Виробник: Finder</p>
+        <p>Розмір: 25 x 29 x 12,4 мм</p>
+        <p>Кількість контактів: 1 шт</p>
+        <p>Робоча температура °C: -40/+85</p>
+        <p>Рівень захисту: RT III</p>
+        <p>Номінальний струм (А): 16 А</p>
+        <p>Максимальний струм перемикання (А): 30А</p>
+        <p>Збірка: PCB, розетка</p>
+        <p>Серія естафети: 40.61</p>
+        <p>Тип реле: електромагнітне</p>
+        <p>Конфігурація контактів: SPDT</p>
+        <p>Номінальна напруга котушки: 24 В постійного струму</p>
+        <p>Версія реле: мініатюрна</p>
+        <p>Опір котушки: 1,2 кОм</p>
+        <p>Контактний матеріал: AgCdO</p>
+        <p>Крок шпильки: 5 мм</p>
+        <p>Струм котушки: 20 мА</p>
+        <p>Номінальна напруга В змінного струму: 250 В</p>
+        <p>Максимальна напруга комутації В змінного струму: 400 В</p>
+        <p>Кількість штифтів: 8</p><br/>
+        `
+    },
+    {
+        id: '303',
+        title: 'Реле монтажне Moeller Z-R23/16-10 (з діодом)',
+        code: 'PRZ-MOE-ZR23',
+        price: '113.70',
+        newPrice: '',
+        size: 1,
+        slug: 'goods13-34',
+        img: '/electronic/34.jpg',
+        description: '',
+        descriptionPrise: '',
+        bread1: {
+            title: 'Електричні та електронні компоненти',
+            slug: '/electrical-and-electronic-components',
+        },
+        bread2: {
+            title: 'Реле та контактори',
+            slug: '/electrical-and-electronic-components/relays-and-contactors',
+        },
+        bread3: '',
+        descriptionMin: 'Реле монтажне Moeller Z-R23/16-10 (з діодом)',
+        weight: '0,078',
+        codeEAN: '',
+        imageShow: ['/electronic/34.jpg', ],
+        descriptionFull: `
+        <p>Монтажне реле Moeller Z-R23/16-10 використовується на автомийках BKF, серед іншого, для систем підігріву 
+        підлоги та осмосу.</p><br/>
+        <p><b>Технічні дані</b></p><br/>
+        <p>Виробник: EATON ELECTRIC</p>
+        <p>Тип реле: монтажне</p>
+        <p>Версія реле: моностабільна</p>
+        <p>Конфігурація контактів: НІ</p>
+        <p>Номінальна напруга котушки: 24 В постійного струму</p>
+        <p>Комутована напруга макс.: 250 В змінного струму</p>
+        <p>Кріплення: DIN</p>
+        <p>Максимальний робочий струм: 16А</p>
+        <p>Робоча температура: -20...45°C</p>
+        <p>Клас герметичності: IP20</p>
+        <p>Розводка: гвинтові клеми</p><br/>
+        `
+    },
+    {
+        id: '304',
+        title: 'Кабель для підключення бункерів',
+        code: 'SamWash-HOPPER-PRZ',
+        price: '59.84',
+        newPrice: '',
+        size: 1,
+        slug: 'goods13-35',
+        img: '/electronic/35.jpg',
+        description: '',
+        descriptionPrise: '',
+        bread1: {
+            title: 'Електричні та електронні компоненти',
+            slug: '/electrical-and-electronic-components',
+        },
+        bread2: {
+            title: 'Сортувальні машини та аксесуари',
+            slug: '/electrical-and-electronic-components/sorting-machines',
+        },
+        bread3: '',
+        descriptionMin: 'Кабель для підключення бункерів',
+        weight: '',
+        codeEAN: '',
+        imageShow: ['/electronic/35.jpg', '/electronic/image9.jpg', ],
+        descriptionFull: `
+        <p>Кабель для підключення бункерів</p><br/>
+        <p>Включає:</p><br/>
+        <p>10pin стрічка, </p>
+        <p>2 10pin розетки, </p>
+        <p>заглушка молекс.</p><br/>
+        `
+    },
+    {
+        id: '305',
+        title: 'Кнопка автомийки біла з підсвічуванням (без лампочки "RM-E")',
+        code: 'PRZ-IND-BZ',
+        price: '27.44',
+        newPrice: '',
+        size: 1,
+        slug: 'goods13-36',
+        img: '/electronic/36.jpg',
+        description: '',
+        descriptionPrise: '',
+        bread1: {
+            title: 'Електричні та електронні компоненти',
+            slug: '/electrical-and-electronic-components',
+        },
+        bread2: {
+            title: 'Кнопки',
+            slug: '/electrical-and-electronic-components/buttons',
+        },
+        bread3: '',
+        descriptionMin: 'Кнопка зміни програм з підсвічуванням',
+        weight: '0,04',
+        codeEAN: '',
+        imageShow: ['/electronic/36.jpg', ],
+        descriptionFull: `
+        <p>Кнопка автомийки біла з підсвічуванням (без лампочки). Продукт не містить: </p><br/>
+        <p>гумова кришка кнопки</p> 
+        `
+    },
+    {
+        id: '306',
+        title: 'П\'єзокнопка з нержавіючої сталі',
+        code: 'PRZ-PIE-NIE-APEM',
+        price: '142.48',
+        newPrice: '',
+        size: 1,
+        slug: 'goods13-37',
+        img: '/electronic/37.jpg',
+        description: '',
+        descriptionPrise: '',
+        bread1: {
+            title: 'Електричні та електронні компоненти',
+            slug: '/electrical-and-electronic-components',
+        },
+        bread2: {
+            title: 'Кнопки',
+            slug: '/electrical-and-electronic-components/buttons',
+        },
+        bread3: '',
+        descriptionMin: 'П\'єзокнопка з нержавіючої сталі',
+        weight: '0,041',
+        codeEAN: '',
+        imageShow: ['/electronic/37.jpg', '/electronic/image10.jpg', ],
+        descriptionFull: `
+        <p>П'єзокнопка з нержавіючої сталі</p><br/>
+        <p>Тип: IP68 APEM PBAR-AFB258E0S-OP4217</p><br/>
+        `
+    },
+    {
+        id: '307',
+        title: 'П\'єзокнопка з нержавіючої сталі без підсвічування IP68 APEM [PBARZAFB263OP-10967]',
+        code: 'PRZ-PIE-NIE-APEM-BPO',
+        price: '114.92',
+        newPrice: '',
+        size: 1,
+        slug: 'goods13-38',
+        img: '/electronic/38.jpg',
+        description: '',
+        descriptionPrise: '',
+        bread1: {
+            title: 'Електричні та електронні компоненти',
+            slug: '/electrical-and-electronic-components',
+        },
+        bread2: {
+            title: 'Кнопки',
+            slug: '/electrical-and-electronic-components/buttons',
+        },
+        bread3: '',
+        descriptionMin: '',
+        weight: '',
+        codeEAN: '',
+        imageShow: ['/electronic/38.jpg', ],
+        descriptionFull: `
+        `
+    },
+    {
+        id: '308',
+        title: 'Повітряний насос Moeller M22-DDL-S-X4/X5 і кнопка випуску повітря',
+        code: 'PRZ-M22-DLL-S',
+        price: '43.26',
+        newPrice: '',
+        size: 1,
+        slug: 'goods13-39',
+        img: '/electronic/39.jpg',
+        description: '',
+        descriptionPrise: '',
+        bread1: {
+            title: 'Електричні та електронні компоненти',
+            slug: '/electrical-and-electronic-components',
+        },
+        bread2: {
+            title: 'Кнопки',
+            slug: '/electrical-and-electronic-components/buttons',
+        },
+        bread3: '',
+        descriptionMin: 'Кнопка надування та випуску, яка використовується на повітряному компресорі.',
+        weight: '',
+        codeEAN: '',
+        imageShow: ['/electronic/39.jpg', ],
+        descriptionFull: `
+        <p>Кнопка надування та випуску, яка використовується на повітряному компресорі.</p><br/>
+        `
+    },
+    {
+        id: '309',
+        title: 'Moeller M22-DL-W біла кнопка самоповернення з підсвічуванням',
+        code: 'PRZ-M22-DL-W',
+        price: '45.57',
+        newPrice: '',
+        size: 1,
+        slug: 'goods13-40',
+        img: '/electronic/40.jpg',
+        description: '',
+        descriptionPrise: '',
+        bread1: {
+            title: 'Електричні та електронні компоненти',
+            slug: '/electrical-and-electronic-components',
+        },
+        bread2: {
+            title: 'Кнопки',
+            slug: '/electrical-and-electronic-components/buttons',
+        },
+        bread3: '',
+        descriptionMin: 'Moeller M22-DL-W біла кнопка самоповернення з підсвічуванням',
+        weight: '0,01',
+        codeEAN: '',
+        imageShow: ['/electronic/40.jpg', ],
+        descriptionFull: `
+        <p>Кнопка M22-DL-W з білим підсвічуванням. Кнопка характеризується ергономічним дизайном і вбудованою 
+        збіркою. Завдяки використанню діодів гарантує низьке енергоспоживання. Стандартний діаметр отвору для 
+        кріплення кнопки становить 22,5 мм, що дозволяє швидко встановити. 216922 - M22-DL-W Кнопка з підсвічуванням 
+        відповідає всім значущим міжнародним стандартам для використання в усьому світі та підходить для 
+        використання в широкому діапазоні галузей промисловості завдяки своєму рейтингу захисту IP67/IP69K.</p><br/>
+        <p><b>ТЕХНІЧНІ ДАНІ</b></p><br/>
+        <p>Основна функція: підсвічування кнопок</p>
+        <p>Монтажний діаметр [?]: 22,5 мм</p>
+        <p>Стандарти та правила: IEC/EN 60947, VDE 0660</p>
+        <p>Міцність, механічна [цикли комбінування]: > 5 x 106</p>
+        <p>Максимальна робоча частота [цикли перемикання/год]: ? 3600</p>
+        <p>Сила спрацьовування: ? 5 NE том</p>
+        <p>Кліматична стійкість: вологий/теплий клімат, постійна, відповідно до IEC 60068-2-78, </p>
+        <p>Вологий/теплий клімат, змінний, відповідно до IEC 60068-2-30</p>
+        <p>Ступінь захисту: IP66, IP67, IP69</p>
+        <p>Температура навколишнього середовища відкрито: -25 - +70 °C</p>
+        <p>Монтажне положення: будь-яке, за бажанням</p>
+        <p>Міцність до механічного удару: 30, час удару 11 мс, напівсинусоїдальний, згідно з IEC 60068-2-27 g</p><br/>
+        `
+    },
+    {
+        id: '310',
+        title: 'Червона кнопка STOP Moeller M22-DR',
+        code: 'PRZ-MOE-004',
+        price: '28.93',
+        newPrice: '',
+        size: 1,
+        slug: 'goods13-41',
+        img: '/electronic/41.jpg',
+        description: '',
+        descriptionPrise: '',
+        bread1: {
+            title: 'Електричні та електронні компоненти',
+            slug: '/electrical-and-electronic-components',
+        },
+        bread2: {
+            title: 'Кнопки',
+            slug: '/electrical-and-electronic-components/buttons',
+        },
+        bread3: '',
+        descriptionMin: 'Червона кнопка STOP Moeller M22-DR',
+        weight: '0,01',
+        codeEAN: '',
+        imageShow: ['/electronic/41.jpg', '/electronic/image11.jpg', '/electronic/image12.jpg', ],
+        descriptionFull: `
+        <p>Червона кнопка STOP Moeller M22-DR.</p><br/>
+        <p>Не включає:</p><br/>
+        <p>Привідний</p>
+        <p>Перехідник ADA-MOE-IVS </p><br/>
+        <p>Контактор STY-MOE-NC.</p><br/>
+        <p><b>Технічні дані</b></p><br/>
+        <p>Ширина отвору [мм]: 22</p>
+        <p>Кількість позицій управління: 1</p>
+        <p>Колір кнопки: червоний</p>
+        <p>Ступінь захисту (IP): IP67</p>
+        <p>Висота відкриття [мм]: 6</p>
+        <p>Тип кнопки: плоска</p>
+        <p>З самоповерненням</p>
+        <p>З переднім кільцем</p>
+        <p>Форма лінзи: кругла</p>
+        <p>Матеріал лицьового кільця: пластик</p>
+        <p>Колір лицьового кільця: хром</p>
+        <p>Діаметр отвору [мм]: 22</p><br/>
+        `
+    },
+    {
+        id: '311',
+        title: 'Кнопковий плоский імпульсний вимикач GQ19-F/S (кислотний)',
+        code: 'PRZ-ELE-GQ-19B',
+        price: '38.49',
+        newPrice: '',
+        size: 1,
+        slug: 'goods13-42',
+        img: '/electronic/42.jpg',
+        description: '',
+        descriptionPrise: '',
+        bread1: {
+            title: 'Електричні та електронні компоненти',
+            slug: '/electrical-and-electronic-components',
+        },
+        bread2: {
+            title: 'Кнопки',
+            slug: '/electrical-and-electronic-components/buttons',
+        },
+        bread3: '',
+        descriptionMin: 'Кнопковий плоский імпульсний вимикач GQ19-F/S (кислотний)',
+        weight: '0,019',
+        codeEAN: '',
+        imageShow: ['/electronic/42.jpg', '/electronic/image13.jpg', ],
+        descriptionFull: `
+        <p>GQ19-F/S "кислотна" імпульсна кнопка, посилена.</p><br/>
+        <p><b>Технічні дані</b></p><br/>
+        <p>Монтажний діаметр: 19 мм</p>
+        <p>Робота перемикача: тимчасово</p>
+        <p>Перемикаючий контакт: 1НО</p>
+        <p>Колір світлодіода: синій</p>
+        <p>Напруга світлодіода: 12В</p>
+        <p>Світлодіодний струм: близько 11 мА</p>
+        <p>Матеріал корпусу: нержавіюча сталь</p>
+        <p>Матеріал кнопки: нержавіюча сталь</p>
+        <p>Температура експлуатації та зберігання: від -20 до +55 oC</p>
+        <p>Вологість при експлуатації та зберіганні: від 45 до 85% відносної вологості</p>
+        <p>Товщина дошки: 1~6 мм</p>
+        <p>Електричний ресурс: 50 000 разів</p>
+        <p>Механічний ресурс: 1 000 000 разів</p><br/>
+        `
+    },
+    {
+        id: '312',
+        title: 'Терморегулятор (КТО 011 0-60)',
+        code: 'REG-TEM',
+        price: '90.69',
+        newPrice: '',
+        size: 1,
+        slug: 'goods13-43',
+        img: '/electronic/43.jpg',
+        description: '',
+        descriptionPrise: '',
+        bread1: {
+            title: 'Електричні та електронні компоненти',
+            slug: '/electrical-and-electronic-components',
+        },
+        bread2: {
+            title: 'Датчики',
+            slug: '/electrical-and-electronic-components/sensors',
+        },
+        bread3: '',
+        descriptionMin: 'Терморегулятор (КТО 011 0-60)',
+        weight: '0,051',
+        codeEAN: '',
+        imageShow: ['/electronic/43.jpg', '/electronic/image14.jpg', ],
+        descriptionFull: `
+        <p>Відкриваючий термостат (NC) для контролю в системах опалення. Контакт (NC) вимикає нагрівач при 
+        досягненні заданої температури і включає ланцюг, коли температура падає нижче заданого порогу.</p><br/>
+        <p><b>Характеристики</b></p><br/>
+        <p>Великий діапазон регулювання</p>
+        <p>Компактний</p>
+        <p>Легка збірка</p>
+        <p>Високий струм комутації</p><br/>
+        <p><b>Технічні дані</b></p><br/>
+        <p>Підключення: гвинтові клеми</p>
+        <p>Тип управління: термостат</p>
+        <p>Кріплення: DIN</p>
+        <p>Максимальний робочий струм: 10 А</p>
+        <p>Максимальна робоча напруга: 250 В змінного струму</p>
+        <p>Механічна стійкість: 1·105 циклів</p>
+        <p>Робоча температура: -45...80°C</p>
+        <p>Клас герметичності: IP20</p><br/>
+        `
+    },
+    {
+        id: '313',
+        title: 'Сортувальник NRI Pelicano HSD300',
+        code: 'NRI-PEL-SOR',
+        price: '668.74',
+        newPrice: '',
+        size: 1,
+        slug: 'goods13-44',
+        img: '/electronic/44.jpg',
+        description: '',
+        descriptionPrise: '',
+        bread1: {
+            title: 'Електричні та електронні компоненти',
+            slug: '/electrical-and-electronic-components',
+        },
+        bread2: {
+            title: 'Сортувальні машини та аксесуари',
+            slug: '/electrical-and-electronic-components/sorting-machines',
+        },
+        bread3: '',
+        descriptionMin: 'Sorter NRI Pelicano HSD300',
+        weight: '',
+        codeEAN: '',
+        imageShow: ['/electronic/44.jpg', '/electronic/image15.jpg', '/electronic/image16.jpg', ],
+        descriptionFull: `
+        <p>Sorter NRI Pelicano HSD300</p><br/>
+        `
+    },
+    {
+        id: '314',
+        title: 'Контролер Moeller EASY 821-DC-TC',
+        code: 'STE-MOE-003',
+        price: '1300.96',
+        newPrice: '',
+        size: 1,
+        slug: 'goods13-45',
+        img: '/electronic/45.jpg',
+        description: '',
+        descriptionPrise: '',
+        bread1: {
+            title: 'Електричні та електронні компоненти',
+            slug: '/electrical-and-electronic-components',
+        },
+        bread2: {
+            title: 'Контролери PLC та аксесуари',
+            slug: '/electrical-and-electronic-components/PLC-controllers',
+        },
+        bread3: '',
+        descriptionMin: 'Контролер Moeller EASY 821-DC-TC',
+        weight: '',
+        codeEAN: '',
+        imageShow: ['/electronic/45.jpg', '/electronic/image17.jpg', ],
+        descriptionFull: `
+        <p>ПривідКонтролер Moeller EASY 821-DC-TCний</p><br/>
+        <p>easy800 — це електронне програмоване реле з логічними функціями, функціями часу та підрахунку, а також 
+        функціями керування годинником та арифметичними функціями. easy800 є розширеною версією реле easy600. 
+        easy800 — це пристрій керування та програмування.</p><br/>
+        <p>З easy800 ви можете вирішувати завдання в області домашнього монтажу та керування машинами та
+         пристроями.</p><br/>
+        <p>Використовуючи вбудовану мережу NET, до восьми реле easy800 можна підключити до однієї системи 
+        керування. Кожен учасник мережі NET може містити власну програму. Це дозволяє побудувати розподілену, 
+         швидку, інтелектуальну систему керування. Програма складена у вигляді сходової діаграми. Ця 
+         діаграма вводиться безпосередньо через дисплей простого реле</p><br/>
+        <p>Контролер серії EASY 800 з дисплеєм і клавіатурою, що дозволяє програмувати і змінювати параметри.</p><br/>
+        <p>Живлення: 24V DC</p><br/>
+        <p>Кількість входів: 12 (4 можна використовувати як аналогові 0-10 В)</p><br/>
+        <p>Швидкі лічильники: 2 (сигнали A, B до 5 кГц)</p><br/>
+        <p>Петлі PID: 32</p><br/>
+        <p>Виходи ШІМ: 2</p><br/>
+        `
+    },
+    {
+        id: '315',
+        title: 'Контактор Moeller DILM9-01 (24VDC)',
+        code: 'STY-DILM9',
+        price: '178.26',
+        newPrice: '',
+        size: 1,
+        slug: 'goods13-46',
+        img: '/electronic/46.jpg',
+        description: '',
+        descriptionPrise: '',
+        bread1: {
+            title: 'Електричні та електронні компоненти',
+            slug: '/electrical-and-electronic-components',
+        },
+        bread2: {
+            title: 'Реле та контактори',
+            slug: '/electrical-and-electronic-components/relays-and-contactors',
+        },
+        bread3: '',
+        descriptionMin: 'Контактор Moeller DILM9-01 (24VDC)',
+        weight: '0,317',
+        codeEAN: '',
+        imageShow: ['/electronic/46.jpg', ],
+        descriptionFull: `
+        <p>DILM9-01(24VDC) від Eaton Moeller - це триполюсний контактор із нормально замкнутими (N/C) контактами. 
+        Цей інтелектуальний і компактний пристрій має геніальні механічні блокування (тип коромисел і кулька), які
+         дозволяють швидко і легко встановлювати комбінації контакторів без необхідності додаткового місця. Він 
+         забезпечує ізоляцію та захист від прямого ручного контакту.</p><br/>
+        <p><b>Використання</b></p><br/>
+        <p>Автоматизація та управління процесами, </p>
+        <p>Моторний привід і управління, </p>
+        <p>Індустріальний</p><br/>
+        `
+    },
+    {
+        id: '316',
+        title: 'NC контакт Moeller M22-K01',
+        code: 'STY-MOE-NC',
+        price: '20.71',
+        newPrice: '',
+        size: 1,
+        slug: 'goods13-47',
+        img: '/electronic/47.jpg',
+        description: '',
+        descriptionPrise: '',
+        bread1: {
+            title: 'Електричні та електронні компоненти',
+            slug: '/electrical-and-electronic-components',
+        },
+        bread2: {
+            title: 'Реле та контактори',
+            slug: '/electrical-and-electronic-components/relays-and-contactors',
+        },
+        bread3: '',
+        descriptionMin: 'NC контакт Moeller M22-K01',
+        weight: '0,01',
+        codeEAN: '',
+        imageShow: ['/electronic/47.jpg', ],
+        descriptionFull: `
+        <p>NC контакт Moeller M22-K01 для червоних кнопок STOP з самоповоротом Moeller [M22-DR]</p><br/>
+        <p><b>Технічні дані</b></p><br/>
+        <p>Виробник: EATON ELECTRIC</p>
+        <p>Тип вимикачів: контактний елемент</p>
+        <p>Конфігурація контактів: NC</p>
+        <p>Контактне навантаження: AC  </p>
+        <p>(з резистивним навантаженням): 6 A / 230 VAC</p>
+        <p>Навантажувальна здатність контактів постійного струму</p>
+        <p>(з резистивним навантаженням): 3 A / 24 VDC</p>
+        <p>Перемикач стандартний: 22 мм</p>
+        <p>Кріплення: до передньої панелі</p>
+        <p>Серія виробника: M22</p>
+        <p>Робоча температура: -25...70°C</p>
+        <p>Розводка: гвинтові клеми</p>
+        <p>Призначення: М22-Д. M22-W. M22S-D</p><br/>
+        `
+    },
+    {
+        id: '317',
+        title: 'NO контакт Moeller M22-K10',
+        code: 'STY-MOE-NO',
+        price: '19.31',
+        newPrice: '',
+        size: 1,
+        slug: 'goods13-48',
+        img: '/electronic/48.jpg',
+        description: '',
+        descriptionPrise: '',
+        bread1: {
+            title: 'Електричні та електронні компоненти',
+            slug: '/electrical-and-electronic-components',
+        },
+        bread2: {
+            title: 'Кнопки',
+            slug: '/electrical-and-electronic-components/buttons',
+        },
+        bread3: '',
+        descriptionMin: 'NO контакт Moeller M22-K1',
+        weight: '0,01',
+        codeEAN: '',
+        imageShow: ['/electronic/48.jpg', ],
+        descriptionFull: `
+        <p>NO контакт Moeller M22-K10 для кнопки PRZ-M22-DL-W.</p><br/>
+        <p><b>Технічні дані</b></p><br/>
+        <p>Виробник: EATON ELECTRIC</p>
+        <p>Тип вимикачів: контактний елемент</p>
+        <p>Конфігурація контактів: НІ</p>
+        <p>Контактне навантаження: AC  </p>
+        <p>(з резистивним навантаженням): 6 A / 230 VAC</p>
+        <p>Навантажувальна здатність контакту постійного струму: </p>
+        <p>(з резистивним навантаженням): 3 A / 24 VDC</p>
+        <p>Перемикач стандартний: 22 мм</p>
+        <p>Кріплення: до передньої панелі</p>
+        <p>Серія виробника: M22</p>
+        <p>Робоча температура: -25...70°C</p>
+        <p>Розводка: гвинтові клеми</p>
+        <p>Призначення: М22-Д. M22-W. M22S-D</p><br/>
+        `
+    },
+    {
+        id: '318',
+        title: 'Перемикач двигуна Moeller PKZM0-10',
+        code: 'WYL-MOE-031',
+        price: '241.17',
+        newPrice: '',
+        size: 1,
+        slug: 'goods13-49',
+        img: '/electronic/49.jpg',
+        description: '',
+        descriptionPrise: '',
+        bread1: {
+            title: 'Електричні та електронні компоненти',
+            slug: '/electrical-and-electronic-components',
+        },
+        bread2: {
+            title: 'Запобіжні пристрої',
+            slug: '/electrical-and-electronic-components/safety-devices',
+        },
+        bread3: '',
+        descriptionMin: 'Перемикач двигуна Moeller PKZM0-10',
+        weight: '0,305',
+        codeEAN: '',
+        imageShow: ['/electronic/49.jpg', ],
+        descriptionFull: `
+        <p>Автоматичний моторний вимикач ПКЗМ0-10 призначений для захисту приймачів на номінальний струм до
+         10 А.</p><br/>
+        <p>Вбудований розчіплювач короткого замикання з заводським налаштуванням робочого струму і розчіплювач
+         перевантаження з регульованим налаштуванням забезпечують відмінний захист установки і приймача.</p><br/>
+        <p><b>Технічні дані</b></p><br/>
+        <p>Тип: ПКЗМ0-10</p><br/>
+        <p>Розривна здатність Icu [кА] при 400 В: 150</p><br/>
+        <p>Макс. Вантажопідйомність АС-3 при 380/400/415 ВП [кВт]: 4</p><br/>
+        <p>Номінальний тривалий струм Iu [A]: 10</p><br/>
+        <p>Розчіплювач перевантаження Ir [A] : 6,3-10</p><br/>
+        <p>Коротке замикання Irm [A] : 155</p><br/>
+        `
+    },
+    {
+        id: '319',
+        title: '4-значний дисплей (v1.06.0) - не запрограмований',
+        code: 'PLY-SamWash-CAN-IO-V4',
+        price: '1226.38',
+        newPrice: '',
+        size: 1,
+        slug: 'goods13-50',
+        img: '/electronic/50.jpg',
+        description: '',
+        descriptionPrise: '',
+        bread1: {
+            title: 'Електричні та електронні компоненти',
+            slug: '/electrical-and-electronic-components',
+        },
+        bread2: {
+            title: 'Дисплеї (LCD, LED)',
+            slug: '/electrical-and-electronic-components/displays-LCD-LED)',
+        },
+        bread3: '',
+        descriptionMin: '4-значний дисплей (v1.06.0) - не запрограмований',
+        weight: '0,212',
+        codeEAN: '',
+        imageShow: ['/electronic/50.jpg', ],
+        descriptionFull: `
+        <p>Плата SamWash-CAN-IO - 4-значний дисплей v1.06.0</p><br/>
+        <p><b style="color: #151717">Важливо!</b></p><br/>
+        <p>У зв’язку з ситуацією на ринку напівпровідників SamWash відкликає дисплеї SamWash-CAN-IO v1.6.0 з 
+        1 травня 2022 року.</p><br/>
+        <p>Якщо вам потрібен дисплей для:</p>
+        <p>мийної станції для автомийки в комплектації v2. (виробництва після 2014 року)</p>
+        <p>Пилосос</p><br/>
+        <p>Розгляньте можливість переходу на новий тип дисплея BKF-CAN-IO v2.4.</p><br/>
+        <p>Дисплеї SamWash-CAN-IO v2.4 характеризуються:</p>
+        <p>більшою надійністю,</p>
+        <p>новими функціями, недоступними у версії v1.6.0,</p>
+        <p>нижчою ціною.</p><br/>
+        <p>Display v2 є поточним стандартом і тому має довший період підтримки</p><br/>
+        <p>У більшості випадків дисплеї SamWash-CAN-IO версії 2.4 зворотно сумісні з дисплеями SamWash-CAN-IO версії
+         1.6.0, але зауважте, що дисплеї версії 2.4:<br/>
+        несумісні з мийними станціями на автомийках у конфігурації v1 ( Виробництво до 2014 року)</p><br/>
+        <p>У випадку з механічними кнопками замість ламп розжарювання слід використовувати світлодіодні лампи.<br/>
+        Вони працюють із зчитувачами карт лояльності по протоколу MDB (без підтримки імпульсного протоколу).</p><br/>
+        <p>Ви зможете розмістити замовлення на дисплей v1.6.0 до кінця квітня 2022 року або до закінчення запасів.
+         Якщо ви очікуєте, що дисплей буде необхідний для роботи вашої мийки, зробіть замовлення на більшу
+          кількість.</p><br/>
+        <p><b>Дисплей без поточного програмного забезпечення. Щоб запрограмувати конкретну мийку, вкажіть номер 
+        мийки та версію програми, яку можна перевірити на сенсорній панелі (Мийка -> Мийка2 -> BKF_CAN_IO)</b></p><br/>
+        `
+    },
+    {
+        id: '320',
+        title: '4-значний дисплей для системи eurokey COMESTERO',
+        code: 'COM-WYS-RM924/G',
+        price: '337.09',
+        newPrice: '',
+        size: 1,
+        slug: 'goods13-51',
+        img: '/electronic/51.jpg',
+        description: '',
+        descriptionPrise: '',
+        bread1: {
+            title: 'Електричні та електронні компоненти',
+            slug: '/electrical-and-electronic-components',
+        },
+        bread2: {
+            title: 'Дисплеї (LCD, LED)',
+            slug: '/electrical-and-electronic-components/displays-LCD-LED)',
+        },
+        bread3: '',
+        descriptionMin: '4-значний дисплей для системи eurokey COMESTERO',
+        weight: '',
+        codeEAN: '',
+        imageShow: ['/electronic/51.jpg', ],
+        descriptionFull: `
+        <p>4-значний дисплей для системи eurokey COMESTERO. У комплект входить повна кабельна розводка.</p><br/>
+        `
+    },
+    {
+        id: '321',
+        title: '4-значний дисплей для системи eurokey COMESTERO, НЕКОМПЛЕКТ (без проводки)',
+        code: 'COM-WYS-RM924/G-NK',
+        price: '279.54',
+        newPrice: '',
+        size: 1,
+        slug: 'goods13-52',
+        img: '/electronic/52.jpg',
+        description: '',
+        descriptionPrise: '',
+        bread1: {
+            title: 'Електричні та електронні компоненти',
+            slug: '/electrical-and-electronic-components',
+        },
+        bread2: {
+            title: 'Дисплеї (LCD, LED)',
+            slug: '/electrical-and-electronic-components/displays-LCD-LED)',
+        },
+        bread3: '',
+        descriptionMin: '4-значний дисплей для системи eurokey COMESTERO без проводки',
+        weight: '',
+        codeEAN: '',
+        imageShow: ['/electronic/52.jpg', ],
+        descriptionFull: `
+        <p>4-значний дисплей для системи eurokey COMESTERO без проводки</p><br/>
+        `
+    },
+    {
+        id: '322',
+        title: 'LED дисплей автомийки (1-секційний)',
+        code: 'WYS-LED-V2.2',
+        price: '506.46',
+        newPrice: '',
+        size: 1,
+        slug: 'goods13-53',
+        img: '/electronic/53.jpg',
+        description: '',
+        descriptionPrise: '',
+        bread1: {
+            title: 'Електричні та електронні компоненти',
+            slug: '/electrical-and-electronic-components',
+        },
+        bread2: {
+            title: 'Дисплеї (LCD, LED)',
+            slug: '/electrical-and-electronic-components/displays-LCD-LED)',
+        },
+        bread3: '',
+        descriptionMin: 'LED дисплей автомийки (1-секційний)',
+        weight: '0,093',
+        codeEAN: '',
+        imageShow: ['/electronic/53.jpg', ],
+        descriptionFull: `
+        <p>LED дисплей автомийки - електронне табло - версія 2.2 1 секційний дисплей.</p><br/>
+        `
+    },
+    {
+        id: '323',
+        title: 'Імпульсний блок живлення Lovato PSL1M (60 24 2.5A 230/24VDC)',
+        code: 'ZAS-CAR-004',
+        price: '259.99',
+        newPrice: '',
+        size: 1,
+        slug: 'goods13-54',
+        img: '/electronic/54.jpg',
+        description: '',
+        descriptionPrise: '',
+        bread1: {
+            title: 'Електричні та електронні компоненти',
+            slug: '/electrical-and-electronic-components',
+        },
+        bread2: {
+            title: 'Трансформатори та джерела живлення',
+            slug: '/electrical-and-electronic-components/transformers-and-power-supplies',
+        },
+        bread3: '',
+        descriptionMin: 'Імпульсний блок живлення Lovato PSL1M (60 24 2.5A 230/24VDC)',
+        weight: '',
+        codeEAN: '',
+        imageShow: ['/electronic/54.jpg', '/electronic/image18.jpg', ],
+        descriptionFull: `
+        <p>Імпульсний блок живлення PSL1M</p><br/>
+        <p>60 HZ</p>
+        <p>24 V</p>
+        <p>2.5A</p>
+        <p>230/24VDC</p><br/>
+        <p>Виробник: Lovato</p><br/>
+        `
+    },
+    {
+        id: '324',
+        title: 'Wieland Wipos P1 / Lovato імпульсний блок живлення 24-5A (230/24V 5A)',
+        code: 'ZAS-WIE-002',
+        price: '459.52',
+        newPrice: '',
+        size: 1,
+        slug: 'goods13-55',
+        img: '/electronic/55.jpg',
+        description: '',
+        descriptionPrise: '',
+        bread1: {
+            title: 'Електричні та електронні компоненти',
+            slug: '/electrical-and-electronic-components',
+        },
+        bread2: {
+            title: 'Трансформатори та джерела живлення',
+            slug: '/electrical-and-electronic-components/transformers-and-power-supplies',
+        },
+        bread3: '',
+        descriptionMin: 'Wieland Wipos P1 / Lovato імпульсний блок живлення 24-5A (230/24V 5A)',
+        weight: '1,02',
+        codeEAN: '',
+        imageShow: ['/electronic/55.jpg', '/electronic/image19.jpg',  '/electronic/image20.jpg', ],
+        descriptionFull: `
+        <p>Однофазний імпульсний блок живлення Wieland Wipos / Lovato 24-5A (230/24V 5A)</p><br/>
+        <p><b>Технічні дані</b></p><br/>
+        <p>Основне живлення: імпульсне, однофазне</p>
+        <p>Вихід: 24 В постійного струму / 10 А (регульований 22,5 - 28,5 В постійного струму)</p>
+        <p>Стійкість до короткого замикання</p>
+        <p>Вхід: 115/230 В змінного струму автоматичний вибір; 210 - 375 В постійного струму</p>
+        <p>Повне завантаження: до 60 °C</p>
+        <p>Технологія: PFC</p>
+        <p>Кріплення: вертикальне</p>
+        <p>Паралельна робота (макс. 3 відхилення)</p><br/>
+        `
+    },
+    {
+        id: '325',
+        title: 'Блок живлення Lovato PSL1;240;24 (заміна ZAS-WIE-003)',
+        code: 'ZAS-LOV-24V-10A',
+        price: '638.59',
+        newPrice: '',
+        size: 1,
+        slug: 'goods13-56',
+        img: '/electronic/56.png',
+        description: '',
+        descriptionPrise: '',
+        bread1: {
+            title: 'Електричні та електронні компоненти',
+            slug: '/electrical-and-electronic-components',
+        },
+        bread2: {
+            title: 'Трансформатори та джерела живлення',
+            slug: '/electrical-and-electronic-components/transformers-and-power-supplies',
+        },
+        bread3: '',
+        descriptionMin: 'Lovato Однофазний імпульсний блок живлення',
+        weight: '1,49',
+        codeEAN: '',
+        imageShow: ['/electronic/56.png', ],
+        descriptionFull: `
+        <p>Lovato Однофазний імпульсний блок живлення.</p>
+        <p>Lovato Electric PSL124024</p><br/>
+        <p><b>Технічні дані:</b></p><br/>
+        <p>Номінальна напруга живлення: 115-230 В змінного струму</p>
+        <p>Частота мережі: 50/60 Гц</p>
+        <p>Регулювання вихідної напруги за допомогою потенціометра, розташованого на передній панелі</p>
+        <p>Номінальна вихідна напруга: 24 В постійного</p>
+        <p>Струму Номінальний вихідний струм: 10 А</p>
+        <p>Вихідна потужність: 240 Вт</p>
+        <p>Ефективність: до 92%</p>
+        <p>Монтаж : рейка DIN 35 мм</p>
+        <p>Тип електричного підключення: гвинтова клема</p>
+        <p>Рівень захисту: IP20</p>
+        <p>Розміри: 83,5x124,5x123,6мм</p>
+        <p>Світлодіодні індикатори: червоний - занадто низька напруга, зелений - живлення ввімкнено</p><br/>
+        `
+    },
+    {
+        id: '326',
+        title: 'Світлодіодна лампа (24V W5W T10)',
+        code: 'ZAR-LED-24V-T10',
+        price: '8.79',
+        newPrice: '',
+        size: 1,
+        slug: 'goods13-57',
+        img: '/electronic/57.jpg',
+        description: '',
+        descriptionPrise: '',
+        bread1: {
+            title: 'Електричні та електронні компоненти',
+            slug: '/electrical-and-electronic-components',
+        },
+        bread2: {
+            title: 'Кнопки',
+            slug: '/electrical-and-electronic-components/buttons',
+        },
+        bread3: '',
+        descriptionMin: 'Світлодіодна лампа (24V W5W T10)',
+        weight: '0,001',
+        codeEAN: '',
+        imageShow: ['/electronic/57.jpg', ],
+        descriptionFull: `
+        <p>24V W5W T10 світлодіодна лампочка для кнопки АВТОМИЙКА старого типу.</p><br/>
+        <p>Замінює лампу 2W 24V.</p><br/>
+        `
+    },
+    {
+        id: '327',
+        title: 'Лампа LED 24V W5W T10 (червона)',
+        code: 'ZAR-LED-24V-T10-RED',
+        price: '8.79',
+        newPrice: '',
+        size: 1,
+        slug: 'goods13-58',
+        img: '/electronic/58.jpg',
+        description: '',
+        descriptionPrise: '',
+        bread1: {
+            title: 'Електричні та електронні компоненти',
+            slug: '/electrical-and-electronic-components',
+        },
+        bread2: {
+            title: 'Кнопки',
+            slug: '/electrical-and-electronic-components/buttons',
+        },
+        bread3: '',
+        descriptionMin: 'Лампа LED 24V W5W T10 (червона)',
+        weight: '0,001',
+        codeEAN: '',
+        imageShow: ['/electronic/58.jpg', '/electronic/image21.jpg', ],
+        descriptionFull: `
+        <p>24V W5W T10 світлодіодна лампочка для кнопки АВТОМИЙКА старого типу.</p><br/>
+        <p>Замінює лампу 2W 24V.</p><br/>
         `
     },
 

@@ -168,7 +168,7 @@ function NavProduct2({child, back, noFilter}) {
                         return <div key={index}>
                                 <div className={s.item} key={index}>
                                     <Link href={item.slug}>
-                                        <p>{item.title}</p> <br/>
+                                        <p><b>{item.title}</b></p> <br/>
                                     </Link>
                                 </div>
                             </div>

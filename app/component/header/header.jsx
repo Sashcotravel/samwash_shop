@@ -376,29 +376,45 @@ const Header = () => {
                                         <Link href="/cleaning-and-maintenance" id='mozhna'>Очищення та обслуговування</Link>
                                     </li>
                                     <li>
-                                        <Link href="/" id='mozhna'>Дозування порошку</Link>
+                                        <Link href="/dosage-of-powder" id='mozhna'>Дозування порошку</Link>
                                     </li>
                                     <li>
-                                        <Link href="/" id='mozhna'>Електричні та електронні компоненти</Link>
-                                        <span><Link href="/" id='mozhna'>Датчики</Link></span>
-                                        <span><Link href="/" id='mozhna'>Реле та контактори</Link></span>
-                                        <span><Link href="/" id='mozhna'>Кнопки</Link></span>
-                                        <span><Link href="/" id='mozhna'>Сортувальні машини та аксесуари</Link></span>
-                                        <span><Link href="/" id='mozhna'>Контролери PLC та аксесуари</Link></span>
-                                        <span><Link href="/"
+                                        <Link href="/electrical-and-electronic-components"
+                                              id='mozhna'>Електричні та електронні компоненти</Link>
+                                        <span><Link href="/electrical-and-electronic-components/sensors"
+                                                    id='mozhna'>Датчики</Link></span>
+                                        <span><Link href="/electrical-and-electronic-components/relays-and-contactors"
+                                                    id='mozhna'>Реле та контактори</Link></span>
+                                        <span><Link href="/electrical-and-electronic-components/buttons"
+                                                    id='mozhna'>Кнопки</Link></span>
+                                        <span><Link href="/electrical-and-electronic-components/sorting-machines"
+                                                    id='mozhna'>Сортувальні машини та аксесуари</Link></span>
+                                        <span><Link href="/electrical-and-electronic-components/PLC-controllers"
+                                                    id='mozhna'>Контролери PLC та аксесуари</Link></span>
+                                        <span>
+                                            <Link href="/electrical-and-electronic-components/transformers-and-power-supplies"
                                                     id='mozhna'>Трансформатори та джерела живлення</Link></span>
-                                        <span><Link href="/" id='mozhna'>Запобіжні пристрої</Link></span>
-                                        <span><Link href="/" id='mozhna'>Дисплеї (LCD, LED)</Link></span>
+                                        <span><Link href="/electrical-and-electronic-components/safety-devices"
+                                                    id='mozhna'>Запобіжні пристрої</Link></span>
+                                        <span><Link href="/electrical-and-electronic-components/displays-LCD-LED)"
+                                                    id='mozhna'>Дисплеї (LCD, LED)</Link></span>
                                     </li>
                                     <li>
-                                        <Link href="/" id='mozhna'>Гідравлічні елементи</Link>
-                                        <span><Link href="/" id='mozhna'>Збирачі програмного забезпечення</Link></span>
-                                        <span><Link href="/" id='mozhna'>Манометри і термометри</Link></span>
-                                        <span><Link href="/" id='mozhna'>Запобіжні клапани</Link></span>
-                                        <span><Link href="/" id='mozhna'>Поплавкові клапани</Link></span>
-                                        <span><Link href="/" id='mozhna'>Регулюючі клапани та редуктори</Link></span>
-                                        <span><Link href="/" id='mozhna'>Зворотні клапани</Link></span>
-                                        <span><Link href="/" id='mozhna'>Гідравлічні з'єднувачі</Link></span>
+                                        <Link href="/hydraulic-elements" id='mozhna'>Гідравлічні елементи</Link>
+                                        <span><Link href="/hydraulic-elements/software-assemblers"
+                                                    id='mozhna'>Збирачі програмного забезпечення</Link></span>
+                                        <span><Link href='/hydraulic-elements/manometers-and-thermometers'
+                                                    id='mozhna'>Манометри і термометри</Link></span>
+                                        <span><Link href='/hydraulic-elements/safety-valves'
+                                                    id='mozhna'>Запобіжні клапани</Link></span>
+                                        <span><Link href='/hydraulic-elements/float-valves'
+                                                    id='mozhna'>Поплавкові клапани</Link></span>
+                                        <span><Link href='/hydraulic-elements/valves-and-reducers'
+                                                    id='mozhna'>Регулюючі клапани та редуктори</Link></span>
+                                        <span><Link href='/hydraulic-elements/check-valves'
+                                                    id='mozhna'>Зворотні клапани</Link></span>
+                                        <span><Link href='/hydraulic-elements/hydraulic-connectors'
+                                                    id='mozhna'>Гідравлічні з'єднувачі</Link></span>
                                     </li>
                                     <li>
                                         <Link href="/" id='mozhna'>Елементи та обладнання мийної станції</Link>
@@ -638,7 +654,7 @@ const Header = () => {
                                            className={s.imgArrowManu}/>
                                 </button>
                                 <div className={s.dropdown_content}>
-                                    <span><Link href="/" id='mozhna'>Дозування порошку</Link></span>
+                                    <span><Link href="/dosage-of-powder" id='mozhna'>Дозування порошку</Link></span>
                                 </div>
                             </li>
                             <li className={s.dropdown + ' ' + s.less}>
@@ -648,14 +664,24 @@ const Header = () => {
                                            className={s.imgArrowManu}/>
                                 </button>
                                 <div className={s.dropdown_content}>
-                                    <span><Link href="/" id='mozhna'>Датчики</Link></span>
-                                    <span><Link href="/" id='mozhna'>Реле та контактори</Link></span>
-                                    <span><Link href="/" id='mozhna'>Кнопки</Link></span>
-                                    <span><Link href="/" id='mozhna'>Сортувальні машини та аксесуари</Link></span>
-                                    <span><Link href="/" id='mozhna'>Контролери PLC та аксесуари</Link></span>
-                                    <span><Link href="/" id='mozhna'>Трансформатори та джерела живлення</Link></span>
-                                    <span><Link href="/" id='mozhna'>Запобіжні пристрої</Link></span>
-                                    <span><Link href="/" id='mozhna'>Дисплеї (LCD, LED)</Link></span>
+                                    <span><Link href="/electrical-and-electronic-components" id='mozhna'>
+                                        Електричні та електронні компоненти</Link></span>
+                                    <span><Link href="/electrical-and-electronic-components/sensors"
+                                                id='mozhna'>Датчики</Link></span>
+                                    <span><Link href="/electrical-and-electronic-components/relays-and-contactors"
+                                                id='mozhna'>Реле та контактори</Link></span>
+                                    <span><Link href="/electrical-and-electronic-components/buttons"
+                                                id='mozhna'>Кнопки</Link></span>
+                                    <span><Link href="/electrical-and-electronic-components/sorting-machines"
+                                                id='mozhna'>Сортувальні машини та аксесуари</Link></span>
+                                    <span><Link href="/electrical-and-electronic-components/PLC-controllers"
+                                                id='mozhna'>Контролери PLC та аксесуари</Link></span>
+                                    <span><Link href="/electrical-and-electronic-components/transformers-and-power-supplies"
+                                                id='mozhna'>Трансформатори та джерела живлення</Link></span>
+                                    <span><Link href="/electrical-and-electronic-components/safety-devices"
+                                                id='mozhna'>Запобіжні пристрої</Link></span>
+                                    <span><Link href="/electrical-and-electronic-components/displays-LCD-LED)"
+                                                id='mozhna'>Дисплеї (LCD, LED)</Link></span>
                                 </div>
                             </li>
                             <li className={s.dropdown + ' ' + s.less}>
@@ -665,13 +691,21 @@ const Header = () => {
                                            className={s.imgArrowManu}/>
                                 </button>
                                 <div className={s.dropdown_content}>
-                                    <span><Link href="/" id='mozhna'>Збирачі програмного забезпечення</Link></span>
-                                    <span><Link href="/" id='mozhna'>Манометри і термометри</Link></span>
-                                    <span><Link href="/" id='mozhna'>Запобіжні клапани</Link></span>
-                                    <span><Link href="/" id='mozhna'>Поплавкові клапани</Link></span>
-                                    <span><Link href="/" id='mozhna'>Регулюючі клапани та редуктори</Link></span>
-                                    <span><Link href="/" id='mozhna'>Зворотні клапани</Link></span>
-                                    <span><Link href="/" id='mozhna'>Гідравлічні з'єднувачі</Link></span>
+                                    <span><Link href="/hydraulic-elements" id='mozhna'>Гідравлічні елементи</Link></span>
+                                    <span><Link href='/hydraulic-elements/software-assemblers'
+                                                id='mozhna'>Збирачі програмного забезпечення</Link></span>
+                                    <span><Link href='/hydraulic-elements/manometers-and-thermometers'
+                                                id='mozhna'>Манометри і термометри</Link></span>
+                                    <span><Link href='/hydraulic-elements/safety-valves'
+                                                id='mozhna'>Запобіжні клапани</Link></span>
+                                    <span><Link href='/hydraulic-elements/float-valves'
+                                                id='mozhna'>Поплавкові клапани</Link></span>
+                                    <span><Link href='/hydraulic-elements/valves-and-reducers'
+                                                id='mozhna'>Регулюючі клапани та редуктори</Link></span>
+                                    <span><Link href='/hydraulic-elements/check-valves'
+                                                id='mozhna'>Зворотні клапани</Link></span>
+                                    <span><Link href='/hydraulic-elements/hydraulic-connectors'
+                                                id='mozhna'>Гідравлічні з'єднувачі</Link></span>
                                 </div>
                             </li>
                             <li className={s.dropdown + ' ' + s.less}>

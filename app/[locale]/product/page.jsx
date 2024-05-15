@@ -112,6 +112,11 @@ const arrChildCatalog = [
         img: '',
     },
     {
+        title: 'Дозування порошку',
+        slug: '/dosage-of-powder',
+        img: '',
+    },
+    {
         title: 'Електромагнітні клапани та ремкомплекти',
         slug: '/electromagnetic-valves-and-repair-kits',
         img: '/electromagnetic/main.jpg',
@@ -126,6 +131,81 @@ const arrChildCatalog = [
             },
         ]
     },
+    {
+        title: 'Електричні та електронні компоненти',
+        slug: '/electrical-and-electronic-components',
+        img: '/electronic/main.jpg',
+        child: [
+            {
+                slug: '/electrical-and-electronic-components/sensors',
+                title: 'Датчики'
+            },
+            {
+                slug: '/electrical-and-electronic-components/relays-and-contactors',
+                title: 'Реле та контактори'
+            },
+            {
+                slug: '/electrical-and-electronic-components/buttons',
+                title: 'Кнопки'
+            },
+            {
+                slug: '/electrical-and-electronic-components/sorting-machines',
+                title: 'Сортувальні машини та аксесуари'
+            },
+            {
+                slug: '/electrical-and-electronic-components/PLC-controllers',
+                title: 'Контролери PLC та аксесуари'
+            },
+            {
+                slug: '/electrical-and-electronic-components/transformers-and-power-supplies',
+                title: 'Трансформатори та джерела живлення'
+            },
+            {
+                slug: '/electrical-and-electronic-components/safety-devices',
+                title: 'Запобіжні пристрої'
+            },
+            {
+                slug: '/electrical-and-electronic-components/displays-LCD-LED)',
+                title: 'Дисплеї (LCD, LED)'
+            },
+        ]
+    },
+    {
+        title: 'Гідравлічні елементи',
+        slug: '/hydraulic-elements',
+        img: '/hydraulic/main.jpg',
+        child: [
+            {
+                slug: '/hydraulic-elements/software-assemblers',
+                title: 'Збирачі програмного забезпечення'
+            },
+            {
+                slug: '/hydraulic-elements/manometers-and-thermometers',
+                title: 'Манометри і термометри'
+            },
+            {
+                slug: '/hydraulic-elements/safety-valves',
+                title: 'Запобіжні клапани'
+            },
+            {
+                slug: '/hydraulic-elements/float-valves',
+                title: 'Поплавкові клапани'
+            },
+            {
+                slug: '/hydraulic-elements/valves-and-reducers',
+                title: 'Регулюючі клапани та редуктори'
+            },
+            {
+                slug: '/hydraulic-elements/check-valves',
+                title: 'Зворотні клапани'
+            },
+            {
+                slug: '/hydraulic-elements/hydraulic-connectors',
+                title: 'Гідравлічні з\'єднувачі'
+            },
+        ]
+    },
+
     {
         title: 'Насоси та дозатори миючих засобів',
         slug: '/pumps-and-detergent-dispensers',
