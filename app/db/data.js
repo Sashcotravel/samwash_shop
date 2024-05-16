@@ -10513,6 +10513,2197 @@ export const goodsArr = [
         `
     },
 
+    {
+        id: '328',
+        title: 'Коліно латунне 3/8" M (24.0289)(1204050128)',
+        code: 'КОЛ-МТМ-3/8',
+        price: '41.84',
+        newPrice: '',
+        size: 1,
+        slug: 'goods14-1',
+        img: '/hydraulic/1.jpg',
+        description: '',
+        descriptionPrise: '',
+        bread1: {
+            title: 'Гідравлічні елементи',
+            slug: '/hydraulic-elements',
+        },
+        bread2: {
+            slug: '/hydraulic-elements/hydraulic-connectors',
+            title: 'Гідравлічні з\'єднувачі'
+        },
+        bread3: '',
+        descriptionMin: 'Коліно латунне 3/8" M (24.0289)(1204050128)',
+        weight: '0,04',
+        codeEAN: '',
+        imageShow: ['/hydraulic/1.jpg', ],
+        descriptionFull: `
+        <p>Латунне коліно від 3/8" до 3/8" M для клапана KRANZLE</p><br/>
+        `
+    },
+    {
+        id: '329',
+        title: 'Латунне коліно 3/8"M x 1/4"M',
+        code: 'КОЛ-МТМ-3/8Х1/4',
+        price: '77.49',
+        newPrice: '',
+        size: 1,
+        slug: 'goods14-2',
+        img: '/hydraulic/2.jpg',
+        description: '',
+        descriptionPrise: '',
+        bread1: {
+            title: 'Гідравлічні елементи',
+            slug: '/hydraulic-elements',
+        },
+        bread2: {
+            slug: '/hydraulic-elements/hydraulic-connectors',
+            title: 'Гідравлічні з\'єднувачі'
+        },
+        bread3: '',
+        descriptionMin: 'Латунне коліно 3/8"M x 1/4"M',
+        weight: '0,078',
+        codeEAN: '',
+        imageShow: ['/hydraulic/2.jpg', ],
+        descriptionFull: `
+        <p>Латунне коліно 3/8"M x 1/4"M</p><br/>
+        `
+    },
+    {
+        id: '330',
+        title: 'Манометр 0-10 бар 1/2" (низ 80 мм без логотипу)',
+        code: 'MAN-10-DOL-1/2-80-WEEK',
+        price: '142.68',
+        newPrice: '',
+        size: 1,
+        slug: 'goods14-3',
+        img: '/hydraulic/3.jpg',
+        description: '',
+        descriptionPrise: '',
+        bread1: {
+            title: 'Гідравлічні елементи',
+            slug: '/hydraulic-elements',
+        },
+        bread2: {
+            slug: '/hydraulic-elements/manometers-and-thermometers',
+            title: 'Манометри і термометри'
+        },
+        bread3: '',
+        descriptionMin: 'Манометр 0-10 бар 1/2" (низ 80 мм без логотипу)',
+        weight: '0,3',
+        codeEAN: '',
+        imageShow: ['/hydraulic/3.jpg', ],
+        descriptionFull: `
+        <p>Радіочастотний манометр нагрівання.</p><br/>
+        <p>Призначений для вимірювання тиску в будь-якому місці установки. Призначений для нев’язких, 
+        некристалізованих газів і рідин, які не впливають на мідні сплави.</p><br/>
+        <p><b>Технічні дані</b></p><br/>
+        <p>діаметр диска: 80 мм</p>
+        <p>діапазон тиску: 0 ÷ 10 бар</p>
+        <p>тип з'єднання: радіальний</p>
+        <p>корпус: Пластик, пластикове скло, пресова посадка</p>
+        <p>клас точності: 2,5</p>
+        <p>розмір підключення: G1/2B</p>
+        <p>вимірювальний елемент у контакті із середовищем: латунь (для сталі PF) - Tmax ≤ 60 °C</p>
+        <p>тип манометра: RF/HZ/HY - з трубкою Бурдона</p><br/>
+        `
+    },
+    {
+        id: '331',
+        title: 'Манометр 0-10 бар 1/4" (нижній 63 мм без логотипу)',
+        code: 'MAN-10-DOL-1/4-63-WEEK',
+        price: '37.07',
+        newPrice: '',
+        size: 1,
+        slug: 'goods14-4',
+        img: '/hydraulic/4.jpg',
+        description: '',
+        descriptionPrise: '',
+        bread1: {
+            title: 'Гідравлічні елементи',
+            slug: '/hydraulic-elements',
+        },
+        bread2: {
+            slug: '/hydraulic-elements/manometers-and-thermometers',
+            title: 'Манометри і термометри'
+        },
+        bread3: '',
+        descriptionMin: 'Манометр 0-10 бар 1/4" (нижній 63 мм без логотипу)',
+        weight: '0,2',
+        codeEAN: '',
+        imageShow: ['/hydraulic/4.jpg', ],
+        descriptionFull: `
+        <p>Радіочастотний нагрівальний манометр, який використовується для вимірювання тиску в будь-якому місці 
+        установки. Призначений для нев’язких, некристалізованих газів і рідин, які не впливають на мідні сплави.</p><br/>
+           <p><b>Технічні дані</b></p><br/>
+        <p>діаметр диска: 63 мм</p>
+        <p>діапазон тиску: 0 ÷ 10 бар</p>
+        <p>тип з'єднання: радіальний</p>
+        <p>корпус: Пластик, пластикове скло, пресова посадка</p>
+        <p>клас точності: 2,5</p>
+        <p>розмір підключення: G1/4B</p>
+        <p>вимірювальний елемент у контакті із середовищем: латунь (для сталі PF) - Tmax ≤ 60 °C</p>
+        <p>тип манометра: RF/HZ/HY - з трубкою Бурдона</p><br/>
+        `
+    },
+    {
+        id: '332',
+        title: 'Манометр 0-10 бар 1/4" (задній 63 мм без логотипу)',
+        code: 'MAN-10-TYL-1/4-63-WEEK',
+        price: '20.42',
+        newPrice: '',
+        size: 1,
+        slug: 'goods14-5',
+        img: '/hydraulic/5.jpg',
+        description: '',
+        descriptionPrise: '',
+        bread1: {
+            title: 'Гідравлічні елементи',
+            slug: '/hydraulic-elements',
+        },
+        bread2: {
+            slug: '/hydraulic-elements/manometers-and-thermometers',
+            title: 'Манометри і термометри'
+        },
+        bread3: '',
+        descriptionMin: 'Манометр 0-10 бар 1/4" (задній 63 мм без логотипу)',
+        weight: '',
+        codeEAN: '',
+        imageShow: ['/hydraulic/5.jpg', '/hydraulic/image1.jpg', '/hydraulic/image2.jpg', ],
+        descriptionFull: `
+        <p>Радіочастотний нагрівальний манометр, який використовується для вимірювання тиску в будь-якому місці
+         установки. Призначений для нев’язких, некристалізованих газів і рідин, які не впливають на мідні сплави.</p><br/>
+              <p><b>Технічні дані</b></p><br/>
+        <p>діаметр диска: 63 мм</p>
+        <p>діапазон тиску: 0 ÷ 10 бар</p>
+        <p>тип з'єднання: радіальний</p>
+        <p>корпус: Пластик, пластикове скло, пресова посадка</p>
+        <p>клас точності: 2,5</p>
+        <p>розмір підключення: G1/4B</p>
+        <p>вимірювальний елемент у контакті із середовищем: латунь (для сталі PF) - Tmax ≤ 60 °C</p>
+        <p>тип манометра: RF/HZ/HY - з трубкою Бурдона</p><br/>
+        `
+    },
+    {
+        id: '333',
+        title: 'Гліцериновий манометр (0-160 бар, дно 1/4\'\', 63 мм, нержавіюча сталь)',
+        code: 'MAN-160-DOL-1/4-63-GLI-WIKA-SamWash',
+        price: '130.74',
+        newPrice: '',
+        size: 1,
+        slug: 'goods14-6',
+        img: '/hydraulic/6.jpg',
+        description: '',
+        descriptionPrise: '',
+        bread1: {
+            title: 'Гідравлічні елементи',
+            slug: '/hydraulic-elements',
+        },
+        bread2: {
+            slug: '/hydraulic-elements/manometers-and-thermometers',
+            title: 'Манометри і термометри'
+        },
+        bread3: '',
+        descriptionMin: 'Гліцериновий манометр (0-160 бар, дно 1/4\'\', 63 мм, нержавіюча сталь)',
+        weight: '0,22',
+        codeEAN: '',
+        imageShow: ['/hydraulic/6.jpg', ],
+        descriptionFull: `
+        <p>0-160 бар,</p>
+        <p>1/4'' низ, </p>
+        <p>63 мм, </p>
+        <p>нержавіюча.</p><br/>
+        `
+    },
+    {
+        id: '334',
+        title: 'Гліцериновий манометр 0-10 бар 1/4\'\' (задній 63 мм, нержавіюча сталь без логотипу) ',
+        code: 'MAN-10-TYL-1/4-63-GLI-WIKA',
+        price: '72.30',
+        newPrice: '',
+        size: 1,
+        slug: 'goods14-7',
+        img: '/hydraulic/7.jpg',
+        description: '',
+        descriptionPrise: '',
+        bread1: {
+            title: 'Гідравлічні елементи',
+            slug: '/hydraulic-elements',
+        },
+        bread2: {
+            slug: '/hydraulic-elements/manometers-and-thermometers',
+            title: 'Манометри і термометри'
+        },
+        bread3: '',
+        descriptionMin: 'Гліцериновий манометр 0-10 бар 1/4\'\' (задній 63 мм, нержавіюча сталь без логотипу)',
+        weight: '0,225',
+        codeEAN: '',
+        imageShow: ['/hydraulic/7.jpg', '/hydraulic/image3.jpg', ],
+        descriptionFull: `
+        <p>Манометр, який використовується для вимірювання тиску в будь-якому місці установки.</p><br/>
+        <p><b>Застосування</b></p><br/>
+        <p>Вимірювання гігієнічного тиску в стерильних технологічних процесах у харчовій промисловості та
+         виробництві напоїв</p>
+        <p>Вимірювання механічного тиску в трубопроводах і резервуарах</p>
+        <p>Контроль вакууму та надлишкового тиску в процесах очищення, стерилізації та випробувального тиску</p>
+        <p>Для газів, стисненого повітря, пари та рідини, порошкоподібних та кристалізуючих середовищ</p><br/>
+        <p><b>Подробиці</b></p><br/>
+        <p>Вимірювання гігієнічного тиску в стерильних технологічних процесах у харчовій промисловості та 
+        виробництві напоїв</p>
+        <p>Вимірювання механічного тиску в трубопроводах і резервуарах</p>
+        <p>Контроль вакууму та надлишкового тиску в процесах очищення, стерилізації та випробувального тиску</p>
+        <p>Для газів, стисненого повітря, пари та рідини, порошкоподібних та кристалізуючих середовищ</p>
+        <p>Особливі властивості</p>
+        <p>Швидке очищення, без слідів</p>
+        <p>Затискне з'єднання легко очищається і дозволяє швидко замінити ущільнювач</p>
+        <p>Підходить для CIP і SIP процесів</p><br/>
+        `
+    },
+    {
+        id: '335',
+        title: 'Гліцериновий манометр 0-25 бар 1/4\'\' (дно 63 мм, нержавіюча сталь без логотипу)',
+        code: 'MAN-25-DOL-1/4-63-GLI-WIKA',
+        price: '62.62',
+        newPrice: '',
+        size: 1,
+        slug: 'goods14-8',
+        img: '/hydraulic/8.jpg',
+        description: '',
+        descriptionPrise: '',
+        bread1: {
+            title: 'Гідравлічні елементи',
+            slug: '/hydraulic-elements',
+        },
+        bread2: {
+            slug: '/hydraulic-elements/manometers-and-thermometers',
+            title: 'Манометри і термометри'
+        },
+        bread3: '',
+        descriptionMin: 'Гліцериновий манометр 0-25 бар 1/4\'\'',
+        weight: '0,214',
+        codeEAN: '',
+        imageShow: ['/hydraulic/8.jpg', ],
+        descriptionFull: `
+        <p>Манометр, який використовується для вимірювання тиску в будь-якому місці установки.</p><br/>
+           <p><b>Застосування</b></p><br/>
+        <p>Вимірювання гігієнічного тиску в стерильних технологічних процесах у харчовій промисловості та
+         виробництві напоїв</p>
+        <p>Вимірювання механічного тиску в трубопроводах і резервуарах</p>
+        <p>Контроль вакууму та надлишкового тиску в процесах очищення, стерилізації та випробувального тиску</p>
+        <p>Для газів, стисненого повітря, пари та рідини, порошкоподібних та кристалізуючих середовищ</p><br/>
+        <p><b>Подробиці</b></p><br/>
+        <p>Вимірювання гігієнічного тиску в стерильних технологічних процесах у харчовій промисловості та 
+        виробництві напоїв</p>
+        <p>Вимірювання механічного тиску в трубопроводах і резервуарах</p>
+        <p>Контроль вакууму та надлишкового тиску в процесах очищення, стерилізації та випробувального тиску</p>
+        <p>Для газів, стисненого повітря, пари та рідини, порошкоподібних та кристалізуючих середовищ</p>
+        <p>Особливі властивості</p>
+        <p>Швидке очищення, без слідів</p><br/>
+        `
+    },
+    {
+        id: '336',
+        title: 'Манометр гліцериновий Wika 0-160 бар 1/4\'\' задній, 63 мм, нерж. з логотипом SamWash (30530415)',
+        code: 'MAN-160-TYL-1/4-63-GLI-WIKA-SamWash',
+        price: '106.99',
+        newPrice: '',
+        size: 1,
+        slug: 'goods14-9',
+        img: '/hydraulic/9.jpg',
+        description: '',
+        descriptionPrise: '',
+        bread1: {
+            title: 'Гідравлічні елементи',
+            slug: '/hydraulic-elements',
+        },
+        bread2: {
+            slug: '/hydraulic-elements/manometers-and-thermometers',
+            title: 'Манометри і термометри'
+        },
+        bread3: '',
+        descriptionMin: 'Манометр гліцериновий 0-160 бар 1/4\'\' задній, 63 мм, нерж.',
+        weight: '0,234',
+        codeEAN: '2010000000182',
+        imageShow: ['/hydraulic/9.jpg', ],
+        descriptionFull: `
+        <p>Манометр гліцериновий 0-160 бар 1/4'' задній, 63 мм, нерж.</p><br/>
+        <p>Артикул виробника: 30530415</p><br/>
+        `
+    },
+    {
+        id: '337',
+        title: 'Ніпель високого тиску оцинкований 3/8"',
+        code: 'NYP-HYD-3/8',
+        price: '5.25',
+        newPrice: '',
+        size: 1,
+        slug: 'goods14-10',
+        img: '/hydraulic/10.jpg',
+        description: '',
+        descriptionPrise: '',
+        bread1: {
+            title: 'Гідравлічні елементи',
+            slug: '/hydraulic-elements',
+        },
+        bread2: {
+            slug: '/hydraulic-elements/hydraulic-connectors',
+            title: 'Гідравлічні з\'єднувачі'
+        },
+        bread3: '',
+        descriptionMin: 'Ніпель високого тиску оцинкований 3/8"',
+        weight: '',
+        codeEAN: '',
+        imageShow: ['/hydraulic/10.jpg', ],
+        descriptionFull: `
+        <p>Ніпель високого тиску оцинкований 3/8"</p><br/>
+        `
+    },
+    {
+        id: '338',
+        title: 'Редуктор тиску 1/2" CALEFFI 312 (DN15 Plus)',
+        code: 'RED-CAL-1/2-312-PLUS',
+        price: '170.31',
+        newPrice: '',
+        size: 1,
+        slug: 'goods14-11',
+        img: '/hydraulic/11.jpg',
+        description: '',
+        descriptionPrise: '',
+        bread1: {
+            title: 'Гідравлічні елементи',
+            slug: '/hydraulic-elements',
+        },
+        bread2: {
+            slug: '/hydraulic-elements/valves-and-reducers',
+            title: 'Регулюючі клапани та редуктори'
+        },
+        bread3: '',
+        descriptionMin: 'Редуктор тиску 1/2" CALEFFI 312',
+        weight: '0,402',
+        codeEAN: '',
+        imageShow: ['/hydraulic/11.jpg', ],
+        descriptionFull: `
+        <p>Редуктор тиску 1/2" CALEFFI 312 DN15 Plus</p><br/>
+        <p><b>Технічні дані</b></p><br/>
+        <p>Корпус виготовлений зі сплаву, стійкого до знецинкування</p>
+        <p>Для систем гарячого водопостачання</p>
+        <p>Компресійний фітинг GZ x O 15</p>
+        <p>З розеткою з нержавіючої сталі</p>
+        <p>Тиск відкриття: + 20% від заданого</p>
+        <p>Тиск закриття: - 20% заданого тиску</p>
+        <p>Діапазон робочих температур: 5÷110°C</p>
+        <p>Налаштування: 100 - 200 - 400 - 600 кПа</p><br/>
+        `
+    },
+    {
+        id: '339',
+        title: 'Редуктор тиску води Eurobrass 1" 0,5-6 бар',
+        code: 'RED-CIS-EUR-1',
+        price: '318.08',
+        newPrice: '',
+        size: 1,
+        slug: 'goods14-12',
+        img: '/hydraulic/12.jpg',
+        description: '',
+        descriptionPrise: '',
+        bread1: {
+            title: 'Гідравлічні елементи',
+            slug: '/hydraulic-elements',
+        },
+        bread2: {
+            slug: '/hydraulic-elements/valves-and-reducers',
+            title: 'Регулюючі клапани та редуктори'
+        },
+        bread3: '',
+        descriptionMin: 'Редуктор тиску води євролатунь',
+        weight: '1,91',
+        codeEAN: '',
+        imageShow: ['/hydraulic/12.jpg', ],
+        descriptionFull: `
+        <p>Латунний редуктор тиску води з поршневою конструкцією зі штоком з нержавіючої сталі. Підключення манометра 
+        з обох боків корпусу. Редуктор оснащений компенсаційною камерою для запобігання коливань вихідного тиску. 
+        З'єднання з внутрішньою різьбою.</p><br/>
+        <p><b>Технічні дані</b></p><br/>
+        <p>Максимальний вхідний тиск: 25 бар</p>
+        <p>Вихідний тиск: 0,5 - 6 бар регулюється ручкою</p>
+        <p>Середовище: вода</p>
+        <p>Матеріал корпусу: латунь</p>
+        <p>Максимальна температура води: 80°C</p>
+        <p>Діаметр: 1 дюйм</p>
+        <p>Зовнішня обробка: латунь</p>
+        <p>Цільове призначення: внутрішньобудинкова мережа водопостачання</p><br/>
+        `
+    },
+    {
+        id: '340',
+        title: '5-полюсний розподільник із зовнішньою різьбою від 3/4" до 1/2" (горизонтальний/модуль V1)',
+        code: 'ROZ-5-3/4-NIE',
+        price: '121.01',
+        newPrice: '',
+        size: 1,
+        slug: 'goods14-13',
+        img: '/hydraulic/13.jpg',
+        description: '',
+        descriptionPrise: '',
+        bread1: {
+            title: 'Гідравлічні елементи',
+            slug: '/hydraulic-elements',
+        },
+        bread2: {
+            slug: '/hydraulic-elements/software-assemblers',
+            title: 'Збирачі програмного забезпечення'
+        },
+        bread3: '',
+        descriptionMin: '5-полюсний розподільник з нержавіючої сталі',
+        weight: '0,678',
+        codeEAN: '',
+        imageShow: ['/hydraulic/13.jpg', ],
+        descriptionFull: `
+        <p>5-польовий розподільник з нержавіючої сталі 3/4" на 1/2" M</p><br/>
+        `
+    },
+    {
+        id: '341',
+        title: '6-полюсний розподільник з нержавіючої сталі, зовнішня різьба 3/4" знизу на 1/2" (Vertico V1/V2)',
+        code: 'SIZE-6-3/4-NO-LOW',
+        price: '117.50',
+        newPrice: '',
+        size: 1,
+        slug: 'goods14-14',
+        img: '/hydraulic/14.jpg',
+        description: '',
+        descriptionPrise: '',
+        bread1: {
+            title: 'Гідравлічні елементи',
+            slug: '/hydraulic-elements',
+        },
+        bread2: {
+            slug: '/hydraulic-elements/software-assemblers',
+            title: 'Збирачі програмного забезпечення'
+        },
+        bread3: '',
+        descriptionMin: '6-польовий розподільник з нержавіючої сталі',
+        weight: '0,778',
+        codeEAN: '',
+        imageShow: ['/hydraulic/14.jpg', ],
+        descriptionFull: `
+        <p>6-польовий розподільник з нержавіючої сталі </p><br/>
+        <p>3/4" низ на 1/2" M</p><br/>
+        `
+    },
+    {
+        id: '3412',
+        title: 'Термоманометр Afriso TM 80, fi80 мм, 0÷10 бар, 20÷120°C, G1/4", ax, кл. 2,5 [63 343]',
+        code: 'TER-MAN-10-TYL-1/2-80-AFR',
+        price: '95.61',
+        newPrice: '',
+        size: 1,
+        slug: 'goods14-15',
+        img: '',
+        description: '',
+        descriptionPrise: '',
+        bread1: {
+            title: 'Гідравлічні елементи',
+            slug: '/hydraulic-elements',
+        },
+        bread2: {
+            slug: '/hydraulic-elements/manometers-and-thermometers',
+            title: 'Манометри і термометри'
+        },
+        bread3: '',
+        descriptionMin: 'Термоманометр Afriso TM 80, fi80 мм, 0÷10 бар, 20÷120°C, G1/4", ax, клас 2.5 [63 343]',
+        weight: '0,23',
+        codeEAN: '',
+        imageShow: null,
+        descriptionFull: `
+        <p>Термоманометр Afriso TM 80, fi80 мм, 0÷10 бар, 20÷120°C, G1/4", ax, клас 2.5 [63 343]</p><br/>
+        `
+    },
+    {
+        id: '342',
+        title: 'Термометр 1/2\'\' зовнішня різьба до 120°C (оцинкована сталь, діаметр 63 мм без логотипу)',
+        code: 'TER-1/2-63-WIKA',
+        price: '41.80',
+        newPrice: '',
+        size: 1,
+        slug: 'goods14-16',
+        img: '/hydraulic/16.jpg',
+        description: '',
+        descriptionPrise: '',
+        bread1: {
+            title: 'Гідравлічні елементи',
+            slug: '/hydraulic-elements',
+        },
+        bread2: {
+            slug: '/hydraulic-elements/manometers-and-thermometers',
+            title: 'Манометри і термометри'
+        },
+        bread3: '',
+        descriptionMin: 'Термометр 1/2\'\' зовнішня різьба до 120°C',
+        weight: '0,093',
+        codeEAN: '',
+        imageShow: ['/hydraulic/16.jpg', ],
+        descriptionFull: `
+        <p>Термометр 1/2'' зовнішня різьба до 120°C, оцинкована сталь, діаметр 63 мм без логотипу</p><br/>
+        `
+    },
+    {
+        id: '343',
+        title: 'Термостатичний змішувальний клапан Taconova NovaMix High Capacity',
+        code: 'ZAW-TER-MIE-HC',
+        price: '973.00',
+        newPrice: '',
+        size: 1,
+        slug: 'goods14-17',
+        img: '/hydraulic/17.jpg',
+        description: '',
+        descriptionPrise: '',
+        bread1: {
+            title: 'Гідравлічні елементи',
+            slug: '/hydraulic-elements',
+        },
+        bread2: {
+            slug: '/hydraulic-elements/valves-and-reducers',
+            title: 'Регулюючі клапани та редуктори'
+        },
+        bread3: '',
+        descriptionMin: 'Термостатичний змішувальний клапан Taconova NovaMix High Capacity',
+        weight: '0,876',
+        codeEAN: '',
+        imageShow: ['/hydraulic/17.jpg', ],
+        descriptionFull: `
+        <p>Термостатичний змішувальний клапан Taconova NovaMix High Capacity DN 25 - 1 1/4"MZ 252.6034.107 без
+         зворотного клапана.</p><br/>
+        <p>Автоматичний термостатичний змішувальний клапан NovaMix High Capacity як центральний змішувальний клапан 
+        забезпечує постійну температуру змішаної води в місці використання. Це запобігає опікам у місці споживання,
+         навіть при високих температурах у буфері. Великі діаметри поперечного перерізу клапана NovaMix High 
+         Capacity зменшують власні втрати тиску (високі kvs), завдяки чому досягаються високі витрати навіть при 
+         піковому попиті. Спеціальні ущільнення клапанів на регулюючій колбі зводять до мінімуму небажане 
+         змішування (мінімальне внутрішнє змішування холодної води), що дозволяє максимально використовувати
+          температуру, наявну в буфері. Клапан NovaMix High Capacity в основному використовується в 
+          санітарних установках (сертифікат PZH) як регулюючий елемент для обмеження температури технічної
+           води, що збирається в баку гарячої води. Також можливі багато інших застосувань, де потрібна 
+           постійна температура змішаної води. Наприклад, як змішувальний клапан для забезпечення постійної 
+           температури в установці поверхневого опалення або для завантаження резервуара, що працює від 
+           твердопаливного котла.</p><br/>
+        <p><b>ТЕХНІЧНІ ДАНІ</b></p><br/>
+        <p>Діапазон регулювання температури: 20 – 70 °C</p>
+        <p>Макс. робоча температура: TB max 90 °C</p>
+        <p>Макс. робочий тиск: PB max 10 бар</p>
+        <p>Стабільність температури змішаної води: макс. 4 K (при зміні температури гарячої води на 20 K</p>
+        <p>Функція самозакриття в разі відсутності холодної води</p>
+        <p>Вага: 0,9 кг</p>
+        <p>Рекомендований мінімальний потік: 5 л/хв</p>
+        <p>Різьба G (зовнішня, циліндрична) згідно ISO 228</p>
+        <p>2 клас гучності</p>
+        <p>Спосіб складання: будь-який</p>
+        <p>Корпус і внутрішні частини: латунь, стійка до децинкування</p>
+        <p>Ущільнення: EPDM, NBR</p>
+        <p>Корпус з покриттям проти накипу</p>
+        <p>Прийнятні засоби масової інформації</p>
+        <p>Опалення води (VDI 2035;</p>
+        <p>SWKI BT 102-01; ONORM H 5195–1)</p>
+        <p>Питна вода (DIN 1988-200)</p><br/>
+        `
+    },
+    {
+        id: '344',
+        title: 'Термостатичний змішувальний клапан Taconova NovaMix Value 70 FS DN 20',
+        code: 'ZAW-TER-MIE',
+        price: '549.27',
+        newPrice: '',
+        size: 1,
+        slug: 'goods14-18',
+        img: '/hydraulic/18.jpg',
+        description: '',
+        descriptionPrise: '',
+        bread1: {
+            title: 'Гідравлічні елементи',
+            slug: '/hydraulic-elements',
+        },
+        bread2: {
+            slug: '/hydraulic-elements/valves-and-reducers',
+            title: 'Регулюючі клапани та редуктори'
+        },
+        bread3: '',
+        descriptionMin: 'Термостатичний змішувальний клапан Taconova NovaMix Value 70 FS DN 20',
+        weight: '0,412',
+        codeEAN: '',
+        imageShow: ['/hydraulic/18.jpg', '/hydraulic/image4.jpg', ],
+        descriptionFull: `
+        <p>Термостатичний змішувальний клапан Taconova NovaMix Value 70 FS DN 20 (1” MZ 35-70°C EZB 253.2003.000 
+        без зворотного клапана).</p><br/>
+        <p>Термостатичний змішувальний клапан NovaMix автоматичної дії як центральний змішувальний клапан забезпечує
+         постійну температуру змішаної води в місці використання. Це запобігає опікам у місці споживання, навіть при 
+         високих температурах у буфері. Широкий діапазон застосування завдяки трьом різним діаметрам клапанів. 
+         Доступні діаметри 3/4" (DN15), 1" (DN20) і 1 1/4" (DN25). Спеціальні ущільнювачі клапанів на регулювальній
+          колбі зводять небажане змішування до мінімуму, що дозволяє максимально використовувати температуру в
+           Буфер NovaMix Value в основному використовується в санітарних установках як регулюючий елемент для
+            обмеження температури побутової води, що збирається в резервуарі гарячої води змішувальний клапан 
+            в опалювальних установках або як розподільний клапан в холодильних установках.</p><br/>
+        <p><b>ТЕХНІЧНІ ДАНІ</b></p><br/>
+        <p>Загальний</p><br/>
+        <p>Діапазон регулювання температури:</p>
+        <p>20 – 50 °C</p>
+        <p>45 – 65 °C</p>
+        <p>35 – 70 °C</p>
+        <p>Значення коефіцієнта kVS і розміри згідно з відповідними таблицями</p>
+        <p>Макс. робоча температура: TB max 100 °C</p>
+        <p>Максимальна робоча температура зі зворотними клапанами: TB max 90 °C</p>
+        <p>Макс. робочий тиск: PB max 10 бар</p>
+        <p>Мінімальний робочий тиск: PB min 0,5 бар</p>
+        <p>Максимальний динамічний робочий тиск: 5 бар</p>
+        <p>Макс. постійна різниця тиску на вході: 2 бар</p>
+        <p>Стабільність температури змішаної води: макс. 3 K (при зміні температури гарячої води на 15 K)</p>
+        <p>Функція самозакриття в разі відсутності холодної води</p>
+        <p>2 клас гучності</p>
+        <p>Спосіб складання: будь-який</p>
+        <p>Корпус: стійка до знецинкування латунь</p>
+        <p>Внутрішні деталі: високоякісний пластик</p>
+        <p>Ущільнення: EPDM</p>
+        <p>Корпус з покриттям проти накипу</p>
+        <p>Допустимі середовища: теплова вода (VDI 2035; SWKI BT 102-01; ONORM H 5195–1) питна вода (DIN 1988-200)</p>
+        <p>Спеціальне використання</p>
+        <p>Розподільний клапан (подача з боку випуску змішаної води)</p>
+        <p>DN 15 і DN 20 підходять для проточних водонагрівачів</p><br/>
+        `
+    },
+    {
+        id: '345',
+        title: 'Трійник 3х12мм ПУТ12',
+        code: 'ТРО-НОВ-3Х12',
+        price: '16.58',
+        newPrice: '',
+        size: 1,
+        slug: 'goods14-19',
+        img: '/hydraulic/19.jpg',
+        description: '',
+        descriptionPrise: '',
+        bread1: {
+            title: 'Гідравлічні елементи',
+            slug: '/hydraulic-elements',
+        },
+        bread2: {
+            slug: '/hydraulic-elements/hydraulic-connectors',
+            title: 'Гідравлічні з\'єднувачі'
+        },
+        bread3: '',
+        descriptionMin: 'Трійник 3х12мм ПУТ12',
+        weight: '',
+        codeEAN: '',
+        imageShow: ['/hydraulic/19.jpg', ],
+        descriptionFull: `
+        <p>Трійник 3х12мм ПУТ12</p><br/>
+        `
+    },
+    {
+        id: '346',
+        title: 'Трійник 3х8мм (пластик)',
+        code: 'ТРО-НОВ-001',
+        price: '8.95',
+        newPrice: '',
+        size: 1,
+        slug: 'goods14-20',
+        img: '/hydraulic/20.jpg',
+        description: '',
+        descriptionPrise: '',
+        bread1: {
+            title: 'Гідравлічні елементи',
+            slug: '/hydraulic-elements',
+        },
+        bread2: {
+            slug: '/hydraulic-elements/hydraulic-connectors',
+            title: 'Гідравлічні з\'єднувачі'
+        },
+        bread3: '',
+        descriptionMin: 'Трійник 3х8мм (пластик)',
+        weight: '',
+        codeEAN: '',
+        imageShow: ['/hydraulic/20.jpg', ],
+        descriptionFull: `
+        <p>Для підключення синіх труб до циркуляційної 8 мм використовується трійник 3х8 мм (пластик).</p><br/>
+        `
+    },
+    {
+        id: '347',
+        title: 'Трійник високого тиску оцинкований 3/8" GW',
+        code: 'ZLA-TRO-3/8',
+        price: '61.50',
+        newPrice: '',
+        size: 1,
+        slug: 'goods14-21',
+        img: '/hydraulic/21.jpg',
+        description: '',
+        descriptionPrise: '',
+        bread1: {
+            title: 'Гідравлічні елементи',
+            slug: '/hydraulic-elements',
+        },
+        bread2: {
+            slug: '/hydraulic-elements/hydraulic-connectors',
+            title: 'Гідравлічні з\'єднувачі'
+        },
+        bread3: '',
+        descriptionMin: 'Трійник високого тиску оцинкований 3/8" GW',
+        weight: '0,202',
+        codeEAN: '',
+        imageShow: ['/hydraulic/21.jpg', ],
+        descriptionFull: `
+        <p>Трійник високого тиску оцинкований 3/8" GW</p><br/>
+        `
+    },
+    {
+        id: '348',
+        title: 'Трійник перехідний 12/8/12 (PUG 12-08)',
+        code: 'ТРО-НОВ-12-8-12',
+        price: '19.86',
+        newPrice: '',
+        size: 1,
+        slug: 'goods14-22',
+        img: '/hydraulic/22.jpg',
+        description: '',
+        descriptionPrise: '',
+        bread1: {
+            title: 'Гідравлічні елементи',
+            slug: '/hydraulic-elements',
+        },
+        bread2: {
+            slug: '/hydraulic-elements/hydraulic-connectors',
+            title: 'Гідравлічні з\'єднувачі'
+        },
+        bread3: '',
+        descriptionMin: 'Трійник редукційний 12/8/12',
+        weight: '0,03',
+        codeEAN: '',
+        imageShow: ['/hydraulic/22.jpg', ],
+        descriptionFull: `
+        <p>Трійник перехідний 12/8/12 PUG 12-08</p><br/>
+        `
+    },
+    {
+        id: '349',
+        title: 'Запобіжний клапан (6 бар на вході 1/2", на виході 3/4 ГВт)',
+        code: 'ZAW-BEZ-6BAR-1/2-GW',
+        price: '101.20',
+        newPrice: '',
+        size: 1,
+        slug: 'goods14-23',
+        img: '/hydraulic/23.jpg',
+        imageShow: ['/hydraulic/23.jpg', ],
+        description: '',
+        descriptionPrise: '',
+        bread1: {
+            title: 'Гідравлічні елементи',
+            slug: '/hydraulic-elements',
+        },
+        bread2: {
+            slug: '/hydraulic-elements/safety-valves',
+            title: 'Запобіжні клапани'
+        },
+        bread3: '',
+        descriptionMin: 'Запобіжний клапан 6 бар, вхід 1/2", вихід 3/4 ГВт',
+        weight: '0,2',
+        codeEAN: '',
+        descriptionFull: `
+        <p>Запобіжний клапан 6 бар, вхід 1/2", вихід 3/4GW</p><br/>
+        <p>(SYR 2115.15.150)</p><br/>
+        `
+    },
+    {
+        id: '350',
+        title: 'Запобіжний клапан 3 бар різьблення 1/2"',
+        code: 'ZAW-BEZ-3BAR-1/2-GW',
+        price: '101.20',
+        newPrice: '',
+        size: 1,
+        slug: 'goods14-24',
+        img: '/hydraulic/24.jpg',
+        imageShow: ['/hydraulic/24.jpg', ],
+        description: '',
+        descriptionPrise: '',
+        bread1: {
+            title: 'Гідравлічні елементи',
+            slug: '/hydraulic-elements',
+        },
+        bread2: {
+            slug: '/hydraulic-elements/safety-valves',
+            title: 'Запобіжні клапани'
+        },
+        bread3: '',
+        descriptionMin: 'Запобіжний клапан 3 бар різьблення 1/2".',
+        weight: '0,25',
+        codeEAN: '',
+        descriptionFull: `
+        <p>Запобіжний клапан 3 бар різьблення 1/2".</p><br/>
+        <p>(SYR 1915.15.151)</p><br/>
+        `
+    },
+    {
+        id: '351',
+        title: 'Запобіжний клапан 3 бар різьблення 3/4"',
+        code: 'ZAW-BEZ-3BAR-3/4-GW',
+        price: '186.92',
+        newPrice: '',
+        size: 1,
+        slug: 'goods14-25',
+        img: '/hydraulic/25.jpg',
+        imageShow: ['/hydraulic/25.jpg', ],
+        description: '',
+        descriptionPrise: '',
+        bread1: {
+            title: 'Гідравлічні елементи',
+            slug: '/hydraulic-elements',
+        },
+        bread2: {
+            slug: '/hydraulic-elements/safety-valves',
+            title: 'Запобіжні клапани'
+        },
+        bread3: '',
+        descriptionMin: 'Запобіжний клапан 6 бар різьба 3/4".',
+        weight: '',
+        codeEAN: '',
+        descriptionFull: `
+        <p>Запобіжний клапан 6 бар різьба 3/4".</p><br/>
+        <p>(SYR 2115.20.150)</p><br/>
+        `
+    },
+    {
+        id: '352',
+        title: 'Запобіжний клапан 6 бар різьба 3/4"',
+        code: 'ZAW-BEZ-6BAR-3/4-GW',
+        price: '165.75',
+        newPrice: '',
+        size: 1,
+        slug: 'goods14-26',
+        img: '/hydraulic/26.jpg',
+        imageShow: ['/hydraulic/26.jpg', ],
+        description: '',
+        descriptionPrise: '',
+        bread1: {
+            title: 'Гідравлічні елементи',
+            slug: '/hydraulic-elements',
+        },
+        bread2: {
+            slug: '/hydraulic-elements/safety-valves',
+            title: 'Запобіжні клапани'
+        },
+        bread3: '',
+        descriptionMin: 'Запобіжний клапан 6 бар різьба 3/4".',
+        weight: '',
+        codeEAN: '',
+        descriptionFull: `
+        <p>Запобіжний клапан 6 бар різьба 3/4".</p><br/>
+        <p>(SYR 2115.20.150)</p><br/>
+        `
+    },
+    {
+        id: '353',
+        title: 'Клапан запобіжний з виходом датчика 55426017',
+        code: 'ZAW-BEZ-ACV',
+        price: '269.26',
+        newPrice: '',
+        size: 1,
+        slug: 'goods14-27',
+        img: '/hydraulic/27.jpg',
+        imageShow: ['/hydraulic/27.jpg', ],
+        description: '',
+        descriptionPrise: '',
+        bread1: {
+            title: 'Гідравлічні елементи',
+            slug: '/hydraulic-elements',
+        },
+        bread2: {
+            slug: '/hydraulic-elements/safety-valves',
+            title: 'Запобіжні клапани'
+        },
+        bread3: '',
+        descriptionMin: 'Клапан запобіжний з виходом датчика 55426017',
+        weight: '0,02',
+        codeEAN: '',
+        descriptionFull: `
+        <p>Запобіжний клапан з виходом датчика. Діапазон 3 смужки. Різьблення в клапані: 1/4 GW (для зонда),
+         1/2/ GW, 3/4 GW</p><br/>
+        <p>заміна на A1004119</p><br/>
+        `
+    },
+    {
+        id: '354',
+        title: 'Клапан тонкого регулювання SERTO DN8 (внутрішня різьба G1/2)',
+        code: 'ZAW-DOK-REG-SER',
+        price: '306.26',
+        newPrice: '',
+        size: 1,
+        slug: 'goods14-28',
+        img: '/hydraulic/28.jpg',
+        imageShow: ['/hydraulic/28.jpg', ],
+        description: '',
+        descriptionPrise: '',
+        bread1: {
+            title: 'Гідравлічні елементи',
+            slug: '/hydraulic-elements',
+        },
+        bread2: {
+            slug: '/hydraulic-elements/valves-and-reducers',
+            title: 'Регулюючі клапани та редуктори'
+        },
+        bread3: '',
+        descriptionMin: 'Клапан тонкого регулювання SERTO з внутрішньою різьбою DN8 G1/2',
+        weight: '0,358',
+        codeEAN: '',
+        descriptionFull: `
+        <p>Клапан тонкого регулювання SERTO з внутрішньою різьбою DN8 G1/2</p><br/>
+        `
+    },
+    {
+        id: '355',
+        title: 'ESBE VRG131 3-ходовий змішувальний клапан (1160 11 00)',
+        code: 'ZAW-ESBE-131',
+        price: '341.67',
+        newPrice: '',
+        size: 1,
+        slug: 'goods14-29',
+        img: '/hydraulic/29.jpg',
+        imageShow: ['/hydraulic/29.jpg', ],
+        description: '',
+        descriptionPrise: '',
+        bread1: {
+            title: 'Гідравлічні елементи',
+            slug: '/hydraulic-elements',
+        },
+        bread2: {
+            slug: '/hydraulic-elements/valves-and-reducers',
+            title: 'Регулюючі клапани та редуктори'
+        },
+        bread3: '',
+        descriptionMin: 'ESBE VRG131 3-ходовий змішувальний клапан',
+        weight: '0,665',
+        codeEAN: '',
+        descriptionFull: `
+        <p>ESBE VRG131 3-ходовий змішувальний клапан</p><br/>
+        `
+    },
+    {
+        id: '356',
+        title: 'Заправний клапан Inter-Sano 1/2" (білий Inter-Sano TS 1/2" 30/215)',
+        code: 'ZAW-NAP',
+        price: '26.49',
+        newPrice: '',
+        size: 1,
+        slug: 'goods14-30',
+        img: '/hydraulic/30.jpg',
+        imageShow: ['/hydraulic/30.jpg', ],
+        description: '',
+        descriptionPrise: '',
+        bread1: {
+            title: 'Гідравлічні елементи',
+            slug: '/hydraulic-elements',
+        },
+        bread2: {
+            slug: '/hydraulic-elements/float-valves',
+            title: 'Поплавкові клапани'
+        },
+        bread3: '',
+        descriptionMin: 'Заправний клапан Inter-Sano 1/2" (білий Inter-Sano TS 1/2" 30/215)',
+        weight: '',
+        codeEAN: '',
+        descriptionFull: `
+        <p>Заправний клапан Inter-Sano 1/2" (білий Inter-Sano TS 1/2" 30/215)</p><br/>
+        `
+    },
+    {
+        id: '357',
+        title: 'Кран поплавковий 3/4"MZ 22.0016',
+        code: 'ZAW-MTM-PLY',
+        price: '75.66',
+        newPrice: '',
+        size: 1,
+        slug: 'goods14-31',
+        img: '/hydraulic/31.jpg',
+        imageShow: ['/hydraulic/31.jpg', ],
+        description: '',
+        descriptionPrise: '',
+        bread1: {
+            title: 'Гідравлічні елементи',
+            slug: '/hydraulic-elements',
+        },
+        bread2: {
+            slug: '/hydraulic-elements/float-valves',
+            title: 'Поплавкові клапани'
+        },
+        bread3: '',
+        descriptionMin: 'Кран поплавковий 3/4"MZ 22.0016',
+        weight: '0,216',
+        codeEAN: '',
+        descriptionFull: `
+        <p>3/4" чоловічий поплавковий клапан для порошкової кювети.</p><br/>
+        `
+    },
+    {
+        id: '358',
+        title: 'Поплавковий клапан з нержавіючої сталі DN 17',
+        code: 'ZAW-PLY-MUL-17',
+        price: '522.80',
+        newPrice: '',
+        size: 1,
+        slug: 'goods14-32',
+        img: '/hydraulic/32.jpg',
+        imageShow: ['/hydraulic/32.jpg', ],
+        description: '',
+        descriptionPrise: '',
+        bread1: {
+            title: 'Гідравлічні елементи',
+            slug: '/hydraulic-elements',
+        },
+        bread2: {
+            slug: '/hydraulic-elements/float-valves',
+            title: 'Поплавкові клапани'
+        },
+        bread3: '',
+        descriptionMin: 'Поплавковий клапан з нержавіючої сталі DN 17',
+        weight: '0,227',
+        codeEAN: '',
+        descriptionFull: `
+        <p>Поплавковий клапан для порошкової кювети. Куля DN 17 з нержавіючої сталі</p><br/>
+        `
+    },
+    {
+        id: '359',
+        title: 'Клапан регулювання тиску Kranzle 14141K (ULH250K / 53331)',
+        code: 'ZAW-KRA',
+        price: '307.73',
+        newPrice: '',
+        size: 1,
+        slug: 'goods14-33',
+        img: '/hydraulic/33.jpg',
+        imageShow: ['/hydraulic/33.jpg', ],
+        description: '',
+        descriptionPrise: '',
+        bread1: {
+            title: 'Гідравлічні елементи',
+            slug: '/hydraulic-elements',
+        },
+        bread2: {
+            slug: '/hydraulic-elements/valves-and-reducers',
+            title: 'Регулюючі клапани та редуктори'
+        },
+        bread3: '',
+        descriptionMin: 'Клапан регулювання тиску Kranzle. Регулюючий клапан моделі 14141K використовується як' +
+            ' взаємозамінний з клапаном регулювання тиску RM ST-250 K.',
+        weight: '0,774',
+        codeEAN: '',
+        descriptionFull: `
+        <p>Клапан регулювання тиску Kranzle 14141K.</p><br/>
+        <p><b>Технічні дані</b></p><br/>
+        <p>Максимальний тиск 250 бар</p>
+        <p>Температура max max 60 °C</p>
+        <p>Потік 35 л/хв</p>
+        <p>вхід з внутрішньою різьбою Fi 3/8"</p>
+        <p>вихід з внутрішньою різьбою Fi 3/8"</p>
+        <p>обвідна внутрішня різьба Fi 1/4"</p>
+        <p>внутрішня різьба манометра Fi 1/4"</p><br/>
+        <p><b>ZAW-KRA використовується як взаємозамінний із ZAW-REG-ST250</b></p><br/>
+        `
+    },
+    {
+        id: '360',
+        title: 'Клапан регулювання тиску з ручкою (VB9 unload. 3/8F)',
+        code: 'ZAW-PA',
+        price: '550.51',
+        newPrice: '',
+        size: 1,
+        slug: 'goods14-34',
+        img: '/hydraulic/34.jpg',
+        imageShow: ['/hydraulic/34.jpg', ],
+        description: '',
+        descriptionPrise: '',
+        bread1: {
+            title: 'Гідравлічні елементи',
+            slug: '/hydraulic-elements',
+        },
+        bread2: {
+            slug: '/hydraulic-elements/valves-and-reducers',
+            title: 'Регулюючі клапани та редуктори'
+        },
+        bread3: '',
+        descriptionMin: 'Клапан регулювання тиску з ручкою (VB9 unload. 3/8F)',
+        weight: '1',
+        codeEAN: '',
+        descriptionFull: `
+        <p>Клапан регулювання тиску з ручкою VB 9 з мікроперемикачем (VB9 unload. 3/8F Bsp+mic-sw.+knob)
+         60.2350.00 PA</p><br/>
+        <p><b>Технічні дані</b></p><br/>
+        <p>Номінальний тиск: 220 бар - 22 МПа</p>
+        <p>Допустимий тиск: 250 бар - 25 МПа</p>
+        <p>Номінальна витрата: 30 л/хв</p>
+        <p>Номінальна температура: 90°C</p>
+        <p>Довжина кабелю: 1000 мм</p><br/>
+        `
+    },
+    {
+        id: '361',
+        title: 'Клапан регулювання тиску з маховиком MG4000 (18.015)',
+        code: 'ZAW-MTM-002',
+        price: '286.06',
+        newPrice: '',
+        size: 1,
+        slug: 'goods14-35',
+        img: '/hydraulic/35.jpg',
+        imageShow: ['/hydraulic/35.jpg', ],
+        description: '',
+        descriptionPrise: '',
+        bread1: {
+            title: 'Гідравлічні елементи',
+            slug: '/hydraulic-elements',
+        },
+        bread2: {
+            slug: '/hydraulic-elements/valves-and-reducers',
+            title: 'Регулюючі клапани та редуктори'
+        },
+        bread3: '',
+        descriptionMin: 'Клапан регулювання тиску з ручкою MG4000',
+        weight: '1',
+        codeEAN: '',
+        descriptionFull: `
+        <p>Клапан регулювання тиску з ручкою MG4000</p><br/>
+        <p><b>Технічні дані</b></p><br/>
+        <p>Клапан оснащений латунним корпусом з кулькою та сідлом з нержавіючої сталі. Регулювальна ручка дозволяє
+         легко регулювати тиск від 100 PSI до максимального. Регулювальна ручка також має захист від 
+         несанкціонованого доступу, який можна заблокувати.</p><br/>
+        <p>Гніздо роз'ємів включає:</p><br/>
+        <p>2x 3/8 дюйма</p>
+        <p>2x 3/8" Departure</p>
+        <p>2x 3/8" байпас</p><br/>
+        `
+    },
+    {
+        id: '362',
+        title: 'Клапан зворотний 1" (ARCO)',
+        code: 'ZAW-ZWR-ARC1',
+        price: '63.16',
+        newPrice: '',
+        size: 1,
+        slug: 'goods14-36',
+        img: '/hydraulic/36.jpg',
+        imageShow: ['/hydraulic/36.jpg', ],
+        description: '',
+        descriptionPrise: '',
+        bread1: {
+            title: 'Гідравлічні елементи',
+            slug: '/hydraulic-elements',
+        },
+        bread2: {
+            slug: '/hydraulic-elements/check-valves',
+            title: 'Зворотні клапани'
+        },
+        bread3: '',
+        descriptionMin: 'Клапан зворотний 1" (ARCO)',
+        weight: '0,23',
+        codeEAN: '',
+        descriptionFull: `
+        <p>Зворотний клапан 1" ARCO</p><br/>
+        `
+    },
+    {
+        id: '363',
+        title: 'Клапан зворотний 3/8" GW 160 BAR PA',
+        code: 'ZAW-SUT-001',
+        price: '89.72',
+        newPrice: '',
+        size: 1,
+        slug: 'goods14-37',
+        img: '/hydraulic/37.jpg',
+        imageShow: ['/hydraulic/37.jpg', ],
+        description: '',
+        descriptionPrise: '',
+        bread1: {
+            title: 'Гідравлічні елементи',
+            slug: '/hydraulic-elements',
+        },
+        bread2: {
+            slug: '/hydraulic-elements/check-valves',
+            title: 'Зворотні клапани'
+        },
+        bread3: '',
+        descriptionMin: 'Клапан зворотний 3/8" GW 160 BAR PA',
+        weight: '0,112',
+        codeEAN: '',
+        descriptionFull: `
+        <p>Зворотний клапан високого тиску 3/8" GW 160 бар PA</p><br/>
+        `
+    },
+    {
+        id: '364',
+        title: 'Клапан зворотний латунний високого тиску MTM CK500 3/8" GW 280bar [1124080119]',
+        code: 'ZAW-ZWR-MTM-1124080119',
+        price: '55.92',
+        newPrice: '',
+        size: 1,
+        slug: 'goods14-38',
+        img: '',
+        imageShow: null,
+        description: '',
+        descriptionPrise: '',
+        bread1: {
+            title: 'Гідравлічні елементи',
+            slug: '/hydraulic-elements',
+        },
+        bread2: {
+            slug: '/hydraulic-elements/check-valves',
+            title: 'Зворотні клапани'
+        },
+        bread3: '',
+        descriptionMin: '0,117',
+        weight: '',
+        codeEAN: '',
+        descriptionFull: `
+        `
+    },
+    {
+        id: '365',
+        title: 'Ремкомплект клапана регулювання тиску MG4000 (41.0209)',
+        code: 'ZES-MTM-002',
+        price: '43.86',
+        newPrice: '',
+        size: 1,
+        slug: 'goods14-39',
+        img: '/hydraulic/39.jpg',
+        imageShow: ['/hydraulic/39.jpg', ],
+        description: '',
+        descriptionPrise: '',
+        bread1: {
+            title: 'Гідравлічні елементи',
+            slug: '/hydraulic-elements',
+        },
+        bread2: {
+            slug: '/hydraulic-elements/valves-and-reducers',
+            title: 'Регулюючі клапани та редуктори'
+        },
+        bread3: '',
+        descriptionMin: 'Ремкомплект клапана регулювання тиску MG4000 (41.0209)',
+        weight: '0,018',
+        codeEAN: '',
+        descriptionFull: `
+        <p>Ремкомплект регулятора тиску MTM MG 4000.</p><br/>
+        <p>Кількість: (41.0209)</p><br/>
+        <p>Виробник: MTM Hydro.</p><br/>
+        <p>Зроблено в Італії</p><br/>
+        `
+    },
+    {
+        id: '366',
+        title: 'З\'єднувач кутовий GW 3/8" GZ 3/8" (4500-06)',
+        code: 'ZLA-KAT-NAS',
+        price: '33.86',
+        newPrice: '',
+        size: 1,
+        slug: 'goods14-40',
+        img: '/hydraulic/40.jpg',
+        imageShow: ['/hydraulic/40.jpg', ],
+        description: '',
+        descriptionPrise: '',
+        bread1: {
+            title: 'Гідравлічні елементи',
+            slug: '/hydraulic-elements',
+        },
+        bread2: {
+            slug: '/hydraulic-elements/hydraulic-connectors',
+            title: 'Гідравлічні з\'єднувачі'
+        },
+        bread3: '',
+        descriptionMin: 'Регульований кут GW 3/8" GZ 3/8"',
+        weight: '0,09',
+        codeEAN: '',
+        descriptionFull: `
+        <p>З'єднувач з регульованим кутом </p><br/>
+        <p>GW: 3/8" </p><br/>
+        <p>M: 3/8" </p><br/>
+        `
+    },
+    {
+        id: '367',
+        title: 'Прямий з\'єднувач 12мм 1/2" M',
+        code: 'ZLA-NOV-12-1/2',
+        price: '16.46',
+        newPrice: '',
+        size: 1,
+        slug: 'goods14-41',
+        img: '/hydraulic/41.jpg',
+        imageShow: ['/hydraulic/41.jpg', '/hydraulic/image5.jpg', '/hydraulic/image6.jpg', '/hydraulic/image7.jpg', ],
+        description: '',
+        descriptionPrise: '',
+        bread1: {
+            title: 'Гідравлічні елементи',
+            slug: '/hydraulic-elements',
+        },
+        bread2: {
+            slug: '/hydraulic-elements/hydraulic-connectors',
+            title: 'Гідравлічні з\'єднувачі'
+        },
+        bread3: '',
+        descriptionMin: 'Прямий з\'єднувач 12мм 1/2" M',
+        weight: '0,046',
+        codeEAN: '',
+        descriptionFull: `
+        <p>Прямий роз'єм </p><br/>
+        <p>12 мм </p><br/>
+        <p>1/2" М </p><br/>
+        `
+    },
+    {
+        id: '368',
+        title: 'Прямий з\'єднувач 8мм 1/2" M',
+        code: 'ZLA-NOV-8-1/2',
+        price: '9.90',
+        newPrice: '',
+        size: 1,
+        slug: 'goods14-42',
+        img: '/hydraulic/42.jpg',
+        imageShow: ['/hydraulic/42.jpg', ],
+        description: '',
+        descriptionPrise: '',
+        bread1: {
+            title: 'Гідравлічні елементи',
+            slug: '/hydraulic-elements',
+        },
+        bread2: {
+            slug: '/hydraulic-elements/hydraulic-connectors',
+            title: 'Гідравлічні з\'єднувачі'
+        },
+        bread3: '',
+        descriptionMin: 'Прямий з\'єднувач 8мм 1/2" M',
+        weight: '0,042',
+        codeEAN: '',
+        descriptionFull: `
+        <p>Прямий роз'єм </p><br/>
+        <p>8 мм </p><br/>
+        <p>1/2" М</p><br/>
+        `
+    },
+    {
+        id: '369',
+        title: 'Прямий з\'єднувач 8 мм 3/8" M',
+        code: 'ZLA-NOV-8-3/8',
+        price: '17.12',
+        newPrice: '',
+        size: 1,
+        slug: 'goods14-43',
+        img: '/hydraulic/43.jpg',
+        imageShow: ['/hydraulic/43.jpg', ],
+        description: '',
+        descriptionPrise: '',
+        bread1: {
+            title: 'Гідравлічні елементи',
+            slug: '/hydraulic-elements',
+        },
+        bread2: {
+            slug: '/hydraulic-elements/hydraulic-connectors',
+            title: 'Гідравлічні з\'єднувачі'
+        },
+        bread3: '',
+        descriptionMin: 'Прямий з\'єднувач 8 мм 3/8" M',
+        weight: '0,03',
+        codeEAN: '',
+        descriptionFull: `
+        <p>Прямий роз'єм </p><br/>
+        <p>8 мм</p><br/>
+        <p>3/8" М</p><br/>
+        `
+    },
+
+    {
+        id: '370',
+        title: 'Модульна рама для тримачів килимків (самоустановка)',
+        code: 'STE-UCH-WYC',
+        price: '1931.91',
+        newPrice: '',
+        size: 1,
+        slug: 'goods15-1',
+        img: '/equipmentWashing/1.jpg',
+        imageShow: ['/equipmentWashing/1.jpg', '/equipmentWashing/image1.jpg', '/equipmentWashing/image2.jpg', ],
+        description: '',
+        descriptionPrise: '',
+        bread1: {
+            title: 'Елементи та обладнання мийної станції',
+            slug: '/equipment-washing-station',
+        },
+        bread2: {
+            slug: '/equipment-washing-station/mat-holder',
+            title: 'Тримач килимка'
+        },
+        bread3: '',
+        descriptionMin: 'Модульна рама з нержавіючої сталі з чотирма тримачами автомобільних килимків для' +
+            ' самостійної збірки.',
+        weight: '20',
+        codeEAN: '',
+        descriptionFull: `
+        <p>Модульна рама з нержавіючої сталі з чотирма тримачами автомобільних килимків для самостійної збірки.</p><br/>
+        `
+    },
+    {
+        id: '371',
+        title: 'Наклейка з прайс-листом на безконтактну мийку (біла)',
+        code: 'NAL-CEN.IMP-W.V1',
+        price: '7.13',
+        newPrice: '',
+        size: 1,
+        slug: 'goods15-2',
+        img: '/equipmentWashing/2.jpg',
+        imageShow: ['/equipmentWashing/2.jpg', '/equipmentWashing/image3.jpg',  '/equipmentWashing/image4.jpg', ],
+        description: '',
+        descriptionPrise: '',
+        bread1: {
+            title: 'Елементи та обладнання мийної станції',
+            slug: '/equipment-washing-station',
+        },
+        bread2: {
+            slug: '/equipment-washing-station/door-stickers',
+            title: 'Наклейки на двері',
+        },
+        bread3: {
+            slug: '/equipment-washing-station/door-stickers/domestic',
+            title: 'Вітчизняний',
+        },
+        descriptionMin: 'Універсальна наклейка для безконтактної мийки з прайс-листом. У документі вказана тривалість' +
+            ' 1 імпульсу за 1 злотий залежно від обраної програми прання. Характеристика: Білий колір, формат А6',
+        weight: '',
+        codeEAN: '',
+        descriptionFull: `
+        <p>Універсальна наклейка для безконтактної мийки з прайс-листом. У документі вказана тривалість 1 
+        імпульсу за 1 злотий залежно від обраної програми прання.</p><br/>
+        <p><b>Характеристика:</b></p><br/>
+        <p>Білий колір,</p>
+        <p>формат А6</p><br/>
+        `
+    },
+    {
+        id: '372',
+        title: 'Наклейка з прайс-листом на безконтактну мийку (чорна)',
+        code: 'NAL-CEN.IMP-B.V1',
+        price: '7.13',
+        newPrice: '',
+        size: 1,
+        slug: 'goods15-3',
+        img: '/equipmentWashing/3.jpg',
+        imageShow: ['/equipmentWashing/3.jpg', '/equipmentWashing/image5.jpg', '/equipmentWashing/image6.jpg', ],
+        description: '',
+        descriptionPrise: '',
+        bread1: {
+            title: 'Елементи та обладнання мийної станції',
+            slug: '/equipment-washing-station',
+        },
+        bread2: {
+            slug: '/equipment-washing-station/door-stickers',
+            title: 'Наклейки на двері',
+        },
+        bread3: {
+            slug: '/equipment-washing-station/door-stickers/domestic',
+            title: 'Вітчизняний',
+        },
+        descriptionMin: 'Універсальна наклейка на автомийку з прайс-листом. У документі вказана тривалість 1 ' +
+            'імпульсу за 1 злотий залежно від обраної програми прання. Специфікація: Чорний колір, формат А6',
+        weight: '',
+        codeEAN: '',
+        descriptionFull: `
+         <p>Універсальна наклейка на мийку з  прайс-листом . У документі вказана тривалість 1 імпульсу за 1 
+         злотий залежно від обраної програми прання.</p><br/>
+        <p><b>Характеристика:</b></p><br/>
+        <p>Чорний колір,</p>
+        <p>формат А6</p><br/>
+        `
+    },
+    {
+        id: '373',
+        title: 'Наклейка з правилами безконтактної мийки (біла)',
+        code: 'NAL-REG-W.V1',
+        price: '16.26',
+        newPrice: '',
+        size: 1,
+        slug: 'goods15-4',
+        img: '/equipmentWashing/4.jpg',
+        imageShow: ['/equipmentWashing/4.jpg', '/equipmentWashing/image7.jpg', ],
+        description: '',
+        descriptionPrise: '',
+        bread1: {
+            title: 'Елементи та обладнання мийної станції',
+            slug: '/equipment-washing-station',
+        },
+        bread2: {
+            slug: '/equipment-washing-station/door-stickers',
+            title: 'Наклейки на двері',
+        },
+        bread3: {
+            slug: '/equipment-washing-station/door-stickers/domestic',
+            title: 'Вітчизняний',
+        },
+        descriptionMin: 'Універсальна наклейка з правилами використання безконтактної мийки. Документ визначає права' +
+            ' та обов\'язки осіб, які користуються послугами мийки на обраній автомийці. Специфікація: Ламінований' +
+            ' друк у форматі А4',
+        weight: '',
+        codeEAN: '',
+        descriptionFull: `
+          <p>Універсальна наклейка з правилами використання безконтактної мийки. Документ визначає права та
+           обов'язки осіб, які користуються послугами мийки на обраній автомийці.</p><br/>
+        <p><b>Специфікація:</b></p><br/>
+        <p>Білий  колір,</p>
+        <p>Ламінований друк формату А4</p><br/>
+        `
+    },
+    {
+        id: '374',
+        title: 'Наклейка з правилами безконтактної мийки (чорна)',
+        code: 'NAL-REG-B.V1',
+        price: '16.26',
+        newPrice: '',
+        size: 1,
+        slug: 'goods15-5',
+        img: '/equipmentWashing/5.jpg',
+        imageShow: ['/equipmentWashing/5.jpg', '/equipmentWashing/image8.jpg', ],
+        description: '',
+        descriptionPrise: '',
+        bread1: {
+            title: 'Елементи та обладнання мийної станції',
+            slug: '/equipment-washing-station',
+        },
+        bread2: {
+            slug: '/equipment-washing-station/door-stickers',
+            title: 'Наклейки на двері',
+        },
+        bread3: {
+            slug: '/equipment-washing-station/door-stickers/domestic',
+            title: 'Вітчизняний',
+        },
+        descriptionMin: 'Універсальна наклейка з правилами використання безконтактної мийки. Документ визначає' +
+            ' права та обов\'язки осіб, які користуються послугами мийки на обраній автомийці. Специфікація: ' +
+            'Чорний ламінований друк у форматі А4',
+        weight: '',
+        codeEAN: '',
+        descriptionFull: `
+          <p>Універсальна наклейка з правилами використання безконтактної мийки. Документ визначає права та 
+          обов'язки осіб, які користуються послугами мийки на обраній автомийці.</p><br/>
+        <p><b>Специфікація:</b></p><br/>
+        <p>Чорний колір,</p>
+        <p>Ламінований друк формату А4</p><br/>
+        `
+    },
+    {
+        id: '375',
+        title: 'Тримач склоочисника / килимка (нержавіюча сталь) ',
+        code: 'UCH-WYC-STAL',
+        price: '139.61',
+        newPrice: '',
+        size: 1,
+        slug: 'goods15-6',
+        img: '/equipmentWashing/6.jpg',
+        imageShow: ['/equipmentWashing/6.jpg', ],
+        description: '',
+        descriptionPrise: '',
+        bread1: {
+            title: 'Елементи та обладнання мийної станції',
+            slug: '/equipment-washing-station',
+        },
+        bread2: {
+            slug: '/equipment-washing-station/mat-holder',
+            title: 'Тримач килимка'
+        },
+        bread3: '',
+        descriptionMin: 'Тримач склоочисника / килимка (нержавіюча сталь)',
+        weight: '',
+        codeEAN: '',
+        descriptionFull: `
+        <p>Тримачі килимків із полірованої/необробленої нержавіючої сталі.</p><br/>
+        <p>Розміри: 175х70х60</p><br/>
+        <p>Товщина листа: 2 мм</p><br/>
+        <p>Вісь: 80x8 штампована з двох сторін</p><br/>
+        <p>Пружина: 3,2x8x50 30 Н*мм/°</p><br/>
+        <p>Монтажні отвори: 2x8 мм</p><br/>
+        <p>Відстань між монтажними отворами 36 мм від центру.</p><br/>
+        `
+    },
+
+    {
+        id: '376',
+        title: 'Ліцензія на програмне забезпечення для розширення автомийки',
+        code: 'ROZ-MYJ-OPR',
+        price: '0.00',
+        newPrice: '',
+        size: 1,
+        slug: 'goods16-1',
+        img: '',
+        imageShow: null,
+        description: '',
+        descriptionPrise: '',
+        bread1: {
+            title: 'Фіскалізація',
+            slug: '/fiscalization',
+        },
+        bread2: '',
+        bread3: '',
+        descriptionMin: '',
+        weight: '',
+        codeEAN: '',
+        descriptionFull: `
+        `
+    },
+    {
+        id: '377',
+        title: 'Ліцензія програмного забезпечення контролера PP65, сумісного з касовими апаратами Novitus SDF-3',
+        code: 'KAS-FIS-OPR',
+        price: '615.00',
+        newPrice: '',
+        size: 1,
+        slug: 'goods16-2',
+        img: '/fiscalization/2.jpg',
+        imageShow: ['/fiscalization/2.jpg', ],
+        description: '',
+        descriptionPrise: '',
+        bread1: {
+            title: 'Фіскалізація',
+            slug: '/fiscalization',
+        },
+        bread2: '',
+        bread3: '',
+        descriptionMin: 'Ліцензія на програмне забезпечення контролера PP65, що дозволяє конфігурувати автомийку' +
+            ' SamWash з касовим апаратом NOVITUS SDF-3. Доступно тільки для автомийок SamWash з програмним ' +
+            'забезпеченням версії V2 і контролером PP65. Програмне забезпечення також включає оновлення ' +
+            'програмного забезпечення для дисплеїв на стендах, розмінного автомата і пилососа, які необхідні' +
+            ' для коректної роботи касових апаратів. Програмне забезпечення має завантажувати особа з відповідною' +
+            ' підготовкою та знаннями.',
+        weight: '',
+        codeEAN: '',
+        descriptionFull: `
+        <p>Ліцензія на програмне забезпечення контролера PP65, що дозволяє конфігурувати автомийку SamWash з касовим
+         апаратом NOVITUS SDF-3 / NOVITUS SDF-3 Light. </p><br/>
+        <p><b>Доступно лише для автомийок SamWash з програмним забезпеченням версії V2 та контролером PP65.</b></p><br/>
+        <p>Програмне забезпечення також включає оновлення програмного забезпечення для дисплеїв на касах, розмінних
+         автоматів і пилососів, які необхідні для належної роботи касових апаратів. </p>
+        <p>Програмне забезпечення має завантажувати особа з відповідною підготовкою та знаннями. </p><br/>
+        <p><b>ПРИМІТКА. Під час оформлення замовлення вкажіть номер пристрою, щоб правильно активувати ліцензію. 
+        </b></p><br/>
+        `
+    },
+    {
+        id: '378',
+        title: 'Кріплення для каси Mod2013 Novitus SDF-3',
+        code: 'ELE-BLA-2-417',
+        price: '615.00',
+        newPrice: '',
+        size: 1,
+        slug: 'goods16-3',
+        img: '/fiscalization/3.jpg',
+        imageShow: ['/fiscalization/3.jpg', ],
+        description: '',
+        descriptionPrise: '',
+        bread1: {
+            title: 'Фіскалізація',
+            slug: '/fiscalization',
+        },
+        bread2: '',
+        bread3: '',
+        descriptionMin: 'Кріплення для каси Mod2013 Novitus SDF-3',
+        weight: '',
+        codeEAN: '2010000015513',
+        descriptionFull: `
+        <p>Кріплення для каси Novitus SDF-3. Пластина з нержавіючої сталі полегшує установку касових апаратів в
+         модуль або пилосос. Його використання необов'язково у випадку з робочим столом.</p>
+        <p>Завдяки кріпленню можна встановити касовий апарат на штифти дисплея, що гарантує близьке розташування
+         каси, тому ми впевнені, що довжина кабелю буде достатньою.</p><br/>
+        `
+    },
+    {
+        id: '379',
+        title: 'Наклейка з QR-кодом для пристрою Novitus SDF3',
+        code: 'KAS-FIS-NOV-NAL-QR-KPL',
+        price: '32.37',
+        newPrice: '',
+        size: 1,
+        slug: 'goods16-4',
+        img: '/fiscalization/4.jpg',
+        imageShow: ['/fiscalization/4.jpg', ],
+        description: '',
+        descriptionPrise: '',
+        bread1: {
+            title: 'Фіскалізація',
+            slug: '/fiscalization',
+        },
+        bread2: '',
+        bread3: '',
+        descriptionMin: 'Набір стікерів з QR-кодом для пристрою Novitus SDF3. У набір входять дві наклейки з' +
+            ' однаковим QR-кодом. Не забудьте призначити новий QR-код певній касі з панелі клієнтів Novitus на' +
+            ' веб-сайті sdf3.novitus.pl. Якщо у вас виникли труднощі з доступом до свого облікового запису, ' +
+            'зверніться до служби підтримки Novitus: +48 18 444 00 63.',
+        weight: '',
+        codeEAN: '',
+        descriptionFull: `
+        <p>Набір стікерів з QR-кодом для пристрою Novitus SDF3. У набір входять дві наклейки з однаковим 
+        QR-кодом.</p><br/>
+        <p>Не забудьте призначити новий QR-код певній касі з панелі клієнтів Novitus на веб-сайті sdf3.novitus.pl.<br/>
+            Якщо у вас виникли труднощі з доступом до свого облікового запису, зверніться до служби підтримки 
+            Novitus: +48 18 444 00 63.</p><br/>
+        `
+    },
+    {
+        id: '380',
+        title: 'Кабель CCTalk 50 см для модуля і змінного автомата',
+        code: 'PRZ-CCT-50',
+        price: '41.76',
+        newPrice: '',
+        size: 1,
+        slug: 'goods16-5',
+        img: '/fiscalization/5.jpg',
+        imageShow: ['/fiscalization/5.jpg', ],
+        description: '',
+        descriptionPrise: '',
+        bread1: {
+            title: 'Фіскалізація',
+            slug: '/fiscalization',
+        },
+        bread2: '',
+        bread3: '',
+        descriptionMin: 'Кабель CCTalk 50 см для модуля і змінного автомата',
+        weight: '',
+        codeEAN: '',
+        descriptionFull: `
+        <p>Кабель CCTalk довжиною 50 см для модуля і розмінного автомата (X6A).</p><br/>
+        `
+    },
+    {
+        id: '381',
+        title: 'CCTalk кабель 70 см до робочого столу',
+        code: 'PRZ-CCT-70',
+        price: '43.67',
+        newPrice: '',
+        size: 1,
+        slug: 'goods16-6',
+        img: '/fiscalization/6.jpg',
+        imageShow: ['/fiscalization/6.jpg', ],
+        description: '',
+        descriptionPrise: '',
+        bread1: {
+            title: 'Фіскалізація',
+            slug: '/fiscalization',
+        },
+        bread2: '',
+        bread3: '',
+        descriptionMin: 'Кабель ccTalk, довжина 70 см',
+        weight: '0,03',
+        codeEAN: '',
+        descriptionFull: `
+        <p>Кабель CCTalk довжиною 70 см до робочого столу.</p><br/>
+        `
+    },
+    {
+        id: '382',
+        title: 'Кабель з роз\'ємом MOLEX 26pin, для пристрою Novitus SDF-3, довжина 150см',
+        code: 'KAS-FIS-NOV-PRZ-MDB-150',
+        price: '85.01',
+        newPrice: '',
+        size: 1,
+        slug: 'goods16-7',
+        img: '/fiscalization/7.jpg',
+        imageShow: ['/fiscalization/7.jpg', ],
+        description: '',
+        descriptionPrise: '',
+        bread1: {
+            title: 'Фіскалізація',
+            slug: '/fiscalization',
+        },
+        bread2: '',
+        bread3: '',
+        descriptionMin: 'Кабель MDB до вилки MOLEX 26pin, для пристрою Novitus SDF-3, довжина 150см',
+        weight: '',
+        codeEAN: '',
+        descriptionFull: `
+        <p>Кабель MDB до вилки MOLEX 26pin, для пристрою Novitus SDF-3, довжина 150см</p><br/>
+        `
+    },
+    {
+        id: '383',
+        title: 'Кабель PULSE, стрічка 10PIN, з роз\'ємами та розгалужувачем для самостійної збірки, для пристрою ' +
+            'Novitus SDF-3, довжина 160см.',
+        code: 'KAS-FIS-NOV-PRZ-PULSE-160',
+        price: '73.89',
+        newPrice: '',
+        size: 1,
+        slug: 'goods16-8',
+        img: '/fiscalization/8.jpg',
+        imageShow: ['/fiscalization/8.jpg', ],
+        description: '',
+        descriptionPrise: '',
+        bread1: {
+            title: 'Фіскалізація',
+            slug: '/fiscalization',
+        },
+        bread2: '',
+        bread3: '',
+        descriptionMin: 'Кабель PULSE, стрічка 10PIN, з роз\'ємами та розгалужувачем для самостійної збірки,' +
+            ' для касових апаратів Novitus SDF-3, довжина 160 см.',
+        weight: '',
+        codeEAN: '',
+        descriptionFull: `
+        <p>Кабель PULSE, стрічка 10PIN, з роз'ємами та розгалужувачем для самостійної збірки, для касових апаратів 
+        Novitus SDF-3, довжина 160 см.</p><br/>
+        `
+    },
+    {
+        id: '384',
+        title: 'Роутер Teltonika RUT241',
+        code: 'TELT-RUT-241',
+        price: '825.02',
+        newPrice: '',
+        size: 1,
+        slug: 'goods16-9',
+        img: '/fiscalization/9.png',
+        imageShow: ['/fiscalization/9.png', ],
+        description: '',
+        descriptionPrise: '',
+        bread1: {
+            title: 'Фіскалізація',
+            slug: '/fiscalization',
+        },
+        bread2: '',
+        bread3: '',
+        descriptionMin: 'Промисловий мобільний маршрутизатор Teltonika RUT241 є вдосконаленою версією RUT240. ' +
+            'Роутер RUT241, ідентичний своєму попереднику, має компактні розміри, кілька інтерфейсів підключення, ' +
+            'RMS-сумісність, що забезпечує постійний доступ до мережі Інтернет на автомийці. RUT241 забезпечує ' +
+            'безвідмовну роботу і високу продуктивність в складних умовах. Завдяки міцному алюмінієвому корпусу' +
+            ' він може працювати в широкому діапазоні температур: від -40 градусів С до +75 градусів С.',
+        weight: '',
+        codeEAN: '',
+        descriptionFull: `
+        <p><b><i style="color: black">
+        У вартість входить послуга налаштування роутера (для автомийки BKF) та доступ до версії Carwash Manager 
+        Premium на 3 місяці. При замовленні роутера для касових апаратів просимо надати наступні дані для його 
+        налаштування: номер автомийки, номер SIM-карти та інформацію від оператора GSM про необхідні налаштування.
+         Введіть цю інформацію в поле ПРИМІТКИ/ОПИС під час оформлення замовлення.
+        </i></b></p><br/>
+        <p>Промисловий мобільний роутер Teltonika RUT241 - це пристрій, який забезпечить Вам постійний доступ до
+         мережі Інтернет на автомийці. Маршрутизатор має міцний алюмінієвий корпус і здатність працювати в широкому
+          температурному діапазоні: від -40 градусів С до +75 градусів С.<br/>
+            Маршрутизатор адаптований для роботи з касовими апаратами та системами керування он-лайн автомийками
+             (Carwash Manager та дистанційний контролер VNC). робочий стіл).</p><br/>
+        <p><b>Обладнання:</b></p><br/>
+        <p>Мобільна мережа 4G (LTE): 4G/LTE (Cat 4), 3G, 2G</p>
+        <p>Процесор: Atheros, MIPS 24Kc, 400 МГц</p>
+        <p>Пам'ять: 16 Мбайт Flash, 64 Мбайт RAM</p>
+        <p>Ethernet: 2x10/100 портів Ethernet, 1x WAN (Налаштовується як локальна мережа), 1x LAN</p>
+        <p>Wi-Fi: IEEE 802.11b/g/n, точка доступу (AP), станція (STA)</p>
+        <p>Джерело живлення: 9-30 В постійного струму, 4-контактний роз'єм постійного струму</p>
+        <p>Входи/виходи: 1 x Цифровий вхід, 1 цифровий вихід з відкритим колектором на роз'ємі живлення</p>
+        <p>Роз'єми: живлення 4-контактний, 2x Ethernet, 2x Mobile SMA, 2x Wifi RP-SMA</p>
+        <p>SIM: 1x слот для SIM-карти (2FF)</p>
+        <p>Світлодіоди: 3x стан підключення, 5x сила сигнал, 2x статус LAN, 1x блок живлення</p>
+        <p>Робоча температура: від -40 град. C до 75 градусів. C</p>
+        <p>Тип корпусу: металевий</p>
+        <p>Розміри: 83 мм x 25 мм x 74 мм</p><br/>
+        <p><b>Програмне забезпечення</b></p><br/>
+        <p>Операційна система: RutOS (OpenWrt на основі LinuxOS)</p>
+        <p>Мобільність: Auto APN, Band Lock</p>
+        <p>Протоколи: TCP, UDP, IPv4, IPv6, ICMP, NTP, DNS, HTTP, HTTPS, FTP, SMTP, SSLv3, TLS 1.3, ARP , PPP,
+         PPPoE, DHCP, Telnet</p>
+        <p>Мережі: відновлення після відмови (резервне копіювання мережі), VLAN, QoS, балансування навантаження</p>
+        <p>Безпека: запобігання DDOS (захист від затоплення SYN, запобігання атакам SSH, запобігання атакам
+         HTTP/HTTPS), запобігання скануванню портів (SYN- FIN, SYN-RST, X-mas, NULL flags, FIN scan attacksw</p>
+        <p>VPN і тунелювання: OpenVPN, IPsec, GRE, PPTP, L2TP, Stunnel, DMVPN, SSTP</p>
+        <p>Моніторинг і керування: WEB UI, CLI, SSH, SMS, TR-069, SNMP, JSON-RPC, MQTT, RMS</p>
+        <p>Моніторинг з'єднання: Ping Reboot, Wget reboot, Periodic Reboot, LCP і ICMP для перевірки посилань</p>
+        <p>Хмарні рішення: RMS, FOTA, Telenor, Azure IoT Hub, Cloud of Things, Cumulocity, ThingWorx</p>
+        <p>функції SMS: статус SMS, конфігурація SMS, надсилання/читання SMS через HTTP POST/GET, EMAIL на SMS, 
+        SMS на електронну пошту, SMS на HTTP, SMS на SMS, заплановані SMS, автовідповідь на SMS, SMPP</p>
+        <p>Сервіси: DDNS , VRRP, Wake On Lan (WOL), WEB-фільтр, UPNP, журнал трафіку.</p><br/>
+        <p>Цей високоякісний маршрутизатор оснащений зовнішнім слотом для SIM-карти та світлодіодами, що вказують 
+        на потужність сигналу, забезпечуючи зручне та просте керування мережею.</p><br/>
+        <p>Щоб підключити автомийку до Інтернету, необхідно:</p>
+        <p>SIM-карта з постійною IP-адресою.</p>
+        <p>Маршрутизатор з можливістю перенаправлення портів і 1 роз'ємом LAN (Teltonika 240) контролер PP 45
+         або новіший.</p><br/>
+        `
+    },
+    {
+        id: '385',
+        title: 'Новитус SDF-3 Базовий прилад (без блоку живлення) з дисплеєм',
+        code: 'KAS-FIS-NOV-SDF3-BASIC',
+        price: '1709.70',
+        newPrice: '',
+        size: 1,
+        slug: 'goods16-10',
+        img: '/fiscalization/10.jpg',
+        imageShow: ['/fiscalization/10.jpg', '/fiscalization/image1.jpg', '/fiscalization/image2.png',
+            '/fiscalization/image3.png', ],
+        description: '',
+        descriptionPrise: '',
+        bread1: {
+            title: 'Фіскалізація',
+            slug: '/fiscalization',
+        },
+        bread2: '',
+        bread3: '',
+        descriptionMin: 'Пропозиція адресована професіоналам, які пройшли навчання в головному офісі SamWash. ' +
+            'Термін обробки замовлення може бути продовжений до 14 робочих днів. Для інтеграції касового апарату' +
+            ' з нашою автомийкою необхідно придбати програмне забезпечення, доступне в нашому інтернет-магазині ' +
+            'під кодом: KAS-FIS-OPR. Щоб інсталювати програмне забезпечення, ви повинні мати флеш-пам’ять або ' +
+            'USB-карту та програматор дисплея, щоб мати можливість завантажити версію програмного забезпечення v2.21.X.',
+        weight: '',
+        codeEAN: '',
+        descriptionFull: `
+        <p><b>ПРИМІТКА:</b> Пропозиція адресована лише професіоналам, які пройшли навчання в штаб-квартирі SamWash.
+         Перед покупкою пристрою ознайомтеся з пропонованими нами варіантами встановлення та зробіть правильний 
+         вибір для вас: <b><a style="color: red" target="_blank" href="https://update-site-phi.vercel.app/fiscalization">
+         https://update-site-phi.vercel.app/fiscalization</a></b>.</p><br/>
+        <p>Купуючи «Касу», Ви отримуєте доступ до професійного навчання фіскалізації автомийки. Щоб отримати доступ
+         до навчання, створіть обліковий запис <b>https://szkolenia.bkfmyjnie.pl/register/</b>. Доступ буде надано 
+         протягом 24 робочих годин після виставлення рахунку.</p><br/>
+        <p><b>Термін обробки замовлення може бути продовжений до 14 робочих днів.</b></p><br/>
+        <p>Для інтеграції пристрою Novitus з нашою автомийкою необхідно придбати програмне забезпечення, доступне 
+        в нашому інтернет-магазині під кодом:</p>
+        <p><b>KAS-FIS-OPR</b></p>
+        <p><b>Для встановлення програмного забезпечення необхідно мати флешку або USB-карту та програматор 
+        дисплея щоб мати можливість завантажити версію програмного забезпечення v2.21</b></p><br/>
+        <p>Вибирайте «касовий апарат» для мийки SamWash SDF-3, який гарантує оптимальне підключення до вашої
+         безконтактної мийки. Завдяки запропонованим рішенням ви отримуєте автоматичну та необслуговувану фіскалізацію
+          наданих послуг. Правильно реєструйте всі види платежів - жетони, готівку, електронні платежі та ін.
+           Надайте своєму клієнту можливість отримати квитанцію з ІПН на послугу мийки автомобіля на вказану 
+           електронну адресу.</p><br/>
+        <p>Універсальні функції «касового апарату» для безконтактної мийки</p>
+        <p>електронні фіскальні чеки без роздруківки</p>
+        <p>автоматичний зв’язок із сховищем Мінфіну</p>
+        <p>гнучке підключення до Інтернету через LAN, WiFi, GSM</p>
+        <p>автоматичні щоденні та місячні звіти</p>
+        <p>функціональність квитанції з NIP (ідентифікаційний податковий номер) з відправленням на вказану адресу
+         електронної пошти</p>
+        <p>запис різних форм оплати</p>
+        <p>розрізнення платежів токенами, передплаченими картками тощо</p>
+        <p>веб-портал для користувача</p>
+        <p>дистанційна діагностика</p><br/>
+        <p>Ідеальний дисплей</p>
+        <p>Касовий дисплей SDF-3 фактично єдиний елемент, видимий користувачу автомийки. Ми забезпечили його повну 
+        стійкість до екстремальних температур і вологості. Жодна хімія безконтактної мийки, яка використовується 
+        в процесі миття, не є безпечною, і вона може витримати найсильніший струмінь води під тиском. Завдяки 
+        компактним розмірам і простоті монтажу не вимагає значного втручання в конструкцію пульта управління 
+        автомийки. Використання роз'єму RS485 дозволяє встановити на великій відстані від блоку управління, до 
+        50 метрів.</p><br/>
+         <p><b>ПРИМІТКА: перед покупкою пристрою Novitus ознайомтеся з пропонованими нами варіантами встановлення 
+         та зробіть правильний вибір для вас: <a style="color: red" target="_blank" 
+         href="https://update-site-phi.vercel.app/fiscalization">
+         https://update-site-phi.vercel.app/fiscalization</a>.</b></p><br/>
+        <p><b>Апарати Новитус продаються за передоплатою.</b></p><br/>
+        `
+    },
+    {
+        id: '386',
+        title: 'Новитус СДФ-3 Світловий прилад (без живлення) з дисплеєм',
+        code: 'KAS-FIS-NOV-SDF3-LIGHT',
+        price: '1660.50',
+        newPrice: '',
+        size: 1,
+        slug: 'goods16-11',
+        img: '/fiscalization/11.jpg',
+        imageShow: ['/fiscalization/11.jpg', '/fiscalization/image1.jpg', '/fiscalization/image2.png',
+            '/fiscalization/image3.png', ],
+        description: '',
+        descriptionPrise: '',
+        bread1: {
+            title: 'Фіскалізація',
+            slug: '/fiscalization',
+        },
+        bread2: '',
+        bread3: '',
+        descriptionMin: 'Пропозиція адресована лише професіоналам, які пройшли навчання в головному офісі SamWash.' +
+            ' Термін обробки замовлення може бути збільшений до 14 днів. Для інтеграції касового апарату з ' +
+            'нашими автомийками необхідно придбати програмне забезпечення, доступне в нашому інтернет-магазині ' +
+            'під кодом: KAS-FIS-OPR.',
+        weight: '',
+        codeEAN: '',
+        descriptionFull: `
+        <p><b>ПРИМІТКА:</b> Пропозиція адресована лише професіоналам, які пройшли навчання в штаб-квартирі SamWash.
+         Перед покупкою пристрою ознайомтеся з пропонованими нами варіантами встановлення та зробіть правильний 
+         вибір для вас: <b><a style="color: red" target="_blank" href="https://update-site-phi.vercel.app/fiscalization">
+         https://update-site-phi.vercel.app/fiscalization</a></b>.</p><br/>
+        <p>Купуючи «Касу», Ви отримуєте доступ до професійного навчання фіскалізації автомийки. Щоб отримати доступ
+         до навчання, створіть обліковий запис <b>https://szkolenia.bkfmyjnie.pl/register/</b>. Доступ буде надано 
+         протягом 24 робочих годин після виставлення рахунку.</p><br/>
+        <p><b>Термін обробки замовлення може бути продовжений до 14 робочих днів.</b></p><br/>
+        
+        <p>Новитус представив нову версію інтегруючого пристрою SDF-3, яка призначена для використання в обладнанні
+         автомийок, що працює на автоматичних автомийках. Цей продукт можна успішно використовувати в таких пристроях,
+          як пилососи та інші автоматичні пристрої, які надають послуги, пов'язані з пилососом, чорнінням шин, 
+          пранням оббивки тощо. У новій версії інтегруючого пристрою SDF-3 обсяг пам'яті для зберігання даних 
+          зменшено розмір фіскальних файлів до 1 Гб. Зміненню пам’яті на такий розмір передував аналіз кількості
+           квитанцій, що генеруються такими пристроями, і це не вплине негативно на правильну фіскалізацію послуг
+            у найближчі роки.</p>
+        
+        <p>Для інтеграції пристрою Novitus з нашою автомийкою необхідно придбати програмне забезпечення, доступне 
+        в нашому інтернет-магазині під кодом:</p>
+        <p><b>KAS-FIS-OPR (якщо програмне забезпечення вже придбано для даного закладу, пропустіть цей крок). </b></p>
+        <p><b>Щоб інсталювати програмне забезпечення, ви повинні мати флеш-пам’ять або USB-карту та програматор
+         дисплея, щоб мати можливість завантажити версію програмного забезпечення v2.21.X.</b></p><br/>
+        
+        <p>Вибирайте «касовий апарат» для мийки SamWash SDF-3, який гарантує оптимальне підключення до вашої
+         безконтактної мийки. Завдяки запропонованим рішенням ви отримуєте автоматичну та необслуговувану фіскалізацію
+          наданих послуг. Правильно реєструйте всі види платежів - жетони, готівку, електронні платежі та ін.
+           Надайте своєму клієнту можливість отримати квитанцію з ІПН на послугу мийки автомобіля на вказану 
+           електронну адресу.</p><br/>
+        <p>Функції універсального касового апарату для пристроїв мийки: </p>
+        <p>електронні фіскальні чеки без роздруківки</p>
+        <p>автоматичний зв’язок із сховищем Мінфіну</p>
+        <p>гнучке підключення до Інтернету через LAN, WiFi, GSM</p>
+        <p>автоматичні щоденні та місячні звіти</p>
+        <p>функціональність квитанції з NIP (ідентифікаційний податковий номер) з відправленням на вказану адресу
+         електронної пошти</p>
+        <p>запис різних форм оплати</p>
+        <p>розрізнення платежів токенами, передплаченими картками тощо</p>
+        <p>веб-портал для користувача</p>
+        <p>дистанційна діагностика</p><br/>
+        <p>Ідеальний дисплей</p>
+        <p>Касовий дисплей SDF-3 фактично єдиний елемент, видимий користувачу автомийки. Ми забезпечили його повну 
+        стійкість до екстремальних температур і вологості. Жодна хімія безконтактної мийки, яка використовується 
+        в процесі миття, не є безпечною, і вона може витримати найсильніший струмінь води під тиском. Завдяки 
+        компактним розмірам і простоті монтажу не вимагає значного втручання в конструкцію пульта управління 
+        автомийки. Використання роз'єму RS485 дозволяє встановити на великій відстані від блоку управління, до 
+        50 метрів.</p><br/>
+        <p>За інформацією NOVITUS, місячна абонплата касових апаратів для автомийки буде знижена до 10 злотих
+         нетто (детальніше на офіційному сайті виробника).</p><br/>
+         <p><b>ПРИМІТКА: перед покупкою пристрою Novitus ознайомтеся з пропонованими нами варіантами встановлення 
+         та зробіть правильний вибір для вас: <a style="color: red" target="_blank" 
+         href="https://update-site-phi.vercel.app/fiscalization">
+         https://update-site-phi.vercel.app/fiscalization</a>.</b></p><br/>
+        <p><b>Апарати Новитус продаються за передоплатою.</b></p><br/>
+        `
+    },
+    {
+        id: '387',
+        title: 'Блок живлення ESPE для Novitus SDF-3 (E2412W2E-2555-L)',
+        code: 'KAS-FIS-NOV-ZAS-ESPE',
+        price: '86.10',
+        newPrice: '',
+        size: 1,
+        slug: 'goods16-12',
+        img: '/fiscalization/12.jpg',
+        imageShow: ['/fiscalization/12.jpg', '/fiscalization/image4.jpg', ],
+        description: '',
+        descriptionPrise: '',
+        bread1: {
+            title: 'Фіскалізація',
+            slug: '/fiscalization',
+        },
+        bread2: '',
+        bread3: '',
+        descriptionMin: 'Блок живлення для касового апарату Novitus SDF-3. Це потрібно, коли немає можливості ' +
+            'підключитися безпосередньо до електрошафи. Такий випадок зазвичай трапляється на автомийках,' +
+            ' відмінних від виробництва SamWash.',
+        weight: '',
+        codeEAN: '',
+        descriptionFull: `
+         <p>Блок живлення для касового апарату Novitus SDF-3.</p><br/>
+         <p>Це потрібно, коли немає можливості підключитися безпосередньо до електрошафи. Такий випадок зазвичай 
+         трапляється на автомийках, відмінних від виробництва SamWash.</p><br/>
+        `
+    },
+
+    {
+        id: '388',
+        title: 'Детайлер CLEAN ENGINE 600 мл',
+        code: 'AD26/600',
+        price: '11.27',
+        newPrice: '',
+        size: 1,
+        slug: 'goods17-1',
+        img: '/carCare/1.jpg',
+        imageShow: ['/carCare/1.jpg', ],
+        description: '',
+        descriptionPrise: '',
+        bread1: {
+            title: 'Догляд за автомобілем',
+            slug: '/car-care',
+        },
+        bread2: '',
+        bread3: '',
+        descriptionMin: 'Детайлер CLEAN ENGINE 600 мл',
+        weight: '',
+        codeEAN: '',
+        descriptionFull: `
+         <p>Спеціалізована зелена формула, яка ефективно видаляє жирні плями. Ефективний засіб для догляду
+          та полірування деталей двигуна.</p><br/>
+         <p>
+         Безпечний для двигуна<br/>
+         Очищає, консервує та полірує<br/>
+         Формула активної піни
+         </p><br/>
+        `
+    },
+    {
+        id: '389',
+        title: 'Детейлер BLOOD RIM 600 мл',
+        code: 'AD24/600',
+        price: '12.80',
+        newPrice: '',
+        size: 1,
+        slug: 'goods17-2',
+        img: '/carCare/2.jpg',
+        imageShow: ['/carCare/2.jpg', '/carCare/image1.jpg',  '/carCare/image2.jpg', ],
+        description: '',
+        descriptionPrise: '',
+        bread1: {
+            title: 'Догляд за автомобілем',
+            slug: '/car-care',
+        },
+        bread2: '',
+        bread3: '',
+        descriptionMin: 'Bloody Rim - інноваційний і професійний препарат для очищення дисків від надокучливого' +
+            ' металевого бруду, іржі та пилу гальмівних колодок.',
+        weight: '',
+        codeEAN: '',
+        descriptionFull: `
+         <p>Інноваційний і професійний препарат для очищення дисків від надокучливого металевого бруду, іржі та пилу
+          гальмівних колодок. Його назва походить від червоного кольору, який засіб набуває при контакті з брудом. 
+          Це дозволяє легко побачити, наскільки обод потребує очищення. Продукт має гелеподібну консистенцію та 
+          досить густий, щоб текти повільніше та таким чином ефективніше проникати на всю поверхню обідка. 
+          Препарат можна використовувати для очищення алюмінієвих, хромованих або пофарбованих дисків. Krwawa
+           Riga має нейтральний pH 7, тому його також можна використовувати на лаку.</p><br/>
+         <p><b>Спосіб застосування:</b></p><br/>
+         <p>1. Розпиліть на забруднену поверхню обода/кришки або на фарбу.</p>
+         <p>2. Зачекайте приблизно 2-3 хвилини, поки засіб не почне діяти повністю. Перші ознаки почервоніння
+          повинні з'явитися вже через кілька хвилин після нанесення.</p>
+         <p>3. Промийте водою під високим тиском.</p><br/>
+         <p><b>Застосування:</b></p><br/>
+         <p>АЛЮМІНІЄВІ, ХРОМОВАНІ, ФАРБОВАНІ КОЛЕСА</p>
+         <p>ВИДАЛЮЄ ІРЖУ ТА БИРКИ</p>
+         <p>ЧАС ДІЇ: 2 ХВИЛИНИ</p><br/>
+        `
+    },
+    {
+        id: '390',
+        title: 'Detailer Defroster 600 мл ADR',
+        code: 'AD21/600',
+        price: '21.57',
+        newPrice: '',
+        size: 1,
+        slug: 'goods17-3',
+        img: '/carCare/3.jpg',
+        imageShow: ['/carCare/3.jpg', ],
+        description: '',
+        descriptionPrise: '',
+        bread1: {
+            title: 'Догляд за автомобілем',
+            slug: '/car-care',
+        },
+        bread2: '',
+        bread3: '',
+        descriptionMin: 'Detailer Defroster 600 мл ADR',
+        weight: '0,65',
+        codeEAN: '',
+        descriptionFull: `
+         <p>Розігрівач скла автомобіля, працює відразу.</p><br/>
+         <p>Ефективний препарат для швидкого розморожування стекол автомобіля. Продукт працює при температурах до 
+         -70 градусів Цельсія. Ефект видно відразу після нанесення на замерзлу поверхню. </p><br/>
+         <p>Як використовувати:</p><br/>
+         <p>1.Перед використанням продукту краще зняти верхній шар пухкого снігу зі скла.</p>
+         <p>2.Нанесіть препарат на замерзлу скляну поверхню за допомогою пульверизатора.</p>
+         <p>3.Дочекайтеся, поки засіб почне діяти.</p>
+         <p>4.Зніміть розтоплений лід і протріть скло. </p>
+         <p>5.При необхідності повторіть операцію.</p><br/>
+        `
+    },
+
 // end
     {
         id: '175',

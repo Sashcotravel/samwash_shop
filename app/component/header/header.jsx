@@ -417,21 +417,27 @@ const Header = () => {
                                                     id='mozhna'>Гідравлічні з'єднувачі</Link></span>
                                     </li>
                                     <li>
-                                        <Link href="/" id='mozhna'>Елементи та обладнання мийної станції</Link>
-                                        <span><Link href="/" id='mozhna'>Наклейки на двері</Link></span>
-                                        <span><Link href="/" id='mozhna'>Тримач килимка</Link></span>
+                                        <Link href="/equipment-washing-station"
+                                              id='mozhna'>Елементи та обладнання мийної станції</Link>
+                                        <span><Link href="/equipment-washing-station/door-stickers"
+                                                    id='mozhna'>Наклейки на двері</Link></span>
+                                        <span><Link href="/equipment-washing-station/mat-holder"
+                                                    id='mozhna'>Тримач килимка</Link></span>
                                     </li>
                                     <li>
-                                        <Link href="/" id='mozhna'>Фіскалізація</Link>
+                                        <Link href="/fiscalization" id='mozhna'>Фіскалізація</Link>
                                     </li>
                                     <li>
-                                        <Link href="/" id='mozhna'>Догляд за автомобілем</Link>
+                                        <Link href="/car-care" id='mozhna'>Догляд за автомобілем</Link>
                                     </li>
                                     <li>
-                                        <Link href="/" id='mozhna'>Зброя та аксесуари</Link>
-                                        <span><Link href="/" id='mozhna'>Обладнання</Link></span>
-                                        <span><Link href="/" id='mozhna'>Рушниці та щітки</Link></span>
-                                        <span><Link href="/" id='mozhna'>Лансові піхви</Link></span>
+                                        <Link href="/weapons-and-accessories" id='mozhna'>Зброя та аксесуари</Link>
+                                        <span><Link href="/weapons-and-accessories/equipment"
+                                                    id='mozhna'>Обладнання</Link></span>
+                                        <span><Link href="/weapons-and-accessories/guns-and-brushes"
+                                                    id='mozhna'>Рушниці та щітки</Link></span>
+                                        <span><Link href="/weapons-and-accessories/lance-scabbards"
+                                                    id='mozhna'>Лансові піхви</Link></span>
                                     </li>
                                     <li>
                                         <Link href="/" id='mozhna'>Кабелі/Шланги</Link>
@@ -715,8 +721,12 @@ const Header = () => {
                                            className={s.imgArrowManu}/>
                                 </button>
                                 <div className={s.dropdown_content}>
-                                    <span><Link href="/" id='mozhna'>Наклейки на двері</Link></span>
-                                    <span><Link href="/" id='mozhna'>Тримач килимка</Link></span>
+                                    <span><Link href="/equipment-washing-station"
+                                                id='mozhna'>Елементи та обладнання мийної станції</Link></span>
+                                    <span><Link href="/equipment-washing-station/door-stickers"
+                                                id='mozhna'>Наклейки на двері</Link></span>
+                                    <span><Link href="/equipment-washing-station/mat-holder"
+                                                id='mozhna'>Тримач килимка</Link></span>
                                 </div>
                             </li>
                             <li className={s.dropdown + ' ' + s.less}>
@@ -726,7 +736,7 @@ const Header = () => {
                                            className={s.imgArrowManu}/>
                                 </button>
                                 <div className={s.dropdown_content}>
-                                    <span><Link href="/" id='mozhna'>Фіскалізація</Link></span>
+                                    <span><Link href="/fiscalization" id='mozhna'>Фіскалізація</Link></span>
                                 </div>
                             </li>
                             <li className={s.dropdown + ' ' + s.less}>
@@ -736,7 +746,7 @@ const Header = () => {
                                            className={s.imgArrowManu}/>
                                 </button>
                                 <div className={s.dropdown_content}>
-                                    <span><Link href="/" id='mozhna'>Догляд за автомобілем</Link></span>
+                                    <span><Link href="/car-care" id='mozhna'>Догляд за автомобілем</Link></span>
                                 </div>
                             </li>
                             <li className={s.dropdown + ' ' + s.less}>
@@ -746,9 +756,14 @@ const Header = () => {
                                            className={s.imgArrowManu}/>
                                 </button>
                                 <div className={s.dropdown_content}>
-                                    <span><Link href="/" id='mozhna'>Обладнання</Link></span>
-                                    <span><Link href="/" id='mozhna'>Рушниці та щітки</Link></span>
-                                    <span><Link href="/" id='mozhna'>Лансові піхви</Link></span>
+                                    <span><Link href="/weapons-and-accessories"
+                                                id='mozhna'>Зброя та аксесуари</Link></span>
+                                    <span><Link href="/weapons-and-accessories/equipment"
+                                                id='mozhna'>Обладнання</Link></span>
+                                    <span><Link href="/weapons-and-accessories/guns-and-brushes"
+                                                id='mozhna'>Рушниці та щітки</Link></span>
+                                    <span><Link href="/weapons-and-accessories/lance-scabbards"
+                                                id='mozhna'>Лансові піхви</Link></span>
                                 </div>
                             </li>
                             <li className={s.dropdown + ' ' + s.less}>

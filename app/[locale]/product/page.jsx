@@ -114,7 +114,7 @@ const arrChildCatalog = [
     {
         title: 'Дозування порошку',
         slug: '/dosage-of-powder',
-        img: '',
+        img: '/dosagePowder/main.jpg',
     },
     {
         title: 'Електромагнітні клапани та ремкомплекти',
@@ -202,6 +202,74 @@ const arrChildCatalog = [
             {
                 slug: '/hydraulic-elements/hydraulic-connectors',
                 title: 'Гідравлічні з\'єднувачі'
+            },
+        ]
+    },
+    {
+        title: 'Елементи та обладнання мийної станції',
+        slug: '/equipment-washing-station',
+        img: '/equipmentWashing/main.jpg',
+        child: [
+            {
+                slug: '/equipment-washing-station/door-stickers',
+                title: 'Наклейки на двері',
+                child: [
+                    {
+                        slug: '/equipment-washing-station/door-stickers/domestic',
+                        title: 'Вітчизняний',
+                    }
+                ]
+            },
+            {
+                slug: '/equipment-washing-station/mat-holder',
+                title: 'Тримач килимка'
+            },
+        ]
+    },
+    {
+        title: 'Фіскалізація',
+        slug: '/fiscalization',
+        img: '',
+    },
+    {
+        title: 'Догляд за автомобілем',
+        slug: '/car-care',
+        img: '/carCare/main.jpg',
+    },
+    {
+        title: 'Зброя та аксесуари',
+        slug: '/weapons-and-accessories',
+        img: '/weapons/main.jpg',
+        child: [
+            {
+                slug: '/weapons-and-accessories/equipment',
+                title: 'Обладнання',
+                child: [
+                    {
+                        slug: '/weapons-and-accessories/equipment/accessories-for-brushes',
+                        title: 'Аксесуари для щіток',
+                    },
+                    {
+                        slug: '/weapons-and-accessories/equipment/nozzles-and-covers',
+                        title: 'Насадки і кришки',
+                    },
+                    {
+                        slug: '/weapons-and-accessories/equipment/spears',
+                        title: 'Списи',
+                    },
+                    {
+                        slug: '/weapons-and-accessories/equipment/repair-kits',
+                        title: 'Ремонтні комплекти',
+                    },
+                ]
+            },
+            {
+                slug: '/weapons-and-accessories/guns-and-brushes',
+                title: 'Рушниці та щітки'
+            },
+            {
+                slug: '/weapons-and-accessories/lance-scabbards',
+                title: 'Лансові піхви'
             },
         ]
     },
