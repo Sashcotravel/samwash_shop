@@ -12704,6 +12704,1849 @@ export const goodsArr = [
         `
     },
 
+    {
+        id: '391',
+        title: 'Насадка 1/4" GZ 40 05 (62150)',
+        code: 'DYS-RM-40-05',
+        price: '31.43',
+        newPrice: '',
+        size: 1,
+        slug: 'goods18-1',
+        img: '/weapons/1.jpg',
+        imageShow: ['/weapons/1.jpg', ],
+        description: '',
+        descriptionPrise: '',
+        bread1: {
+            title: 'Зброя та аксесуари',
+            slug: '/weapons-and-accessories',
+        },
+        bread2: {
+            slug: '/weapons-and-accessories/equipment',
+            title: 'Обладнання',
+        },
+        bread3:  {
+            slug: '/weapons-and-accessories/equipment/nozzles-and-covers',
+            title: 'Насадки і кришки',
+        },
+        descriptionMin: 'Насадка 1/4" GZ 40 05 (62150)',
+        weight: '0,018',
+        codeEAN: '',
+        descriptionFull: `
+         <p>Насадка з нержавіючої сталі 1/4" GZ 40 05 </p><br/>
+         <p>Насадка високого тиску призначена для пістолетів AURA і RM.</p><br/>
+        `
+    },
+    {
+        id: '392',
+        title: 'Насадка 1/4" GZ 40 06 (62170)',
+        code: 'DYS-RM-40-06',
+        price: '32.53',
+        newPrice: '',
+        size: 1,
+        slug: 'goods18-2',
+        img: '/weapons/2.jpg',
+        imageShow: ['/weapons/2.jpg', ],
+        description: '',
+        descriptionPrise: '',
+        bread1: {
+            title: 'Зброя та аксесуари',
+            slug: '/weapons-and-accessories',
+        },
+        bread2: {
+            slug: '/weapons-and-accessories/equipment',
+            title: 'Обладнання',
+        },
+        bread3:  {
+            slug: '/weapons-and-accessories/equipment/nozzles-and-covers',
+            title: 'Насадки і кришки',
+        },
+        descriptionMin: 'Насадка 1/4" GZ 40 06 (62170)',
+        weight: '0,18',
+        codeEAN: '',
+        descriptionFull: `
+         <p>Насадка з нержавіючої сталі 1/4" GZ 40 06</p><br/>
+         <p>Насадка високого тиску призначена для пістолетів AURA і RM.</p><br/>
+        `
+    },
+    {
+        id: '393',
+        title: 'Насадка 1/4" GZ 65 04 (62540)',
+        code: 'DYS-RM-65-04',
+        price: '32.74',
+        newPrice: '',
+        size: 1,
+        slug: 'goods18-3',
+        img: '/weapons/3.jpg',
+        imageShow: ['/weapons/3.jpg', ],
+        description: '',
+        descriptionPrise: '',
+        bread1: {
+            title: 'Зброя та аксесуари',
+            slug: '/weapons-and-accessories',
+        },
+        bread2: {
+            slug: '/weapons-and-accessories/equipment',
+            title: 'Обладнання',
+        },
+        bread3:  {
+            slug: '/weapons-and-accessories/equipment/nozzles-and-covers',
+            title: 'Насадки і кришки',
+        },
+        descriptionMin: 'Насадка на фурму 1/4" GZ 65 04 (62540).',
+        weight: '0,018',
+        codeEAN: '',
+        descriptionFull: `
+         <p>Насадка з нержавіючої сталі 1/4" GZ 65 04</p><br/>
+         <p>Насадка високого тиску призначена для пістолетів AURA і RM.</p><br/>
+        `
+    },
+    {
+        id: '394',
+        title: 'Насадка фурма 1/4" GZ 65 05 (62560)',
+        code: 'DYS-RM-65-05',
+        price: '31.93',
+        newPrice: '',
+        size: 1,
+        slug: 'goods18-4',
+        img: '/weapons/4.jpg',
+        imageShow: ['/weapons/4.jpg', ],
+        description: '',
+        descriptionPrise: '',
+        bread1: {
+            title: 'Зброя та аксесуари',
+            slug: '/weapons-and-accessories',
+        },
+        bread2: {
+            slug: '/weapons-and-accessories/equipment',
+            title: 'Обладнання',
+        },
+        bread3:  {
+            slug: '/weapons-and-accessories/equipment/nozzles-and-covers',
+            title: 'Насадки і кришки',
+        },
+        descriptionMin: 'Насадка фурма 1/4" GZ 65 05 (62560)',
+        weight: '0,018',
+        codeEAN: '',
+        descriptionFull: `
+         <p>Насадка з нержавіючої сталі 1/4" GZ 65 05</p><br/>
+         <p>Насадка високого тиску призначена для пістолетів AURA і RM.</p><br/>
+        `
+    },
+    {
+        id: '395',
+        title: 'Насадка 1/4" GZ 65 06',
+        code: 'DYS-RM-65-06',
+        price: '29.52',
+        newPrice: '',
+        size: 1,
+        slug: 'goods18-5',
+        img: '/weapons/5.jpg',
+        imageShow: ['/weapons/5.jpg', ],
+        description: '',
+        descriptionPrise: '',
+        bread1: {
+            title: 'Зброя та аксесуари',
+            slug: '/weapons-and-accessories',
+        },
+        bread2: {
+            slug: '/weapons-and-accessories/equipment',
+            title: 'Обладнання',
+        },
+        bread3:  {
+            slug: '/weapons-and-accessories/equipment/nozzles-and-covers',
+            title: 'Насадки і кришки',
+        },
+        descriptionMin: 'Насадка 1/4" GZ 65 06',
+        weight: '0,018',
+        codeEAN: '',
+        descriptionFull: `
+         <p>Форсунка з нержавіючої сталі 1/4" GZ 65 06</p><br/>
+         <p>Насадка високого тиску призначена для пістолетів AURA і RM.</p><br/>
+        `
+    },
+    {
+        id: '396',
+        title: 'Пінна насадка - розмір 04 - 1,2 мм [200 075 403]',
+        code: 'DYS-PIA-1.2',
+        price: '44.34',
+        newPrice: '',
+        size: 1,
+        slug: 'goods18-6',
+        img: '/weapons/6.jpg',
+        imageShow: ['/weapons/6.jpg', ],
+        description: '',
+        descriptionPrise: '',
+        bread1: {
+            title: 'Зброя та аксесуари',
+            slug: '/weapons-and-accessories',
+        },
+        bread2: {
+            slug: '/weapons-and-accessories/equipment',
+            title: 'Обладнання',
+        },
+        bread3:  {
+            slug: '/weapons-and-accessories/equipment/nozzles-and-covers',
+            title: 'Насадки і кришки',
+        },
+        descriptionMin: 'Насадка для піни 200 075 403 1,2 мм. Насадку можна використовувати для піноутворювача та' +
+            ' турбощітки, однак через більший діаметр на автомийках SamWash вона може виробляти гірший ефект піни' +
+            ' з меншим споживанням хімікатів та води.',
+        weight: '0,013',
+        codeEAN: '',
+        descriptionFull: `
+         <p>Насадка для піни 200 075 403 1,2 мм.</p><br/>
+         <p>Насадку можна використовувати для піноутворювача та турбощітки, однак через більший діаметр на 
+         автомийках SamWash вона може виробляти гірший ефект піни з меншим споживанням хімікатів та води.</p><br/>
+        `
+    },
+    {
+        id: '397',
+        title: 'Пінна насадка 200075401 - 1,05 мм',
+        code: 'DYS-PIA-1.05',
+        price: '44.35',
+        newPrice: '',
+        size: 1,
+        slug: 'goods18-7',
+        img: '',
+        imageShow: null,
+        description: '',
+        descriptionPrise: '',
+        bread1: {
+            title: 'Зброя та аксесуари',
+            slug: '/weapons-and-accessories',
+        },
+        bread2: {
+            slug: '/weapons-and-accessories/equipment',
+            title: 'Обладнання',
+        },
+        bread3:  {
+            slug: '/weapons-and-accessories/equipment/nozzles-and-covers',
+            title: 'Насадки і кришки',
+        },
+        descriptionMin: 'Пінна насадка 200075401 - 1,05 мм',
+        weight: '0,013',
+        codeEAN: '',
+        descriptionFull: `
+         <p>Пінна насадка 200 075 401 - 1,05 мм</p><br/>
+         <p>Насадка використовується для пістолета Pianownica і Turbobrush.</p><br/>
+        `
+    },
+    {
+        id: '398',
+        title: 'Керамічне сопло високого тиску з меншим потоком',
+        code: 'DYS-WIT-003',
+        price: '221.46',
+        newPrice: '',
+        size: 1,
+        slug: 'goods18-8',
+        img: '/weapons/8.jpg',
+        imageShow: ['/weapons/8.jpg', ],
+        description: '',
+        descriptionPrise: '',
+        bread1: {
+            title: 'Зброя та аксесуари',
+            slug: '/weapons-and-accessories',
+        },
+        bread2: {
+            slug: '/weapons-and-accessories/equipment',
+            title: 'Обладнання',
+        },
+        bread3:  {
+            slug: '/weapons-and-accessories/equipment/nozzles-and-covers',
+            title: 'Насадки і кришки',
+        },
+        descriptionMin: 'Керамічне сопло високого тиску з меншим потоком',
+        weight: '0,03',
+        codeEAN: '',
+        descriptionFull: `
+         <p>Керамічна насадка високого тиску.</p><br/>
+         <p>Максимальна температура: 110C.</p><br/>
+         <p>Форсунка плоска, кут 65.</p><br/>
+         <p>Корпус з нержавіючої сталі.</p><br/>
+         <p>Зовнішня різьба 1/8".</p><br/>
+         <p>Витрата води при 100 бар становить 9,04 л/хв.</p><br/>
+         <p>Підходить для мийок інших виробників!</p><br/>
+        `
+    },
+    {
+        id: '399',
+        title: 'Сталева губка для поролону',
+        code: 'PIS-PIA-GAB',
+        price: '34.77',
+        newPrice: '',
+        size: 1,
+        slug: 'goods18-9',
+        img: '/weapons/9.jpg',
+        imageShow: ['/weapons/9.jpg', ],
+        description: '',
+        descriptionPrise: '',
+        bread1: {
+            title: 'Зброя та аксесуари',
+            slug: '/weapons-and-accessories',
+        },
+        bread2: {
+            slug: '/weapons-and-accessories/equipment',
+            title: 'Обладнання',
+        },
+        bread3:  {
+            slug: '/weapons-and-accessories/equipment/repair-kits',
+            title: 'Ремонтні комплекти',
+        },
+        descriptionMin: 'Сталева губка для поролону',
+        weight: '0,003',
+        codeEAN: '',
+        descriptionFull: `
+         <p>Розігрівач</p><br/>
+        `
+    },
+    {
+        id: '340',
+        title: 'Піноутворювальна головка для пінопласту (чорна, без насадки)',
+        code: 'PIS-PIA-GLO-ST75',
+        price: '133.66',
+        newPrice: '',
+        size: 1,
+        slug: 'goods18-10',
+        img: '/weapons/10.jpg',
+        imageShow: ['/weapons/10.jpg', '/weapons/image1.jpg',  '/weapons/image2.jpg',   '/weapons/image3.jpg', ],
+        description: '',
+        descriptionPrise: '',
+        bread1: {
+            title: 'Зброя та аксесуари',
+            slug: '/weapons-and-accessories',
+        },
+        bread2: {
+            slug: '/weapons-and-accessories/equipment',
+            title: 'Обладнання',
+        },
+        bread3:  {
+            slug: '/weapons-and-accessories/equipment/repair-kits',
+            title: 'Ремонтні комплекти',
+        },
+        descriptionMin: 'Піноутворювальна головка для пінопласту (чорна, без насадки)',
+        weight: '0,1',
+        codeEAN: '',
+        descriptionFull: `
+         <p>Піноутворювальна головка (наконечник) “R+M ST-75 M18F” чорна до пістолета без насадки.</p><br/>
+        `
+    },
+    {
+        id: '341',
+        title: 'Набір для розширення щітки з повітряним інжектором',
+        code: 'SZC-INJ-KOM',
+        price: '348.29',
+        newPrice: '',
+        size: 1,
+        slug: 'goods18-11',
+        img: '/weapons/11.jpg',
+        imageShow: ['/weapons/11.jpg', '/weapons/image4.jpg',  '/weapons/image5.jpg', ],
+        description: '',
+        descriptionPrise: '',
+        bread1: {
+            title: 'Зброя та аксесуари',
+            slug: '/weapons-and-accessories',
+        },
+        bread2: {
+            slug: '/weapons-and-accessories/equipment',
+            title: 'Обладнання',
+        },
+        bread3: {
+            slug: '/weapons-and-accessories/equipment/accessories-for-brushes',
+            title: 'Аксесуари для щіток',
+        },
+        descriptionMin: 'Набір для розширення щітки з повітряним інжектором',
+        weight: '',
+        codeEAN: '',
+        descriptionFull: `
+         <p>Набір для розширення щітки з повітряним інжектором - високого тиску.</p><br/>
+         <p>Його можна використовувати як у стандартних щітках, так і в турбощітках.</p><br/>
+        `
+    },
+    {
+        id: '342',
+        title: 'Зливна пробка для контейнера для щіток MOSMATIC',
+        code: 'KOR-MOS-903.251',
+        price: '297.12',
+        newPrice: '',
+        size: 1,
+        slug: 'goods18-12',
+        img: '/weapons/12.jpg',
+        imageShow: ['/weapons/12.jpg', ],
+        description: '',
+        descriptionPrise: '',
+        bread1: {
+            title: 'Зброя та аксесуари',
+            slug: '/weapons-and-accessories',
+        },
+        bread2: {
+            slug: '/weapons-and-accessories/equipment',
+            title: 'Обладнання',
+        },
+        bread3: {
+            slug: '/weapons-and-accessories/equipment/accessories-for-brushes',
+            title: 'Аксесуари для щіток',
+        },
+        descriptionMin: 'Зливна пробка для контейнера для щіток MOSMATIC',
+        weight: '',
+        codeEAN: '',
+        descriptionFull: `
+         <p>Зливна пробка для контейнера для щіток</p><br/>
+        `
+    },
+    {
+        id: '343',
+        title: 'Ленс (200029306)',
+        code: 'LAN-RM',
+        price: '59.77',
+        newPrice: '',
+        size: 1,
+        slug: 'goods18-13',
+        img: '/weapons/13.jpg',
+        imageShow: ['/weapons/13.jpg', ],
+        description: '',
+        descriptionPrise: '',
+        bread1: {
+            title: 'Зброя та аксесуари',
+            slug: '/weapons-and-accessories',
+        },
+        bread2: {
+            slug: '/weapons-and-accessories/equipment',
+            title: 'Обладнання',
+        },
+        bread3:  {
+            slug: '/weapons-and-accessories/equipment/spears',
+            title: 'Списи',
+        },
+        descriptionMin: 'Список для нових пістолетів SamWash',
+        weight: '0,428',
+        codeEAN: '',
+        descriptionFull: `
+         <p>Список для нових пістолетів SamWash</p><br/>
+         <p>Довжина фурми: 600 мм</p><br/>
+        `
+    },
+    {
+        id: '344',
+        title: 'Ленс (200029306)',
+        code: 'LAN-RM-EASY-15G',
+        price: '102.84',
+        newPrice: '',
+        size: 1,
+        slug: 'goods18-14',
+        img: '',
+        imageShow: null,
+        description: '',
+        descriptionPrise: '',
+        bread1: {
+            title: 'Зброя та аксесуари',
+            slug: '/weapons-and-accessories',
+        },
+        bread2: {
+            slug: '/weapons-and-accessories/equipment',
+            title: 'Обладнання',
+        },
+        bread3:  {
+            slug: '/weapons-and-accessories/equipment/spears',
+            title: 'Списи',
+        },
+        descriptionMin: 'Список вигнутий для пістолета R+M',
+        weight: '',
+        codeEAN: '',
+        descriptionFull: `
+         <p>Список вигнутий для пістолета R+M</p><br/>
+        `
+    },
+    {
+        id: '345',
+        title: '1200 мм трубка з нержавіючої сталі з теплозахисним екраном',
+        code: 'LAN-PA-005',
+        price: '139.17',
+        newPrice: '',
+        size: 1,
+        slug: 'goods18-15',
+        img: '/weapons/15.jpg',
+        imageShow: ['/weapons/15.jpg', ],
+        description: '',
+        descriptionPrise: '',
+        bread1: {
+            title: 'Зброя та аксесуари',
+            slug: '/weapons-and-accessories',
+        },
+        bread2: {
+            slug: '/weapons-and-accessories/equipment',
+            title: 'Обладнання',
+        },
+        bread3:  {
+            slug: '/weapons-and-accessories/equipment/spears',
+            title: 'Списи',
+        },
+        descriptionMin: '1200 мм трубка з нержавіючої сталі з теплозахисним екраном',
+        weight: '',
+        codeEAN: '',
+        descriptionFull: `
+         <p>1200 мм трубка з нержавіючої сталі з теплозахисним екраном</p><br/>
+        `
+    },
+    {
+        id: '346',
+        title: 'Спис з нержавіючої сталі 450 мм з теплозахисним екраном',
+        code: 'LAN-PA-001',
+        price: '43.42',
+        newPrice: '',
+        size: 1,
+        slug: 'goods18-16',
+        img: '/weapons/16.jpg',
+        imageShow: ['/weapons/16.jpg', ],
+        description: '',
+        descriptionPrise: '',
+        bread1: {
+            title: 'Зброя та аксесуари',
+            slug: '/weapons-and-accessories',
+        },
+        bread2: {
+            slug: '/weapons-and-accessories/equipment',
+            title: 'Обладнання',
+        },
+        bread3:  {
+            slug: '/weapons-and-accessories/equipment/spears',
+            title: 'Списи',
+        },
+        descriptionMin: 'Спис з нержавіючої сталі 450 мм з теплозахисним екраном',
+        weight: '0,27',
+        codeEAN: '',
+        descriptionFull: `
+         <p>Спис з теплозахисним екраном для зброї AURA. Довжина фурнітури 450 мм. Різьба GZ1/4' з обох сторін.
+          Підходить для автомийок Ehrle та інших виробників.</p><br/>
+        `
+    },
+    {
+        id: '347',
+        title: 'Спис з нержавіючої сталі 500 мм з теплозахисним екраном і кришкою (прямий)',
+        code: 'LAN-PA-003',
+        price: '59.67',
+        newPrice: '',
+        size: 1,
+        slug: 'goods18-17',
+        img: '/weapons/17.jpg',
+        imageShow: ['/weapons/17.jpg', '/weapons/image6.jpg', ],
+        description: '',
+        descriptionPrise: '',
+        bread1: {
+            title: 'Зброя та аксесуари',
+            slug: '/weapons-and-accessories',
+        },
+        bread2: {
+            slug: '/weapons-and-accessories/equipment',
+            title: 'Обладнання',
+        },
+        bread3:  {
+            slug: '/weapons-and-accessories/equipment/spears',
+            title: 'Списи',
+        },
+        descriptionMin: 'Спис з нержавіючої сталі 500 мм з теплозахисним екраном і кришкою (прямий)',
+        weight: '0,27',
+        codeEAN: '',
+        descriptionFull: `
+         <p>Спис з теплозахисним екраном. Довжина труби 500 мм. Підходить для автомийок Ehrle та інших 
+         виробників.</p><br/>
+        `
+    },
+    {
+        id: '348',
+        title: 'Кришка насадки',
+        code: 'OSL-DYS-RM',
+        price: '30.82',
+        newPrice: '',
+        size: 1,
+        slug: 'goods18-18',
+        img: '/weapons/18.jpg',
+        imageShow: ['/weapons/18.jpg', ],
+        description: '',
+        descriptionPrise: '',
+        bread1: {
+            title: 'Зброя та аксесуари',
+            slug: '/weapons-and-accessories',
+        },
+        bread2: {
+            slug: '/weapons-and-accessories/equipment',
+            title: 'Обладнання',
+        },
+        bread3:  {
+            slug: '/weapons-and-accessories/equipment/nozzles-and-covers',
+            title: 'Насадки і кришки',
+        },
+        descriptionMin: 'Кришка сопла для нових пістолетів SamWash',
+        weight: '0,043',
+        codeEAN: '',
+        descriptionFull: `
+         <p>Кришка сопла для нових пістолетів SamWash (200010720)</p><br/>
+         <p>Кришка виконана з твердого і м'якого пластику. Підходить для холодної та гарячої води в автомийках, 
+         сільському господарстві та харчовій промисловості. Призначення кришки – захистити як насадку, так і 
+         поверхні, які очищаються. Ця кришка підходить для насадок 1/4" M NPT.</p><br/>
+        `
+    },
+    {
+        id: '349',
+        title: 'Кришка насадки (чорна)',
+        code: 'OSL-DYS-PA',
+        price: '20.47',
+        newPrice: '',
+        size: 1,
+        slug: 'goods18-19',
+        img: '/weapons/19.jpg',
+        imageShow: ['/weapons/19.jpg', ],
+        description: '',
+        descriptionPrise: '',
+        bread1: {
+            title: 'Зброя та аксесуари',
+            slug: '/weapons-and-accessories',
+        },
+        bread2: {
+            slug: '/weapons-and-accessories/equipment',
+            title: 'Обладнання',
+        },
+        bread3:  {
+            slug: '/weapons-and-accessories/equipment/nozzles-and-covers',
+            title: 'Насадки і кришки',
+        },
+        descriptionMin: 'Кришка насадки (чорна)',
+        weight: '0,043',
+        codeEAN: '',
+        descriptionFull: `
+         <p>Кришка насадки (чорна)</p><br/>
+         <p>Кришка виконана з твердого і м'якого пластику. Підходить для використання з холодною та гарячою водою 
+         в автомийках, сільському господарстві та харчовій промисловості. Ця кришка підходить для форсунок
+          розміром 1/4" та 1/8".</p><br/>
+        `
+    },
+    {
+        id: '350',
+        title: 'Кришка пістолета/списка',
+        code: 'OSL-PIS-LAN-RM',
+        price: '6.54',
+        newPrice: '',
+        size: 1,
+        slug: 'goods18-20',
+        img: '/weapons/20.jpg',
+        imageShow: ['/weapons/20.jpg', ],
+        description: '',
+        descriptionPrise: '',
+        bread1: {
+            title: 'Зброя та аксесуари',
+            slug: '/weapons-and-accessories',
+        },
+        bread2: {
+            slug: '/weapons-and-accessories/equipment',
+            title: 'Обладнання',
+        },
+        bread3:  {
+            slug: '/weapons-and-accessories/equipment/nozzles-and-covers',
+            title: 'Насадки і кришки',
+        },
+        descriptionMin: 'Кришка пістолета/списка',
+        weight: '0,007',
+        codeEAN: '',
+        descriptionFull: `
+         <p>Чорна обкладинка. Закриває з'єднання ручки і фурнітури. Використовується для гармат РМ</p><br/>
+        `
+    },
+    {
+        id: '351',
+        title: 'Чохол для рамки щітки (020001540)',
+        code: 'OSL-RAM-WLO',
+        price: '66.37',
+        newPrice: '',
+        size: 1,
+        slug: 'goods18-21',
+        img: '/weapons/21.jpg',
+        imageShow: ['/weapons/21.jpg', ],
+        description: '',
+        descriptionPrise: '',
+        bread1: {
+            title: 'Зброя та аксесуари',
+            slug: '/weapons-and-accessories',
+        },
+        bread2: {
+            slug: '/weapons-and-accessories/equipment',
+            title: 'Обладнання',
+        },
+        bread3: {
+            slug: '/weapons-and-accessories/equipment/accessories-for-brushes',
+            title: 'Аксесуари для щіток',
+        },
+        descriptionMin: 'Чохол для рамки щітки',
+        weight: '',
+        codeEAN: '',
+        descriptionFull: `
+         <p>Каркас ворсу щітки виготовлений із пластику.</p><br/>
+         <p>Також пропонуємо сталевий каркас.</p><br/>
+        `
+    },
+    {
+        id: '352',
+        title: 'AURA LP weep gun 3/8\'\' GW поворотний наконечник, 1/4\'\' GW (зелений)',
+        code: 'PIS-AUR',
+        price: '161.89',
+        newPrice: '',
+        size: 1,
+        slug: 'goods18-22',
+        img: '/weapons/22.jpg',
+        imageShow: ['/weapons/22.jpg', ],
+        description: '',
+        descriptionPrise: '',
+        bread1: {
+            title: 'Зброя та аксесуари',
+            slug: '/weapons-and-accessories',
+        },
+        bread2: {
+            slug: '/weapons-and-accessories/guns-and-brushes',
+            title: 'Рушниці та щітки'
+        },
+        bread3: '',
+        descriptionMin: 'Пістолет має поворотний з\'єднувач з боку шланга: 3/8 дюйма з боку шланга, підходить ' +
+            'для автомийок Ehrle та інших виробників. макс. тиск 210, 3100 PSI, макс. потік 25 л/хв, 7 GPM',
+        weight: '0,405',
+        codeEAN: '',
+        descriptionFull: `
+         <p>Пістолет має поворотний роз'єм з боку шланга.</p>
+         <p>Різьба: 3/8 GW на стороні шланга, 1/4 GW на стороні фурми.</p><br/>
+         <p>Підходить для автомийок Ehrle і безконтактних мийок інших виробників!</p><br/>
+         <p><b>Технічні дані</b></p><br/>
+         <p>макс. температура 150 градусів С</p>
+         <p>макс. тиск 210 бар, 3100 PSI</p>
+         <p>макс. потік 25 л/хв, 7 галлонів на хвилину</p><br/>
+         <p>Виробник: MTM Hydro</p>
+         <p>Зроблено в Італії</p><br/>
+        `
+    },
+    {
+        id: '353',
+        title: 'Пістолет AURA з постійним плачем 0,6 л/хв (синій з поворотним наконечником) ',
+        code: 'PIS-AUR-PW',
+        price: '138.15',
+        newPrice: '',
+        size: 1,
+        slug: 'goods18-23',
+        img: '/weapons/23.jpg',
+        imageShow: ['/weapons/23.jpg', ],
+        description: '',
+        descriptionPrise: '',
+        bread1: {
+            title: 'Зброя та аксесуари',
+            slug: '/weapons-and-accessories',
+        },
+        bread2: {
+            slug: '/weapons-and-accessories/guns-and-brushes',
+            title: 'Рушниці та щітки'
+        },
+        bread3: '',
+        descriptionMin: 'Пістолет AURA з постійним плачем 0,6л/хв, синій з поворотним наконечником. ',
+        weight: '0,404',
+        codeEAN: '',
+        descriptionFull: `
+         <p>Пістолет AURA з постійним плачем 0,6л/хв, синій з поворотним наконечником. </p><br/>
+         <p><b>Технічні дані</b></p><br/>
+         <p>макс. температура 150 градусів С</p>
+         <p>макс. тиск 210 бар, 3100 PSI</p>
+         <p>макс. потік 25 л/хв, 7 галлонів на хвилину</p><br/>
+        `
+    },
+    {
+        id: '354',
+        title: 'Рушниця AURA з постійним плачем 1,1л/хв (синя з поворотним наконечником, зима)',
+        code: 'PIS-AUR-PW-10.304',
+        price: '169.56',
+        newPrice: '',
+        size: 1,
+        slug: 'goods18-24',
+        img: '/weapons/24.jpg',
+        imageShow: ['/weapons/24.jpg', ],
+        description: '',
+        descriptionPrise: '',
+        bread1: {
+            title: 'Зброя та аксесуари',
+            slug: '/weapons-and-accessories',
+        },
+        bread2: {
+            slug: '/weapons-and-accessories/guns-and-brushes',
+            title: 'Рушниці та щітки'
+        },
+        bread3: '',
+        descriptionMin: 'Рушниця AURA з постійним плачем 1,1л/хв (синя з поворотним наконечником, зима)',
+        weight: '0,405',
+        codeEAN: '',
+        descriptionFull: `
+         <p>Пістолет AURA з постійним плачем 1,1л/хв, синій з поворотним наконечником (зима).</p><br/>
+         <p><b>Параметри:</b></p><br/>
+         <p>макс. температура 150 градусів С</p>
+         <p>макс. тиск 210 бар, 3100 PSI</p>
+         <p>макс. потік 25 л/хв, 7 ГП</p><br/>
+        `
+    },
+    {
+        id: '355',
+        title: 'Пістолет SamWash з поворотним наконечником',
+        code: 'PIS-RM',
+        price: '240.06',
+        newPrice: '',
+        size: 1,
+        slug: 'goods18-25',
+        img: '/weapons/25.jpg',
+        imageShow: ['/weapons/25.jpg', ],
+        description: '',
+        descriptionPrise: '',
+        bread1: {
+            title: 'Зброя та аксесуари',
+            slug: '/weapons-and-accessories',
+        },
+        bread2: {
+            slug: '/weapons-and-accessories/guns-and-brushes',
+            title: 'Рушниці та щітки'
+        },
+        bread3: '',
+        descriptionMin: 'Пістолет SamWash з поворотним наконечником',
+        weight: '0,672',
+        codeEAN: '',
+        descriptionFull: `
+         <p>Рукоятка пістолета РМ з поворотним наконечником. Пістолет використовує постійний спускний клапан.</p><br/>
+        `
+    },
+    {
+        id: '356',
+        title: 'Пістолет для пінопласту з блакитним логотипом SamWash (постійний плак, сопло 1,05 мм)',
+        code: 'PIS-PIA-SamWash-NIEB',
+        price: '516.11',
+        newPrice: '',
+        size: 1,
+        slug: 'goods18-26',
+        img: '/weapons/26.jpg',
+        imageShow: ['/weapons/26.jpg', ],
+        description: '',
+        descriptionPrise: '',
+        bread1: {
+            title: 'Зброя та аксесуари',
+            slug: '/weapons-and-accessories',
+        },
+        bread2: {
+            slug: '/weapons-and-accessories/guns-and-brushes',
+            title: 'Рушниці та щітки'
+        },
+        bread3: '',
+        descriptionMin: 'Пістолет із пінопластом із синім логотипом SamWash, постійний плак, сопло 1,05 мм',
+        weight: '1,05',
+        codeEAN: '',
+        descriptionFull: `
+         <p>Пінопластовий пістолет із блакитним логотипом SamWash, постійний спускний клапан, сопло 1,05 мм.</p><br/>
+         <p>Призначений для миття автомобілів за програмою «Активна піна». Постійне плавання дозволяє потік
+          низького та високого тиску.</p><br/>
+        `
+    },
+    {
+        id: '357',
+        title: 'Пістолет для пінопласту з синім логотипом SamWash, без постійного плака, сопло 1,05 мм (500260012)',
+        code: 'PIS-PIA-SamWash-NIEB-BPW',
+        price: '610.45',
+        newPrice: '',
+        size: 1,
+        slug: 'goods18-27',
+        img: '/weapons/27.jpg',
+        imageShow: ['/weapons/27.jpg', ],
+        description: '',
+        descriptionPrise: '',
+        bread1: {
+            title: 'Зброя та аксесуари',
+            slug: '/weapons-and-accessories',
+        },
+        bread2: {
+            slug: '/weapons-and-accessories/guns-and-brushes',
+            title: 'Рушниці та щітки'
+        },
+        bread3: '',
+        descriptionMin: 'Пістолет для пінопласту з синім логотипом SamWash, клапан без постійного зазору, сопло 1,05 мм',
+        weight: '1,024',
+        codeEAN: '',
+        descriptionFull: `
+         <p>Пістолет для пінопласту з синім логотипом BKF, клапан без постійного зазору, сопло 1,05 мм</p><br/>
+        `
+    },
+    {
+        id: '358',
+        title: 'Пістолет зі списом і логотипом SamWash (без постійного плака)',
+        code: 'PIS-LAN-RM-BPW',
+        price: '423.51',
+        newPrice: '',
+        size: 1,
+        slug: 'goods18-28',
+        img: '/weapons/28.jpg',
+        imageShow: ['/weapons/28.jpg', '/weapons/image7.jpg', ],
+        description: '',
+        descriptionPrise: '',
+        bread1: {
+            title: 'Зброя та аксесуари',
+            slug: '/weapons-and-accessories',
+        },
+        bread2: {
+            slug: '/weapons-and-accessories/guns-and-brushes',
+            title: 'Рушниці та щітки'
+        },
+        bread3: '',
+        descriptionMin: 'Пістолет зі списом і логотипом SamWash (без постійного плака)',
+        weight: '1,5',
+        codeEAN: '',
+        descriptionFull: `
+         <p>Пістолет з фурманкою для безконтактної мийки (з логотипом BKF). Технологія постійного плачу не використовується.</p><br/>
+        `
+    },
+    {
+        id: '359',
+        title: 'Рушниця з обертовим наконечником',
+        code: 'PIS-RM-BLUE',
+        price: '265.42',
+        newPrice: '',
+        size: 1,
+        slug: 'goods18-29',
+        img: '/weapons/29.jpg',
+        imageShow: ['/weapons/29.jpg', '/weapons/image8.jpg',  '/weapons/image9.jpg', ],
+        description: '',
+        descriptionPrise: '',
+        bread1: {
+            title: 'Зброя та аксесуари',
+            slug: '/weapons-and-accessories',
+        },
+        bread2: {
+            slug: '/weapons-and-accessories/guns-and-brushes',
+            title: 'Рушниці та щітки'
+        },
+        bread3: '',
+        descriptionMin: 'Важко уявити добре працюючу автомийку без додаткових аксесуарів, здатних ретельно ' +
+            'очистити кожен елемент кузова. У цій категорії ви знайдете щітки для мийок високого тиску та ' +
+            'пістолетів (з насадкою), які є основою обладнання мийки.',
+        weight: '',
+        codeEAN: '',
+        descriptionFull: `
+         <p>Рукоятка пістолета РМ з поворотним наконечником. Пістолет використовує постійний спускний клапан.</p><br/>
+        `
+    },
+    {
+        id: '360',
+        title: 'Піхви (кріпляться до землі)',
+        code: 'POC-LAN-POD',
+        price: '485.41',
+        newPrice: '',
+        size: 1,
+        slug: 'goods18-30',
+        img: '/weapons/30.jpg',
+        imageShow: ['/weapons/30.jpg', ],
+        description: '',
+        descriptionPrise: '',
+        bread1: {
+            title: 'Зброя та аксесуари',
+            slug: '/weapons-and-accessories',
+        },
+        bread2:  {
+            slug: '/weapons-and-accessories/lance-scabbards',
+            title: 'Лансові піхви'
+        },
+        bread3: '',
+        descriptionMin: 'Піхви (кріпляться до землі)',
+        weight: '15',
+        codeEAN: '2010000000212',
+        descriptionFull: `
+         <p>Кожух фурми для безконтактної мийки, кріпиться до землі, виготовлений з нержавіючої сталі.</p><br/>
+        `
+    },
+    {
+        id: '361',
+        title: 'Контейнер для щіток з нержавіючої сталі, призначений для щіток EASYWASH365+',
+        code: 'POJ-SZC',
+        price: '1871.29',
+        newPrice: '',
+        size: 1,
+        slug: 'goods18-31',
+        img: '/weapons/31.jpg',
+        imageShow: ['/weapons/31.jpg', ],
+        description: '',
+        descriptionPrise: '',
+        bread1: {
+            title: 'Зброя та аксесуари',
+            slug: '/weapons-and-accessories',
+        },
+        bread2: {
+            slug: '/weapons-and-accessories/equipment',
+            title: 'Обладнання',
+        },
+        bread3: {
+            slug: '/weapons-and-accessories/equipment/accessories-for-brushes',
+            title: 'Аксесуари для щіток',
+        },
+        descriptionMin: 'Контейнер для щіток з нержавіючої сталі, призначений для щіток EASYWASH365+.',
+        weight: '',
+        codeEAN: '',
+        descriptionFull: `
+         <p>Контейнер для щіток з нержавіючої сталі, призначений для щіток EASYWASH365+. </p><br/>
+        `
+    },
+    {
+        id: '362',
+        title: 'Щетинний каркас для пензля 1/4" GW (пластик)',
+        code: 'RAM-WLO',
+        price: '44.39',
+        newPrice: '',
+        size: 1,
+        slug: 'goods18-32',
+        img: '/weapons/32.jpg',
+        imageShow: ['/weapons/32.jpg', '/weapons/image10.jpg', ],
+        description: '',
+        descriptionPrise: '',
+        bread1: {
+            title: 'Зброя та аксесуари',
+            slug: '/weapons-and-accessories',
+        },
+        bread2: {
+            slug: '/weapons-and-accessories/equipment',
+            title: 'Обладнання',
+        },
+        bread3: {
+            slug: '/weapons-and-accessories/equipment/accessories-for-brushes',
+            title: 'Аксесуари для щіток',
+        },
+        descriptionMin: 'Оправа з щетиною для нитяної щітки 1/4 дюйма',
+        weight: '',
+        codeEAN: '',
+        descriptionFull: `
+         <p>Щетинний каркас для кисті 1/4" GW, виготовлений із пластику.</p><br/>
+         <p>Також пропонуємо сталевий каркас.</p><br/>
+        `
+    },
+    {
+        id: '363',
+        title: 'Щетинний каркас для пензля 1/4" GW (нерж. сталь)',
+        code: 'RAM-WLO-STAL',
+        price: '192.99',
+        newPrice: '',
+        size: 1,
+        slug: 'goods18-33',
+        img: '/weapons/33.jpg',
+        imageShow: ['/weapons/33.jpg', '/weapons/image11.jpg', ],
+        description: '',
+        descriptionPrise: '',
+        bread1: {
+            title: 'Зброя та аксесуари',
+            slug: '/weapons-and-accessories',
+        },
+        bread2: {
+            slug: '/weapons-and-accessories/equipment',
+            title: 'Обладнання',
+        },
+        bread3: {
+            slug: '/weapons-and-accessories/equipment/accessories-for-brushes',
+            title: 'Аксесуари для щіток',
+        },
+        descriptionMin: 'Щетинний каркас для пензля 1/4" GW (нерж. сталь)',
+        weight: '0,22',
+        codeEAN: '',
+        descriptionFull: `
+         <p>Щетинний каркас для щітки 1/4" GW, виготовлений з нержавіючої сталі.</p><br/>
+         <p>Також пропонуємо пластикові рами.</p><br/>
+        `
+    },
+    {
+        id: '364',
+        title: 'Щітка низького тиску зі спицем і ручкою (RM, EasyTurn, R+M)',
+        code: 'SZC-LAN-RM-UCH-TURN',
+        price: '523.97',
+        newPrice: '',
+        size: 1,
+        slug: 'goods18-34',
+        img: '/weapons/34.jpg',
+        imageShow: ['/weapons/34.jpg', '/weapons/image12.jpg', ],
+        description: '',
+        descriptionPrise: '',
+        bread1: {
+            title: 'Зброя та аксесуари',
+            slug: '/weapons-and-accessories',
+        },
+        bread2: {
+            slug: '/weapons-and-accessories/guns-and-brushes',
+            title: 'Рушниці та щітки'
+        },
+        bread3: '',
+        descriptionMin: 'Щітка низького тиску зі спицем і ручкою (RM, EasyTurn, R+M)',
+        weight: '',
+        codeEAN: '',
+        descriptionFull: `
+         <p>Щітка низького тиску зі спицем і ручкою (RM, EasyTurn, R+M)</p><br/>
+        `
+    },
+    {
+        id: '365',
+        title: 'Турбощітка з пістолетом і насадкою RM, Freeze Stop, EasyTurn, насадка 3/8" 1.05 з логотипом ' +
+            'SamWash (510097003805)',
+        code: 'SZC-LAN-RM-HP-BPW-TURN',
+        price: '902.72',
+        newPrice: '',
+        size: 1,
+        slug: 'goods18-35',
+        img: '',
+        imageShow: null,
+        description: '',
+        descriptionPrise: '',
+        bread1: {
+            title: 'Зброя та аксесуари',
+            slug: '/weapons-and-accessories',
+        },
+        bread2: {
+            slug: '/weapons-and-accessories/guns-and-brushes',
+            title: 'Рушниці та щітки'
+        },
+        bread3: '',
+        descriptionMin: '',
+        weight: '',
+        codeEAN: '',
+        descriptionFull: `
+        `
+    },
+    {
+        id: '366',
+        title: 'Тримач сопла 1/4GW Bsp - 1/4GW Npt',
+        code: 'UCH-DYS-PA',
+        price: '15.90',
+        newPrice: '',
+        size: 1,
+        slug: 'goods18-36',
+        img: '/weapons/36.jpg',
+        imageShow: ['/weapons/36.jpg', '/weapons/image13.jpg', ],
+        description: '',
+        descriptionPrise: '',
+        bread1: {
+            title: 'Зброя та аксесуари',
+            slug: '/weapons-and-accessories',
+        },
+        bread2: {
+            slug: '/weapons-and-accessories/equipment',
+            title: 'Обладнання',
+        },
+        bread3:  {
+            slug: '/weapons-and-accessories/equipment/nozzles-and-covers',
+            title: 'Насадки і кришки',
+        },
+        descriptionMin: 'Тримач сопла 1/4GW Bsp - 1/4GW Npt',
+        weight: '',
+        codeEAN: '',
+        descriptionFull: `
+         <p>Тримач форсунки 1/4GW Bsp-1/4GW Npt. </p><br/>
+         <p>Використовується в пістолетах AURA.</p><br/>
+        `
+    },
+    {
+        id: '367',
+        title: 'Ущільнювач 10х2,2 для пістолета активної піни R+M',
+        code: 'USZ-79025',
+        price: '9.15',
+        newPrice: '',
+        size: 1,
+        slug: 'goods18-37',
+        img: '/weapons/37.jpg',
+        imageShow: ['/weapons/37.jpg', ],
+        description: '',
+        descriptionPrise: '',
+        bread1: {
+            title: 'Зброя та аксесуари',
+            slug: '/weapons-and-accessories',
+        },
+        bread2: {
+            slug: '/weapons-and-accessories/equipment',
+            title: 'Обладнання',
+        },
+        bread3:  {
+            slug: '/weapons-and-accessories/equipment/repair-kits',
+            title: 'Ремонтні комплекти',
+        },
+        descriptionMin: 'Ущільнювач між піноутворювальною головкою PIS-PIA-GLO-ST75 і фурмою (пінним пістолетом).',
+        weight: '',
+        codeEAN: '',
+        descriptionFull: `
+         <p>Ущільнювач між піноутворювальною головкою PIS-PIA-GLO-ST75 і фурмою (пінним пістолетом).</p><br/>
+        `
+    },
+    {
+        id: '368',
+        title: 'Щетина для щітки L60',
+        code: 'WLO-SZC-001',
+        price: '154.27',
+        newPrice: '',
+        size: 1,
+        slug: 'goods18-38',
+        img: '/weapons/38.jpg',
+        imageShow: ['/weapons/38.jpg', ],
+        description: '',
+        descriptionPrise: '',
+        bread1: {
+            title: 'Зброя та аксесуари',
+            slug: '/weapons-and-accessories',
+        },
+        bread2: {
+            slug: '/weapons-and-accessories/equipment',
+            title: 'Обладнання',
+        },
+        bread3: {
+            slug: '/weapons-and-accessories/equipment/accessories-for-brushes',
+            title: 'Аксесуари для щіток',
+        },
+        descriptionMin: 'Щетина для щітки L60',
+        weight: '',
+        codeEAN: '',
+        descriptionFull: `
+         <p>Щетина щітки довжиною 60 мм.</p><br/>
+         <p>Щетина кріпиться шляхом розміщення на пластиковому або сталевому каркасі.</p><br/>
+        `
+    },
+    {
+        id: '369',
+        title: 'Щетина для щітки L90',
+        code: 'WLO-SZC-002',
+        price: '173.02',
+        newPrice: '',
+        size: 1,
+        slug: 'goods18-39',
+        img: '/weapons/39.jpg',
+        imageShow: ['/weapons/39.jpg', '/weapons/image14.jpg', ],
+        description: '',
+        descriptionPrise: '',
+        bread1: {
+            title: 'Зброя та аксесуари',
+            slug: '/weapons-and-accessories',
+        },
+        bread2: {
+            slug: '/weapons-and-accessories/equipment',
+            title: 'Обладнання',
+        },
+        bread3: {
+            slug: '/weapons-and-accessories/equipment/accessories-for-brushes',
+            title: 'Аксесуари для щіток',
+        },
+        descriptionMin: 'Щетина для щітки L90',
+        weight: '0,334',
+        codeEAN: '',
+        descriptionFull: `
+         <p>Щетина для щітки L90. Щетина щітки довжиною 90 мм.</p><br/>
+         <p>Щетина кріпиться шляхом розміщення на пластиковому або сталевому каркасі.</p><br/>
+        `
+    },
+    {
+        id: '370',
+        title: 'Постійний клапан 0,6 л/хв MTM',
+        code: 'ZAW-MTM-0213',
+        price: '41.19',
+        newPrice: '',
+        size: 1,
+        slug: 'goods18-40',
+        img: '/weapons/40.jpg',
+        imageShow: ['/weapons/40.jpg', ],
+        description: '',
+        descriptionPrise: '',
+        bread1: {
+            title: 'Зброя та аксесуари',
+            slug: '/weapons-and-accessories',
+        },
+        bread2: {
+            slug: '/weapons-and-accessories/equipment',
+            title: 'Обладнання',
+        },
+        bread3:  {
+            slug: '/weapons-and-accessories/equipment/repair-kits',
+            title: 'Ремонтні комплекти',
+        },
+        descriptionMin: 'Постійний клапан Weep для пістолета MTM Aura',
+        weight: '0,023',
+        codeEAN: '',
+        descriptionFull: `
+         <p>Постійний клапан Weep для пістолета MTM Aura</p><br/>
+         <p>Зимова витрата: 0,6 л/хв</p><br/>
+         <p>Чудово підходить для зимових періодів. Це не дозволить вашій автомийці замерзнути.</p><br/>
+        `
+    },
+    {
+        id: '371',
+        title: 'Постійний клапан 1,1 л/хв MTM (10.0320)',
+        code: 'ZAW-MTM-0320',
+        price: '40.29',
+        newPrice: '',
+        size: 1,
+        slug: 'goods18-41',
+        img: '/weapons/41.jpg',
+        imageShow: ['/weapons/41.jpg', ],
+        description: '',
+        descriptionPrise: '',
+        bread1: {
+            title: 'Зброя та аксесуари',
+            slug: '/weapons-and-accessories',
+        },
+        bread2: {
+            slug: '/weapons-and-accessories/equipment',
+            title: 'Обладнання',
+        },
+        bread3:  {
+            slug: '/weapons-and-accessories/equipment/repair-kits',
+            title: 'Ремонтні комплекти',
+        },
+        descriptionMin: 'Постійний клапан 1,1 л/хв MTM (10.0320)',
+        weight: '0,023',
+        codeEAN: '',
+        descriptionFull: `
+         <p>Постійний клапан Weep 1,1 л/хв MTM 10.0320 призначений для пістолетів AURA Winter Flow: 1,1 л/хв. 
+         Чудово підходить для зимових періодів. Це не дозволить вашій автомийці замерзнути.</p><br/>
+        `
+    },
+    {
+        id: '372',
+        title: 'Ремкомплект для пістолета MTM AURA',
+        code: 'ZES-MTM-AURA',
+        price: '47.83',
+        newPrice: '',
+        size: 1,
+        slug: 'goods18-42',
+        img: '/weapons/42.jpg',
+        imageShow: ['/weapons/42.jpg', ],
+        description: '',
+        descriptionPrise: '',
+        bread1: {
+            title: 'Зброя та аксесуари',
+            slug: '/weapons-and-accessories',
+        },
+        bread2: {
+            slug: '/weapons-and-accessories/equipment',
+            title: 'Обладнання',
+        },
+        bread3:  {
+            slug: '/weapons-and-accessories/equipment/repair-kits',
+            title: 'Ремонтні комплекти',
+        },
+        descriptionMin: 'Ремкомплект клапанів для пістолета MTM Aura',
+        weight: '0,025',
+        codeEAN: '',
+        descriptionFull: `
+         <p>Ремкомплект для пістолета MTM AURA </p><br/>
+        `
+    },
+    {
+        id: '373',
+        title: 'Ремкомплект пістолета R+M ST2600 (промивка, піна) з клапаном Permanent Weep',
+        code: 'ZЕS-НАП-Р+М-PIS',
+        price: '64.56',
+        newPrice: '',
+        size: 1,
+        slug: 'goods18-43',
+        img: '/weapons/43.jpg',
+        imageShow: ['/weapons/43.jpg', ],
+        description: '',
+        descriptionPrise: '',
+        bread1: {
+            title: 'Зброя та аксесуари',
+            slug: '/weapons-and-accessories',
+        },
+        bread2: {
+            slug: '/weapons-and-accessories/equipment',
+            title: 'Обладнання',
+        },
+        bread3:  {
+            slug: '/weapons-and-accessories/equipment/repair-kits',
+            title: 'Ремонтні комплекти',
+        },
+        descriptionMin: 'Ремкомплект пістолета R+M ST2600 (промивка, піна) з клапаном Permanent Weep',
+        weight: '0,077',
+        codeEAN: '',
+        descriptionFull: `
+         <p>Ремкомплект пістолета R+M ST2600 з клапаном Permanent Weep.</p><br/>
+         <p>Призначений для:</p><br/>
+         <p>пістолет R+M для станції мийки,</p>
+         <p>поролоновий пістолет.</p><br/>
+        `
+    },
+    {
+        id: '374',
+        title: 'Ремкомплект R+M для пістолета ST-2600 (Freeze stop)',
+        code: 'ZES-NAP-R+M',
+        price: '123.30',
+        newPrice: '',
+        size: 1,
+        slug: 'goods18-44',
+        img: '/weapons/44.jpg',
+        imageShow: ['/weapons/44.jpg', ],
+        description: '',
+        descriptionPrise: '',
+        bread1: {
+            title: 'Зброя та аксесуари',
+            slug: '/weapons-and-accessories',
+        },
+        bread2: {
+            slug: '/weapons-and-accessories/equipment',
+            title: 'Обладнання',
+        },
+        bread3:  {
+            slug: '/weapons-and-accessories/equipment/repair-kits',
+            title: 'Ремонтні комплекти',
+        },
+        descriptionMin: 'Ремкомплект R+M для пістолета ST-2600 (Freeze stop)',
+        weight: '0,076',
+        codeEAN: '',
+        descriptionFull: `
+         <p>Ремкомплект R+M для пістолета ST-2600 із запірним клапаном Freeze (без постійного плачу) </p><br/>
+         <p>Призначений для:</p><br/>
+         <p>пістолет R+M для станції мийки,</p>
+         <p>поролоновий пістолет.</p><br/>
+        `
+    },
+
+    {
+        id: '375',
+        title: 'Трос для стріли (C11C11 3/8" GW-GW 2SN DN6 1000 мм)',
+        code: 'PRZ-WYS-1000',
+        price: '95.61',
+        newPrice: '',
+        size: 1,
+        slug: 'goods19-1',
+        img: '/cables/1.jpg',
+        imageShow: ['/cables/1.jpg', ],
+        description: '',
+        descriptionPrise: '',
+        bread1: {
+            title: 'Кабелі/Шланги',
+            slug: '/cables-hoses',
+        },
+        bread2: {
+            slug: '/cables-hoses/ropes-for-arrows',
+            title: 'Троси для стріл'
+        },
+        bread3:  '',
+        descriptionMin: '',
+        weight: '',
+        codeEAN: '',
+        descriptionFull: `
+         <p>Ремкомплект</p><br/>
+        `
+    },
+    {
+        id: '376',
+        title: 'Трос до стріли (MOSMATIC BEL/BEL 12I 2SN DN 8 1660 мм)',
+        code: 'PRZ-WYS-MOS-166',
+        price: '70.54',
+        newPrice: '',
+        size: 1,
+        slug: 'goods19-2',
+        img: '/cables/2.jpg',
+        imageShow: ['/cables/2.jpg', ],
+        description: '',
+        descriptionPrise: '',
+        bread1: {
+            title: 'Кабелі/Шланги',
+            slug: '/cables-hoses',
+        },
+        bread2: {
+            slug: '/cables-hoses/ropes-for-arrows',
+            title: 'Троси для стріл'
+        },
+        bread3:  '',
+        descriptionMin: '',
+        weight: '',
+        codeEAN: '',
+        descriptionFull: `
+         <p>Ремкомплект</p><br/>
+        `
+    },
+    {
+        id: '377',
+        title: 'Трос до стріли (MOSMATIC BEL/BEL 12I 2SN DN 8 1750 мм)',
+        code: 'PRZ-WYS-MOS-175',
+        price: '109.85',
+        newPrice: '',
+        size: 1,
+        slug: 'goods19-3',
+        img: '/cables/3.jpg',
+        imageShow: ['/cables/3.jpg', ],
+        description: '',
+        descriptionPrise: '',
+        bread1: {
+            title: 'Кабелі/Шланги',
+            slug: '/cables-hoses',
+        },
+        bread2: {
+            slug: '/cables-hoses/ropes-for-arrows',
+            title: 'Троси для стріл'
+        },
+        bread3:  '',
+        descriptionMin: '',
+        weight: '',
+        codeEAN: '',
+        descriptionFull: `
+         <p>Ремкомплект</p><br/>
+        `
+    },
+    {
+        id: '378',
+        title: 'Пневматичний шланг (10 мм х 6,5 мм поліуретан, синій)',
+        code: 'ПРЗ-ПНЕУМ-10ММ',
+        price: '7.48',
+        newPrice: '',
+        size: 1,
+        slug: 'goods19-4',
+        img: '/cables/4.jpg',
+        imageShow: ['/cables/4.jpg', ],
+        description: '',
+        descriptionPrise: '',
+        bread1: {
+            title: 'Кабелі/Шланги',
+            slug: '/cables-hoses',
+        },
+        bread2: {
+            slug: '/cables-hoses/other-cables',
+            title: 'Інші кабелі'
+        },
+        bread3:  '',
+        descriptionMin: '',
+        weight: '',
+        codeEAN: '',
+        descriptionFull: `
+         <p>Ремкомплект</p><br/>
+        `
+    },
+    {
+        id: '379',
+        title: 'Шланг пневматичний (8 мм х 5,5 мм, поліуретан, синій)',
+        code: 'ПРЗ-ПНЕУМ-8ММ',
+        price: '11.93',
+        newPrice: '',
+        size: 1,
+        slug: 'goods19-5',
+        img: '/cables/5.jpg',
+        imageShow: ['/cables/5.jpg', ],
+        description: '',
+        descriptionPrise: '',
+        bread1: {
+            title: 'Кабелі/Шланги',
+            slug: '/cables-hoses',
+        },
+        bread2: {
+            slug: '/cables-hoses/other-cables',
+            title: 'Інші кабелі'
+        },
+        bread3:  '',
+        descriptionMin: '',
+        weight: '',
+        codeEAN: '',
+        descriptionFull: `
+         <p>Ремкомплект</p><br/>
+        `
+    },
+    {
+        id: '380',
+        title: 'Кабель поліуретановий (12 мм U-12090-BU синій)',
+        code: 'ПРЗ-ПНЕУМ-12ММ',
+        price: '9.91',
+        newPrice: '',
+        size: 1,
+        slug: 'goods19-6',
+        img: '/cables/6.jpg',
+        imageShow: ['/cables/6.jpg', ],
+        description: '',
+        descriptionPrise: '',
+        bread1: {
+            title: 'Кабелі/Шланги',
+            slug: '/cables-hoses',
+        },
+        bread2: {
+            slug: '/cables-hoses/other-cables',
+            title: 'Інші кабелі'
+        },
+        bread3:  '',
+        descriptionMin: '',
+        weight: '',
+        codeEAN: '',
+        descriptionFull: `
+         <p>Ремкомплект</p><br/>
+        `
+    },
+    {
+        id: '381',
+        title: 'Внутрішній кабель до штанги (MOSMATIC ECO2 904.438)',
+        code: 'PRZ-WYS-MOS-904.438',
+        price: '561.08',
+        newPrice: '',
+        size: 1,
+        slug: 'goods19-7',
+        img: '/cables/7.jpg',
+        imageShow: ['/cables/7.jpg', ],
+        description: '',
+        descriptionPrise: '',
+        bread1: {
+            title: 'Кабелі/Шланги',
+            slug: '/cables-hoses',
+        },
+        bread2: {
+            slug: '/cables-hoses/ropes-for-arrows',
+            title: 'Троси для стріл'
+        },
+        bread3:  '',
+        descriptionMin: '',
+        weight: '',
+        codeEAN: '',
+        descriptionFull: `
+         <p>Ремкомплект</p><br/>
+        `
+    },
+    {
+        id: '382',
+        title: 'Шланг для пістолета (Comfort 3/8 MZ GW 4300 мм червоний)',
+        code: 'PRZ-PIS-4300-RM',
+        price: '116.54',
+        newPrice: '',
+        size: 1,
+        slug: 'goods19-8',
+        img: '/cables/8.jpg',
+        imageShow: ['/cables/8.jpg', ],
+        description: '',
+        descriptionPrise: '',
+        bread1: {
+            title: 'Кабелі/Шланги',
+            slug: '/cables-hoses',
+        },
+        bread2: {
+            slug: '/cables-hoses/cannon-cables',
+            title: 'Гарматні кабелі'
+        },
+        bread3:  '',
+        descriptionMin: '',
+        weight: '',
+        codeEAN: '',
+        descriptionFull: `
+         <p>Ремкомплект</p><br/>
+        `
+    },
+    {
+        id: '383',
+        title: 'Шланг для пістолета (Comfort 3/8 MZ GW 4300 мм синій)',
+        code: 'PRZ-PIS-4300-RM-NIE',
+        price: '110.63',
+        newPrice: '',
+        size: 1,
+        slug: 'goods19-9',
+        img: '/cables/9.jpg',
+        imageShow: ['/cables/9.jpg', ],
+        description: '',
+        descriptionPrise: '',
+        bread1: {
+            title: 'Кабелі/Шланги',
+            slug: '/cables-hoses',
+        },
+        bread2: {
+            slug: '/cables-hoses/cannon-cables',
+            title: 'Гарматні кабелі'
+        },
+        bread3:  '',
+        descriptionMin: '',
+        weight: '',
+        codeEAN: '',
+        descriptionFull: `
+         <p>Ремкомплект</p><br/>
+        `
+    },
+    {
+        id: '384',
+        title: 'Шланг для пістолета (Comfort 3/8 MZ GW 5000 мм червоний)',
+        code: 'PRZ-PIS-5000-RM',
+        price: '120.28',
+        newPrice: '',
+        size: 1,
+        slug: 'goods19-10',
+        img: '/cables/10.jpg',
+        imageShow: ['/cables/10.jpg', ],
+        description: '',
+        descriptionPrise: '',
+        bread1: {
+            title: 'Кабелі/Шланги',
+            slug: '/cables-hoses',
+        },
+        bread2: {
+            slug: '/cables-hoses/cannon-cables',
+            title: 'Гарматні кабелі'
+        },
+        bread3:  '',
+        descriptionMin: '',
+        weight: '',
+        codeEAN: '',
+        descriptionFull: `
+         <p>Ремкомплект</p><br/>
+        `
+    },
+    {
+        id: '385',
+        title: 'Шланг для пістолета (Comfort 3/8 MZ GW 5000 мм синій)',
+        code: 'PRZ-PIS-5000-RM-NIE',
+        price: '130.21',
+        newPrice: '',
+        size: 1,
+        slug: 'goods19-11',
+        img: '/cables/11.jpg',
+        imageShow: ['/cables/11.jpg', ],
+        description: '',
+        descriptionPrise: '',
+        bread1: {
+            title: 'Кабелі/Шланги',
+            slug: '/cables-hoses',
+        },
+        bread2: {
+            slug: '/cables-hoses/cannon-cables',
+            title: 'Гарматні кабелі'
+        },
+        bread3:  '',
+        descriptionMin: '',
+        weight: '',
+        codeEAN: '',
+        descriptionFull: `
+         <p>Ремкомплект</p><br/>
+        `
+    },
+    {
+        id: '386',
+        title: 'Шланг для пістолета (Comfort 3/8 MZ GW 5500 мм червоний) ',
+        code: 'PRZ-PIS-5500-RM',
+        price: '154.96',
+        newPrice: '',
+        size: 1,
+        slug: 'goods19-12',
+        img: '/cables/12.jpg',
+        imageShow: ['/cables/12.jpg', ],
+        description: '',
+        descriptionPrise: '',
+        bread1: {
+            title: 'Кабелі/Шланги',
+            slug: '/cables-hoses',
+        },
+        bread2: {
+            slug: '/cables-hoses/cannon-cables',
+            title: 'Гарматні кабелі'
+        },
+        bread3:  '',
+        descriptionMin: '',
+        weight: '',
+        codeEAN: '',
+        descriptionFull: `
+         <p>Ремкомплект</p><br/>
+        `
+    },
+    {
+        id: '387',
+        title: 'Пістолетний шланг (Комфорт 3/8 MZ GW 6000 мм червоний)',
+        code: 'PRZ-PIS-6000-RM',
+        price: '172.72',
+        newPrice: '',
+        size: 1,
+        slug: 'goods19-13',
+        img: '/cables/13.jpg',
+        imageShow: ['/cables/13.jpg', ],
+        description: '',
+        descriptionPrise: '',
+        bread1: {
+            title: 'Кабелі/Шланги',
+            slug: '/cables-hoses',
+        },
+        bread2: {
+            slug: '/cables-hoses/cannon-cables',
+            title: 'Гарматні кабелі'
+        },
+        bread3:  '',
+        descriptionMin: '',
+        weight: '',
+        codeEAN: '',
+        descriptionFull: `
+         <p>Ремкомплект</p><br/>
+        `
+    },
+    {
+        id: '388',
+        title: 'Шланг для пістолета і турбощітки (Comfort 3/8 GZ GW 4300 мм жовтий)',
+        code: 'PRZ-PIS-4300-RM-ZOL',
+        price: '109.67',
+        newPrice: '',
+        size: 1,
+        slug: 'goods19-14',
+        img: '/cables/14.jpg',
+        imageShow: ['/cables/14.jpg', ],
+        description: '',
+        descriptionPrise: '',
+        bread1: {
+            title: 'Кабелі/Шланги',
+            slug: '/cables-hoses',
+        },
+        bread2: {
+            slug: '/cables-hoses/brush-cables',
+            title: 'Щіткові кабелі'
+        },
+        bread3:  '',
+        descriptionMin: '',
+        weight: '',
+        codeEAN: '',
+        descriptionFull: `
+         <p>Ремкомплект</p><br/>
+        `
+    },
+    {
+        id: '389',
+        title: 'Шланг для щітки (1/4"GW 3/8"GW DN6 - 4300 мм жовтий)',
+        code: 'PRZ-SZC-4300-RM-ZOL',
+        price: '111.27',
+        newPrice: '',
+        size: 1,
+        slug: 'goods19-15',
+        img: '/cables/15.jpg',
+        imageShow: ['/cables/15.jpg', ],
+        description: '',
+        descriptionPrise: '',
+        bread1: {
+            title: 'Кабелі/Шланги',
+            slug: '/cables-hoses',
+        },
+        bread2: {
+            slug: '/cables-hoses/brush-cables',
+            title: 'Щіткові кабелі'
+        },
+        bread3:  '',
+        descriptionMin: '',
+        weight: '',
+        codeEAN: '',
+        descriptionFull: `
+         <p>Ремкомплект</p><br/>
+        `
+    },
+    {
+        id: '390',
+        title: 'Шланг-щітка (1/4"GW 3/8"GW DN6 - 5000 мм жовтий)',
+        code: 'PRZ-SZC-5000-RM-ZOL',
+        price: '122.46',
+        newPrice: '',
+        size: 1,
+        slug: 'goods19-16',
+        img: '/cables/16.jpg',
+        imageShow: ['/cables/16.jpg', ],
+        description: '',
+        descriptionPrise: '',
+        bread1: {
+            title: 'Кабелі/Шланги',
+            slug: '/cables-hoses',
+        },
+        bread2: {
+            slug: '/cables-hoses/brush-cables',
+            title: 'Щіткові кабелі'
+        },
+        bread3:  '',
+        descriptionMin: '',
+        weight: '',
+        codeEAN: '',
+        descriptionFull: `
+         <p>Ремкомплект</p><br/>
+        `
+    },
+
 // end
     {
         id: '175',

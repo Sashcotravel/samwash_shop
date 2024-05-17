@@ -440,11 +440,11 @@ const Header = () => {
                                                     id='mozhna'>Лансові піхви</Link></span>
                                     </li>
                                     <li>
-                                        <Link href="/" id='mozhna'>Кабелі/Шланги</Link>
-                                        <span><Link href="/" id='mozhna'>Інші кабелі</Link></span>
-                                        <span><Link href="/" id='mozhna'>Гарматні кабелі</Link></span>
-                                        <span><Link href="/" id='mozhna'>Щіткові кабелі</Link></span>
-                                        <span><Link href="/" id='mozhna'>Троси для стріл</Link></span>
+                                        <Link href="/cables-hoses" id='mozhna'>Кабелі/Шланги</Link>
+                                        <span><Link href="/cables-hoses/other-cables" id='mozhna'>Інші кабелі</Link></span>
+                                        <span><Link href="/cables-hoses/cannon-cables" id='mozhna'>Гарматні кабелі</Link></span>
+                                        <span><Link href="/cables-hoses/brush-cables" id='mozhna'>Щіткові кабелі</Link></span>
+                                        <span><Link href="/cables-hoses/ropes-for-arrows" id='mozhna'>Троси для стріл</Link></span>
                                     </li>
                                     <li>
                                         <Link href="/" id='mozhna'>Двигуни</Link>
@@ -773,10 +773,11 @@ const Header = () => {
                                            className={s.imgArrowManu}/>
                                 </button>
                                 <div className={s.dropdown_content}>
-                                    <span><Link href="/" id='mozhna'>Інші кабелі</Link></span>
-                                    <span><Link href="/" id='mozhna'>Гарматні кабелі</Link></span>
-                                    <span><Link href="/" id='mozhna'>Щіткові кабелі</Link></span>
-                                    <span><Link href="/" id='mozhna'>Троси для стріл</Link></span>
+                                    <span><Link href="/cables-hoses" id='mozhna'>Кабелі/Шланги</Link></span>
+                                    <span><Link href="/cables-hoses/other-cables" id='mozhna'>Інші кабелі</Link></span>
+                                    <span><Link href="/cables-hoses/cannon-cables" id='mozhna'>Гарматні кабелі</Link></span>
+                                    <span><Link href="/cables-hoses/brush-cables" id='mozhna'>Щіткові кабелі</Link></span>
+                                    <span><Link href="/cables-hoses/ropes-for-arrows" id='mozhna'>Троси для стріл</Link></span>
                                 </div>
                             </li>
                             <li className={s.dropdown + ' ' + s.less}>

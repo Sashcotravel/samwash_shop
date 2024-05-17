@@ -2,9 +2,8 @@
 
 import Link from "next-intl/link";
 import {useEffect, useState} from "react";
-import s from '../chemical-means/catalog.module.css';
+import s from '../../chemical-means/catalog.module.css';
 import {AiOutlineHome} from "react-icons/ai";
-import {usePathname, useRouter, useSearchParams} from "next/navigation";
 import {useTranslations} from "next-intl";
 import {useStore} from "@/store/store";
 import Image from "next/image";
@@ -13,6 +12,7 @@ import {AiOutlineCheck} from "react-icons/ai";
 import {FaBasketShopping} from "react-icons/fa6";
 import NavProduct2 from "@/app/component/navProduct2/navProduct2";
 import TopButton from "@/app/component/topButton/topButton";
+import {usePathname, useRouter, useSearchParams} from "next/navigation";
 
 const arrGoods = [
     {
@@ -32,13 +32,10 @@ const arrGoods = [
             slug: '/weapons-and-accessories',
         },
         bread2: {
-            slug: '/weapons-and-accessories/equipment',
-            title: 'Обладнання',
+            title: '',
+            slug: '/weapons-and-accessories/',
         },
-        bread3:  {
-            slug: '/weapons-and-accessories/equipment/nozzles-and-covers',
-            title: 'Насадки і кришки',
-        },
+        bread3: '',
         descriptionMin: '',
         weight: '',
         codeEAN: '',
@@ -63,13 +60,10 @@ const arrGoods = [
             slug: '/weapons-and-accessories',
         },
         bread2: {
-            slug: '/weapons-and-accessories/equipment',
-            title: 'Обладнання',
+            title: '',
+            slug: '/weapons-and-accessories/',
         },
-        bread3:  {
-            slug: '/weapons-and-accessories/equipment/nozzles-and-covers',
-            title: 'Насадки і кришки',
-        },
+        bread3: '',
         descriptionMin: '',
         weight: '',
         codeEAN: '',
@@ -94,13 +88,10 @@ const arrGoods = [
             slug: '/weapons-and-accessories',
         },
         bread2: {
-            slug: '/weapons-and-accessories/equipment',
-            title: 'Обладнання',
+            title: '',
+            slug: '/weapons-and-accessories/',
         },
-        bread3:  {
-            slug: '/weapons-and-accessories/equipment/nozzles-and-covers',
-            title: 'Насадки і кришки',
-        },
+        bread3: '',
         descriptionMin: '',
         weight: '',
         codeEAN: '',
@@ -125,13 +116,10 @@ const arrGoods = [
             slug: '/weapons-and-accessories',
         },
         bread2: {
-            slug: '/weapons-and-accessories/equipment',
-            title: 'Обладнання',
+            title: '',
+            slug: '/weapons-and-accessories/',
         },
-        bread3:  {
-            slug: '/weapons-and-accessories/equipment/nozzles-and-covers',
-            title: 'Насадки і кришки',
-        },
+        bread3: '',
         descriptionMin: '',
         weight: '',
         codeEAN: '',
@@ -156,13 +144,10 @@ const arrGoods = [
             slug: '/weapons-and-accessories',
         },
         bread2: {
-            slug: '/weapons-and-accessories/equipment',
-            title: 'Обладнання',
+            title: '',
+            slug: '/weapons-and-accessories/',
         },
-        bread3:  {
-            slug: '/weapons-and-accessories/equipment/nozzles-and-covers',
-            title: 'Насадки і кришки',
-        },
+        bread3: '',
         descriptionMin: '',
         weight: '',
         codeEAN: '',
@@ -187,13 +172,10 @@ const arrGoods = [
             slug: '/weapons-and-accessories',
         },
         bread2: {
-            slug: '/weapons-and-accessories/equipment',
-            title: 'Обладнання',
+            title: '',
+            slug: '/weapons-and-accessories/',
         },
-        bread3:  {
-            slug: '/weapons-and-accessories/equipment/nozzles-and-covers',
-            title: 'Насадки і кришки',
-        },
+        bread3: '',
         descriptionMin: '',
         weight: '',
         codeEAN: '',
@@ -218,13 +200,10 @@ const arrGoods = [
             slug: '/weapons-and-accessories',
         },
         bread2: {
-            slug: '/weapons-and-accessories/equipment',
-            title: 'Обладнання',
+            title: '',
+            slug: '/weapons-and-accessories/',
         },
-        bread3:  {
-            slug: '/weapons-and-accessories/equipment/nozzles-and-covers',
-            title: 'Насадки і кришки',
-        },
+        bread3: '',
         descriptionMin: '',
         weight: '',
         codeEAN: '',
@@ -249,13 +228,10 @@ const arrGoods = [
             slug: '/weapons-and-accessories',
         },
         bread2: {
-            slug: '/weapons-and-accessories/equipment',
-            title: 'Обладнання',
+            title: '',
+            slug: '/weapons-and-accessories/',
         },
-        bread3:  {
-            slug: '/weapons-and-accessories/equipment/nozzles-and-covers',
-            title: 'Насадки і кришки',
-        },
+        bread3: '',
         descriptionMin: '',
         weight: '',
         codeEAN: '',
@@ -280,13 +256,10 @@ const arrGoods = [
             slug: '/weapons-and-accessories',
         },
         bread2: {
-            slug: '/weapons-and-accessories/equipment',
-            title: 'Обладнання',
+            title: '',
+            slug: '/weapons-and-accessories/',
         },
-        bread3:  {
-            slug: '/weapons-and-accessories/equipment/repair-kits',
-            title: 'Ремонтні комплекти',
-        },
+        bread3: '',
         descriptionMin: '',
         weight: '',
         codeEAN: '',
@@ -311,13 +284,10 @@ const arrGoods = [
             slug: '/weapons-and-accessories',
         },
         bread2: {
-            slug: '/weapons-and-accessories/equipment',
-            title: 'Обладнання',
+            title: '',
+            slug: '/weapons-and-accessories/',
         },
-        bread3:  {
-            slug: '/weapons-and-accessories/equipment/repair-kits',
-            title: 'Ремонтні комплекти',
-        },
+        bread3: '',
         descriptionMin: '',
         weight: '',
         codeEAN: '',
@@ -342,13 +312,10 @@ const arrGoods = [
             slug: '/weapons-and-accessories',
         },
         bread2: {
-            slug: '/weapons-and-accessories/equipment',
-            title: 'Обладнання',
+            title: '',
+            slug: '/weapons-and-accessories/',
         },
-        bread3: {
-            slug: '/weapons-and-accessories/equipment/accessories-for-brushes',
-            title: 'Аксесуари для щіток',
-        },
+        bread3: '',
         descriptionMin: '',
         weight: '',
         codeEAN: '',
@@ -373,13 +340,10 @@ const arrGoods = [
             slug: '/weapons-and-accessories',
         },
         bread2: {
-            slug: '/weapons-and-accessories/equipment',
-            title: 'Обладнання',
+            title: '',
+            slug: '/weapons-and-accessories/',
         },
-        bread3: {
-            slug: '/weapons-and-accessories/equipment/accessories-for-brushes',
-            title: 'Аксесуари для щіток',
-        },
+        bread3: '',
         descriptionMin: '',
         weight: '',
         codeEAN: '',
@@ -404,13 +368,10 @@ const arrGoods = [
             slug: '/weapons-and-accessories',
         },
         bread2: {
-            slug: '/weapons-and-accessories/equipment',
-            title: 'Обладнання',
+            title: '',
+            slug: '/weapons-and-accessories/',
         },
-        bread3:  {
-            slug: '/weapons-and-accessories/equipment/spears',
-            title: 'Списи',
-        },
+        bread3: '',
         descriptionMin: '',
         weight: '',
         codeEAN: '',
@@ -435,13 +396,10 @@ const arrGoods = [
             slug: '/weapons-and-accessories',
         },
         bread2: {
-            slug: '/weapons-and-accessories/equipment',
-            title: 'Обладнання',
+            title: '',
+            slug: '/weapons-and-accessories/',
         },
-        bread3:  {
-            slug: '/weapons-and-accessories/equipment/spears',
-            title: 'Списи',
-        },
+        bread3: '',
         descriptionMin: '',
         weight: '',
         codeEAN: '',
@@ -466,13 +424,10 @@ const arrGoods = [
             slug: '/weapons-and-accessories',
         },
         bread2: {
-            slug: '/weapons-and-accessories/equipment',
-            title: 'Обладнання',
+            title: '',
+            slug: '/weapons-and-accessories/',
         },
-        bread3:  {
-            slug: '/weapons-and-accessories/equipment/spears',
-            title: 'Списи',
-        },
+        bread3: '',
         descriptionMin: '',
         weight: '',
         codeEAN: '',
@@ -497,13 +452,10 @@ const arrGoods = [
             slug: '/weapons-and-accessories',
         },
         bread2: {
-            slug: '/weapons-and-accessories/equipment',
-            title: 'Обладнання',
+            title: '',
+            slug: '/weapons-and-accessories/',
         },
-        bread3:  {
-            slug: '/weapons-and-accessories/equipment/spears',
-            title: 'Списи',
-        },
+        bread3: '',
         descriptionMin: '',
         weight: '',
         codeEAN: '',
@@ -528,13 +480,10 @@ const arrGoods = [
             slug: '/weapons-and-accessories',
         },
         bread2: {
-            slug: '/weapons-and-accessories/equipment',
-            title: 'Обладнання',
+            title: '',
+            slug: '/weapons-and-accessories/',
         },
-        bread3:  {
-            slug: '/weapons-and-accessories/equipment/spears',
-            title: 'Списи',
-        },
+        bread3: '',
         descriptionMin: '',
         weight: '',
         codeEAN: '',
@@ -559,13 +508,10 @@ const arrGoods = [
             slug: '/weapons-and-accessories',
         },
         bread2: {
-            slug: '/weapons-and-accessories/equipment',
-            title: 'Обладнання',
+            title: '',
+            slug: '/weapons-and-accessories/',
         },
-        bread3:  {
-            slug: '/weapons-and-accessories/equipment/nozzles-and-covers',
-            title: 'Насадки і кришки',
-        },
+        bread3: '',
         descriptionMin: '',
         weight: '',
         codeEAN: '',
@@ -590,13 +536,10 @@ const arrGoods = [
             slug: '/weapons-and-accessories',
         },
         bread2: {
-            slug: '/weapons-and-accessories/equipment',
-            title: 'Обладнання',
+            title: '',
+            slug: '/weapons-and-accessories/',
         },
-        bread3:  {
-            slug: '/weapons-and-accessories/equipment/nozzles-and-covers',
-            title: 'Насадки і кришки',
-        },
+        bread3: '',
         descriptionMin: '',
         weight: '',
         codeEAN: '',
@@ -621,13 +564,10 @@ const arrGoods = [
             slug: '/weapons-and-accessories',
         },
         bread2: {
-            slug: '/weapons-and-accessories/equipment',
-            title: 'Обладнання',
+            title: '',
+            slug: '/weapons-and-accessories/',
         },
-        bread3:  {
-            slug: '/weapons-and-accessories/equipment/nozzles-and-covers',
-            title: 'Насадки і кришки',
-        },
+        bread3: '',
         descriptionMin: '',
         weight: '',
         codeEAN: '',
@@ -652,263 +592,8 @@ const arrGoods = [
             slug: '/weapons-and-accessories',
         },
         bread2: {
-            slug: '/weapons-and-accessories/equipment',
-            title: 'Обладнання',
-        },
-        bread3: {
-            slug: '/weapons-and-accessories/equipment/accessories-for-brushes',
-            title: 'Аксесуари для щіток',
-        },
-        descriptionMin: '',
-        weight: '',
-        codeEAN: '',
-        descriptionFull: `
-         <p>Розігрівач</p><br/>
-        `
-    },
-    {
-        id: '352',
-        title: 'AURA LP weep gun 3/8\'\' GW поворотний наконечник, 1/4\'\' GW (зелений)',
-        code: 'PIS-AUR',
-        price: '161.89',
-        newPrice: '',
-        size: 1,
-        slug: 'goods18-22',
-        img: '/weapons/22.jpg',
-        imageShow: ['/weapons/22.jpg', ],
-        description: '',
-        descriptionPrise: '',
-        bread1: {
-            title: 'Зброя та аксесуари',
-            slug: '/weapons-and-accessories',
-        },
-        bread2: {
-            slug: '/weapons-and-accessories/guns-and-brushes',
-            title: 'Рушниці та щітки'
-        },
-        bread3: '',
-        descriptionMin: '',
-        weight: '',
-        codeEAN: '',
-        descriptionFull: `
-         <p>Розігрівач</p><br/>
-        `
-    },
-    {
-        id: '353',
-        title: 'Пістолет AURA з постійним плачем 0,6 л/хв (синій з поворотним наконечником) ',
-        code: 'PIS-AUR-PW',
-        price: '138.15',
-        newPrice: '',
-        size: 1,
-        slug: 'goods18-23',
-        img: '/weapons/23.jpg',
-        imageShow: ['/weapons/23.jpg', ],
-        description: '',
-        descriptionPrise: '',
-        bread1: {
-            title: 'Зброя та аксесуари',
-            slug: '/weapons-and-accessories',
-        },
-        bread2: {
-            slug: '/weapons-and-accessories/guns-and-brushes',
-            title: 'Рушниці та щітки'
-        },
-        bread3: '',
-        descriptionMin: '',
-        weight: '',
-        codeEAN: '',
-        descriptionFull: `
-         <p>Розігрівач</p><br/>
-        `
-    },
-    {
-        id: '354',
-        title: 'Рушниця AURA з постійним плачем 1,1л/хв (синя з поворотним наконечником, зима)',
-        code: 'PIS-AUR-PW-10.304',
-        price: '169.56',
-        newPrice: '',
-        size: 1,
-        slug: 'goods18-24',
-        img: '/weapons/24.jpg',
-        imageShow: ['/weapons/24.jpg', ],
-        description: '',
-        descriptionPrise: '',
-        bread1: {
-            title: 'Зброя та аксесуари',
-            slug: '/weapons-and-accessories',
-        },
-        bread2: {
-            slug: '/weapons-and-accessories/guns-and-brushes',
-            title: 'Рушниці та щітки'
-        },
-        bread3: '',
-        descriptionMin: '',
-        weight: '',
-        codeEAN: '',
-        descriptionFull: `
-         <p>Розігрівач</p><br/>
-        `
-    },
-    {
-        id: '355',
-        title: 'Пістолет SamWash з поворотним наконечником',
-        code: 'PIS-RM',
-        price: '240.06',
-        newPrice: '',
-        size: 1,
-        slug: 'goods18-25',
-        img: '/weapons/25.jpg',
-        imageShow: ['/weapons/25.jpg', ],
-        description: '',
-        descriptionPrise: '',
-        bread1: {
-            title: 'Зброя та аксесуари',
-            slug: '/weapons-and-accessories',
-        },
-        bread2: {
-            slug: '/weapons-and-accessories/guns-and-brushes',
-            title: 'Рушниці та щітки'
-        },
-        bread3: '',
-        descriptionMin: '',
-        weight: '',
-        codeEAN: '',
-        descriptionFull: `
-         <p>Розігрівач</p><br/>
-        `
-    },
-    {
-        id: '356',
-        title: 'Пістолет для пінопласту з блакитним логотипом SamWash (постійний плак, сопло 1,05 мм)',
-        code: 'PIS-PIA-SamWash-NIEB',
-        price: '516.11',
-        newPrice: '',
-        size: 1,
-        slug: 'goods18-26',
-        img: '/weapons/26.jpg',
-        imageShow: ['/weapons/26.jpg', ],
-        description: '',
-        descriptionPrise: '',
-        bread1: {
-            title: 'Зброя та аксесуари',
-            slug: '/weapons-and-accessories',
-        },
-        bread2: {
-            slug: '/weapons-and-accessories/guns-and-brushes',
-            title: 'Рушниці та щітки'
-        },
-        bread3: '',
-        descriptionMin: '',
-        weight: '',
-        codeEAN: '',
-        descriptionFull: `
-         <p>Розігрівач</p><br/>
-        `
-    },
-    {
-        id: '357',
-        title: 'Пістолет для пінопласту з синім логотипом SamWash, без постійного плака, сопло 1,05 мм (500260012)',
-        code: 'PIS-PIA-SamWash-NIEB-BPW',
-        price: '610.45',
-        newPrice: '',
-        size: 1,
-        slug: 'goods18-27',
-        img: '/weapons/27.jpg',
-        imageShow: ['/weapons/27.jpg', ],
-        description: '',
-        descriptionPrise: '',
-        bread1: {
-            title: 'Зброя та аксесуари',
-            slug: '/weapons-and-accessories',
-        },
-        bread2: {
-            slug: '/weapons-and-accessories/guns-and-brushes',
-            title: 'Рушниці та щітки'
-        },
-        bread3: '',
-        descriptionMin: '',
-        weight: '',
-        codeEAN: '',
-        descriptionFull: `
-         <p>Розігрівач</p><br/>
-        `
-    },
-    {
-        id: '358',
-        title: 'Пістолет зі списом і логотипом SamWash (без постійного плака)',
-        code: 'PIS-LAN-RM-BPW',
-        price: '423.51',
-        newPrice: '',
-        size: 1,
-        slug: 'goods18-28',
-        img: '/weapons/28.jpg',
-        imageShow: ['/weapons/28.jpg', ],
-        description: '',
-        descriptionPrise: '',
-        bread1: {
-            title: 'Зброя та аксесуари',
-            slug: '/weapons-and-accessories',
-        },
-        bread2: {
-            slug: '/weapons-and-accessories/guns-and-brushes',
-            title: 'Рушниці та щітки'
-        },
-        bread3: '',
-        descriptionMin: '',
-        weight: '',
-        codeEAN: '',
-        descriptionFull: `
-         <p>Розігрівач</p><br/>
-        `
-    },
-    {
-        id: '359',
-        title: 'Рушниця з обертовим наконечником',
-        code: 'PIS-RM-BLUE',
-        price: '265.42',
-        newPrice: '',
-        size: 1,
-        slug: 'goods18-29',
-        img: '/weapons/29.jpg',
-        imageShow: ['/weapons/29.jpg', ],
-        description: '',
-        descriptionPrise: '',
-        bread1: {
-            title: 'Зброя та аксесуари',
-            slug: '/weapons-and-accessories',
-        },
-        bread2: {
-            slug: '/weapons-and-accessories/guns-and-brushes',
-            title: 'Рушниці та щітки'
-        },
-        bread3: '',
-        descriptionMin: '',
-        weight: '',
-        codeEAN: '',
-        descriptionFull: `
-         <p>Розігрівач</p><br/>
-        `
-    },
-    {
-        id: '360',
-        title: 'Піхви (кріпляться до землі)',
-        code: 'POC-LAN-POD',
-        price: '485.41',
-        newPrice: '',
-        size: 1,
-        slug: 'goods18-30',
-        img: '/weapons/30.jpg',
-        imageShow: ['/weapons/30.jpg', ],
-        description: '',
-        descriptionPrise: '',
-        bread1: {
-            title: 'Зброя та аксесуари',
-            slug: '/weapons-and-accessories',
-        },
-        bread2:  {
-            slug: '/weapons-and-accessories/lance-scabbards',
-            title: 'Лансові піхви'
+            title: '',
+            slug: '/weapons-and-accessories/',
         },
         bread3: '',
         descriptionMin: '',
@@ -935,13 +620,10 @@ const arrGoods = [
             slug: '/weapons-and-accessories',
         },
         bread2: {
-            slug: '/weapons-and-accessories/equipment',
-            title: 'Обладнання',
+            title: '',
+            slug: '/weapons-and-accessories/',
         },
-        bread3: {
-            slug: '/weapons-and-accessories/equipment/accessories-for-brushes',
-            title: 'Аксесуари для щіток',
-        },
+        bread3: '',
         descriptionMin: '',
         weight: '',
         codeEAN: '',
@@ -966,13 +648,10 @@ const arrGoods = [
             slug: '/weapons-and-accessories',
         },
         bread2: {
-            slug: '/weapons-and-accessories/equipment',
-            title: 'Обладнання',
+            title: '',
+            slug: '/weapons-and-accessories/',
         },
-        bread3: {
-            slug: '/weapons-and-accessories/equipment/accessories-for-brushes',
-            title: 'Аксесуари для щіток',
-        },
+        bread3: '',
         descriptionMin: '',
         weight: '',
         codeEAN: '',
@@ -997,68 +676,8 @@ const arrGoods = [
             slug: '/weapons-and-accessories',
         },
         bread2: {
-            slug: '/weapons-and-accessories/equipment',
-            title: 'Обладнання',
-        },
-        bread3: {
-            slug: '/weapons-and-accessories/equipment/accessories-for-brushes',
-            title: 'Аксесуари для щіток',
-        },
-        descriptionMin: '',
-        weight: '',
-        codeEAN: '',
-        descriptionFull: `
-         <p>Розігрівач</p><br/>
-        `
-    },
-    {
-        id: '364',
-        title: 'Щітка низького тиску зі спицем і ручкою (RM, EasyTurn, R+M)',
-        code: 'SZC-LAN-RM-UCH-TURN',
-        price: '523.97',
-        newPrice: '',
-        size: 1,
-        slug: 'goods18-34',
-        img: '/weapons/34.jpg',
-        imageShow: ['/weapons/34.jpg', ],
-        description: '',
-        descriptionPrise: '',
-        bread1: {
-            title: 'Зброя та аксесуари',
-            slug: '/weapons-and-accessories',
-        },
-        bread2: {
-            slug: '/weapons-and-accessories/guns-and-brushes',
-            title: 'Рушниці та щітки'
-        },
-        bread3: '',
-        descriptionMin: '',
-        weight: '',
-        codeEAN: '',
-        descriptionFull: `
-         <p>Розігрівач</p><br/>
-        `
-    },
-    {
-        id: '365',
-        title: 'Турбощітка з пістолетом і насадкою RM, Freeze Stop, EasyTurn, насадка 3/8" 1.05 з логотипом ' +
-            'SamWash (510097003805)',
-        code: 'SZC-LAN-RM-HP-BPW-TURN',
-        price: '902.72',
-        newPrice: '',
-        size: 1,
-        slug: 'goods18-35',
-        img: '',
-        imageShow: null,
-        description: '',
-        descriptionPrise: '',
-        bread1: {
-            title: 'Зброя та аксесуари',
-            slug: '/weapons-and-accessories',
-        },
-        bread2: {
-            slug: '/weapons-and-accessories/guns-and-brushes',
-            title: 'Рушниці та щітки'
+            title: '',
+            slug: '/weapons-and-accessories/',
         },
         bread3: '',
         descriptionMin: '',
@@ -1085,13 +704,10 @@ const arrGoods = [
             slug: '/weapons-and-accessories',
         },
         bread2: {
-            slug: '/weapons-and-accessories/equipment',
-            title: 'Обладнання',
+            title: '',
+            slug: '/weapons-and-accessories/',
         },
-        bread3:  {
-            slug: '/weapons-and-accessories/equipment/nozzles-and-covers',
-            title: 'Насадки і кришки',
-        },
+        bread3: '',
         descriptionMin: '',
         weight: '',
         codeEAN: '',
@@ -1116,13 +732,10 @@ const arrGoods = [
             slug: '/weapons-and-accessories',
         },
         bread2: {
-            slug: '/weapons-and-accessories/equipment',
-            title: 'Обладнання',
+            title: '',
+            slug: '/weapons-and-accessories/',
         },
-        bread3:  {
-            slug: '/weapons-and-accessories/equipment/repair-kits',
-            title: 'Ремонтні комплекти',
-        },
+        bread3: '',
         descriptionMin: '',
         weight: '',
         codeEAN: '',
@@ -1147,13 +760,10 @@ const arrGoods = [
             slug: '/weapons-and-accessories',
         },
         bread2: {
-            slug: '/weapons-and-accessories/equipment',
-            title: 'Обладнання',
+            title: '',
+            slug: '/weapons-and-accessories/',
         },
-        bread3: {
-            slug: '/weapons-and-accessories/equipment/accessories-for-brushes',
-            title: 'Аксесуари для щіток',
-        },
+        bread3: '',
         descriptionMin: '',
         weight: '',
         codeEAN: '',
@@ -1178,13 +788,10 @@ const arrGoods = [
             slug: '/weapons-and-accessories',
         },
         bread2: {
-            slug: '/weapons-and-accessories/equipment',
-            title: 'Обладнання',
+            title: '',
+            slug: '/weapons-and-accessories/',
         },
-        bread3: {
-            slug: '/weapons-and-accessories/equipment/accessories-for-brushes',
-            title: 'Аксесуари для щіток',
-        },
+        bread3: '',
         descriptionMin: '',
         weight: '',
         codeEAN: '',
@@ -1209,13 +816,10 @@ const arrGoods = [
             slug: '/weapons-and-accessories',
         },
         bread2: {
-            slug: '/weapons-and-accessories/equipment',
-            title: 'Обладнання',
+            title: '',
+            slug: '/weapons-and-accessories/',
         },
-        bread3:  {
-            slug: '/weapons-and-accessories/equipment/repair-kits',
-            title: 'Ремонтні комплекти',
-        },
+        bread3: '',
         descriptionMin: '',
         weight: '',
         codeEAN: '',
@@ -1240,13 +844,10 @@ const arrGoods = [
             slug: '/weapons-and-accessories',
         },
         bread2: {
-            slug: '/weapons-and-accessories/equipment',
-            title: 'Обладнання',
+            title: '',
+            slug: '/weapons-and-accessories/',
         },
-        bread3:  {
-            slug: '/weapons-and-accessories/equipment/repair-kits',
-            title: 'Ремонтні комплекти',
-        },
+        bread3: '',
         descriptionMin: '',
         weight: '',
         codeEAN: '',
@@ -1271,13 +872,10 @@ const arrGoods = [
             slug: '/weapons-and-accessories',
         },
         bread2: {
-            slug: '/weapons-and-accessories/equipment',
-            title: 'Обладнання',
+            title: '',
+            slug: '/weapons-and-accessories/',
         },
-        bread3:  {
-            slug: '/weapons-and-accessories/equipment/repair-kits',
-            title: 'Ремонтні комплекти',
-        },
+        bread3: '',
         descriptionMin: '',
         weight: '',
         codeEAN: '',
@@ -1302,13 +900,10 @@ const arrGoods = [
             slug: '/weapons-and-accessories',
         },
         bread2: {
-            slug: '/weapons-and-accessories/equipment',
-            title: 'Обладнання',
+            title: '',
+            slug: '/weapons-and-accessories/',
         },
-        bread3:  {
-            slug: '/weapons-and-accessories/equipment/repair-kits',
-            title: 'Ремонтні комплекти',
-        },
+        bread3: '',
         descriptionMin: '',
         weight: '',
         codeEAN: '',
@@ -1333,13 +928,10 @@ const arrGoods = [
             slug: '/weapons-and-accessories',
         },
         bread2: {
-            slug: '/weapons-and-accessories/equipment',
-            title: 'Обладнання',
+            title: '',
+            slug: '/weapons-and-accessories/',
         },
-        bread3:  {
-            slug: '/weapons-and-accessories/equipment/repair-kits',
-            title: 'Ремонтні комплекти',
-        },
+        bread3: '',
         descriptionMin: '',
         weight: '',
         codeEAN: '',
@@ -1350,10 +942,6 @@ const arrGoods = [
 ]
 
 const arrChildCatalog = [
-    {
-        slug: '/weapons-and-accessories/equipment',
-        title: 'Обладнання',
-    },
     {
         slug: '/weapons-and-accessories/equipment/accessories-for-brushes',
         title: 'Аксесуари для щіток',
@@ -1370,18 +958,10 @@ const arrChildCatalog = [
         slug: '/weapons-and-accessories/equipment/repair-kits',
         title: 'Ремонтні комплекти',
     },
-    {
-        slug: '/weapons-and-accessories/guns-and-brushes',
-        title: 'Рушниці та щітки'
-    },
-    {
-        slug: '/weapons-and-accessories/lance-scabbards',
-        title: 'Лансові піхви'
-    },
 ]
 
 
-function ChemicalMeans() {
+function HighPressurePumps() {
 
     const t = useTranslations();
 
@@ -1441,9 +1021,10 @@ function ChemicalMeans() {
             const pagesCount = Math.ceil(postsData.length / rows);
 
             if (currentPage === page) {
-                if (Number(currentPage) === 1) {
+                if(Number(currentPage) === 1){
                     liEl.classList.add(s['pagination__item__active_first']);
-                } else if (Number(pagesCount) === Number(currentPage)) {
+                }
+                else if (Number(pagesCount) === Number(currentPage)){
                     liEl.classList.add(s['pagination__item__active_end']);
                 }
 
@@ -1461,14 +1042,14 @@ function ChemicalMeans() {
                 router.push(pathname + '?page=' + page)
 
                 currentItemLi.classList.remove(s['pagination__item__active']);
-                if (Number(currentItemLi?.textContent) === 1) {
+                if(Number(currentItemLi?.textContent) === 1){
                     currentItemLi.classList.remove(s['pagination__item__active_first']);
                 }
                 currentItemLi.id = ''
 
-                if (Number(currentPage) === 1) {
+                if(Number(currentPage) === 1){
                     liEl.classList.add(s['pagination__item__active_first']);
-                } else if (Number(pagesCount) === Number(currentPage)) {
+                } else if (Number(pagesCount) === Number(currentPage)){
                     liEl.classList.add(s['pagination__item__active_end']);
                 }
                 liEl.classList.add(s['pagination__item__active']);
@@ -1548,7 +1129,7 @@ function ChemicalMeans() {
 
             <TopButton index={4}/>
 
-            <NavProduct2 child={arrChildCatalog} back={'/product'}/>
+            <NavProduct2 child={arrChildCatalog} back={'/weapons-and-accessories'}/>
 
             {/*    <h2 className='loadingMainDiv'>Товарів не знайдено</h2>*/}
 
@@ -1559,7 +1140,7 @@ function ChemicalMeans() {
                         <div className={s.crumbs}>
                             <ul>
                                 <li>
-                                    <Link href='/'>
+                                    <Link href='/public'>
                                         <AiOutlineHome/>
                                     </Link>
                                 </li>
@@ -1567,19 +1148,16 @@ function ChemicalMeans() {
                                     <Link href='/product'> Продукти</Link>
                                 </li>
                                 <li>
-                                    <span> Зброя та аксесуари</span>
+                                    <Link href='/weapons-and-accessories'> Зброя та аксесуари</Link>
+                                </li>
+                                <li>
+                                    <span> Обладнання</span>
                                 </li>
                             </ul>
                         </div>
                     </div>
 
-                    <h1>Зброя та аксесуари</h1>
-                    <div>
-                        Кожна автомийка використовує пістолети під тиском. Вони прості у використанні, що позитивно
-                        сприймається водіями. Однак для того, щоб такий пістолет працював довго, а власник мийки не
-                        втрачав гроші на постійне обслуговування обладнання, необхідно використовувати комплектуючі для
-                        мийок високого тиску, які (завдяки змінним частинам). ) може подовжити термін служби машин.
-                    </div>
+                    <h1>Обладнання</h1>
 
                     <ul className={s.ulCategory}>
                         {
@@ -1595,7 +1173,7 @@ function ChemicalMeans() {
                                             }
                                         </div>
                                         <p className={s.goodsTitle}>{item.title}</p>
-                                        <p className={s.client_code}>Код виробника: <b>{item?.code}</b></p>
+                                        <p className={s.client_code}>Код виробника: {item?.code}</p>
                                         <p className={s.description}>{item?.description}</p>
                                     </div>
                                     <div className={s.div_price}>
@@ -1634,103 +1212,6 @@ function ChemicalMeans() {
                         <div id="posts" className={s.articleBlog}></div>
                         <div id="pagination" className={s.pagination}></div>
                     </div>
-
-                    <div className={s.descDiv}>
-                        <Image src='/weapons/main.jpg' alt='Хімічні засоби' width={500} height={500}/>
-                        <div className={s.descDesc}>
-                            <p>
-                                Безконтактні, або високонапірні, автомийки складаються з безлічі менших елементів,
-                                які можна замінити, що запобігає повному пошкодженню обладнання.
-                            </p> <br/>
-                            <p>
-                                Варто пам'ятати, що несправний омивач блокує роботу всієї станції. При пошкодженій
-                                техніці власник втрачає вдвічі більше — він не тільки не може заробити гроші в реальному
-                                часі, але ще й ремонтує техніку, що тягне за собою витрати. Щоб запобігти подібним
-                                ситуаціям, необхідно періодично перевіряти всі частини омивачів і замінювати ті, які
-                                пошкоджені або втратили свої функціональні властивості.
-                            </p> <br/>
-                            <p onClick={() => setOpen2(prev => !prev)}
-                               style={{cursor: 'pointer'}}>
-                                читати далі
-                                <Image alt="arrow up" loading="lazy" width={16} height={16}
-                                       className={s.imgArrowManu}
-                                       style={open2 ? {transform: 'rotate(180deg)'} : undefined}
-                                       src="/header/flug/arrow-down.svg"/>
-                            </p>
-                            <div className={s.readMore} style={open2 ? {display: 'block'} : undefined}>
-                                <br/><p>Нижче наведено деякі з найважливіших частин мийки високого тиску:</p> <br/>
-                                <p>
-                                    Насадки - вони необхідні для очищення поверхонь від різного роду забруднень і
-                                    плям.<br/>
-                                    Шланги - з'єднують двигун з іншими частинами машини (форсунка, корпус насоса), також
-                                    служать каналом подачі води в процесі прання.<br/>
-                                    Списи як продовження рушниці. Завдяки їм зручність користування обладнанням набагато
-                                    більше.<br/>
-                                </p> <br/>
-                                <p>
-                                    Однак до найпоширеніших поломок, викликаних пошкодженням одного з компонентів
-                                    пральної машини, відносяться: протікання через неякісні ущільнення і пов'язані з
-                                    ними пошкодження, а також пошкодження, викликані тривалою роботою в забрудненому
-                                    середовищі. На жаль, неправильно обслуговуване обладнання швидко псується, вимагаючи
-                                    ремонту або (зрештою) заміни.
-                                </p> <br/>
-                                <h2>Плоска насадка для пінопласту</h2> <br/>
-                                <p>
-                                    Одним з найцікавіших предметів цієї категорії є насадка для плоского пінопласту.
-                                    Хоча це не обов'язковий елемент, який впливає на роботу обладнання, це те, що
-                                    ефективно полегшує використання зброї.
-                                </p> <br/>
-                                <p>
-                                    Пінна насадка забезпечує легке нанесення без зміни правильного положення ствола
-                                    пістолета. Його можна використовувати з будь-яким типом приготування піни, включаючи
-                                    ті, які були попередньо змішані з водою. Це особливо корисно при нанесенні піни на
-                                    боковини або стелю автомобіля, а також при роботі на великих поверхнях (наприклад,
-                                    вантажівки, причепи). Додатково, при необхідності, його можна використовувати як
-                                    стандартну насадку.
-                                </p> <br/>
-                                <p>
-                                    У нашій пропозиції є безліч пінопластових насадок, які зроблять роботу на вашій
-                                    автомийці більш ефективною. Однією з них є насадка для піни 200075401 - 1,05 мм, яку
-                                    можна використовувати для пістолета для піни та турбощітки. Ціни на такі насадки
-                                    починаються від 30 злотих брутто. Порівняно з реальними витратами на ремонт всього
-                                    обладнання, економити на аксесуарах для мийки високого тиску не варто. Постійне
-                                    технічне обслуговування та регулярна заміна деталей, безумовно, більш вигідні в
-                                    довгостроковій перспективі.
-                                </p> <br/>
-                                <h2>Аксесуари для омивачів від автомийки SamWash</h2> <br/>
-                                <p>
-                                    У цій категорії ви знайдете запчастини для мийок високого тиску від кращих
-                                    виробників. Ви можете довіряти нам у виборі аксесуарів, адже ми вже багато років
-                                    підтримуємо власників автомийок. Завдяки досвіду, який ми здобули протягом багатьох
-                                    років, ми можемо пристосувати нашу пропозицію до всіх вимог клієнтів.
-                                </p> <br/>
-                                <p>
-                                    Ми чудово знаємо, наскільки специфікою є автомийний бізнес. Багато водіїв не
-                                    розуміють, що власникам доводиться нести багато «невидимих» витрат. Один із них –
-                                    фінансування обладнання. Водії вимагають від власників низьких цін при збереженні
-                                    високої якості наданих послуг. Ми знаємо, що домовитися між власниками автомийки та
-                                    водіями можливо лише за умови використання першими надійного обладнання. Його
-                                    постійну роботу забезпечують запчастини до мийок високого тиску.
-                                </p> <br/>
-                                <p>
-                                    Запрошуємо вас ознайомитися з повним асортиментом цієї категорії. Аксесуари для
-                                    мийки високого тиску включають: згадані вище форсунки, пінні форсунки, форсунки
-                                    високого тиску з меншим потоком або сталеві губки для пістолетів. Це також місце, де
-                                    ви можете вибрати найкращі фурми (наприклад, з нержавіючої сталі та теплозахисний
-                                    екран), кришки сопел і цілі набори для ремонту пістолетів.
-                                </p> <br/>
-                                <p>
-                                    Такий широкий асортимент аксесуарів для пральних машин означає, що кожен знайде саме
-                                    те, що шукає. Якщо ви є власником автомийки або плануєте відкрити власну справу в
-                                    цій галузі, звертайтеся до нас. Автомийка BKF успішно працює в цій сфері вже кілька
-                                    років і надає всім нашим клієнтам найкращий сервіс. Ми представляємо якісне
-                                    обладнання для мийки, особливу увагу приділяємо підбору аксесуарів. Той факт, що ми
-                                    є одним із провідних гравців на цьому ринку, дозволяє нам надати вам широкий каталог
-                                    за низькими цінами. Запрошуємо вас!
-                                </p> <br/>
-                            </div>
-                        </div>
-                    </div>
                 </div>
             </div>
 
@@ -1763,4 +1244,4 @@ function ChemicalMeans() {
     );
 }
 
-export default ChemicalMeans;
+export default HighPressurePumps;

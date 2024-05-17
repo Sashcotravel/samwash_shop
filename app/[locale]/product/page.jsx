@@ -273,7 +273,6 @@ const arrChildCatalog = [
             },
         ]
     },
-
     {
         title: 'Насоси та дозатори миючих засобів',
         slug: '/pumps-and-detergent-dispensers',
@@ -344,6 +343,30 @@ const arrChildCatalog = [
             },
         ]
     },
+    {
+        title: 'Кабелі/Шланги',
+        slug: '/cables-hoses',
+        img: '/cables/main.jpg',
+        child: [
+            {
+                slug: '/cables-hoses/other-cables',
+                title: 'Інші кабелі'
+            },
+            {
+                slug: '/cables-hoses/cannon-cables',
+                title: 'Гарматні кабелі'
+            },
+            {
+                slug: '/cables-hoses/brush-cables',
+                title: 'Щіткові кабелі'
+            },
+            {
+                slug: '/cables-hoses/ropes-for-arrows',
+                title: 'Троси для стріл'
+            },
+        ]
+    },
+
     {
         title: 'Платіжні системи',
         slug: '/payment-systems',
