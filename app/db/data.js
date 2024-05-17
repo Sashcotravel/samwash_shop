@@ -14347,11 +14347,15 @@ export const goodsArr = [
             title: 'Гарматні кабелі'
         },
         bread3:  '',
-        descriptionMin: '',
-        weight: '',
+        descriptionMin: 'Кабель пістолета (Comfort 3/8 GZ GW 4300 мм червоний)',
+        weight: '0,54',
         codeEAN: '',
         descriptionFull: `
-         <p>Ремкомплект</p><br/>
+         <p>Трос для пістолета, що використовується на безконтактній автомийці.</p><br/>
+         <p>Комфорт 3/8 GZ GW 4300 червоний</p><br/>
+         <p>Червоний колір</p><br/>
+         <p>Різьба: 3/8"</p><br/>
+         <p>Довжина: 4300 мм</p><br/>
         `
     },
     {
@@ -14375,11 +14379,15 @@ export const goodsArr = [
             title: 'Гарматні кабелі'
         },
         bread3:  '',
-        descriptionMin: '',
-        weight: '',
+        descriptionMin: 'Кабель пістолета (Comfort 3/8 GZ GW 4300 мм синій)',
+        weight: '0,545',
         codeEAN: '',
         descriptionFull: `
-         <p>Ремкомплект</p><br/>
+         <p>Трос для пістолета, що використовується на безконтактній автомийці.</p><br/>
+         <p>Comfort 3/8 GZ GW 4300 синій</p><br/>
+         <p>Синій колір</p><br/>
+         <p>Різьба: 3/8"</p><br/>
+         <p>Довжина: 4300 мм</p><br/>
         `
     },
     {
@@ -14403,11 +14411,16 @@ export const goodsArr = [
             title: 'Гарматні кабелі'
         },
         bread3:  '',
-        descriptionMin: '',
-        weight: '',
+        descriptionMin: 'Кабель пістолета (Comfort 3/8 GZ GW 5000 мм червоний)Кабель пістолета (Comfort 3/8 GZ' +
+            ' GW 5000 мм червоний)',
+        weight: '0,59',
         codeEAN: '',
         descriptionFull: `
-         <p>Ремкомплект</p><br/>
+         <p>Трос для пістолета, що використовується на безконтактній автомийці.</p><br/>
+         <p>Comfort 3/8 M GW 5000 мм червоний</p><br/>
+         <p>Червоний колір</p><br/>
+         <p>Різьба: 3/8"</p><br/>
+         <p>Довжина: 5000 мм</p><br/>
         `
     },
     {
@@ -14431,11 +14444,15 @@ export const goodsArr = [
             title: 'Гарматні кабелі'
         },
         bread3:  '',
-        descriptionMin: '',
-        weight: '',
+        descriptionMin: 'Кабель пістолета (Comfort 3/8 GZ GW 5000 мм синій)',
+        weight: '0,59',
         codeEAN: '',
         descriptionFull: `
-         <p>Ремкомплект</p><br/>
+         <p>Трос для пістолета, що використовується на безконтактній автомийці.</p><br/>
+         <p>Comfort 3/8 GZ GW 5000 мм синій</p><br/>
+         <p>Синій колір</p><br/>
+         <p>Різьба: 3/8"</p><br/>
+         <p>Довжина: 5000 мм</p><br/>
         `
     },
     {
@@ -14459,11 +14476,15 @@ export const goodsArr = [
             title: 'Гарматні кабелі'
         },
         bread3:  '',
-        descriptionMin: '',
+        descriptionMin: 'Кабель пістолета (Comfort 3/8 GZ GW 5500 мм червоний)',
         weight: '',
         codeEAN: '',
         descriptionFull: `
-         <p>Ремкомплект</p><br/>
+         <p>Трос для пістолета, що використовується на безконтактній автомийці.</p><br/>
+         <p>Comfort 3/8 GZ GW 5500 мм червоний</p><br/>
+         <p>Червоний колір</p><br/>
+         <p>Різьба: 3/8"</p><br/>
+         <p>Довжина: 5500 мм</p><br/>
         `
     },
     {
@@ -14487,11 +14508,15 @@ export const goodsArr = [
             title: 'Гарматні кабелі'
         },
         bread3:  '',
-        descriptionMin: '',
+        descriptionMin: 'Кабель пістолета (Comfort 3/8 GZ GW 6000 мм червоний)',
         weight: '',
         codeEAN: '',
         descriptionFull: `
-         <p>Ремкомплект</p><br/>
+         <p>Трос для пістолета, що використовується на безконтактній автомийці.</p><br/>
+         <p>Comfort 3/8 M GW 6000 мм червоний </p><br/>
+         <p>Червоний колір</p><br/>
+         <p>Різьба: 3/8"</p><br/>
+         <p>Довжина: 6000 мм</p><br/>
         `
     },
     {
@@ -14515,11 +14540,15 @@ export const goodsArr = [
             title: 'Щіткові кабелі'
         },
         bread3:  '',
-        descriptionMin: '',
+        descriptionMin: 'Кабель для пістолета і турбощітки (Comfort 3/8 GZ GW 4300 мм жовтий)',
         weight: '',
         codeEAN: '',
         descriptionFull: `
-         <p>Ремкомплект</p><br/>
+         <p>Кабель для пістолета і турбощітки, які використовуються на безконтактній митниці. </p><br/>
+         <p>Comfort 3/8 M GW 4300 жовтий (4640553043)</p><br/>
+         <p>Колір: жовтий</p><br/>
+         <p>Різьба: зовнішня 3/8, внутрішній 3/8</p><br/>
+         <p>Довжина: 4300 мм</p><br/>
         `
     },
     {
@@ -14543,11 +14572,15 @@ export const goodsArr = [
             title: 'Щіткові кабелі'
         },
         bread3:  '',
-        descriptionMin: '',
+        descriptionMin: 'Щітковий кабель (1/4"GW 3/8"GW DN6 - 4300 мм жовтий)',
         weight: '',
         codeEAN: '',
         descriptionFull: `
-         <p>Ремкомплект</p><br/>
+         <p>Трос для щітки, що використовується на безконтактній митці.</p><br/>
+         <p>1/4"GW 3/8"GW DN6 - 4300 мм (жовтий)</p><br/>
+         <p>Колір: жовтий</p><br/>
+         <p>Різьба: 1/4" GW 3/8" GW</p><br/>
+         <p>Довжина: 4300 мм</p><br/>
         `
     },
     {
@@ -14571,11 +14604,15 @@ export const goodsArr = [
             title: 'Щіткові кабелі'
         },
         bread3:  '',
-        descriptionMin: '',
+        descriptionMin: 'Щітковий кабель (1/4"GW 3/8"GW DN6 - 5000 мм жовтий)',
         weight: '',
         codeEAN: '',
         descriptionFull: `
-         <p>Ремкомплект</p><br/>
+         <p>Трос для щітки, що використовується на безконтактній митці. </p><br/>
+         <p>1/4"GW 3/8"GW DN6 - 5000 мм (жовтий)</p><br/>
+         <p>Колір: жовтий</p><br/>
+         <p>Різьба: 1/4" GW 3/8" GW</p><br/>
+         <p>Довжина: 5000 мм</p><br/>
         `
     },
 
