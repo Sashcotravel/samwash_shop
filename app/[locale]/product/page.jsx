@@ -366,7 +366,11 @@ const arrChildCatalog = [
             },
         ]
     },
-
+    {
+        title: 'Двигуни',
+        slug: '/engines',
+        img: '/engines/main.jpg',
+    },
     {
         title: 'Платіжні системи',
         slug: '/payment-systems',
@@ -402,7 +406,83 @@ const arrChildCatalog = [
             },
         ]
     },
-
+    {
+        title: 'Системи закриття',
+        slug: '/closing-systems',
+        img: '/closing/main.jpg',
+        child: [
+            {
+                slug: '/closing-systems/containers-for-coins',
+                title: 'Грошові ящики, сейфи та контейнери для монет'
+            },
+            {
+                slug: '/closing-systems/closing-system',
+                title: 'Система закриття'
+            },
+            {
+                slug: '/closing-systems/hinges-and-stops',
+                title: 'Петлі та упори'
+            },
+        ]
+    },
+    {
+        title: 'Дезінфікуючі засоби',
+        slug: '/disinfectants',
+        img: '/disinfectants/main.jpg',
+        child: [
+            {
+                slug: '/disinfectants/disinfection-of-hands',
+                title: 'Дезінфекція рук'
+            },
+        ]
+    },
+    {
+        title: 'Очищення води',
+        slug: '/water-purification',
+        img: '/purification/main.jpg',
+        child: [
+            {
+                slug: '/water-purification/softener',
+                title: 'Пляшки з пом\'якшувачем і аксесуари',
+                child: [
+                    {
+                        slug: '/water-purification/softener/cylinders',
+                        title: 'Циліндри'
+                    },
+                    {
+                        slug: '/water-purification/softener/filtering-layer',
+                        title: 'Фільтруючий шар'
+                    },
+                ]
+            },
+            {
+                slug: '/water-purification/filters-and-accessories',
+                title: 'Фільтри та аксесуари',
+            },
+            {
+                slug: '/water-purification/softener-head-and-accessories',
+                title: 'Головка пом\'якшувача та аксесуари',
+            },
+            {
+                slug: '/water-purification/hydraulics-of-water-treatment',
+                title: 'Гідравліка водопідготовки',
+            },
+            {
+                slug: '/water-purification/reverse-osmosis-and-accessories',
+                title: 'Зворотний осмос і аксесуари',
+            },
+            {
+                slug: '/water-purification/brine-tanks',
+                title: 'Резервуари для розсолу',
+                child: [
+                    {
+                        slug: '/water-purification/brine-tanks/spare-parts',
+                        title: 'Запчастини'
+                    },
+                ]
+            },
+        ]
+    },
     {
         title: 'Стріли',
         slug: '/arrows',

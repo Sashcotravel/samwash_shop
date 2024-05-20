@@ -14616,7 +14616,2274 @@ export const goodsArr = [
         `
     },
 
-// end
+    {
+        id: '391',
+        title: 'Амортизатор універсальний тип А 40х20 (з гвинтами М8 25 мм і 14 мм)',
+        code: 'АМО-ГУМ-УНІ',
+        price: '52.75',
+        newPrice: '',
+        size: 1,
+        slug: 'goods20-1',
+        img: '/engines/1.jpg',
+        imageShow: ['/engines/1.jpg', ],
+        description: '',
+        descriptionPrise: '',
+        bread1: {
+            title: 'Двигуни',
+            slug: '/engines',
+        },
+        bread2: '',
+        bread3:  '',
+        descriptionMin: 'Амортизатор універсальний тип А 40х20 (з гвинтами М8 25 мм і 14 мм)',
+        weight: '0,063',
+        codeEAN: '',
+        descriptionFull: `
+         <p>Амортизатор універсальний тип А 40х20.</p><br/>
+         <p>Гвинти M8 25 мм і 14 мм.</p><br/>
+        `
+    },
+    {
+        id: '392',
+        title: 'Електродвигун CELMA, потужність 3,6/0,9кВт, SLG 112M-8/4WB, RAL3000, S25-268-011',
+        code: 'SIL-IND-CZE-3,6',
+        price: '2027.45',
+        newPrice: '',
+        size: 1,
+        slug: 'goods20-2',
+        img: '',
+        imageShow: null,
+        description: '',
+        descriptionPrise: '',
+        bread1: {
+            title: 'Двигуни',
+            slug: '/engines',
+        },
+        bread2: '',
+        bread3:  '',
+        descriptionMin: '',
+        weight: '',
+        codeEAN: '',
+        descriptionFull: `
+        `
+    },
+    {
+        id: '393',
+        title: 'Електродвигун SIEMENS, потужність 0,99/3,96 кВт, 112M-8/4, сірий RAL 7030, 1LE1011-1BR23-4NA4-ZR11+N02',
+        code: 'SIL-IND-SZA-B34/C160-3,96',
+        price: '2132.08',
+        newPrice: '',
+        size: 1,
+        slug: 'goods20-3',
+        img: '/engines/3.jpg',
+        imageShow: ['/engines/3.jpg', ],
+        description: '',
+        descriptionPrise: '',
+        bread1: {
+            title: 'Двигуни',
+            slug: '/engines',
+        },
+        bread2: '',
+        bread3:  '',
+        descriptionMin: 'Електродвигун SIEMENS (потужність 3,96/0,99кВт, 112M-8/4, RAL7030)',
+        weight: '34,5',
+        codeEAN: '',
+        descriptionFull: `
+         <p>Електродвигун SIEMENS</p><br/>
+         <p>Потужність: 3,96/0,99 кВт </p><br/>
+         <p>Колір: сірий (RAL7030)</p><br/>
+        `
+    },
+    {
+        id: '394',
+        title: 'Електродвигун SIEMENS, потужність 3.6/0.9kW, 112M-8/4, сірий RAL7030, 1LE1011-1BR23-4NA4-ZY53',
+        code: 'SIL-IND-SZA-B34/C160',
+        price: '2028.82',
+        newPrice: '',
+        size: 1,
+        slug: 'goods20-4',
+        img: '',
+        imageShow: null,
+        description: '',
+        descriptionPrise: '',
+        bread1: {
+            title: 'Двигуни',
+            slug: '/engines',
+        },
+        bread2: '',
+        bread3:  '',
+        descriptionMin: 'Електродвигун SIEMENS Потужність: 3.6 / 0.9kW Колір: сірий',
+        weight: '34',
+        codeEAN: '',
+        descriptionFull: `
+         <p>Електродвигун SIEMENS</p><br/>
+         <p>Потужність: 3,6 / 0,9 кВт</p><br/>
+         <p>Сірий колір</p><br/>
+        `
+    },
+    {
+        id: '395',
+        title: 'Двигун Soga MM1 (80MC/4 0.75kW 230V/50 Hz 9C080080PE [123783])',
+        code: 'SIL-NUE-002',
+        price: '838.22',
+        newPrice: '',
+        size: 1,
+        slug: 'goods20-5',
+        img: '/engines/5.jpg',
+        imageShow: ['/engines/5.jpg', ],
+        description: '',
+        descriptionPrise: '',
+        bread1: {
+            title: 'Двигуни',
+            slug: '/engines',
+        },
+        bread2: '',
+        bread3:  '',
+        descriptionMin: 'Двигун Soga MM1 (80MC/4 0.75kW 230V/50 Hz 9C080080PE [123783])',
+        weight: '10',
+        codeEAN: '',
+        descriptionFull: `
+         <p>Двигун осмосу - 750 Вт, 230 В, 50 Гц, 9C080080PE [123783]</p><br/>
+         <p>Потужність: 15,0 кВт</p>
+         <p>Обороти: 750 об/хв</p>
+         <p>Напруга: 400/690 В, 50 Гц</p>
+         <p>Вал: діаметр - 55 мм, довжина - 110 мм</p>
+         <p>Кріплення: фланець, діаметр фланця - 400 мм</p>
+         <p>Вага: 230 кг</p><br/>
+        `
+    },
+
+    {
+        id: '396',
+        title: 'Язичок трьохточечний з кришкою (JB-30024)',
+        code: 'JEZ-TRZ',
+        price: '9.74',
+        newPrice: '',
+        size: 1,
+        slug: 'goods21-1',
+        img: '/closing/1.jpg',
+        imageShow: ['/closing/1.jpg', '/closing/image1.jpg', ],
+        description: '',
+        descriptionPrise: '',
+        bread1: {
+            title: 'Системи закриття',
+            slug: '/closing-systems',
+        },
+        bread2: '',
+        bread3:  '',
+        descriptionMin: 'Язичок трьохточечний з кришкою (JB-30024)',
+        weight: '0,047',
+        codeEAN: '',
+        descriptionFull: `
+         <p>Язичок трьохточечний - система закривання. </p><br/>
+         <p>Тип JB-30024</p><br/>
+        `
+    },
+    {
+        id: '397',
+        title: 'Монетниця з нержавіючої сталі для модуля і робочих столів',
+        code: 'KAS-MOD-NIE',
+        price: '430.50',
+        newPrice: '',
+        size: 1,
+        slug: 'goods21-2',
+        img: '/closing/2.jpg',
+        imageShow: ['/closing/2.jpg', '/closing/image2.jpg', ],
+        description: '',
+        descriptionPrise: '',
+        bread1: {
+            title: 'Системи закриття',
+            slug: '/closing-systems',
+        },
+        bread2: {
+            slug: '/closing-systems/containers-for-coins',
+            title: 'Грошові ящики, сейфи та контейнери для монет'
+        },
+        bread3:  '',
+        descriptionMin: 'Монетниця з нержавіючої сталі для модуля і робочих столів',
+        weight: '1,2',
+        codeEAN: '',
+        descriptionFull: `
+         <p>Новий тип касети з нержавіючої сталі, який використовується для зберігання монет на автомийках.</p><br/>
+        `
+    },
+    {
+        id: '398',
+        title: 'Дверна ручка (RS100-9005)',
+        code: 'KLA-DRZ',
+        price: '34.08',
+        newPrice: '',
+        size: 1,
+        slug: 'goods21-3',
+        img: '/closing/3.jpg',
+        imageShow: ['/closing/3.jpg', ],
+        description: '',
+        descriptionPrise: '',
+        bread1: {
+            title: 'Системи закриття',
+            slug: '/closing-systems',
+        },
+        bread2: '',
+        bread3:  '',
+        descriptionMin: 'Дверна ручка (RS100-9005)',
+        weight: '0,143',
+        codeEAN: '',
+        descriptionFull: `
+         <p>Ручка для модуля і столика автомийки, тип RS100-9005.</p><br/>
+         <p>До продукту не входить бочкова вставка.</p><br/><br/>
+        `
+    },
+    {
+        id: '399',
+        title: 'Дверна ручка (RS200-9005)',
+        code: 'KLA-DRZ-RS200',
+        price: '32.45',
+        newPrice: '',
+        size: 1,
+        slug: 'goods21-4',
+        img: '/closing/4.jpg',
+        imageShow: ['/closing/4.jpg', '/closing/image3.jpg', ],
+        description: '',
+        descriptionPrise: '',
+        bread1: {
+            title: 'Системи закриття',
+            slug: '/closing-systems',
+        },
+        bread2: '',
+        bread3:  '',
+        descriptionMin: 'Дверна ручка (RS200-9005)',
+        weight: '0,3',
+        codeEAN: '',
+        descriptionFull: `
+         <p>Дверна ручка RS200.</p><br/>
+        `
+    },
+    {
+        id: '400',
+        title: 'Замкова тяга P38/U - 830мм (для модулів)',
+        code: 'PRE-ZAM-P38/U-830',
+        price: '15.30',
+        newPrice: '',
+        size: 1,
+        slug: 'goods21-5',
+        img: '/closing/5.jpg',
+        imageShow: ['/closing/5.jpg', ],
+        description: '',
+        descriptionPrise: '',
+        bread1: {
+            title: 'Системи закриття',
+            slug: '/closing-systems',
+        },
+        bread2: '',
+        bread3:  '',
+        descriptionMin: 'Стрічка замка P38/U - 830 мм (для модулів)',
+        weight: '0,329',
+        codeEAN: '',
+        descriptionFull: `
+         <p>Стрічка замка P38/U - 830 мм (для модулів)</p><br/>
+        `
+    },
+    {
+        id: '401',
+        title: 'Напрямна штанга (fi 8 A20)',
+        code: 'PRO-PRE',
+        price: '2.16',
+        newPrice: '',
+        size: 1,
+        slug: 'goods21-6',
+        img: '/closing/6.jpg',
+        imageShow: ['/closing/6.jpg', ],
+        description: '',
+        descriptionPrise: '',
+        bread1: {
+            title: 'Системи закриття',
+            slug: '/closing-systems',
+        },
+        bread2: '',
+        bread3:  '',
+        descriptionMin: 'Напрямна штанга (fi 8 A20)',
+        weight: '0,013',
+        codeEAN: '',
+        descriptionFull: `
+         <p>Направляюча штанга fi 8 A20 - елемент настільної системи закривання дверей.</p><br/>
+        `
+    },
+    {
+        id: '402',
+        title: 'Тримач вудилища (fi 5.2)',
+        code: 'UCH-PRE',
+        price: '2.31',
+        newPrice: '',
+        size: 1,
+        slug: 'goods21-7',
+        img: '/closing/7.jpg',
+        imageShow: ['/closing/7.jpg', ],
+        description: '',
+        descriptionPrise: '',
+        bread1: {
+            title: 'Системи закриття',
+            slug: '/closing-systems',
+        },
+        bread2: '',
+        bread3:  '',
+        descriptionMin: 'Тримач вудилища (fi 5.2)',
+        weight: '0,013',
+        codeEAN: '',
+        descriptionFull: `
+         <p>Тримач штанги fi 5.2 для настільної системи закривання дверей (модуль)</p><br/>
+        `
+    },
+    {
+        id: '403',
+        title: 'Ущільнювач дверний (УТ-51/1011-05-Г)',
+        code: 'USZ-DRZ-UT51',
+        price: '10.31',
+        newPrice: '',
+        size: 1,
+        slug: 'goods21-8',
+        img: '/closing/8.jpg',
+        imageShow: ['/closing/8.jpg', ],
+        description: '',
+        descriptionPrise: '',
+        bread1: {
+            title: 'Системи закриття',
+            slug: '/closing-systems',
+        },
+        bread2: '',
+        bread3:  '',
+        descriptionMin: 'Ущільнювач дверний (УТ-51/1011-05-Г)',
+        weight: '0,23',
+        codeEAN: '',
+        descriptionFull: `
+         <p>Ущільнювач дверний (УТ-51/1011-05-Г)</p><br/>
+        `
+    },
+    {
+        id: '404',
+        title: 'Вставка циліндра одностороння (31/9 SIMETAL латунь)',
+        code: 'WKL-BEB-SIM-31-9',
+        price: '58.94',
+        newPrice: '',
+        size: 1,
+        slug: 'goods21-9',
+        img: '/closing/9.jpg',
+        imageShow: ['/closing/9.jpg', ],
+        description: '',
+        descriptionPrise: '',
+        bread1: {
+            title: 'Системи закриття',
+            slug: '/closing-systems',
+        },
+        bread2: {
+            slug: '/closing-systems/closing-system',
+            title: 'Система закриття'
+        },
+        bread3:  '',
+        descriptionMin: 'Вставка циліндра одностороння (31/9 SIMETAL латунь)',
+        weight: '0,144',
+        codeEAN: '',
+        descriptionFull: `
+         <p>Одностороння циліндрична вставка.</p><br/>
+         <p>31/9 SIMETAL латунь</p><br/>
+         <p>Вставте еквівалент: WKL-BEB</p><br/>
+        `
+    },
+    {
+        id: '405',
+        title: 'Кулачковий замок для корпусу',
+        code: 'ZAM-KRZ',
+        price: '21.16',
+        newPrice: '',
+        size: 1,
+        slug: 'goods21-10',
+        img: '/closing/10.jpg',
+        imageShow: ['/closing/10.jpg', ],
+        description: '',
+        descriptionPrise: '',
+        bread1: {
+            title: 'Системи закриття',
+            slug: '/closing-systems',
+        },
+        bread2: '',
+        bread3:  '',
+        descriptionMin: 'Кулачковий замок для монетниці з нержавіючої сталі.',
+        weight: '',
+        codeEAN: '',
+        descriptionFull: `
+         <p>Кулачковий замок для монетниці з нержавіючої сталі.</p><br/>
+        `
+    },
+    {
+        id: '406',
+        title: 'Петлі внутрішні двері (Розточчя)',
+        code: 'ZAW-DRZ-ROZ-ST4',
+        price: '15.20',
+        newPrice: '',
+        size: 1,
+        slug: 'goods21-11',
+        img: '/closing/11.jpg',
+        imageShow: ['/closing/11.jpg', ],
+        description: '',
+        descriptionPrise: '',
+        bread1: {
+            title: 'Системи закриття',
+            slug: '/closing-systems',
+        },
+        bread2: {
+            slug: '/closing-systems/hinges-and-stops',
+            title: 'Петлі та упори'
+        },
+        bread3:  '',
+        descriptionMin: 'Петлі внутрішні двері (Розточчя).',
+        weight: '0,3',
+        codeEAN: '',
+        descriptionFull: `
+         <p>Внутрішня дверна петля.</p><br/>
+         <p>Розміри петель:</p><br/>
+         <p>загальна ширина - 7,5 см</p>
+         <p>загальна висота - 6 см</p>
+         <p>відстань між шурупами по вертикалі - 3 см</p>
+         <p>відстань між шурупами по горизонталі - 5 см</p><br/>
+        `
+    },
+    {
+        id: '407',
+        title: 'Петля дверна (Розточчя) зовнішня',
+        code: 'ZAW-DRZ-ROZ',
+        price: '57.70',
+        newPrice: '',
+        size: 1,
+        slug: 'goods21-12',
+        img: '/closing/12.jpg',
+        imageShow: ['/closing/12.jpg', ],
+        description: '',
+        descriptionPrise: '',
+        bread1: {
+            title: 'Системи закриття',
+            slug: '/closing-systems',
+        },
+        bread2: {
+            slug: '/closing-systems/hinges-and-stops',
+            title: 'Петлі та упори'
+        },
+        bread3:  '',
+        descriptionMin: 'Петля дверна (Розточчя) зовнішня',
+        weight: '0,3',
+        codeEAN: '',
+        descriptionFull: `
+         <p>Внутрішня петля чорна - зовнішня.</p><br/>
+         <p>Розміри петель:</p><br/>
+         <p>загальна ширина - 7,5 см</p>
+         <p>загальна висота - 6 см</p>
+         <p>відстань між шурупами по вертикалі - 3 см</p>
+         <p>відстань між шурупами по горизонталі - 5 см</p><br/>
+        `
+    },
+
+    {
+        id: '408',
+        title: 'De-Zal E 1L Засіб для дезінфекції рук з насосом ADR',
+        code: 'DEZALE/001 PUMP',
+        price: '12.31',
+        newPrice: '11.55',
+        size: 1,
+        slug: 'goods22-1',
+        img: '/disinfectants/1.jpg',
+        imageShow: ['/disinfectants/1.jpg', ],
+        description: '',
+        descriptionPrise: 'Найнижча ціна за 30 днів до знижки – 12,31 злотих',
+        bread1: {
+            title: 'Дезінфікуючі засоби',
+            slug: '/disinfectants',
+        },
+        bread2: {
+            slug: '/disinfectants/disinfection-of-hands',
+            title: 'Дезінфекція рук'
+        },
+        bread3:  '',
+        descriptionMin: 'Засіб для дезінфекції рук з віруліцидною дією. Завдяки унікальній формулі засіб має ' +
+            'здатність накопичуватися в епідермісі, що забезпечує тривалий ефект (приблизно 3 години). ' +
+            'Знищує мікроорганізми, що живуть у глибших шарах шкіри, які виділяються з рукавичок, напр. ' +
+            'Містить жирні та зволожуючі речовини, які запобігають висиханню рук і зберігають еластичність' +
+            ' шкіри. Дозвіл на торгівлю біоцидним препаратом: 0163/ТП/2020. ЗАЯВКА - заклад',
+        weight: '1',
+        codeEAN: '',
+        descriptionFull: `
+         <h3><b style="color: black">Опис продукту</b></h3><br/>
+         <p>Засіб для дезінфекції рук з віруліцидною дією. Завдяки унікальній формулі засіб має здатність 
+         накопичуватися в епідермісі, що забезпечує тривалий ефект (приблизно 3 години). Знищує мікроорганізми, 
+         що живуть у глибших шарах шкіри, які виділяються з рукавичок, напр. Містить жирні та зволожуючі речовини,
+          які запобігають висиханню рук і зберігають еластичність шкіри. Дозвіл на торгівлю біоцидним препаратом:
+           0163/ТП/2020.</p><br/>
+         <h3><b style="color: black">ЗАСТОСУВАННЯ</b></h3><br/>
+         <p>державні установи (дитячі садки, школи, ясла, офіси), </p>
+         <p>контакт з їжею (гастрономія, харчова промисловість),</p>
+         <p>медичні практики (медичні послуги).</p><br/>
+         <h3><b style="color: black">ЯК ВИКОРИСТОВУВАТИ</b></h3><br/>
+         <p>Не розводити. Гігієнічна дезінфекція рук: 3 мл препарату втирати порціями протягом 30 секунд.</p><br/>
+        `
+    },
+
+    {
+        id: '409',
+        title: 'Air Check 3/8" для резервуара для розсолу (330)',
+        code: 'AIR-CHE',
+        price: '46.05',
+        newPrice: '',
+        size: 1,
+        slug: 'goods23-1',
+        img: '/purification/1.jpg',
+        imageShow: ['/purification/1.jpg', ],
+        description: '',
+        descriptionPrise: '',
+        bread1: {
+            title: 'Очищення води',
+            slug: '/water-purification',
+        },
+        bread2: {
+            slug: '/water-purification/brine-tanks',
+            title: 'Резервуари для розсолу',
+        },
+        bread3: {
+            slug: '/water-purification/brine-tanks/spare-parts',
+            title: 'Запчастини'
+        },
+        descriptionMin: 'Повітряна перевірка 3/8" для бака для розсолу (330). ',
+        weight: '',
+        codeEAN: '',
+        descriptionFull: `
+         <p>Повітряна перевірка 3/8" для бака для розсолу (330). </p><br/>
+         <p>Компонент розсолу Pentair.</p><br/>
+        `
+    },
+    {
+        id: '410',
+        title: 'Датчик потоку Suttner ST-5',
+        code: 'CZU-PRZ-R+M-ST5',
+        price: '204.54',
+        newPrice: '',
+        size: 1,
+        slug: 'goods23-2',
+        img: '/purification/2.jpg',
+        imageShow: ['/purification/2.jpg', ],
+        description: '',
+        descriptionPrise: '',
+        bread1: {
+            title: 'Очищення води',
+            slug: '/water-purification',
+        },
+        bread2: {
+            slug: '/water-purification/hydraulics-of-water-treatment',
+            title: 'Гідравліка водопідготовки',
+        },
+        bread3:  '',
+        descriptionMin: 'Датчик потоку Suttner ST-5',
+        weight: '0,448',
+        codeEAN: '',
+        descriptionFull: `
+         <p>Датчик потоку Suttner ST-5 вертикального монтажу. Вертикальна монтажна позиція та конфігурація
+          з плаваючими латунними магнітами.</p><br/>
+         <p><b>Характеристики</b></p><br/>
+         <p>Монтаж тільки у вертикальному положенні</p>
+         <p>Геркон, укладений у захисну скляну трубку з вакуумною герметизацією, що виключає вплив жорстких
+          миючих засобів</p>
+         <p>Вони встановлюються далі в насосну систему, ніж традиційні вакуумні вимикачі, тим самим зводячи до 
+         мінімуму можливі точки витоку, які можуть спричинити закриття вакуумних вимикачів.</p>
+         <p>Легка заміна геркона</p>
+         <p>Найбільш перевірені та надійні реле потоку в промисловості.</p><br/>
+         <p><b>Технічні дані</b></p><br/>
+         <p>Макс. Тиск: 4380 PS</p>
+         <p>Мінімальний тиск: 75 PSI</p>
+         <p>Макс. Швидкість потоку: 8 галлонів на хвилину</p>
+         <p>Мінімальна швидкість потоку: 1 GPM</p>
+         <p>Контакт: 1 А - 250 В</p>
+         <p>Макс.: температура рідини: 176°F</p>
+         <p>Довжина кабелю: 47,0"</p>
+         <p>Вхід і вихід: 3/8" FNPT</p>
+         <p>Корпус: латунь</p>
+         <p>Чорний колір</p>
+         <p>Замінює 200005500</p>
+         <p>Вага: 0,45 кг</p><br/>
+        `
+    },
+    {
+        id: '411',
+        title: 'Сітчастий фільтр 3/4" GW (вода)',
+        code: 'FIL-SIA-3/4',
+        price: '42.04',
+        newPrice: '',
+        size: 1,
+        slug: 'goods23-3',
+        img: '/purification/3.jpg',
+        imageShow: ['/purification/3.jpg', ],
+        description: '',
+        descriptionPrise: '',
+        bread1: {
+            title: 'Очищення води',
+            slug: '/water-purification',
+        },
+        bread2: {
+            slug: '/water-purification/filters-and-accessories',
+            title: 'Фільтри та аксесуари',
+        },
+        bread3:  '',
+        descriptionMin: 'Фільтр для води косий (сітчастий) 3/4"',
+        weight: '0,35',
+        codeEAN: '',
+        descriptionFull: `
+         <p>Фільтр для води 3/4" косий (сітчастий). Використовується у водопровідних установках. 
+         Використовується для уловлювання та видалення механічних домішок з установки. Фільтр латунний з 
+         внутрішньою різьбою та сітчастою вставкою.</p><br/>
+        `
+    },
+    {
+        id: '412',
+        title: 'Керуюча головка Clack CI для умягчителя (160)',
+        code: 'GLO-STE-CLACK-CI',
+        price: '3552.83',
+        newPrice: '',
+        size: 1,
+        slug: 'goods23-4',
+        img: '/purification/4.jpg',
+        imageShow: ['/purification/4.jpg', ],
+        description: '',
+        descriptionPrise: '',
+        bread1: {
+            title: 'Очищення води',
+            slug: '/water-purification',
+        },
+        bread2: {
+            slug: '/water-purification/softener-head-and-accessories',
+            title: 'Головка пом\'якшувача та аксесуари',
+        },
+        bread3:  '',
+        descriptionMin: 'Керуюча головка Clack CI для умягчителя (160)',
+        weight: '',
+        codeEAN: '',
+        descriptionFull: `
+         <p>Керівні головки Clack — це найсучасніші автоматичні клапани, які охоплюють широкий спектр застосувань
+          у всьому світі. Вони призначені для житлових, комерційних і промислових застосувань розміром до 3
+           дюймів і з витратою до 250 GPM (56,8 м3/год).</p><br/>
+         <p>Коли справа доходить до зворотного промивання, клапани можуть працювати з резервуарами діаметром
+          до 63 дюймів. Цикли можуть бути встановлені для регенерації потоку вниз або вгору, або просто для
+           обслуговування, промивання та промивання, і є найпростішими в обслуговуванні клапанами в галузі.</p><br/>
+         <p>Клапани доступні в різних версіях програмного забезпечення та управляються напівпровідниковими 
+         мікропроцесорами з налаштуваннями на передній панелі та дисплеєм. Їх легко налаштувати для 
+         використання в багатобакових системах.</p><br/>
+         <p>Клапани мають комплектні аксесуари, включаючи витратоміри з нержавіючої сталі, моторизовані 
+         клапани зі змінною швидкістю, байпас без жорсткої води та системні контролери.</p><br/>
+        `
+    },
+    {
+        id: '413',
+        title: 'Clack CI Control Head for Softener (250 і 330)',
+        code: 'GLO-STE-CLACK-CI-250/330',
+        price: '3535.51',
+        newPrice: '',
+        size: 1,
+        slug: 'goods23-5',
+        img: '/purification/5.jpg',
+        imageShow: ['/purification/5.jpg', '/purification/image1.jpg', ],
+        description: '',
+        descriptionPrise: '',
+        bread1: {
+            title: 'Очищення води',
+            slug: '/water-purification',
+        },
+        bread2: {
+            slug: '/water-purification/softener-head-and-accessories',
+            title: 'Головка пом\'якшувача та аксесуари',
+        },
+        bread3:  '',
+        descriptionMin: 'Clack CI Control Head for Softener (250 і 330)',
+        weight: '7,4',
+        codeEAN: '',
+        descriptionFull: `
+         <p>Керівні головки Clack — це найсучасніші автоматичні клапани, які охоплюють широкий спектр застосувань 
+         у всьому світі. Вони призначені для житлових, комерційних і промислових застосувань розміром до 3 
+         дюймів і з витратою до 250 GPM (56,8 м3/год).</p><br/>
+         <p>Коли справа доходить до зворотного промивання, клапани можуть працювати з резервуарами діаметром 
+         до 63 дюймів. Цикли можуть бути встановлені для регенерації потоку вниз або вгору, або просто для 
+         обслуговування, промивання та промивання, і є найпростішими в обслуговуванні клапанами в галузі.</p><br/>
+         <p>Клапани доступні в різних версіях програмного забезпечення та управляються напівпровідниковими 
+         мікропроцесорами з налаштуваннями на передній панелі та дисплеєм. Їх легко налаштувати для 
+         використання в багатобакових системах.</p><br/>
+         <p>Клапани мають комплектні аксесуари, включаючи витратоміри з нержавіючої сталі, моторизовані клапани
+          зі змінною швидкістю, байпас без жорсткої води та системні контролери.</p><br/>
+        `
+    },
+    {
+        id: '414',
+        title: 'Головка управління FL 9100 SE (1/2.4/05) до 160',
+        code: 'GLO-STE-9100SE',
+        price: '3737.32',
+        newPrice: '',
+        size: 1,
+        slug: 'goods23-6',
+        img: '/purification/6.jpg',
+        imageShow: ['/purification/6.jpg', ],
+        description: '',
+        descriptionPrise: '',
+        bread1: {
+            title: 'Очищення води',
+            slug: '/water-purification',
+        },
+        bread2: {
+            slug: '/water-purification/softener-head-and-accessories',
+            title: 'Головка пом\'якшувача та аксесуари',
+        },
+        bread3:  '',
+        descriptionMin: 'Головка управління FL 9100 SE (1/2.4/05) до 160',
+        weight: '',
+        codeEAN: '',
+        descriptionFull: `
+         <p>Керуюча головка Fleck 9100 поєднує перевірену конструкцію 9000 у міцному регулювальному клапані з
+          двома резервуарами, армованому склом Noryl. Ідеально підходить для легких комерційних/важких житлових
+           систем, які потребують можливостей кондиціонування повітря з подвійним баком. Шестициклове регулювання 
+           регенерує м’якою водою, як тільки це необхідно, зберігаючи систему чистою для оптимальної ефективності
+            роботи. Відновлюється так часто, як це необхідно, кожні 90 хвилин. Безперервний потік до 18 галлонів 
+            на хвилину на клапанах підтримує пом’якшувачі до 16 дюймів.</p><br/>
+         <p>Характеристики</p><br/>
+         <p>Економія солі та води завдяки використанню 100% корисної ємності резервуара перед переходом 
+         на другий резервуар.</p>
+         <p>При необхідності миттєво регенерує для отримання постійної м’якої води.</p>
+         <p>Регенерує в м’якій воді та підтримує чистоту системи для оптимальної ефективності роботи та
+          мінімального обслуговування.</p>
+         <p>Перевірені технології та продуктивність.</p>
+         <p>Полімерний корпус клапана, що не піддається корозії, армований волокном.</p>
+         <p>Інноваційне швидке підключення другого бака.</p>
+         <p>Ідеально підходить для легких комерційних/важких житлових систем, які вимагають можливості 
+         кондиціонування повітря з двома баками.</p><br/>
+        `
+    },
+    {
+        id: '415',
+        title: 'Головка управління FL 9100 SE (2/4/1 і 3/5/1) для 250 і 330',
+        code: 'GLO-STE-9100SE-250/330',
+        price: '3767.45',
+        newPrice: '',
+        size: 1,
+        slug: 'goods23-7',
+        img: '/purification/7.jpg',
+        imageShow: ['/purification/7.jpg', ],
+        description: '',
+        descriptionPrise: '',
+        bread1: {
+            title: 'Очищення води',
+            slug: '/water-purification',
+        },
+        bread2: {
+            slug: '/water-purification/softener-head-and-accessories',
+            title: 'Головка пом\'якшувача та аксесуари',
+        },
+        bread3:  '',
+        descriptionMin: 'Головка управління FL 9100 SE (2/4/1 і 3/5/1) для 250 і 330',
+        weight: '',
+        codeEAN: '',
+        descriptionFull: `
+            <p>Керуюча головка Fleck 9100 поєднує перевірену конструкцію 9000 у міцному регулювальному клапані з
+          двома резервуарами, армованому склом Noryl. Ідеально підходить для легких комерційних/важких житлових
+           систем, які потребують можливостей кондиціонування повітря з подвійним баком. Шестициклове регулювання 
+           регенерує м’якою водою, як тільки це необхідно, зберігаючи систему чистою для оптимальної ефективності
+            роботи. Відновлюється так часто, як це необхідно, кожні 90 хвилин. Безперервний потік до 18 галлонів 
+            на хвилину на клапанах підтримує пом’якшувачі до 16 дюймів.</p><br/>
+         <p>Характеристики</p><br/>
+         <p>Економія солі та води завдяки використанню 100% корисної ємності резервуара перед переходом 
+         на другий резервуар.</p>
+         <p>При необхідності миттєво регенерує для отримання постійної м’якої води.</p>
+         <p>Регенерує в м’якій воді та підтримує чистоту системи для оптимальної ефективності роботи та
+          мінімального обслуговування.</p>
+         <p>Перевірені технології та продуктивність.</p>
+         <p>Полімерний корпус клапана, що не піддається корозії, армований волокном.</p>
+         <p>Інноваційне швидке підключення другого бака.</p>
+         <p>Ідеально підходить для легких комерційних/важких житлових систем, які вимагають можливості 
+         кондиціонування повітря з двома баками.</p><br/>
+        `
+    },
+    {
+        id: '416',
+        title: 'Іоніт HCR-S/S',
+        code: 'IONIT',
+        price: '490.54',
+        newPrice: '',
+        size: 1,
+        slug: 'goods23-8',
+        img: '/purification/8.png',
+        imageShow: ['/purification/8.png', ],
+        description: '',
+        descriptionPrise: '',
+        bread1: {
+            title: 'Очищення води',
+            slug: '/water-purification',
+        },
+        bread2: {
+            slug: '/water-purification/softener',
+            title: 'Пляшки з пом\'якшувачем і аксесуари',
+        },
+        bread3: {
+            slug: '/water-purification/softener/filtering-layer',
+            title: 'Фільтруючий шар'
+        },
+        descriptionMin: 'Іоніт HCR-S/S',
+        weight: '',
+        codeEAN: '',
+        descriptionFull: `
+         <p>Іоніт HCR-S/S</p><br/>
+         <p>Іонообмінний шар призначений для процесів пом'якшення води. Дуже хороші кінетичні властивості,
+          висока іонообмінна здатність.</p><br/>
+        `
+    },
+    {
+        id: '417',
+        title: 'Ключ фільтра серії BB20',
+        code: 'KLUCZ-BB20',
+        price: '24.67',
+        newPrice: '',
+        size: 1,
+        slug: 'goods23-9',
+        img: '/purification/9.jpg',
+        imageShow: ['/purification/9.jpg', ],
+        description: '',
+        descriptionPrise: '',
+        bread1: {
+            title: 'Очищення води',
+            slug: '/water-purification',
+        },
+        bread2: {
+            slug: '/water-purification/filters-and-accessories',
+            title: 'Фільтри та аксесуари',
+        },
+        bread3:  '',
+        descriptionMin: 'Ключ фільтра серії BB20',
+        weight: '0,5',
+        codeEAN: '',
+        descriptionFull: `
+         <p>Ключ для корпусу фільтра на 20".</p><br/>
+        `
+    },
+    {
+        id: '418',
+        title: 'Фільтровий ключ серії FHPR 10"',
+        code: 'KLUCZ-10',
+        price: '10.04',
+        newPrice: '',
+        size: 1,
+        slug: 'goods23-10',
+        img: '/purification/10.jpg',
+        imageShow: ['/purification/10.jpg', ],
+        description: '',
+        descriptionPrise: '',
+        bread1: {
+            title: 'Очищення води',
+            slug: '/water-purification',
+        },
+        bread2: {
+            slug: '/water-purification/filters-and-accessories',
+            title: 'Фільтри та аксесуари',
+        },
+        bread3:  '',
+        descriptionMin: 'Фільтровий ключ серії FHPR 10".',
+        weight: '0,3',
+        codeEAN: '',
+        descriptionFull: `
+         <p>Ключ для корпусу фільтра 10"</p><br/>
+        `
+    },
+    {
+        id: '419',
+        title: 'Сервісний ключ для головок CLACK (ключ)',
+        code: 'KLUCZ-CLACK',
+        price: '65.99',
+        newPrice: '',
+        size: 1,
+        slug: 'goods23-11',
+        img: '/purification/11.jpg',
+        imageShow: ['/purification/11.jpg', ],
+        description: '',
+        descriptionPrise: '',
+        bread1: {
+            title: 'Очищення води',
+            slug: '/water-purification',
+        },
+        bread2: {
+            slug: '/water-purification/softener-head-and-accessories',
+            title: 'Головка пом\'якшувача та аксесуари',
+        },
+        bread3:  '',
+        descriptionMin: 'Сервісний ключ для головок CLACK (ключ)',
+        weight: '',
+        codeEAN: '',
+        descriptionFull: `
+         <p>Сервісний ключ до головок CLACK</p><br/>
+        `
+    },
+    {
+        id: '420',
+        title: 'Зірочка з тросом (V3004) - для головки CLACK',
+        code: 'V3004',
+        price: '147.42',
+        newPrice: '',
+        size: 1,
+        slug: 'goods23-12',
+        img: '/purification/12.jpg',
+        imageShow: ['/purification/12.jpg', ],
+        description: '',
+        descriptionPrise: '',
+        bread1: {
+            title: 'Очищення води',
+            slug: '/water-purification',
+        },
+        bread2: {
+            slug: '/water-purification/brine-tanks',
+            title: 'Резервуари для розсолу',
+        },
+        bread3: {
+            slug: '/water-purification/brine-tanks/spare-parts',
+            title: 'Запчастини'
+        },
+        descriptionMin: 'Зірочка з тросом (V3004) - для головки CLACK',
+        weight: '',
+        codeEAN: '',
+        descriptionFull: `
+         <p>Зірочка з тросом (V3004) для головки CLACK</p><br/>
+        `
+    },
+    {
+        id: '421',
+        title: 'Набір шестерень 25868, 25870, 15135 до пом\'якшувача',
+        code: 'KOL-ZEM-ZMI',
+        price: '267.83',
+        newPrice: '',
+        size: 1,
+        slug: 'goods23-13',
+        img: '/purification/13.jpg',
+        imageShow: ['/purification/13.jpg', ],
+        description: '',
+        descriptionPrise: '',
+        bread1: {
+            title: 'Очищення води',
+            slug: '/water-purification',
+        },
+        bread2: {
+            slug: '/water-purification/softener-head-and-accessories',
+            title: 'Головка пом\'якшувача та аксесуари',
+        },
+        bread3:  '',
+        descriptionMin: 'Набір шестерень 25868, 25870, 15135 до пом\'якшувача',
+        weight: '',
+        codeEAN: '',
+        descriptionFull: `
+         <p>Набір шестерень 25868, 25870, 15135 до пом'якшувача FL 9100</p><br/>
+        `
+    },
+    {
+        id: '422',
+        title: 'Набір гайок до ротаметра ПТМ 3/4" (з\'єднувачі ПВХ різьбові) - 2 шт.',
+        code: 'NAK-ROT-3/4',
+        price: '128.85',
+        newPrice: '',
+        size: 1,
+        slug: 'goods23-14',
+        img: '/purification/14.jpg',
+        imageShow: ['/purification/14.jpg', ],
+        description: '',
+        descriptionPrise: '',
+        bread1: {
+            title: 'Очищення води',
+            slug: '/water-purification',
+        },
+        bread2: {
+            slug: '/water-purification/hydraulics-of-water-treatment',
+            title: 'Гідравліка водопідготовки',
+        },
+        bread3:  '',
+        descriptionMin: 'Гайка для ротаметра ПТМ 3/4" (з\'єднувачі ПВХ різьбові) - комплект',
+        weight: '0,062',
+        codeEAN: '',
+        descriptionFull: `
+         <p>2 гайки для ротаметра PTM 3/4" (з'єднувачі ПВХ з різьбою).</p><br/>
+        `
+    },
+    {
+        id: '423',
+        title: 'Комплект ущільнювачів і кілець до головки CLACK (V3005)',
+        code: 'V3005',
+        price: '205.03',
+        newPrice: '',
+        size: 1,
+        slug: 'goods23-15',
+        img: '/purification/15.jpg',
+        imageShow: ['/purification/15.jpg', ],
+        description: '',
+        descriptionPrise: '',
+        bread1: {
+            title: 'Очищення води',
+            slug: '/water-purification',
+        },
+        bread2: {
+            slug: '/water-purification/brine-tanks',
+            title: 'Резервуари для розсолу',
+        },
+        bread3: {
+            slug: '/water-purification/brine-tanks/spare-parts',
+            title: 'Запчастини'
+        },
+        descriptionMin: 'Комплект ущільнювачів і кілець до головки CLACK (V3005)',
+        weight: '0,131',
+        codeEAN: '',
+        descriptionFull: `
+         <p>Комплект ущільнювачів і кілець до головки CLACK (V3005)</p><br/>
+        `
+    },
+    {
+        id: '424',
+        title: 'Заглушка для корпусу тиску діафрагми',
+        code: 'KOR-MEM',
+        price: '288.37',
+        newPrice: '',
+        size: 1,
+        slug: 'goods23-16',
+        img: '/purification/16.jpg',
+        imageShow: ['/purification/16.jpg', ],
+        description: '',
+        descriptionPrise: '',
+        bread1: {
+            title: 'Очищення води',
+            slug: '/water-purification',
+        },
+        bread2: {
+            slug: '/water-purification/reverse-osmosis-and-accessories',
+            title: 'Зворотний осмос і аксесуари',
+        },
+        bread3:  '',
+        descriptionMin: 'Заглушка для мембранного напірного корпусу.',
+        weight: '0,31',
+        codeEAN: '',
+        descriptionFull: `
+         <p>Заглушка для корпусу тиску діафрагми.</p><br/>
+        `
+    },
+    {
+        id: '425',
+        title: 'Мембрана DuPont TapTec LC HF 4040',
+        code: 'MEM-DP-LC-HF-4040',
+        price: '1110.32',
+        newPrice: '',
+        size: 1,
+        slug: 'goods23-17',
+        img: '/purification/17.jpg',
+        imageShow: ['/purification/17.jpg', '/purification/image2.jpg', ],
+        description: '',
+        descriptionPrise: '',
+        bread1: {
+            title: 'Очищення води',
+            slug: '/water-purification',
+        },
+        bread2: {
+            slug: '/water-purification/reverse-osmosis-and-accessories',
+            title: 'Зворотний осмос і аксесуари',
+        },
+        bread3:  '',
+        descriptionMin: '',
+        weight: '',
+        codeEAN: '',
+        descriptionFull: `
+        `
+    },
+    {
+        id: '426',
+        title: 'Гайка для ротаметра PTM 1/2" (різьбові з\'єднувачі ПВХ)',
+        code: 'NAK-ROT-1/2',
+        price: '69.37',
+        newPrice: '',
+        size: 1,
+        slug: 'goods23-18',
+        img: '/purification/18.jpg',
+        imageShow: ['/purification/18.jpg', ],
+        description: '',
+        descriptionPrise: '',
+        bread1: {
+            title: 'Очищення води',
+            slug: '/water-purification',
+        },
+        bread2: {
+            slug: '/water-purification/hydraulics-of-water-treatment',
+            title: 'Гідравліка водопідготовки',
+        },
+        bread3:  '',
+        descriptionMin: 'Гайка для ротаметра PTM 1/2" (різьбові з\'єднувачі ПВХ)',
+        weight: '0,06',
+        codeEAN: '',
+        descriptionFull: `
+         <p>Гайка для ротаметра PTM 1/2" (різьбові з'єднувачі ПВХ).</p><br/>
+        `
+    },
+    {
+        id: '427',
+        title: 'Ніпель латунний 1/2"',
+        code: 'NYP-1/2',
+        price: '9.10',
+        newPrice: '',
+        size: 1,
+        slug: 'goods23-19',
+        img: '/purification/19.jpg',
+        imageShow: ['/purification/19.jpg', ],
+        description: '',
+        descriptionPrise: '',
+        bread1: {
+            title: 'Очищення води',
+            slug: '/water-purification',
+        },
+        bread2: {
+            slug: '/water-purification/hydraulics-of-water-treatment',
+            title: 'Гідравліка водопідготовки',
+        },
+        bread3:  '',
+        descriptionMin: 'Ніпель латунний 1/2"',
+        weight: '',
+        codeEAN: '',
+        descriptionFull: `
+         <p>Латунний ніпель із чудовою герметичністю, що забезпечується виготовленням із латуні. Матеріал, з якого 
+         виготовлено виріб, зберігає свої властивості навіть при інтенсивній експлуатації.</p><br/>
+         <p>Діаметр роз'єму: 1/2"</p><br/>
+        `
+    },
+    {
+        id: '428',
+        title: 'Корпус фільтра 10" на 1" GW',
+        code: 'OBU-FIL-10-1',
+        price: '49.56',
+        newPrice: '',
+        size: 1,
+        slug: 'goods23-20',
+        img: '/purification/20.jpg',
+        imageShow: ['/purification/20.jpg', ],
+        description: '',
+        descriptionPrise: '',
+        bread1: {
+            title: 'Очищення води',
+            slug: '/water-purification',
+        },
+        bread2: {
+            slug: '/water-purification/filters-and-accessories',
+            title: 'Фільтри та аксесуари',
+        },
+        bread3:  '',
+        descriptionMin: 'Корпус фільтра 10" на 1" GW',
+        weight: '2',
+        codeEAN: '',
+        descriptionFull: `
+         <p>Завдяки професійним корпусам труб ви захистите всю водопровідну установку від швидшого руйнування. 
+         Внутрішня різьба 1 дюйм посилена латунними вставками, що забезпечує найвищі стандарти герметичності. </p><br/>
+         <p><b>Технічні дані</b></p><br/>
+         <p>Підключення: 1"</p>
+         <p>Розмір вставок: 10"</p><br/>
+        `
+    },
+    {
+        id: '429',
+        title: 'Корпус фільтра 10" на 1" GW, посилений 10 бар Aquafilter',
+        code: 'OBU-FIL-10-1-WZM',
+        price: '77.06',
+        newPrice: '',
+        size: 1,
+        slug: 'goods23-21',
+        img: '/purification/21.jpg',
+        imageShow: ['/purification/21.jpg', '/purification/image3.jpg', '/purification/image4.jpg', ],
+        description: '',
+        descriptionPrise: '',
+        bread1: {
+            title: 'Очищення води',
+            slug: '/water-purification',
+        },
+        bread2: {
+            slug: '/water-purification/filters-and-accessories',
+            title: 'Фільтри та аксесуари',
+        },
+        bread3:  '',
+        descriptionMin: 'Корпус фільтра 10" на 1" GW посилений 10 бар',
+        weight: '2',
+        codeEAN: '',
+        descriptionFull: `
+         <p>Корпус фільтра 10" на 1" GW посилений 10 бар [FHPR12-HP1]</p><br/>
+         <p>У набір входить:</p><br/>
+         <p>посилений корпус фільтра;</p>
+         <p>фільтр FCPS 5 (5 мкм);</p>
+         <p>кріплення;</p>
+         <p>позиціонуючий елемент (ключа фільтра 10 дюймів).</p><br/>
+        `
+    },
+    {
+        id: '430',
+        title: 'Корпус фільтра 10" до 1/2" GW Aquafilter',
+        code: 'OBU-FIL-10-1/2',
+        price: '42.23',
+        newPrice: '',
+        size: 1,
+        slug: 'goods23-22',
+        img: '/purification/22.jpg',
+        imageShow: ['/purification/22.jpg', ],
+        description: '',
+        descriptionPrise: '',
+        bread1: {
+            title: 'Очищення води',
+            slug: '/water-purification',
+        },
+        bread2: {
+            slug: '/water-purification/filters-and-accessories',
+            title: 'Фільтри та аксесуари',
+        },
+        bread3:  '',
+        descriptionMin: 'Корпус фільтра 10" на 1/2" GW',
+        weight: '2',
+        codeEAN: '',
+        descriptionFull: `
+         <p>Корпус фільтра 10" на 1/2" GW</p><br/>
+        `
+    },
+    {
+        id: '431',
+        title: 'Корпус фільтра 10" на 1/2" GW посилений 10 бар Aquafilter',
+        code: 'OBU-FIL-10-1/2-WZM',
+        price: '76.06',
+        newPrice: '',
+        size: 1,
+        slug: 'goods23-23',
+        img: '/purification/23.jpg',
+        imageShow: ['/purification/23.jpg', '/purification/image5.jpg', '/purification/image6.jpg', ],
+        description: '',
+        descriptionPrise: '',
+        bread1: {
+            title: 'Очищення води',
+            slug: '/water-purification',
+        },
+        bread2: {
+            slug: '/water-purification/filters-and-accessories',
+            title: 'Фільтри та аксесуари',
+        },
+        bread3:  '',
+        descriptionMin: 'Корпус фільтра 10" на 1/2" GW посилений 10 бар',
+        weight: '2',
+        codeEAN: '',
+        descriptionFull: `
+         <p>Корпус фільтра 10" на 1/2" GW посилений 10 бар</p><br/>
+         <p>У набір входить:</p><br/>
+         <p>посилений корпус фільтра;</p>
+         <p>фільтр FCPS 5 (5 мкм);</p>
+         <p>кріплення;</p>
+         <p>елемент позиціонування;</p>
+         <p>Гайковий ключ для фільтра на 10".</p><br/>
+        `
+    },
+    {
+        id: '432',
+        title: 'Корпус фільтра від 20" до 1" GW (Big Blue)',
+        code:  'OBU-FIL-20/1',
+        price: '367.62',
+        newPrice: '',
+        size: 1,
+        slug: 'goods23-24',
+        img: '/purification/24.jpg',
+        imageShow: ['/purification/24.jpg', ],
+        description: '',
+        descriptionPrise: '',
+        bread1: {
+            title: 'Очищення води',
+            slug: '/water-purification',
+        },
+        bread2: {
+            slug: '/water-purification/filters-and-accessories',
+            title: 'Фільтри та аксесуари',
+        },
+        bread3:  '',
+        descriptionMin: 'Корпус фільтра від 20" до 1" GW (Big Blue)',
+        weight: '3,8',
+        codeEAN: '',
+        descriptionFull: `
+         <p>Корпус Big Blue 20" використовується для механічної фільтрації води, при використанні водопровідної
+          мережі або власного водозабору з більшою витратою. Завдяки своїй високій міцності корпус широко 
+          використовується в промисловості автомийок.</p><br/>
+         <p><b>Технічні дані</b></p><br/>
+         <p>Підключення: 1"</p>
+         <p>Розмір вставок: 20"</p><br/>
+        `
+    },
+    {
+        id: '433',
+        title: '3-компонентний корпус фільтра 10" з підключенням GW 1" (Supreme)',
+        code:  'OBU-FIL-SUP-10-1',
+        price: '51.68',
+        newPrice: '',
+        size: 1,
+        slug: 'goods23-25',
+        img: '/purification/25.jpg',
+        imageShow: ['/purification/25.jpg', '/purification/image7.jpg', ],
+        description: '',
+        descriptionPrise: '',
+        bread1: {
+            title: 'Очищення води',
+            slug: '/water-purification',
+        },
+        bread2: {
+            slug: '/water-purification/filters-and-accessories',
+            title: 'Фільтри та аксесуари',
+        },
+        bread3:  '',
+        descriptionMin: '3-компонентний корпус фільтра 10" з підключенням GW 1" (Supreme)',
+        weight: '',
+        codeEAN: '',
+        descriptionFull: `
+         <p>Конструкція з трьох частин забезпечує швидку, легку установку та зручну заміну картриджів. Прозорий
+          корпус дозволяє швидко оцінити стан забруднення картриджа.</p><br/>
+         <p>Продукти доступні з вентиляційним отвором, який допомагає випустити повітря, що потрапило у фільтр після заміни картриджа.</p><br/>
+          <p><b>Технічні дані</b></p><br/>
+         <p>Підключення: 1"</p>
+         <p>Розмір вставок: 10"</p><br/>
+        `
+    },
+    {
+        id: '434',
+        title: '3-компонентний корпус фільтра 10" з підключенням GW 1/2" (Supreme)',
+        code:  'OBU-FIL-SUP-10-1/2',
+        price: '44.58',
+        newPrice: '',
+        size: 1,
+        slug: 'goods23-26',
+        img: '/purification/26.jpg',
+        imageShow: ['/purification/26.jpg', '/purification/image8.jpg', ],
+        description: '',
+        descriptionPrise: '',
+        bread1: {
+            title: 'Очищення води',
+            slug: '/water-purification',
+        },
+        bread2: {
+            slug: '/water-purification/filters-and-accessories',
+            title: 'Фільтри та аксесуари',
+        },
+        bread3:  '',
+        descriptionMin: '3-компонентний корпус фільтра 10" з підключенням GW 1/2" (Supreme)',
+        weight: '',
+        codeEAN: '',
+        descriptionFull: `
+         <p>Конструкція з трьох частин забезпечує швидку, легку установку та зручну заміну картриджів. Прозорий
+          корпус дозволяє швидко оцінити стан забруднення картриджа.</p><br/>
+         <p>Продукти доступні з вентиляційним отвором, який допомагає випустити повітря, що потрапило у фільтр
+          після заміни картриджа.</p><br/>
+          <p><b>Технічні дані</b></p><br/>
+         <p>Підключення: 1"</p>
+         <p>Розмір вставок: 10"</p><br/>
+        `
+    },
+    {
+        id: '435',
+        title: 'Мембранний корпус (4040 1/2\'\' - 1/2\'\')',
+        code:  'OBU-VSH-4040',
+        price: '970.04',
+        newPrice: '',
+        size: 1,
+        slug: 'goods23-27',
+        img: '/purification/27.jpg',
+        imageShow: ['/purification/27.jpg', ],
+        description: '',
+        descriptionPrise: '',
+        bread1: {
+            title: 'Очищення води',
+            slug: '/water-purification',
+        },
+        bread2: {
+            slug: '/water-purification/reverse-osmosis-and-accessories',
+            title: 'Зворотний осмос і аксесуари',
+        },
+        bread3:  '',
+        descriptionMin: 'Мембранний корпус (4040 1/2\'\' - 1/2\'\')',
+        weight: '7',
+        codeEAN: '',
+        descriptionFull: `
+         <p>Мембранний корпус (4040 1/2'' -1/2'')</p><br/>
+        `
+    },
+    {
+        id: '436',
+        title: 'Поліамідний кабель 14 мм х 12 мм (білий)',
+        code:  'PRZ-POL-14',
+        price: '22.15',
+        newPrice: '',
+        size: 1,
+        slug: 'goods23-28',
+        img: '/purification/28.jpg',
+        imageShow: ['/purification/28.jpg', ],
+        description: '',
+        descriptionPrise: '',
+        bread1: {
+            title: 'Очищення води',
+            slug: '/water-purification',
+        },
+        bread2: {
+            slug: '/water-purification/hydraulics-of-water-treatment',
+            title: 'Гідравліка водопідготовки',
+        },
+        bread3:  '',
+        descriptionMin: 'Поліамідний кабель 14 мм х 12 мм (білий)',
+        weight: '0,245',
+        codeEAN: '',
+        descriptionFull: `
+         <p>Поліамідний кабель.</p><br/>
+         <p>ср. внутрішній: 12 мм</p><br/>
+         <p>ср. зовнішня: 14 мм</p><br/>
+        `
+    },
+    {
+        id: '437',
+        title: 'Ротаметр ПТМ-01 (шкала 60-630 л/год води, 3/4" F BSP)',
+        code:  'ROT-60-630',
+        price: '740.92',
+        newPrice: '',
+        size: 1,
+        slug: 'goods23-29',
+        img: '/purification/29.jpg',
+        imageShow: ['/purification/29.jpg', ],
+        description: '',
+        descriptionPrise: '',
+        bread1: {
+            title: 'Очищення води',
+            slug: '/water-purification',
+        },
+        bread2: {
+            slug: '/water-purification/hydraulics-of-water-treatment',
+            title: 'Гідравліка водопідготовки',
+        },
+        bread3:  '',
+        descriptionMin: 'Ротаметр ПТМ-01 (шкала 60-630 л/год води, 3/4" F BSP)',
+        weight: '0,325',
+        codeEAN: '',
+        descriptionFull: `
+         <p>Ротаметр типу ПТМ - витратомір, призначений для вимірювання витрати рідин і газів.</p><br/>
+         <p>Різьба: 3/4"</p><br/>
+         <p>Масштаб: 60-630 л/год</p><br/>
+        `
+    },
+    {
+        id: '438',
+        title: 'Ротаметр PTM-01/TROGAMID (шкала 16-160 л/год води, 1/2")',
+        code:  'ROT-16-160',
+        price: '679.76',
+        newPrice: '',
+        size: 1,
+        slug: 'goods23-30',
+        img: '/purification/30.jpg',
+        imageShow: ['/purification/30.jpg', ],
+        description: '',
+        descriptionPrise: '',
+        bread1: {
+            title: 'Очищення води',
+            slug: '/water-purification',
+        },
+        bread2: {
+            slug: '/water-purification/hydraulics-of-water-treatment',
+            title: 'Гідравліка водопідготовки',
+        },
+        bread3:  '',
+        descriptionMin: 'Ротаметр PTM-01/TROGAMID (шкала 16-160 л/год води, 1/2")',
+        weight: '',
+        codeEAN: '',
+        descriptionFull: `
+         <p>Ротаметр типу ПТМ - витратомір, призначений для вимірювання витрати рідин і газів.</p><br/>
+         <p>Різьба: 1/2"</p><br/>
+         <p>Масштаб: 16-160 л/год</p><br/>
+        `
+    },
+    {
+        id: '439',
+        title: 'Ротаметр PTM-01/TROGAMID (шкала 40-400 л/год води, 3/4" BSP-PVC)',
+        code:  'ROT-40-400',
+        price: '745.27',
+        newPrice: '',
+        size: 1,
+        slug: 'goods23-31',
+        img: '/purification/31.jpg',
+        imageShow: ['/purification/31.jpg', ],
+        description: '',
+        descriptionPrise: '',
+        bread1: {
+            title: 'Очищення води',
+            slug: '/water-purification',
+        },
+        bread2: {
+            slug: '/water-purification/hydraulics-of-water-treatment',
+            title: 'Гідравліка водопідготовки',
+        },
+        bread3:  '',
+        descriptionMin: 'Ротаметр PTM-01/TROGAMID (шкала 40-400 л/год води, 3/4" BSP-PVC)',
+        weight: '0,311',
+        codeEAN: '',
+        descriptionFull: `
+         <p>Ротаметр типу ПТМ - витратомір, призначений для вимірювання витрати рідин і газів.</p><br/>
+         <p>Різьба: 3/4"</p><br/>
+         <p>Шкала: 40-400 л/год</p><br/>
+        `
+    },
+    {
+        id: '440',
+        title: 'Тестер жорсткості води Aquatest',
+        code:  'AQUATEST',
+        price: '40.70',
+        newPrice: '',
+        size: 1,
+        slug: 'goods23-32',
+        img: '/purification/32.jpg',
+        imageShow: ['/purification/32.jpg', ],
+        description: '',
+        descriptionPrise: '',
+        bread1: {
+            title: 'Очищення води',
+            slug: '/water-purification',
+        },
+        bread2: {
+            slug: '/water-purification/reverse-osmosis-and-accessories',
+            title: 'Зворотний осмос і аксесуари',
+        },
+        bread3:  '',
+        descriptionMin: 'Aquatest для перевірки жорсткості води.',
+        weight: '0,039',
+        codeEAN: '',
+        descriptionFull: `
+         <p>Підготовка до перевірки жорсткості води в діапазоні 1-40°d. Тестер визначає жорсткість води в німецьких
+          градусах (dH)</p><br/>
+         <p>Набір містить:</p><br/>
+         <p>випробувальна посудина,</p>
+         <p>флакон з реактивом а.</p><br/>
+         <p>Посібник користувача :</p><br/>
+         <p>1.Промийте мірну чашку водою.</p>
+         <p>2.Налийте 5 мл води в мірну чашку.</p>
+         <p>3.Додайте реактив по краплях, щоразу струшуючи склянку.</p>
+         <p>4.Підраховуйте додані краплі, поки колір не зміниться з ЧЕРВОНОГО на ЗЕЛЕНИЙ.</p>
+         <p>5.Перевірте результат на вага</p><br/>
+         <p>Одна крапля розчину «б» відповідає одному градусу твердості за Германом (1°d).</p><br/>
+        `
+    },
+    {
+        id: '441',
+        title: 'Поршень нижній для головки умягчителя (24235)',
+        code:  'TLO-DOL-GLO',
+        price: '495.36',
+        newPrice: '',
+        size: 1,
+        slug: 'goods23-33',
+        img: '/purification/33.jpg',
+        imageShow: ['/purification/33.jpg', ],
+        description: '',
+        descriptionPrise: '',
+        bread1: {
+            title: 'Очищення води',
+            slug: '/water-purification',
+        },
+        bread2: {
+            slug: '/water-purification/softener-head-and-accessories',
+            title: 'Головка пом\'якшувача та аксесуари',
+        },
+        bread3:  '',
+        descriptionMin: 'Поршень нижній для головки умягчителя (24235)',
+        weight: '',
+        codeEAN: '',
+        descriptionFull: `
+         <p>Нижній поршень для головки умягчителя. </p><br/>
+         <p>Код виробника поршня: (24235)</p><br/>
+         <p>Код головного магазину: (GŁO-STE-9100SE)</p><br/>
+        `
+    },
+    {
+        id: '442',
+        title: 'Поршень верхній до головки CLACK (V3011)',
+        code:  'V3011',
+        price: '56.63',
+        newPrice: '',
+        size: 1,
+        slug: 'goods23-34',
+        img: '/purification/34.jpg',
+        imageShow: ['/purification/34.jpg', '/purification/image9.jpg', ],
+        description: '',
+        descriptionPrise: '',
+        bread1: {
+            title: 'Очищення води',
+            slug: '/water-purification',
+        },
+        bread2: {
+            slug: '/water-purification/brine-tanks',
+            title: 'Резервуари для розсолу',
+        },
+        bread3: {
+            slug: '/water-purification/brine-tanks/spare-parts',
+            title: 'Запчастини'
+        },
+        descriptionMin: 'Поршень верхній до головки CLACK (V3011)',
+        weight: '',
+        codeEAN: '',
+        descriptionFull: `
+         <p>Верхній поршень для головки CLACK</p><br/>
+        `
+    },
+    {
+        id: '443',
+        title: 'Верхній поршень головки умягчителя (24234)',
+        code:  'TLO-GOR-GLO',
+        price: '419.76',
+        newPrice: '',
+        size: 1,
+        slug: 'goods23-35',
+        img: '/purification/35.jpg',
+        imageShow: ['/purification/35.jpg', '/purification/image10.jpg', ],
+        description: '',
+        descriptionPrise: '',
+        bread1: {
+            title: 'Очищення води',
+            slug: '/water-purification',
+        },
+        bread2: {
+            slug: '/water-purification/softener-head-and-accessories',
+            title: 'Головка пом\'якшувача та аксесуари',
+        },
+        bread3:  '',
+        descriptionMin: 'Верхній поршень головки умягчителя (24234)',
+        weight: '',
+        codeEAN: '',
+        descriptionFull: `
+         <p>Верхній поршень для головки умягчителя.</p><br/>
+         <p>Код виробника: (24234)</p><br/>
+        `
+    },
+    {
+        id: '444',
+        title: 'Розсольний поршень (V3174)',
+        code:  'V3174',
+        price: '41.84',
+        newPrice: '',
+        size: 1,
+        slug: 'goods23-36',
+        img: '/purification/36.jpg',
+        imageShow: ['/purification/36.jpg', ],
+        description: '',
+        descriptionPrise: '',
+        bread1: {
+            title: 'Очищення води',
+            slug: '/water-purification',
+        },
+        bread2: {
+            slug: '/water-purification/brine-tanks',
+            title: 'Резервуари для розсолу',
+        },
+        bread3: {
+            slug: '/water-purification/brine-tanks/spare-parts',
+            title: 'Запчастини'
+        },
+        descriptionMin: 'Розсольний поршень (V3174)',
+        weight: '',
+        codeEAN: '',
+        descriptionFull: `
+         <p>Розсольний поршень </p><br/>
+        `
+    },
+    {
+        id: '445',
+        title: 'Трійник 1/2 GZ-GW-GZ (Camozzi 2090 1/2-1/2)',
+        code:  'TRO-1/2-GWZ',
+        price: '26.57',
+        newPrice: '',
+        size: 1,
+        slug: 'goods23-37',
+        img: '/purification/37.jpg',
+        imageShow: ['/purification/37.jpg', ],
+        description: '',
+        descriptionPrise: '',
+        bread1: {
+            title: 'Очищення води',
+            slug: '/water-purification',
+        },
+        bread2: {
+            slug: '/water-purification/reverse-osmosis-and-accessories',
+            title: 'Зворотний осмос і аксесуари',
+        },
+        bread3:  '',
+        descriptionMin: 'Трійник 1/2 GZ-GW-GZ (Camozzi 2090 1/2-1/2)',
+        weight: '',
+        codeEAN: '',
+        descriptionFull: `
+         <p>Трійник 1/2 GZ-GW-GZ</p><br/>
+         <p><b>Технічні дані</b></p><br/>
+         <p>Температура: - 40°C ÷ 120°C</p>
+         <p>Джерело: стиснене повітря або інші рідини під низьким тиском</p>
+         <p>Матеріали: нікельована латунь</p>
+         <p>Робочий тиск: 80 бар</p><br/>
+         <p>Код виробника: (Camozzi 2090 1/2-1/2)</p><br/>
+        `
+    },
+    {
+        id: '446',
+        title: 'Ущільнювач нижній і верхній для пом\'якшувача (25642)',
+        code:  'USZ-GOR-DOL',
+        price: '434.36',
+        newPrice: '',
+        size: 1,
+        slug: 'goods23-38',
+        img: '/purification/38.jpg',
+        imageShow: ['/purification/38.jpg', ],
+        description: '',
+        descriptionPrise: '',
+        bread1: {
+            title: 'Очищення води',
+            slug: '/water-purification',
+        },
+        bread2: {
+            slug: '/water-purification/softener-head-and-accessories',
+            title: 'Головка пом\'якшувача та аксесуари',
+        },
+        bread3:  '',
+        descriptionMin: 'Ущільнювач нижній і верхній для пом\'якшувача (25642)',
+        weight: '',
+        codeEAN: '',
+        descriptionFull: `
+         <p>Нижній і верхній ущільнювач для пом'якшувача. </p><br/>
+         <p>Код виробника: (25642) </p><br/>
+         <p>Голова: (GLO-STE-9100)</p><br/>
+        `
+    },
+    {
+        id: '447',
+        title: 'ВВ20" поліпропіленовий фільтрувальний вкладиш - 5 мікрон',
+        code:  'WKL-POL-20-5',
+        price: '53.12',
+        newPrice: '',
+        size: 1,
+        slug: 'goods23-39',
+        img: '/purification/39.jpg',
+        imageShow: ['/purification/39.jpg', ],
+        description: '',
+        descriptionPrise: '',
+        bread1: {
+            title: 'Очищення води',
+            slug: '/water-purification',
+        },
+        bread2: {
+            slug: '/water-purification/filters-and-accessories',
+            title: 'Фільтри та аксесуари',
+        },
+        bread3:  '',
+        descriptionMin: 'ВВ20" поліпропіленовий фільтрувальний вкладиш - 5 мікрон',
+        weight: '0,71',
+        codeEAN: '',
+        descriptionFull: `
+         <p>Поліпропіленовий вкладиш легко покращить роботу водяної інсталяції. Виріб призначений для установки
+          на трубні фільтри. Основна мета його використання - видалити з води механічні домішки, повернувши їй 
+          нейтральний запах і смак. Вставка виготовлена з поліпропіленового флізеліну, який відрізняється міцністю
+           і довговічністю. </p><br/>
+         <p>Розмір вставки: 20"</p><br/>
+         <p>Картриджна фільтрація: 5 мікрон</p><br/>
+        `
+    },
+    {
+        id: '448',
+        title: 'ВВ20" поліпропіленовий фільтрувальний вкладиш - 50 мікрон',
+        code:  'WKL-POL-20-50U',
+        price: '53.12',
+        newPrice: '',
+        size: 1,
+        slug: 'goods23-40',
+        img: '/purification/40.jpg',
+        imageShow: ['/purification/40.jpg', ],
+        description: '',
+        descriptionPrise: '',
+        bread1: {
+            title: 'Очищення води',
+            slug: '/water-purification',
+        },
+        bread2: {
+            slug: '/water-purification/filters-and-accessories',
+            title: 'Фільтри та аксесуари',
+        },
+        bread3:  '',
+        descriptionMin: 'ВВ20" поліпропіленовий фільтрувальний вкладиш - 50 мікрон',
+        weight: '0,805',
+        codeEAN: '',
+        descriptionFull: `
+         <p>Поліпропіленовий вкладиш легко покращить роботу водяної інсталяції. Виріб призначений для установки
+          на трубні фільтри. Основна мета його використання - видалити з води механічні домішки, повернувши їй 
+          нейтральний запах і смак. Вставка виготовлена з поліпропіленового флізеліну, який відрізняється 
+          міцністю і довговічністю. </p><br/>
+         <p>Розмір вставки: 20"</p><br/>
+         <p>Картриджна фільтрація: 50 мікрон</p><br/>
+        `
+    },
+    {
+        id: '449',
+        title: 'Поліпропіленовий струнний фільтр-вкладиш 10" - 1 мікрон',
+        code:  'WKL-SZN-10-1',
+        price: '13.21',
+        newPrice: '',
+        size: 1,
+        slug: 'goods23-41',
+        img: '/purification/41.jpg',
+        imageShow: ['/purification/41.jpg', ],
+        description: '',
+        descriptionPrise: '',
+        bread1: {
+            title: 'Очищення води',
+            slug: '/water-purification',
+        },
+        bread2: {
+            slug: '/water-purification/filters-and-accessories',
+            title: 'Фільтри та аксесуари',
+        },
+        bread3:  '',
+        descriptionMin: 'Поліпропіленовий струнний фільтр-вкладиш 10" - 1 мікрон',
+        weight: '0,15',
+        codeEAN: '',
+        descriptionFull: `
+         <p>Струняна вставка видаляє з води нерозчинені забруднення та суспензії, захищаючи водопровідну установку 
+         або наступні етапи фільтрації від піску, мулу та мулу.</p><br/>
+         <p>Струнні вставки в основному використовуються в водопровідних установках з низьким тиском (струна знижує
+          тиск в меншій мірі, ніж нетканий матеріал).</p><br/>
+         <p>Поліпропіленові фільтрувальні вкладиші забезпечують фільтрацію з точністю до 1 мікрона. Вставка підходить
+          до більшості 10-дюймових трубчастих фільтрів, незалежно від виробника.</p><br/>
+         <p>Виробник підтримує високий стандарт і типові розміри.</p><br/>
+         <p>Поліпропіленова струна затримує бруд як на поверхні вставки, так і у всій її структурі.</p><br/>
+        `
+    },
+    {
+        id: '450',
+        title: 'Сітка-вставка для фільтра 10" - 100 мкм',
+        code:  'WKL-SIA-10-100',
+        price: '21.53',
+        newPrice: '',
+        size: 1,
+        slug: 'goods23-42',
+        img: '/purification/42.png',
+        imageShow: ['/purification/42.png', '/purification/image11.png', ],
+        description: '',
+        descriptionPrise: '',
+        bread1: {
+            title: 'Очищення води',
+            slug: '/water-purification',
+        },
+        bread2: {
+            slug: '/water-purification/filters-and-accessories',
+            title: 'Фільтри та аксесуари',
+        },
+        bread3:  '',
+        descriptionMin: 'Картриджі серії WST являють собою багаторазові механічні фільтри. Вони ефективно видаляють' +
+            ' з води механічні домішки, такі як пісок, мул, іржу та суспензії',
+        weight: '0,15',
+        codeEAN: '',
+        descriptionFull: `
+         <p>Картриджі серії WST являють собою багаторазові механічні фільтри. Вони ефективно видаляють з води механічні
+          домішки, такі як пісок, мул, іржу та суспензії. Картридж WST10 призначений для 10-дюймових корпусів труб і 
+          фільтрів під раковиною.</p>
+         <p>Цей продукт має перевагу перед іншими картриджами в тому, що його можна очистити та повторно 
+         використовувати для фільтрації води. Очищення передбачає промивання картриджа під проточною водою.</p><br/>
+         <p><b>Технічні параметри:</b></p><br/>
+         <p>Точність фільтрації: < 100 мікрон</p><br/>
+         <p>Довжина: 10"</p><br/>
+         <p>Діаметр: 2½"</p><br/>
+         <p>Термін служби між полосканнями: макс. 8000 л*</p><br/>
+         <p>Робоча температура: 2-42 °C</p><br/>
+        `
+    },
+    {
+        id: '451',
+        title: 'Сітка-вставка для фільтра 10" - 50 мікрон',
+        code:  'WKL-SIA-10-50',
+        price: '28.13',
+        newPrice: '',
+        size: 1,
+        slug: 'goods23-43',
+        img: '/purification/43.jpg',
+        imageShow: ['/purification/43.jpg', ],
+        description: '',
+        descriptionPrise: '',
+        bread1: {
+            title: 'Очищення води',
+            slug: '/water-purification',
+        },
+        bread2: {
+            slug: '/water-purification/filters-and-accessories',
+            title: 'Фільтри та аксесуари',
+        },
+        bread3:  '',
+        descriptionMin: 'Сітка-вставка для фільтра 10" - 50 мікрон',
+        weight: '0,2',
+        codeEAN: '',
+        descriptionFull: `
+         <p>Вставка виготовлена з поліпропілену і нейлонової сітки. У більшості випадків він використовується
+          як перший ступінь фільтрації. Головною перевагою продукту є те, що він регенерується - це передбачає 
+          промивання вкладиша під проточною водою, що дозволяє використовувати його повторно.</p><br/>
+        `
+    },
+    {
+        id: '452',
+        title: 'Вставка струнного фільтра 10" - 5 мікрон',
+        code:  'WKL-SZN-10-5',
+        price: '13.48',
+        newPrice: '',
+        size: 1,
+        slug: 'goods23-44',
+        img: '/purification/44.jpg',
+        imageShow: ['/purification/44.jpg', ],
+        description: '',
+        descriptionPrise: '',
+        bread1: {
+            title: 'Очищення води',
+            slug: '/water-purification',
+        },
+        bread2: {
+            slug: '/water-purification/filters-and-accessories',
+            title: 'Фільтри та аксесуари',
+        },
+        bread3:  '',
+        descriptionMin: 'Вставка струнного фільтра 10" - 5 мікрон',
+        weight: '0,15',
+        codeEAN: '',
+        descriptionFull: `
+         <p>Струняна вставка видаляє з води нерозчинені забруднення та суспензії, захищаючи водопровідну 
+         установку або наступні етапи фільтрації від піску, мулу та мулу.</p><br/>
+         <p>Струнні вставки в основному використовуються в водопровідних установках з низьким тиском (струна
+          знижує тиск в меншій мірі, ніж нетканий матеріал).</p><br/>
+         <p>Поліпропіленові фільтрувальні вкладиші забезпечують фільтрацію з точністю до 5 мікрон. Вставка
+          підходить до більшості 10-дюймових трубчастих фільтрів, незалежно від виробника.</p><br/>
+         <p>Виробник підтримує високий стандарт і типові розміри.</p><br/>
+         <p>Поліпропіленова струна затримує бруд як на поверхні вставки, так і у всій її структурі.</p><br/>
+        `
+    },
+    {
+        id: '453',
+        title: '10" стрічковий фільтрувальний вкладиш - 50 мікрон',
+        code:  'WKL-SZN-10-50',
+        price: '14.01',
+        newPrice: '',
+        size: 1,
+        slug: 'goods23-45',
+        img: '/purification/45.jpg',
+        imageShow: ['/purification/45.jpg', ],
+        description: '',
+        descriptionPrise: '',
+        bread1: {
+            title: 'Очищення води',
+            slug: '/water-purification',
+        },
+        bread2: {
+            slug: '/water-purification/filters-and-accessories',
+            title: 'Фільтри та аксесуари',
+        },
+        bread3:  '',
+        descriptionMin: '10" стрічковий фільтрувальний вкладиш - 50 мікрон',
+        weight: '0,15',
+        codeEAN: '',
+        descriptionFull: `
+         <p>Струняна вставка видаляє з води нерозчинені забруднення та суспензії, захищаючи водопровідну
+          установку або наступні етапи фільтрації від піску, мулу та мулу.</p><br/>
+         <p>Струнні вставки в основному використовуються в водопровідних установках з низьким тиском 
+         (струна знижує тиск в меншій мірі, ніж нетканий матеріал).</p><br/>
+         <p>Поліпропіленові фільтрувальні вкладиші забезпечують фільтрацію з точністю до 50 мікрон. Вставка підходить
+          до більшості 10-дюймових трубчастих фільтрів, незалежно від виробника.</p><br/>
+         <p>Виробник підтримує високий стандарт і типові розміри.</p><br/>
+         <p>Поліпропіленова струна затримує бруд як на поверхні вставки, так і у всій її структурі.</p><br/>
+        `
+    },
+    {
+        id: '454',
+        title: 'Струняний фільтр-вставка 10" Supreme - 1 мкм [S-PS1]',
+        code:  'WKL-SZN-SUP-10-1',
+        price: '8.61',
+        newPrice: '',
+        size: 1,
+        slug: 'goods23-46',
+        img: '/purification/46.jpg',
+        imageShow: ['/purification/46.jpg', ],
+        description: '',
+        descriptionPrise: '',
+        bread1: {
+            title: 'Очищення води',
+            slug: '/water-purification',
+        },
+        bread2: {
+            slug: '/water-purification/filters-and-accessories',
+            title: 'Фільтри та аксесуари',
+        },
+        bread3:  '',
+        descriptionMin: 'Струняний фільтр-вставка 10" Supreme - 1 мкм [S-PS1]',
+        weight: '',
+        codeEAN: '',
+        descriptionFull: `
+         <p>S-PS1 SUPREME FILTERS PREMIUM SERIES 10" Струнна вставка 1 мікрон. Механічні струнні вставки з 
+         поліпропіленової нитки. Вони видаляють тверді домішки з води, такі як пісок, осад, мул та іржу.</p><br/>
+         <p><b>Заміна для: WKL-SZN-10-1</b></p><br/>
+         <p>Вкладиші SUPREME PREMIUM - це найтовстіші вставки на ринку, безкомпромісний продукт для найвибагливіших
+          клієнтів. Фільтри здатні фільтрувати до 3 разів більше води, ніж картриджі конкурентів.</p><br/>
+         <p><b>Технічні дані:</b></p><br/>
+         <p>Точність фільтрації: 1 мікрон</p>
+         <p>Висота: 10"</p>
+         <p>Діаметр: 2½"</p>
+         <p>Термін служби: до 8000 л *.</p>
+         <p>Робоча температура: 2-42 °C</p><br/>
+         <p>* Залежно від забруднення води</p><br/>
+        `
+    },
+    {
+        id: '455',
+        title: 'Струняний фільтр-вставка Supreme 10" - 50 мкм [S-PP50]',
+        code:  'WKL-SZN-SUP-10-50',
+        price: '8.81',
+        newPrice: '',
+        size: 1,
+        slug: 'goods23-47',
+        img: '/purification/47.jpg',
+        imageShow: ['/purification/47.jpg', ],
+        description: '',
+        descriptionPrise: '',
+        bread1: {
+            title: 'Очищення води',
+            slug: '/water-purification',
+        },
+        bread2: {
+            slug: '/water-purification/filters-and-accessories',
+            title: 'Фільтри та аксесуари',
+        },
+        bread3:  '',
+        descriptionMin: 'Струняний фільтр-вставка Supreme 10" - 50 мкм [S-PP50]',
+        weight: '0,185',
+        codeEAN: '',
+        descriptionFull: `
+         <p>Струняна вставка видаляє з води нерозчинені забруднення та суспензії, захищаючи водопровідну 
+         установку або наступні етапи фільтрації від піску, мулу та мулу.</p><br/>
+         <p>Струнні вставки в основному використовуються в водопровідних установках з низьким тиском (струна знижує 
+         тиск в меншій мірі, ніж нетканий матеріал).</p><br/>
+         <p>Поліпропіленові фільтрувальні вкладиші забезпечують фільтрацію з точністю до 50 мікрон. Вставка підходить
+          до більшості 10-дюймових трубчастих фільтрів, незалежно від виробника.</p><br/>
+         <p>Виробник підтримує високий стандарт і типові розміри.</p><br/>
+         <p>Поліпропіленова струна затримує бруд як на поверхні вставки, так і у всій її структурі.</p><br/>
+        `
+    },
+    {
+        id: '456',
+        title: 'Блок живлення для головки Fleck 9100',
+        code:  'ZAS-GLO-9100',
+        price: '245.32',
+        newPrice: '',
+        size: 1,
+        slug: 'goods23-48',
+        img: '/purification/48.jpg',
+        imageShow: ['/purification/48.jpg', ],
+        description: '',
+        descriptionPrise: '',
+        bread1: {
+            title: 'Очищення води',
+            slug: '/water-purification',
+        },
+        bread2: {
+            slug: '/water-purification/softener-head-and-accessories',
+            title: 'Головка пом\'якшувача та аксесуари',
+        },
+        bread3:  '',
+        descriptionMin: 'Блок живлення для головки Fleck 9100',
+        weight: '',
+        codeEAN: '',
+        descriptionFull: `
+         <p>Блок живлення контрольної головки Fleck 9100.</p><br/>
+         <p><b>Технічні дані</b></p><br/>
+         <p>Живлення - 220В 50 Гц</p><br/>
+         <p>Робоча напруга - 12В 50 Гц</p><br/>
+        `
+    },
+    {
+        id: '457',
+        title: 'Соляний клапан Pentair (клапан + поплавок + датчик)',
+        code:  'ZAW-SOL-PEN',
+        price: '125.42',
+        newPrice: '',
+        size: 1,
+        slug: 'goods23-49',
+        img: '/purification/49.jpg',
+        imageShow: ['/purification/49.jpg', ],
+        description: '',
+        descriptionPrise: '',
+        bread1: {
+            title: 'Очищення води',
+            slug: '/water-purification',
+        },
+        bread2: {
+            slug: '/water-purification/brine-tanks',
+            title: 'Резервуари для розсолу',
+        },
+        bread3: {
+            slug: '/water-purification/brine-tanks/spare-parts',
+            title: 'Запчастини'
+        },
+        descriptionMin: 'Соляний клапан Pentair (клапан + поплавок + датчик)',
+        weight: '',
+        codeEAN: '',
+        descriptionFull: `
+         <p>Соляний клапан Pentair, в комплект входить:</p><br/>
+         <p>клапан;</p>
+         <p>плавець;</p>
+         <p>датчик.</p><br/>
+        `
+    },
+    {
+        id: '458',
+        title: 'Туалетний напірний бак 14 x 65 дюймів з отвором 2,5 дюйма до 330',
+        code:  'ZBI-CIS-330',
+        price: '738.00',
+        newPrice: '',
+        size: 1,
+        slug: 'goods23-50',
+        img: '/purification/50.jpg',
+        imageShow: ['/purification/50.jpg', ],
+        description: '',
+        descriptionPrise: '',
+        bread1: {
+            title: 'Очищення води',
+            slug: '/water-purification',
+        },
+        bread2: {
+            slug: '/water-purification/softener',
+            title: 'Пляшки з пом\'якшувачем і аксесуари',
+        },
+        bread3: {
+            slug: '/water-purification/softener/cylinders',
+            title: 'Циліндри'
+        },
+        descriptionMin: 'Туалетний напірний бак 14 x 65 дюймів з отвором 2,5 дюйма до 330. ',
+        weight: '',
+        codeEAN: '',
+        descriptionFull: `
+         <p>Напірний бачок для унітазу 14 x 65 дюймів з отвором 2,5 дюйма до 330. Розподільник і кошик 
+         включені.</p><br/>
+         <p><b>Технічні дані</b></p><br/>
+         <p>Розмір циліндра (дюйми) - 14 х 65</p>
+         <p>Об'єм циліндра (л) - 330</p>
+         <p>ширина - 356 мм</p>
+         <p>глибина - 356 мм</p>
+         <p>висота - 1651 мм</p>
+         <p>діаметр отвору - 127 мм</p><br/>
+        `
+    },
+    {
+        id: '459',
+        title: 'Кутовий з\'єднувач 14 мм - 1/2 M (Camozzi S6520 14 - 1/2)',
+        code:  'ZLA-KAT-14',
+        price: '48.79',
+        newPrice: '',
+        size: 1,
+        slug: 'goods23-51',
+        img: '/purification/51.jpg',
+        imageShow: ['/purification/51.jpg', ],
+        description: '',
+        descriptionPrise: '',
+        bread1: {
+            title: 'Очищення води',
+            slug: '/water-purification',
+        },
+        bread2: {
+            slug: '/water-purification/reverse-osmosis-and-accessories',
+            title: 'Зворотний осмос і аксесуари',
+        },
+        bread3:  '',
+        descriptionMin: 'Кутовий з\'єднувач 14 мм - 1/2 M (Camozzi S6520 14 - 1/2)',
+        weight: '',
+        codeEAN: '',
+        descriptionFull: `
+         <p>З'єднувач кутовий 14 мм - 1/2 М </p><br/>
+         <p>Код виробника: (Camozzi S6520 14 - 1/2)</p><br/>
+        `
+    },
+    {
+        id: '460',
+        title: 'Кутовий з\'єднувач 2 мм х 14 мм (Camozzi 6550 14)',
+        code:  'ZLA-KAT-2X14',
+        price: '38.35',
+        newPrice: '',
+        size: 1,
+        slug: 'goods23-52',
+        img: '/purification/52.jpg',
+        imageShow: ['/purification/52.jpg', ],
+        description: '',
+        descriptionPrise: '',
+        bread1: {
+            title: 'Очищення води',
+            slug: '/water-purification',
+        },
+        bread2: {
+            slug: '/water-purification/reverse-osmosis-and-accessories',
+            title: 'Зворотний осмос і аксесуари',
+        },
+        bread3:  '',
+        descriptionMin: 'Кутовий з\'єднувач 2 мм х 14 мм (Camozzi 6550 14)',
+        weight: '',
+        codeEAN: '',
+        descriptionFull: `
+         <p>Кутовий з'єднувач 2 мм х 14 мм</p><br/>
+         <p>Код виробника: (Camozzi 6550 14)</p><br/>
+        `
+    },
+    {
+        id: '461',
+        title: 'З\'єднувач прямий 14 мм-1/2 шт. (Camozzi S6510 14-1/2)',
+        code:  'ZLA-PRO-14',
+        price: '26.27',
+        newPrice: '',
+        size: 1,
+        slug: 'goods23-53',
+        img: '/purification/53.jpg',
+        imageShow: ['/purification/53.jpg', ],
+        description: '',
+        descriptionPrise: '',
+        bread1: {
+            title: 'Очищення води',
+            slug: '/water-purification',
+        },
+        bread2: {
+            slug: '/water-purification/hydraulics-of-water-treatment',
+            title: 'Гідравліка водопідготовки',
+        },
+        bread3:  '',
+        descriptionMin: 'З\'єднувач прямий 14 мм-1/2 шт. (Camozzi S6510 14-1/2)',
+        weight: '',
+        codeEAN: '',
+        descriptionFull: `
+         <p>Прямий з'єднувач 14 мм - 1/2 M </p><br/>
+         <p>Код виробника: (Camozzi S6510 14 - 1/2)</p><br/>
+        `
+    },
+    {
+        id: '462',
+        title: 'Зернистість 2 - 3,15 мм',
+        code:  'ZWIR',
+        price: '52.57',
+        newPrice: '',
+        size: 1,
+        slug: 'goods23-54',
+        img: '/purification/54.jpg',
+        imageShow: ['/purification/54.jpg', ],
+        description: '',
+        descriptionPrise: '',
+        bread1: {
+            title: 'Очищення води',
+            slug: '/water-purification',
+        },
+        bread2: {
+            slug: '/water-purification/softener',
+            title: 'Пляшки з пом\'якшувачем і аксесуари',
+        },
+        bread3: {
+            slug: '/water-purification/softener/filtering-layer',
+            title: 'Фільтруючий шар'
+        },
+        descriptionMin: 'Зернистість 2 - 3,15 мм',
+        weight: '',
+        codeEAN: '',
+        descriptionFull: `
+         <p>Гравій, кварцовий пісок 2 - 3 мм. </p><br/>
+         <p>Випускається в упаковці: мішок по 25 кг</p><br/>
+        `
+    },
+
     {
         id: '175',
         title: 'Перехідник MOSMATIC прямий 1/4" F - 1/4" M NPT (51.061)',

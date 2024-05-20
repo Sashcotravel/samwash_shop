@@ -447,24 +447,36 @@ const Header = () => {
                                         <span><Link href="/cables-hoses/ropes-for-arrows" id='mozhna'>Троси для стріл</Link></span>
                                     </li>
                                     <li>
-                                        <Link href="/" id='mozhna'>Двигуни</Link>
+                                        <Link href="/engines" id='mozhna'>Двигуни</Link>
                                     </li>
                                     <li>
-                                        <Link href="/" id='mozhna'>Системи закриття</Link>
+                                        <Link href="/closing-systems" id='mozhna'>Системи закриття</Link>
+                                        <span><Link href="/closing-systems/containers-for-coins"
+                                                    id='mozhna'>Грошові ящики, сейфи та контейнери для монет</Link></span>
+                                        <span><Link href="/closing-systems/closing-system"
+                                                    id='mozhna'>Система закриття</Link></span>
+                                        <span><Link href="/closing-systems/hinges-and-stops"
+                                                    id='mozhna'>Петлі та упори</Link></span>
                                     </li>
                                     <li>
-                                        <Link href="/" id='mozhna'>Дезінфікуючі засоби</Link>
-                                        <span><Link href="/" id='mozhna'>Дезінфекція рук</Link></span>
+                                        <Link href="/disinfectants" id='mozhna'>Дезінфікуючі засоби</Link>
+                                        <span><Link href="/disinfectants/disinfection-of-hands"
+                                                    id='mozhna'>Дезінфекція рук</Link></span>
                                     </li>
                                     <li>
-                                        <Link href="/" id='mozhna'>Очищення води</Link>
-                                        <span><Link href="/"
+                                        <Link href="/water-purification" id='mozhna'>Очищення води</Link>
+                                        <span><Link href="/water-purification/softener"
                                                     id='mozhna'>Пляшки з пом'якшувачем і аксесуари</Link></span>
-                                        <span><Link href="/" id='mozhna'>Фільтри та аксесуари</Link></span>
-                                        <span><Link href="/" id='mozhna'>Головка пом'якшувача та аксесуари</Link></span>
-                                        <span><Link href="/" id='mozhna'>Гідравліка водопідготовки</Link></span>
-                                        <span><Link href="/" id='mozhna'>Зворотний осмос і аксесуари</Link></span>
-                                        <span><Link href="/" id='mozhna'>Резервуари для розсолу</Link></span>
+                                        <span><Link href="/water-purification/filters-and-accessories"
+                                                    id='mozhna'>Фільтри та аксесуари</Link></span>
+                                        <span><Link href="/water-purification/softener-head-and-accessories"
+                                                    id='mozhna'>Головка пом'якшувача та аксесуари</Link></span>
+                                        <span><Link href="/water-purification/hydraulics-of-water-treatment"
+                                                    id='mozhna'>Гідравліка водопідготовки</Link></span>
+                                        <span><Link href="/water-purification/reverse-osmosis-and-accessories"
+                                                    id='mozhna'>Зворотний осмос і аксесуари</Link></span>
+                                        <span><Link href="/water-purification/brine-tanks"
+                                                    id='mozhna'>Резервуари для розсолу</Link></span>
                                     </li>
                                     <li>
                                         <Link href="/arrows" id='mozhna'>Стріли</Link>
@@ -787,7 +799,7 @@ const Header = () => {
                                            className={s.imgArrowManu}/>
                                 </button>
                                 <div className={s.dropdown_content}>
-                                    <span><Link href="/" id='mozhna'>Двигуни</Link></span>
+                                    <span><Link href="/engines" id='mozhna'>Двигуни</Link></span>
                                 </div>
                             </li>
                             <li className={s.dropdown + ' ' + s.less}>
@@ -797,7 +809,13 @@ const Header = () => {
                                            className={s.imgArrowManu}/>
                                 </button>
                                 <div className={s.dropdown_content}>
-                                    <span><Link href="/" id='mozhna'>Системи закриття</Link></span>
+                                    <span><Link href="/closing-systems" id='mozhna'>Системи закриття</Link></span>
+                                    <span><Link href="/closing-systems/containers-for-coins"
+                                                id='mozhna'>Грошові ящики, сейфи та контейнери для монет</Link></span>
+                                    <span><Link href="/closing-systems/closing-system"
+                                                id='mozhna'>Система закриття</Link></span>
+                                    <span><Link href="/closing-systems/hinges-and-stops"
+                                                id='mozhna'>Петлі та упори</Link></span>
                                 </div>
                             </li>
                             <li className={s.dropdown + ' ' + s.less}>
@@ -807,7 +825,9 @@ const Header = () => {
                                            className={s.imgArrowManu}/>
                                 </button>
                                 <div className={s.dropdown_content}>
-                                    <span><Link href="/" id='mozhna'>Дезінфекція рук</Link></span>
+                                    <span><Link href="/disinfectants" id='mozhna'>Дезінфікуючі засоби</Link></span>
+                                    <span><Link href="/disinfectants/disinfection-of-hands"
+                                                id='mozhna'>Дезінфекція рук</Link></span>
                                 </div>
                             </li>
                             <li className={s.dropdown + ' ' + s.less}>
@@ -817,12 +837,19 @@ const Header = () => {
                                            className={s.imgArrowManu}/>
                                 </button>
                                 <div className={s.dropdown_content}>
-                                    <span><Link href="/" id='mozhna'>Пляшки з пом'якшувачем і аксесуари</Link></span>
-                                    <span><Link href="/" id='mozhna'>Фільтри та аксесуари</Link></span>
-                                    <span><Link href="/" id='mozhna'>Головка пом'якшувача та аксесуари</Link></span>
-                                    <span><Link href="/" id='mozhna'>Гідравліка водопідготовки</Link></span>
-                                    <span><Link href="/" id='mozhna'>Зворотний осмос і аксесуари</Link></span>
-                                    <span><Link href="/" id='mozhna'>Резервуари для розсолу</Link></span>
+                                    <span><Link href="/water-purification" id='mozhna'>Очищення води</Link></span>
+                                    <span><Link href="/water-purification/softener"
+                                                id='mozhna'>Пляшки з пом'якшувачем і аксесуари</Link></span>
+                                    <span><Link href="/water-purification/filters-and-accessories"
+                                                id='mozhna'>Фільтри та аксесуари</Link></span>
+                                    <span><Link href="/water-purification/softener-head-and-accessories"
+                                                id='mozhna'>Головка пом'якшувача та аксесуари</Link></span>
+                                    <span><Link href="/water-purification/hydraulics-of-water-treatment"
+                                                id='mozhna'>Гідравліка водопідготовки</Link></span>
+                                    <span><Link href="/water-purification/reverse-osmosis-and-accessories"
+                                                id='mozhna'>Зворотний осмос і аксесуари</Link></span>
+                                    <span><Link href="/water-purification/brine-tanks"
+                                                id='mozhna'>Резервуари для розсолу</Link></span>
                                 </div>
                             </li>
                             <li className={s.dropdown + ' ' + s.less}>
