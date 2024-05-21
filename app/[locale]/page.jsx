@@ -11,10 +11,13 @@ import 'swiper/css/pagination';
 import Link from "next-intl/link";
 import Image from "next/image";
 import TopButton from "@/app/component/topButton/topButton";
+import axios from "axios";
+import {useLocale} from "next-intl";
 
 
 const MainPage = () => {
 
+    const locale = useLocale();
     const progressCircle = useRef(null);
     const progressContent = useRef(null);
     const [inputEmail, setInputEmail] = useState('');
@@ -23,6 +26,9 @@ const MainPage = () => {
     const [checkboxError, setCheckboxError] = useState(false);
     const [isSubmitting, setIsSubmitting] = useState(false);
     const [slidesPerView, setSlidesPerView] = useState(4);
+    const [news1, setNews1] = useState('');
+    const [news2, setNews2] = useState('');
+    const [news3, setNews3] = useState('');
 
     useEffect(() => {
         window.addEventListener('resize', () => {
@@ -49,6 +55,32 @@ const MainPage = () => {
 
     useEffect(() => {
         window.scrollTo(0, 0)
+
+        if (news1.length === 0) {
+            axios
+                .get(`https://cb.samwash.ua/api/v1/blog/${locale === "en" ? "en" : locale === "ru" ? "ru" : "ua"}/pumps-for-self-service-car-washes-how-to-choose-14055636`)
+                .then(res => {
+                    const data = res.data.data
+                    setNews1(data)
+                })
+        }
+        if (news2.length === 0) {
+            axios
+                .get(`https://cb.samwash.ua/api/v1/blog/${locale === "en" ? "en" : locale === "ru" ? "ru" : "ua"}/two-cylinder-softening-system-in-car-wash-22065841`)
+                .then(res => {
+                    const data = res.data.data
+                    setNews2(data)
+                })
+        }
+        if (news3.length === 0) {
+            axios
+                .get(`https://cb.samwash.ua/api/v1/blog/${locale === "en" ? "en" : locale === "ru" ? "ru" : "ua"}/film-for-washing-21192423`)
+                .then(res => {
+                    const data = res.data.data
+                    setNews3(data)
+                    console.log(res.data.data)
+                })
+        }
     }, []);
 
     const onAutoplayTimeLeft = (s, time, progress) => {
@@ -103,12 +135,12 @@ const MainPage = () => {
                     className="mySwiper firstSlider"
                 >
                     <SwiperSlide>
-                        <Link href='/product'>
+                        <Link href='/goods?goods=goods6'>
                             <Image src='/main/image1.jpg' alt='slider' width={2200} height={600} />
                         </Link>
                     </SwiperSlide>
                     <SwiperSlide>
-                        <Link href='/product'>
+                        <Link href='/goods?goods=goods7'>
                             <Image src='/main/image2.jpg' alt='slider' width={2200} height={600} />
                         </Link>
                     </SwiperSlide>
@@ -137,7 +169,7 @@ const MainPage = () => {
                 >
                     <SwiperSlide>
                         <div className={s.goods_slider}>
-                            <Link href='/product'>
+                            <Link href='/goods?goods=goods13'>
                                 <div className={s.image_goods}>
                                     <span className={s.news}>Новинка</span>
                                     <Image src='/main/image3.jpg' alt='slider' width={160} height={160} />
@@ -152,13 +184,13 @@ const MainPage = () => {
                     </SwiperSlide>
                     <SwiperSlide>
                         <div className={s.goods_slider}>
-                            <Link href='/product'>
+                            <Link href='/goods?goods=goods15-6'>
                                 <div className={s.image_goods}>
-                                    <Image src='/main/image3.jpg' alt='slider' width={160} height={160} />
+                                    <Image src='/equipmentWashing/6.jpg' alt='slider' width={160} height={160} />
                                 </div>
                                 <div className={s.text_goods}>
-                                    <h4>Порошок ORANGE FF миючий порошок (25 кг), без фосфатів, аромат</h4>
-                                    <p>402,21 гривень</p>
+                                    <h4>Тримач склоочисника / килимка (нержавіюча сталь)</h4>
+                                    <p>139,61 гривень</p>
                                     <span>Подробиці</span>
                                 </div>
                             </Link>
@@ -166,13 +198,13 @@ const MainPage = () => {
                     </SwiperSlide>
                     <SwiperSlide>
                         <div className={s.goods_slider}>
-                            <Link href='/product'>
+                            <Link href='/goods?goods=goods15-3'>
                                 <div className={s.image_goods}>
-                                    <Image src='/main/image3.jpg' alt='slider' width={160} height={160}/>
+                                    <Image src='/equipmentWashing/3.jpg' alt='slider' width={160} height={160}/>
                                 </div>
                                 <div className={s.text_goods}>
-                                    <h4>Порошок ORANGE FF миючий порошок (25 кг), без фосфатів, аромат</h4>
-                                    <p>402,21 гривень</p>
+                                    <h4>Наклейка з прайс-листом на безконтактну мийку (чорна)</h4>
+                                    <p>7,13 гривень</p>
                                     <span>Подробиці</span>
                                 </div>
                             </Link>
@@ -180,13 +212,13 @@ const MainPage = () => {
                     </SwiperSlide>
                     <SwiperSlide>
                         <div className={s.goods_slider}>
-                            <Link href='/product'>
+                            <Link href='/goods?goods=goods18-34'>
                                 <div className={s.image_goods}>
-                                    <Image src='/main/image3.jpg' alt='slider' width={160} height={160}/>
+                                    <Image src='/weapons/34.jpg' alt='slider' width={160} height={160}/>
                                 </div>
                                 <div className={s.text_goods}>
-                                    <h4>Порошок ORANGE FF миючий порошок (25 кг), без фосфатів, аромат</h4>
-                                    <p>402,21 гривень</p>
+                                    <h4>Щітка низького тиску зі спицем і ручкою (RM, EasyTurn, R+M)</h4>
+                                    <p>523,97 гривень</p>
                                     <span>Подробиці</span>
                                 </div>
                             </Link>
@@ -194,13 +226,13 @@ const MainPage = () => {
                     </SwiperSlide>
                     <SwiperSlide>
                         <div className={s.goods_slider}>
-                            <Link href='/product'>
+                            <Link href='/goods?goods=goods3-3'>
                                 <div className={s.image_goods}>
-                                    <Image src='/main/image3.jpg' alt='slider' width={160} height={160}/>
+                                    <Image src='/pump/3.jpg' alt='slider' width={160} height={160}/>
                                 </div>
                                 <div className={s.text_goods}>
-                                    <h4>Порошок ORANGE FF миючий порошок (25 кг), без фосфатів, аромат</h4>
-                                    <p>402,21 гривень</p>
+                                    <h4>Дозатрон (D3RE2AF 0,2-2% AF)</h4>
+                                    <p>3120,97 гривень</p>
                                     <span>Подробиці</span>
                                 </div>
                             </Link>
@@ -208,13 +240,14 @@ const MainPage = () => {
                     </SwiperSlide>
                     <SwiperSlide>
                         <div className={s.goods_slider}>
-                            <Link href='/product'>
+                            <Link href='/goods?goods=goods4-47'>
                                 <div className={s.image_goods}>
-                                    <Image src='/main/image3.jpg' alt='slider' width={160} height={160}/>
+                                    <Image src='/water-pumps/47.jpg' alt='slider' width={160} height={160}/>
                                 </div>
                                 <div className={s.text_goods}>
-                                    <h4>Порошок ORANGE FF миючий порошок (25 кг), без фосфатів, аромат</h4>
-                                    <p>402,21 гривень</p>
+                                    <h4>Набір для ремонту ущільнювача гарячої води для насосів CAT
+                                        310/340/350 [33623]</h4>
+                                    <p>571,30 гривень</p>
                                     <span>Подробиці</span>
                                 </div>
                             </Link>
@@ -222,13 +255,13 @@ const MainPage = () => {
                     </SwiperSlide>
                     <SwiperSlide>
                         <div className={s.goods_slider}>
-                            <Link href='/product'>
+                            <Link href='/goods?goods=goods2-7'>
                                 <div className={s.image_goods}>
-                                    <Image src='/main/image3.jpg' alt='slider' width={160} height={160}/>
+                                    <Image src='/electromagnetic/7.jpg' alt='slider' width={160} height={160}/>
                                 </div>
                                 <div className={s.text_goods}>
-                                    <h4>Порошок ORANGE FF миючий порошок (25 кг), без фосфатів, аромат</h4>
-                                    <p>402,21 гривень</p>
+                                    <h4>Електромагнітний клапан 1/2'' з нержавіючої сталі 6213, ущільнення VITON</h4>
+                                    <p>596,80 гривень</p>
                                     <span>Подробиці</span>
                                 </div>
                             </Link>
@@ -236,13 +269,14 @@ const MainPage = () => {
                     </SwiperSlide>
                     <SwiperSlide>
                         <div className={s.goods_slider}>
-                            <Link href='/product'>
+                            <Link href='/goods?goods=goods11-2'>
                                 <div className={s.image_goods}>
-                                    <Image src='/main/image3.jpg' alt='slider' width={160} height={160}/>
+                                    <Image src='/maintenance/2.jpg' alt='slider' width={160} height={160}/>
                                 </div>
                                 <div className={s.text_goods}>
-                                    <h4>Порошок ORANGE FF миючий порошок (25 кг), без фосфатів, аромат</h4>
-                                    <p>402,21 гривень</p>
+                                    <h4>Clean Up Car Wash 10L ADR Препарат для очищення конструкцій
+                                        безконтактних мийок</h4>
+                                    <p>138,82 гривень</p>
                                     <span>Подробиці</span>
                                 </div>
                             </Link>
@@ -267,18 +301,48 @@ const MainPage = () => {
                 >
                     <SwiperSlide>
                         <div className={s.goods_slider}>
-                            <Link href='/product'>
+                            <Link href='/goods?goods=goods15'>
                                 <div className={s.image_goods}>
                                     <span className={s.news} style={{background: '#4DB6AC'}}>Чудова якість</span>
                                     <span className={s.news2} style={{background: '#A1887F'}}>Хороша ціна</span>
-                                    <Image src='/main/image3.jpg' alt='slider' width={160} height={160}/>
+                                    <Image src='/chemical-means/13.jpg' alt='slider' width={160} height={160}/>
                                 </div>
                                 <div className={s.text_goods}>
-                                    <h4>Порошок ORANGE FF миючий порошок (25 кг), без фосфатів, аромат</h4>
-                                    <p>
-                                        402,21 гривень <br/>
-                                        <font>Найнижча ціна за 30 днів до знижки 195,15 грн</font>
-                                    </p>
+                                    <h4>Автономна каша Ultra Fresh (25 кг), аромат</h4>
+                                    <p>562,15 гривень</p>
+                                    <span>Субпродукти</span>
+                                </div>
+                            </Link>
+                        </div>
+                    </SwiperSlide>
+                    {/*<SwiperSlide>*/}
+                    {/*    <div className={s.goods_slider}>*/}
+                    {/*        <Link href='/product'>*/}
+                    {/*            <div className={s.image_goods}>*/}
+                    {/*                <span className={s.news} style={{background: '#ff0400'}}>-5%</span>*/}
+                    {/*                <span className={s.news2} style={{background: '#F06292'}}>Розпродаж</span>*/}
+                    {/*                <Image src='/main/image3.jpg' alt='slider' width={160} height={160}/>*/}
+                    {/*            </div>*/}
+                    {/*            <div className={s.text_goods}>*/}
+                    {/*                <h4>Автоматичний регулятор тиску W3-0</h4>*/}
+                    {/*                <p>*/}
+                    {/*                    195,15 гривень <del> 203,54 гривень</del><br/>*/}
+                    {/*                    <font>Найнижча ціна за 30 днів до знижки 195,15 грн</font>*/}
+                    {/*                </p>*/}
+                    {/*                <span>Субпродукти</span>*/}
+                    {/*            </div>*/}
+                    {/*        </Link>*/}
+                    {/*    </div>*/}
+                    {/*</SwiperSlide>*/}
+                    <SwiperSlide>
+                        <div className={s.goods_slider}>
+                            <Link href='/goods?goods=goods3'>
+                                <div className={s.image_goods}>
+                                    <Image src='/chemical-means/3.jpg' alt='slider' width={160} height={160}/>
+                                </div>
+                                <div className={s.text_goods}>
+                                    <h4>Активна піна для миття автомобіля Green Alka Foam (20л), колір зелений</h4>
+                                    <p>329,48 гривень</p>
                                     <span>Подробиці</span>
                                 </div>
                             </Link>
@@ -286,18 +350,13 @@ const MainPage = () => {
                     </SwiperSlide>
                     <SwiperSlide>
                         <div className={s.goods_slider}>
-                            <Link href='/product'>
+                            <Link href='/goods?goods=goods18'>
                                 <div className={s.image_goods}>
-                                    <span className={s.news} style={{background: '#ff0400'}}>-5%</span>
-                                    <span className={s.news2} style={{background: '#F06292'}}>Розпродаж</span>
-                                    <Image src='/main/image3.jpg' alt='slider' width={160} height={160}/>
+                                    <Image src='/chemical-means/16.jpg' alt='slider' width={160} height={160}/>
                                 </div>
                                 <div className={s.text_goods}>
-                                    <h4>Порошок ORANGE FF миючий порошок (25 кг), без фосфатів, аромат</h4>
-                                    <p>
-                                        402,21 гривень <br/>
-                                        <font>Найнижча ціна за 30 днів до знижки 195,15 грн</font>
-                                    </p>
+                                    <h4>Шампунь для автомийки Turbo Plus (20 л) ADR</h4>
+                                    <p>342,14 гривень</p>
                                     <span>Подробиці</span>
                                 </div>
                             </Link>
@@ -305,16 +364,13 @@ const MainPage = () => {
                     </SwiperSlide>
                     <SwiperSlide>
                         <div className={s.goods_slider}>
-                            <Link href='/product'>
+                            <Link href='/goods?goods=goods3-3'>
                                 <div className={s.image_goods}>
-                                    <Image src='/main/image3.jpg' alt='slider' width={160} height={160}/>
+                                    <Image src='/pump/3.jpg' alt='slider' width={160} height={160}/>
                                 </div>
                                 <div className={s.text_goods}>
-                                    <h4>Порошок ORANGE FF миючий порошок (25 кг), без фосфатів, аромат</h4>
-                                    <p>
-                                        402,21 гривень <br/>
-                                        <font>Найнижча ціна за 30 днів до знижки 195,15 грн</font>
-                                    </p>
+                                    <h4>Дозатрон (D3RE2AF 0,2-2% AF)</h4>
+                                    <p>3120,97 гривень</p>
                                     <span>Подробиці</span>
                                 </div>
                             </Link>
@@ -322,84 +378,13 @@ const MainPage = () => {
                     </SwiperSlide>
                     <SwiperSlide>
                         <div className={s.goods_slider}>
-                            <Link href='/product'>
+                            <Link href='/goods?goods=goods2-10'>
                                 <div className={s.image_goods}>
-                                    <Image src='/main/image3.jpg' alt='slider' width={160} height={160}/>
+                                    <Image src='/electromagnetic/10.jpg' alt='slider' width={160} height={160}/>
                                 </div>
                                 <div className={s.text_goods}>
-                                    <h4>Порошок ORANGE FF миючий порошок (25 кг), без фосфатів, аромат</h4>
-                                    <p>
-                                        402,21 гривень <br/>
-                                        <font>Найнижча ціна за 30 днів до знижки 195,15 грн</font>
-                                    </p>
-                                    <span>Подробиці</span>
-                                </div>
-                            </Link>
-                        </div>
-                    </SwiperSlide>
-                    <SwiperSlide>
-                        <div className={s.goods_slider}>
-                            <Link href='/product'>
-                                <div className={s.image_goods}>
-                                    <Image src='/main/image3.jpg' alt='slider' width={160} height={160}/>
-                                </div>
-                                <div className={s.text_goods}>
-                                    <h4>Порошок ORANGE FF миючий порошок (25 кг), без фосфатів, аромат</h4>
-                                    <p>
-                                        402,21 гривень <br/>
-                                        <font>Найнижча ціна за 30 днів до знижки 195,15 грн</font>
-                                    </p>
-                                    <span>Подробиці</span>
-                                </div>
-                            </Link>
-                        </div>
-                    </SwiperSlide>
-                    <SwiperSlide>
-                        <div className={s.goods_slider}>
-                            <Link href='/product'>
-                                <div className={s.image_goods}>
-                                    <Image src='/main/image3.jpg' alt='slider' width={160} height={160}/>
-                                </div>
-                                <div className={s.text_goods}>
-                                    <h4>Порошок ORANGE FF миючий порошок (25 кг), без фосфатів, аромат</h4>
-                                    <p>
-                                        402,21 гривень <br/>
-                                        <font>Найнижча ціна за 30 днів до знижки 195,15 грн</font>
-                                    </p>
-                                    <span>Подробиці</span>
-                                </div>
-                            </Link>
-                        </div>
-                    </SwiperSlide>
-                    <SwiperSlide>
-                        <div className={s.goods_slider}>
-                            <Link href='/product'>
-                                <div className={s.image_goods}>
-                                    <Image src='/main/image3.jpg' alt='slider' width={160} height={160}/>
-                                </div>
-                                <div className={s.text_goods}>
-                                    <h4>Порошок ORANGE FF миючий порошок (25 кг), без фосфатів, аромат</h4>
-                                    <p>
-                                        402,21 гривень <br/>
-                                        <font>Найнижча ціна за 30 днів до знижки 195,15 грн</font>
-                                    </p>
-                                    <span>Подробиці</span>
-                                </div>
-                            </Link>
-                        </div>
-                    </SwiperSlide>
-                    <SwiperSlide>
-                        <div className={s.goods_slider}>
-                            <Link href='/product'>
-                                <div className={s.image_goods}>
-                                    <Image src='/main/image3.jpg' alt='slider' width={160} height={160}/>
-                                </div>
-                                <div className={s.text_goods}>
-                                    <h4>Порошок ORANGE FF миючий порошок (25 кг), без фосфатів, аромат</h4>
-                                    <p>
-                                        402,21 гривень <br/>
-                                        <font>Найнижча ціна за 30 днів до знижки 195,15 грн</font>
-                                    </p>
+                                    <h4>Електромагнітний клапан Jaksa BS3IS (DN8 G3/8 PK NC 24VDC)</h4>
+                                    <p>1488,53 гривень</p>
                                     <span>Подробиці</span>
                                 </div>
                             </Link>
@@ -526,39 +511,45 @@ const MainPage = () => {
                 <div className={s.div_blog + ' ' + s.hidden}>
                     <div className={s.item}>
                         <div className={s.image_box}>
-                            <Image src='/main/image7.jpg' alt='slider' width={435} height={325}/>
+                            {news1 === '' ? '' : <Image src={'https://cb.samwash.ua/storage/image/'
+                                + news1?.id + '/' + news1?.images[0]?.path}
+                                    alt={news1?.content[0]?.title}
+                                    width={435} height={325}/>}
                         </div>
                         <div className={s.div_text}>
-                            <h3>Рейтинг насосів для автомийки. CAT vs HAWK, який вибрати?</h3>
-                            <p>Рейтинг насосів: CAT vs HAWK - який з них найкращий для автомийки?
-                                Використання насосів без...</p>
-                            <time>2024-02-05 11:50:00</time>
+                            <h3>{news1 === '' ? '' : news1?.content[0]?.title}</h3>
+                            <p>{news1 === '' ? '' : news1?.content[0]?.meta_description.slice(0, 100) + ' ...'}</p>
+                            <time>{news1 === '' ? '' : news1?.updated_at.slice(0, 10) + '  ' + news1?.updated_at.slice(11, 19)}</time>
                         </div>
-                        <Link href='/'>читати далі {' >>'}</Link>
+                        <Link href={`/article?article=${news1?.slug}`}>читати далі {' >>'}</Link>
                     </div>
                     <div className={s.item}>
                         <div className={s.image_box}>
-                            <Image src='/main/image7.jpg' alt='slider' width={435} height={325}/>
+                            {news2 === '' ? '' : <Image src={'https://cb.samwash.ua/storage/image/'
+                                + news2?.id + '/' + news2?.images[0]?.path}
+                                                        alt={news2?.content[0]?.title}
+                                                        width={435} height={325}/>}
                         </div>
                         <div className={s.div_text}>
-                            <h3>Рейтинг насосів для автомийки. CAT vs HAWK, який вибрати?</h3>
-                            <p>Рейтинг насосів: CAT vs HAWK - який з них найкращий для автомийки?
-                                Використання насосів без...</p>
-                            <time>2024-02-05 11:50:00</time>
+                            <h3>{news2 === '' ? '' : news2?.content[0]?.title}</h3>
+                            <p>{news2 === '' ? '' : news2?.content[0]?.meta_description.slice(0, 100) + ' ...'}</p>
+                            <time>{news2 === '' ? '' : news2?.updated_at.slice(0, 10) + '  ' + news2?.updated_at.slice(11, 19)}</time>
                         </div>
-                        <Link href='/'>читати далі {' >>'}</Link>
+                        <Link href={`/article?article=${news2?.slug}`}>читати далі {' >>'}</Link>
                     </div>
                     <div className={s.item}>
                         <div className={s.image_box}>
-                            <Image src='/main/image7.jpg' alt='slider' width={435} height={325}/>
+                            {news3 === '' ? '' : <Image src={'https://cb.samwash.ua/storage/image/'
+                                + news3?.id + '/' + news3?.images[0]?.path}
+                                                        alt={news3?.content[0]?.title}
+                                                        width={435} height={325}/>}
                         </div>
                         <div className={s.div_text}>
-                            <h3>Рейтинг насосів для автомийки. CAT vs HAWK, який вибрати?</h3>
-                            <p>Рейтинг насосів: CAT vs HAWK - який з них найкращий для автомийки?
-                                Використання насосів без...</p>
-                            <time>2024-02-05 11:50:00</time>
+                            <h3>{news3 === '' ? '' : news3?.content[0]?.title}</h3>
+                            <p>{news3 === '' ? '' : news3?.content[0]?.meta_description.slice(0, 100) + ' ...'}</p>
+                            <time>{news3 === '' ? '' : news3?.updated_at.slice(0, 10) + '  ' + news3?.updated_at.slice(11, 19)}</time>
                         </div>
-                        <Link href='/'>читати далі {' >>'}</Link>
+                        <Link href={`/article?article=${news3?.slug}`}>читати далі {' >>'}</Link>
                     </div>
                 </div>
                 <div className={s.divDisplay2}>
@@ -568,7 +559,6 @@ const MainPage = () => {
                         loop={true}
                         modules={[Navigation]}
                         slidesPerView={1}
-                        slidesPerGroup={2}
                         spaceBetween={10}
                         pagination={{
                             clickable: true,
@@ -578,43 +568,46 @@ const MainPage = () => {
                         <SwiperSlide>
                             <div className={s.item}>
                                 <div className={s.image_box}>
-                                    <Image src='/main/image7.jpg' alt='slider' width={435} height={325}/>
+                                    {news1 === '' ? '' : <Image src={'https://cb.samwash.ua/storage/image/'
+                                        + news1?.id + '/' + news1?.images[0]?.path} alt={news1?.content[0]?.title}
+                                                                width={435} height={325}/>}
                                 </div>
                                 <div className={s.div_text}>
-                                    <h3>Рейтинг насосів для автомийки. CAT vs HAWK, який вибрати?</h3>
-                                    <p>Рейтинг насосів: CAT vs HAWK - який з них найкращий для автомийки?
-                                        Використання насосів без...</p>
-                                    <time>2024-02-05 11:50:00</time>
+                                    <h3>{news1 === '' ? '' : news1?.content[0]?.title}</h3>
+                                    <p>{news1 === '' ? '' : news1?.content[0]?.meta_description.slice(0, 100) + ' ...'}</p>
+                                    <time>{news1 === '' ? '' : news1?.updated_at.slice(0, 10) + '  ' + news1?.updated_at.slice(11, 19)}</time>
                                 </div>
-                                <Link href='/'>читати далі {' >>'}</Link>
+                                <Link href={`/article?article=${news1?.slug}`}>читати далі {' >>'}</Link>
                             </div>
                         </SwiperSlide>
                         <SwiperSlide>
                             <div className={s.item}>
                                 <div className={s.image_box}>
-                                    <Image src='/main/image7.jpg' alt='slider' width={435} height={325}/>
+                                    {news2 === '' ? '' : <Image src={'https://cb.samwash.ua/storage/image/'
+                                        + news2?.id + '/' + news2?.images[0]?.path} alt={news2?.content[0]?.title}
+                                                                width={435} height={325}/>}
                                 </div>
                                 <div className={s.div_text}>
-                                    <h3>Рейтинг насосів для автомийки. CAT vs HAWK, який вибрати?</h3>
-                                    <p>Рейтинг насосів: CAT vs HAWK - який з них найкращий для автомийки?
-                                        Використання насосів без...</p>
-                                    <time>2024-02-05 11:50:00</time>
+                                    <h3>{news2 === '' ? '' : news2?.content[0]?.title}</h3>
+                                    <p>{news2 === '' ? '' : news2?.content[0]?.meta_description.slice(0, 100) + ' ...'}</p>
+                                    <time>{news2 === '' ? '' : news2?.updated_at.slice(0, 10) + '  ' + news2?.updated_at.slice(11, 19)}</time>
                                 </div>
-                                <Link href='/'>читати далі {' >>'}</Link>
+                                <Link href={`/article?article=${news2?.slug}`}>читати далі {' >>'}</Link>
                             </div>
                         </SwiperSlide>
                         <SwiperSlide>
                             <div className={s.item}>
                                 <div className={s.image_box}>
-                                    <Image src='/main/image7.jpg' alt='slider' width={435} height={325}/>
+                                    {news3 === '' ? '' : <Image src={'https://cb.samwash.ua/storage/image/'
+                                        + news3?.id + '/' + news3?.images[0]?.path} alt={news3?.content[0]?.title}
+                                                                width={435} height={325}/>}
                                 </div>
                                 <div className={s.div_text}>
-                                    <h3>Рейтинг насосів для автомийки. CAT vs HAWK, який вибрати?</h3>
-                                    <p>Рейтинг насосів: CAT vs HAWK - який з них найкращий для автомийки?
-                                        Використання насосів без...</p>
-                                    <time>2024-02-05 11:50:00</time>
+                                    <h3>{news3 === '' ? '' : news3?.content[0]?.title}</h3>
+                                    <p>{news3 === '' ? '' : news3?.content[0]?.meta_description.slice(0, 100) + ' ...'}</p>
+                                    <time>{news3 === '' ? '' : news3?.updated_at.slice(0, 10) + '  ' + news3?.updated_at.slice(11, 19)}</time>
                                 </div>
-                                <Link href='/'>читати далі {' >>'}</Link>
+                                <Link href={`/article?article=${news3?.slug}`}>читати далі {' >>'}</Link>
                             </div>
                         </SwiperSlide>
                     </Swiper>
@@ -623,7 +616,7 @@ const MainPage = () => {
 
             <section className={s.section_info}>
                 <div className={s.div_text_end}>
-                    <div className={s.text}>
+                <div className={s.text}>
                         <h3>Про автомийку SAMWASH</h3>
                         <p>
                             SAMWASH спеціалізується на системах миття транспортних засобів, з особливим акцентом на

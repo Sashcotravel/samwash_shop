@@ -523,4 +523,9 @@
     .div_mail{
         width: 100%;
     }
+    .div_icon img{
+        width: 42px!important;
+        height: auto!important;
+        margin: 0 auto;
+    }
 }

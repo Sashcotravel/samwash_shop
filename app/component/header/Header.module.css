@@ -287,11 +287,11 @@
     color: #414141;
     padding: 0 10px;
     font-weight: 700;
+    font-family: Ubuntu Regular, sans-serif;
     min-height: 46px;
     line-height: 46px;
     display: block;
     transition: all .3s ease-out;
-    font-family: Ubuntu, sans-serif;
 }
 
 .dropdown:hover button {
@@ -398,6 +398,7 @@
 }
 
 .dropdown_content2 a {
+    font-family: Ubuntu Regular, sans-serif;
     font-size: 14px;
     font-weight: 700;
     display: block;
