@@ -7,6 +7,8 @@ import {usePathname} from "next/navigation";
 import {useLocale, useTranslations} from "next-intl";
 import {useStore} from "@/store/store";
 import Image from "next/image";
+import { goodsArr } from '../../db/data'
+import { IoClose } from "react-icons/io5";
 
 
 const Header = () => {
@@ -19,6 +21,8 @@ const Header = () => {
     const [toggleLang, setToggleLang] = useState(false)
     const [fixHeader, setFixHeader] = useState(false)
     const [openWin, setOpenWin] = useState(false)
+    const [input, setInput] = useState('')
+    const [input2, setInput2] = useState('')
 
     const order = useStore(store => store.order)
     const sum = useStore(store => store.sum)
@@ -84,7 +88,27 @@ const Header = () => {
         }
     }
 
+    const inputFilter = (e) => {
+        let inputEnter = e.target.value
+        setInput2(e.target.value)
 
+        if (inputEnter !== '' && inputEnter.length > 3) {
+            let newArr = goodsArr.filter(t => t.title.toLowerCase().includes(inputEnter.toLowerCase()));
+
+            if(newArr.length > 10){
+                setInput(newArr.slice(0, 10))
+            } else{
+                setInput(newArr)
+            }
+        } else {
+            setInput('')
+        }
+    }
+
+    const closeFilter = () => {
+        setInput('')
+        setInput2('')
+    }
 
 
     return (<>
@@ -165,9 +189,37 @@ const Header = () => {
                             <Image src='/new_logo.svg' alt='samwash' className={s.logo} width={90} height={25}/>
                         </Link>
                         <div className={s.div_input}>
-                            <input placeholder="Пошук статті..." type="search" className={s.search}/>
+                            <input placeholder="Пошук статті..." type="text" className={s.search} value={input2}
+                                   onChange={(e) => inputFilter(e)}/>
+                            {
+                                input.length !== 0 &&
+                                <div className={s.divFilter}>
+                                    {input.map(item => {
+
+                                        return (<div className={s.item_goods_name + ' ' + s.item_div}>
+                                            <Link href={'/goods?goods=' + item.slug}>
+
+                                                <div className={s.item_img}>
+                                                    <Image alt={item.title} width={200} height={200}
+                                                           src={item.img.length === 0 ? '/other/noImage.jpg' : item.img}/>
+                                                </div>
+                                                <div className={s.item_name_text}>
+                                                    <h3><b>{item.title}</b></h3>
+                                                </div>
+                                                <div className={s.item_prise_net + ' ' + s.item_div}
+                                                     style={{flexDirection: 'column'}}>
+                                                    <span>{item?.price}</span>
+                                                    <span style={{marginLeft: '5px'}}> доларів</span>
+                                                </div>
+                                            </Link>
+                                        </div>)
+                                    })}
+                                </div>
+                            }
                             <button className={s.but_search}>
-                                <Image src='/header/search.svg' alt='search' width={16} height={16}/>
+                                {input.length === 0
+                                    ? <Image src='/header/search.svg' alt='search' width={16} height={16}/>
+                                    :<IoClose onClick={closeFilter} />}
                             </button>
                         </div>
                         <div className={s.div_icons}>
@@ -866,9 +918,37 @@ const Header = () => {
                             </li>
                         </ul>
                         <div className={s.div_input2}>
-                            <input placeholder="Пошук статті..." type="search" className={s.search2}/>
+                            <input placeholder="Пошук статті..." type="text" className={s.search2} value={input2}
+                                   onChange={(e) => inputFilter(e)}/>
+                            {
+                                input.length !== 0 &&
+                                <div className={s.divFilter}>
+                                    {input.map(item => {
+
+                                        return (<div className={s.item_goods_name + ' ' + s.item_div}>
+                                            <Link href={'/goods?goods=' + item.slug}>
+
+                                                <div className={s.item_img}>
+                                                    <Image alt={item.title} width={200} height={200}
+                                                           src={item.img.length === 0 ? '/other/noImage.jpg' : item.img}/>
+                                                </div>
+                                                <div className={s.item_name_text}>
+                                                    <h3><b>{item.title}</b></h3>
+                                                </div>
+                                                <div className={s.item_prise_net + ' ' + s.item_div}
+                                                     style={{flexDirection: 'column'}}>
+                                                    <span>{item?.price}</span>
+                                                    <span style={{marginLeft: '5px'}}> доларів</span>
+                                                </div>
+                                            </Link>
+                                        </div>)
+                                    })}
+                                </div>
+                            }
                             <button className={s.but_search2}>
-                                <Image src='/header/search.svg' alt='search' width={16} height={16}/>
+                                {input.length === 0
+                                    ? <Image src='/header/search.svg' alt='search' width={16} height={16}/>
+                                    :<IoClose onClick={closeFilter} style={{width: '20px', height: '20px'}} />}
                             </button>
                         </div>
                     </div>
