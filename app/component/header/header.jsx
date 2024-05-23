@@ -179,7 +179,7 @@ const Header = () => {
                             </div>
                             <div className={s.basket} onClick={() => setOpenWin(true)}>
                                 <Image src='/header/basket.png' alt='search' width={30} height={30}/>
-                                {order.length !== 0 && <span className={s.goodsLength}>{order.length}</span>}
+                                {order?.length !== 0 && <span className={s.goodsLength}>{order?.length}</span>}
                             </div>
                         </div>
                     </div>
@@ -918,7 +918,7 @@ const Header = () => {
                                 })
                             }
                         </div>
-                        <p className={s.sum}>Кількість товару: {order.length} <span>{sum} гривень</span></p>
+                        <p className={s.sum}>Кількість товару: {order?.length} <span>{sum} гривень</span></p>
                         <Link href='/basket' className={s.but_basket} onClick={() => setOpenWin(false)}>
                             <Image src='/header/basket-gray.png' alt='basket' width={30} height={30}/>
                             До кошика

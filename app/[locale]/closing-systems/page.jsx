@@ -16,7 +16,7 @@ import TopButton from "@/app/component/topButton/topButton";
 
 const arrGoods = [
     {
-        id: '396',
+        id: '556',
         title: 'Язичок трьохточечний з кришкою (JB-30024)',
         code: 'JEZ-TRZ',
         price: '9.74',
@@ -41,7 +41,7 @@ const arrGoods = [
         `
     },
     {
-        id: '397',
+        id: '557',
         title: 'Монетниця з нержавіючої сталі для модуля і робочих столів',
         code: 'KAS-MOD-NIE',
         price: '430.50',
@@ -69,7 +69,7 @@ const arrGoods = [
         `
     },
     {
-        id: '398',
+        id: '558',
         title: 'Дверна ручка (RS100-9005)',
         code: 'KLA-DRZ',
         price: '34.08',
@@ -94,7 +94,7 @@ const arrGoods = [
         `
     },
     {
-        id: '399',
+        id: '559',
         title: 'Дверна ручка (RS200-9005)',
         code: 'KLA-DRZ-RS200',
         price: '32.45',

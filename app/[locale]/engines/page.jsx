@@ -15,7 +15,7 @@ import TopButton from "@/app/component/topButton/topButton";
 
 const arrGoods = [
     {
-        id: '391',
+        id: '551',
         title: 'Амортизатор універсальний тип А 40х20 (з гвинтами М8 25 мм і 14 мм)',
         code: 'АМО-ГУМ-УНІ',
         price: '52.75',
@@ -40,7 +40,7 @@ const arrGoods = [
         `
     },
     {
-        id: '392',
+        id: '552',
         title: 'Електродвигун CELMA, потужність 3,6/0,9кВт, SLG 112M-8/4WB, RAL3000, S25-268-011',
         code: 'SIL-IND-CZE-3,6',
         price: '2027.45',
@@ -65,7 +65,7 @@ const arrGoods = [
         `
     },
     {
-        id: '393',
+        id: '553',
         title: 'Електродвигун SIEMENS, потужність 0,99/3,96 кВт, 112M-8/4, сірий RAL 7030, 1LE1011-1BR23-4NA4-ZR11+N02',
         code: 'SIL-IND-SZA-B34/C160-3,96',
         price: '2132.08',
@@ -90,7 +90,7 @@ const arrGoods = [
         `
     },
     {
-        id: '394',
+        id: '554',
         title: 'Електродвигун SIEMENS, потужність 3.6/0.9kW, 112M-8/4, сірий RAL7030, 1LE1011-1BR23-4NA4-ZY53',
         code: 'SIL-IND-SZA-B34/C160',
         price: '2028.82',
@@ -115,7 +115,7 @@ const arrGoods = [
         `
     },
     {
-        id: '395',
+        id: '555',
         title: 'Двигун Soga MM1 (80MC/4 0.75kW 230V/50 Hz 9C080080PE [123783])',
         code: 'SIL-NUE-002',
         price: '838.22',

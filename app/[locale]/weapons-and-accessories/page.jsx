@@ -295,7 +295,7 @@ const arrGoods = [
         `
     },
     {
-        id: '340',
+        id: '500',
         title: 'Піноутворювальна головка для пінопласту (чорна, без насадки)',
         code: 'PIS-PIA-GLO-ST75',
         price: '133.66',
@@ -326,7 +326,7 @@ const arrGoods = [
         `
     },
     {
-        id: '341',
+        id: '501',
         title: 'Набір для розширення щітки з повітряним інжектором',
         code: 'SZC-INJ-KOM',
         price: '348.29',
@@ -357,7 +357,7 @@ const arrGoods = [
         `
     },
     {
-        id: '342',
+        id: '502',
         title: 'Зливна пробка для контейнера для щіток MOSMATIC',
         code: 'KOR-MOS-903.251',
         price: '297.12',
@@ -388,7 +388,7 @@ const arrGoods = [
         `
     },
     {
-        id: '343',
+        id: '503',
         title: 'Ленс (200029306)',
         code: 'LAN-RM',
         price: '59.77',
@@ -419,7 +419,7 @@ const arrGoods = [
         `
     },
     {
-        id: '344',
+        id: '504',
         title: 'Ленс (200029306)',
         code: 'LAN-RM-EASY-15G',
         price: '102.84',
@@ -450,7 +450,7 @@ const arrGoods = [
         `
     },
     {
-        id: '345',
+        id: '505',
         title: '1200 мм трубка з нержавіючої сталі з теплозахисним екраном',
         code: 'LAN-PA-005',
         price: '139.17',
@@ -481,7 +481,7 @@ const arrGoods = [
         `
     },
     {
-        id: '346',
+        id: '506',
         title: 'Спис з нержавіючої сталі 450 мм з теплозахисним екраном',
         code: 'LAN-PA-001',
         price: '43.42',
@@ -512,7 +512,7 @@ const arrGoods = [
         `
     },
     {
-        id: '347',
+        id: '507',
         title: 'Спис з нержавіючої сталі 500 мм з теплозахисним екраном і кришкою (прямий)',
         code: 'LAN-PA-003',
         price: '59.67',
@@ -543,7 +543,7 @@ const arrGoods = [
         `
     },
     {
-        id: '348',
+        id: '508',
         title: 'Кришка насадки',
         code: 'OSL-DYS-RM',
         price: '30.82',
@@ -574,7 +574,7 @@ const arrGoods = [
         `
     },
     {
-        id: '349',
+        id: '509',
         title: 'Кришка насадки (чорна)',
         code: 'OSL-DYS-PA',
         price: '20.47',
@@ -605,7 +605,7 @@ const arrGoods = [
         `
     },
     {
-        id: '350',
+        id: '510',
         title: 'Кришка пістолета/списка',
         code: 'OSL-PIS-LAN-RM',
         price: '6.54',
@@ -636,7 +636,7 @@ const arrGoods = [
         `
     },
     {
-        id: '351',
+        id: '511',
         title: 'Чохол для рамки щітки (020001540)',
         code: 'OSL-RAM-WLO',
         price: '66.37',
@@ -667,7 +667,7 @@ const arrGoods = [
         `
     },
     {
-        id: '352',
+        id: '512',
         title: 'AURA LP weep gun 3/8\'\' GW поворотний наконечник, 1/4\'\' GW (зелений)',
         code: 'PIS-AUR',
         price: '161.89',
@@ -695,7 +695,7 @@ const arrGoods = [
         `
     },
     {
-        id: '353',
+        id: '513',
         title: 'Пістолет AURA з постійним плачем 0,6 л/хв (синій з поворотним наконечником) ',
         code: 'PIS-AUR-PW',
         price: '138.15',
@@ -723,7 +723,7 @@ const arrGoods = [
         `
     },
     {
-        id: '354',
+        id: '514',
         title: 'Рушниця AURA з постійним плачем 1,1л/хв (синя з поворотним наконечником, зима)',
         code: 'PIS-AUR-PW-10.304',
         price: '169.56',
@@ -751,7 +751,7 @@ const arrGoods = [
         `
     },
     {
-        id: '355',
+        id: '515',
         title: 'Пістолет SamWash з поворотним наконечником',
         code: 'PIS-RM',
         price: '240.06',
@@ -779,7 +779,7 @@ const arrGoods = [
         `
     },
     {
-        id: '356',
+        id: '516',
         title: 'Пістолет для пінопласту з блакитним логотипом SamWash (постійний плак, сопло 1,05 мм)',
         code: 'PIS-PIA-SamWash-NIEB',
         price: '516.11',
@@ -807,7 +807,7 @@ const arrGoods = [
         `
     },
     {
-        id: '357',
+        id: '517',
         title: 'Пістолет для пінопласту з синім логотипом SamWash, без постійного плака, сопло 1,05 мм (500260012)',
         code: 'PIS-PIA-SamWash-NIEB-BPW',
         price: '610.45',
@@ -835,7 +835,7 @@ const arrGoods = [
         `
     },
     {
-        id: '358',
+        id: '518',
         title: 'Пістолет зі списом і логотипом SamWash (без постійного плака)',
         code: 'PIS-LAN-RM-BPW',
         price: '423.51',
@@ -863,7 +863,7 @@ const arrGoods = [
         `
     },
     {
-        id: '359',
+        id: '519',
         title: 'Рушниця з обертовим наконечником',
         code: 'PIS-RM-BLUE',
         price: '265.42',
@@ -891,7 +891,7 @@ const arrGoods = [
         `
     },
     {
-        id: '360',
+        id: '520',
         title: 'Піхви (кріпляться до землі)',
         code: 'POC-LAN-POD',
         price: '485.41',
@@ -919,7 +919,7 @@ const arrGoods = [
         `
     },
     {
-        id: '361',
+        id: '521',
         title: 'Контейнер для щіток з нержавіючої сталі, призначений для щіток EASYWASH365+',
         code: 'POJ-SZC',
         price: '1871.29',
@@ -950,7 +950,7 @@ const arrGoods = [
         `
     },
     {
-        id: '362',
+        id: '522',
         title: 'Щетинний каркас для пензля 1/4" GW (пластик)',
         code: 'RAM-WLO',
         price: '44.39',
@@ -981,7 +981,7 @@ const arrGoods = [
         `
     },
     {
-        id: '363',
+        id: '523',
         title: 'Щетинний каркас для пензля 1/4" GW (нерж. сталь)',
         code: 'RAM-WLO-STAL',
         price: '192.99',
@@ -1012,7 +1012,7 @@ const arrGoods = [
         `
     },
     {
-        id: '364',
+        id: '524',
         title: 'Щітка низького тиску зі спицем і ручкою (RM, EasyTurn, R+M)',
         code: 'SZC-LAN-RM-UCH-TURN',
         price: '523.97',
@@ -1040,7 +1040,7 @@ const arrGoods = [
         `
     },
     {
-        id: '365',
+        id: '525',
         title: 'Турбощітка з пістолетом і насадкою RM, Freeze Stop, EasyTurn, насадка 3/8" 1.05 з логотипом ' +
             'SamWash (510097003805)',
         code: 'SZC-LAN-RM-HP-BPW-TURN',
@@ -1069,7 +1069,7 @@ const arrGoods = [
         `
     },
     {
-        id: '366',
+        id: '526',
         title: 'Тримач сопла 1/4GW Bsp - 1/4GW Npt',
         code: 'UCH-DYS-PA',
         price: '15.90',
@@ -1100,7 +1100,7 @@ const arrGoods = [
         `
     },
     {
-        id: '367',
+        id: '527',
         title: 'Ущільнювач 10х2,2 для пістолета активної піни R+M',
         code: 'USZ-79025',
         price: '9.15',
@@ -1131,7 +1131,7 @@ const arrGoods = [
         `
     },
     {
-        id: '368',
+        id: '528',
         title: 'Щетина для щітки L60',
         code: 'WLO-SZC-001',
         price: '154.27',
@@ -1162,7 +1162,7 @@ const arrGoods = [
         `
     },
     {
-        id: '369',
+        id: '529',
         title: 'Щетина для щітки L90',
         code: 'WLO-SZC-002',
         price: '173.02',
@@ -1193,7 +1193,7 @@ const arrGoods = [
         `
     },
     {
-        id: '370',
+        id: '530',
         title: 'Постійний клапан 0,6 л/хв MTM',
         code: 'ZAW-MTM-0213',
         price: '41.19',
@@ -1224,7 +1224,7 @@ const arrGoods = [
         `
     },
     {
-        id: '371',
+        id: '531',
         title: 'Постійний клапан 1,1 л/хв MTM (10.0320)',
         code: 'ZAW-MTM-0320',
         price: '40.29',
@@ -1255,7 +1255,7 @@ const arrGoods = [
         `
     },
     {
-        id: '372',
+        id: '532',
         title: 'Ремкомплект для пістолета MTM AURA',
         code: 'ZES-MTM-AURA',
         price: '47.83',
@@ -1286,7 +1286,7 @@ const arrGoods = [
         `
     },
     {
-        id: '373',
+        id: '533',
         title: 'Ремкомплект пістолета R+M ST2600 (промивка, піна) з клапаном Permanent Weep',
         code: 'ZЕS-НАП-Р+М-ПІС',
         price: '64.56',
@@ -1317,7 +1317,7 @@ const arrGoods = [
         `
     },
     {
-        id: '374',
+        id: '534',
         title: 'Ремкомплект R+M для пістолета ST-2600 (Freeze stop',
         code: 'ZES-NAP-R+M',
         price: '123.30',

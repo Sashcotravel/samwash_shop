@@ -27,7 +27,7 @@ function Basket() {
     return (<>
         <div className={s.basket} onClick={open}>
             <Image src='/header/basket.png' alt='search' width={48} height={48} />
-            {order.length !== 0 && <span className={s.goodsLength}>{order.length}</span>}
+            {order?.length !== 0 && <span className={s.goodsLength}>{order?.length}</span>}
             <p>{sum} гривень</p>
         </div>
 
@@ -73,7 +73,7 @@ function Basket() {
                             })
                         }
                     </div>
-                    <p className={s.sum}>Кількість товару: {order.length} <span>{sum} гривень</span></p>
+                    <p className={s.sum}>Кількість товару: {order?.length} <span>{sum} гривень</span></p>
                     <Link href='/basket' className={s.but_basket} onClick={() => setOpenWin(false)}>
                         <Image src='/header/basket-gray.png' alt='search' width={30} height={30} />
                         До кошика

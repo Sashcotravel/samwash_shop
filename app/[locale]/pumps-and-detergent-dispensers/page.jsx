@@ -1048,6 +1048,7 @@ function ChemicalMeans() {
     let pageUrl = searchParams.get('page') || 1
 
     const addOrderStore = useStore(store => store.addOrder)
+    const addCurrentsGoods = useStore(store => store.setCurrentsGoods)
 
     const main = () => {
         const postsData = arrGoods
@@ -1136,6 +1137,7 @@ function ChemicalMeans() {
 
     useEffect(() => {
         main()
+        addCurrentsGoods(arrGoods)
     }, []);
 
     const style = {

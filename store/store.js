@@ -7,6 +7,10 @@ const store = (
         (set, get) => ({
             goods: [],
             order: [],
+            currentsGoods: [],
+            newCurrentsGoods: [],
+            filterPriceTo: '',
+            filterPriceFrom: '',
             sum: 0,
             addTask: (tasks) => set((store) =>
                 ({tasks: [...store.tasks, tasks]}), false, "addTask"),
@@ -35,15 +39,15 @@ const store = (
                     sum: Number((store.sum - item.price).toFixed(2)) === 0.00 ? 0
                         : Number((store.sum - item.price * item.size).toFixed(2))
                 }))},
-            addOrder: (item) => {
-                set((store) => {
+            addOrder: (item) => { set((store) => {
                     const isItemExist = store.order.some(goods => goods.id === item.id);
                     if (!isItemExist) {
                         return {
                             order: [...store.order, item],
                             sum: Number(store.sum) + Number(item.price) * item.size
                         };
-                    } else {
+                    }
+                    else {
                         return {
                             order: store.order.map(goods => {
                                 if (goods.id === item.id) {
@@ -58,8 +62,7 @@ const store = (
                             sum: Number(store.sum) + Number(item.price) * item.size
                         };
                     }
-                })
-            },
+                })},
             addGoodsFilter: (item) => {set(store => ({
                 goods: store.goods = item,
             }))},
@@ -67,6 +70,19 @@ const store = (
                     order: [],
                     sum: 0
                 }))},
+            // filter
+            setCurrentsGoods: (item) => {set(store => ({
+                currentsGoods: store.currentsGoods = item
+            }))},
+            setNewCurrentsGoods: (item) => {set(store => ({
+                newCurrentsGoods: store.newCurrentsGoods = item
+            }))},
+            setFilterPriceTo: (item) => {set(store => ({
+                filterPriceTo: store.filterPriceTo = item
+            }))},
+            setFilterPriceFrom: (item) => {set(store => ({
+                filterPriceFrom: store.filterPriceFrom = item
+            }))},
 
 
             setFilter: (filterNew) => set((store) => ({filter: filterNew}), false, "setFilter"),

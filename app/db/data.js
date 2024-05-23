@@ -1,5 +1,3 @@
-import {AiFillStar} from "react-icons/ai";
-
 export const goodsArr = [
     {
         id: '1',
@@ -6864,7 +6862,7 @@ export const goodsArr = [
         `
     },
     {
-        id: '223',
+        id: '2230',
         title: 'Рекламна куртка з логотипом SamWash (червоний колір, розмір XXXL)',
         code: 'KUR-REKL-PL-XXXL',
         price: '279.05',
@@ -13000,7 +12998,7 @@ export const goodsArr = [
         `
     },
     {
-        id: '340',
+        id: '500',
         title: 'Піноутворювальна головка для пінопласту (чорна, без насадки)',
         code: 'PIS-PIA-GLO-ST75',
         price: '133.66',
@@ -13031,7 +13029,7 @@ export const goodsArr = [
         `
     },
     {
-        id: '341',
+        id: '501',
         title: 'Набір для розширення щітки з повітряним інжектором',
         code: 'SZC-INJ-KOM',
         price: '348.29',
@@ -13063,7 +13061,7 @@ export const goodsArr = [
         `
     },
     {
-        id: '342',
+        id: '502',
         title: 'Зливна пробка для контейнера для щіток MOSMATIC',
         code: 'KOR-MOS-903.251',
         price: '297.12',
@@ -13094,7 +13092,7 @@ export const goodsArr = [
         `
     },
     {
-        id: '343',
+        id: '503',
         title: 'Ленс (200029306)',
         code: 'LAN-RM',
         price: '59.77',
@@ -13126,7 +13124,7 @@ export const goodsArr = [
         `
     },
     {
-        id: '344',
+        id: '504',
         title: 'Ленс (200029306)',
         code: 'LAN-RM-EASY-15G',
         price: '102.84',
@@ -13157,7 +13155,7 @@ export const goodsArr = [
         `
     },
     {
-        id: '345',
+        id: '505',
         title: '1200 мм трубка з нержавіючої сталі з теплозахисним екраном',
         code: 'LAN-PA-005',
         price: '139.17',
@@ -13188,7 +13186,7 @@ export const goodsArr = [
         `
     },
     {
-        id: '346',
+        id: '506',
         title: 'Спис з нержавіючої сталі 450 мм з теплозахисним екраном',
         code: 'LAN-PA-001',
         price: '43.42',
@@ -13220,7 +13218,7 @@ export const goodsArr = [
         `
     },
     {
-        id: '347',
+        id: '507',
         title: 'Спис з нержавіючої сталі 500 мм з теплозахисним екраном і кришкою (прямий)',
         code: 'LAN-PA-003',
         price: '59.67',
@@ -13252,7 +13250,7 @@ export const goodsArr = [
         `
     },
     {
-        id: '348',
+        id: '508',
         title: 'Кришка насадки',
         code: 'OSL-DYS-RM',
         price: '30.82',
@@ -13286,7 +13284,7 @@ export const goodsArr = [
         `
     },
     {
-        id: '349',
+        id: '509',
         title: 'Кришка насадки (чорна)',
         code: 'OSL-DYS-PA',
         price: '20.47',
@@ -13320,7 +13318,7 @@ export const goodsArr = [
         `
     },
     {
-        id: '350',
+        id: '510',
         title: 'Кришка пістолета/списка',
         code: 'OSL-PIS-LAN-RM',
         price: '6.54',
@@ -13351,7 +13349,7 @@ export const goodsArr = [
         `
     },
     {
-        id: '351',
+        id: '511',
         title: 'Чохол для рамки щітки (020001540)',
         code: 'OSL-RAM-WLO',
         price: '66.37',
@@ -13383,7 +13381,7 @@ export const goodsArr = [
         `
     },
     {
-        id: '352',
+        id: '512',
         title: 'AURA LP weep gun 3/8\'\' GW поворотний наконечник, 1/4\'\' GW (зелений)',
         code: 'PIS-AUR',
         price: '161.89',
@@ -13420,7 +13418,7 @@ export const goodsArr = [
         `
     },
     {
-        id: '353',
+        id: '513',
         title: 'Пістолет AURA з постійним плачем 0,6 л/хв (синій з поворотним наконечником) ',
         code: 'PIS-AUR-PW',
         price: '138.15',
@@ -13452,7 +13450,7 @@ export const goodsArr = [
         `
     },
     {
-        id: '354',
+        id: '514',
         title: 'Рушниця AURA з постійним плачем 1,1л/хв (синя з поворотним наконечником, зима)',
         code: 'PIS-AUR-PW-10.304',
         price: '169.56',
@@ -13484,7 +13482,7 @@ export const goodsArr = [
         `
     },
     {
-        id: '355',
+        id: '515',
         title: 'Пістолет SamWash з поворотним наконечником',
         code: 'PIS-RM',
         price: '240.06',
@@ -13512,7 +13510,7 @@ export const goodsArr = [
         `
     },
     {
-        id: '356',
+        id: '516',
         title: 'Пістолет для пінопласту з блакитним логотипом SamWash (постійний плак, сопло 1,05 мм)',
         code: 'PIS-PIA-SamWash-NIEB',
         price: '516.11',
@@ -13542,7 +13540,7 @@ export const goodsArr = [
         `
     },
     {
-        id: '357',
+        id: '517',
         title: 'Пістолет для пінопласту з синім логотипом SamWash, без постійного плака, сопло 1,05 мм (500260012)',
         code: 'PIS-PIA-SamWash-NIEB-BPW',
         price: '610.45',
@@ -13570,7 +13568,7 @@ export const goodsArr = [
         `
     },
     {
-        id: '358',
+        id: '518',
         title: 'Пістолет зі списом і логотипом SamWash (без постійного плака)',
         code: 'PIS-LAN-RM-BPW',
         price: '423.51',
@@ -13598,7 +13596,7 @@ export const goodsArr = [
         `
     },
     {
-        id: '359',
+        id: '519',
         title: 'Рушниця з обертовим наконечником',
         code: 'PIS-RM-BLUE',
         price: '265.42',
@@ -13628,7 +13626,7 @@ export const goodsArr = [
         `
     },
     {
-        id: '360',
+        id: '520',
         title: 'Піхви (кріпляться до землі)',
         code: 'POC-LAN-POD',
         price: '485.41',
@@ -13656,7 +13654,7 @@ export const goodsArr = [
         `
     },
     {
-        id: '361',
+        id: '521',
         title: 'Контейнер для щіток з нержавіючої сталі, призначений для щіток EASYWASH365+',
         code: 'POJ-SZC',
         price: '1871.29',
@@ -13687,7 +13685,7 @@ export const goodsArr = [
         `
     },
     {
-        id: '362',
+        id: '522',
         title: 'Щетинний каркас для пензля 1/4" GW (пластик)',
         code: 'RAM-WLO',
         price: '44.39',
@@ -13719,7 +13717,7 @@ export const goodsArr = [
         `
     },
     {
-        id: '363',
+        id: '523',
         title: 'Щетинний каркас для пензля 1/4" GW (нерж. сталь)',
         code: 'RAM-WLO-STAL',
         price: '192.99',
@@ -13751,7 +13749,7 @@ export const goodsArr = [
         `
     },
     {
-        id: '364',
+        id: '524',
         title: 'Щітка низького тиску зі спицем і ручкою (RM, EasyTurn, R+M)',
         code: 'SZC-LAN-RM-UCH-TURN',
         price: '523.97',
@@ -13779,7 +13777,7 @@ export const goodsArr = [
         `
     },
     {
-        id: '365',
+        id: '525',
         title: 'Турбощітка з пістолетом і насадкою RM, Freeze Stop, EasyTurn, насадка 3/8" 1.05 з логотипом ' +
             'SamWash (510097003805)',
         code: 'SZC-LAN-RM-HP-BPW-TURN',
@@ -13807,7 +13805,7 @@ export const goodsArr = [
         `
     },
     {
-        id: '366',
+        id: '526',
         title: 'Тримач сопла 1/4GW Bsp - 1/4GW Npt',
         code: 'UCH-DYS-PA',
         price: '15.90',
@@ -13839,7 +13837,7 @@ export const goodsArr = [
         `
     },
     {
-        id: '367',
+        id: '527',
         title: 'Ущільнювач 10х2,2 для пістолета активної піни R+M',
         code: 'USZ-79025',
         price: '9.15',
@@ -13870,7 +13868,7 @@ export const goodsArr = [
         `
     },
     {
-        id: '368',
+        id: '528',
         title: 'Щетина для щітки L60',
         code: 'WLO-SZC-001',
         price: '154.27',
@@ -13902,7 +13900,7 @@ export const goodsArr = [
         `
     },
     {
-        id: '369',
+        id: '529',
         title: 'Щетина для щітки L90',
         code: 'WLO-SZC-002',
         price: '173.02',
@@ -13934,7 +13932,7 @@ export const goodsArr = [
         `
     },
     {
-        id: '370',
+        id: '530',
         title: 'Постійний клапан 0,6 л/хв MTM',
         code: 'ZAW-MTM-0213',
         price: '41.19',
@@ -13967,7 +13965,7 @@ export const goodsArr = [
         `
     },
     {
-        id: '371',
+        id: '531',
         title: 'Постійний клапан 1,1 л/хв MTM (10.0320)',
         code: 'ZAW-MTM-0320',
         price: '40.29',
@@ -13999,7 +13997,7 @@ export const goodsArr = [
         `
     },
     {
-        id: '372',
+        id: '532',
         title: 'Ремкомплект для пістолета MTM AURA',
         code: 'ZES-MTM-AURA',
         price: '47.83',
@@ -14030,7 +14028,7 @@ export const goodsArr = [
         `
     },
     {
-        id: '373',
+        id: '533',
         title: 'Ремкомплект пістолета R+M ST2600 (промивка, піна) з клапаном Permanent Weep',
         code: 'ZЕS-НАП-Р+М-PIS',
         price: '64.56',
@@ -14064,7 +14062,7 @@ export const goodsArr = [
         `
     },
     {
-        id: '374',
+        id: '534',
         title: 'Ремкомплект R+M для пістолета ST-2600 (Freeze stop)',
         code: 'ZES-NAP-R+M',
         price: '123.30',
@@ -14099,7 +14097,7 @@ export const goodsArr = [
     },
 
     {
-        id: '375',
+        id: '535',
         title: 'Трос для стріли (C11C11 3/8" GW-GW 2SN DN6 1000 мм)',
         code: 'PRZ-WYS-1000',
         price: '95.61',
@@ -14129,7 +14127,7 @@ export const goodsArr = [
         `
     },
     {
-        id: '376',
+        id: '536',
         title: 'Трос до стріли (MOSMATIC BEL/BEL 12I 2SN DN 8 1660 мм)',
         code: 'PRZ-WYS-MOS-166',
         price: '70.54',
@@ -14160,7 +14158,7 @@ export const goodsArr = [
         `
     },
     {
-        id: '377',
+        id: '537',
         title: 'Трос до стріли (MOSMATIC BEL/BEL 12I 2SN DN 8 1750 мм)',
         code: 'PRZ-WYS-MOS-175',
         price: '109.85',
@@ -14191,7 +14189,7 @@ export const goodsArr = [
         `
     },
     {
-        id: '378',
+        id: '538',
         title: 'Пневматичний шланг (10 мм х 6,5 мм поліуретан, синій)',
         code: 'ПРЗ-ПНЕУМ-10ММ',
         price: '7.48',
@@ -14225,7 +14223,7 @@ export const goodsArr = [
         `
     },
     {
-        id: '379',
+        id: '539',
         title: 'Шланг пневматичний (8 мм х 5,5 мм, поліуретан, синій)',
         code: 'ПРЗ-ПНЕУМ-8ММ',
         price: '11.93',
@@ -14259,7 +14257,7 @@ export const goodsArr = [
         `
     },
     {
-        id: '380',
+        id: '540',
         title: 'Кабель поліуретановий (12 мм U-12090-BU синій)',
         code: 'ПРЗ-ПНЕУМ-12ММ',
         price: '9.91',
@@ -14293,7 +14291,7 @@ export const goodsArr = [
         `
     },
     {
-        id: '381',
+        id: '541',
         title: 'Внутрішній кабель до штанги (MOSMATIC ECO2 904.438)',
         code: 'PRZ-WYS-MOS-904.438',
         price: '561.08',
@@ -14327,7 +14325,7 @@ export const goodsArr = [
         `
     },
     {
-        id: '382',
+        id: '542',
         title: 'Шланг для пістолета (Comfort 3/8 MZ GW 4300 мм червоний)',
         code: 'PRZ-PIS-4300-RM',
         price: '116.54',
@@ -14359,7 +14357,7 @@ export const goodsArr = [
         `
     },
     {
-        id: '383',
+        id: '543',
         title: 'Шланг для пістолета (Comfort 3/8 MZ GW 4300 мм синій)',
         code: 'PRZ-PIS-4300-RM-NIE',
         price: '110.63',
@@ -14391,7 +14389,7 @@ export const goodsArr = [
         `
     },
     {
-        id: '384',
+        id: '544',
         title: 'Шланг для пістолета (Comfort 3/8 MZ GW 5000 мм червоний)',
         code: 'PRZ-PIS-5000-RM',
         price: '120.28',
@@ -14424,7 +14422,7 @@ export const goodsArr = [
         `
     },
     {
-        id: '385',
+        id: '545',
         title: 'Шланг для пістолета (Comfort 3/8 MZ GW 5000 мм синій)',
         code: 'PRZ-PIS-5000-RM-NIE',
         price: '130.21',
@@ -14456,7 +14454,7 @@ export const goodsArr = [
         `
     },
     {
-        id: '386',
+        id: '546',
         title: 'Шланг для пістолета (Comfort 3/8 MZ GW 5500 мм червоний) ',
         code: 'PRZ-PIS-5500-RM',
         price: '154.96',
@@ -14488,7 +14486,7 @@ export const goodsArr = [
         `
     },
     {
-        id: '387',
+        id: '547',
         title: 'Пістолетний шланг (Комфорт 3/8 MZ GW 6000 мм червоний)',
         code: 'PRZ-PIS-6000-RM',
         price: '172.72',
@@ -14520,7 +14518,7 @@ export const goodsArr = [
         `
     },
     {
-        id: '388',
+        id: '548',
         title: 'Шланг для пістолета і турбощітки (Comfort 3/8 GZ GW 4300 мм жовтий)',
         code: 'PRZ-PIS-4300-RM-ZOL',
         price: '109.67',
@@ -14552,7 +14550,7 @@ export const goodsArr = [
         `
     },
     {
-        id: '389',
+        id: '549',
         title: 'Шланг для щітки (1/4"GW 3/8"GW DN6 - 4300 мм жовтий)',
         code: 'PRZ-SZC-4300-RM-ZOL',
         price: '111.27',
@@ -14584,7 +14582,7 @@ export const goodsArr = [
         `
     },
     {
-        id: '390',
+        id: '550',
         title: 'Шланг-щітка (1/4"GW 3/8"GW DN6 - 5000 мм жовтий)',
         code: 'PRZ-SZC-5000-RM-ZOL',
         price: '122.46',
@@ -14617,7 +14615,7 @@ export const goodsArr = [
     },
 
     {
-        id: '391',
+        id: '551',
         title: 'Амортизатор універсальний тип А 40х20 (з гвинтами М8 25 мм і 14 мм)',
         code: 'АМО-ГУМ-УНІ',
         price: '52.75',
@@ -14643,7 +14641,7 @@ export const goodsArr = [
         `
     },
     {
-        id: '392',
+        id: '552',
         title: 'Електродвигун CELMA, потужність 3,6/0,9кВт, SLG 112M-8/4WB, RAL3000, S25-268-011',
         code: 'SIL-IND-CZE-3,6',
         price: '2027.45',
@@ -14667,7 +14665,7 @@ export const goodsArr = [
         `
     },
     {
-        id: '393',
+        id: '553',
         title: 'Електродвигун SIEMENS, потужність 0,99/3,96 кВт, 112M-8/4, сірий RAL 7030, 1LE1011-1BR23-4NA4-ZR11+N02',
         code: 'SIL-IND-SZA-B34/C160-3,96',
         price: '2132.08',
@@ -14694,7 +14692,7 @@ export const goodsArr = [
         `
     },
     {
-        id: '394',
+        id: '554',
         title: 'Електродвигун SIEMENS, потужність 3.6/0.9kW, 112M-8/4, сірий RAL7030, 1LE1011-1BR23-4NA4-ZY53',
         code: 'SIL-IND-SZA-B34/C160',
         price: '2028.82',
@@ -14721,7 +14719,7 @@ export const goodsArr = [
         `
     },
     {
-        id: '395',
+        id: '555',
         title: 'Двигун Soga MM1 (80MC/4 0.75kW 230V/50 Hz 9C080080PE [123783])',
         code: 'SIL-NUE-002',
         price: '838.22',
@@ -14753,7 +14751,7 @@ export const goodsArr = [
     },
 
     {
-        id: '396',
+        id: '556',
         title: 'Язичок трьохточечний з кришкою (JB-30024)',
         code: 'JEZ-TRZ',
         price: '9.74',
@@ -14779,7 +14777,7 @@ export const goodsArr = [
         `
     },
     {
-        id: '397',
+        id: '557',
         title: 'Монетниця з нержавіючої сталі для модуля і робочих столів',
         code: 'KAS-MOD-NIE',
         price: '430.50',
@@ -14807,7 +14805,7 @@ export const goodsArr = [
         `
     },
     {
-        id: '398',
+        id: '558',
         title: 'Дверна ручка (RS100-9005)',
         code: 'KLA-DRZ',
         price: '34.08',
@@ -14833,7 +14831,7 @@ export const goodsArr = [
         `
     },
     {
-        id: '399',
+        id: '559',
         title: 'Дверна ручка (RS200-9005)',
         code: 'KLA-DRZ-RS200',
         price: '32.45',
@@ -17251,318 +17249,3 @@ export const goodsArr = [
         `
     },
 ]
-
-const data = [
-    {
-        img: "https://m.media-amazon.com/images/I/6125yAfsJKL._AC_UX575_.jpg",
-        title: "Nike Air Monarch IV",
-        star: <AiFillStar className="rating-star"/>,
-        reviews: "(123 reviews)",
-        prevPrice: "$140,00",
-        newPrice: "200",
-        company: "Nike",
-        color: "white",
-        category: "sneakers",
-    },
-    {
-        img: "https://m.media-amazon.com/images/I/519MRhRKGFL._AC_UX575_.jpg",
-        title: "Nike Air Vapormax Plus",
-        star: <AiFillStar className="rating-star"/>,
-        reviews: "(123 reviews)",
-        prevPrice: "$140,00",
-        newPrice: "200",
-        company: "Nike",
-        color: "red",
-        category: "sneakers",
-    },
-    {
-        img: "https://m.media-amazon.com/images/I/51+P9uAvb1L._AC_UY695_.jpg",
-        title: "Nike Waffle One Sneaker",
-        star: <AiFillStar className="rating-star"/>,
-        reviews: "(123 reviews)",
-        prevPrice: "$140,00",
-        newPrice: "200",
-        company: "Nike",
-        color: "green",
-        category: "sneakers",
-    },
-    {
-        img: "https://m.media-amazon.com/images/I/71oEKkghg-L._AC_UX575_.jpg",
-        title: "Nike Running Shoe",
-        star: <AiFillStar className="rating-star"/>,
-        reviews: "(123 reviews)",
-        prevPrice: "$140,00",
-        newPrice: "200",
-        company: "Adidas",
-        color: "black",
-        category: "sneakers",
-    },
-    {
-        img: "https://m.media-amazon.com/images/I/41M54ztS6IL._AC_SY625._SX._UX._SY._UY_.jpg",
-        title: "Flat Slip On Pumps",
-        star: <AiFillStar className="rating-star"/>,
-        reviews: "(123 reviews)",
-        prevPrice: "$140,00",
-        newPrice: "200",
-        company: "Vans",
-        color: "green",
-        category: "flats",
-    },
-    {
-        img: "https://m.media-amazon.com/images/I/71zKuNICJAL._AC_UX625_.jpg",
-        title: "Knit Ballet Flat",
-        star: <AiFillStar className="rating-star"/>,
-        reviews: "(123 reviews)",
-        prevPrice: "$140,00",
-        newPrice: "50",
-        company: "Adidas",
-        color: "black",
-        category: "flats",
-    },
-    {
-        img: "https://m.media-amazon.com/images/I/61V9APfz97L._AC_UY695_.jpg",
-        title: "Loafer Flats",
-        star: <AiFillStar className="rating-star"/>,
-        reviews: "(123 reviews)",
-        prevPrice: "$140,00",
-        newPrice: "50",
-        company: "Vans",
-        color: "white",
-        category: "flats",
-    },
-    {
-        img: "https://m.media-amazon.com/images/I/71VaQ+V6XnL._AC_UY695_.jpg",
-        title: "Nike Zoom Freak",
-        star: <AiFillStar className="rating-star"/>,
-        reviews: "(123 reviews)",
-        prevPrice: "$140,00",
-        newPrice: "200",
-        company: "Nike",
-        color: "green",
-        category: "sneakers",
-    },
-    {
-        img: "https://m.media-amazon.com/images/I/61-cBsLhJHL._AC_UY695_.jpg",
-        title: "Nike Men's Sneaker",
-        star: <AiFillStar className="rating-star"/>,
-        reviews: "(123 reviews)",
-        prevPrice: "$140,00",
-        newPrice: "200",
-        company: "Adidas",
-        color: "blue",
-        category: "sneakers",
-    },
-    {
-        img: "https://m.media-amazon.com/images/I/81xXDjojYKS._AC_UX575_.jpg",
-        title: "PUMA BLACK-OCE",
-        star: <AiFillStar className="rating-star"/>,
-        reviews: "(123 reviews)",
-        prevPrice: "$140,00",
-        newPrice: "150",
-        company: "Puma",
-        color: "green",
-        category: "sneakers",
-    },
-    {
-        img: "https://m.media-amazon.com/images/I/71E75yRwCDL._AC_UY575_.jpg",
-        title: "Pacer Future Sneaker",
-        star: <AiFillStar className="rating-star"/>,
-        reviews: "(123 reviews)",
-        prevPrice: "$140,00",
-        newPrice: "150",
-        company: "Puma",
-        color: "red",
-        category: "sneakers",
-    },
-    {
-        img: "https://m.media-amazon.com/images/I/71jeoX0rMBL._AC_UX575_.jpg",
-        title: "Unisex-Adult Super",
-        star: <AiFillStar className="rating-star"/>,
-        reviews: "(123 reviews)",
-        prevPrice: "$140,00",
-        newPrice: "150",
-        company: "Puma",
-        color: "black",
-        category: "sneakers",
-    },
-    {
-        img: "https://m.media-amazon.com/images/I/61TM6Q9dvxL._AC_UX575_.jpg",
-        title: "Roma Basic Sneaker",
-        star: <AiFillStar className="rating-star"/>,
-        reviews: "(123 reviews)",
-        prevPrice: "$140,00",
-        newPrice: "150",
-        company: "Puma",
-        color: "white",
-        category: "sneakers",
-    },
-    {
-        img: "https://m.media-amazon.com/images/I/7128-af7joL._AC_UY575_.jpg",
-        title: "Pacer Future Doubleknit",
-        star: <AiFillStar className="rating-star"/>,
-        reviews: "(123 reviews)",
-        prevPrice: "$140,00",
-        newPrice: "150",
-        company: "Puma",
-        color: "black",
-        category: "sneakers",
-    },
-
-    {
-        img: "https://m.media-amazon.com/images/I/81xXDjojYKS._AC_UX575_.jpg",
-        title: "Fusion Evo Golf Shoe",
-        star: <AiFillStar className="rating-star"/>,
-        reviews: "(123 reviews)",
-        prevPrice: "$140,00",
-        newPrice: "100",
-        company: "Puma",
-        color: "green",
-        category: "sneakers",
-    },
-    {
-        img: "https://m.media-amazon.com/images/I/719gdz8lsTS._AC_UX575_.jpg",
-        title: "Rainbow Chex Skate",
-        star: <AiFillStar className="rating-star"/>,
-        reviews: "(123 reviews)",
-        prevPrice: "$140,00",
-        newPrice: "100",
-        company: "Vans",
-        color: "red",
-        category: "flats",
-    },
-    {
-        img: "https://m.media-amazon.com/images/I/71gpFHJlnoL._AC_UX575_.jpg",
-        title: "Low-Top Trainers",
-        star: <AiFillStar className="rating-star"/>,
-        reviews: "(123 reviews)",
-        prevPrice: "$140,00",
-        newPrice: "100",
-        company: "Vans",
-        color: "white",
-        category: "sandals",
-    },
-    {
-        img: "https://m.media-amazon.com/images/I/71pf7VFs9CL._AC_UX575_.jpg",
-        title: "Vans Unisex Low-Top",
-        star: <AiFillStar className="rating-star"/>,
-        reviews: "(123 reviews)",
-        prevPrice: "$140,00",
-        newPrice: "100",
-        company: "Vans",
-        color: "blue",
-        category: "sandals",
-    },
-    {
-        img: "https://m.media-amazon.com/images/I/61N4GyWcHPL._AC_UY575_.jpg",
-        title: "Classic Bandana Sneakers",
-        star: <AiFillStar className="rating-star"/>,
-        reviews: "(123 reviews)",
-        prevPrice: "$140,00",
-        newPrice: "50",
-        company: "Nike",
-        color: "black",
-        category: "sandals",
-    },
-    {
-        img: "https://m.media-amazon.com/images/I/61bncQ44yML._AC_UX695_.jpg",
-        title: "Chunky High Heel",
-        star: <AiFillStar className="rating-star"/>,
-        reviews: "(123 reviews)",
-        prevPrice: "$140,00",
-        newPrice: "50",
-        company: "Vans",
-        color: "black",
-        category: "heels",
-    },
-    {
-        img: "https://m.media-amazon.com/images/I/71czu7WgGuL._AC_UY695_.jpg",
-        title: "Slip On Stiletto High Heel",
-        star: <AiFillStar className="rating-star"/>,
-        reviews: "(123 reviews)",
-        prevPrice: "$140,00",
-        newPrice: "100",
-        company: "puma",
-        color: "black",
-        category: "heels",
-    },
-    {
-        img: "https://m.media-amazon.com/images/I/61men05KRxL._AC_UY625_.jpg",
-        title: "DREAM PAIRS Court Shoes",
-        star: <AiFillStar className="rating-star"/>,
-        reviews: "(123 reviews)",
-        prevPrice: "$140,00",
-        newPrice: "150",
-        company: "Nike",
-        color: "red",
-        category: "heels",
-    },
-    {
-        img: "https://m.media-amazon.com/images/I/519MRhRKGFL._AC_UX575_.jpg",
-        title: "Nike Air Vapormax Plus",
-        star: <AiFillStar className="rating-star"/>,
-        reviews: "(123 reviews)",
-        prevPrice: "$140,00",
-        newPrice: "200",
-        company: "Nike",
-        color: "red",
-        category: "sneakers",
-    },
-
-    {
-        img: "https://m.media-amazon.com/images/I/51PGWTXgf-L._AC_UY625_.jpg",
-        title: "Low Mid Block Heels",
-        star: <AiFillStar className="rating-star"/>,
-        reviews: "(123 reviews)",
-        prevPrice: "$140,00",
-        newPrice: "200",
-        company: "Nike",
-        color: "black",
-        category: "heels",
-    },
-    {
-        img: "https://m.media-amazon.com/images/I/616sA5XUKtL._AC_UY675_.jpg",
-        title: "Chunky High Heel",
-        star: <AiFillStar className="rating-star"/>,
-        reviews: "(123 reviews)",
-        prevPrice: "$140,00",
-        newPrice: "50",
-        company: "Adidas",
-        color: "black",
-        category: "heels",
-    },
-    {
-        img: "https://m.media-amazon.com/images/I/71h5+MbEK7L._AC_UY625_.jpg",
-        title: "Amore Fashion Stilettos",
-        star: <AiFillStar className="rating-star"/>,
-        reviews: "(123 reviews)",
-        prevPrice: "$140,00",
-        newPrice: "150",
-        company: "Adidas",
-        color: "white",
-        category: "heels",
-    },
-    {
-        img: "https://m.media-amazon.com/images/I/61uw5RDxKQL._AC_UY625_.jpg",
-        title: "Bridal Sandals Glitter",
-        star: <AiFillStar className="rating-star"/>,
-        reviews: "(123 reviews)",
-        prevPrice: "$140,00",
-        newPrice: "50",
-        company: "Adidas",
-        color: "black",
-        category: "heels",
-    },
-    {
-        img: "https://m.media-amazon.com/images/I/71yhoZP0l6L._AC_UY695_.jpg",
-        title: "Wedding Prom Bridal",
-        star: <AiFillStar className="rating-star"/>,
-        reviews: "(123 reviews)",
-        prevPrice: "$140,00",
-        newPrice: "50",
-        company: "Adidas",
-        color: "black",
-        category: "flats",
-    },
-];
-
-export default data;

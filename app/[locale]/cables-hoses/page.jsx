@@ -15,7 +15,7 @@ import TopButton from "@/app/component/topButton/topButton";
 
 const arrGoods = [
     {
-        id: '375',
+        id: '535',
         title: 'Трос для стріли (C11C11 3/8" GW-GW 2SN DN6 1000 мм)',
         code: 'PRZ-WYS-1000',
         price: '95.61',
@@ -43,7 +43,7 @@ const arrGoods = [
         `
     },
     {
-        id: '376',
+        id: '536',
         title: 'Трос до стріли (MOSMATIC BEL/BEL 12I 2SN DN 8 1660 мм)',
         code: 'PRZ-WYS-MOS-166',
         price: '70.54',
@@ -71,7 +71,7 @@ const arrGoods = [
         `
     },
     {
-        id: '377',
+        id: '537',
         title: 'Трос до стріли (MOSMATIC BEL/BEL 12I 2SN DN 8 1750 мм)',
         code: 'PRZ-WYS-MOS-175',
         price: '109.85',
@@ -99,7 +99,7 @@ const arrGoods = [
         `
     },
     {
-        id: '378',
+        id: '538',
         title: 'Пневматичний шланг (10 мм х 6,5 мм поліуретан, синій)',
         code: 'ПРЗ-ПНЕУМ-10ММ',
         price: '7.48',
@@ -127,7 +127,7 @@ const arrGoods = [
         `
     },
     {
-        id: '379',
+        id: '539',
         title: 'Шланг пневматичний (8 мм х 5,5 мм, поліуретан, синій)',
         code: 'ПРЗ-ПНЕУМ-8ММ',
         price: '11.93',
@@ -155,7 +155,7 @@ const arrGoods = [
         `
     },
     {
-        id: '380',
+        id: '540',
         title: 'Кабель поліуретановий (12 мм U-12090-BU синій)',
         code: 'ПРЗ-ПНЕУМ-12ММ',
         price: '9.91',
@@ -183,7 +183,7 @@ const arrGoods = [
         `
     },
     {
-        id: '381',
+        id: '541',
         title: 'Внутрішній кабель до штанги (MOSMATIC ECO2 904.438)',
         code: 'PRZ-WYS-MOS-904.438',
         price: '561.08',
@@ -211,7 +211,7 @@ const arrGoods = [
         `
     },
     {
-        id: '382',
+        id: '542',
         title: 'Шланг для пістолета (Comfort 3/8 MZ GW 4300 мм червоний)',
         code: 'PRZ-PIS-4300-RM',
         price: '116.54',
@@ -239,7 +239,7 @@ const arrGoods = [
         `
     },
     {
-        id: '383',
+        id: '543',
         title: 'Шланг для пістолета (Comfort 3/8 MZ GW 4300 мм синій)',
         code: 'PRZ-PIS-4300-RM-NIE',
         price: '110.63',
@@ -267,7 +267,7 @@ const arrGoods = [
         `
     },
     {
-        id: '384',
+        id: '544',
         title: 'Шланг для пістолета (Comfort 3/8 MZ GW 5000 мм червоний)',
         code: 'PRZ-PIS-5000-RM',
         price: '120.28',
@@ -295,7 +295,7 @@ const arrGoods = [
         `
     },
     {
-        id: '385',
+        id: '545',
         title: 'Шланг для пістолета (Comfort 3/8 MZ GW 5000 мм синій)',
         code: 'PRZ-PIS-5000-RM-NIE',
         price: '130.21',
@@ -323,7 +323,7 @@ const arrGoods = [
         `
     },
     {
-        id: '386',
+        id: '546',
         title: 'Шланг для пістолета (Comfort 3/8 MZ GW 5500 мм червоний) ',
         code: 'PRZ-PIS-5500-RM',
         price: '154.96',
@@ -351,7 +351,7 @@ const arrGoods = [
         `
     },
     {
-        id: '387',
+        id: '547',
         title: 'Пістолетний шланг (Комфорт 3/8 MZ GW 6000 мм червоний)',
         code: 'PRZ-PIS-6000-RM',
         price: '172.72',
@@ -379,7 +379,7 @@ const arrGoods = [
         `
     },
     {
-        id: '388',
+        id: '548',
         title: 'Шланг для пістолета і турбощітки (Comfort 3/8 GZ GW 4300 мм жовтий)',
         code: 'PRZ-PIS-4300-RM-ZOL',
         price: '109.67',
@@ -407,7 +407,7 @@ const arrGoods = [
         `
     },
     {
-        id: '389',
+        id: '549',
         title: 'Шланг для щітки (1/4"GW 3/8"GW DN6 - 4300 мм жовтий)',
         code: 'PRZ-SZC-4300-RM-ZOL',
         price: '111.27',
@@ -435,7 +435,7 @@ const arrGoods = [
         `
     },
     {
-        id: '390',
+        id: '550',
         title: 'Шланг-щітка (1/4"GW 3/8"GW DN6 - 5000 мм жовтий)',
         code: 'PRZ-SZC-5000-RM-ZOL',
         price: '122.46',

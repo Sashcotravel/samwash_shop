@@ -4,7 +4,6 @@ import Link from "next-intl/link";
 import {useEffect, useState} from "react";
 import s from './catalog.module.css';
 import {AiOutlineHome} from "react-icons/ai";
-import {usePathname, useRouter, useSearchParams} from "next/navigation";
 import {useTranslations} from "next-intl";
 import {useStore} from "@/store/store";
 import Image from "next/image";
@@ -263,13 +262,55 @@ function Electromagnetic() {
 
     const [open, setOpen] = useState(false)
     const [open2, setOpen2] = useState(false)
+    const [priseTo, setPriseTo] = useState('')
+    const [priseFrom, setPriseFrom] = useState('')
     const [goods, setGoods] = useState([])
 
     const addOrderStore = useStore(store => store.addOrder)
+    const addCurrentsGoods = useStore(store => store.setCurrentsGoods)
+    const newCurrentsGoods = useStore(store => store.newCurrentsGoods)
+    const setNewCurrentsGoods = useStore(store => store.setNewCurrentsGoods)
+    const filterPriceTo = useStore(store => store.filterPriceTo)
+    const filterPriceFrom = useStore(store => store.filterPriceFrom)
+    const setFilterPriceTo = useStore(store => store.setFilterPriceTo)
+    const setFilterPriceFrom = useStore(store => store.setFilterPriceFrom)
 
     useEffect(() => {
         setGoods(arrGoods)
+        addCurrentsGoods(arrGoods)
+
+        return (
+            setNewCurrentsGoods([]),
+                setFilterPriceTo(''),
+                setFilterPriceFrom('')
+        )
     }, []);
+
+    useEffect(() => {
+        if(newCurrentsGoods.length === 0){
+            setGoods(arrGoods)
+        }
+        else {
+            setGoods(newCurrentsGoods)
+        }
+    }, [newCurrentsGoods]);
+
+    useEffect(() => {
+        if(filterPriceTo === 'no'){
+            setPriseTo('')
+        } else {
+            setPriseTo(filterPriceTo)
+        }
+    }, [filterPriceTo]);
+
+    useEffect(() => {
+        if(filterPriceFrom === 'no') {
+            setPriseFrom('')
+        } else {
+            setPriseFrom(filterPriceFrom)
+        }
+    }, [filterPriceFrom]);
+
 
     const style = {
         cursor: 'default',
@@ -327,6 +368,16 @@ function Electromagnetic() {
         setOpen(true)
     }
 
+    const removeFilter = (type) => {
+        if(type === 'priseFrom'){
+            setFilterPriceFrom('no')
+        }
+        else if(type === 'priseTo'){
+            setFilterPriceTo('no')
+        }
+    }
+
+
 
     return (
         <div className={s.mainDiv}>
@@ -357,6 +408,16 @@ function Electromagnetic() {
                             </ul>
                         </div>
                     </div>
+
+                    {
+                        <div className={s.filterDiv}>
+                            {priseFrom !== '' && priseFrom !== 'no' ? <button onClick={() => removeFilter('priseFrom')}>
+                                <AiOutlineClose /> Ціна від { priseFrom }
+                            </button> : ''}
+                            {priseTo !== '' && priseTo !== 'no' ? <button onClick={() => removeFilter('priseTo')}>
+                                <AiOutlineClose /> Ціна до {priseTo}</button> : ''}
+                        </div>
+                    }
 
                     <h1>Електромагнітні клапани та ремкомплекти</h1>
                     <div>

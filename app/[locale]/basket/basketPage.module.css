@@ -8,6 +8,13 @@
     font-size: 0.9rem;
 }
 
+.dontHaveOrder{
+    width: 100%;
+    text-align: center;
+    font-family: Ubuntu Regular, sans-serif;
+    font-size: 30px;
+}
+
 .div_manu{
     border-bottom: 1px solid #c6c6c6;
     height: 60px;

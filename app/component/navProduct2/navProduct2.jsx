@@ -4,155 +4,147 @@ import s from './nav.module.css';
 import {useEffect, useState} from "react";
 import Link from "next-intl/link";
 import {useStore} from "@/store/store";
+import {goodsArr} from "@/app/db/data";
 
 
 function NavProduct2({child, back, noFilter}) {
 
-    const [priceCheck, setPriseCheck] = useState(false)
-    const [priceGoods, setPriceGoods] = useState([])
-    const [producerCheck, setProducerCheck] = useState(false)
-    const [producerGoods, setProducerGoods] = useState([])
-    const [imageCheck, setImageCheck] = useState(false)
-    const [imageGoods, setImageGoods] = useState([])
-    const [currentSLug, setCurrentSLug] = useState('')
-    const [catalog, setCatalog] = useState([])
-    const [filterCatalog, setFilterCatalog] = useState([])
     const [priceTo, setPriceTo] = useState('')
     const [priceFrom, setPriceFrom] = useState('')
     const [value1, setValue1] = useState(false)
     const [value2, setValue2] = useState(false)
-    const [value3, setValue3] = useState({
-        Kothar: false, R_M: false, Seko: false, Schneider: false,
-    })
 
     const addGoodsFilter = useStore(store => store.addGoodsFilter)
+    const currentsGoods = useStore(store => store.currentsGoods)
+    const setNewCurrentsGoods = useStore(store => store.setNewCurrentsGoods)
+    const setFilterPriceTo = useStore(store => store.setFilterPriceTo)
+    const setFilterPriceFrom = useStore(store => store.setFilterPriceFrom)
+    const filterPriceTo = useStore(store => store.filterPriceTo)
+    const filterPriceFrom = useStore(store => store.filterPriceFrom)
 
     useEffect(() => {
         window.scrollTo(0, 0)
     }, [])
 
-    const filterFunction = (name, num, num2) => {
+    useEffect(() => {
+        if(filterPriceTo === 'no'){
+            setPriceTo('')
+            const from = Number(priceFrom !== '' ? priceFrom : '0');
+            const to = '1000000';
 
-        if(name === 'price') {
-            if(Number(priceFrom) > Number(priceTo)){
-                document.getElementById('priceTo').style.border = '1px solid red'
-                document.getElementById('priceFrom').style.border = '1px solid #DDDDDD'
-            }
-            else if (priceFrom === '' && priceTo === '') {
-                document.getElementById('priceFrom').style.border = '1px solid red'
-                document.getElementById('priceTo').style.border = '1px solid red'
-            }
-            else if (priceFrom === '') {
-                document.getElementById('priceFrom').style.border = '1px solid red'
-                document.getElementById('priceTo').style.border = '1px solid #DDDDDD'
-            }
-            else if (priceTo === '') {
-                document.getElementById('priceTo').style.border = '1px solid red'
-                document.getElementById('priceFrom').style.border = '1px solid #DDDDDD'
-            }
-            else if (Number(priceFrom) === Number(priceTo)) {
-                document.getElementById('priceTo').style.border = '1px solid red'
-                document.getElementById('priceFrom').style.border = '1px solid #DDDDDD'
-            }
-            else if (Number(priceFrom) < Number(priceTo)) {
-                document.getElementById('priceFrom').style.border = '1px solid #DDDDDD'
-                document.getElementById('priceTo').style.border = '1px solid #DDDDDD'
+            let newArr = currentsGoods
+                .filter(t => {
+                const itemPrice = t.newPrice !== '' ? Number(t.newPrice) : Number(t.price);
 
-                const priseRage = (filterCatalog) => {
-                    return filterCatalog.filter(product =>
-                        product.price >= parseFloat(priceFrom) && product.price <= parseFloat(priceTo)
-                    )
+                if (typeof from === 'number' && !isNaN(from)) {
+                    if (typeof to === 'number' && !isNaN(to)) {
+                        console.log('1')
+                        return itemPrice >= from && itemPrice <= to;
+                    } else {
+                        console.log('2')
+                        return itemPrice >= from;
+                    }
+                }
+                else {
+                    if (typeof to === 'number' && !isNaN(to)) {
+                        console.log('3')
+                        return itemPrice <= to;
+                    } else {
+                        console.log('4')
+                        return true;
+                    }
                 }
 
-                if(producerGoods.length === 0 && imageGoods.length === 0){
-                    addGoodsFilter(priseRage(filterCatalog));
-                    setPriceGoods(priseRage(filterCatalog))
-                    setPriseCheck(true)
-                }
-            }
+                // return itemPrice >= from && itemPrice <= to;
+            })
+                .sort((a, b) => {
+                    const aPrice = a.newPrice !== '' ? a.newPrice : a.price;
+                    const bPrice = b.newPrice !== '' ? b.newPrice : b.price;
+                    console.log(aPrice, bPrice)
+                    return aPrice - bPrice;
+                });
+            setNewCurrentsGoods(newArr)
         }
+    }, [filterPriceTo]);
 
-        // setValue3({ Kothar: num === 1, R_M: num === 2, Seko: num === 3, Schneider: num === 4 });
-        if(name === 'producer') {
-            setValue3(prev => {
-                switch (num) {
-                    case 1:
-                        setProducerCheck(!prev.Kothar)
-                        return { Kothar: !prev.Kothar, R_M: false, Seko: false, Schneider: false };
-                    case 2:
-                        setProducerCheck(!prev.R_M)
-                        return { Kothar: false, R_M: !prev.R_M, Seko: false, Schneider: false };
-                    case 3:
-                        setProducerCheck(!prev.Seko)
-                        return { Kothar: false, R_M: false, Seko: !prev.Seko, Schneider: false };
-                    case 4:
-                        setProducerCheck(!prev.Schneider)
-                        return { Kothar: false, R_M: false, Seko: false, Schneider: !prev.Schneider };
-                    default:
-                        return prev;
-                }
-            });
-            let goodsP = []
-            filterCatalog.filter(product => {
-                switch (num) {
-                    case 1:
-                        if(!value3.Kothar){
-                            product.producer === 'Kothar' ? goodsP.push(product) : '';
-                            addGoodsFilter(goodsP);
-                            setProducerGoods(goodsP);
+    useEffect(() => {
+        if(filterPriceFrom === 'no'){
+            setPriceFrom('')
+            const from = 0;
+            const to = Number(priceTo !== '' ? priceTo : '1000000');
+
+            let newArr = currentsGoods
+                .filter(t => {
+                    const itemPrice = t.newPrice !== '' ? Number(t.newPrice) : Number(t.price);
+
+                    if (typeof from === 'number' && !isNaN(from)) {
+                        if (typeof to === 'number' && !isNaN(to)) {
+                            return itemPrice >= from && itemPrice <= to;
+                        } else {
+                            return itemPrice >= from;
                         }
-                        else {
-                            addGoodsFilter(filterCatalog);
-                            setProducerGoods(filterCatalog);
+                    }
+                    else {
+                        if (typeof to === 'number' && !isNaN(to)) {
+                            return itemPrice <= to;
+                        } else {
+                            return true;
                         }
-                        break
-                    case 2:
-                        if(!value3.R_M){
-                            product.producer === 'R+M' ? goodsP.push(product) : '';
-                            addGoodsFilter(goodsP);
-                            setProducerGoods(goodsP);
-                        }
-                        else {
-                            addGoodsFilter(filterCatalog);
-                            setProducerGoods(filterCatalog);
-                        }
-                        break
-                    case 3:
-                        if(!value3.Seko){
-                            product.producer === 'Seko' ? goodsP.push(product) : '';
-                            addGoodsFilter(goodsP);
-                            setProducerGoods(goodsP);
-                        }
-                        else {
-                            addGoodsFilter(filterCatalog);
-                            setProducerGoods(filterCatalog);
-                        }
-                        break
-                    case 4:
-                        if(!value3.Schneider){
-                            product.producer === 'Schneider Electric' ? goodsP.push(product) : '';
-                            addGoodsFilter(goodsP);
-                            setProducerGoods(goodsP);
-                        }
-                        else {
-                            addGoodsFilter(filterCatalog);
-                            setProducerGoods(filterCatalog);
-                        }
-                        break
-                    default:
-                        return addGoodsFilter([product]);
-                }
-            });
+                    }
+
+                    // return itemPrice >= from && itemPrice <= to;
+                })
+                .sort((a, b) => {
+                    const aPrice = a.newPrice !== '' ? a.newPrice : a.price;
+                    const bPrice = b.newPrice !== '' ? b.newPrice : b.price;
+                    return aPrice - bPrice;
+                });
+            setNewCurrentsGoods(newArr)
         }
+    }, [filterPriceFrom]);
 
-        // 3 логіка
-        if(name === 'image'){
-            setValue2(num2)
-            setImageCheck(true)
+    const filterFunction = (name) => {
+        let filteredGoods = currentsGoods;
+
+        if (priceTo !== '' || priceFrom !== '') {
+            const from = Number(priceFrom !== '' ? priceFrom : '0');
+            const to = Number(priceTo !== '' ? priceTo : '1000000');
+
+            let newArr = filteredGoods
+                .filter(t => {
+                    const itemPrice = t.newPrice !== '' ? Number(t.newPrice) : Number(t.price);
+
+                    if (typeof from === 'number' && !isNaN(from)) {
+                        if (typeof to === 'number' && !isNaN(to)) {
+                            return itemPrice >= from && itemPrice <= to;
+                        } else {
+                            return itemPrice >= from;
+                        }
+                    }
+                    else {
+                        if (typeof to === 'number' && !isNaN(to)) {
+                            return itemPrice <= to;
+                        } else {
+                            return true;
+                        }
+                    }
+
+                    // return itemPrice >= from && itemPrice <= to;
+                })
+                .sort((a, b) => {
+                    const aPrice = a.newPrice !== '' ? a.newPrice : a.price;
+                    const bPrice = b.newPrice !== '' ? b.newPrice : b.price;
+                    return aPrice - bPrice;
+                });
+
+            setFilterPriceTo(priceTo)
+            setFilterPriceFrom(priceFrom)
+
+            setNewCurrentsGoods(newArr)
         }
-
-        // console.log(filterCatalog, filteredGoods)
     }
+
+
 
     return (
         <nav className={s.nav}>
@@ -175,7 +167,7 @@ function NavProduct2({child, back, noFilter}) {
                     })
                 }
             </div>
-            {catalog.length !== undefined && !noFilter && <div className={s.divFilter}>
+            {!noFilter && <div className={s.divFilter}>
                 <h3>Фільтри</h3>
                 <ul>
                     <li className={s.liPrise}>
@@ -206,33 +198,6 @@ function NavProduct2({child, back, noFilter}) {
                             <input type="checkbox" value={value2} onClick={() => setValue2(prev => !prev)}/>
                             <span className={s.labelSpan}>
                                 <span>Жодного (34)</span>
-                            </span>
-                        </label>
-                    </li>
-                    <li>
-                        <p><b>Виробник / Назва компанії</b></p>
-                        <label onChange={() => filterFunction('producer', 1)} className={s.label}>
-                            <input type="checkbox" value={value3.Kothar} checked={value3.Kothar}/>
-                            <span className={s.labelSpan}>
-                                <span>Kothar</span>
-                            </span>
-                        </label>
-                        <label onChange={() => filterFunction('producer', 2)} className={s.label}>
-                            <input type="checkbox" value={value3.R_M} checked={value3.R_M}/>
-                            <span className={s.labelSpan}>
-                                <span>R+M</span>
-                            </span>
-                        </label>
-                        <label onChange={() => filterFunction('producer', 3)} className={s.label}>
-                            <input type="checkbox" value={value3.Seko} checked={value3.Seko}/>
-                            <span className={s.labelSpan}>
-                                <span>Seko</span>
-                            </span>
-                        </label>
-                        <label onChange={() => filterFunction('producer', 4)} className={s.label}>
-                            <input type="checkbox" value={value3.Schneider} checked={value3.Schneider}/>
-                            <span className={s.labelSpan}>
-                                <span>Schneider Electric</span>
                             </span>
                         </label>
                     </li>

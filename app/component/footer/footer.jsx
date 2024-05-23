@@ -83,7 +83,7 @@ function Footer() {
                                 <Link href='/basket'>Кошик</Link>
                             </li>
                             <li>
-                                <Link href='/'>Розширений пошук</Link>
+                                <Link href='/advanced-search'>Розширений пошук</Link>
                             </li>
                         </ul>
                     </div>

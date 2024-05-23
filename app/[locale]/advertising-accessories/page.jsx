@@ -115,7 +115,7 @@ const arrGoods = [
         `
     },
     {
-        id: '223',
+        id: '2230',
         title: 'Рекламна куртка з логотипом SamWash (червоний колір, розмір XXXL)',
         code: 'KUR-REKL-PL-XXXL',
         price: '279.05',
