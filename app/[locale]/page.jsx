@@ -136,14 +136,15 @@ const MainPage = () => {
                 >
                     <SwiperSlide>
                         <Link href='/goods?goods=goods6'>
-                            <Image src='/main/image1.jpg' alt='slider' width={2200} height={600} />
+                            {/*<Image src='/main/image1.jpg' alt='slider' width={2200} height={600} />*/}
+                            <Image src='/main/back2.jpg' alt='slider' width={2200} height={600} />
                         </Link>
                     </SwiperSlide>
-                    <SwiperSlide>
-                        <Link href='/goods?goods=goods7'>
-                            <Image src='/main/image2.jpg' alt='slider' width={2200} height={600} />
-                        </Link>
-                    </SwiperSlide>
+                    {/*<SwiperSlide>*/}
+                    {/*    <Link href='/goods?goods=goods7'>*/}
+                    {/*        <Image src='/main/image2.jpg' alt='slider' width={2200} height={600} />*/}
+                    {/*    </Link>*/}
+                    {/*</SwiperSlide>*/}
                     <svg viewBox="0 0 48 48" ref={progressCircle} style={{display: 'none'}}>
                         <circle cx="24" cy="24" r="20"></circle>
                     </svg>
@@ -172,7 +173,7 @@ const MainPage = () => {
                             <Link href='/goods?goods=goods13'>
                                 <div className={s.image_goods}>
                                     <span className={s.news}>Новинка</span>
-                                    <Image src='/main/image3.jpg' alt='slider' width={160} height={160} />
+                                    <Image src='/test/1.jpg' alt='slider' width={160} height={160} className={s.image_new} />
                                 </div>
                                 <div className={s.text_goods}>
                                     <h4>Порошок ORANGE FF миючий порошок (25 кг), без фосфатів, аромат</h4>
@@ -305,7 +306,7 @@ const MainPage = () => {
                                 <div className={s.image_goods}>
                                     <span className={s.news} style={{background: '#4DB6AC'}}>Чудова якість</span>
                                     <span className={s.news2} style={{background: '#A1887F'}}>Хороша ціна</span>
-                                    <Image src='/chemical-means/13.jpg' alt='slider' width={160} height={160}/>
+                                    <Image src='/test/2.jpg' alt='slider' width={160} height={160} className={s.image_new} />
                                 </div>
                                 <div className={s.text_goods}>
                                     <h4>Автономна каша Ultra Fresh (25 кг), аромат</h4>
@@ -338,7 +339,7 @@ const MainPage = () => {
                         <div className={s.goods_slider}>
                             <Link href='/goods?goods=goods3'>
                                 <div className={s.image_goods}>
-                                    <Image src='/chemical-means/3.jpg' alt='slider' width={160} height={160}/>
+                                    <Image src='/test/3.jpg' alt='slider' width={160} height={160} className={s.image_new} />
                                 </div>
                                 <div className={s.text_goods}>
                                     <h4>Активна піна для миття автомобіля Green Alka Foam (20л), колір зелений</h4>
@@ -352,7 +353,7 @@ const MainPage = () => {
                         <div className={s.goods_slider}>
                             <Link href='/goods?goods=goods18'>
                                 <div className={s.image_goods}>
-                                    <Image src='/chemical-means/16.jpg' alt='slider' width={160} height={160}/>
+                                    <Image src='/test/4.jpg' alt='slider' width={160} height={160} className={s.image_new} />
                                 </div>
                                 <div className={s.text_goods}>
                                     <h4>Шампунь для автомийки Turbo Plus (20 л) ADR</h4>

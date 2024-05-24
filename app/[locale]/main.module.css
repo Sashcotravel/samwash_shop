@@ -93,6 +93,10 @@
     position: relative;
 }
 
+.image_goods .image_new{
+    width: 30% !important;
+}
+
 .news{
     min-width: 65px;
     position: absolute;
