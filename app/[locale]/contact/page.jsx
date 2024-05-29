@@ -10,6 +10,7 @@ import { GiSmartphone } from "react-icons/gi";
 import { TfiHeadphoneAlt } from "react-icons/tfi";
 import {useEffect, useState} from "react";
 import TopButton from "@/app/component/topButton/topButton";
+import emailjs from "@emailjs/browser";
 
 
 function Contact() {
@@ -66,7 +67,23 @@ function Contact() {
         }
 
         if (isValid) {
-            console.log(user)
+            let templateParams = {
+                name2: "Контакти",
+                topic: user.topic,
+                email: user.email,
+                phone: user.phone,
+                post: user.text,
+            };
+            emailjs.send('service_n1hiumb', 'template_gjt4wd5', templateParams, 'nLpwYEGZpz0suGwLV')
+                .then(res => {
+                    if(res.status === 200){
+                        console.log(templateParams)
+                        setUser(prev => { return {...prev, email: ''} })
+                        setUser(prev => { return {...prev, phone: ''} })
+                        setUser(prev => { return {...prev, text: ''} })
+                        setUser(prev => { return {...prev, topic: ''} })
+                    }
+                })
         }
         else {
             console.log("Є помилки у введених даних.");
@@ -85,7 +102,7 @@ function Contact() {
             </h1>
 
             <div className={s.div_column1}>
-                <h2><b>Мики самообслуговування SAMWASH</b></h2>
+                <h2><b>Мики самообслуговування SamWash</b></h2>
                 <div className={s.div_address}>
                     <a href="https://maps.app.goo.gl/Wy7g6KUUGf4VWwme6?g_st=it" target="_blank"
                        className={s.address1_div}>

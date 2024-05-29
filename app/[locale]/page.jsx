@@ -13,6 +13,7 @@ import Image from "next/image";
 import TopButton from "@/app/component/topButton/topButton";
 import axios from "axios";
 import {useLocale} from "next-intl";
+import emailjs from "@emailjs/browser";
 
 
 const MainPage = () => {
@@ -111,9 +112,18 @@ const MainPage = () => {
         setCheckboxError(!inputCheck);
 
         if (inputCheck && emailPattern.test(inputEmail)) {
-            console.log(e)
+            let templateParams = {
+                name2: "Головна",
+                email: inputEmail,
+            };
+            emailjs.send('service_n1hiumb', 'template_gjt4wd5', templateParams, 'nLpwYEGZpz0suGwLV')
+                .then(res => {
+                    if(res.status === 200){
+                        console.log(templateParams)
+                        setInputEmail("")
+                    }
+                })
         }
-
     }
 
 

@@ -59,7 +59,7 @@ const store = (
                                     return goods;
                                 }
                             }),
-                            sum: Number(store.sum) + Number(item.price) * item.size
+                            sum: (Number(store.sum) + Number(item.price) * item.size).toFixed(2)
                         };
                     }
                 })},

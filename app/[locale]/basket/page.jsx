@@ -15,6 +15,7 @@ import { AiOutlineCheck } from "react-icons/ai";
 import { AiOutlinePaperClip } from "react-icons/ai";
 import Image from "next/image";
 import TopButton from "@/app/component/topButton/topButton";
+import emailjs from "@emailjs/browser";
 
 let arrFile = []
 
@@ -375,7 +376,34 @@ function Page() {
         }
 
         if (isValid) {
-            console.log()
+            let templateParams = {
+                name2: "Кошик",
+                name: user.name,
+                street: user.street,
+                country: user.country,
+                city: user.city,
+                phone: user.phone,
+                email: user.email,
+                numBud: user.numBud,
+                numFlat: user.numFlat,
+                news: inputCheck2 ? 'Так' : 'Ні',
+                company: user.company,
+                order: `${order.map((item, index) => `${index+1}) Назва товару: ` + item.title + ', ціна: ' + item.price + ', кількість: ' + item.size + ', разом: ' +
+                    (item.price * item.size) + `
+                `)}`,
+                total: sum
+            };
+            emailjs.send('service_n1hiumb', 'template_gjt4wd5', templateParams, 'nLpwYEGZpz0suGwLV')
+                .then(res => {
+                    if(res.status === 200){
+                        console.log(templateParams)
+                        allClean()
+                        setUser({
+                            email: '', name: '', street: '', country: '', city: '', phone: '+380',
+                            numBud: '', numFlat: '', company: ''
+                        })
+                    }
+                })
         }
         else {
             console.log("Є помилки у введених даних.");
@@ -570,7 +598,7 @@ function Page() {
                                 <div className={s.block3_1}>
                                     <p><b>Способи доставки</b></p>
                                     <select>
-                                        <option value="Кур'єрська доставка">Кур'єрська доставка (24,60 злотих)</option>
+                                        <option value="Кур'єрська доставка">Кур'єрська доставка (24,60 грн)</option>
                                     </select>
                                     <p><b>Запланована дата доставки</b></p>
                                     <p>Доставка протягом 3 робочих днів</p>
@@ -581,7 +609,7 @@ function Page() {
                                 <div className={s.block3_1}>
                                     <p><b>Методи оплати</b></p>
                                     <select>
-                                        <option value="платежу">Платіж (46,60 злотих)</option>
+                                        <option value="платежу">Платіж (46,60 грн)</option>
                                     </select>
                                     <img src="/other/ima.jpg" alt="Запланована дата платежу"/>
                                     <p><b>Запланована дата платежу</b></p>

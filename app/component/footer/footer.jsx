@@ -5,6 +5,7 @@ import s from './footer.module.css';
 import Link from "next-intl/link";
 import {useState} from "react";
 import Image from "next/image";
+import emailjs from "@emailjs/browser";
 
 
 function Footer() {
@@ -39,7 +40,17 @@ function Footer() {
         setCheckboxError(!inputCheck);
 
         if (inputCheck && emailPattern.test(inputEmail)) {
-            console.log(e)
+            let templateParams = {
+                name2: "Футер || 5%",
+                email: inputEmail,
+            };
+            emailjs.send('service_n1hiumb', 'template_gjt4wd5', templateParams, 'nLpwYEGZpz0suGwLV')
+                .then(res => {
+                    if(res.status === 200){
+                        console.log(templateParams)
+                        setInputEmail("")
+                    }
+                })
         }
 
     }
