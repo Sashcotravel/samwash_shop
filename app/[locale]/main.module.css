@@ -77,6 +77,40 @@
     z-index: 2;
 }
 
+.panelH2{
+    font-family: Ubuntu, sans-serif;
+    font-weight: 700;
+    position: relative;
+    text-align: center;
+    color: #414141;
+    width: fit-content;
+    margin: 40px auto;
+}
+
+.panelH2:before{
+    display: block;
+    content: "";
+    width: 50px;
+    height: 1px;
+    border-bottom: solid 1px;
+    position: absolute;
+    top: 15px;
+    left: -60px;
+    z-index: 2;
+}
+
+.panelH2:after{
+    display: block;
+    content: "";
+    width: 50px;
+    height: 1px;
+    border-bottom: solid 1px;
+    position: absolute;
+    top: 15px;
+    right: -60px;
+    z-index: 2;
+}
+
 .goods_slider{
     width: 100%;
     height: auto;
@@ -448,6 +482,42 @@
     display: none!important;
 }
 
+.photo_div{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+    width: 100%;
+}
+
+.photo_item{
+    height: 250px;
+    width: 24%;
+}
+
+.photo_item img{
+    height: 100%;
+    width: 100%;
+}
+
+.photo_item iframe{
+    border: none;
+    height: 90%;
+    width: 100%;
+}
+
+.linkA {
+    color: #e1001a;
+    transition: all .3s ease-in;
+    margin: 50px auto 0;
+    display: block;
+    width: fit-content;
+}
+
+.linkA:hover {
+    text-decoration: underline;
+}
+
 
 
 @media screen and (max-width: 1200px){
@@ -499,11 +569,19 @@
     .div_icon{
         width: 100%;
     }
+    .photo_item{
+        height: 250px;
+        width: 49%;
+    }
 }
 
 @media screen and (max-width: 500px){
     .div_box{
         padding: 20px 0;
+    }
+    .photo_item{
+        height: 250px;
+        width: 100%;
     }
     .goods_slider{
         width: 85%;

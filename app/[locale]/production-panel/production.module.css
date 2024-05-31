@@ -1,0 +1,144 @@
+@import "/fonts/stylesheet.css";
+
+.main_container {
+    max-width: 1590px;
+    margin: 0 auto;
+    height: 290px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.main_container h1 {
+    font-family: Ubuntu Light, sans-serif;
+    padding: 10px 0 0 45px;
+    font-weight: 300;
+    font-size: 42px;
+    margin-bottom: 75px;
+    color: #fff;
+    align-self: baseline;
+    width: 100%;
+    margin-top: auto;
+}
+
+.main_container ul li {
+    position: relative;
+    margin: 15px 0 15px -20px;
+    font-size: 12px;
+    font-weight: 400;
+    color: #a1a1a1;
+    text-transform: uppercase;
+}
+
+.main_container ul li a {
+    padding-right: 20px;
+    color: #fff;
+    font-size: 12px;
+    line-height: 1.2;
+}
+
+.main_container ul li a:hover {
+    color: #fff;
+}
+
+.text_box{
+    padding: 20px 30px;
+}
+
+.mainDivH1{
+    width: fit-content;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-family: Ubuntu Regular, sans-serif;
+    margin: 40px auto;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+.mainDivH1:before{
+    display: block;
+    content: "";
+    width: 50px;
+    height: 1px;
+    border-bottom: solid 1px;
+    position: absolute;
+    top: 15px;
+    left: -60px;
+    z-index: 2;
+}
+
+.mainDivH1:after{
+    display: block;
+    content: "";
+    width: 50px;
+    height: 1px;
+    border-bottom: solid 1px;
+    position: absolute;
+    top: 15px;
+    right: -60px;
+    z-index: 2;
+}
+
+.wrapper{
+    margin: 40px 0 50px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+}
+
+.item{
+    width: 240px;
+    height: 160px;
+    display: flex;
+}
+
+.item img{
+    width: 100%;
+    height: 100%;
+}
+
+
+
+
+@media screen and (max-width: 1280px) {
+    .main_container {
+        height: 200px;
+        padding: 0;
+    }
+    .main_container ul li {
+        padding-left: 20px;
+        position: relative;
+        margin: 15px 0;
+        font-family: Ubuntu, sans-serif;
+        font-weight: 300;
+        color: #a1a1a1;
+        font-size: 12px;
+        margin-left: -20px;
+    }
+    .text_box{
+        padding: 20px;
+    }
+
+}
+
+@media screen and (max-width: 990px){
+    .text_box{
+        padding: 20px 10px;
+    }
+    .item{
+        width: 49%;
+        height: auto;
+    }
+}
+
+@media screen and (max-width: 990px){
+    .item{
+        width: 100%;
+    }
+}

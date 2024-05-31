@@ -1,4 +1,5 @@
 {
+  "home": "Main",
   "contactBut": "Contact form",
   "beloyalBut": "Form",
   "mainButNext": "next step",
@@ -40,6 +41,7 @@
   "construction-technology": "container construction technology",
   "container": "container car washes",
   "modular": "modular car washes",
+  "productionPanel": "Production panel",
   "header": {
     "header1": "Car wash manager",
     "header2": "Service request",

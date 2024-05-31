@@ -14,6 +14,8 @@ import TopButton from "@/app/component/topButton/topButton";
 import axios from "axios";
 import {useLocale} from "next-intl";
 import emailjs from "@emailjs/browser";
+import {Fancybox} from "@fancyapps/ui";
+import "@fancyapps/ui/dist/fancybox/fancybox.css";
 
 
 const MainPage = () => {
@@ -30,6 +32,10 @@ const MainPage = () => {
     const [news1, setNews1] = useState('');
     const [news2, setNews2] = useState('');
     const [news3, setNews3] = useState('');
+
+    Fancybox.bind('[data-fancybox="gallery"]', {
+        Thumbs: {Carousel: {fill: false, center: true,},},
+    });
 
     useEffect(() => {
         window.addEventListener('resize', () => {
@@ -130,7 +136,7 @@ const MainPage = () => {
     return (
         <div className={s.main}>
 
-            <TopButton index={4} />
+            <TopButton index={4}/>
 
             <section className={s.section}>
                 <Swiper
@@ -147,14 +153,21 @@ const MainPage = () => {
                     <SwiperSlide>
                         <Link href='/goods?goods=goods6'>
                             {/*<Image src='/main/image1.jpg' alt='slider' width={2200} height={600} />*/}
-                            <Image src='/main/back2.jpg' alt='slider' width={2200} height={600} />
+                            <Image src='/main/back2.jpg' alt='slider' width={2200} height={600}/>
                         </Link>
                     </SwiperSlide>
-                    {/*<SwiperSlide>*/}
-                    {/*    <Link href='/goods?goods=goods7'>*/}
-                    {/*        <Image src='/main/image2.jpg' alt='slider' width={2200} height={600} />*/}
-                    {/*    </Link>*/}
-                    {/*</SwiperSlide>*/}
+                    <SwiperSlide>
+                        <Link href='/production-panel'>
+                            <h2>Панель виробництва</h2>
+                            {/*<Image src='/main/image2.jpg' alt='slider' width={2200} height={600} />*/}
+                        </Link>
+                    </SwiperSlide>
+                    <SwiperSlide>
+                        <Link href='/production-panel2'>
+                            <h2>3 сторінка</h2>
+                            {/*<Image src='/main/image2.jpg' alt='slider' width={2200} height={600} />*/}
+                        </Link>
+                    </SwiperSlide>
                     <svg viewBox="0 0 48 48" ref={progressCircle} style={{display: 'none'}}>
                         <circle cx="24" cy="24" r="20"></circle>
                     </svg>
@@ -183,7 +196,8 @@ const MainPage = () => {
                             <Link href='/goods?goods=goods13'>
                                 <div className={s.image_goods}>
                                     <span className={s.news}>Новинка</span>
-                                    <Image src='/test/1.jpg' alt='slider' width={160} height={160} className={s.image_new} />
+                                    <Image src='/test/1.jpg' alt='slider' width={160} height={160}
+                                           className={s.image_new}/>
                                 </div>
                                 <div className={s.text_goods}>
                                     <h4>Порошок ORANGE FF миючий порошок (25 кг), без фосфатів, аромат</h4>
@@ -197,7 +211,7 @@ const MainPage = () => {
                         <div className={s.goods_slider}>
                             <Link href='/goods?goods=goods15-6'>
                                 <div className={s.image_goods}>
-                                    <Image src='/equipmentWashing/6.jpg' alt='slider' width={160} height={160} />
+                                    <Image src='/equipmentWashing/6.jpg' alt='slider' width={160} height={160}/>
                                 </div>
                                 <div className={s.text_goods}>
                                     <h4>Тримач склоочисника / килимка (нержавіюча сталь)</h4>
@@ -316,7 +330,8 @@ const MainPage = () => {
                                 <div className={s.image_goods}>
                                     <span className={s.news} style={{background: '#4DB6AC'}}>Чудова якість</span>
                                     <span className={s.news2} style={{background: '#A1887F'}}>Хороша ціна</span>
-                                    <Image src='/test/2.jpg' alt='slider' width={160} height={160} className={s.image_new} />
+                                    <Image src='/test/2.jpg' alt='slider' width={160} height={160}
+                                           className={s.image_new}/>
                                 </div>
                                 <div className={s.text_goods}>
                                     <h4>Автономна каша Ultra Fresh (25 кг), аромат</h4>
@@ -349,7 +364,8 @@ const MainPage = () => {
                         <div className={s.goods_slider}>
                             <Link href='/goods?goods=goods3'>
                                 <div className={s.image_goods}>
-                                    <Image src='/test/3.jpg' alt='slider' width={160} height={160} className={s.image_new} />
+                                    <Image src='/test/3.jpg' alt='slider' width={160} height={160}
+                                           className={s.image_new}/>
                                 </div>
                                 <div className={s.text_goods}>
                                     <h4>Активна піна для миття автомобіля Green Alka Foam (20л), колір зелений</h4>
@@ -363,7 +379,8 @@ const MainPage = () => {
                         <div className={s.goods_slider}>
                             <Link href='/goods?goods=goods18'>
                                 <div className={s.image_goods}>
-                                    <Image src='/test/4.jpg' alt='slider' width={160} height={160} className={s.image_new} />
+                                    <Image src='/test/4.jpg' alt='slider' width={160} height={160}
+                                           className={s.image_new}/>
                                 </div>
                                 <div className={s.text_goods}>
                                     <h4>Шампунь для автомийки Turbo Plus (20 л) ADR</h4>
@@ -483,7 +500,7 @@ const MainPage = () => {
             </section>
 
             <section className={s.section_yellow}>
-                <Image src='/main/image4.png' alt='slider' width={300} height={310} />
+                <Image src='/main/image4.png' alt='slider' width={300} height={310}/>
                 <div className={s.div_info}>
                     <h3>Підпишіться на розсилку та отримайте <b>знижку 5% на все!</b></h3>
                     <div className={s.div_mail}>
@@ -497,7 +514,7 @@ const MainPage = () => {
                             {isSubmitting && emailError && <p className={s.redP}>Будь ласка, введіть дійсну адресу
                                 електронної пошти</p>}
                             <button onClick={handleSubmit}>
-                                <Image src='/main/arrow-right.svg' alt='slider' width={16} height={16} />
+                                <Image src='/main/arrow-right.svg' alt='slider' width={16} height={16}/>
                             </button>
                         </div>
                         <lable className={s.label} onClick={check}>
@@ -507,13 +524,62 @@ const MainPage = () => {
                                    placeholder="Введіть адресу вашої електронної пошти"
                                    onChange={check}/>
                             <Image src='/main/image5.png' alt='slider' className={s.imgInput} id='image'
-                                 width={16} height={16} />
+                                   width={16} height={16}/>
                             <span className={s.span}>
                                 <span><small style={{color: 'red'}}>*</small> Я даю згоду на отримання розсилки</span>
                             </span>
                             {isSubmitting && checkboxError && <p className={s.redP2} id='red-in'>Обов'язкове поле</p>}
                         </lable>
                     </div>
+                </div>
+            </section>
+
+            <section className={s.section}>
+                <div className="main-container">
+                    <h2 className={s.panelH2}>Панель виробництва</h2>
+                    <div className={s.photo_div}>
+                        <div className={s.photo_item}>
+                            <a data-fancybox="gallery" href={'/gallery/image1.jpg'}>
+                                <Image src='/gallery/image1.jpg' alt='' width={1200} height={900}/>
+                            </a>
+                        </div>
+                        <div className={s.photo_item}>
+                            <a data-fancybox="gallery" href={'/gallery/image1.jpg'}>
+                                <Image src='/gallery/image1.jpg' alt='' width={1200} height={900}/>
+                            </a>
+                        </div>
+                        <div className={s.photo_item}>
+                            <a data-fancybox="gallery" href={'/gallery/image1.jpg'}>
+                                <Image src='/gallery/image1.jpg' alt='' width={1200} height={900}/>
+                            </a>
+                        </div>
+                        <div className={s.photo_item}>
+                            <a data-fancybox="gallery" href={'/gallery/image1.jpg'}>
+                                <Image src='/gallery/image1.jpg' alt='' width={1200} height={900}/>
+                            </a>
+                        </div>
+                        <div className={s.photo_item}>
+                            <a data-fancybox="gallery" href={'/gallery/image1.jpg'}>
+                                <Image src='/gallery/image1.jpg' alt='' width={1200} height={900}/>
+                            </a>
+                        </div>
+                        <div className={s.photo_item}>
+                            <a data-fancybox="gallery" href={'/gallery/image1.jpg'}>
+                                <Image src='/gallery/image1.jpg' alt='' width={1200} height={900}/>
+                            </a>
+                        </div>
+                        <div className={s.photo_item}>
+                            <a data-fancybox="gallery" href={'/gallery/image1.jpg'}>
+                                <Image src='/gallery/image1.jpg' alt='' width={1200} height={900}/>
+                            </a>
+                        </div>
+                        <div className={s.photo_item}>
+                            <a data-fancybox="gallery" href={'/gallery/image1.jpg'}>
+                                <Image src='/gallery/image1.jpg' alt='' width={1200} height={900}/>
+                            </a>
+                        </div>
+                    </div>
+                    <Link className={s.linkA} href='/production-panel'>побачити більше</Link>
                 </div>
             </section>
 
@@ -524,8 +590,8 @@ const MainPage = () => {
                         <div className={s.image_box}>
                             {news1 === '' ? '' : <Image src={'https://cb.samwash.ua/storage/image/'
                                 + news1?.id + '/' + news1?.images[0]?.path}
-                                    alt={news1?.content[0]?.title}
-                                    width={435} height={325}/>}
+                                                        alt={news1?.content[0]?.title}
+                                                        width={435} height={325}/>}
                         </div>
                         <div className={s.div_text}>
                             <h3>{news1 === '' ? '' : news1?.content[0]?.title}</h3>
@@ -627,19 +693,13 @@ const MainPage = () => {
 
             <section className={s.section_info}>
                 <div className={s.div_text_end}>
-                <div className={s.text}>
-                        <h3>Про автомийку SAMWASH</h3>
+                    <div className={s.text}>
+                        <h3>Про автомийку SamWash</h3>
                         <p>
-                            SAMWASH спеціалізується на системах миття транспортних засобів, з особливим акцентом на
+                            SamWash спеціалізується на системах миття транспортних засобів, з особливим акцентом на
                             безконтактному мийці. Багаторічний досвід дозволив створити пристрої останнього покоління,
                             які відповідають вимогам світового автомобільного ринку. Наші автомийки відрізняються
                             найвищою якістю, надійністю та низьким рівнем відмов.
-                        </p>
-                        <p>
-                            Нашу технологію визнали як швидко зростаюча група користувачів автомийок SAMWASH, так і
-                            спеціалісти, про що свідчать нагороди: Продукт року 2006 і Продукт року 2004, нагороджені на
-                            престижному ярмарку Stacja Paliw, а також титул Автомобіль Нагорода «Прання року» на
-                            виставці Stacja i Biznes Przyszłości у 2015 та 2016 роках.
                         </p>
                     </div>
                     <div className={s.text}>
