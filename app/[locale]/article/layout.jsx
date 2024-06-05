@@ -13,7 +13,7 @@ export default function ContactsLayout({children}){
 
     if(article.length === 0){
         axios
-            .get(`https://cb.samwash.ua/api/v1/blog/${locale === "en" ? "en" : locale === "ru" ? "ru" : "ua"}/${id}`)
+            .get(`${process.env.NEXT_PUBLIC_URL_API}blog/${locale === "en" ? "en" : locale === "ru" ? "ru" : "ua"}/${id}`)
             .then(res => {
                 const data = res.data.data
                 setArticleOne(data)

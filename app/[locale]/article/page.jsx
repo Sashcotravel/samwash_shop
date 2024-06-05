@@ -17,7 +17,7 @@ const getData = ((id, locale, article, setArticleOne, setTreeBlock) => {
         if (id !== undefined) {
             axios
                 // .get(`https://cb.samwash.ua/api/v1/blog/ua/${id}`)
-                .get(`https://cb.samwash.ua/api/v1/blog/${locale === "en" ? "en" : locale === "ru" ? "ru" : "ua"}/${id}`)
+                .get(`${process.env.NEXT_PUBLIC_URL_API}blog/${locale === "en" ? "en" : locale === "ru" ? "ru" : "ua"}/${id}`)
                 .then(res => {
                     const data = res.data.data
                     setArticleOne(data)
@@ -25,7 +25,7 @@ const getData = ((id, locale, article, setArticleOne, setTreeBlock) => {
                 })
             axios
                 // .get(`https://cb.samwash.ua/api/v1/blog/ua?perPage=3`)
-                .get(`https://cb.samwash.ua/api/v1/blog/${locale === "en" ? "en" : locale === "ru" ? "ru" : "ua"}?perPage=3`)
+                .get(`${process.env.NEXT_PUBLIC_URL_API}blog/${locale === "en" ? "en" : locale === "ru" ? "ru" : "ua"}?perPage=3`)
                 .then(res => {
                     const data = res.data.data.data
                     setTreeBlock(data)
@@ -66,7 +66,7 @@ function NewsOnePage() {
                     <div className='main-container'>
                         <ul className={`bread-crumbs ${s.crambs}`}>
                             <li style={{marginLeft: '0'}}>
-                                <Link href='/public'>{t("blog1")}</Link>
+                                <Link href='/'>{t("blog1")}</Link>
                             </li>
                             <li>
                                 <Link href='/blog'>{t("blog2")}</Link>

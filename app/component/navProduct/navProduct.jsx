@@ -35,7 +35,7 @@ function NavProduct() {
 
     const fetchAPI = () => {
         // fetch(`https://cb.samwash.ua/api/v1/catalog/${locale === 'en' ? 'en' : locale === 'ru' ? 'ru' : 'ua'}`, {
-        fetch(`https://cb.samwash.ua/api/v1/catalog/ua`, { next: { revalidate: 60 }})
+        fetch(`${process.env.NEXT_PUBLIC_URL_API}catalog/ua`, { next: { revalidate: 60 }})
             .then(response => response.json())
             .then(json => {
                 let res = json.data

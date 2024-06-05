@@ -13,7 +13,7 @@ import TopButton from "@/app/component/topButton/topButton";
 const getData = ((locale, articleAll, setArticleAll, setResTrue) => {
     if (articleAll?.length === 0) {
         axios
-            .get(`https://cb.samwash.ua/api/v1/blog/${locale === 'en' ? 'en' : locale === 'ru' ? 'ru' : 'ua'}?perPage=10000`)
+            .get(`${process.env.NEXT_PUBLIC_URL_API}blog/${locale === 'en' ? 'en' : locale === 'ru' ? 'ru' : 'ua'}?perPage=10000`)
             .then(res => {
                 const data = res.data.data.data
                 setArticleAll(data)

@@ -65,7 +65,7 @@ const MainPage = () => {
 
         if (news1.length === 0) {
             axios
-                .get(`https://cb.samwash.ua/api/v1/blog/${locale === "en" ? "en" : locale === "ru" ? "ru" : "ua"}/pumps-for-self-service-car-washes-how-to-choose-14055636`)
+                .get(`${process.env.NEXT_PUBLIC_URL_API}blog/${locale === "en" ? "en" : locale === "ru" ? "ru" : "ua"}/pumps-for-self-service-car-washes-how-to-choose-14055636`)
                 .then(res => {
                     const data = res.data.data
                     setNews1(data)
@@ -73,7 +73,7 @@ const MainPage = () => {
         }
         if (news2.length === 0) {
             axios
-                .get(`https://cb.samwash.ua/api/v1/blog/${locale === "en" ? "en" : locale === "ru" ? "ru" : "ua"}/two-cylinder-softening-system-in-car-wash-22065841`)
+                .get(`${process.env.NEXT_PUBLIC_URL_API}blog/${locale === "en" ? "en" : locale === "ru" ? "ru" : "ua"}/two-cylinder-softening-system-in-car-wash-22065841`)
                 .then(res => {
                     const data = res.data.data
                     setNews2(data)
@@ -81,7 +81,7 @@ const MainPage = () => {
         }
         if (news3.length === 0) {
             axios
-                .get(`https://cb.samwash.ua/api/v1/blog/${locale === "en" ? "en" : locale === "ru" ? "ru" : "ua"}/film-for-washing-21192423`)
+                .get(`${process.env.NEXT_PUBLIC_URL_API}blog/${locale === "en" ? "en" : locale === "ru" ? "ru" : "ua"}/film-for-washing-21192423`)
                 .then(res => {
                     const data = res.data.data
                     setNews3(data)

@@ -1,4 +1,6 @@
 const withVideos = require('next-videos')
+const dotenv = require('dotenv');
+dotenv.config();
 
 const nextConfig = {
     webpack(config, options) {
