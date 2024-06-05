@@ -101,7 +101,7 @@ function NewsOnePage() {
 
                                             return (
                                                 <div className={s.post} key={item.id}>
-                                                    <Image src={'https://cb.samwash.ua/storage/image/'
+                                                    <Image src={process.env.NEXT_PUBLIC_URL_IMAGE
                                                         + item.id + '/' + item.images[0]?.path}
                                                            alt={item?.content[0]?.title}
                                                            width={400} height={400} />
@@ -139,9 +139,9 @@ function NewsOnePage() {
 
                                     return (
                                         <div className={`${s.gallery_reel_item}`} key={item.id}>
-                                            <a data-fancybox="gallery" href={'https://cb.samwash.ua/storage/image/'
+                                            <a data-fancybox="gallery" href={process.env.NEXT_PUBLIC_URL_IMAGE
                                                 + article.id + '/' + item.path}>
-                                                <Image src={'https://cb.samwash.ua/storage/image/'
+                                                <Image src={process.env.NEXT_PUBLIC_URL_IMAGE
                                                     + article.id + '/' + item.path} alt='' width={500} height={500} />
                                             </a>
                                         </div>

@@ -31,9 +31,9 @@ export default function ContactsLayout({children}){
             <link hrefLang="en-UA" href={`https://samwash.ua/en/blog/${article?.type}/${article?.slug}`} rel="alternate"/>
             <link hrefLang="ru-UA" href={`https://samwash.ua/ru/blog/${article?.type}/${article?.slug}`} rel="alternate"/>
             <link hrefLang="uk-UA" href={`https://samwash.ua/blog/${article?.type}/${article?.slug}`} rel="alternate"/>
-            <link rel="apple-touch-icon" href={article.length !== 0 ? 'https://cb.samwash.ua/storage/image/'
+            <link rel="apple-touch-icon" href={article.length !== 0 ? process.env.NEXT_PUBLIC_URL_IMAGE
                 + article.id + '/' + article.images[0].path : ''} />
-            <meta property="og:image" content={article.length !== 0 ? 'https://cb.samwash.ua/storage/image/'
+            <meta property="og:image" content={article.length !== 0 ? process.env.NEXT_PUBLIC_URL_IMAGE
                 + article.id + '/' + article.images[0].path : ''} />
             {children}
         </React.Fragment>

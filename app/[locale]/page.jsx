@@ -588,7 +588,7 @@ const MainPage = () => {
                 <div className={s.div_blog + ' ' + s.hidden}>
                     <div className={s.item}>
                         <div className={s.image_box}>
-                            {news1 === '' ? '' : <Image src={'https://cb.samwash.ua/storage/image/'
+                            {news1 === '' ? '' : <Image src={process.env.NEXT_PUBLIC_URL_IMAGE
                                 + news1?.id + '/' + news1?.images[0]?.path}
                                                         alt={news1?.content[0]?.title}
                                                         width={435} height={325}/>}
@@ -602,7 +602,7 @@ const MainPage = () => {
                     </div>
                     <div className={s.item}>
                         <div className={s.image_box}>
-                            {news2 === '' ? '' : <Image src={'https://cb.samwash.ua/storage/image/'
+                            {news2 === '' ? '' : <Image src={process.env.NEXT_PUBLIC_URL_IMAGE
                                 + news2?.id + '/' + news2?.images[0]?.path}
                                                         alt={news2?.content[0]?.title}
                                                         width={435} height={325}/>}
@@ -616,7 +616,7 @@ const MainPage = () => {
                     </div>
                     <div className={s.item}>
                         <div className={s.image_box}>
-                            {news3 === '' ? '' : <Image src={'https://cb.samwash.ua/storage/image/'
+                            {news3 === '' ? '' : <Image src={process.env.NEXT_PUBLIC_URL_IMAGE
                                 + news3?.id + '/' + news3?.images[0]?.path}
                                                         alt={news3?.content[0]?.title}
                                                         width={435} height={325}/>}
@@ -645,7 +645,7 @@ const MainPage = () => {
                         <SwiperSlide>
                             <div className={s.item}>
                                 <div className={s.image_box}>
-                                    {news1 === '' ? '' : <Image src={'https://cb.samwash.ua/storage/image/'
+                                    {news1 === '' ? '' : <Image src={process.env.NEXT_PUBLIC_URL_IMAGE
                                         + news1?.id + '/' + news1?.images[0]?.path} alt={news1?.content[0]?.title}
                                                                 width={435} height={325}/>}
                                 </div>
@@ -660,7 +660,7 @@ const MainPage = () => {
                         <SwiperSlide>
                             <div className={s.item}>
                                 <div className={s.image_box}>
-                                    {news2 === '' ? '' : <Image src={'https://cb.samwash.ua/storage/image/'
+                                    {news2 === '' ? '' : <Image src={process.env.NEXT_PUBLIC_URL_IMAGE
                                         + news2?.id + '/' + news2?.images[0]?.path} alt={news2?.content[0]?.title}
                                                                 width={435} height={325}/>}
                                 </div>
@@ -675,7 +675,7 @@ const MainPage = () => {
                         <SwiperSlide>
                             <div className={s.item}>
                                 <div className={s.image_box}>
-                                    {news3 === '' ? '' : <Image src={'https://cb.samwash.ua/storage/image/'
+                                    {news3 === '' ? '' : <Image src={process.env.NEXT_PUBLIC_URL_IMAGE
                                         + news3?.id + '/' + news3?.images[0]?.path} alt={news3?.content[0]?.title}
                                                                 width={435} height={325}/>}
                                 </div>

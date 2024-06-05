@@ -158,7 +158,7 @@ function Contact() {
 
                         return (
                             <div className={s.item} key={item.id}>
-                                <img src={'https://cb.samwash.ua/storage/image/' + item.id +'/'+ item.images[0]?.path}
+                                <img src={process.env.NEXT_PUBLIC_URL_IMAGE + item.id +'/'+ item.images[0]?.path}
                                        alt={item?.content[0]?.title} />
                                 <h2>{item?.content[0]?.title}</h2>
                                 <time>{item?.start_date_time.replace(/-/g, ".").slice(0, 10)}</time>
