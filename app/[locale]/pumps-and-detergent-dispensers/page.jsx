@@ -1039,6 +1039,8 @@ function ChemicalMeans() {
     const [open, setOpen] = useState(false)
     const [open2, setOpen2] = useState(false)
     const [goods, setGoods] = useState([])
+    const [priseTo, setPriseTo] = useState('')
+    const [priseFrom, setPriseFrom] = useState('')
 
     const router = useRouter()
     const pathname = usePathname()
@@ -1049,9 +1051,18 @@ function ChemicalMeans() {
 
     const addOrderStore = useStore(store => store.addOrder)
     const addCurrentsGoods = useStore(store => store.setCurrentsGoods)
+    const newCurrentsGoods = useStore(store => store.newCurrentsGoods)
+    const setNewCurrentsGoods = useStore(store => store.setNewCurrentsGoods)
+    const filterPriceTo = useStore(store => store.filterPriceTo)
+    const filterPriceFrom = useStore(store => store.filterPriceFrom)
+    const setFilterPriceTo = useStore(store => store.setFilterPriceTo)
+    const setFilterPriceFrom = useStore(store => store.setFilterPriceFrom)
 
-    const main = () => {
-        const postsData = arrGoods
+    const main = (newArr) => {
+        let postsData = arrGoods
+        if(newArr !== undefined){
+            postsData = newArr
+        }
         let currentPage = Number(pageUrl)
         let rows = 20;
 
@@ -1077,12 +1088,18 @@ function ChemicalMeans() {
                 currentPage = 1
             }
             const ulEl = document.createElement("ul");
+            ulEl.id = 'search_navigation'
             ulEl.classList.add(s['pagination__list']);
 
             for (let i = 0; i < pagesCount; i++) {
                 const liEl = displayPaginationBtn(i + 1);
                 ulEl.appendChild(liEl)
             }
+
+            if(document.getElementById('search_navigation')){
+                document.getElementById('search_navigation').remove();
+            }
+
             paginationEl.appendChild(ulEl)
         }
 
@@ -1135,10 +1152,48 @@ function ChemicalMeans() {
         displayPagination(postsData, rows);
     }
 
+    // useEffect(() => {
+    //     main()
+    //     addCurrentsGoods(arrGoods)
+    // }, []);
+
     useEffect(() => {
         main()
         addCurrentsGoods(arrGoods)
+
+        return (
+            setNewCurrentsGoods([]),
+                setFilterPriceTo(''),
+                setFilterPriceFrom('')
+        )
     }, []);
+
+    useEffect(() => {
+        if(newCurrentsGoods.length === 0){
+            // setGoods(arrGoods)
+            main(arrGoods)
+        }
+        else {
+            // setGoods(newCurrentsGoods)
+            main(newCurrentsGoods)
+        }
+    }, [newCurrentsGoods]);
+
+    useEffect(() => {
+        if(filterPriceTo === 'no'){
+            setPriseTo('')
+        } else {
+            setPriseTo(filterPriceTo)
+        }
+    }, [filterPriceTo]);
+
+    useEffect(() => {
+        if(filterPriceFrom === 'no') {
+            setPriseFrom('')
+        } else {
+            setPriseFrom(filterPriceFrom)
+        }
+    }, [filterPriceFrom]);
 
     const style = {
         cursor: 'default',
@@ -1196,6 +1251,15 @@ function ChemicalMeans() {
         setOpen(true)
     }
 
+    const removeFilter = (type) => {
+        if(type === 'priseFrom'){
+            setFilterPriceFrom('no')
+        }
+        else if(type === 'priseTo'){
+            setFilterPriceTo('no')
+        }
+    }
+
 
     return (
         <div className={s.mainDiv}>
@@ -1226,6 +1290,16 @@ function ChemicalMeans() {
                             </ul>
                         </div>
                     </div>
+
+                    {
+                        <div className={s.filterDiv}>
+                            {priseFrom !== '' && priseFrom !== 'no' ? <button onClick={() => removeFilter('priseFrom')}>
+                                <AiOutlineClose /> Ціна від { priseFrom }
+                            </button> : ''}
+                            {priseTo !== '' && priseTo !== 'no' ? <button onClick={() => removeFilter('priseTo')}>
+                                <AiOutlineClose /> Ціна до {priseTo}</button> : ''}
+                        </div>
+                    }
 
                     <h1>Насоси та дозатори миючих засобів</h1>
                     <div>

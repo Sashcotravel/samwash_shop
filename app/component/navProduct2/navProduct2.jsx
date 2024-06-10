@@ -38,19 +38,15 @@ function NavProduct2({child, back, noFilter}) {
 
                 if (typeof from === 'number' && !isNaN(from)) {
                     if (typeof to === 'number' && !isNaN(to)) {
-                        console.log('1')
                         return itemPrice >= from && itemPrice <= to;
                     } else {
-                        console.log('2')
                         return itemPrice >= from;
                     }
                 }
                 else {
                     if (typeof to === 'number' && !isNaN(to)) {
-                        console.log('3')
                         return itemPrice <= to;
                     } else {
-                        console.log('4')
                         return true;
                     }
                 }
@@ -60,7 +56,6 @@ function NavProduct2({child, back, noFilter}) {
                 .sort((a, b) => {
                     const aPrice = a.newPrice !== '' ? a.newPrice : a.price;
                     const bPrice = b.newPrice !== '' ? b.newPrice : b.price;
-                    console.log(aPrice, bPrice)
                     return aPrice - bPrice;
                 });
             setNewCurrentsGoods(newArr)

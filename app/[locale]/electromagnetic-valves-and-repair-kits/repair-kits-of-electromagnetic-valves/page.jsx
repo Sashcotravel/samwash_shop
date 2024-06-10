@@ -143,12 +143,53 @@ function RepairKitsOfElectromagneticValves() {
 
     const [open, setOpen] = useState(false)
     const [goods, setGoods] = useState([])
+    const [priseTo, setPriseTo] = useState('')
+    const [priseFrom, setPriseFrom] = useState('')
 
     const addOrderStore = useStore(store => store.addOrder)
+    const addCurrentsGoods = useStore(store => store.setCurrentsGoods)
+    const newCurrentsGoods = useStore(store => store.newCurrentsGoods)
+    const setNewCurrentsGoods = useStore(store => store.setNewCurrentsGoods)
+    const filterPriceTo = useStore(store => store.filterPriceTo)
+    const filterPriceFrom = useStore(store => store.filterPriceFrom)
+    const setFilterPriceTo = useStore(store => store.setFilterPriceTo)
+    const setFilterPriceFrom = useStore(store => store.setFilterPriceFrom)
 
     useEffect(() => {
         setGoods(arrGoods)
+        addCurrentsGoods(arrGoods)
+
+        return (
+            setNewCurrentsGoods([]),
+                setFilterPriceTo(''),
+                setFilterPriceFrom('')
+        )
     }, []);
+
+    useEffect(() => {
+        if(newCurrentsGoods.length === 0){
+            setGoods(arrGoods)
+        }
+        else {
+            setGoods(newCurrentsGoods)
+        }
+    }, [newCurrentsGoods]);
+
+    useEffect(() => {
+        if(filterPriceTo === 'no'){
+            setPriseTo('')
+        } else {
+            setPriseTo(filterPriceTo)
+        }
+    }, [filterPriceTo]);
+
+    useEffect(() => {
+        if(filterPriceFrom === 'no') {
+            setPriseFrom('')
+        } else {
+            setPriseFrom(filterPriceFrom)
+        }
+    }, [filterPriceFrom]);
 
     const style = {
         cursor: 'default',
@@ -206,6 +247,15 @@ function RepairKitsOfElectromagneticValves() {
         setOpen(true)
     }
 
+    const removeFilter = (type) => {
+        if(type === 'priseFrom'){
+            setFilterPriceFrom('no')
+        }
+        else if(type === 'priseTo'){
+            setFilterPriceTo('no')
+        }
+    }
+
 
     return (
         <div className={s.mainDiv}>
@@ -240,6 +290,16 @@ function RepairKitsOfElectromagneticValves() {
                             </ul>
                         </div>
                     </div>
+
+                    {
+                        <div className={s.filterDiv}>
+                            {priseFrom !== '' && priseFrom !== 'no' ? <button onClick={() => removeFilter('priseFrom')}>
+                                <AiOutlineClose /> Ціна від { priseFrom }
+                            </button> : ''}
+                            {priseTo !== '' && priseTo !== 'no' ? <button onClick={() => removeFilter('priseTo')}>
+                                <AiOutlineClose /> Ціна до {priseTo}</button> : ''}
+                        </div>
+                    }
 
                     <h1>Ремкомплекти електромагнітних клапанів</h1>
 
