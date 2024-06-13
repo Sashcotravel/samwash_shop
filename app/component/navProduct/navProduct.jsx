@@ -6,9 +6,12 @@ import {usePathname} from "next/navigation";
 import Link from "next-intl/link";
 import {useSearchParams} from "next/navigation";
 import {useStore} from "@/store/store";
+import {useTranslations} from "next-intl";
 
 
 function NavProduct() {
+
+    const t = useTranslations();
 
     const [priceCheck, setPriseCheck] = useState(false)
     const [priceGoods, setPriceGoods] = useState([])
@@ -287,66 +290,40 @@ function NavProduct() {
                 }
             </div>
             {catalog.length !== undefined && <div className={s.divFilter}>
-                <h3>Фільтри</h3>
+                <h3>{t("filter")}</h3>
                 <ul>
                     <li className={s.liPrise}>
-                        <p>Ціна</p>
+                        <p>{t("price")}</p>
                         <div className={s.rangDiv}>
-                            <span>Від</span>
+                            <span>{t("fromPrice")}</span>
                             <input type="text" value={priceFrom} id='priceFrom'
                                    onChange={e => setPriceFrom(e.target.value)}/>
-                            <span>До</span>
+                            <span>{t("toPrice")}</span>
                             <input type="text" value={priceTo} id='priceTo'
                                    onChange={e => setPriceTo(e.target.value)}/>
                             <span>доларів</span>
                         </div>
                     </li>
-                    <button className={s.buttonRang} onClick={() => filterFunction('price')}>Застосувати</button>
-                    <li>
-                        <p><b>Доступність</b></p>
-                        <label className={s.label}>
-                            <input type="checkbox" value={value1} onClick={() => setValue1(prev => !prev)}/>
-                            <span className={s.labelSpan}>
-                                <span>Відразу (34)</span>
-                            </span>
-                        </label>
-                    </li>
-                    <li>
-                        <p><b>Рейтинг</b></p>
-                        <label className={s.label}>
-                            <input type="checkbox" value={value2} onClick={() => setValue2(prev => !prev)}/>
-                            <span className={s.labelSpan}>
-                                <span>Жодного (34)</span>
-                            </span>
-                        </label>
-                    </li>
-                    <li>
-                        <p><b>Виробник / Назва компанії</b></p>
-                        <label onChange={() => filterFunction('producer', 1)} className={s.label}>
-                            <input type="checkbox" value={value3.Kothar} checked={value3.Kothar}/>
-                            <span className={s.labelSpan}>
-                                <span>Kothar</span>
-                            </span>
-                        </label>
-                        <label onChange={() => filterFunction('producer', 2)} className={s.label}>
-                            <input type="checkbox" value={value3.R_M} checked={value3.R_M}/>
-                            <span className={s.labelSpan}>
-                                <span>R+M</span>
-                            </span>
-                        </label>
-                        <label onChange={() => filterFunction('producer', 3)} className={s.label}>
-                            <input type="checkbox" value={value3.Seko} checked={value3.Seko}/>
-                            <span className={s.labelSpan}>
-                                <span>Seko</span>
-                            </span>
-                        </label>
-                        <label onChange={() => filterFunction('producer', 4)} className={s.label}>
-                            <input type="checkbox" value={value3.Schneider} checked={value3.Schneider}/>
-                            <span className={s.labelSpan}>
-                                <span>Schneider Electric</span>
-                            </span>
-                        </label>
-                    </li>
+                    <button className={s.buttonRang}
+                            onClick={() => filterFunction('price')}>{t("apply")}</button>
+                    {/*<li>*/}
+                    {/*    <p><b>Доступність</b></p>*/}
+                    {/*    <label className={s.label}>*/}
+                    {/*        <input type="checkbox" value={value1} onClick={() => setValue1(prev => !prev)}/>*/}
+                    {/*        <span className={s.labelSpan}>*/}
+                    {/*            <span>Відразу (34)</span>*/}
+                    {/*        </span>*/}
+                    {/*    </label>*/}
+                    {/*</li>*/}
+                    {/*<li>*/}
+                    {/*    <p><b>Рейтинг</b></p>*/}
+                    {/*    <label className={s.label}>*/}
+                    {/*        <input type="checkbox" value={value2} onClick={() => setValue2(prev => !prev)}/>*/}
+                    {/*        <span className={s.labelSpan}>*/}
+                    {/*            <span>Жодного (34)</span>*/}
+                    {/*        </span>*/}
+                    {/*    </label>*/}
+                    {/*</li>*/}
                 </ul>
             </div>}
 

@@ -12,7 +12,7 @@ import Link from "next-intl/link";
 import Image from "next/image";
 import TopButton from "@/app/component/topButton/topButton";
 import axios from "axios";
-import {useLocale} from "next-intl";
+import {useLocale, useTranslations} from "next-intl";
 import emailjs from "@emailjs/browser";
 import {Fancybox} from "@fancyapps/ui";
 import "@fancyapps/ui/dist/fancybox/fancybox.css";
@@ -20,7 +20,9 @@ import "@fancyapps/ui/dist/fancybox/fancybox.css";
 
 const MainPage = () => {
 
+    const t = useTranslations("accessories-for-wash");
     const locale = useLocale();
+
     const progressCircle = useRef(null);
     const progressContent = useRef(null);
     const [inputEmail, setInputEmail] = useState('');
@@ -176,7 +178,7 @@ const MainPage = () => {
             </section>
 
             <section className={s.section_goods}>
-                <h2>Найкращі продавці</h2>
+                <h2>{t("main.main3")}</h2>
                 <Swiper
                     centeredSlides={true}
                     navigation={true}

@@ -6,9 +6,12 @@ import Link from "next-intl/link";
 import {useState} from "react";
 import Image from "next/image";
 import emailjs from "@emailjs/browser";
+import {useTranslations} from "next-intl";
 
 
 function Footer() {
+
+    const t = useTranslations();
 
     const [inputEmail, setInputEmail] = useState('');
     const [emailError, setEmailError] = useState(false);
@@ -63,86 +66,86 @@ function Footer() {
                         <Link href="/" className={s.logo_link}>
                             <Image src='/new_logo.svg' alt='logo' width={250} height={100} />
                         </Link>
-                        <p>SamWash Безконтактні мийки</p>
+                        <p>SamWash Group {t("footer.footer1")}</p>
                         <ul>
                             <li>
                                 <a href="tel:0975794930">+38 097 579 49 30</a>
                             </li>
                             <li>
-                                <a href="mailto:info@samwash.ua" title="Напишіть нам">info@samwash.ua</a>
+                                <a href="mailto:info@samwash.ua" title={t("footer.footer2")}>info@samwash.ua</a>
                             </li>
                             <li>
                                 <a href="https://maps.app.goo.gl/Wy7g6KUUGf4VWwme6?g_st=it" target="_blank">
-                                    Україна, м. Львів, вул. Кульпарківська 108
+                                    {t("footer.footer3")}
                                 </a>
                             </li>
                             <li>
                                 НІП: ПЛ 782-237-01-46
                             </li>
                             <li>
-                                Графік роботи: Пн-Пт 8:00-16:00
+                                {t("footer.footer4")}: {t("footer.footer5")} 8:00-16:00
                             </li>
                         </ul>
                     </div>
                     <div className={s.col}>
-                        <p>Шопінг</p>
+                        <p>{t("footer.footer7")}</p>
                         <ul>
                             <li>
-                                <Link href='/product'>Продукти</Link>
+                                <Link href='/product'>{t("footer.footer8")}</Link>
                             </li>
                             <li>
-                                <Link href='/basket'>Кошик</Link>
+                                <Link href='/basket'>{t("footer.footer9")}</Link>
                             </li>
                             <li>
-                                <Link href='/advanced-search'>Розширений пошук</Link>
+                                <Link href='/advanced-search'>{t("footer.footer10")}</Link>
                             </li>
                         </ul>
                     </div>
                     <div className={s.col}>
-                        <p>Мій рахунок</p>
+                        <p>{t("footer.footer6")}</p>
                         <ul>
                             <li>
-                                <Link href='/login'>Логін</Link>
+                                <Link href='/login'>{t("footer.footer11")}</Link>
                             </li>
                             <li>
-                                <Link href='/'>Профіль клієнта</Link>
+                                <Link href='/'>{t("footer.footer12")}</Link>
                             </li>
                             <li>
-                                <Link href='/register'>Реєстрація</Link>
+                                <Link href='/register'>{t("footer.footer13")}</Link>
                             </li>
                             <li>
-                                <Link href='/password-reminder'>Нагадування пароля</Link>
+                                <Link href='/password-reminder'>{t("footer.footer14")}</Link>
                             </li>
                         </ul>
                     </div>
                     <div className={s.col}>
-                        <p>Інформація</p>
+                        <p>{t("footer.footer15")}</p>
                         <ul>
                             <li>
-                                <Link href='/blog'>Блог</Link>
+                                <Link href='/blog'>{t("footer.footer16")}</Link>
                             </li>
                             <li>
-                                <Link href='/regulations'>Статут</Link>
+                                <Link href='/regulations'>{t("footer.footer17")}</Link>
                             </li>
                             <li>
-                                <Link href='/withdrawal-form'>Форма вилучення</Link>
+                                <Link href='/withdrawal-form'>{t("footer.footer18")}</Link>
                             </li>
                             <li>
-                                <Link href='/delivery-of-goods'>Умови доставки</Link>
+                                <Link href='/delivery-of-goods'>{t("footer.footer19")}</Link>
                             </li>
                             <li>
-                                <Link href='/payment-methods'>Методи оплати</Link>
+                                <Link href='/payment-methods'>{t("footer.footer20")}</Link>
                             </li>
                             <li>
-                                <Link href='/privacy-policy'>Політика конфіденційності</Link>
+                                <Link href='/privacy-policy'>{t("footer.footer21")}</Link>
                             </li>
                             <li>
-                                <Link href='/contact'>Контакт</Link>
+                                <Link href='/contact'>{t("footer.footer22")}</Link>
                             </li>
                         </ul>
                     </div>
                     <div className={s.div_soc}>
-                        <p>Слідуй за нами</p>
+                        <p>{t("footer.footer23")}</p>
                         <ul>
                             <li>
                                 <a href="https://www.facebook.com/samwashcarwash" target="_blank">
@@ -166,19 +169,18 @@ function Footer() {
                             </li>
                         </ul>
                         <div className={s.mail_box}>
-                            <p>Не пропустіть жодної акції, отримуйте додаткові знижки.</p>
-                            <p>Підпишіться на розсилку та отримайте знижку 5% на все!</p>
+                            <p>{t("footer.footer24")}</p>
+                            <p>{t("footer.footer25")}</p>
                             <div className={s.div_mail}>
                                 <div className={s.div_input}>
                                     <input type='email'
                                            name='email'
                                            className='input'
-                                           placeholder="Введіть адресу вашої електронної пошти"
+                                           placeholder={t("footer.footer27")}
                                            value={inputEmail}
                                            onChange={handleEmailChange}/>
                                     {isSubmitting && emailError &&
-                                        <p className={s.redP}>Будь ласка, введіть дійсну адресу
-                                            електронної пошти</p>}
+                                        <p className={s.redP}>{t("footer.footer26")}</p>}
                                     <button onClick={handleSubmit}>
                                         <img src='/main/arrow-right.svg' alt='slider'/>
                                     </button>
@@ -187,23 +189,23 @@ function Footer() {
                                     <input type='checkbox'
                                            id='checkbox2'
                                            className={s.checkbox}
-                                           placeholder="Введіть адресу вашої електронної пошти"
+                                           placeholder={t("footer.footer27")}
                                            onChange={check}/>
-                                    <Image src='/main/image5.png' alt='slider' className={s.imgInput} id='image2'
+                                    <Image src='/main/image5.png' alt='image' className={s.imgInput} id='image2'
                                            width={16} height={15}/>
                                     <span className={s.span}>
                                         <span>
-                                            <small style={{color: 'red'}}>*</small> Я даю згоду на отримання розсилки
+                                            <small style={{color: 'red'}}>*</small> {t("footer.footer28")}
                                         </span>
                                     </span>
                                     {isSubmitting && checkboxError &&
-                                        <p className={s.redP2} id='red-in'>Обов'язкове поле</p>}
+                                        <p className={s.redP2} id='red-in'>{t("footer.footer29")}</p>}
                                 </lable>
                             </div>
                         </div>
                     </div>
                 </div>
-                <p className={s.rule}>Copyright © 2023 SamWash Group. Всі права захищені.</p>
+                <p className={s.rule}>Copyright © 2008 SamWash Group. {t("footer.footer30")}.</p>
             </div>
         </footer>
     );

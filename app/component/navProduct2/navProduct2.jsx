@@ -5,9 +5,12 @@ import {useEffect, useState} from "react";
 import Link from "next-intl/link";
 import {useStore} from "@/store/store";
 import {goodsArr} from "@/app/db/data";
+import {useTranslations} from "next-intl";
 
 
 function NavProduct2({child, back, noFilter}) {
+
+    const t = useTranslations();
 
     const [priceTo, setPriceTo] = useState('')
     const [priceFrom, setPriceFrom] = useState('')
@@ -147,7 +150,7 @@ function NavProduct2({child, back, noFilter}) {
             <div className={s.divName}>
                 {back.length !== 0 && <Link href={back} className={s.backDiv}>
                     <span>{'< '} </span>
-                    <span> Повернення</span>
+                    <span> {t("back")}</span>
                 </Link>}
                 {
                     child?.length !== undefined && child?.map((item, index) => {
@@ -163,39 +166,40 @@ function NavProduct2({child, back, noFilter}) {
                 }
             </div>
             {!noFilter && <div className={s.divFilter}>
-                <h3>Фільтри</h3>
+                <h3>{t("filter")}</h3>
                 <ul>
                     <li className={s.liPrise}>
-                        <p>Ціна</p>
+                        <p>{t("price")}</p>
                         <div className={s.rangDiv}>
-                            <span>Від</span>
+                            <span>{t("fromPrice")}</span>
                             <input type="text" value={priceFrom} id='priceFrom'
                                    onChange={e => setPriceFrom(e.target.value)}/>
-                            <span>До</span>
+                            <span>{t("toPrice")}</span>
                             <input type="text" value={priceTo} id='priceTo'
                                    onChange={e => setPriceTo(e.target.value)}/>
                             <span>доларів</span>
                         </div>
                     </li>
-                    <button className={s.buttonRang} onClick={() => filterFunction('price')}>Застосувати</button>
-                    <li>
-                        <p><b>Доступність</b></p>
-                        <label className={s.label}>
-                            <input type="checkbox" value={value1} onClick={() => setValue1(prev => !prev)}/>
-                            <span className={s.labelSpan}>
-                                <span>Відразу (34)</span>
-                            </span>
-                        </label>
-                    </li>
-                    <li>
-                        <p><b>Рейтинг</b></p>
-                        <label className={s.label}>
-                            <input type="checkbox" value={value2} onClick={() => setValue2(prev => !prev)}/>
-                            <span className={s.labelSpan}>
-                                <span>Жодного (34)</span>
-                            </span>
-                        </label>
-                    </li>
+                    <button className={s.buttonRang}
+                            onClick={() => filterFunction('price')}>{t("apply")}</button>
+                    {/*<li>*/}
+                    {/*    <p><b>Доступність</b></p>*/}
+                    {/*    <label className={s.label}>*/}
+                    {/*        <input type="checkbox" value={value1} onClick={() => setValue1(prev => !prev)}/>*/}
+                    {/*        <span className={s.labelSpan}>*/}
+                    {/*            <span>Відразу (34)</span>*/}
+                    {/*        </span>*/}
+                    {/*    </label>*/}
+                    {/*</li>*/}
+                    {/*<li>*/}
+                    {/*    <p><b>Рейтинг</b></p>*/}
+                    {/*    <label className={s.label}>*/}
+                    {/*        <input type="checkbox" value={value2} onClick={() => setValue2(prev => !prev)}/>*/}
+                    {/*        <span className={s.labelSpan}>*/}
+                    {/*            <span>Жодного (34)</span>*/}
+                    {/*        </span>*/}
+                    {/*    </label>*/}
+                    {/*</li>*/}
                 </ul>
             </div>}
 

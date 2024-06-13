@@ -13,9 +13,8 @@ import { IoClose } from "react-icons/io5";
 
 const Header = () => {
 
-    const t = useTranslations("header");
+    const t = useTranslations();
     const locale = useLocale();
-    const router = usePathname()
 
     let prevScrollY = 0;
     const [toggleLang, setToggleLang] = useState(false)
@@ -126,22 +125,23 @@ const Header = () => {
                                 <li>
                                     <Image src='/header/mail.png' className={s.icon_up} alt='mail'
                                            width={48} height={48}/>
-                                    <a href="mailto:info@samwash.ua" title="Напишіть нам">info@samwash.ua</a>
+                                    <a href="mailto:info@samwash.ua" title={t("footer.footer2")}>info@samwash.ua</a>
                                 </li>
                                 <li>
                                     <Image src='/header/account.png' className={s.icon_up} alt='account'
                                            width={50} height={50}/>
-                                    <Link href="/login">авторизуватися</Link>
+                                    <Link href="/login">{t("header.header1")}</Link>
                                 </li>
                                 <li>
                                     <Image src='/header/registration.png' className={s.icon_up} alt='registration'
                                            width={50} height={50}/>
-                                    <Link href="/register">зареєструватися</Link>
+                                    <Link href="/register">{t("header.header2")}</Link>
                                 </li>
                                 <li className={s.language_selector} id='lang'>
                                     <div className={s.language_link2} id='lang'
                                          onClick={() => setToggleLang(prev => !prev)}>
-                                        <img src={`/header/flug/${locale}.svg`} alt="" className={s.flag} id='lang'/>
+                                        <img src={`/header/flug/${locale}.svg`} alt="language"
+                                             className={s.flag} id='lang'/>
                                         {
                                             locale === 'uk' ? 'Українська' : locale === 'en' ? "English" : "Російська"
                                         }
@@ -161,21 +161,21 @@ const Header = () => {
                                                   backgroundColor: 'white',
                                                   color: '#d9d9d9'
                                               } : undefined}>
-                                            <img src={"/header/flug/uk.svg"} alt="" className={s.flag}/>Українська
+                                            <img src={"/header/flug/uk.svg"} alt="language" className={s.flag}/>Українська
                                         </Link>
                                         <Link href='/' locale="en" className={s.language_link}
                                               style={locale === 'en' ? {
                                                   backgroundColor: 'white',
                                                   color: '#d9d9d9'
                                               } : undefined}>
-                                            <img src={"/header/flug/en.svg"} alt="" className={s.flag}/>English
+                                            <img src={"/header/flug/en.svg"} alt="language" className={s.flag}/>English
                                         </Link>
                                         <Link href='/' locale="ru" className={s.language_link}
                                               style={locale === 'ru' ? {
                                                   backgroundColor: 'white',
                                                   color: '#d9d9d9'
                                               } : undefined}>
-                                            <img src={"/header/flug/ru.svg"} alt="" className={s.flag}/>Російська
+                                            <img src={"/header/flug/ru.svg"} alt="language" className={s.flag}/>Російська
                                         </Link>
                                     </div>
                                 </li>
@@ -189,7 +189,7 @@ const Header = () => {
                             <Image src='/new_logo.svg' alt='samwash' className={s.logo} width={90} height={25}/>
                         </Link>
                         <div className={s.div_input}>
-                            <input placeholder="Пошук статті..." type="text" className={s.search} value={input2}
+                            <input placeholder={t("header.header3")} type="text" className={s.search} value={input2}
                                    onChange={(e) => inputFilter(e)}/>
                             {
                                 input.length !== 0 &&
@@ -262,663 +262,671 @@ const Header = () => {
                                               backgroundColor: 'white',
                                               color: '#d9d9d9'
                                           } : undefined}>
-                                        <img src={"/header/flug/uk.svg"} alt="" className={s.flag}/>Українська
+                                        <img src={"/header/flug/uk.svg"} alt="flug" className={s.flag}/>Українська
                                     </Link>
                                     <Link href='/' locale="en" className={s.language_link}
                                           style={locale === 'en' ? {
                                               backgroundColor: 'white',
                                               color: '#d9d9d9'
                                           } : undefined}>
-                                        <img src={"/header/flug/en.svg"} alt="" className={s.flag}/>English
+                                        <img src={"/header/flug/en.svg"} alt="flug" className={s.flag}/>English
                                     </Link>
                                     <Link href='/' locale="ru" className={s.language_link}
                                           style={locale === 'ru' ? {
                                               backgroundColor: 'white',
                                               color: '#d9d9d9'
                                           } : undefined}>
-                                        <img src={"/header/flug/ru.svg"} alt="" className={s.flag}/>Російська
+                                        <img src={"/header/flug/ru.svg"} alt="flug" className={s.flag}/>Російська
                                     </Link>
                                 </div>
                             </li>
                             <li className={s.dropdown + ' ' + s.more}>
                                 <button>
-                                    <Link href="/chemical-means" id='mozhna'>
-                                        Хімічні засоби для безконтактної мийки</Link>
+                                    <Link href="/chemical-means" id='mozhna'>{t("header.header4")}</Link>
                                     <Image src='/header/flug/arrow-down.svg' alt='arrow up' width={16} height={16}
                                            className={s.imgArrowManu}/>
                                 </button>
                                 <div className={s.dropdown_content}>
-                                    <Link href="/chemical-means/active-foam" id='mozhna'>Активна піна для миття
-                                        автомобіля</Link>
-                                    <Link href="/chemical-means/car-wash-powders" id='mozhna'>Порошки для миття
-                                        автомобіля</Link>
-                                    <Link href="/chemical-means/car-wash-shampoos" id='mozhna'>Шампуні для миття
-                                        автомобіля</Link>
-                                    <Link href="/chemical-means/car-wash-waxes" id='mozhna'>Воски для миття
-                                        автомобіля</Link>
+                                    <Link href="/chemical-means/active-foam" id='mozhna'>{t("header.header5")}</Link>
+                                    <Link href="/chemical-means/car-wash-powders" id='mozhna'>{t("header.header6")}</Link>
+                                    <Link href="/chemical-means/car-wash-shampoos" id='mozhna'>{t("header.header7")}</Link>
+                                    <Link href="/chemical-means/car-wash-waxes" id='mozhna'>{t("header.header8")}</Link>
                                 </div>
                             </li>
                             <li className={s.dropdown + ' ' + s.more}>
                                 <button>
                                     <Link href="/electromagnetic-valves-and-repair-kits" id='mozhna'>
-                                        Електромагнітні клапани та ремкомплекти</Link>
+                                        {t("header.header9")}</Link>
                                     <Image src='/header/flug/arrow-down.svg' alt='arrow up' width={16} height={16}
                                            className={s.imgArrowManu}/>
                                 </button>
                                 <div className={s.dropdown_content}>
                                     <Link href="/electromagnetic-valves-and-repair-kits/electromagnetic-valves"
-                                          id='mozhna'>Електромагнітні клапани</Link>
+                                          id='mozhna'>{t("header.header10")}</Link>
                                     <Link
                                         href="/electromagnetic-valves-and-repair-kits/repair-kits-of-electromagnetic-valves"
-                                        id='mozhna'>
-                                        Ремкомплекти електромагнітних клапанів</Link>
+                                        id='mozhna'>{t("header.header11")}</Link>
                                 </div>
                             </li>
                             <li className={s.dropdown + ' ' + s.more}>
                                 <button>
                                     <Link href="/pumps-and-detergent-dispensers" id='mozhna'>
-                                        Насоси та дозатори миючих засобів</Link>
+                                        {t("header.header12")}</Link>
                                     <Image src='/header/flug/arrow-down.svg' alt='arrow up' width={16} height={16}
                                            className={s.imgArrowManu}/>
                                 </button>
                                 <div className={s.dropdown_content}>
                                     <Link href="/pumps-and-detergent-dispensers/mixrite-dispenser"
-                                          id='mozhna'>Дозатор Mixrite</Link>
-                                    <Link href="/pumps-and-detergent-dispensers/dosatron" id='mozhna'>Дозатрони</Link>
+                                          id='mozhna'>{t("header.header13")} Mixrite</Link>
+                                    <Link href="/pumps-and-detergent-dispensers/dosatron" id='mozhna'>
+                                        {t("header.header25")}</Link>
                                     <Link href="/pumps-and-detergent-dispensers/SEKO-EVO-series-pumps"
-                                          id='mozhna'>Насоси SEKO серії EVO</Link>
+                                          id='mozhna'>{t("header.header14")} SEKO {t("header.header15")} EVO</Link>
                                     <Link href="/pumps-and-detergent-dispensers/DOSATRON-repair-kits"
-                                          id='mozhna'>Ремкомплекти DOSATRON</Link>
+                                          id='mozhna'>{t("header.header16")} DOSATRON</Link>
                                     <Link href="/pumps-and-detergent-dispensers/MIXRITE-repair-kits"
-                                          id='mozhna'>Ремкомплекти MIXRITE</Link>
+                                          id='mozhna'>{t("header.header16")} MIXRITE</Link>
                                     <Link href="/pumps-and-detergent-dispensers/SEKO-EVO-repair-kits"
-                                          id='mozhna'>Ремкомплекти SEKO EVO</Link>
+                                          id='mozhna'>{t("header.header16")} SEKO EVO</Link>
                                     <Link href="/pumps-and-detergent-dispensers/SEKO-KOMPACT-repair-kits"
-                                          id='mozhna'>Ремкомплекти SEKO KOMPACT</Link>
+                                          id='mozhna'>{t("header.header16")} SEKO KOMPACT</Link>
                                 </div>
                             </li>
                             <li className={s.dropdown + ' ' + s.more}>
                                 <button>
-                                    <Link href="/water-pumps-and-accessories" id='mozhna'>
-                                        Водяні насоси та аксесуари</Link>
+                                    <Link href="/water-pumps-and-accessories" id='mozhna'>{t("header.header17")}</Link>
                                     <Image src='/header/flug/arrow-down.svg' alt='arrow up' width={16} height={16}
                                            className={s.imgArrowManu}/>
                                 </button>
                                 <div className={s.dropdown_content}>
-                                    <Link href="/low-pressure-pumps" id='mozhna'>Насоси низького тиску</Link>
-                                    <span><Link href="/accessories-for-pumps"
-                                                id='mozhna'>Аксесуари для насосів</Link></span>
-                                    <span> <Link href="/low-pumps" id='mozhna'>Насоси</Link></span>
-                                    <Link href="/high-pressure-pumps" id='mozhna'>Насоси високого тиску</Link>
-                                    <span><Link href="/accessories-and-repair-kits" id='mozhna'>Аксесуари та ремонтні комплекти</Link></span>
-                                    <span><Link href="/high-pumps" id='mozhna'>Насоси</Link></span>
+                                    <Link href="/low-pressure-pumps" id='mozhna'>{t("header.header18")}</Link>
+                                    <span><Link href="/accessories-for-pumps" id='mozhna'>
+                                        {t("header.header19")}</Link></span>
+                                    <span> <Link href="/low-pumps" id='mozhna'>{t("header.header20")}</Link></span>
+                                    <Link href="/high-pressure-pumps" id='mozhna'>{t("header.header21")}</Link>
+                                    <span><Link href="/accessories-and-repair-kits" id='mozhna'>
+                                        {t("header.header22")}</Link></span>
+                                    <span><Link href="/high-pumps" id='mozhna'>{t("header.header23")}</Link></span>
                                 </div>
                             </li>
                             <li className={s.dropdown + ' ' + s.more}>
                                 <button>
-                                    <Link href="/payment-systems" id='mozhna'>
-                                        Платіжні системи</Link>
+                                    <Link href="/payment-systems" id='mozhna'>{t("header.header24")}</Link>
                                     <Image src='/header/flug/arrow-down.svg' alt='arrow up' width={16} height={16}
                                            className={s.imgArrowManu}/>
                                 </button>
                                 <div className={s.dropdown_content}>
-                                    <Link href="/payment-systems/cashless" id='mozhna'>Безготівковий</Link>
-                                    <span><Link
-                                        href="/payment-systems/cashless/transactions-with-payment-cards"
-                                        id='mozhna'>Операції з платіжними картками</Link></span>
-                                    <span><Link
-                                        href="/payment-systems/cashless//loyalty-operations"
-                                        id='mozhna'>Операції лояльності з карткою/ключем</Link></span>
-                                    <Link href="/payment-systems/cash" id='mozhna'>Готівка</Link>
-                                    <span><Link
-                                        href='/payment-systems/cash/banknote-readers-and-accessories'
-                                        id='mozhna'>Зчитувачі банкнот і аксесуари</Link></span>
+                                    <Link href="/payment-systems/cashless" id='mozhna'>{t("header.header26")}</Link>
+                                    <span><Link href="/payment-systems/cashless/transactions-with-payment-cards"
+                                                id='mozhna'>{t("header.header27")}</Link></span>
+                                    <span><Link href="/payment-systems/cashless//loyalty-operations"
+                                                id='mozhna'>{t("header.header28")}</Link></span>
+                                    <Link href="/payment-systems/cash" id='mozhna'>{t("header.header29")}</Link>
+                                    <span><Link href='/payment-systems/cash/banknote-readers-and-accessories'
+                                                id='mozhna'>{t("header.header30")}</Link></span>
                                     <span><Link href='/payment-systems/cash/coin-validators'
-                                                id='mozhna'>Валідатори монет</Link></span>
+                                                id='mozhna'>{t("header.header31")}</Link></span>
                                 </div>
                             </li>
                             <li className={s.dropdown + ' ' + s.more} style={{position: 'static'}}>
                                 <button>
-                                    <Link href="/product" id='mozhna'>
-                                        більше</Link>
+                                    <Link href="/product" id='mozhna'>{t("header.header32")}</Link>
                                     <Image src='/header/flug/arrow-down.svg' alt='arrow up' width={16} height={16}
                                            className={s.imgArrowManu}/>
                                 </button>
                                 <ul className={s.dropdown_content2}>
                                     <li>
-                                        <Link href="/product" id='mozhna'>Розпродаж</Link>
+                                        <Link href="/product" id='mozhna'>{t("header.header33")}</Link>
                                     </li>
                                     <li>
-                                        <Link href="/accessories-for-vacuum" id='mozhna'>
-                                            Аксесуари для пилососа та компресора</Link>
+                                        <Link href="/accessories-for-vacuum" id='mozhna'>{t("header.header34")}</Link>
                                         <span><Link href="/accessories-for-vacuum/for-compressors"
-                                                    id='mozhna'>Аксесуари для компресорів</Link></span>
+                                                    id='mozhna'>{t("header.header35")}</Link></span>
                                         <span><Link href="/accessories-for-vacuum/design-elements-of-a-vacuum-cleaner"
-                                                    id='mozhna'>Елементи конструкції пилососа</Link></span>
-                                        <span><Link href="/accessories-for-vacuum/filters" id='mozhna'>
-                                            Фільтри</Link></span>
+                                                    id='mozhna'>{t("header.header36")}</Link></span>
+                                        <span><Link href="/accessories-for-vacuum/filters"
+                                                    id='mozhna'>{t("header.header37")}</Link></span>
                                         <span><Link href="/accessories-for-vacuum/engines-and-turbines"
-                                                    id='mozhna'>Двигуни і турбіни</Link></span>
+                                                    id='mozhna'>{t("header.header38")}</Link></span>
                                         <span><Link href="/accessories-for-vacuum/nozzles-and-hose-connections"
-                                                    id='mozhna'>Форсунки і з'єднання шлангів</Link></span>
+                                                    id='mozhna'>{t("header.header39")}</Link></span>
                                         <span><Link href="/accessories-for-vacuum/suction-hoses"
-                                                    id='mozhna'>Всмоктувальні шланги</Link></span>
+                                                    id='mozhna'>{t("header.header40")}</Link></span>
                                     </li>
                                     <li>
-                                        <Link href="/advertising-accessories" id='mozhna'>Рекламні аксесуари</Link>
+                                        <Link href="/advertising-accessories" id='mozhna'>{t("header.header41")}</Link>
                                     </li>
                                     <li>
-                                        <Link href="/peating-fittings" id='mozhna'>Опалювальна арматура</Link>
-                                        <span><Link href="/peating-fittings/sensors" id='mozhna'>Датчики</Link></span>
-                                        <span><Link href="/peating-fittings/nozzles" id='mozhna'>Насадки</Link></span>
+                                        <Link href="/peating-fittings" id='mozhna'>{t("header.header42")}</Link>
+                                        <span><Link href="/peating-fittings/sensors"
+                                                    id='mozhna'>{t("header.header43")}</Link></span>
+                                        <span><Link href="/peating-fittings/nozzles"
+                                                    id='mozhna'>{t("header.header44")}</Link></span>
                                         <span><Link href="/peating-fittings/electric-heaters"
-                                                    id='mozhna'>Електричні обігрівачі</Link></span>
+                                                    id='mozhna'>{t("header.header45")}</Link></span>
                                         <span><Link href="/peating-fittings/diaphragmatic-vessels"
-                                                    id='mozhna'>Діафрагмальні судини</Link></span>
+                                                    id='mozhna'>{t("header.header46")}</Link></span>
                                         <span><Link href="/peating-fittings/burners-and-accessories"
-                                                    id='mozhna'>Пальники та аксесуари</Link></span>
+                                                    id='mozhna'>{t("header.header47")}</Link></span>
                                     </li>
                                     <li>
                                         <Link href="/chemicals-for-automatic-wash" id='mozhna'>
-                                            Хімічні засоби для автоматичних мийок</Link>
-                                        <span><Link href="/chemicals-for-automatic-wash/car-wash-waxes"
-                                                    id='mozhna'>Воски для миття автомобіля</Link></span>
+                                            {t("header.header48")}</Link>
+                                        <span><Link href="/chemicals-for-automatic-wash/car-wash-waxes" id='mozhna'>
+                                            {t("header.header49")}</Link></span>
                                     </li>
                                     <li>
-                                        <Link href="/cleaning-and-maintenance" id='mozhna'>Очищення та обслуговування</Link>
+                                        <Link href="/cleaning-and-maintenance" id='mozhna'>{t("header.header50")}</Link>
                                     </li>
                                     <li>
-                                        <Link href="/dosage-of-powder" id='mozhna'>Дозування порошку</Link>
+                                        <Link href="/dosage-of-powder" id='mozhna'>{t("header.header51")}</Link>
                                     </li>
                                     <li>
                                         <Link href="/electrical-and-electronic-components"
-                                              id='mozhna'>Електричні та електронні компоненти</Link>
+                                              id='mozhna'>{t("header.header52")}</Link>
                                         <span><Link href="/electrical-and-electronic-components/sensors"
-                                                    id='mozhna'>Датчики</Link></span>
+                                                    id='mozhna'>{t("header.header53")}</Link></span>
                                         <span><Link href="/electrical-and-electronic-components/relays-and-contactors"
-                                                    id='mozhna'>Реле та контактори</Link></span>
+                                                    id='mozhna'>{t("header.header54")}</Link></span>
                                         <span><Link href="/electrical-and-electronic-components/buttons"
-                                                    id='mozhna'>Кнопки</Link></span>
+                                                    id='mozhna'>{t("header.header55")}</Link></span>
                                         <span><Link href="/electrical-and-electronic-components/sorting-machines"
-                                                    id='mozhna'>Сортувальні машини та аксесуари</Link></span>
+                                                    id='mozhna'>{t("header.header56")}</Link></span>
                                         <span><Link href="/electrical-and-electronic-components/PLC-controllers"
-                                                    id='mozhna'>Контролери PLC та аксесуари</Link></span>
-                                        <span>
-                                            <Link href="/electrical-and-electronic-components/transformers-and-power-supplies"
-                                                    id='mozhna'>Трансформатори та джерела живлення</Link></span>
+                                                    id='mozhna'>{t("header.header57")}</Link></span>
+                                        <span><Link href="/electrical-and-electronic-components/transformers-and-power-supplies"
+                                                    id='mozhna'>{t("header.header58")}</Link></span>
                                         <span><Link href="/electrical-and-electronic-components/safety-devices"
-                                                    id='mozhna'>Запобіжні пристрої</Link></span>
+                                                    id='mozhna'>{t("header.header59")}</Link></span>
                                         <span><Link href="/electrical-and-electronic-components/displays-LCD-LED)"
-                                                    id='mozhna'>Дисплеї (LCD, LED)</Link></span>
+                                                    id='mozhna'>{t("header.header60")} (LCD, LED)</Link></span>
                                     </li>
                                     <li>
-                                        <Link href="/hydraulic-elements" id='mozhna'>Гідравлічні елементи</Link>
+                                        <Link href="/hydraulic-elements" id='mozhna'>{t("header.header61")}</Link>
                                         <span><Link href="/hydraulic-elements/software-assemblers"
-                                                    id='mozhna'>Збирачі програмного забезпечення</Link></span>
+                                                    id='mozhna'>{t("header.header62")}</Link></span>
                                         <span><Link href='/hydraulic-elements/manometers-and-thermometers'
-                                                    id='mozhna'>Манометри і термометри</Link></span>
+                                                    id='mozhna'>{t("header.header63")}</Link></span>
                                         <span><Link href='/hydraulic-elements/safety-valves'
-                                                    id='mozhna'>Запобіжні клапани</Link></span>
+                                                    id='mozhna'>{t("header.header64")}</Link></span>
                                         <span><Link href='/hydraulic-elements/float-valves'
-                                                    id='mozhna'>Поплавкові клапани</Link></span>
+                                                    id='mozhna'>{t("header.header65")}</Link></span>
                                         <span><Link href='/hydraulic-elements/valves-and-reducers'
-                                                    id='mozhna'>Регулюючі клапани та редуктори</Link></span>
+                                                    id='mozhna'>{t("header.header66")}</Link></span>
                                         <span><Link href='/hydraulic-elements/check-valves'
-                                                    id='mozhna'>Зворотні клапани</Link></span>
+                                                    id='mozhna'>{t("header.header67")}</Link></span>
                                         <span><Link href='/hydraulic-elements/hydraulic-connectors'
-                                                    id='mozhna'>Гідравлічні з'єднувачі</Link></span>
+                                                    id='mozhna'>{t("header.header68")}</Link></span>
                                     </li>
                                     <li>
-                                        <Link href="/equipment-washing-station"
-                                              id='mozhna'>Елементи та обладнання мийної станції</Link>
-                                        <span><Link href="/equipment-washing-station/door-stickers"
-                                                    id='mozhna'>Наклейки на двері</Link></span>
-                                        <span><Link href="/equipment-washing-station/mat-holder"
-                                                    id='mozhna'>Тримач килимка</Link></span>
+                                        <Link href="/equipment-washing-station" id='mozhna'>
+                                            {t("header.header69")}</Link>
+                                        <span><Link href="/equipment-washing-station/door-stickers" id='mozhna'>
+                                            {t("header.header70")}</Link></span>
+                                        <span><Link href="/equipment-washing-station/mat-holder" id='mozhna'>
+                                            {t("header.header71")}</Link></span>
                                     </li>
                                     <li>
-                                        <Link href="/fiscalization" id='mozhna'>Фіскалізація</Link>
+                                        <Link href="/fiscalization" id='mozhna'>{t("header.header72")}</Link>
                                     </li>
                                     <li>
-                                        <Link href="/car-care" id='mozhna'>Догляд за автомобілем</Link>
+                                        <Link href="/car-care" id='mozhna'>{t("header.header73")}</Link>
                                     </li>
                                     <li>
-                                        <Link href="/weapons-and-accessories" id='mozhna'>Зброя та аксесуари</Link>
+                                        <Link href="/weapons-and-accessories" id='mozhna'>{t("header.header74")}</Link>
                                         <span><Link href="/weapons-and-accessories/equipment"
-                                                    id='mozhna'>Обладнання</Link></span>
+                                                    id='mozhna'>{t("header.header75")}</Link></span>
                                         <span><Link href="/weapons-and-accessories/guns-and-brushes"
-                                                    id='mozhna'>Рушниці та щітки</Link></span>
+                                                    id='mozhna'>{t("header.header76")}</Link></span>
                                         <span><Link href="/weapons-and-accessories/lance-scabbards"
-                                                    id='mozhna'>Лансові піхви</Link></span>
+                                                    id='mozhna'>{t("header.header77")}</Link></span>
                                     </li>
                                     <li>
-                                        <Link href="/cables-hoses" id='mozhna'>Кабелі/Шланги</Link>
-                                        <span><Link href="/cables-hoses/other-cables" id='mozhna'>Інші кабелі</Link></span>
-                                        <span><Link href="/cables-hoses/cannon-cables" id='mozhna'>Гарматні кабелі</Link></span>
-                                        <span><Link href="/cables-hoses/brush-cables" id='mozhna'>Щіткові кабелі</Link></span>
-                                        <span><Link href="/cables-hoses/ropes-for-arrows" id='mozhna'>Троси для стріл</Link></span>
+                                        <Link href="/cables-hoses" id='mozhna'>{t("header.header78")}</Link>
+                                        <span><Link href="/cables-hoses/other-cables"
+                                                    id='mozhna'>{t("header.header79")}</Link></span>
+                                        <span><Link href="/cables-hoses/cannon-cables"
+                                                    id='mozhna'>{t("header.header80")}</Link></span>
+                                        <span><Link href="/cables-hoses/brush-cables"
+                                                    id='mozhna'>{t("header.header81")}</Link></span>
+                                        <span><Link href="/cables-hoses/ropes-for-arrows"
+                                                    id='mozhna'>{t("header.header82")}</Link></span>
                                     </li>
                                     <li>
-                                        <Link href="/engines" id='mozhna'>Двигуни</Link>
+                                        <Link href="/engines" id='mozhna'>{t("header.header83")}</Link>
                                     </li>
                                     <li>
-                                        <Link href="/closing-systems" id='mozhna'>Системи закриття</Link>
+                                        <Link href="/closing-systems" id='mozhna'>{t("header.header84")}</Link>
                                         <span><Link href="/closing-systems/containers-for-coins"
-                                                    id='mozhna'>Грошові ящики, сейфи та контейнери для монет</Link></span>
+                                                    id='mozhna'>{t("header.header85")}</Link></span>
                                         <span><Link href="/closing-systems/closing-system"
-                                                    id='mozhna'>Система закриття</Link></span>
+                                                    id='mozhna'>{t("header.header86")}</Link></span>
                                         <span><Link href="/closing-systems/hinges-and-stops"
-                                                    id='mozhna'>Петлі та упори</Link></span>
+                                                    id='mozhna'>{t("header.header87")}</Link></span>
                                     </li>
                                     <li>
-                                        <Link href="/disinfectants" id='mozhna'>Дезінфікуючі засоби</Link>
+                                        <Link href="/disinfectants" id='mozhna'>{t("header.header88")}</Link>
                                         <span><Link href="/disinfectants/disinfection-of-hands"
-                                                    id='mozhna'>Дезінфекція рук</Link></span>
+                                                    id='mozhna'>{t("header.header89")}</Link></span>
                                     </li>
                                     <li>
-                                        <Link href="/water-purification" id='mozhna'>Очищення води</Link>
+                                        <Link href="/water-purification" id='mozhna'>{t("header.header90")}</Link>
                                         <span><Link href="/water-purification/softener"
-                                                    id='mozhna'>Пляшки з пом'якшувачем і аксесуари</Link></span>
+                                                    id='mozhna'>{t("header.header91")}</Link></span>
                                         <span><Link href="/water-purification/filters-and-accessories"
-                                                    id='mozhna'>Фільтри та аксесуари</Link></span>
+                                                    id='mozhna'>{t("header.header92")}</Link></span>
                                         <span><Link href="/water-purification/softener-head-and-accessories"
-                                                    id='mozhna'>Головка пом'якшувача та аксесуари</Link></span>
+                                                    id='mozhna'>{t("header.header93")}</Link></span>
                                         <span><Link href="/water-purification/hydraulics-of-water-treatment"
-                                                    id='mozhna'>Гідравліка водопідготовки</Link></span>
+                                                    id='mozhna'>{t("header.header94")}</Link></span>
                                         <span><Link href="/water-purification/reverse-osmosis-and-accessories"
-                                                    id='mozhna'>Зворотний осмос і аксесуари</Link></span>
+                                                    id='mozhna'>{t("header.header95")}</Link></span>
                                         <span><Link href="/water-purification/brine-tanks"
-                                                    id='mozhna'>Резервуари для розсолу</Link></span>
+                                                    id='mozhna'>{t("header.header96")}</Link></span>
                                     </li>
                                     <li>
-                                        <Link href="/arrows" id='mozhna'>Стріли</Link>
-                                        <span><Link href="/arrows/single" id='mozhna'>Неодружений</Link></span>
+                                        <Link href="/arrows" id='mozhna'>{t("header.header97")}</Link>
+                                        <span><Link href="/arrows/single"
+                                                    id='mozhna'>{t("header.header98")}</Link></span>
                                         <span><Link href="/arrows/repair-kits"
-                                                    id='mozhna'>Ремонтні комплекти</Link></span>
+                                                    id='mozhna'>{t("header.header99")}</Link></span>
                                     </li>
                                 </ul>
                             </li>
                             <li className={s.dropdown + ' ' + s.less}>
                                 <button>
-                                    Хімічні засоби для безконтактної мийки
+                                    {t("header.header4")}
                                     <Image src='/header/flug/arrow-down.svg' alt='arrow up' width={16} height={16}
                                            className={s.imgArrowManu}/>
                                 </button>
                                 <div className={s.dropdown_content}>
-                                    <span><Link href="/chemical-means" id='mozhna'>
-                                        Хімічні засоби для безконтактної мийки</Link></span>
+                                    <span><Link href="/chemical-means" id='mozhna'>{t("header.header4")}</Link></span>
                                     <span><Link href="/chemical-means/active-foam"
-                                                id='mozhna'>Активна піна для миття автомобіля</Link></span>
+                                                id='mozhna'>{t("header.header5")}</Link></span>
                                     <span><Link href="/chemical-means/car-wash-powders"
-                                                id='mozhna'>Порошки для миття автомобіля</Link></span>
+                                                id='mozhna'>{t("header.header6")}</Link></span>
                                     <span><Link href="/chemical-means/car-wash-shampoos"
-                                                id='mozhna'>Шампуні для миття автомобіля</Link></span>
+                                                id='mozhna'>{t("header.header7")}</Link></span>
                                     <span><Link href="/chemical-means/car-wash-waxes"
-                                                id='mozhna'>Воски для миття автомобіля</Link></span>
+                                                id='mozhna'>{t("header.header8")}</Link></span>
                                 </div>
                             </li>
                             <li className={s.dropdown + ' ' + s.less}>
                                 <button>
-                                    Електромагнітні клапани та ремкомплекти
+                                    {t("header.header9")}
                                     <Image src='/header/flug/arrow-down.svg' alt='arrow up' width={16} height={16}
                                            className={s.imgArrowManu}/>
                                 </button>
                                 <div className={s.dropdown_content}>
-                                    <span><Link href="/electromagnetic-valves-and-repair-kits" id='mozhna'>
-                                        Електромагнітні клапани та ремкомплекти</Link></span>
+                                    <span><Link href="/electromagnetic-valves-and-repair-kits"
+                                                id='mozhna'>{t("header.header9")}</Link></span>
                                     <span><Link href="/electromagnetic-valves-and-repair-kits/electromagnetic-valves"
-                                                id='mozhna'>Електромагнітні клапани</Link></span>
-                                    <span><Link id='mozhna'
-                                                href="/electromagnetic-valves-and-repair-kits/repair-kits-of-electromagnetic-valves">
-                                        Ремкомплекти електромагнітних клапанів</Link></span>
+                                                id='mozhna'>{t("header.header10")}</Link></span>
+                                    <span><Link href="/electromagnetic-valves-and-repair-kits/repair-kits-of-electromagnetic-valves"
+                                                id='mozhna'>{t("header.header11")}</Link></span>
                                 </div>
                             </li>
                             <li className={s.dropdown + ' ' + s.less}>
                                 <button>
-                                    Насоси та дозатори миючих засобів
+                                    {t("header.header12")}
                                     <Image src='/header/flug/arrow-down.svg' alt='arrow up' width={16} height={16}
                                            className={s.imgArrowManu}/>
                                 </button>
                                 <div className={s.dropdown_content}>
-                                    <span><Link href="/pumps-and-detergent-dispensers" id='mozhna'>
-                                        Насоси та дозатори миючих засобів</Link></span>
+                                    <span><Link href="/pumps-and-detergent-dispensers"
+                                                id='mozhna'>{t("header.header12")}</Link></span>
                                     <span><Link href="/pumps-and-detergent-dispensers/mixrite-dispenser"
-                                                id='mozhna'>Дозатор Mixrite</Link></span>
+                                                id='mozhna'>{t("header.header13")} Mixrite</Link></span>
                                     <span><Link href="/pumps-and-detergent-dispensers/dosatron"
-                                                id='mozhna'>Дозатрони</Link></span>
+                                                id='mozhna'>{t("header.header25")}</Link></span>
                                     <span><Link href="/pumps-and-detergent-dispensers/SEKO-EVO-series-pumps"
-                                                id='mozhna'>Насоси SEKO серії EVO</Link></span>
+                                                id='mozhna'>{t("header.header14")} SEKO {t("header.header15")} EVO</Link></span>
                                     <span><Link href="/pumps-and-detergent-dispensers/DOSATRON-repair-kits"
-                                                id='mozhna'>Ремкомплекти DOSATRON</Link></span>
+                                                id='mozhna'>{t("header.header16")} DOSATRON</Link></span>
                                     <span><Link href="/pumps-and-detergent-dispensers/MIXRITE-repair-kits"
-                                                id='mozhna'>Ремкомплекти MIXRITE</Link></span>
+                                                id='mozhna'>{t("header.header16")} MIXRITE</Link></span>
                                     <span><Link href="/pumps-and-detergent-dispensers/SEKO-EVO-repair-kits"
-                                                id='mozhna'>Ремкомплекти SEKO EVO</Link></span>
+                                                id='mozhna'>{t("header.header16")} SEKO EVO</Link></span>
                                     <span><Link href="/pumps-and-detergent-dispensers/SEKO-KOMPACT-repair-kits"
-                                                id='mozhna'>Ремкомплекти SEKO KOMPACT</Link></span>
+                                                id='mozhna'>{t("header.header16")} SEKO KOMPACT</Link></span>
                                 </div>
                             </li>
                             <li className={s.dropdown + ' ' + s.less}>
                                 <button>
-                                    Водяні насоси та аксесуари
+                                    {t("header.header17")}
                                     <Image src='/header/flug/arrow-down.svg' alt='arrow up' width={16} height={16}
                                            className={s.imgArrowManu}/>
                                 </button>
                                 <div className={s.dropdown_content}>
-                                    <span><Link href="/water-pumps-and-accessories" id='mozhna'>
-                                        Водяні насоси та аксесуари</Link></span>
+                                    <span><Link href="/water-pumps-and-accessories"
+                                                id='mozhna'>{t("header.header17")}</Link></span>
                                     <span><Link href="/low-pressure-pumps"
-                                                id='mozhna'>Насоси низького тиску</Link></span>
+                                                id='mozhna'>{t("header.header18")}</Link></span>
                                     <span><span><Link href="/accessories-for-pumps"
-                                                      id='mozhna'>Аксесуари для насосів</Link></span></span>
-                                    <span><span> <Link href="/low-pumps" id='mozhna'>Насоси</Link></span></span>
+                                                      id='mozhna'>{t("header.header19")}</Link></span></span>
+                                    <span><span> <Link href="/low-pumps"
+                                                       id='mozhna'>{t("header.header20")}</Link></span></span>
                                     <span><Link href="/high-pressure-pumps"
-                                                id='mozhna'>Насоси високого тиску</Link></span>
-                                    <span><span><Link href="/accessories-and-repair-kits" id='mozhna'>Аксесуари та ремонтні комплекти</Link></span></span>
-                                    <span><span><Link href="/high-pumps" id='mozhna'>Насоси</Link></span></span>
+                                                id='mozhna'>{t("header.header21")}</Link></span>
+                                    <span><span><Link href="/accessories-and-repair-kits"
+                                                      id='mozhna'>{t("header.header22")}</Link></span></span>
+                                    <span><span><Link href="/high-pumps"
+                                                      id='mozhna'>{t("header.header23")}</Link></span></span>
                                 </div>
                             </li>
                             <li className={s.dropdown + ' ' + s.less}>
                                 <button>
-                                    Платіжні системи
+                                    {t("header.header24")}
                                     <Image src='/header/flug/arrow-down.svg' alt='arrow up' width={16} height={16}
                                            className={s.imgArrowManu}/>
                                 </button>
                                 <div className={s.dropdown_content}>
-                                    <span><Link href="/payment-systems" id='mozhna'>
-                                        Платіжні системи</Link></span>
-                                    <span><Link href="/payment-systems/cashless" id='mozhna'>Безготівковий</Link></span>
-                                    <span><Link
-                                        href="/payment-systems/cashless/transactions-with-payment-cards"
-                                        id='mozhna'>Операції з платіжними картками</Link></span>
-                                    <span><Link
-                                        href="/payment-systems/cashless//loyalty-operations"
-                                        id='mozhna'>Операції лояльності з карткою/ключем</Link></span>
-                                    <span><Link href="/payment-systems/cash" id='mozhna'>Готівка</Link></span>
-                                    <span><Link
-                                        href='/payment-systems/cash/banknote-readers-and-accessories'
-                                        id='mozhna'>Зчитувачі банкнот і аксесуари</Link></span>
+                                    <span><Link href="/payment-systems"
+                                                id='mozhna'>{t("header.header24")}</Link></span>
+                                    <span><Link href="/payment-systems/cashless"
+                                                id='mozhna'>{t("header.header26")}</Link></span>
+                                    <span><Link href="/payment-systems/cashless/transactions-with-payment-cards"
+                                                id='mozhna'>{t("header.header27")}</Link></span>
+                                    <span><Link href="/payment-systems/cashless//loyalty-operations"
+                                                id='mozhna'>{t("header.header28")}</Link></span>
+                                    <span><Link href="/payment-systems/cash"
+                                                id='mozhna'>{t("header.header29")}</Link></span>
+                                    <span><Link href='/payment-systems/cash/banknote-readers-and-accessories'
+                                                id='mozhna'>{t("header.header30")}</Link></span>
                                     <span><Link href='/payment-systems/cash/coin-validators'
-                                                id='mozhna'>Валідатори монет</Link></span>
+                                                id='mozhna'>{t("header.header31")}</Link></span>
                                 </div>
                             </li>
                             <li className={s.dropdown + ' ' + s.less}>
                                 <button>
-                                    Аксесуари для пилососа та компресора
+                                    {t("header.header34")}
                                     <Image src='/header/flug/arrow-down.svg' alt='arrow up' width={16} height={16}
                                            className={s.imgArrowManu}/>
                                 </button>
                                 <div className={s.dropdown_content}>
-                                    <span> <Link href="/accessories-for-vacuum" id='mozhna'>
-                                        Аксесуари для пилососа та компресора</Link></span>
+                                    <span> <Link href="/accessories-for-vacuum"
+                                                 id='mozhna'>{t("header.header34")}</Link></span>
                                     <span><Link href="/accessories-for-vacuum/for-compressors"
-                                                id='mozhna'>Аксесуари для компресорів</Link></span>
+                                                id='mozhna'>{t("header.header35")}</Link></span>
                                     <span><Link href="/accessories-for-vacuum/design-elements-of-a-vacuum-cleaner"
-                                                id='mozhna'>Елементи конструкції пилососа</Link></span>
-                                    <span><Link href="/accessories-for-vacuum/filters" id='mozhna'>
-                                            Фільтри</Link></span>
+                                                id='mozhna'>{t("header.header36")}</Link></span>
+                                    <span><Link href="/accessories-for-vacuum/filters"
+                                                id='mozhna'>{t("header.header37")}</Link></span>
                                     <span><Link href="/accessories-for-vacuum/engines-and-turbines"
-                                                id='mozhna'>Двигуни і турбіни</Link></span>
+                                                id='mozhna'>{t("header.header38")}</Link></span>
                                     <span><Link href="/accessories-for-vacuum/nozzles-and-hose-connections"
-                                                id='mozhna'>Форсунки і з'єднання шлангів</Link></span>
+                                                id='mozhna'>{t("header.header39")}</Link></span>
                                     <span><Link href="/accessories-for-vacuum/suction-hoses"
-                                                id='mozhna'>Всмоктувальні шланги</Link></span>
+                                                id='mozhna'>{t("header.header40")}</Link></span>
                                 </div>
                             </li>
                             <li className={s.dropdown + ' ' + s.less}>
                                 <button>
-                                    Рекламні аксесуари
+                                    {t("header.header41")}
                                     <Image src='/header/flug/arrow-down.svg' alt='arrow up' width={16} height={16}
                                            className={s.imgArrowManu}/>
                                 </button>
                                 <div className={s.dropdown_content}>
-                                    <span><Link href="/advertising-accessories" id='mozhna'>
-                                        Рекламні аксесуари</Link></span>
+                                    <span><Link href="/advertising-accessories"
+                                                id='mozhna'>{t("header.header41")}</Link></span>
                                 </div>
                             </li>
                             <li className={s.dropdown + ' ' + s.less}>
                                 <button>
-                                    Опалювальна арматура
+                                    {t("header.header42")}
                                     <Image src='/header/flug/arrow-down.svg' alt='arrow up' width={16} height={16}
                                            className={s.imgArrowManu}/>
                                 </button>
                                 <div className={s.dropdown_content}>
-                                    <span><Link href="/peating-fittings" id='mozhna'>Опалювальна арматура</Link></span>
-                                    <span><Link href='/peating-fittings/sensors' id='mozhna'>Датчики</Link></span>
-                                    <span><Link href='/peating-fittings/nozzles' id='mozhna'>Насадки</Link></span>
-                                    <span><Link href='/peating-fittings/electric-heaters' id='mozhna'>
-                                        Електричні обігрівачі</Link></span>
-                                    <span><Link href='/peating-fittings/diaphragmatic-vessels' id='mozhna'>
-                                        Діафрагмальні судини</Link></span>
-                                    <span><Link href='/peating-fittings/burners-and-accessories' id='mozhna'>
-                                        Пальники та аксесуари</Link></span>
+                                    <span><Link href="/peating-fittings"
+                                                id='mozhna'>{t("header.header42")}</Link></span>
+                                    <span><Link href='/peating-fittings/sensors'
+                                                id='mozhna'>{t("header.header43")}</Link></span>
+                                    <span><Link href='/peating-fittings/nozzles'
+                                                id='mozhna'>{t("header.header44")}</Link></span>
+                                    <span><Link href='/peating-fittings/electric-heaters'
+                                                id='mozhna'>{t("header.header45")}</Link></span>
+                                    <span><Link href='/peating-fittings/diaphragmatic-vessels'
+                                                id='mozhna'>{t("header.header46")}</Link></span>
+                                    <span><Link href='/peating-fittings/burners-and-accessories'
+                                                id='mozhna'>{t("header.header47")}</Link></span>
                                 </div>
                             </li>
                             <li className={s.dropdown + ' ' + s.less}>
                                 <button>
-                                    Хімічні засоби для автоматичних мийок
+                                    {t("header.header48")}
                                     <Image src='/header/flug/arrow-down.svg' alt='arrow up' width={16} height={16}
                                            className={s.imgArrowManu}/>
                                 </button>
                                 <div className={s.dropdown_content}>
-                                    <span><Link href="/chemicals-for-automatic-wash" id='mozhna'>
-                                        Хімічні засоби для автоматичних мийок</Link></span>
-                                    <span><Link href="/chemicals-for-automatic-wash/car-wash-waxes" id='mozhna'>
-                                        Воски для миття автомобіля</Link></span>
+                                    <span><Link href="/chemicals-for-automatic-wash"
+                                                id='mozhna'>{t("header.header48")}</Link></span>
+                                    <span><Link href="/chemicals-for-automatic-wash/car-wash-waxes"
+                                                id='mozhna'>{t("header.header49")}</Link></span>
                                 </div>
                             </li>
                             <li className={s.dropdown + ' ' + s.less}>
                                 <button>
-                                    Очищення та обслуговування
+                                    {t("header.header50")}
                                     <Image src='/header/flug/arrow-down.svg' alt='arrow up' width={16} height={16}
                                            className={s.imgArrowManu}/>
                                 </button>
                                 <div className={s.dropdown_content}>
-                                    <span><Link href="/cleaning-and-maintenance" id='mozhna'>Очищення та обслуговування</Link></span>
+                                    <span><Link href="/cleaning-and-maintenance"
+                                                id='mozhna'>{t("header.header50")}</Link></span>
                                 </div>
                             </li>
                             <li className={s.dropdown + ' ' + s.less}>
                                 <button>
-                                    Дозування порошку
+                                    {t("header.header51")}
                                     <Image src='/header/flug/arrow-down.svg' alt='arrow up' width={16} height={16}
                                            className={s.imgArrowManu}/>
                                 </button>
                                 <div className={s.dropdown_content}>
-                                    <span><Link href="/dosage-of-powder" id='mozhna'>Дозування порошку</Link></span>
+                                    <span><Link href="/dosage-of-powder"
+                                                id='mozhna'>{t("header.header51")}</Link></span>
                                 </div>
                             </li>
                             <li className={s.dropdown + ' ' + s.less}>
                                 <button>
-                                    Електричні та електронні компоненти
+                                    {t("header.header52")}
                                     <Image src='/header/flug/arrow-down.svg' alt='arrow up' width={16} height={16}
                                            className={s.imgArrowManu}/>
                                 </button>
                                 <div className={s.dropdown_content}>
-                                    <span><Link href="/electrical-and-electronic-components" id='mozhna'>
-                                        Електричні та електронні компоненти</Link></span>
+                                    <span><Link href="/electrical-and-electronic-components"
+                                                id='mozhna'>{t("header.header52")}</Link></span>
                                     <span><Link href="/electrical-and-electronic-components/sensors"
-                                                id='mozhna'>Датчики</Link></span>
+                                                id='mozhna'>{t("header.header53")}</Link></span>
                                     <span><Link href="/electrical-and-electronic-components/relays-and-contactors"
-                                                id='mozhna'>Реле та контактори</Link></span>
+                                                id='mozhna'>{t("header.header54")}</Link></span>
                                     <span><Link href="/electrical-and-electronic-components/buttons"
-                                                id='mozhna'>Кнопки</Link></span>
+                                                id='mozhna'>{t("header.header55")}</Link></span>
                                     <span><Link href="/electrical-and-electronic-components/sorting-machines"
-                                                id='mozhna'>Сортувальні машини та аксесуари</Link></span>
+                                                id='mozhna'>{t("header.header56")}</Link></span>
                                     <span><Link href="/electrical-and-electronic-components/PLC-controllers"
-                                                id='mozhna'>Контролери PLC та аксесуари</Link></span>
+                                                id='mozhna'>{t("header.header57")}</Link></span>
                                     <span><Link href="/electrical-and-electronic-components/transformers-and-power-supplies"
-                                                id='mozhna'>Трансформатори та джерела живлення</Link></span>
+                                                id='mozhna'>{t("header.header58")}</Link></span>
                                     <span><Link href="/electrical-and-electronic-components/safety-devices"
-                                                id='mozhna'>Запобіжні пристрої</Link></span>
+                                                id='mozhna'>{t("header.header59")}</Link></span>
                                     <span><Link href="/electrical-and-electronic-components/displays-LCD-LED)"
-                                                id='mozhna'>Дисплеї (LCD, LED)</Link></span>
+                                                id='mozhna'>{t("header.header60")} (LCD, LED)</Link></span>
                                 </div>
                             </li>
                             <li className={s.dropdown + ' ' + s.less}>
                                 <button>
-                                    Гідравлічні елементи
+                                    {t("header.header61")}
                                     <Image src='/header/flug/arrow-down.svg' alt='arrow up' width={16} height={16}
                                            className={s.imgArrowManu}/>
                                 </button>
                                 <div className={s.dropdown_content}>
-                                    <span><Link href="/hydraulic-elements" id='mozhna'>Гідравлічні елементи</Link></span>
+                                    <span><Link href="/hydraulic-elements"
+                                                id='mozhna'>{t("header.header61")}</Link></span>
                                     <span><Link href='/hydraulic-elements/software-assemblers'
-                                                id='mozhna'>Збирачі програмного забезпечення</Link></span>
+                                                id='mozhna'>{t("header.header62")}</Link></span>
                                     <span><Link href='/hydraulic-elements/manometers-and-thermometers'
-                                                id='mozhna'>Манометри і термометри</Link></span>
+                                                id='mozhna'>{t("header.header63")}</Link></span>
                                     <span><Link href='/hydraulic-elements/safety-valves'
-                                                id='mozhna'>Запобіжні клапани</Link></span>
+                                                id='mozhna'>{t("header.header64")}</Link></span>
                                     <span><Link href='/hydraulic-elements/float-valves'
-                                                id='mozhna'>Поплавкові клапани</Link></span>
+                                                id='mozhna'>{t("header.header65")}</Link></span>
                                     <span><Link href='/hydraulic-elements/valves-and-reducers'
-                                                id='mozhna'>Регулюючі клапани та редуктори</Link></span>
+                                                id='mozhna'>{t("header.header66")}</Link></span>
                                     <span><Link href='/hydraulic-elements/check-valves'
-                                                id='mozhna'>Зворотні клапани</Link></span>
+                                                id='mozhna'>{t("header.header67")}</Link></span>
                                     <span><Link href='/hydraulic-elements/hydraulic-connectors'
-                                                id='mozhna'>Гідравлічні з'єднувачі</Link></span>
+                                                id='mozhna'>{t("header.header68")}</Link></span>
                                 </div>
                             </li>
                             <li className={s.dropdown + ' ' + s.less}>
                                 <button>
-                                    Елементи та обладнання мийної станції
+                                    {t("header.header69")}
                                     <Image src='/header/flug/arrow-down.svg' alt='arrow up' width={16} height={16}
                                            className={s.imgArrowManu}/>
                                 </button>
                                 <div className={s.dropdown_content}>
                                     <span><Link href="/equipment-washing-station"
-                                                id='mozhna'>Елементи та обладнання мийної станції</Link></span>
+                                                id='mozhna'>{t("header.header69")}</Link></span>
                                     <span><Link href="/equipment-washing-station/door-stickers"
-                                                id='mozhna'>Наклейки на двері</Link></span>
+                                                id='mozhna'>{t("header.header70")}</Link></span>
                                     <span><Link href="/equipment-washing-station/mat-holder"
-                                                id='mozhna'>Тримач килимка</Link></span>
+                                                id='mozhna'>{t("header.header71")}</Link></span>
                                 </div>
                             </li>
                             <li className={s.dropdown + ' ' + s.less}>
                                 <button>
-                                    Фіскалізація
+                                    {t("header.header72")}
                                     <Image src='/header/flug/arrow-down.svg' alt='arrow up' width={16} height={16}
                                            className={s.imgArrowManu}/>
                                 </button>
                                 <div className={s.dropdown_content}>
-                                    <span><Link href="/fiscalization" id='mozhna'>Фіскалізація</Link></span>
+                                    <span><Link href="/fiscalization" id='mozhna'>{t("header.header72")}</Link></span>
                                 </div>
                             </li>
                             <li className={s.dropdown + ' ' + s.less}>
                                 <button>
-                                    Догляд за автомобілем
+                                    {t("header.header73")}
                                     <Image src='/header/flug/arrow-down.svg' alt='arrow up' width={16} height={16}
                                            className={s.imgArrowManu}/>
                                 </button>
                                 <div className={s.dropdown_content}>
-                                    <span><Link href="/car-care" id='mozhna'>Догляд за автомобілем</Link></span>
+                                    <span><Link href="/car-care" id='mozhna'>{t("header.header73")}</Link></span>
                                 </div>
                             </li>
                             <li className={s.dropdown + ' ' + s.less}>
                                 <button>
-                                    Зброя та аксесуари
+                                    {t("header.header74")}
                                     <Image src='/header/flug/arrow-down.svg' alt='arrow up' width={16} height={16}
                                            className={s.imgArrowManu}/>
                                 </button>
                                 <div className={s.dropdown_content}>
                                     <span><Link href="/weapons-and-accessories"
-                                                id='mozhna'>Зброя та аксесуари</Link></span>
+                                                id='mozhna'>{t("header.header74")}</Link></span>
                                     <span><Link href="/weapons-and-accessories/equipment"
-                                                id='mozhna'>Обладнання</Link></span>
+                                                id='mozhna'>{t("header.header75")}</Link></span>
                                     <span><Link href="/weapons-and-accessories/guns-and-brushes"
-                                                id='mozhna'>Рушниці та щітки</Link></span>
+                                                id='mozhna'>{t("header.header76")}</Link></span>
                                     <span><Link href="/weapons-and-accessories/lance-scabbards"
-                                                id='mozhna'>Лансові піхви</Link></span>
+                                                id='mozhna'>{t("header.header77")}</Link></span>
                                 </div>
                             </li>
                             <li className={s.dropdown + ' ' + s.less}>
                                 <button>
-                                    Кабелі/Шланги
+                                    {t("header.header78")}
                                     <Image src='/header/flug/arrow-down.svg' alt='arrow up' width={16} height={16}
                                            className={s.imgArrowManu}/>
                                 </button>
                                 <div className={s.dropdown_content}>
-                                    <span><Link href="/cables-hoses" id='mozhna'>Кабелі/Шланги</Link></span>
-                                    <span><Link href="/cables-hoses/other-cables" id='mozhna'>Інші кабелі</Link></span>
-                                    <span><Link href="/cables-hoses/cannon-cables" id='mozhna'>Гарматні кабелі</Link></span>
-                                    <span><Link href="/cables-hoses/brush-cables" id='mozhna'>Щіткові кабелі</Link></span>
-                                    <span><Link href="/cables-hoses/ropes-for-arrows" id='mozhna'>Троси для стріл</Link></span>
+                                    <span><Link href="/cables-hoses" id='mozhna'>{t("header.header78")}</Link></span>
+                                    <span><Link href="/cables-hoses/other-cables"
+                                                id='mozhna'>{t("header.header79")}</Link></span>
+                                    <span><Link href="/cables-hoses/cannon-cables"
+                                                id='mozhna'>{t("header.header80")}</Link></span>
+                                    <span><Link href="/cables-hoses/brush-cables"
+                                                id='mozhna'>{t("header.header81")}</Link></span>
+                                    <span><Link href="/cables-hoses/ropes-for-arrows"
+                                                id='mozhna'>{t("header.header82")}</Link></span>
                                 </div>
                             </li>
                             <li className={s.dropdown + ' ' + s.less}>
                                 <button>
-                                    Двигуни
+                                    {t("header.header83")}
                                     <Image src='/header/flug/arrow-down.svg' alt='arrow up' width={16} height={16}
                                            className={s.imgArrowManu}/>
                                 </button>
                                 <div className={s.dropdown_content}>
-                                    <span><Link href="/engines" id='mozhna'>Двигуни</Link></span>
+                                    <span><Link href="/engines" id='mozhna'>{t("header.header83")}</Link></span>
                                 </div>
                             </li>
                             <li className={s.dropdown + ' ' + s.less}>
                                 <button>
-                                    Системи закриття
+                                    {t("header.header84")}
                                     <Image src='/header/flug/arrow-down.svg' alt='arrow up' width={16} height={16}
                                            className={s.imgArrowManu}/>
                                 </button>
                                 <div className={s.dropdown_content}>
-                                    <span><Link href="/closing-systems" id='mozhna'>Системи закриття</Link></span>
+                                    <span><Link href="/closing-systems" id='mozhna'>{t("header.header84")}</Link></span>
                                     <span><Link href="/closing-systems/containers-for-coins"
-                                                id='mozhna'>Грошові ящики, сейфи та контейнери для монет</Link></span>
+                                                id='mozhna'>{t("header.header85")}</Link></span>
                                     <span><Link href="/closing-systems/closing-system"
-                                                id='mozhna'>Система закриття</Link></span>
+                                                id='mozhna'>{t("header.header86")}</Link></span>
                                     <span><Link href="/closing-systems/hinges-and-stops"
-                                                id='mozhna'>Петлі та упори</Link></span>
+                                                id='mozhna'>{t("header.header87")}</Link></span>
                                 </div>
                             </li>
                             <li className={s.dropdown + ' ' + s.less}>
                                 <button>
-                                    Дезінфікуючі засоби
+                                    {t("header.header88")}
                                     <Image src='/header/flug/arrow-down.svg' alt='arrow up' width={16} height={16}
                                            className={s.imgArrowManu}/>
                                 </button>
                                 <div className={s.dropdown_content}>
-                                    <span><Link href="/disinfectants" id='mozhna'>Дезінфікуючі засоби</Link></span>
+                                    <span><Link href="/disinfectants" id='mozhna'>{t("header.header88")}</Link></span>
                                     <span><Link href="/disinfectants/disinfection-of-hands"
-                                                id='mozhna'>Дезінфекція рук</Link></span>
+                                                id='mozhna'>{t("header.header89")}</Link></span>
                                 </div>
                             </li>
                             <li className={s.dropdown + ' ' + s.less}>
                                 <button>
-                                    Очищення води
+                                    {t("header.header90")}
                                     <Image src='/header/flug/arrow-down.svg' alt='arrow up' width={16} height={16}
                                            className={s.imgArrowManu}/>
                                 </button>
                                 <div className={s.dropdown_content}>
-                                    <span><Link href="/water-purification" id='mozhna'>Очищення води</Link></span>
+                                    <span><Link href="/water-purification"
+                                                id='mozhna'>{t("header.header90")}</Link></span>
                                     <span><Link href="/water-purification/softener"
-                                                id='mozhna'>Пляшки з пом'якшувачем і аксесуари</Link></span>
+                                                id='mozhna'>{t("header.header91")}</Link></span>
                                     <span><Link href="/water-purification/filters-and-accessories"
-                                                id='mozhna'>Фільтри та аксесуари</Link></span>
+                                                id='mozhna'>{t("header.header92")}</Link></span>
                                     <span><Link href="/water-purification/softener-head-and-accessories"
-                                                id='mozhna'>Головка пом'якшувача та аксесуари</Link></span>
+                                                id='mozhna'>{t("header.header93")}</Link></span>
                                     <span><Link href="/water-purification/hydraulics-of-water-treatment"
-                                                id='mozhna'>Гідравліка водопідготовки</Link></span>
+                                                id='mozhna'>{t("header.header94")}</Link></span>
                                     <span><Link href="/water-purification/reverse-osmosis-and-accessories"
-                                                id='mozhna'>Зворотний осмос і аксесуари</Link></span>
+                                                id='mozhna'>{t("header.header95")}</Link></span>
                                     <span><Link href="/water-purification/brine-tanks"
-                                                id='mozhna'>Резервуари для розсолу</Link></span>
+                                                id='mozhna'>{t("header.header96")}</Link></span>
                                 </div>
                             </li>
                             <li className={s.dropdown + ' ' + s.less}>
                                 <button>
-                                    Стріли
+                                    {t("header.header97")}
                                     <Image src='/header/flug/arrow-down.svg' alt='arrow up' width={16} height={16}
                                            className={s.imgArrowManu}/>
                                 </button>
                                 <div className={s.dropdown_content}>
-                                    <span><Link href="/arrows" id='mozhna'>Стріли</Link></span>
-                                    <span><Link href="/arrows/single" id='mozhna'>Неодружений</Link></span>
-                                    <span><Link href="/arrows/repair-kits" id='mozhna'>Ремонтні комплекти</Link></span>
+                                    <span><Link href="/arrows" id='mozhna'>{t("header.header97")}</Link></span>
+                                    <span><Link href="/arrows/single"
+                                                id='mozhna'>{t("header.header98")}</Link></span>
+                                    <span><Link href="/arrows/repair-kits"
+                                                id='mozhna'>{t("header.header99")}</Link></span>
                                 </div>
                             </li>
                         </ul>
                         <div className={s.div_input2}>
-                            <input placeholder="Пошук статті..." type="text" className={s.search2} value={input2}
+                            <input placeholder={t("header.header3")} type="text" className={s.search2} value={input2}
                                    onChange={(e) => inputFilter(e)}/>
                             {
                                 input.length !== 0 &&
@@ -958,12 +966,12 @@ const Header = () => {
                 <p onClick={() => setOpenWin(false)} className={s.close}>X</p>
                 {sum === 0 ? <p className={s.text}>
                         <Image src='/header/basket-gray.png' alt='basket' width={40} height={40}/>
-                        Ваш кошик порожній</p>
+                        {t("header.header100")}</p>
                     : <div className={s.basket_items}>
                         <div className={s.basket_name}>
                             <p style={{height: 'fit-content'}}>
                                 <Image src='/header/registration.png' alt='registration' width={20} height={20}/>
-                                Кошик:
+                                {t("header.header101")}:
                             </p>
                         </div>
                         <div className={s.div_for_goods}>
@@ -998,10 +1006,10 @@ const Header = () => {
                                 })
                             }
                         </div>
-                        <p className={s.sum}>Кількість товару: {order?.length} <span>{sum} гривень</span></p>
+                        <p className={s.sum}>{t("header.header102")}: {order?.length} <span>{sum} гривень</span></p>
                         <Link href='/basket' className={s.but_basket} onClick={() => setOpenWin(false)}>
                             <Image src='/header/basket-gray.png' alt='basket' width={30} height={30}/>
-                            До кошика
+                            {t("header.header103")}
                         </Link>
                     </div>
                 }
